@@ -1,0 +1,361 @@
+[
+  {
+    "title": "Artificial Intelligence for Battery Management Systems: Challenges and Future Directions",
+    "abstract": "Battery Management Systems (BMS) are indispensable for ensuring the operational safety, reliability, and performance optimization of rechargeable energy storage systems, particularly lithium-ion batteries employed in electric vehicles, grid-scale energy storage, and portable electronic devices. Conventional BMS methodologies predominantly rely on electrochemical models, equivalent circuit models, and rule-based control strategies, which often exhibit limited adaptability under dynamic operating and environmental conditions. Recent advancements in Artificial Intelligence (AI), including machine learning, deep learning, and reinforcement learning techniques, have demonstrated significant potential in enhancing battery state estimation, fault diagnosis, degradation prediction, and energy management. AI-driven approaches facilitate the extraction of complex nonlinear relationships from battery data, thereby improving estimation accuracy and operational efficiency. This review comprehensively examines the latest developments in AI-based battery management systems, highlighting various intelligent algorithms, their applications, associated challenges, and prospective research directions for next-generation energy storage technologies. Keywords: Artificial Intelligence, Battery Management System, Lithium-Ion Batteries, Machine Learning, Deep Learning, State of Charge Estimation, State of Health, Electric Vehicles, Energy Storage Systems.",
+    "authors": [
+      "Deepali Amit Shinde Deepali Amit Shinde",
+      "Padmavati Ramesh Nagansure Padmavati Ramesh Nagansure"
+    ],
+    "source": "Crossref",
+    "venue": "International Scientific Journal of Engineering and Management",
+    "date": "2026-07-05",
+    "doi": "10.55041/isjem08142",
+    "url": "https://doi.org/10.55041/isjem08142",
+    "source_id": "",
+    "score": 112.0,
+    "level": "A",
+    "title_zh": "Artificial Intelligence for Battery Management Systems: Challenges and Future Directions",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词/期刊综合评分 112.0，推荐等级 A。"
+  },
+  {
+    "title": "Impact of State of Charge on Gas Generation Characteristics During Thermal Runaway of Lithium-Ion Batteries and Early Warning Strategy Research",
+    "abstract": "The accuracy of lithium-ion battery thermal-runaway early warning is strongly affected by the State of Charge (SOC). To improve the adaptability of fixed-threshold strategies, this study investigated SOC-dependent temperature and gas responses of 18650 LiNi1/3Co1/3Mn1/3O2/graphite cells under thermal abuse at 50%, 75%, and 100% SOC, representing limited and complete thermal-runaway scenarios respectively, using a sealed pressure-resistant chamber. Temperature and chamber concentrations of characteristic gases, including CO2, CO, C2H4, and CH4, were monitored. The results show that higher SOC lowers the critical temperature for rapid self-heating, advances characteristic gas appearance, and increases the measured chamber gas concentrations by approximately 2.1–2.8 orders of magnitude. Reaction-kinetics analysis indicates that stronger electrolyte reduction by highly lithiated graphite at high SOC is the main reason for the different gas-evolution patterns. Based on these findings, an SOC-adaptive dual-parameter threshold model combining temperature and CO2 concentration was established and retrospectively evaluated. The model provides earlier and more balanced warnings than fixed-threshold strategies, while the limitations associated with discrete GC-MS sampling and practical BMS implementation are discussed.",
+    "authors": [
+      "Yanli Miao",
+      "Xiao Tan",
+      "Chenying Li",
+      "Jianjun Liu",
+      "Ling Sa",
+      "Xiaohan Li",
+      "Zongjia Qiu"
+    ],
+    "source": "OpenAlex",
+    "venue": "Batteries",
+    "date": "2026-07-03",
+    "doi": "10.3390/batteries12070241",
+    "url": "https://doi.org/10.3390/batteries12070241",
+    "source_id": "",
+    "score": 70.0,
+    "level": "A",
+    "title_zh": "Impact of State of Charge on Gas Generation Characteristics During Thermal Runaway of Lithium-Ion Batteries and Early Warning Strategy Research",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词/期刊综合评分 70.0，推荐等级 A。"
+  },
+  {
+    "title": "Preprint for \"Battery Thermal Management Systems: A Comprehensive Review\"",
+    "abstract": "The paper comprehensively reviews the various thermal management systems utilized in small-to-medium battery packs as well as large-scale battery energy storage systems. A broad categorization of thermal management systems is provided. Recent developments regarding passive, active, and hybrid options are then discussed in terms of air-, liquid-, phase change materials-, and heat pipes-based solutions. The suitability of different heat transfer liquids and heat transfer-enhancing additives is also considered in the context of the individual thermal management options. Finally, the paper provides a brief review of the safety concerns associated with electrochemical energy storage technologies and the common mitigation strategies regarding thermal runaway.",
+    "authors": [
+      "Vojtěch Turek",
+      "Bohuslav Kilkovský",
+      "Vítězslav Sobol",
+      "Dominika Babička Fialová",
+      "Ondřej Vaverka",
+      "Petr Stehlı́k"
+    ],
+    "source": "OpenAlex",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "date": "2026-07-03",
+    "doi": "10.5281/zenodo.21156032",
+    "url": "https://doi.org/10.5281/zenodo.21156032",
+    "source_id": "",
+    "score": 60.0,
+    "level": "B",
+    "title_zh": "Preprint for \"Battery Thermal Management Systems: A Comprehensive Review\"",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词/期刊综合评分 60.0，推荐等级 B。"
+  },
+  {
+    "title": "A time–frequency transformer-CNN gated hybrid framework for ship pump remaining useful life prediction",
+    "abstract": "Shipborne pump systems play a crucial role in transportation, drainage, and auxiliary operations, directly supporting the safe operation of ships and the daily activities of crew members. Accurate prediction of the remaining useful life (RUL) of such systems is therefore essential for early fault awareness, maintenance planning, and mission assurance. Although RUL prediction has been widely investigated for components such as rolling bearings and aircraft engines, effective prediction approaches specifically developed for marine mechanical pump systems are still lacking. To fill this research gap, this study proposes a time–frequency Transformer–convolutional neural network (CNN) gated (TFTCG) model for pump RUL prediction. Vibration signals are characterized by complex temporal structures, exhibiting both short-term transient behaviors and long-term degradation trends. To capture these properties, CNNs are employed to extract local and detailed features, while a transformer-based architecture is introduced to model global dependencies and degradation patterns throughout the entire lifecycle. In addition, a gating mechanism is incorporated to adaptively fuse time-domain and frequency-domain representations, enabling effective integration of local anomalies and global degradation trends and further improving prediction performance. The proposed model jointly addresses fault diagnosis and RUL prediction, allowing it to simultaneously determine the current degradation stage of the pump and predict its future degradation trajectory from real-time input data. Comparative experiments conducted on the C-MAPSS dataset demonstrate the superior performance of the TFTCG model, which achieves a lower root mean square error of 9.76 and a Prognostics and Health Management (PHM) score of 124 compared with existing approaches. The effectiveness and generalization capability of the proposed method are further validated using a simulated marine mechanical pump dataset with an RMSE of 4.87 and a PHM score of 11.21.",
+    "authors": [
+      "Wenpu Wang",
+      "Jiqiu Li",
+      "Yuqing Li",
+      "Shengtian Sang",
+      "Bai Jie",
+      "Gan Lin",
+      "Haifeng Zhang"
+    ],
+    "source": "Crossref",
+    "venue": "Structural Health Monitoring",
+    "date": "2026-07-04",
+    "doi": "10.1177/14759217261455793",
+    "url": "https://doi.org/10.1177/14759217261455793",
+    "source_id": "",
+    "score": 60.0,
+    "level": "B",
+    "title_zh": "A time–frequency transformer-CNN gated hybrid framework for ship pump remaining useful life prediction",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词/期刊综合评分 60.0，推荐等级 B。"
+  },
+  {
+    "title": "Adaptive improved particle swarm optimization-based maximum power point tracking and energy smoothing for photovoltaic hybrid battery–supercapacitor storage systems",
+    "abstract": "The rapid development of photovoltaic (PV) systems has made them an important component of the global clean energy strategy. However, the intermittency and non-linear characteristics of photovoltaic (PV) output remain major challenges for stable renewable energy utilization. This study proposes an adaptive improved particle swarm optimization (IPSO)-based maximum power point tracking (MPPT) strategy integrated with hybrid energy storage coordination for photovoltaic systems. The IPSO introduces adaptive inertia adjustment, velocity clamping, and stagnation reinitialization, which improve the convergence robustness under dynamic irradiance and temperature conditions. The algorithm was benchmarked against Perturb & Observe (P&O), Incremental Conductance (INC), and standard PSO using convergence speed, ripple, bus voltage stability, and battery stress as performance indicators. The results show that IPSO significantly reduces settling time compared with conventional PSO, minimizes steady-state oscillations, and enables coordinated battery–supercapacitor operation, which is expected to mitigate battery stress under dynamic conditions. This demonstrates IPSOs' potential as a multi-objective optimization tool for PV–HESS systems, offering practical insights for intelligent energy management in microgrids and renewable networks.",
+    "authors": [
+      "M Ashraful Islam",
+      "Shaokai Guo",
+      "Jakaria Mahdi Imam",
+      "Mohammad Khairul Basher",
+      "Nowshad Amin",
+      "Tarek Abedin",
+      "Mohammad Nur-E-Alam"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-07-03",
+    "doi": "10.1016/j.est.2026.123407",
+    "url": "https://doi.org/10.1016/j.est.2026.123407",
+    "source_id": "",
+    "score": 55.0,
+    "level": "B",
+    "title_zh": "Adaptive improved particle swarm optimization-based maximum power point tracking and energy smoothing for photovoltaic hybrid battery–supercapacitor storage systems",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词/期刊综合评分 55.0，推荐等级 B。"
+  },
+  {
+    "title": "Multivariate feature-disentangled graph-enforced domain adaptation with multi-objective deep learning for remaining useful life prediction of lithium-ion batteries",
+    "abstract": "",
+    "authors": [
+      "Md Shoaib Akhter Rafi",
+      "Md. Kamrul Hasan"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-07-03",
+    "doi": "10.1016/j.est.2026.122771",
+    "url": "https://doi.org/10.1016/j.est.2026.122771",
+    "source_id": "",
+    "score": 51.0,
+    "level": "B",
+    "title_zh": "Multivariate feature-disentangled graph-enforced domain adaptation with multi-objective deep learning for remaining useful life prediction of lithium-ion batteries",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词/期刊综合评分 51.0，推荐等级 B。"
+  },
+  {
+    "title": "PHASE-ISOLATED LCFVR ENERGY MANIFOLD WITH GEOMETRIC PHASE ISOLATION (GPI)",
+    "abstract": "Geometric Phase Isolation: Point-of-Load VAR Offloading Geometric Phase Isolation (GPI) is a passive point‑of‑load configuration that offloads magnetizing VARs by phase‑isolating them inside the machine, preventing reactive power from propagating upstream. In several confirmed configurations—such as the validated reference design in GPI_Master_Netlist.txt—GPI confines nearly all reactive‑field power within the internal manifold, typically exceeding 95% confinement. In the cited implementation, the measured value is 99.74%, with only 0.26% of reactive power appearing at the Grid‑and‑Site‑Conduit boundary. GPI utilizes a parallel‑bound, phase‑isolated LCFVR topology that confines the machine’s internal reactive‑field power natively at the point‑of‑load. In most validated testing scenarios, GPI operates entirely with commodity inductors and capacitors—requiring no exotic materials, rare‑earth elements, or custom magnetics—while remaining fully compatible with higher‑grade or application‑specific components. By topologically binding the capacitance directly across the stator windings, the manifold forms a non‑classical, phase‑isolating reservoir—whether the machine is slip‑dependent (induction) or Q‑axis excited (synchronous)—so minimal magnetizing or field‑support VARs propagate upstream, preserving full electromagnetic torque strength while the utility boundary sees effectively only real power. IP Status: Non-Provisional Patent Application #19/546,421 (Active) Abstract: Geometric Phase Isolation (GPI) is a point‑of‑load architecture that eliminates magnetizing VAR flow across utility feeders, transmission corridors, and the site‑conduit networks inside hyperscale AI datacenters and motor‑heavy industrial manufacturing facilities. By enforcing Point‑of‑Load VAR Confinement, GPI traps reactive power at the motor boundary, preventing upstream VAR‑induced I²R heating and unlocking point‑of‑load (POL) Ampacity Liberation for high‑density compute, large‑frame induction motors, motor‑driven cooling arrays, and the thousands of induction‑based electromechanical systems that dominate datacenter thermal‑management, pumping infrastructure, and industrial process‑equipment loads. This establishes Full‑Path Infrastructure Shielding, protecting both grid assets and on‑site distribution wiring from VAR‑induced thermal congestion. GPI enables higher real‑power delivery, improved voltage stability, reduced inverter stress, and enhanced electro‑kinetic resilience for AI datacenters, industrial manufacturing facilities, EV traction systems, and battery‑energy‑storage platforms. ----- Zenodo v13 Release Notes: Netlist Update: Added the .MEASURE TRAN GPI_CAPACITOR_THERMAL_LOSS_W to the Master Netlist and all Cap-F sweep variants (-20% to +20%). Data Visualization: Generated GPI_1Composite_Dashboard.png to plot all .csv data into a single comprehensive frame (individual graphs are also included). Full Netlist .zip: Uploaded GPI_Master_Netlist_v13.zip, which contains the 5 updated netlists, their .mt0 reports, and the .csv transient data. File Rename: Renamed the core patent documents to NPPA_GPI_SPECIFICATION and NPPA_GPI_DRAWINGS for explicit identification and more efficient sorting. ----- Performance Metrics from GPI_Master_Netlist.txt: VAR Internalization Yield: 99.7408% VAR offload (643.0634 VAR trapped locally | 1.671199 VAR upstream) Electro-Kinetic Current Magnification: 6.490039× (5.273225 A RMS composite motor current | 0.8125105 A RMS upstream draw) Sub-Microsecond KCL Phase-Cancellation: 0.018 A upstream (+7.388 A capacitor peak vs −7.369 A motor peak) System Phase Abstraction: 0.9998618 upstream PF (81.1764° internal motor lag → 0.9525° upstream lead) Strict Thermodynamic Parity: 100.5161 W active input (100.1066 W composite motor branch [kinetic + inductor I²R] + 0.4093985 W capacitor ESR loss) Implementation Consideration: While the underlying GPI physics are inherently fail‑soft, the commercial implementation may incorporate an Active Electronic Controller—specifically, a solid‑state switched‑capacitor array—to permanently lock the boundary power factor. By fractionating the primary capacitance into parallel sub‑banks and driving them through zero‑crossing SiC switches, a local microcontroller dynamically engages redundant standby capacitance to counter long‑term dielectric drift, thermal aging, and transient load‑angle excursions. This active layer continuously auto‑tunes the manifold to maintain unity power factor at the utility boundary for the full service life of the machine, while the passive GPI core ensures that loss of the active silicon cannot starve the load or collapse the VAR‑internalization regime. ===== GPI Model: Heavy‑Resistance Resonance Stability Baseline 60 Hz Metrics (Jiles–Atherton Dynamic Core): This update implements dynamic amorphous‑metal magnetic core modeling (LEVEL=2 AREA=28.1 PATH=15.0 MS=1.3E6 A=100 C=0.70 K=50 ALPHA=1E‑4 GAP=0.005), yielding a nominal ~71.5 H base inductance and executing a 5‑point parametric capacitive sweep. Note on Core Geometry: In physical 3D space, a solid cross‑sectional area of 28.1 cm² corresponds to roughly a 5.3 × 5.3 cm core window, and a closed toroidal core with this area would require a mean magnetic path length of at least ~16.6 cm. Within the Xyce environment, however, AREA and PATH function strictly as 1‑D mathematical scalars that define the core’s total magnetic volume, saturation envelope, and nominal inductance—independent of the specific 3D routing, lamination stack, or mechanical form factor used in a real machine. This means the electrical behavior modeled here is physically valid and topologically correct, while the eventual mechanical implementation may use different core shapes, lamination geometries, or winding layouts depending on manufacturer constraints, thermal requirements, or available magnetic materials. RR-GPI_5D-LCFVR_Resilient-Resonance_Netlist.txt: This establishes the primary 0.047µF capacitance and sweeps the capacitance value from -20% to +20% (0.0376µF to 0.0564µF) to explicitly model physical fabrication tolerances and lifecycle component wear. The Xyce Transient Analysis logs—utilizing the KLU linear solver and TRAP time integration method across >6 million successful continuous steps—strictly verify the resilience envelope. Primary Tune Steady-State Audit (0.047µF Nominal): The provided netlists and the following data definitively differentiate the GPI state from momentary resonant transients, proving continuous steady-state current magnification: R_INDUCTOR_LOAD (Continuous Workload): 20.5 kΩ IRMS_SRC (Source Boundary - Demand): 2.37372e-03 A IRMS_IND (Internal Circulating - Workload): 3.22179e-03 A G_RATIO (Current Magnification): 1.35728 Absolute Thermodynamic Parity (First Law Compliance): P_SRC (Real Power Input): -2.93718e-01 W P_IND (Real Power Dissipation): 2.93670e-01 W Full 5D-LCFVR GPI - Resilient Resonance demonstrated in: RR-5D-LCFVR GPI - Resilient Resonance - Chart.png RR-5D-LCFVR GPI - Resilient Resonance - Table.png RR-GPI_5D-LCFVR_Resilient-Resonance_Results.txt (generated from: RR-GPI_5D-LCFVR_Resilient-Resonance_Netlist.txt) Keywords: Geometric Phase Isolation (GPI); LCFVR Manifold; Reactive-Power Virtualization; Point-of-Load (PoL) VAR Confinement; Behind-The-Meter (BTM) Ampacity Liberation; Full-Path Infrastructure Shielding; Grid-Edge Power Architecture; Magnetizing VAR Suppression; Site-Conduit VAR Losses; Transmission I^2R Reduction; Grid-Enhancing Technologies (GETs); Non-Wires Alternatives (NWA); Substation Thermal Headroom; Reactive Congestion Mitigation; Power Factor Correction (PFC); Reactive Power Compensation; Transient Voltage Ride-Through (TVRT); Parallel Resonant Topology; Induction Motor VAR Isolation; NEMA 213T Motor Design; Synchronous Reluctance Motor (SynRM); Permanent Magnet Assisted SynRM (PMa-SynRM); Interior Permanent Magnet Motor (IPMSM); Externally Excited Synchronous Motor (EESM); Axial Flux Motor (AFM); Yokeless And Segmented Armature (YASA); Linear Induction Motor (LIM); Magnet-Free EV Drivetrain; Rare-Earth Independence; Heavy Industrial Traction; Silicon Carbide (SiC) Traction Inverter Optimization; GaN Wide-Bandgap Switching; DC-Link Ripple Suppression; EV Inverter Thermal Stress; Battery SoH Preservation; EMALS; eVTOL Propulsion; Aerospace Power Systems; IE5 Ultra-Premium Efficiency; Jiles-Atherton Hysteresis Modeling; Magnetic Saturation; Lorentz Force Decoupling; Thermodynamic Parity; First Law of Thermodynamics; Steinmetz T-Equivalent; Steinmetz Per-Phase; SPICE Simulation; Xyce; KLU Linear Solver; Cross-Solver Convergence; COTS Electrification; Critical Infrastructure Protection (CIP); Dual-Use Technology; DOE; ARPA-E; NREL; GE Vernova; Microsoft AI Datacenter; ; Google; Grid-Interactive Datacenters; AI Cooling Load Electrification; Substation Hardening; Real/Reactive Power Dynamics; Isolated L-C Tank; Induction Motor VAR Ecology; Electric Vehicle Drivetrain; Motor Topology Optimization; VAR Virtualization; American Electric Power (AEP); FERC / NERC Reliability Standards; Microgrid Islanding; Virtual Power Plant (VPP); Distributed Energy Resources (DER); Volt/VAR Optimization (VVO); LTspice; Siemens Simcenter AMESIM; Hardware-in-the-Loop (HIL); Transient Stability Analysis; Hyperscale Power Infrastructure; Power Usage Effectiveness (PUE) Optimization; Datacenter Microgrids; Critical Power Distribution; Fault Ride-Through (FRT); DC Fast Charging (DCFC) Infrastructure Impact; Inverter Safe Operating Area (SOA); Federal Technology Transfer; Marine Electrification; Shipboard Microgrids; Integrated Power Systems (IPS); Shore Power; Zonal Power Distribution.",
+    "authors": [
+      "Benjamin Blackketter"
+    ],
+    "source": "OpenAlex",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "date": "2026-07-03",
+    "doi": "10.5281/zenodo.18719728",
+    "url": "https://doi.org/10.5281/zenodo.18719728",
+    "source_id": "",
+    "score": 50.0,
+    "level": "B",
+    "title_zh": "PHASE-ISOLATED LCFVR ENERGY MANIFOLD WITH GEOMETRIC PHASE ISOLATION (GPI)",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词/期刊综合评分 50.0，推荐等级 B。"
+  },
+  {
+    "title": "Beyond energy efficiency: A battery-aware reward design for deep reinforcement learning-based energy management in electric vehicles with hybrid storage",
+    "abstract": "",
+    "authors": [
+      "Mehrdad Raeesi",
+      "Parinaz Chavoshnia",
+      "Siavash Mansouri",
+      "Morteza Mollajafari"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-07-03",
+    "doi": "10.1016/j.est.2026.123376",
+    "url": "https://doi.org/10.1016/j.est.2026.123376",
+    "source_id": "",
+    "score": 47.0,
+    "level": "B",
+    "title_zh": "Beyond energy efficiency: A battery-aware reward design for deep reinforcement learning-based energy management in electric vehicles with hybrid storage",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词/期刊综合评分 47.0，推荐等级 B。"
+  },
+  {
+    "title": "Deep reinforcement learning for battery thermal management with multi-cycle random training: Simulation and experimental validation",
+    "abstract": "",
+    "authors": [
+      "Jifei Zhao",
+      "Rolla Almodfer",
+      "Hang Su",
+      "Ye Yuan",
+      "Meng Sun",
+      "Xiaoying Wu",
+      "Zhiwei Ren",
+      "Jitian Song",
+      "Yuqian Fan"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-07-04",
+    "doi": "10.1016/j.est.2026.123392",
+    "url": "https://doi.org/10.1016/j.est.2026.123392",
+    "source_id": "",
+    "score": 47.0,
+    "level": "B",
+    "title_zh": "Deep reinforcement learning for battery thermal management with multi-cycle random training: Simulation and experimental validation",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词/期刊综合评分 47.0，推荐等级 B。"
+  },
+  {
+    "title": "Advances in Microchannel Cooling Systems for Battery Thermal Management: A Comprehensive Review",
+    "abstract": "Purpose: The paper aims to survey existing trends in microchannel-based cooling systems for thermally managing lithium-ion batteries. Design/Methodology/Approach: A comprehensive literature review was conducted to examine microchannel cooling designs and their performance characteristics. The study evaluates many channel designs, including straight, serpentine, wavy, and pin-fin-integrated microchannels. The key performance parameters, that is, the decrease in temperature, the temperature uniformity index and the pressure drop, are examined. The use of different coolants- water, nanofluids and dielectric liquids is also discussed with respect to trade-offs between thermal conductivity and viscosity. Experimental studies, computational fluid dynamics (CFD) modelling, material choice and system integration issues are also present. The collected literature was analysed through a comparative review. The data were categorised by optimisation methods, thermal performance, pressure drop, coolant type, and microchannel geometry. Findings: According to the review, microchannel cooling systems have performed better at cooling heat and improving temperature uniformity in lithium-ion battery packs compared to traditional cooling technologies. The geometry optimisation of channels and the proper selection of coolant can be of great importance for optimising thermal performance while still providing manageable pressure losses. Research Limitation: In this review, studies on microchannel-based battery thermal management are considered, with a focus on numerical simulations and laboratory-scale experiments. Very little attention has been given to standardised performance evaluation methods, manufacturing cost, large-scale commercialisation, and long-term durability. Practical Implication: Researchers and engineers in the electric vehicle and other high-power electronics fields can find the results very useful for their studies and the design of battery thermal management systems. Social implication: It supports sustainable transportation, greenhouse gas emissions reduction, and clean energy adoption by reducing energy losses and thermal runaway risks. Originality/Value: The review highlights the latest developments in microchannel-based lithium-ion battery cooling technologies and identifies new directions in the field, including 3D-printed microchannel design, AI-based optimisation, hybrid cooling, and smart flow control.",
+    "authors": [
+      "P.S. Pande",
+      "V. N. Kalbande"
+    ],
+    "source": "OpenAlex",
+    "venue": "African Journal Of Applied Research",
+    "date": "2026-07-04",
+    "doi": "10.26437/ba5ay798",
+    "url": "https://doi.org/10.26437/ba5ay798",
+    "source_id": "",
+    "score": 46.0,
+    "level": "B",
+    "title_zh": "Advances in Microchannel Cooling Systems for Battery Thermal Management: A Comprehensive Review",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词/期刊综合评分 46.0，推荐等级 B。"
+  },
+  {
+    "title": "AI-Driven Smart Charging and Fire-Risk-Aware Governance for Multi-Unit Dwellings",
+    "abstract": "Rapid electric-vehicle adoption is reshaping urban energy and mobility systems, especially in multi-unit dwellings (MUDs), where concentrated charging in shared parking areas simultaneously stresses distribution transformers and amplifies the consequences of charger faults, battery thermal events, smoke spread, and emergency-access constraints. The central argument of this paper is that grid stress, resident-facing service quality, lifecycle cost, and fire-risk exposure in enclosed residential parking should be governed jointly rather than as four separate problems. To make that argument concrete, we develop an integrated framework that couples stochastic EV adoption, residential charging-behavior simulation, XGBoost demand forecasting, and linear-programming-based optimization for coordinated control, and we evaluate it through 1000 Monte Carlo trials on representative Turkish MUDs. Unmanaged charging triggers transformer overload at about 30% EV penetration, whereas coordinated control reduces peak demand by 44.7% (405 kW to 224 kW) and raises load factor from 0.40 to 0.68. Strict capacity protection exposes a sharp service–quality trade-off, with only 8.9% of users reaching 80% state of charge (SOC) by departure. Smart charging lowers upfront cost by about 55% ($200 vs. $439 per dwelling unit) and yields roughly $306 net present value per unit over ten years. Building on these results, we propose a five-pillar fire-risk-aware governance architecture—coordinated control, interoperability standards, time-of-use pricing, building–utility coordination, and monitoring—that turns coordinated charging into a preventive governance layer for reducing hazardous congestion in enclosed residential charging environments.",
+    "authors": [
+      "Nida Katı",
+      "Ferhat Uçar"
+    ],
+    "source": "OpenAlex",
+    "venue": "Fire",
+    "date": "2026-07-03",
+    "doi": "10.3390/fire9070276",
+    "url": "https://doi.org/10.3390/fire9070276",
+    "source_id": "",
+    "score": 44.0,
+    "level": "C",
+    "title_zh": "AI-Driven Smart Charging and Fire-Risk-Aware Governance for Multi-Unit Dwellings",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中：可作为背景或备选文献。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词/期刊综合评分 44.0，推荐等级 C。"
+  },
+  {
+    "title": "Machine Learning for Zinc‐Based Energy Storage Devices: From Data‐Driven Design to Mechanistic Insights",
+    "abstract": "ABSTRACT Machine learning (ML) is rapidly emerging as a powerful paradigm for decoding the complex physicochemical relationships that govern aqueous zinc‐based battery systems. By uncovering hidden correlations from high‐dimensional experimental and computational datasets, ML provides unprecedented opportunities to resolve ion transport, interfacial chemistry, and degradation behaviors that remain difficult to capture using conventional approaches alone. Herein, this review presents a comprehensive and mechanism‐oriented perspective on ML in zinc‐based energy storage, with feature engineering positioned as the central conceptual framework. Particular emphasis is placed on how physically meaningful descriptors are constructed and utilized across cathodes, zinc anodes, electrolytes, and electrode‐electrolyte interfaces, as well as on their distinct roles in dictating electrochemical performance. Recent advances are discussed in terms of how ML enables the identification of structure‐property relationships, accelerates materials optimization, and deepens mechanistic understanding of critical processes, including Zn 2+ transport, desolvation, interfacial evolution, and performance degradation. By organizing this evolving field through the dual lenses of device components and fundamental mechanisms, the intrinsic connection between data‐driven modeling with electrochemical theory is clarified. Finally, future directions toward data‐centric, physics‐informed, dynamic, and autonomous ML frameworks are highlighted, which are expected to drive zinc‐based energy storage from empirical trial‐and‐error development toward predictive and rational design.",
+    "authors": [
+      "Yi Yang",
+      "Min Ru",
+      "Jian Song",
+      "Qian Zhang",
+      "Zhenlu Liu",
+      "Qiliang Wei",
+      "Xi Zhang",
+      "Chunmei Zhang",
+      "Yuehua Chen",
+      "Haoqi Yang"
+    ],
+    "source": "OpenAlex",
+    "venue": "Advanced Energy Materials",
+    "date": "2026-07-04",
+    "doi": "10.1002/aenm.71243",
+    "url": "https://doi.org/10.1002/aenm.71243",
+    "source_id": "",
+    "score": 43.0,
+    "level": "C",
+    "title_zh": "Machine Learning for Zinc‐Based Energy Storage Devices: From Data‐Driven Design to Mechanistic Insights",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中：可作为背景或备选文献。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词/期刊综合评分 43.0，推荐等级 C。"
+  }
+]
