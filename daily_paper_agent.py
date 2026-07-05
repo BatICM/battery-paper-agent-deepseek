@@ -3,8 +3,8 @@
 Battery Management Literature Daily - DeepSeek API Version
 
 功能：
-1. 从 arXiv / OpenAlex / Crossref / Semantic Scholar 检索近期电池管理相关论文；
-2. 基于关键词、期刊白名单和工程相关性打分；
+1. 从 arXiv / OpenAlex / Crossref / Semantic Scholar / Google Scholar(SerpAPI) 检索近期电池管理相关论文；
+2. 基于 BMS 相关性、排除规则、期刊优先级和预印本潜力打分；
 3. 调用 DeepSeek API 生成中文凝练总结；
 4. 输出 HTML 日报，并发送 HTML 邮件；
 5. 生成 outputs/index.html 供 GitHub Pages 归档。
@@ -22,9 +22,7 @@ import re
 import smtplib
 import ssl
 import sys
-import textwrap
 import time
-import urllib.parse
 import xml.etree.ElementTree as ET
 from dataclasses import asdict, dataclass, field
 from email.mime.multipart import MIMEMultipart
@@ -48,7 +46,7 @@ PROMPT_PATH = ROOT / "prompts" / "summarize_prompt.txt"
 TEMPLATE_DIR = ROOT / "templates"
 REPORT_TEMPLATE = "report_template.html"
 INDEX_TEMPLATE = "index_template.html"
-USER_AGENT = "battery-paper-agent/1.0 (mailto:{email})"
+USER_AGENT = "battery-paper-agent/1.1 (mailto:{email})"
 
 
 @dataclass
@@ -93,7 +91,7 @@ def load_config() -> Dict[str, Any]:
 
 
 def today_str(tz_name: str = "Asia/Shanghai") -> str:
-    # GitHub runner 默认 UTC。这里简单使用 Asia/Shanghai 固定 UTC+8。
+    # GitHub runner 默认 UTC；日报服务按 UTC+8 输出日期。
     now = dt.datetime.utcnow() + dt.timedelta(hours=8)
     return now.date().isoformat()
 
@@ -104,33 +102,33 @@ def date_window(days: int) -> Tuple[str, str]:
     return start.isoformat(), end.isoformat()
 
 
-def request_json(url: str, params: Dict[str, Any], contact_email: str = "", timeout: int = 25) -> Optional[Dict[str, Any]]:
+def request_json(
+    url: str,
+    params: Dict[str, Any],
+    contact_email: str = "",
+    timeout: int = 25,
+    max_retries: int = 4,
+) -> Optional[Dict[str, Any]]:
     headers = {"User-Agent": USER_AGENT.format(email=contact_email or "unknown@example.com")}
-
-    for attempt in range(4):
+    for attempt in range(max_retries):
         try:
             r = requests.get(url, params=params, headers=headers, timeout=timeout)
-
             if r.status_code == 429:
                 retry_after = r.headers.get("Retry-After")
                 wait = int(retry_after) if retry_after and retry_after.isdigit() else min(60, 8 * (attempt + 1))
                 print(f"[WARN] 429 rate limited: {url}; sleep {wait}s then retry...", file=sys.stderr)
                 time.sleep(wait)
                 continue
-
             r.raise_for_status()
             return r.json()
-
         except Exception as exc:
-            if attempt < 3:
+            if attempt < max_retries - 1:
                 wait = min(60, 5 * (attempt + 1))
                 print(f"[WARN] request_json failed, retry in {wait}s: {url} {params} :: {exc}", file=sys.stderr)
                 time.sleep(wait)
                 continue
-
             print(f"[WARN] request_json failed: {url} {params} :: {exc}", file=sys.stderr)
             return None
-
     return None
 
 
@@ -169,21 +167,56 @@ def normalize_title(title: str) -> str:
     return re.sub(r"\s+", " ", html.unescape(title or "")).strip()
 
 
+def normalize_journal_name(name: str) -> str:
+    s = html.unescape(name or "").lower()
+    s = s.replace("&", "and")
+    s = re.sub(r"[^a-z0-9]+", " ", s)
+    return re.sub(r"\s+", " ", s).strip()
+
+
 def contains_any(text: str, terms: Iterable[str]) -> bool:
     low = text.lower()
     return any(t.lower() in low for t in terms if t)
 
 
-def score_paper(p: Paper, cfg: Dict[str, Any]) -> float:
-    text = f"{p.title} {p.abstract} {p.venue}".lower()
-    score = 0.0
-    include = cfg["queries"].get("include", [])
-    exclude = cfg["queries"].get("exclude", [])
-    high_terms = cfg.get("high_value_terms", [])
-    journals = [j.lower() for j in cfg.get("journal_whitelist", [])]
+def journal_rank(p: Paper, cfg: Dict[str, Any]) -> int:
+    """Return 1-based rank in journal_priority; 999 means not in priority list."""
+    venue_norm = normalize_journal_name(p.venue)
+    if not venue_norm:
+        return 999
 
+    priority = cfg.get("journal_priority") or cfg.get("journal_whitelist", [])
+    for idx, journal in enumerate(priority, start=1):
+        j_norm = normalize_journal_name(journal)
+        if not j_norm:
+            continue
+        # Nature 单刊必须精确匹配，避免误把 Nature Energy / Nature Communications 当成 Nature。
+        if j_norm == "nature":
+            if venue_norm == "nature":
+                return idx
+            continue
+        if venue_norm == j_norm or j_norm in venue_norm or venue_norm in j_norm:
+            return idx
+    return 999
+
+
+def journal_bonus(p: Paper, cfg: Dict[str, Any]) -> float:
+    rank = journal_rank(p, cfg)
+    if rank == 999:
+        return 0.0
+    # 用户给出的顺序就是推荐顺序；越靠前加分越高。
+    n = max(1, len(cfg.get("journal_priority") or cfg.get("journal_whitelist", [])))
+    return max(15.0, 60.0 - (rank - 1) * (45.0 / max(1, n - 1)))
+
+
+def bms_relevance_score(text: str, cfg: Dict[str, Any]) -> float:
+    text = text.lower()
+    include = cfg.get("queries", {}).get("include", [])
+    high_terms = cfg.get("high_value_terms", [])
+    core_terms = cfg.get("bms_core_terms", [])
+
+    score = 0.0
     for term in include:
-        # 短语命中加分；拆词命中也给一点分
         tl = term.lower()
         if tl in text:
             score += 10
@@ -196,44 +229,69 @@ def score_paper(p: Paper, cfg: Dict[str, Any]) -> float:
         if term.lower() in text:
             score += 6
 
-    if p.venue and any(j in p.venue.lower() for j in journals):
-        score += 25
-
-    # 强化电池管理相关任务
-    task_terms = [
-        "state of health", "soh", "remaining useful life", "rul", "state of charge", "soc",
-        "fault", "diagnosis", "thermal runaway", "early warning", "bms", "pack", "fleet",
-        "prognostic", "uncertainty", "digital twin", "physics-informed", "transfer learning",
-    ]
-    for term in task_terms:
-        if term in text:
-            score += 4
-
-    # 排除纯材料方向，但如果同时有 SOH/BMS/safety 则不完全剔除
-    penalty = 0
-    for term in exclude:
+    for term in core_terms:
         if term.lower() in text:
-            penalty += 12
-    if penalty and not contains_any(text, ["soh", "state of health", "rul", "bms", "diagnosis", "warning", "safety", "thermal runaway"]):
-        score -= penalty
-    else:
-        score -= penalty * 0.4
+            score += 8
+
+    return score
+
+
+def is_material_or_chemistry_only(text: str, cfg: Dict[str, Any]) -> bool:
+    text_l = text.lower()
+    exclude = cfg.get("queries", {}).get("exclude", [])
+    material_hit = any(term.lower() in text_l for term in exclude)
+    if not material_hit:
+        return False
+
+    rescue_terms = cfg.get("bms_core_terms", []) + [
+        "bms", "state of health", "soh", "rul", "remaining useful life",
+        "state of charge", "soc", "fault diagnosis", "early warning",
+        "thermal runaway", "pack", "fleet", "digital twin", "cloud",
+    ]
+    return not contains_any(text_l, rescue_terms)
+
+
+def score_paper(p: Paper, cfg: Dict[str, Any]) -> float:
+    text = f"{p.title} {p.abstract} {p.venue}"
+    if is_material_or_chemistry_only(text, cfg):
+        return -100.0
+
+    score = bms_relevance_score(text, cfg) + journal_bonus(p, cfg)
+
+    # 高潜力预印本：没有期刊，但直接命中核心 BMS 任务，并且含真实数据/pack/不确定性等高价值词。
+    if p.source.lower().startswith("arxiv") and bms_relevance_score(text, cfg) >= 55:
+        score += 15
+
+    # Google Scholar 结果的日期常只有年份，避免其覆盖 Crossref/OpenAlex 的精确日期结果。
+    if "Google Scholar" in p.source and (not p.date or re.fullmatch(r"\d{4}", p.date)):
+        score -= 5
 
     return round(score, 2)
 
 
-def level_from_score(score: float) -> str:
-    if score >= 70:
+def level_from_paper(p: Paper, cfg: Dict[str, Any]) -> str:
+    text = f"{p.title} {p.abstract} {p.venue}"
+    if is_material_or_chemistry_only(text, cfg):
+        return "DROP"
+
+    rel = bms_relevance_score(text, cfg)
+    j_rank = journal_rank(p, cfg)
+    high_potential_preprint = p.source.lower().startswith("arxiv") and rel >= 55
+
+    # A级：强相关 + 高水平期刊/高潜力预印本，必须读。
+    if rel >= 35 and (j_rank <= 12 or high_potential_preprint):
         return "A"
-    if score >= 45:
+    # B级：相关性强，但期刊或创新性一般，建议浏览。
+    if rel >= 35:
         return "B"
-    if score >= 20:
+    # C级：边缘相关，进入备选列表。
+    if rel >= 18 or (j_rank <= 8 and rel >= 10):
         return "C"
     return "DROP"
 
 
 def fetch_arxiv(cfg: Dict[str, Any], start_date: str, end_date: str) -> List[Paper]:
-    if not cfg["sources"].get("arxiv", {}).get("enabled", False):
+    if not cfg.get("sources", {}).get("arxiv", {}).get("enabled", False):
         return []
     contact = os.getenv("CONTACT_EMAIL", "")
     max_results = int(cfg["project"].get("max_candidates_per_source", 40))
@@ -241,8 +299,7 @@ def fetch_arxiv(cfg: Dict[str, Any], start_date: str, end_date: str) -> List[Pap
     base = "https://export.arxiv.org/api/query"
     ns = {"atom": "http://www.w3.org/2005/Atom", "arxiv": "http://arxiv.org/schemas/atom"}
 
-    for q in cfg["queries"].get("include", []):
-        # arXiv 查询较严格时容易漏掉，用 all:"phrase" + sortBy=submittedDate。
+    for q in cfg.get("queries", {}).get("include", []):
         search_query = f'all:"{q}"'
         params = {
             "search_query": search_query,
@@ -261,7 +318,6 @@ def fetch_arxiv(cfg: Dict[str, Any], start_date: str, end_date: str) -> List[Pap
                 abstract = normalize_title(entry.findtext("atom:summary", default="", namespaces=ns))
                 published = safe_date(entry.findtext("atom:published", default="", namespaces=ns))
                 if published and (published < start_date or published > end_date):
-                    # arXiv sorting 是新到旧，跳过窗口外。
                     continue
                 url = entry.findtext("atom:id", default="", namespaces=ns)
                 authors = [normalize_title(a.findtext("atom:name", default="", namespaces=ns)) for a in entry.findall("atom:author", ns)]
@@ -277,14 +333,25 @@ def fetch_arxiv(cfg: Dict[str, Any], start_date: str, end_date: str) -> List[Pap
     return papers
 
 
+def openalex_abstract(inverted_index: Dict[str, List[int]]) -> str:
+    if not inverted_index:
+        return ""
+    positions: List[Tuple[int, str]] = []
+    for word, poss in inverted_index.items():
+        for pos in poss:
+            positions.append((pos, word))
+    return " ".join(word for _, word in sorted(positions))
+
+
 def fetch_openalex(cfg: Dict[str, Any], start_date: str, end_date: str) -> List[Paper]:
-    if not cfg["sources"].get("openalex", {}).get("enabled", False):
+    if not cfg.get("sources", {}).get("openalex", {}).get("enabled", False):
         return []
     contact = os.getenv("CONTACT_EMAIL", "")
     max_results = int(cfg["project"].get("max_candidates_per_source", 40))
     papers: List[Paper] = []
     base = "https://api.openalex.org/works"
-    for q in cfg["queries"].get("include", []):
+
+    for q in cfg.get("queries", {}).get("include", []):
         params = {
             "search": q,
             "filter": f"from_publication_date:{start_date},to_publication_date:{end_date},type:article|preprint",
@@ -300,10 +367,8 @@ def fetch_openalex(cfg: Dict[str, Any], start_date: str, end_date: str) -> List[
             title = normalize_title(item.get("title") or item.get("display_name") or "")
             abstract_inv = item.get("abstract_inverted_index")
             abstract = openalex_abstract(abstract_inv) if abstract_inv else ""
-            venue = ""
             src = item.get("primary_location", {}).get("source") or {}
-            if src:
-                venue = normalize_title(src.get("display_name") or "")
+            venue = normalize_title(src.get("display_name") or "") if src else ""
             doi = normalize_title((item.get("doi") or "").replace("https://doi.org/", ""))
             url = item.get("doi") or item.get("id") or ""
             authors = []
@@ -318,24 +383,22 @@ def fetch_openalex(cfg: Dict[str, Any], start_date: str, end_date: str) -> List[
     return papers
 
 
-def openalex_abstract(inverted_index: Dict[str, List[int]]) -> str:
-    if not inverted_index:
+def clean_crossref_abstract(raw: str) -> str:
+    if not raw:
         return ""
-    positions: List[Tuple[int, str]] = []
-    for word, poss in inverted_index.items():
-        for pos in poss:
-            positions.append((pos, word))
-    return " ".join(word for _, word in sorted(positions))
+    txt = re.sub(r"<[^>]+>", " ", raw)
+    return normalize_title(txt)
 
 
 def fetch_crossref(cfg: Dict[str, Any], start_date: str, end_date: str) -> List[Paper]:
-    if not cfg["sources"].get("crossref", {}).get("enabled", False):
+    if not cfg.get("sources", {}).get("crossref", {}).get("enabled", False):
         return []
     contact = os.getenv("CONTACT_EMAIL", "")
     max_results = int(cfg["project"].get("max_candidates_per_source", 40))
     papers: List[Paper] = []
     base = "https://api.crossref.org/works"
-    for q in cfg["queries"].get("include", []):
+
+    for q in cfg.get("queries", {}).get("include", []):
         params = {
             "query.bibliographic": q,
             "filter": f"from-pub-date:{start_date},until-pub-date:{end_date},type:journal-article",
@@ -369,16 +432,8 @@ def fetch_crossref(cfg: Dict[str, Any], start_date: str, end_date: str) -> List[
     return papers
 
 
-def clean_crossref_abstract(raw: str) -> str:
-    if not raw:
-        return ""
-    txt = re.sub(r"<[^>]+>", " ", raw)
-    txt = html.unescape(txt)
-    return normalize_title(txt)
-
-
 def fetch_semantic_scholar(cfg: Dict[str, Any], start_date: str, end_date: str) -> List[Paper]:
-    if not cfg["sources"].get("semantic_scholar", {}).get("enabled", False):
+    if not cfg.get("sources", {}).get("semantic_scholar", {}).get("enabled", False):
         return []
     api_key = os.getenv("S2_API_KEY", "")
     contact = os.getenv("CONTACT_EMAIL", "")
@@ -388,7 +443,8 @@ def fetch_semantic_scholar(cfg: Dict[str, Any], start_date: str, end_date: str) 
     headers = {"User-Agent": USER_AGENT.format(email=contact or "unknown@example.com")}
     if api_key:
         headers["x-api-key"] = api_key
-    for q in cfg["queries"].get("include", []):
+
+    for q in cfg.get("queries", {}).get("include", []):
         params = {
             "query": q,
             "limit": max_results,
@@ -424,6 +480,116 @@ def fetch_semantic_scholar(cfg: Dict[str, Any], start_date: str, end_date: str) 
     return papers
 
 
+def scholar_extract_year(text: str, start_year: int, end_year: int) -> str:
+    years = [int(y) for y in re.findall(r"\b(20\d{2}|19\d{2})\b", text or "")]
+    for y in years:
+        if start_year <= y <= end_year:
+            return str(y)
+    return str(years[0]) if years else ""
+
+
+def scholar_parse_publication_info(info: Dict[str, Any]) -> Tuple[List[str], str]:
+    authors = []
+    for a in info.get("authors") or []:
+        name = normalize_title(a.get("name") or "")
+        if name:
+            authors.append(name)
+
+    summary = normalize_title(info.get("summary") or "")
+    venue = "Google Scholar"
+    # 常见格式：Author A, Author B - Journal Name, 2026 - Publisher
+    if " - " in summary:
+        parts = [p.strip() for p in summary.split(" - ") if p.strip()]
+        if len(parts) >= 2:
+            candidate = re.sub(r",?\s*(19|20)\d{2}.*$", "", parts[1]).strip(" ,")
+            if candidate:
+                venue = candidate
+    return authors, venue
+
+
+def build_google_scholar_queries(cfg: Dict[str, Any]) -> List[str]:
+    include = cfg.get("queries", {}).get("include", [])
+    gs_cfg = cfg.get("sources", {}).get("google_scholar", {})
+    max_queries = int(gs_cfg.get("max_queries", 8))
+    queries = list(include[:max_queries])
+
+    # 额外对高优先级期刊构造 source 查询，增强 Nature/Joule/EES 等高水平来源召回。
+    if gs_cfg.get("journal_boost_queries", True):
+        core = " OR ".join(["SOH", "RUL", "BMS", "state of charge", "fault diagnosis", "battery pack"])
+        for journal in (cfg.get("journal_priority") or [])[: int(gs_cfg.get("max_journal_queries", 8))]:
+            queries.append(f'battery ({core}) source:"{journal}"')
+    # 去重且保持顺序。
+    seen = set()
+    out = []
+    for q in queries:
+        if q not in seen:
+            out.append(q)
+            seen.add(q)
+    return out
+
+
+def fetch_google_scholar(cfg: Dict[str, Any], start_date: str, end_date: str) -> List[Paper]:
+    """Google Scholar 补充检索。
+
+    说明：Google Scholar 没有官方公开 API，本函数使用 SerpAPI 的 google_scholar engine。
+    Scholar 通常只能稳定筛到年份，不能像 Crossref/OpenAlex 一样精确到 24-48 小时，
+    因此这里定位为“补充召回”，并在打分中轻微降权 year-only 结果。
+    """
+    gs_cfg = cfg.get("sources", {}).get("google_scholar", {})
+    if not gs_cfg.get("enabled", False):
+        return []
+
+    api_key = os.getenv("SERPAPI_KEY", "")
+    if not api_key:
+        print("[WARN] Google Scholar enabled but SERPAPI_KEY is missing; skip Google Scholar.", file=sys.stderr)
+        return []
+
+    contact = os.getenv("CONTACT_EMAIL", "")
+    max_results = min(int(gs_cfg.get("max_results", 10)), 20)
+    start_year = int(start_date[:4])
+    end_year = int(end_date[:4])
+    papers: List[Paper] = []
+    base = "https://serpapi.com/search.json"
+
+    for q in build_google_scholar_queries(cfg):
+        params = {
+            "engine": "google_scholar",
+            "q": q,
+            "api_key": api_key,
+            "hl": gs_cfg.get("hl", "en"),
+            "num": max_results,
+            "as_ylo": start_year,
+            "as_yhi": end_year,
+        }
+        data = request_json(base, params, contact, timeout=35, max_retries=2)
+        if not data:
+            continue
+        for item in data.get("organic_results", [])[:max_results]:
+            title = normalize_title(item.get("title") or "")
+            if not title:
+                continue
+            snippet = normalize_title(item.get("snippet") or "")
+            info = item.get("publication_info") or {}
+            summary = normalize_title(info.get("summary") or "")
+            authors, venue = scholar_parse_publication_info(info)
+            date = scholar_extract_year(f"{summary} {snippet}", start_year, end_year)
+            link = item.get("link") or ""
+            result_id = str(item.get("result_id") or item.get("position") or "")
+            papers.append(Paper(
+                title=title,
+                abstract=snippet,
+                authors=authors,
+                source="Google Scholar/SerpAPI",
+                venue=venue,
+                date=date,
+                doi="",
+                url=link,
+                source_id=result_id,
+            ))
+        time.sleep(float(gs_cfg.get("sleep_seconds", 1.0)))
+    return papers
+
+
 def deduplicate(papers: List[Paper]) -> List[Paper]:
     by_key: Dict[str, Paper] = {}
     for p in papers:
@@ -432,11 +598,16 @@ def deduplicate(papers: List[Paper]) -> List[Paper]:
             by_key[key] = p
             continue
         old = by_key[key]
-        # 优先保留信息更完整、分数更高的记录
-        if (len(p.abstract) + len(p.venue) + len(p.doi) + p.score) > (len(old.abstract) + len(old.venue) + len(old.doi) + old.score):
-            # 合并来源标记
+        old_info = len(old.abstract) + len(old.venue) + len(old.doi) + old.score
+        new_info = len(p.abstract) + len(p.venue) + len(p.doi) + p.score
+        if new_info > old_info:
             p.source = old.source if old.source == p.source else f"{old.source}+{p.source}"
             by_key[key] = p
+        else:
+            if p.source not in old.source:
+                old.source = f"{old.source}+{p.source}"
+            if not old.url and p.url:
+                old.url = p.url
     return list(by_key.values())
 
 
@@ -448,32 +619,37 @@ def collect_candidates(cfg: Dict[str, Any], days: int) -> List[Paper]:
     papers.extend(fetch_openalex(cfg, start, end))
     papers.extend(fetch_crossref(cfg, start, end))
     papers.extend(fetch_semantic_scholar(cfg, start, end))
+    papers.extend(fetch_google_scholar(cfg, start, end))
 
     for p in papers:
         p.score = score_paper(p, cfg)
-        p.level = level_from_score(p.score)
-    papers = deduplicate(papers)
-    papers.sort(key=lambda x: (x.level != "A", -x.score, x.date), reverse=False)
+        p.level = level_from_paper(p, cfg)
+
+    papers = [p for p in deduplicate(papers) if p.level != "DROP"]
+    level_order = {"A": 0, "B": 1, "C": 2, "DROP": 3}
+    papers.sort(key=lambda p: (level_order.get(p.level, 3), journal_rank(p, cfg), -p.score, p.date or ""))
     return papers
 
 
 def fallback_summarize(papers: List[Paper]) -> Tuple[str, str, List[Paper]]:
     for p in papers:
-        p.title_zh = p.title  # 无 API 时不强行翻译
+        p.title_zh = p.title
         p.one_sentence = heuristic_sentence(p)
-        p.problem = "围绕电池健康、安全、状态估计或储能管理问题展开。"
+        p.problem = "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。"
         p.contributions = heuristic_contributions(p)
         p.bms_relevance = heuristic_relevance(p)
         p.insight_for_group = heuristic_insight(p)
-        p.reason = f"关键词/期刊综合评分 {p.score}，推荐等级 {p.level}。"
-    overview = f"今日自动检索并筛选出 {len(papers)} 篇电池管理相关论文，其中 A级 {sum(p.level=='A' for p in papers)} 篇，B级 {sum(p.level=='B' for p in papers)} 篇。"
+        rank = journal_rank(p, load_config())
+        rank_note = f"；期刊优先级第 {rank} 位" if rank != 999 else ""
+        p.reason = f"规则评分 {p.score}，推荐等级 {p.level}{rank_note}。"
+    overview = f"今日自动检索并筛选出 {len(papers)} 篇电池管理相关论文，其中 A级 {sum(p.level=='A' for p in papers)} 篇，B级 {sum(p.level=='B' for p in papers)} 篇，C级 {sum(p.level=='C' for p in papers)} 篇。"
     trend = "近期论文主要集中在 SOH/RUL 预测、安全预警、真实工况泛化、储能系统状态不确定性和多源数据融合等方向。"
     return overview, trend, papers
 
 
 def heuristic_sentence(p: Paper) -> str:
     text = f"{p.title} {p.abstract}".lower()
-    if "thermal runaway" in text or "safety" in text:
+    if "thermal runaway" in text or "safety" in text or "warning" in text:
         return "关注电池安全风险识别与热失控早期预警。"
     if "state of health" in text or "soh" in text or "remaining useful life" in text or "rul" in text:
         return "面向电池健康状态估计与寿命预测。"
@@ -494,7 +670,7 @@ def heuristic_contributions(p: Paper) -> List[str]:
 
 def heuristic_relevance(p: Paper) -> str:
     if p.level == "A":
-        return "高：与 BMS 核心任务直接相关，建议精读。"
+        return "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。"
     if p.level == "B":
         return "中高：与 BMS 或储能管理相关，建议浏览。"
     return "中：可作为背景或备选文献。"
@@ -508,15 +684,17 @@ def ai_summarize(cfg: Dict[str, Any], papers: List[Paper]) -> Tuple[str, str, Li
     deepseek_cfg = cfg.get("deepseek", {})
     if not deepseek_cfg.get("enabled", True):
         return fallback_summarize(papers)
+
     api_key = os.getenv("DEEPSEEK_API_KEY", "")
     if not api_key or OpenAI is None:
         print("[WARN] DEEPSEEK_API_KEY missing or openai package unavailable; fallback summary used.", file=sys.stderr)
         return fallback_summarize(papers)
 
-    model = os.getenv("DEEPSEEK_MODEL") or deepseek_cfg.get("model", "deepseek-v4-flash")
+    model = os.getenv("DEEPSEEK_MODEL") or deepseek_cfg.get("model", "deepseek-chat")
     base_url = os.getenv("DEEPSEEK_BASE_URL") or deepseek_cfg.get("base_url", "https://api.deepseek.com")
     max_tokens = int(os.getenv("DEEPSEEK_MAX_TOKENS") or deepseek_cfg.get("max_tokens", 6000))
     prompt = PROMPT_PATH.read_text(encoding="utf-8")
+
     compact = []
     for p in papers:
         compact.append({
@@ -530,12 +708,12 @@ def ai_summarize(cfg: Dict[str, Any], papers: List[Paper]) -> Tuple[str, str, Li
             "source": p.source,
             "score": p.score,
             "heuristic_level": p.level,
+            "journal_rank": journal_rank(p, cfg),
         })
     user_input = "请处理以下论文候选列表：\n" + json.dumps(compact, ensure_ascii=False)
     client = OpenAI(api_key=api_key, base_url=base_url)
+
     try:
-        # DeepSeek 使用 OpenAI-compatible Chat Completions 接口。
-        # deepseek-v4-flash 默认适合低成本日报总结；如需更强推理，可在 Secrets 中设置 DEEPSEEK_MODEL=deepseek-v4-pro。
         resp = client.chat.completions.create(
             model=model,
             messages=[
@@ -550,24 +728,23 @@ def ai_summarize(cfg: Dict[str, Any], papers: List[Paper]) -> Tuple[str, str, Li
         content = resp.choices[0].message.content or ""
         data = extract_json(content)
         by_title = {normalize_key(x.get("title", "")): x for x in data.get("papers", [])}
+
         enriched: List[Paper] = []
         for p in papers:
             item = by_title.get(normalize_key(p.title))
-            if not item:
-                enriched.append(p)
-                continue
-            lvl = item.get("level", p.level)
-            p.level = lvl if lvl in {"A", "B", "C", "DROP"} else p.level
-            p.title_zh = item.get("title_zh", "") or p.title_zh
-            p.one_sentence = item.get("one_sentence", "") or p.one_sentence
-            p.problem = item.get("problem", "") or p.problem
-            p.contributions = item.get("contributions", []) or p.contributions
-            p.bms_relevance = item.get("bms_relevance", "") or p.bms_relevance
-            p.insight_for_group = item.get("insight_for_group", "") or p.insight_for_group
-            p.reason = item.get("reason", "") or p.reason
+            if item:
+                lvl = item.get("level", p.level)
+                p.level = lvl if lvl in {"A", "B", "C", "DROP"} else p.level
+                p.title_zh = item.get("title_zh", "") or p.title_zh
+                p.one_sentence = item.get("one_sentence", "") or p.one_sentence
+                p.problem = item.get("problem", "") or p.problem
+                p.contributions = item.get("contributions", []) or p.contributions
+                p.bms_relevance = item.get("bms_relevance", "") or p.bms_relevance
+                p.insight_for_group = item.get("insight_for_group", "") or p.insight_for_group
+                p.reason = item.get("reason", "") or p.reason
             if p.level != "DROP":
                 enriched.append(p)
-        # 对未被模型补全的条目做兜底
+
         overview = data.get("overview", "") or f"今日保留 {len(enriched)} 篇电池管理相关论文。"
         trend = data.get("trend", "") or "今日论文主要集中在电池健康预测、安全预警和系统级管理方向。"
         _, _, enriched = fallback_fill_missing(enriched)
@@ -592,7 +769,7 @@ def fallback_fill_missing(papers: List[Paper]) -> Tuple[str, str, List[Paper]]:
         if not p.insight_for_group:
             p.insight_for_group = heuristic_insight(p)
         if not p.reason:
-            p.reason = f"关键词/期刊综合评分 {p.score}，推荐等级 {p.level}。"
+            p.reason = f"关键词、BMS相关性和期刊优先级综合评分 {p.score}，推荐等级 {p.level}。"
     return "", "", papers
 
 
@@ -645,6 +822,7 @@ def render_index(cfg: Dict[str, Any]) -> None:
         if path.name == "index.html":
             continue
         reports.append({"filename": path.name, "date": path.stem})
+
     env = Environment(loader=FileSystemLoader(str(TEMPLATE_DIR)), autoescape=select_autoescape(["html", "xml"]))
     template = env.get_template(INDEX_TEMPLATE)
     index_html = template.render(title=cfg["project"].get("name", "Battery Management Literature Daily"), reports=reports)
@@ -655,6 +833,7 @@ def send_email(cfg: Dict[str, Any], subject: str, html_body: str) -> None:
     if not cfg.get("email", {}).get("enabled", True):
         print("[INFO] Email disabled.")
         return
+
     host = os.getenv("SMTP_HOST", "")
     port = int(os.getenv("SMTP_PORT") or "465")
     user = os.getenv("SMTP_USER", "")
@@ -698,26 +877,27 @@ def main() -> int:
     papers = collect_candidates(cfg, lookback)
     kept = [p for p in papers if p.score >= min_score and p.level != "DROP"]
 
-    # 若近 24-48 小时高质量论文不足，自动放宽到 fallback_lookback_days。
     if len(kept) < 3 and fallback > lookback:
         print(f"[INFO] Only {len(kept)} papers found; fallback to {fallback} days.")
         papers = collect_candidates(cfg, fallback)
         kept = [p for p in papers if p.score >= min_score and p.level != "DROP"]
         lookback = fallback
 
-    kept.sort(key=lambda p: ({"A": 0, "B": 1, "C": 2}.get(p.level, 3), -p.score, p.date or ""))
+    level_order = {"A": 0, "B": 1, "C": 2, "DROP": 3}
+    kept.sort(key=lambda p: (level_order.get(p.level, 3), journal_rank(p, cfg), -p.score, p.date or ""))
     kept = kept[:max_final]
 
     if not kept:
         overview = "今日未检索到足够相关的高水平电池管理论文。"
         trend = "建议继续监测 SOH/RUL、安全预警、pack-level 管理和云端 BMS 方向。"
         html_body = render_report(cfg, overview, trend, [], run_date, lookback)
+        final_papers: List[Paper] = []
     else:
         overview, trend, enriched = ai_summarize(cfg, kept)
-        enriched = [p for p in enriched if p.level != "DROP"][:max_final]
-        html_body = render_report(cfg, overview, trend, enriched, run_date, lookback)
-        save_raw_json(cfg, enriched, run_date)
+        final_papers = [p for p in enriched if p.level != "DROP"][:max_final]
+        html_body = render_report(cfg, overview, trend, final_papers, run_date, lookback)
 
+    save_raw_json(cfg, final_papers, run_date)
     output_dir = ROOT / cfg["pages"].get("output_dir", "outputs")
     output_dir.mkdir(exist_ok=True)
     report_path = output_dir / f"{run_date}.html"

@@ -11,10 +11,9 @@ project:
 deepseek:
   # 可被环境变量 DEEPSEEK_MODEL / DEEPSEEK_BASE_URL 覆盖。
   # DeepSeek 官方 OpenAI-compatible base_url: https://api.deepseek.com
-  # 低成本日报建议 deepseek-v4-flash；需要更强推理可改 deepseek-v4-pro。
   enabled: true
   base_url: "https://api.deepseek.com"
-  model: "deepseek-v4-flash"
+  model: "deepseek-chat"
   max_tokens: 6000
 
 sources:
@@ -31,6 +30,16 @@ sources:
     enabled: true
   semantic_scholar:
     enabled: false  # 默认关闭，避免免费额度/限流；需要时可改 true 并添加 S2_API_KEY
+  google_scholar:
+    # Google Scholar 没有官方公开 API；这里通过 SerpAPI 的 google_scholar engine 做补充召回。
+    # GitHub Secrets 中添加 SERPAPI_KEY 后生效；没有 key 时会自动跳过。
+    enabled: true
+    max_queries: 8
+    max_results: 10
+    hl: "en"
+    journal_boost_queries: true
+    max_journal_queries: 8
+    sleep_seconds: 1.0
 
 queries:
   include:
@@ -48,6 +57,9 @@ queries:
     - "physics-informed battery"
     - "battery prognostics"
     - "battery safety warning"
+    - "battery pack degradation"
+    - "battery fleet data"
+    - "battery pack state estimation"
   exclude:
     - "cathode synthesis"
     - "anode synthesis"
@@ -60,6 +72,34 @@ queries:
     - "fuel cell"
     - "recycling only"
     - "material characterization only"
+    - "materials synthesis"
+    - "electrode fabrication"
+    - "electrochemical mechanism only"
+
+bms_core_terms:
+  - "battery management system"
+  - "BMS"
+  - "state of health"
+  - "SOH"
+  - "remaining useful life"
+  - "RUL"
+  - "state of charge"
+  - "SOC"
+  - "fault diagnosis"
+  - "thermal runaway"
+  - "early warning"
+  - "pack inconsistency"
+  - "cell inconsistency"
+  - "battery pack"
+  - "fleet"
+  - "field data"
+  - "real-world"
+  - "energy storage"
+  - "digital twin"
+  - "physics-informed"
+  - "cloud BMS"
+  - "prognostics"
+  - "uncertainty"
 
 high_value_terms:
   - "field data"
@@ -85,8 +125,12 @@ high_value_terms:
   - "incremental capacity"
   - "cloud"
   - "prognostics"
+  - "pack inconsistency"
+  - "cell inconsistency"
 
-journal_whitelist:
+# 用户指定的高水平期刊推荐顺序；排序和加分均按该顺序执行。
+journal_priority:
+  - "Nature"
   - "Nature Energy"
   - "Nature Communications"
   - "Joule"
@@ -96,16 +140,33 @@ journal_whitelist:
   - "Applied Energy"
   - "Journal of Power Sources"
   - "Journal of Energy Storage"
-  - "eTransportation"
   - "IEEE Transactions on Power Electronics"
   - "IEEE Transactions on Transportation Electrification"
   - "IEEE Transactions on Industrial Electronics"
   - "IEEE Transactions on Intelligent Transportation Systems"
+  - "eTransportation"
   - "Cell Reports Physical Science"
   - "Renewable and Sustainable Energy Reviews"
-  - "npj Materials Sustainability"
-  - "Nature Sustainability"
-  - "Energy AI"
+
+# 兼容旧代码/模板命名。
+journal_whitelist:
+  - "Nature"
+  - "Nature Energy"
+  - "Nature Communications"
+  - "Joule"
+  - "Energy & Environmental Science"
+  - "Advanced Energy Materials"
+  - "Energy Storage Materials"
+  - "Applied Energy"
+  - "Journal of Power Sources"
+  - "Journal of Energy Storage"
+  - "IEEE Transactions on Power Electronics"
+  - "IEEE Transactions on Transportation Electrification"
+  - "IEEE Transactions on Industrial Electronics"
+  - "IEEE Transactions on Intelligent Transportation Systems"
+  - "eTransportation"
+  - "Cell Reports Physical Science"
+  - "Renewable and Sustainable Energy Reviews"
 
 email:
   enabled: true
