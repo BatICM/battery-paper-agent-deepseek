@@ -1,0 +1,116 @@
+project:
+  name: "Battery Management Literature Daily"
+  timezone: "Asia/Shanghai"
+  language: "zh-CN"
+  lookback_days: 2
+  fallback_lookback_days: 7
+  max_candidates_per_source: 40
+  max_final_papers: 12
+  min_score_keep: 20
+
+deepseek:
+  # 可被环境变量 DEEPSEEK_MODEL / DEEPSEEK_BASE_URL 覆盖。
+  # DeepSeek 官方 OpenAI-compatible base_url: https://api.deepseek.com
+  # 低成本日报建议 deepseek-v4-flash；需要更强推理可改 deepseek-v4-pro。
+  enabled: true
+  base_url: "https://api.deepseek.com"
+  model: "deepseek-v4-flash"
+  max_tokens: 6000
+
+sources:
+  arxiv:
+    enabled: true
+    categories:
+      - cs.LG
+      - cs.AI
+      - eess.SY
+      - stat.ML
+  openalex:
+    enabled: true
+  crossref:
+    enabled: true
+  semantic_scholar:
+    enabled: false  # 默认关闭，避免免费额度/限流；需要时可改 true 并添加 S2_API_KEY
+
+queries:
+  include:
+    - "battery management system"
+    - "state of health battery"
+    - "remaining useful life battery"
+    - "state of charge battery"
+    - "battery fault diagnosis"
+    - "thermal runaway early warning battery"
+    - "battery pack inconsistency"
+    - "cloud battery management"
+    - "EV fleet battery health"
+    - "energy storage battery health management"
+    - "battery digital twin"
+    - "physics-informed battery"
+    - "battery prognostics"
+    - "battery safety warning"
+  exclude:
+    - "cathode synthesis"
+    - "anode synthesis"
+    - "electrolyte additive"
+    - "solid-state electrolyte"
+    - "lithium metal anode"
+    - "sodium metal anode"
+    - "catalyst"
+    - "hydrogen evolution"
+    - "fuel cell"
+    - "recycling only"
+    - "material characterization only"
+
+high_value_terms:
+  - "field data"
+  - "real-world"
+  - "fleet"
+  - "pack"
+  - "energy storage"
+  - "BMS"
+  - "state of health"
+  - "SOH"
+  - "remaining useful life"
+  - "RUL"
+  - "state of charge"
+  - "SOC"
+  - "fault diagnosis"
+  - "thermal runaway"
+  - "early warning"
+  - "digital twin"
+  - "physics-informed"
+  - "uncertainty"
+  - "transfer learning"
+  - "domain adaptation"
+  - "incremental capacity"
+  - "cloud"
+  - "prognostics"
+
+journal_whitelist:
+  - "Nature Energy"
+  - "Nature Communications"
+  - "Joule"
+  - "Energy & Environmental Science"
+  - "Advanced Energy Materials"
+  - "Energy Storage Materials"
+  - "Applied Energy"
+  - "Journal of Power Sources"
+  - "Journal of Energy Storage"
+  - "eTransportation"
+  - "IEEE Transactions on Power Electronics"
+  - "IEEE Transactions on Transportation Electrification"
+  - "IEEE Transactions on Industrial Electronics"
+  - "IEEE Transactions on Intelligent Transportation Systems"
+  - "Cell Reports Physical Science"
+  - "Renewable and Sustainable Energy Reviews"
+  - "npj Materials Sustainability"
+  - "Nature Sustainability"
+  - "Energy AI"
+
+email:
+  enabled: true
+  subject_prefix: "BMS论文日报"
+
+pages:
+  enabled: true
+  output_dir: "outputs"

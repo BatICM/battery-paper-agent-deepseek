@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ title }}｜{{ run_date }}</title>
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",Arial,sans-serif;line-height:1.68;color:#1f2933;background:#f5f7fa;margin:0;padding:0;}
+    .container{max-width:1040px;margin:0 auto;padding:28px 20px 44px;}
+    .header{background:linear-gradient(135deg,#063b5c,#0b7285);color:#fff;border-radius:18px;padding:28px 30px;margin-bottom:22px;box-shadow:0 8px 22px rgba(0,0,0,.12);}
+    .header h1{margin:0 0 12px;font-size:28px;letter-spacing:.3px;}
+    .header p{margin:4px 0;color:#e7f5ff;}
+    .summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:18px 0 6px;}
+    .stat{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.22);border-radius:14px;padding:12px 14px;}
+    .stat b{font-size:24px;color:#fff;display:block;}
+    .block{background:#fff;border:1px solid #d9e2ec;border-radius:16px;padding:22px;margin:18px 0;box-shadow:0 2px 10px rgba(15,23,42,.04);}
+    h2{color:#0b3d5c;margin:0 0 14px;font-size:22px;}
+    h3{margin:0 0 10px;font-size:19px;color:#102a43;}
+    .meta{color:#52616b;font-size:14px;margin:4px 0;}
+    .paper{border-top:1px solid #e5edf3;padding-top:18px;margin-top:18px;}
+    .paper:first-child{border-top:none;padding-top:0;margin-top:0;}
+    .tag{display:inline-block;border-radius:999px;padding:4px 10px;color:#fff;font-size:12px;font-weight:700;letter-spacing:.2px;margin-right:8px;}
+    .A{background:#c62828;}.B{background:#ef6c00;}.C{background:#607d8b;}
+    .score{display:inline-block;background:#edf2f7;color:#334e68;border-radius:999px;padding:4px 10px;font-size:12px;}
+    ul{padding-left:22px;margin:8px 0 10px;}
+    a{color:#0b7285;text-decoration:none;}a:hover{text-decoration:underline;}
+    table{width:100%;border-collapse:collapse;background:white;font-size:14px;}
+    th,td{border:1px solid #d9e2ec;padding:10px;vertical-align:top;text-align:left;}
+    th{background:#edf4f7;color:#243b53;}
+    .footer{font-size:13px;color:#697386;text-align:center;margin-top:24px;}
+    @media(max-width:720px){.summary-grid{grid-template-columns:1fr}.header{border-radius:0}.container{padding:0 0 28px}.block{border-radius:0;border-left:none;border-right:none}.header h1{font-size:24px}}
+  </style>
+</head>
+<body>
+<div class="container">
+  <section class="header">
+    <h1>{{ title }}</h1>
+    <p><b>日期：</b>{{ run_date }} ｜ <b>检索窗口：</b>近 {{ lookback_days }} 天 ｜ <b>生成时间：</b>{{ generated_at }}</p>
+    <p>{{ overview }}</p>
+    <div class="summary-grid">
+      <div class="stat"><b>{{ count_a }}</b> A级必读</div>
+      <div class="stat"><b>{{ count_b }}</b> B级浏览</div>
+      <div class="stat"><b>{{ count_c }}</b> C级备选</div>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>一、今日趋势判断</h2>
+    <p>{{ trend }}</p>
+  </section>
+
+  <section class="block">
+    <h2>二、A级必读论文</h2>
+    {% if a_papers %}
+      {% for p in a_papers %}
+      <article class="paper">
+        <h3>{{ loop.index }}. {{ p.title }}</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score {{ p.score }}</span></p>
+        {% if p.title_zh %}<p class="meta"><b>中文题目：</b>{{ p.title_zh }}</p>{% endif %}
+        <p class="meta"><b>作者：</b>{{ p.short_authors() }}</p>
+        <p class="meta"><b>来源：</b>{{ p.venue }} ｜ <b>日期：</b>{{ p.date or "未知" }} ｜ <b>数据源：</b>{{ p.source }}</p>
+        {% if p.doi %}<p class="meta"><b>DOI：</b>{{ p.doi }}</p>{% endif %}
+        {% if p.url %}<p class="meta"><b>链接：</b><a href="{{ p.url }}">{{ p.url }}</a></p>{% endif %}
+        <p><b>一句话总结：</b>{{ p.one_sentence }}</p>
+        <p><b>研究问题：</b>{{ p.problem }}</p>
+        <p><b>核心贡献：</b></p>
+        <ul>{% for c in p.contributions %}<li>{{ c }}</li>{% endfor %}</ul>
+        <p><b>与BMS相关性：</b>{{ p.bms_relevance }}</p>
+        <p><b>对课题组启发：</b>{{ p.insight_for_group }}</p>
+        <p><b>推荐理由：</b>{{ p.reason }}</p>
+      </article>
+      {% endfor %}
+    {% else %}
+      <p>今日未筛选出A级必读论文。</p>
+    {% endif %}
+  </section>
+
+  <section class="block">
+    <h2>三、B级建议浏览论文</h2>
+    {% if b_papers %}
+      {% for p in b_papers %}
+      <article class="paper">
+        <h3>{{ loop.index }}. {{ p.title }}</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score {{ p.score }}</span></p>
+        {% if p.title_zh %}<p class="meta"><b>中文题目：</b>{{ p.title_zh }}</p>{% endif %}
+        <p class="meta"><b>作者：</b>{{ p.short_authors() }}</p>
+        <p class="meta"><b>来源：</b>{{ p.venue }} ｜ <b>日期：</b>{{ p.date or "未知" }} ｜ <b>数据源：</b>{{ p.source }}</p>
+        {% if p.doi %}<p class="meta"><b>DOI：</b>{{ p.doi }}</p>{% endif %}
+        {% if p.url %}<p class="meta"><b>链接：</b><a href="{{ p.url }}">{{ p.url }}</a></p>{% endif %}
+        <p><b>一句话总结：</b>{{ p.one_sentence }}</p>
+        <ul>{% for c in p.contributions %}<li>{{ c }}</li>{% endfor %}</ul>
+        <p><b>与BMS相关性：</b>{{ p.bms_relevance }}</p>
+        <p><b>对课题组启发：</b>{{ p.insight_for_group }}</p>
+      </article>
+      {% endfor %}
+    {% else %}
+      <p>今日未筛选出B级建议浏览论文。</p>
+    {% endif %}
+  </section>
+
+  <section class="block">
+    <h2>四、C级备选与快速浏览</h2>
+    {% if c_papers %}
+    <table>
+      <thead><tr><th>标题</th><th>来源</th><th>日期</th><th>推荐理由</th></tr></thead>
+      <tbody>
+      {% for p in c_papers %}
+        <tr>
+          <td>{% if p.url %}<a href="{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</td>
+          <td>{{ p.venue }}</td>
+          <td>{{ p.date or "未知" }}</td>
+          <td>{{ p.reason }}</td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+      <p>今日无C级备选论文。</p>
+    {% endif %}
+  </section>
+
+  <section class="block">
+    <h2>五、今日论文总表</h2>
+    <table>
+      <thead><tr><th>等级</th><th>标题</th><th>期刊/来源</th><th>方向判断</th><th>链接</th></tr></thead>
+      <tbody>
+      {% for p in papers %}
+        <tr>
+          <td><span class="tag {{ p.level }}">{{ p.level }}</span></td>
+          <td>{{ p.title }}</td>
+          <td>{{ p.venue }}</td>
+          <td>{{ p.one_sentence }}</td>
+          <td>{% if p.url %}<a href="{{ p.url }}">Open</a>{% endif %}</td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </section>
+
+  <p class="footer">Generated by battery-paper-agent. 请人工复核关键结论后再用于论文综述或组会汇报。</p>
+</div>
+</body>
+</html>

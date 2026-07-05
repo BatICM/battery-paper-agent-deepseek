@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ title }}｜Archive</title>
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",Arial,sans-serif;background:#f5f7fa;color:#1f2933;margin:0;}
+    .container{max-width:880px;margin:0 auto;padding:38px 22px;}
+    .hero{background:linear-gradient(135deg,#063b5c,#0b7285);color:#fff;border-radius:18px;padding:30px;margin-bottom:22px;}
+    h1{margin:0 0 8px}.card{background:#fff;border:1px solid #d9e2ec;border-radius:14px;padding:18px;margin:12px 0;}
+    a{color:#0b7285;text-decoration:none;font-weight:700}.empty{color:#697386}
+  </style>
+</head>
+<body>
+<div class="container">
+  <section class="hero">
+    <h1>{{ title }}</h1>
+    <p>HTML归档页面。最新日报会按日期自动生成。</p>
+  </section>
+  {% if reports %}
+    {% for r in reports %}
+      <div class="card"><a href="{{ r.filename }}">{{ r.date }} 日报</a></div>
+    {% endfor %}
+  {% else %}
+    <p class="empty">暂无归档。</p>
+  {% endif %}
+</div>
+</body>
+</html>
