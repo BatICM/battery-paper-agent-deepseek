@@ -637,7 +637,7 @@ def send_email(cfg: Dict[str, Any], subject: str, html_body: str) -> None:
         print("[INFO] Email disabled.")
         return
     host = os.getenv("SMTP_HOST", "")
-    port = int(os.getenv("SMTP_PORT", "465"))
+    port = int(os.getenv("SMTP_PORT") or "465")
     user = os.getenv("SMTP_USER", "")
     password = os.getenv("SMTP_PASS", "")
     sender = os.getenv("EMAIL_FROM", user)
