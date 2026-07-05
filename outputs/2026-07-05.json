@@ -14,17 +14,17 @@
     "source_id": "",
     "score": 112.0,
     "level": "A",
-    "title_zh": "Artificial Intelligence for Battery Management Systems: Challenges and Future Directions",
-    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
-    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "title_zh": "人工智能在电池管理系统中的应用：挑战与未来方向",
+    "one_sentence": "全面综述了AI（ML、DL、RL）在BMS状态估计、故障诊断、退化预测和能量管理中的应用与挑战。",
+    "problem": "传统BMS方法在动态工况下适应性有限，需要AI提升准确性和效率。",
     "contributions": [
-      "提出或评估电池状态估计、健康预测或安全预警方法。",
-      "关注真实工况、pack/系统级应用或模型泛化能力。",
-      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+      "系统梳理了AI驱动的BMS算法及其应用场景",
+      "指出了当前挑战和未来研究方向",
+      "为下一代BMS设计提供了参考框架"
     ],
-    "bms_relevance": "高：与 BMS 核心任务直接相关，建议精读。",
-    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
-    "reason": "关键词/期刊综合评分 112.0，推荐等级 A。"
+    "bms_relevance": "直接针对BMS，涵盖SOC、SOH、故障诊断等核心功能。",
+    "insight_for_group": "可作为团队AI-BMS研究的宏观指导，了解最新算法方向。",
+    "reason": "高质量综述，强相关，对课题组研究方向有重要参考价值。"
   },
   {
     "title": "Impact of State of Charge on Gas Generation Characteristics During Thermal Runaway of Lithium-Ion Batteries and Early Warning Strategy Research",
@@ -46,17 +46,17 @@
     "source_id": "",
     "score": 70.0,
     "level": "A",
-    "title_zh": "Impact of State of Charge on Gas Generation Characteristics During Thermal Runaway of Lithium-Ion Batteries and Early Warning Strategy Research",
-    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
-    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "title_zh": "荷电状态对锂离子电池热失控产气特性的影响及早期预警策略研究",
+    "one_sentence": "揭示了SOC对热失控气体生成的规律，并提出了SOC自适应双参数阈值预警模型。",
+    "problem": "固定阈值热失控预警策略在不同SOC下适应性差，误报漏报率高。",
     "contributions": [
-      "提出或评估电池状态估计、健康预测或安全预警方法。",
-      "关注真实工况、pack/系统级应用或模型泛化能力。",
-      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+      "量化了SOC对气体浓度和温度的影响，差异达2-3个数量级",
+      "分析了高SOC下电解液还原增强的机理",
+      "建立了SOC自适应CO2+温度双参数阈值模型，预警更及时"
     ],
-    "bms_relevance": "高：与 BMS 核心任务直接相关，建议精读。",
-    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
-    "reason": "关键词/期刊综合评分 70.0，推荐等级 A。"
+    "bms_relevance": "直接服务于BMS安全预警功能，提供可实际部署的阈值策略。",
+    "insight_for_group": "可借鉴其SOC自适应思想，开发多参数融合的预警算法。",
+    "reason": "实验数据充分，模型实用，对安全预警研究有直接指导意义。"
   },
   {
     "title": "Preprint for \"Battery Thermal Management Systems: A Comprehensive Review\"",
@@ -77,17 +77,17 @@
     "source_id": "",
     "score": 60.0,
     "level": "B",
-    "title_zh": "Preprint for \"Battery Thermal Management Systems: A Comprehensive Review\"",
-    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
-    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "title_zh": "电池热管理系统综述预印本",
+    "one_sentence": "综述了被动、主动和混合式电池热管理技术，包括空气、液体、相变材料和热管方案。",
+    "problem": "电池热管理技术多样，需要系统比较以指导选型。",
     "contributions": [
-      "提出或评估电池状态估计、健康预测或安全预警方法。",
-      "关注真实工况、pack/系统级应用或模型泛化能力。",
-      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+      "分类梳理了各类热管理方案",
+      "讨论了传热液体和添加剂",
+      "涉及热失控安全缓解措施"
     ],
-    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
-    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
-    "reason": "关键词/期刊综合评分 60.0，推荐等级 B。"
+    "bms_relevance": "与BMS热管理相关，偏重硬件设计而非算法。",
+    "insight_for_group": "可作为热管理方案选型的参考，但对算法研究启发有限。",
+    "reason": "综述全面但偏传统，创新性一般，浏览即可。"
   },
   {
     "title": "A time–frequency transformer-CNN gated hybrid framework for ship pump remaining useful life prediction",
@@ -140,18 +140,18 @@
     "url": "https://doi.org/10.1016/j.est.2026.123407",
     "source_id": "",
     "score": 55.0,
-    "level": "B",
-    "title_zh": "Adaptive improved particle swarm optimization-based maximum power point tracking and energy smoothing for photovoltaic hybrid battery–supercapacitor storage systems",
-    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
-    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "level": "C",
+    "title_zh": "基于自适应改进粒子群优化的光伏混合电池-超级电容储能系统最大功率点跟踪与能量平滑",
+    "one_sentence": "提出自适应IPSO算法用于光伏混合储能系统的MPPT和电池-超级电容协调控制。",
+    "problem": "光伏出力的间歇性和非线性导致MPPT及储能协调控制困难。",
     "contributions": [
-      "提出或评估电池状态估计、健康预测或安全预警方法。",
-      "关注真实工况、pack/系统级应用或模型泛化能力。",
-      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+      "设计了自适应惯性调整、速度钳制和停滞重初始化的IPSO",
+      "实现了电池-超级电容协调运行以减轻电池应力",
+      "在动态辐照和温度条件下验证了性能"
     ],
-    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
-    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
-    "reason": "关键词/期刊综合评分 55.0，推荐等级 B。"
+    "bms_relevance": "涉及电池储能系统的能量管理和协调控制，与BMS中能量管理部分相关。",
+    "insight_for_group": "可关注其多目标优化方法在BMS能量管理中的潜在应用。",
+    "reason": "主题边缘相关，偏光伏系统，创新点一般，作为备选。"
   },
   {
     "title": "Multivariate feature-disentangled graph-enforced domain adaptation with multi-objective deep learning for remaining useful life prediction of lithium-ion batteries",
@@ -167,18 +167,18 @@
     "url": "https://doi.org/10.1016/j.est.2026.122771",
     "source_id": "",
     "score": 51.0,
-    "level": "B",
-    "title_zh": "Multivariate feature-disentangled graph-enforced domain adaptation with multi-objective deep learning for remaining useful life prediction of lithium-ion batteries",
-    "one_sentence": "面向电池健康状态估计与寿命预测。",
-    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "level": "A",
+    "title_zh": "基于多变量特征解耦图增强域适应和多目标深度学习的锂离子电池剩余寿命预测",
+    "one_sentence": "提出了结合特征解耦、图结构和域适应的多目标深度学习模型用于电池RUL预测。",
+    "problem": "不同工况下电池退化模式差异大，传统模型跨域泛化能力不足。",
     "contributions": [
-      "提出或评估电池状态估计、健康预测或安全预警方法。",
-      "关注真实工况、pack/系统级应用或模型泛化能力。",
-      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+      "引入了特征解耦机制分离域不变和域特定特征",
+      "利用图结构捕捉电池间相关性",
+      "多目标学习同时优化预测精度和域对齐"
     ],
-    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
-    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
-    "reason": "关键词/期刊综合评分 51.0，推荐等级 B。"
+    "bms_relevance": "直接解决RUL预测这一BMS核心问题，方法新颖。",
+    "insight_for_group": "可借鉴其域适应和特征解耦思路，提升算法的跨工况鲁棒性。",
+    "reason": "方法创新性强，符合前沿趋势，对RUL预测研究有重要参考价值。"
   },
   {
     "title": "PHASE-ISOLATED LCFVR ENERGY MANIFOLD WITH GEOMETRIC PHASE ISOLATION (GPI)",
@@ -223,17 +223,17 @@
     "source_id": "",
     "score": 47.0,
     "level": "B",
-    "title_zh": "Beyond energy efficiency: A battery-aware reward design for deep reinforcement learning-based energy management in electric vehicles with hybrid storage",
-    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
-    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "title_zh": "超越能效：面向深度强化学习电动汽车混合储能能量管理的电池感知奖励设计",
+    "one_sentence": "设计了考虑电池寿命的奖励函数，用于DRL优化的电动汽车混合储能能量管理。",
+    "problem": "传统DRL能量管理只优化能效，忽略电池退化。",
     "contributions": [
-      "提出或评估电池状态估计、健康预测或安全预警方法。",
-      "关注真实工况、pack/系统级应用或模型泛化能力。",
-      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+      "提出了电池感知的奖励函数",
+      "在混合储能系统中验证了方法",
+      "平衡了能效和电池寿命"
     ],
-    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
-    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
-    "reason": "关键词/期刊综合评分 47.0，推荐等级 B。"
+    "bms_relevance": "直接针对电动汽车BMS的能量管理策略，关注电池健康。",
+    "insight_for_group": "可启发课题组在DRL框架中融入电池健康目标。",
+    "reason": "主题相关，创新点明确，但需要更充分验证。"
   },
   {
     "title": "Deep reinforcement learning for battery thermal management with multi-cycle random training: Simulation and experimental validation",
@@ -256,18 +256,18 @@
     "url": "https://doi.org/10.1016/j.est.2026.123392",
     "source_id": "",
     "score": 47.0,
-    "level": "B",
-    "title_zh": "Deep reinforcement learning for battery thermal management with multi-cycle random training: Simulation and experimental validation",
-    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
-    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "level": "A",
+    "title_zh": "基于深度强化学习的电池热管理：多周期随机训练与实验验证",
+    "one_sentence": "利用深度强化学习实现电池热管理，并通过多周期随机训练和实验验证优化冷却策略。",
+    "problem": "传统热管理策略难以适应动态工况，DRL提供自适应用优化。",
     "contributions": [
-      "提出或评估电池状态估计、健康预测或安全预警方法。",
-      "关注真实工况、pack/系统级应用或模型泛化能力。",
-      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+      "提出了DRL框架用于电池热管理",
+      "设计了多周期随机训练策略提升泛化性",
+      "进行了仿真和实验验证"
     ],
-    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
-    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
-    "reason": "关键词/期刊综合评分 47.0，推荐等级 B。"
+    "bms_relevance": "直接服务于BMS热管理功能，且实验验证增加了可靠性。",
+    "insight_for_group": "可学习其DRL应用于实际系统的经验，推动算法落地。",
+    "reason": "方法前沿且有实验验证，对BMS智能热管理研究具有示范意义。"
   },
   {
     "title": "Advances in Microchannel Cooling Systems for Battery Thermal Management: A Comprehensive Review",
@@ -283,18 +283,18 @@
     "url": "https://doi.org/10.26437/ba5ay798",
     "source_id": "",
     "score": 46.0,
-    "level": "B",
-    "title_zh": "Advances in Microchannel Cooling Systems for Battery Thermal Management: A Comprehensive Review",
-    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
-    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "level": "C",
+    "title_zh": "微通道冷却系统在电池热管理中的进展综述",
+    "one_sentence": "综述了微通道冷却设计（直、蛇形、波纹、针翅等）及冷却液对热性能的影响。",
+    "problem": "电池热管理中微通道冷却的设计优化和性能评估。",
     "contributions": [
-      "提出或评估电池状态估计、健康预测或安全预警方法。",
-      "关注真实工况、pack/系统级应用或模型泛化能力。",
-      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+      "分类比较了不同微通道几何形状",
+      "讨论了水、纳米流体、介电液体等冷却液",
+      "分析了温度均匀性和压降权衡"
     ],
-    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
-    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
-    "reason": "关键词/期刊综合评分 46.0，推荐等级 B。"
+    "bms_relevance": "偏向热管理硬件设计，与BMS热控制算法间接相关。",
+    "insight_for_group": "可了解热管理硬件趋势，但对算法研究启发有限。",
+    "reason": "综述较全面但创新不足，作为背景阅读。"
   },
   {
     "title": "AI-Driven Smart Charging and Fire-Risk-Aware Governance for Multi-Unit Dwellings",
@@ -311,17 +311,17 @@
     "source_id": "",
     "score": 44.0,
     "level": "C",
-    "title_zh": "AI-Driven Smart Charging and Fire-Risk-Aware Governance for Multi-Unit Dwellings",
-    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
-    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "title_zh": "多单元住宅中AI驱动的智能充电与火灾风险感知治理",
+    "one_sentence": "提出集成框架整合EV充电协调、需求预测和火灾风险感知，降低变压器过载和火灾风险。",
+    "problem": "多单元住宅中集中充电导致电网过载和火灾风险加剧。",
     "contributions": [
-      "提出或评估电池状态估计、健康预测或安全预警方法。",
-      "关注真实工况、pack/系统级应用或模型泛化能力。",
-      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+      "耦合了EV采用、充电行为、XGBoost预测和线性规划优化",
+      "协调控制降低峰值44.7%",
+      "提出五支柱火灾风险治理架构"
     ],
-    "bms_relevance": "中：可作为背景或备选文献。",
-    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
-    "reason": "关键词/期刊综合评分 44.0，推荐等级 C。"
+    "bms_relevance": "涉及电动汽车充电管理与安全性，与BMS中的充电策略和安全预警有一定关联。",
+    "insight_for_group": "可参考其多目标协调和风险感知方法，但应用场景偏建筑层面。",
+    "reason": "主题边缘相关，但方法思路可迁移，作为备选。"
   },
   {
     "title": "Machine Learning for Zinc‐Based Energy Storage Devices: From Data‐Driven Design to Mechanistic Insights",
