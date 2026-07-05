@@ -106,13 +106,32 @@ def date_window(days: int) -> Tuple[str, str]:
 
 def request_json(url: str, params: Dict[str, Any], contact_email: str = "", timeout: int = 25) -> Optional[Dict[str, Any]]:
     headers = {"User-Agent": USER_AGENT.format(email=contact_email or "unknown@example.com")}
-    try:
-        r = requests.get(url, params=params, headers=headers, timeout=timeout)
-        r.raise_for_status()
-        return r.json()
-    except Exception as exc:
-        print(f"[WARN] request_json failed: {url} {params} :: {exc}", file=sys.stderr)
-        return None
+
+    for attempt in range(4):
+        try:
+            r = requests.get(url, params=params, headers=headers, timeout=timeout)
+
+            if r.status_code == 429:
+                retry_after = r.headers.get("Retry-After")
+                wait = int(retry_after) if retry_after and retry_after.isdigit() else min(60, 8 * (attempt + 1))
+                print(f"[WARN] 429 rate limited: {url}; sleep {wait}s then retry...", file=sys.stderr)
+                time.sleep(wait)
+                continue
+
+            r.raise_for_status()
+            return r.json()
+
+        except Exception as exc:
+            if attempt < 3:
+                wait = min(60, 5 * (attempt + 1))
+                print(f"[WARN] request_json failed, retry in {wait}s: {url} {params} :: {exc}", file=sys.stderr)
+                time.sleep(wait)
+                continue
+
+            print(f"[WARN] request_json failed: {url} {params} :: {exc}", file=sys.stderr)
+            return None
+
+    return None
 
 
 def request_text(url: str, params: Dict[str, Any], contact_email: str = "", timeout: int = 25) -> Optional[str]:
