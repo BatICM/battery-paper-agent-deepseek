@@ -15,15 +15,15 @@
     "score": 160.0,
     "level": "B",
     "title_zh": "电池管理系统的人工智能：挑战与未来方向",
-    "one_sentence": "综述了AI在BMS中的应用现状和未来方向，但期刊水平较低。",
-    "problem": "如何利用AI提升BMS的适应性、准确性和效率？",
+    "one_sentence": "综述了AI在BMS中的应用，包括状态估计、故障诊断和能量管理，并指出了挑战。",
+    "problem": "传统BMS方法在动态工况下适应性有限，需要AI提升性能和精度。",
     "contributions": [
-      "全面回顾了机器学习、深度学习、强化学习在电池状态估计、故障诊断、寿命预测中的应用",
-      "总结了当前挑战和未来研究方向"
+      "系统综述AI方法在BMS各领域的应用进展",
+      "识别当前挑战并展望未来研究方向"
     ],
-    "bms_relevance": "直接针对BMS的AI方法综述，与电池管理核心任务相关。",
-    "insight_for_group": "可作为AI方法在BMS中应用的入门参考，但需注意期刊权威性不足。",
-    "reason": "B级：与BMS直接相关，但期刊（International Scientific Journal of Engineering and Management）不在高水平优先列表中，创新性一般。"
+    "bms_relevance": "直接针对BMS，涵盖SOC/SOH估计、故障诊断等核心功能，与BMS紧密相关。",
+    "insight_for_group": "可作为AI在BMS应用的入门综述，但创新性一般，适合快速了解领域现状。",
+    "reason": "B级：虽相关性强，但期刊水平较低（非优先列表期刊），创新性有限，适合浏览。"
   },
   {
     "title": "A time–frequency transformer-CNN gated hybrid framework for ship pump remaining useful life prediction",
@@ -73,15 +73,15 @@
     "score": 66.0,
     "level": "C",
     "title_zh": "微通道冷却系统在电池热管理中的进展：综述",
-    "one_sentence": "综述了微通道冷却在电池热管理中的应用，但期刊水平低。",
-    "problem": "如何通过微通道设计提升电池热管理性能？",
+    "one_sentence": "综述了微通道冷却技术在锂离子电池热管理中的设计、性能和 coolant 选择。",
+    "problem": "电池热管理效率不足，微通道冷却方案需要系统评估。",
     "contributions": [
-      "分类梳理了不同微通道结构的冷却性能",
-      "分析了冷却剂类型和材料选择的影响"
+      "总结了直、蛇形、波形等微通道几何结构",
+      "分析了冷却剂类型对热性能和压降的影响"
     ],
-    "bms_relevance": "属于电池热管理范畴，与BMS间接相关（热管理子系统）。",
-    "insight_for_group": "可作为热管理设计的背景参考，但研究价值有限。",
-    "reason": "C级：相关但综述性工作，期刊（African Journal Of Applied Research）非高水平。"
+    "bms_relevance": "属于BMS热管理子领域，但侧重冷却系统设计而非算法或状态估计，相关性边缘。",
+    "insight_for_group": "对热管理硬件设计有参考价值，但课题组主要关注算法和状态估计，启发有限。",
+    "reason": "C级：相关但边缘，期刊非优先列表，可作为备选。"
   },
   {
     "title": "Physics-Informed Multi-Scale Network with Loss-Guided Curriculum Learning for Robust Fault Diagnosis",
@@ -226,16 +226,16 @@
     "score": 55.5,
     "level": "A",
     "title_zh": "基于膨胀力观测的高容量磷酸铁锂电池荷电状态估计方法",
-    "one_sentence": "提出利用膨胀力观测辅助SOC估计，发表在Journal of Power Sources。",
-    "problem": "高容量LFP电池SOC估计精度受限于平坦OCV曲线，如何利用机械信号提高精度？",
+    "one_sentence": "提出利用膨胀力辅助的高容量LFP电池SOC估计方法。",
+    "problem": "高容量LFP电池SOC估计精度受限于电压平台平坦和温度效应。",
     "contributions": [
-      "首次将膨胀力作为辅助观测量用于SOC估计",
-      "设计了融合电化学-力学模型的状态估计算法",
-      "实验验证了所提方法的有效性"
+      "首次将膨胀力测量用于SOC估计",
+      "建立了膨胀力与SOC的映射关系",
+      "实验验证了该方法相比传统电压方法的精度提升"
     ],
-    "bms_relevance": "直接解决BMS核心SOC估计问题，利用多传感器融合提升精度。",
-    "insight_for_group": "可借鉴膨胀力等机械信号在状态估计中的应用，拓展课题组在数据融合方面的研究。",
-    "reason": "A级：强相关且发表在Journal of Power Sources（优先列表第9位），方法创新且实用。"
+    "bms_relevance": "直接针对BMS核心SOC估计问题，利用新型传感器信号提升估计精度，与状态估计强相关。",
+    "insight_for_group": "启发考虑多模态物理信号（如膨胀力、应力）辅助SOC/SOH估计，尤其适用于LFP电池。",
+    "reason": "A级：来自Journal of Power Sources（优先列表第9），方法新颖，直接创新SOC估计，必须关注。"
   },
   {
     "title": "Deep reinforcement learning for battery thermal management with multi-cycle random training: Simulation and experimental validation",
@@ -259,17 +259,17 @@
     "source_id": "",
     "score": 64.69,
     "level": "A",
-    "title_zh": "基于深度强化学习的电池热管理方法：多循环随机训练与实验验证",
-    "one_sentence": "采用深度强化学习优化电池热管理策略，并进行了实验验证。",
-    "problem": "传统热管理策略难以适应动态工况，如何通过智能控制提升冷却效率？",
+    "title_zh": "基于多循环随机训练的深度强化学习电池热管理：仿真与实验验证",
+    "one_sentence": "提出深度强化学习方法进行电池热管理控制，并通过多循环随机训练和实验验证。",
+    "problem": "传统热管理策略难以适应动态工况，需智能控制方法优化冷却效率。",
     "contributions": [
-      "提出基于深度强化学习的电池热管理框架",
-      "设计了多周期随机训练方法提升泛化能力",
-      "在仿真和实验平台上验证了优越性"
+      "将深度强化学习应用于电池热管理控制",
+      "提出多循环随机训练策略提升泛化性",
+      "仿真与实验验证了方法的有效性"
     ],
-    "bms_relevance": "直接针对BMS中的热管理子系统，结合强化学习实现智能控制。",
-    "insight_for_group": "可应用于实际BMS热管理控制，课题组可在cloud/edge BMS场景中探索类似方法。",
-    "reason": "A级：强相关且发表在Journal of Energy Storage（优先列表第10位），方法新颖且有实验验证。"
+    "bms_relevance": "直接解决BMS热管理控制问题，利用DRL实现智能决策，属于BMS控制算法。",
+    "insight_for_group": "强化学习在BMS控制中的应用值得借鉴，可探索在SOC/SOH估计中结合RL的方法。",
+    "reason": "A级：来自Journal of Energy Storage（优先列表第10），方法创新且实验验证，属于BMS前沿方向。"
   },
   {
     "title": "Resilient switching control for battery energy storage systems in direct current microgrids against false data injection attacks",
@@ -287,18 +287,18 @@
     "url": "https://doi.org/10.1016/j.est.2026.123349",
     "source_id": "",
     "score": 60.69,
-    "level": "B",
-    "title_zh": "直流微电网中电池储能系统对虚假数据注入攻击的弹性切换控制",
-    "one_sentence": "针对直流微电网中BESS面临的数据攻击，设计了弹性切换控制策略。",
-    "problem": "如何保护BESS免受虚假数据注入攻击的影响，确保电力系统稳定？",
+    "level": "A",
+    "title_zh": "直流微电网中电池储能系统抵御虚假数据注入攻击的弹性切换控制",
+    "one_sentence": "提出针对虚假数据注入攻击的电池储能系统弹性切换控制方法。",
+    "problem": "BESS在直流微电网中易受网络攻击，影响安全稳定运行。",
     "contributions": [
-      "建立了攻击下的BESS切换系统模型",
-      "设计了基于李雅普诺夫的弹性控制器",
-      "仿真验证了控制策略的有效性"
+      "设计弹性切换控制器抵御虚假数据注入攻击",
+      "理论证明了控制器的稳定性和安全性",
+      "仿真验证了方法在攻击下的有效性"
     ],
-    "bms_relevance": "涉及储能系统控制与安全，但更侧重微电网控制而非BMS核心状态估计。",
-    "insight_for_group": "对于BMS安全预警和系统级控制有一定启发，但需结合电池模型细化。",
-    "reason": "B级：相关但偏向电力系统控制，发表在Journal of Energy Storage（第10位），创新性一般。"
+    "bms_relevance": "涉及BMS安全与系统级控制，但更侧重微电网层面而非单体电池管理，仍属BMS延伸。",
+    "insight_for_group": "云/边缘BMS需考虑网络安全，弹性控制思想可应用于BMS通信协议设计。",
+    "reason": "A级：来自Journal of Energy Storage（优先列表第10），研究BMS网络安全，是新兴热点，值得关注。"
   },
   {
     "title": "Overview of the limb injury measurement battery for quality of life (LIMB-QOL)",
@@ -350,15 +350,15 @@
     "source_id": "",
     "score": 32.0,
     "level": "C",
-    "title_zh": "英国公共充电桩中荷电状态驱动的充电行为实证研究",
-    "one_sentence": "基于实际数据分析了SOC对充电行为的影响。",
-    "problem": "真实世界中SOC如何影响电动汽车用户的充电决策？",
+    "title_zh": "英国公共充电桩荷电状态驱动的充电行为实证研究",
+    "one_sentence": "通过英国公共充电桩真实数据分析了基于SOC的充电行为特征。",
+    "problem": "充电行为研究多基于模型或问卷，缺乏真实数据验证。",
     "contributions": [
-      "利用高保真充电桩实测数据",
-      "量化了SOC对充电时长和频率的影响"
+      "提供90天真实充电数据并分析SOC驱动行为",
+      "挑战了现有理论假设"
     ],
-    "bms_relevance": "涉及SOC与用户行为的关联，与BMS中的充电策略优化间接相关。",
-    "insight_for_group": "可指导充电设施规划，但与BMS核心技术距离较远。",
-    "reason": "C级：边缘相关，期刊（International Journal of Innovative Science and Research Technology）非高水平。"
+    "bms_relevance": "涉及SOC与用户行为，但侧重充电基础设施应用，非BMS核心功能，相关性边缘。",
+    "insight_for_group": "真实充电数据可用于验证SOC估计算法，但行为分析本身对课题组启发有限。",
+    "reason": "C级：来自低水平期刊，相关性边缘，但数据对field data研究有间接参考。"
   }
 ]

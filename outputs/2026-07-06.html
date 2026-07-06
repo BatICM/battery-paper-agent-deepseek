@@ -35,18 +35,18 @@
 <div class="container">
   <section class="header">
     <h1>Battery Management Literature Daily</h1>
-    <p><b>日期：</b>2026-07-06 ｜ <b>检索窗口：</b>近 2 天 ｜ <b>生成时间：</b>2026-07-06 10:16:49 UTC+8</p>
-    <p>今日候选论文中，与BMS强相关的有三篇，分别涉及SOC估计、热管理控制和储能系统弹性控制，其中两篇发表在Journal of Power Sources和Journal of Energy Storage，具有较好研究价值。还有一篇AI综述和一篇热管理综述相关但期刊质量较低，一篇充电行为研究边缘相关。</p>
+    <p><b>日期：</b>2026-07-06 ｜ <b>检索窗口：</b>近 2 天 ｜ <b>生成时间：</b>2026-07-06 12:49:44 UTC+8</p>
+    <p>今日共检索到12篇候选论文，其中6篇与BMS直接相关，包括SOC估计、热管理控制、安全弹性控制等，主要来自Journal of Power Sources和Journal of Energy Storage等高水平期刊，反映了BMS领域向数据驱动、智能控制和系统安全发展的趋势。</p>
     <div class="summary-grid">
-      <div class="stat"><b>2</b> A级必读</div>
-      <div class="stat"><b>6</b> B级浏览</div>
+      <div class="stat"><b>3</b> A级必读</div>
+      <div class="stat"><b>5</b> B级浏览</div>
       <div class="stat"><b>4</b> C级备选</div>
     </div>
   </section>
 
   <section class="block">
     <h2>一、今日趋势判断</h2>
-    <p>电池状态估计和热管理的智能化方法（如深度强化学习）仍是热点，同时考虑网络攻击的弹性控制也开始受到关注。但高水平期刊中与BMS直接相关的研究较少。</p>
+    <p>今日论文显示电池状态估计与热管理深度融合，强化学习与弹性控制成为热点，同时公共充电行为分析开始关注真实数据应用。</p>
   </section>
 
   <section class="block">
@@ -61,30 +61,47 @@
         <p class="meta"><b>来源：</b>Journal of Power Sources ｜ <b>日期：</b>2026-07-04 ｜ <b>数据源：</b>OpenAlex</p>
         <p class="meta"><b>DOI：</b>10.1016/j.jpowsour.2026.240896</p>
         <p class="meta"><b>链接：</b><a href="https://doi.org/10.1016/j.jpowsour.2026.240896">https://doi.org/10.1016/j.jpowsour.2026.240896</a></p>
-        <p><b>一句话总结：</b>提出利用膨胀力观测辅助SOC估计，发表在Journal of Power Sources。</p>
-        <p><b>研究问题：</b>高容量LFP电池SOC估计精度受限于平坦OCV曲线，如何利用机械信号提高精度？</p>
+        <p><b>一句话总结：</b>提出利用膨胀力辅助的高容量LFP电池SOC估计方法。</p>
+        <p><b>研究问题：</b>高容量LFP电池SOC估计精度受限于电压平台平坦和温度效应。</p>
         <p><b>核心贡献：</b></p>
-        <ul><li>首次将膨胀力作为辅助观测量用于SOC估计</li><li>设计了融合电化学-力学模型的状态估计算法</li><li>实验验证了所提方法的有效性</li></ul>
-        <p><b>与BMS相关性：</b>直接解决BMS核心SOC估计问题，利用多传感器融合提升精度。</p>
-        <p><b>对课题组启发：</b>可借鉴膨胀力等机械信号在状态估计中的应用，拓展课题组在数据融合方面的研究。</p>
-        <p><b>推荐理由：</b>A级：强相关且发表在Journal of Power Sources（优先列表第9位），方法创新且实用。</p>
+        <ul><li>首次将膨胀力测量用于SOC估计</li><li>建立了膨胀力与SOC的映射关系</li><li>实验验证了该方法相比传统电压方法的精度提升</li></ul>
+        <p><b>与BMS相关性：</b>直接针对BMS核心SOC估计问题，利用新型传感器信号提升估计精度，与状态估计强相关。</p>
+        <p><b>对课题组启发：</b>启发考虑多模态物理信号（如膨胀力、应力）辅助SOC/SOH估计，尤其适用于LFP电池。</p>
+        <p><b>推荐理由：</b>A级：来自Journal of Power Sources（优先列表第9），方法新颖，直接创新SOC估计，必须关注。</p>
       </article>
       
       <article class="paper">
         <h3>2. Deep reinforcement learning for battery thermal management with multi-cycle random training: Simulation and experimental validation</h3>
         <p><span class="tag A">A级必读</span><span class="score">Score 64.69</span></p>
-        <p class="meta"><b>中文题目：</b>基于深度强化学习的电池热管理方法：多循环随机训练与实验验证</p>
+        <p class="meta"><b>中文题目：</b>基于多循环随机训练的深度强化学习电池热管理：仿真与实验验证</p>
         <p class="meta"><b>作者：</b>Jifei Zhao, Rolla Almodfer, Hang Su, Ye Yuan, Meng Sun et al.</p>
         <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>2026-07-04 ｜ <b>数据源：</b>OpenAlex</p>
         <p class="meta"><b>DOI：</b>10.1016/j.est.2026.123392</p>
         <p class="meta"><b>链接：</b><a href="https://doi.org/10.1016/j.est.2026.123392">https://doi.org/10.1016/j.est.2026.123392</a></p>
-        <p><b>一句话总结：</b>采用深度强化学习优化电池热管理策略，并进行了实验验证。</p>
-        <p><b>研究问题：</b>传统热管理策略难以适应动态工况，如何通过智能控制提升冷却效率？</p>
+        <p><b>一句话总结：</b>提出深度强化学习方法进行电池热管理控制，并通过多循环随机训练和实验验证。</p>
+        <p><b>研究问题：</b>传统热管理策略难以适应动态工况，需智能控制方法优化冷却效率。</p>
         <p><b>核心贡献：</b></p>
-        <ul><li>提出基于深度强化学习的电池热管理框架</li><li>设计了多周期随机训练方法提升泛化能力</li><li>在仿真和实验平台上验证了优越性</li></ul>
-        <p><b>与BMS相关性：</b>直接针对BMS中的热管理子系统，结合强化学习实现智能控制。</p>
-        <p><b>对课题组启发：</b>可应用于实际BMS热管理控制，课题组可在cloud/edge BMS场景中探索类似方法。</p>
-        <p><b>推荐理由：</b>A级：强相关且发表在Journal of Energy Storage（优先列表第10位），方法新颖且有实验验证。</p>
+        <ul><li>将深度强化学习应用于电池热管理控制</li><li>提出多循环随机训练策略提升泛化性</li><li>仿真与实验验证了方法的有效性</li></ul>
+        <p><b>与BMS相关性：</b>直接解决BMS热管理控制问题，利用DRL实现智能决策，属于BMS控制算法。</p>
+        <p><b>对课题组启发：</b>强化学习在BMS控制中的应用值得借鉴，可探索在SOC/SOH估计中结合RL的方法。</p>
+        <p><b>推荐理由：</b>A级：来自Journal of Energy Storage（优先列表第10），方法创新且实验验证，属于BMS前沿方向。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>3. Resilient switching control for battery energy storage systems in direct current microgrids against false data injection attacks</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 60.69</span></p>
+        <p class="meta"><b>中文题目：</b>直流微电网中电池储能系统抵御虚假数据注入攻击的弹性切换控制</p>
+        <p class="meta"><b>作者：</b>X X Li, Feng Xiao, Bo Wei, Pin Liu</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>2026-07-04 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.1016/j.est.2026.123349</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1016/j.est.2026.123349">https://doi.org/10.1016/j.est.2026.123349</a></p>
+        <p><b>一句话总结：</b>提出针对虚假数据注入攻击的电池储能系统弹性切换控制方法。</p>
+        <p><b>研究问题：</b>BESS在直流微电网中易受网络攻击，影响安全稳定运行。</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>设计弹性切换控制器抵御虚假数据注入攻击</li><li>理论证明了控制器的稳定性和安全性</li><li>仿真验证了方法在攻击下的有效性</li></ul>
+        <p><b>与BMS相关性：</b>涉及BMS安全与系统级控制，但更侧重微电网层面而非单体电池管理，仍属BMS延伸。</p>
+        <p><b>对课题组启发：</b>云/边缘BMS需考虑网络安全，弹性控制思想可应用于BMS通信协议设计。</p>
+        <p><b>推荐理由：</b>A级：来自Journal of Energy Storage（优先列表第10），研究BMS网络安全，是新兴热点，值得关注。</p>
       </article>
       
     
@@ -102,10 +119,10 @@
         <p class="meta"><b>来源：</b>International Scientific Journal of Engineering and Management ｜ <b>日期：</b>2026-07-05 ｜ <b>数据源：</b>Crossref</p>
         <p class="meta"><b>DOI：</b>10.55041/isjem08142</p>
         <p class="meta"><b>链接：</b><a href="https://doi.org/10.55041/isjem08142">https://doi.org/10.55041/isjem08142</a></p>
-        <p><b>一句话总结：</b>综述了AI在BMS中的应用现状和未来方向，但期刊水平较低。</p>
-        <ul><li>全面回顾了机器学习、深度学习、强化学习在电池状态估计、故障诊断、寿命预测中的应用</li><li>总结了当前挑战和未来研究方向</li></ul>
-        <p><b>与BMS相关性：</b>直接针对BMS的AI方法综述，与电池管理核心任务相关。</p>
-        <p><b>对课题组启发：</b>可作为AI方法在BMS中应用的入门参考，但需注意期刊权威性不足。</p>
+        <p><b>一句话总结：</b>综述了AI在BMS中的应用，包括状态估计、故障诊断和能量管理，并指出了挑战。</p>
+        <ul><li>系统综述AI方法在BMS各领域的应用进展</li><li>识别当前挑战并展望未来研究方向</li></ul>
+        <p><b>与BMS相关性：</b>直接针对BMS，涵盖SOC/SOH估计、故障诊断等核心功能，与BMS紧密相关。</p>
+        <p><b>对课题组启发：</b>可作为AI在BMS应用的入门综述，但创新性一般，适合快速了解领域现状。</p>
       </article>
       
       <article class="paper">
@@ -164,20 +181,6 @@
         <p><b>对课题组启发：</b>可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。</p>
       </article>
       
-      <article class="paper">
-        <h3>6. Resilient switching control for battery energy storage systems in direct current microgrids against false data injection attacks</h3>
-        <p><span class="tag B">B级建议浏览</span><span class="score">Score 60.69</span></p>
-        <p class="meta"><b>中文题目：</b>直流微电网中电池储能系统对虚假数据注入攻击的弹性切换控制</p>
-        <p class="meta"><b>作者：</b>X X Li, Feng Xiao, Bo Wei, Pin Liu</p>
-        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>2026-07-04 ｜ <b>数据源：</b>OpenAlex</p>
-        <p class="meta"><b>DOI：</b>10.1016/j.est.2026.123349</p>
-        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1016/j.est.2026.123349">https://doi.org/10.1016/j.est.2026.123349</a></p>
-        <p><b>一句话总结：</b>针对直流微电网中BESS面临的数据攻击，设计了弹性切换控制策略。</p>
-        <ul><li>建立了攻击下的BESS切换系统模型</li><li>设计了基于李雅普诺夫的弹性控制器</li><li>仿真验证了控制策略的有效性</li></ul>
-        <p><b>与BMS相关性：</b>涉及储能系统控制与安全，但更侧重微电网控制而非BMS核心状态估计。</p>
-        <p><b>对课题组启发：</b>对于BMS安全预警和系统级控制有一定启发，但需结合电池模型细化。</p>
-      </article>
-      
     
   </section>
 
@@ -192,7 +195,7 @@
           <td><a href="https://doi.org/10.26437/ba5ay798">Advances in Microchannel Cooling Systems for Battery Thermal Management: A Comprehensive Review</a></td>
           <td>African Journal Of Applied Research</td>
           <td>2026-07-04</td>
-          <td>C级：相关但综述性工作，期刊（African Journal Of Applied Research）非高水平。</td>
+          <td>C级：相关但边缘，期刊非优先列表，可作为备选。</td>
         </tr>
       
         <tr>
@@ -213,7 +216,7 @@
           <td><a href="https://doi.org/10.38124/ijisrt/26jun074">State-of-Charge Driven Charging Behaviour at Public EV Chargers in the United Kingdom: An Empirical Study</a></td>
           <td>International Journal of Innovative Science and Research Technology</td>
           <td>2026-07-04</td>
-          <td>C级：边缘相关，期刊（International Journal of Innovative Science and Research Technology）非高水平。</td>
+          <td>C级：来自低水平期刊，相关性边缘，但数据对field data研究有间接参考。</td>
         </tr>
       
       </tbody>
@@ -231,7 +234,7 @@
           <td><span class="tag B">B</span></td>
           <td>Artificial Intelligence for Battery Management Systems: Challenges and Future Directions</td>
           <td>International Scientific Journal of Engineering and Management</td>
-          <td>综述了AI在BMS中的应用现状和未来方向，但期刊水平较低。</td>
+          <td>综述了AI在BMS中的应用，包括状态估计、故障诊断和能量管理，并指出了挑战。</td>
           <td><a href="https://doi.org/10.55041/isjem08142">Open</a></td>
         </tr>
       
@@ -247,7 +250,7 @@
           <td><span class="tag C">C</span></td>
           <td>Advances in Microchannel Cooling Systems for Battery Thermal Management: A Comprehensive Review</td>
           <td>African Journal Of Applied Research</td>
-          <td>综述了微通道冷却在电池热管理中的应用，但期刊水平低。</td>
+          <td>综述了微通道冷却技术在锂离子电池热管理中的设计、性能和 coolant 选择。</td>
           <td><a href="https://doi.org/10.26437/ba5ay798">Open</a></td>
         </tr>
       
@@ -287,7 +290,7 @@
           <td><span class="tag A">A</span></td>
           <td>State of charge estimation method for high-capacity lithium iron phosphate batteries assisted by expansion force observation</td>
           <td>Journal of Power Sources</td>
-          <td>提出利用膨胀力观测辅助SOC估计，发表在Journal of Power Sources。</td>
+          <td>提出利用膨胀力辅助的高容量LFP电池SOC估计方法。</td>
           <td><a href="https://doi.org/10.1016/j.jpowsour.2026.240896">Open</a></td>
         </tr>
       
@@ -295,15 +298,15 @@
           <td><span class="tag A">A</span></td>
           <td>Deep reinforcement learning for battery thermal management with multi-cycle random training: Simulation and experimental validation</td>
           <td>Journal of Energy Storage</td>
-          <td>采用深度强化学习优化电池热管理策略，并进行了实验验证。</td>
+          <td>提出深度强化学习方法进行电池热管理控制，并通过多循环随机训练和实验验证。</td>
           <td><a href="https://doi.org/10.1016/j.est.2026.123392">Open</a></td>
         </tr>
       
         <tr>
-          <td><span class="tag B">B</span></td>
+          <td><span class="tag A">A</span></td>
           <td>Resilient switching control for battery energy storage systems in direct current microgrids against false data injection attacks</td>
           <td>Journal of Energy Storage</td>
-          <td>针对直流微电网中BESS面临的数据攻击，设计了弹性切换控制策略。</td>
+          <td>提出针对虚假数据注入攻击的电池储能系统弹性切换控制方法。</td>
           <td><a href="https://doi.org/10.1016/j.est.2026.123349">Open</a></td>
         </tr>
       
@@ -319,7 +322,7 @@
           <td><span class="tag C">C</span></td>
           <td>State-of-Charge Driven Charging Behaviour at Public EV Chargers in the United Kingdom: An Empirical Study</td>
           <td>International Journal of Innovative Science and Research Technology</td>
-          <td>基于实际数据分析了SOC对充电行为的影响。</td>
+          <td>通过英国公共充电桩真实数据分析了基于SOC的充电行为特征。</td>
           <td><a href="https://doi.org/10.38124/ijisrt/26jun074">Open</a></td>
         </tr>
       
