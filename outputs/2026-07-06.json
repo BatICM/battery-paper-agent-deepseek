@@ -1,0 +1,364 @@
+[
+  {
+    "title": "Artificial Intelligence for Battery Management Systems: Challenges and Future Directions",
+    "abstract": "Battery Management Systems (BMS) are indispensable for ensuring the operational safety, reliability, and performance optimization of rechargeable energy storage systems, particularly lithium-ion batteries employed in electric vehicles, grid-scale energy storage, and portable electronic devices. Conventional BMS methodologies predominantly rely on electrochemical models, equivalent circuit models, and rule-based control strategies, which often exhibit limited adaptability under dynamic operating and environmental conditions. Recent advancements in Artificial Intelligence (AI), including machine learning, deep learning, and reinforcement learning techniques, have demonstrated significant potential in enhancing battery state estimation, fault diagnosis, degradation prediction, and energy management. AI-driven approaches facilitate the extraction of complex nonlinear relationships from battery data, thereby improving estimation accuracy and operational efficiency. This review comprehensively examines the latest developments in AI-based battery management systems, highlighting various intelligent algorithms, their applications, associated challenges, and prospective research directions for next-generation energy storage technologies. Keywords: Artificial Intelligence, Battery Management System, Lithium-Ion Batteries, Machine Learning, Deep Learning, State of Charge Estimation, State of Health, Electric Vehicles, Energy Storage Systems.",
+    "authors": [
+      "Deepali Amit Shinde Deepali Amit Shinde",
+      "Padmavati Ramesh Nagansure Padmavati Ramesh Nagansure"
+    ],
+    "source": "Crossref",
+    "venue": "International Scientific Journal of Engineering and Management",
+    "date": "2026-07-05",
+    "doi": "10.55041/isjem08142",
+    "url": "https://doi.org/10.55041/isjem08142",
+    "source_id": "",
+    "score": 160.0,
+    "level": "B",
+    "title_zh": "电池管理系统的人工智能：挑战与未来方向",
+    "one_sentence": "综述了AI在BMS中的应用现状和未来方向，但期刊水平较低。",
+    "problem": "如何利用AI提升BMS的适应性、准确性和效率？",
+    "contributions": [
+      "全面回顾了机器学习、深度学习、强化学习在电池状态估计、故障诊断、寿命预测中的应用",
+      "总结了当前挑战和未来研究方向"
+    ],
+    "bms_relevance": "直接针对BMS的AI方法综述，与电池管理核心任务相关。",
+    "insight_for_group": "可作为AI方法在BMS中应用的入门参考，但需注意期刊权威性不足。",
+    "reason": "B级：与BMS直接相关，但期刊（International Scientific Journal of Engineering and Management）不在高水平优先列表中，创新性一般。"
+  },
+  {
+    "title": "A time–frequency transformer-CNN gated hybrid framework for ship pump remaining useful life prediction",
+    "abstract": "Shipborne pump systems play a crucial role in transportation, drainage, and auxiliary operations, directly supporting the safe operation of ships and the daily activities of crew members. Accurate prediction of the remaining useful life (RUL) of such systems is therefore essential for early fault awareness, maintenance planning, and mission assurance. Although RUL prediction has been widely investigated for components such as rolling bearings and aircraft engines, effective prediction approaches specifically developed for marine mechanical pump systems are still lacking. To fill this research gap, this study proposes a time–frequency Transformer–convolutional neural network (CNN) gated (TFTCG) model for pump RUL prediction. Vibration signals are characterized by complex temporal structures, exhibiting both short-term transient behaviors and long-term degradation trends. To capture these properties, CNNs are employed to extract local and detailed features, while a transformer-based architecture is introduced to model global dependencies and degradation patterns throughout the entire lifecycle. In addition, a gating mechanism is incorporated to adaptively fuse time-domain and frequency-domain representations, enabling effective integration of local anomalies and global degradation trends and further improving prediction performance. The proposed model jointly addresses fault diagnosis and RUL prediction, allowing it to simultaneously determine the current degradation stage of the pump and predict its future degradation trajectory from real-time input data. Comparative experiments conducted on the C-MAPSS dataset demonstrate the superior performance of the TFTCG model, which achieves a lower root mean square error of 9.76 and a Prognostics and Health Management (PHM) score of 124 compared with existing approaches. The effectiveness and generalization capability of the proposed method are further validated using a simulated marine mechanical pump dataset with an RMSE of 4.87 and a PHM score of 11.21.",
+    "authors": [
+      "Wenpu Wang",
+      "Jiqiu Li",
+      "Yuqing Li",
+      "Shengtian Sang",
+      "Bai Jie",
+      "Gan Lin",
+      "Haifeng Zhang"
+    ],
+    "source": "Crossref",
+    "venue": "Structural Health Monitoring",
+    "date": "2026-07-04",
+    "doi": "10.1177/14759217261455793",
+    "url": "https://doi.org/10.1177/14759217261455793",
+    "source_id": "",
+    "score": 72.0,
+    "level": "B",
+    "title_zh": "A time–frequency transformer-CNN gated hybrid framework for ship pump remaining useful life prediction",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 72.0，推荐等级 B。"
+  },
+  {
+    "title": "Advances in Microchannel Cooling Systems for Battery Thermal Management: A Comprehensive Review",
+    "abstract": "Purpose: The paper aims to survey existing trends in microchannel-based cooling systems for thermally managing lithium-ion batteries. Design/Methodology/Approach: A comprehensive literature review was conducted to examine microchannel cooling designs and their performance characteristics. The study evaluates many channel designs, including straight, serpentine, wavy, and pin-fin-integrated microchannels. The key performance parameters, that is, the decrease in temperature, the temperature uniformity index and the pressure drop, are examined. The use of different coolants- water, nanofluids and dielectric liquids is also discussed with respect to trade-offs between thermal conductivity and viscosity. Experimental studies, computational fluid dynamics (CFD) modelling, material choice and system integration issues are also present. The collected literature was analysed through a comparative review. The data were categorised by optimisation methods, thermal performance, pressure drop, coolant type, and microchannel geometry. Findings: According to the review, microchannel cooling systems have performed better at cooling heat and improving temperature uniformity in lithium-ion battery packs compared to traditional cooling technologies. The geometry optimisation of channels and the proper selection of coolant can be of great importance for optimising thermal performance while still providing manageable pressure losses. Research Limitation: In this review, studies on microchannel-based battery thermal management are considered, with a focus on numerical simulations and laboratory-scale experiments. Very little attention has been given to standardised performance evaluation methods, manufacturing cost, large-scale commercialisation, and long-term durability. Practical Implication: Researchers and engineers in the electric vehicle and other high-power electronics fields can find the results very useful for their studies and the design of battery thermal management systems. Social implication: It supports sustainable transportation, greenhouse gas emissions reduction, and clean energy adoption by reducing energy losses and thermal runaway risks. Originality/Value: The review highlights the latest developments in microchannel-based lithium-ion battery cooling technologies and identifies new directions in the field, including 3D-printed microchannel design, AI-based optimisation, hybrid cooling, and smart flow control.",
+    "authors": [
+      "P.S. Pande",
+      "V. N. Kalbande"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "African Journal Of Applied Research",
+    "date": "2026-07-04",
+    "doi": "10.26437/ba5ay798",
+    "url": "https://doi.org/10.26437/ba5ay798",
+    "source_id": "",
+    "score": 66.0,
+    "level": "C",
+    "title_zh": "微通道冷却系统在电池热管理中的进展：综述",
+    "one_sentence": "综述了微通道冷却在电池热管理中的应用，但期刊水平低。",
+    "problem": "如何通过微通道设计提升电池热管理性能？",
+    "contributions": [
+      "分类梳理了不同微通道结构的冷却性能",
+      "分析了冷却剂类型和材料选择的影响"
+    ],
+    "bms_relevance": "属于电池热管理范畴，与BMS间接相关（热管理子系统）。",
+    "insight_for_group": "可作为热管理设计的背景参考，但研究价值有限。",
+    "reason": "C级：相关但综述性工作，期刊（African Journal Of Applied Research）非高水平。"
+  },
+  {
+    "title": "Physics-Informed Multi-Scale Network with Loss-Guided Curriculum Learning for Robust Fault Diagnosis",
+    "abstract": "Reliable fault diagnosis of rotating machinery is critical, yet early weak fault impulses are frequently buried in severe compound interference from mechanical harmonics and environmental noise. To address this, a novel Physics-Informed Multi-Scale Network (PI-MSN) is proposed. Variational Mode Decomposition (VMD) is first employed to decouple raw signals into distinct physical frequency bands. Subsequently, a Physics-Informed Channel Attention (PICA) module jointly evaluates the Kurtosis and Root Mean Square of each channel to autonomously highlight fault impulses and suppress harmonic interference. A Multi-Scale Feature Extractor then captures comprehensive fault characteristics. Furthermore, a closed-loop Loss-Guided Smooth Interference Scheduler (LGSIS) dynamically regulates injected interference during training based on real-time loss, fundamentally eradicating catastrophic forgetting. Extensive experiments on the CWRU and HUST datasets demonstrate the framework's exceptional robustness. The highly lightweight PI-MSN achieves state-of-the-art diagnostic accuracy, sustaining over 98\\% accuracy even under severe -4 dB compound interference, proving that physical interpretability effectively eliminates the reliance on massive parameter stacking.",
+    "authors": [
+      "Panfeng Bao",
+      "Wenjun Yi",
+      "Yue Zhu",
+      "Yufeng Shen",
+      "Haotian Peng"
+    ],
+    "source": "Crossref",
+    "venue": "International Journal of Prognostics and Health Management",
+    "date": "2026-07-05",
+    "doi": "10.36001/ijphm.2026.v17i2.4766",
+    "url": "https://doi.org/10.36001/ijphm.2026.v17i2.4766",
+    "source_id": "",
+    "score": 58.0,
+    "level": "B",
+    "title_zh": "Physics-Informed Multi-Scale Network with Loss-Guided Curriculum Learning for Robust Fault Diagnosis",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 58.0，推荐等级 B。"
+  },
+  {
+    "title": "Hybrid IOT Based Flood Early Warning System with Adaptive Water Rise Detection",
+    "abstract": "Gas leakage is a critical safety issue in residential, commercial, and industrial environments, often leading to accidents such as fire, explosions, and health hazards due to toxic gas exposure. Early detection and quick response are essential to reduce risks and ensure safety. This project presents an AI-driven IoT-based gas leakage prediction and automated emergency response system integrated with cloud analytics for efficient monitoring and control. The system uses gas sensors to continuously detect the presence and concentration of harmful gases. The collected data is processed using a microcontroller and transmitted to a cloud platform for storage and analysis. Artificial Intelligence techniques are applied to analyze both real-time and historical data, enabling the system to predict possible gas leakage conditions before they become dangerous. In addition to detection and prediction, the system includes an automated emergency response mechanism. When a gas leak is detected or predicted, the system immediately activates alarms and initiates safety actions to minimize potential hazards. It reduces the human intervention. The IoT integration allows users to monitor the system remotely and receive alerts through cloud-based applications. The cloud platform also maintains historical data for performance analysis and system improvement. The proposed system is cost-effective, reliable, and easy to implement, making it suitable for various real-world applications. Overall, the project enhances safety by combining IoT, AI, and cloud technologies into a smart gas leakage detection and prevention system. Keywords: Gas Leakage Detection, Internet of Things (IoT), Artificial Intelligence (AI), Cloud Analytics, Gas Sensors, Embedded Systems, Automation, Safety Monitoring, Predictive Analysis, Emergency Response System.",
+    "authors": [
+      "KRISHNAN.E KRISHNAN.E",
+      "HARI.S HARI.S",
+      "GOKULPRASAD.V GOKULPRASAD.V",
+      "DHAYANITHI.R DHAYANITHI.R",
+      "RAJESH.M RAJESH.M"
+    ],
+    "source": "Crossref",
+    "venue": "International Journal of Creative and Open Research in Engineering and Management",
+    "date": "2026-07-05",
+    "doi": "10.55041/ijcope.v2i5.228",
+    "url": "https://doi.org/10.55041/ijcope.v2i5.228",
+    "source_id": "",
+    "score": 46.0,
+    "level": "B",
+    "title_zh": "Hybrid IOT Based Flood Early Warning System with Adaptive Water Rise Detection",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 46.0，推荐等级 B。"
+  },
+  {
+    "title": "Digital Empowerment of Mountainous Rural-Urban Integrated Water Supply: Construction and Practice of a Whole-Process IoT Sensing System in Wencheng County",
+    "abstract": "Against the backdrop of Zhejiang Province’s comprehensive advancement of rural drinking water safety digital upgrading and urban-rural water supply integration, mountainous counties face unique operational bottlenecks caused by fragmented water supply facilities, complex terrain and long scattered pipe networks. Taking Wencheng County—a typical mountainous water supply area in southern Wenzhou—as the research object, this paper starts from the full-cycle operation and management demands of county-level water enterprises. Combined with the actual construction and long-term stable operation of the local intelligent water supply digital system, this study designs a full-chain IoT sensing system adapted to mountain terrain, featuring multi-layer communication networking and cloud-based integrated operation platform. Differentiated from traditional single-equation monitoring schemes, the system realizes synchronized perception of raw water sources, water production workshops, regional pipe networks, village-level water supply stations and end-user metering. This paper systematically analyzes practical application effects in four core scenarios including full-process water quality early warning, DMA partition accurate loss control, unattended remote operation of scattered water supply facilities and intelligent user revenue management. Based on multi-year field operation records, it summarizes targeted operational obstacles brought by mountain climate and signal conditions, and proposes multi-dimensional optimization strategies covering communication networking, outdoor equipment durability, big data deep mining and compound talent training. The research conclusions can provide differentiated digital transformation references for mountainous counties with similar terrain and water supply layout, and offer feasible optimization ideas for the refined operation of urban-rural integrated water supply projects.",
+    "authors": [
+      "Hui Zhao",
+      "Haiwen Xu"
+    ],
+    "source": "Crossref",
+    "venue": "The Development of Humanities and Social Sciences",
+    "date": "2026-07-05",
+    "doi": "10.71204/dpd4gz48",
+    "url": "https://doi.org/10.71204/dpd4gz48",
+    "source_id": "",
+    "score": 46.0,
+    "level": "B",
+    "title_zh": "Digital Empowerment of Mountainous Rural-Urban Integrated Water Supply: Construction and Practice of a Whole-Process IoT Sensing System in Wencheng County",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 46.0，推荐等级 B。"
+  },
+  {
+    "title": "Machine Learning for Zinc‐Based Energy Storage Devices: From Data‐Driven Design to Mechanistic Insights",
+    "abstract": "ABSTRACT Machine learning (ML) is rapidly emerging as a powerful paradigm for decoding the complex physicochemical relationships that govern aqueous zinc‐based battery systems. By uncovering hidden correlations from high‐dimensional experimental and computational datasets, ML provides unprecedented opportunities to resolve ion transport, interfacial chemistry, and degradation behaviors that remain difficult to capture using conventional approaches alone. Herein, this review presents a comprehensive and mechanism‐oriented perspective on ML in zinc‐based energy storage, with feature engineering positioned as the central conceptual framework. Particular emphasis is placed on how physically meaningful descriptors are constructed and utilized across cathodes, zinc anodes, electrolytes, and electrode‐electrolyte interfaces, as well as on their distinct roles in dictating electrochemical performance. Recent advances are discussed in terms of how ML enables the identification of structure‐property relationships, accelerates materials optimization, and deepens mechanistic understanding of critical processes, including Zn 2+ transport, desolvation, interfacial evolution, and performance degradation. By organizing this evolving field through the dual lenses of device components and fundamental mechanisms, the intrinsic connection between data‐driven modeling with electrochemical theory is clarified. Finally, future directions toward data‐centric, physics‐informed, dynamic, and autonomous ML frameworks are highlighted, which are expected to drive zinc‐based energy storage from empirical trial‐and‐error development toward predictive and rational design.",
+    "authors": [
+      "Yi Yang",
+      "Min Ru",
+      "Jian Song",
+      "Qian Zhang",
+      "Zhenlu Liu",
+      "Qiliang Wei",
+      "Xi Zhang",
+      "Chunmei Zhang",
+      "Yuehua Chen",
+      "Haoqi Yang"
+    ],
+    "source": "OpenAlex",
+    "venue": "Advanced Energy Materials",
+    "date": "2026-07-04",
+    "doi": "10.1002/aenm.71243",
+    "url": "https://doi.org/10.1002/aenm.71243",
+    "source_id": "",
+    "score": 79.94,
+    "level": "C",
+    "title_zh": "Machine Learning for Zinc‐Based Energy Storage Devices: From Data‐Driven Design to Mechanistic Insights",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中：可作为背景或备选文献。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 79.94，推荐等级 C。"
+  },
+  {
+    "title": "State of charge estimation method for high-capacity lithium iron phosphate batteries assisted by expansion force observation",
+    "abstract": "",
+    "authors": [
+      "Jun Xie",
+      "Ruikang Wang",
+      "Yutong Zhang",
+      "Xiaojian Ma",
+      "Zhichao Tang",
+      "Qing Xie",
+      "D H Yu"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Power Sources",
+    "date": "2026-07-04",
+    "doi": "10.1016/j.jpowsour.2026.240896",
+    "url": "https://doi.org/10.1016/j.jpowsour.2026.240896",
+    "source_id": "",
+    "score": 55.5,
+    "level": "A",
+    "title_zh": "基于膨胀力观测的高容量磷酸铁锂电池荷电状态估计方法",
+    "one_sentence": "提出利用膨胀力观测辅助SOC估计，发表在Journal of Power Sources。",
+    "problem": "高容量LFP电池SOC估计精度受限于平坦OCV曲线，如何利用机械信号提高精度？",
+    "contributions": [
+      "首次将膨胀力作为辅助观测量用于SOC估计",
+      "设计了融合电化学-力学模型的状态估计算法",
+      "实验验证了所提方法的有效性"
+    ],
+    "bms_relevance": "直接解决BMS核心SOC估计问题，利用多传感器融合提升精度。",
+    "insight_for_group": "可借鉴膨胀力等机械信号在状态估计中的应用，拓展课题组在数据融合方面的研究。",
+    "reason": "A级：强相关且发表在Journal of Power Sources（优先列表第9位），方法创新且实用。"
+  },
+  {
+    "title": "Deep reinforcement learning for battery thermal management with multi-cycle random training: Simulation and experimental validation",
+    "abstract": "",
+    "authors": [
+      "Jifei Zhao",
+      "Rolla Almodfer",
+      "Hang Su",
+      "Ye Yuan",
+      "Meng Sun",
+      "Xiaoying Wu",
+      "Zhiwei Ren",
+      "Jitian Song",
+      "Yuqian Fan"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-07-04",
+    "doi": "10.1016/j.est.2026.123392",
+    "url": "https://doi.org/10.1016/j.est.2026.123392",
+    "source_id": "",
+    "score": 64.69,
+    "level": "A",
+    "title_zh": "基于深度强化学习的电池热管理方法：多循环随机训练与实验验证",
+    "one_sentence": "采用深度强化学习优化电池热管理策略，并进行了实验验证。",
+    "problem": "传统热管理策略难以适应动态工况，如何通过智能控制提升冷却效率？",
+    "contributions": [
+      "提出基于深度强化学习的电池热管理框架",
+      "设计了多周期随机训练方法提升泛化能力",
+      "在仿真和实验平台上验证了优越性"
+    ],
+    "bms_relevance": "直接针对BMS中的热管理子系统，结合强化学习实现智能控制。",
+    "insight_for_group": "可应用于实际BMS热管理控制，课题组可在cloud/edge BMS场景中探索类似方法。",
+    "reason": "A级：强相关且发表在Journal of Energy Storage（优先列表第10位），方法新颖且有实验验证。"
+  },
+  {
+    "title": "Resilient switching control for battery energy storage systems in direct current microgrids against false data injection attacks",
+    "abstract": "",
+    "authors": [
+      "X X Li",
+      "Feng Xiao",
+      "Bo Wei",
+      "Pin Liu"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-07-04",
+    "doi": "10.1016/j.est.2026.123349",
+    "url": "https://doi.org/10.1016/j.est.2026.123349",
+    "source_id": "",
+    "score": 60.69,
+    "level": "B",
+    "title_zh": "直流微电网中电池储能系统对虚假数据注入攻击的弹性切换控制",
+    "one_sentence": "针对直流微电网中BESS面临的数据攻击，设计了弹性切换控制策略。",
+    "problem": "如何保护BESS免受虚假数据注入攻击的影响，确保电力系统稳定？",
+    "contributions": [
+      "建立了攻击下的BESS切换系统模型",
+      "设计了基于李雅普诺夫的弹性控制器",
+      "仿真验证了控制策略的有效性"
+    ],
+    "bms_relevance": "涉及储能系统控制与安全，但更侧重微电网控制而非BMS核心状态估计。",
+    "insight_for_group": "对于BMS安全预警和系统级控制有一定启发，但需结合电池模型细化。",
+    "reason": "B级：相关但偏向电力系统控制，发表在Journal of Energy Storage（第10位），创新性一般。"
+  },
+  {
+    "title": "Overview of the limb injury measurement battery for quality of life (LIMB-QOL)",
+    "abstract": "Abstract Purpose The Limb Injury Measurement Battery for Quality of Life (LIMB-QOL) was developed to comprehensively assess patient reported outcomes (PRO) for research and clinical use with individuals who have sustained major extremity trauma and limb loss. Methods A mixed-methods approach was used that included qualitative focus groups with civilians, service members, and clinicians as well as quantitative PRO data collection with individuals with a history of major traumatic limb injury or limb-loss due to such trauma or sudden-onset illness. Individuals with dysvascular and other chronic disease causes were excluded. Qualitative data were collected via focus groups ( n = 56 individuals with major extremity trauma; n = 34 clinicians) and cognitive debriefing interviews ( n = 41 individuals with major extremity trauma). Quantitative data were obtained through structured phone interviews with a large sample representing the target limb trauma and limb loss population ( n = 603). Newly developed item banks were calibrated using graded response model item response theory analysis. Results LIMB-QOL includes 25 measurement scales including 10 new, targeted item banks developed with and for individuals with major limb trauma and 15 existing PRO item banks measuring salient physical, emotional, and social aspects of health-related QOL. Computer adaptive tests and short forms were programmed into the Assessment Center application programming interface and are now available through REDCap and other platforms. Conclusion LIMB-QOL provides a comprehensive and standardized system of PRO assessments for individuals with amputation or limb preservation due to sudden-onset limb injury. Research and clinical applications are discussed.",
+    "authors": [
+      "David S. Tulsky",
+      "Callie E. Tyner",
+      "Aaron J. Boulton",
+      "Pamela A. Kisala",
+      "Jerry Slotkin",
+      "Christopher L. Dearth",
+      "W. Lee Childers",
+      "Ross Zafonte",
+      "Claire Kalpakjian",
+      "Trevor Kingsbury"
+    ],
+    "source": "Crossref",
+    "venue": "Quality of Life Research",
+    "date": "2026-07-04",
+    "doi": "10.1007/s11136-026-04310-z",
+    "url": "https://doi.org/10.1007/s11136-026-04310-z",
+    "source_id": "",
+    "score": 34.0,
+    "level": "C",
+    "title_zh": "Overview of the limb injury measurement battery for quality of life (LIMB-QOL)",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中：可作为背景或备选文献。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 34.0，推荐等级 C。"
+  },
+  {
+    "title": "State-of-Charge Driven Charging Behaviour at Public EV Chargers in the United Kingdom: An Empirical Study",
+    "abstract": "As the United Kingdom makes its transition into the mass-market phase of electric vehicle (EV) adoption, understanding real-world driver interactions with public charging infrastructure is critical for grid management and network optimization. This empirical study investigates the \"black box\" of State-of-Charge (SoC) driven charging behavior. It aims to challenge theoretical models that traditionally rely on simulated data or self-reported surveys by analyzing unvarnished user actions. The research analyzes a high-fidelity dataset of public charging telemetry collected over a 90-day period in 2025 across multiple UK locations. By preprocessing raw session data from arrival to departure, the study engineered specific metrics such as the SoC Delta and a \"Stickiness\" check to quantify charging utility and driver habits. The results of the study challenge common assumptions in academic literature and the industry about the charging behaviour of drivers.",
+    "authors": [
+      "Matthew Busayo Olanrewaju",
+      "Hazzan Adedapo Aderinko"
+    ],
+    "source": "Crossref",
+    "venue": "International Journal of Innovative Science and Research Technology",
+    "date": "2026-07-04",
+    "doi": "10.38124/ijisrt/26jun074",
+    "url": "https://doi.org/10.38124/ijisrt/26jun074",
+    "source_id": "",
+    "score": 32.0,
+    "level": "C",
+    "title_zh": "英国公共充电桩中荷电状态驱动的充电行为实证研究",
+    "one_sentence": "基于实际数据分析了SOC对充电行为的影响。",
+    "problem": "真实世界中SOC如何影响电动汽车用户的充电决策？",
+    "contributions": [
+      "利用高保真充电桩实测数据",
+      "量化了SOC对充电时长和频率的影响"
+    ],
+    "bms_relevance": "涉及SOC与用户行为的关联，与BMS中的充电策略优化间接相关。",
+    "insight_for_group": "可指导充电设施规划，但与BMS核心技术距离较远。",
+    "reason": "C级：边缘相关，期刊（International Journal of Innovative Science and Research Technology）非高水平。"
+  }
+]

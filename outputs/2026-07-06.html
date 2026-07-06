@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Battery Management Literature Daily｜2026-07-06</title>
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",Arial,sans-serif;line-height:1.68;color:#1f2933;background:#f5f7fa;margin:0;padding:0;}
+    .container{max-width:1040px;margin:0 auto;padding:28px 20px 44px;}
+    .header{background:linear-gradient(135deg,#063b5c,#0b7285);color:#fff;border-radius:18px;padding:28px 30px;margin-bottom:22px;box-shadow:0 8px 22px rgba(0,0,0,.12);}
+    .header h1{margin:0 0 12px;font-size:28px;letter-spacing:.3px;}
+    .header p{margin:4px 0;color:#e7f5ff;}
+    .summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:18px 0 6px;}
+    .stat{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.22);border-radius:14px;padding:12px 14px;}
+    .stat b{font-size:24px;color:#fff;display:block;}
+    .block{background:#fff;border:1px solid #d9e2ec;border-radius:16px;padding:22px;margin:18px 0;box-shadow:0 2px 10px rgba(15,23,42,.04);}
+    h2{color:#0b3d5c;margin:0 0 14px;font-size:22px;}
+    h3{margin:0 0 10px;font-size:19px;color:#102a43;}
+    .meta{color:#52616b;font-size:14px;margin:4px 0;}
+    .paper{border-top:1px solid #e5edf3;padding-top:18px;margin-top:18px;}
+    .paper:first-child{border-top:none;padding-top:0;margin-top:0;}
+    .tag{display:inline-block;border-radius:999px;padding:4px 10px;color:#fff;font-size:12px;font-weight:700;letter-spacing:.2px;margin-right:8px;}
+    .A{background:#c62828;}.B{background:#ef6c00;}.C{background:#607d8b;}
+    .score{display:inline-block;background:#edf2f7;color:#334e68;border-radius:999px;padding:4px 10px;font-size:12px;}
+    ul{padding-left:22px;margin:8px 0 10px;}
+    a{color:#0b7285;text-decoration:none;}a:hover{text-decoration:underline;}
+    table{width:100%;border-collapse:collapse;background:white;font-size:14px;}
+    th,td{border:1px solid #d9e2ec;padding:10px;vertical-align:top;text-align:left;}
+    th{background:#edf4f7;color:#243b53;}
+    .footer{font-size:13px;color:#697386;text-align:center;margin-top:24px;}
+    @media(max-width:720px){.summary-grid{grid-template-columns:1fr}.header{border-radius:0}.container{padding:0 0 28px}.block{border-radius:0;border-left:none;border-right:none}.header h1{font-size:24px}}
+  </style>
+</head>
+<body>
+<div class="container">
+  <section class="header">
+    <h1>Battery Management Literature Daily</h1>
+    <p><b>日期：</b>2026-07-06 ｜ <b>检索窗口：</b>近 2 天 ｜ <b>生成时间：</b>2026-07-06 10:16:49 UTC+8</p>
+    <p>今日候选论文中，与BMS强相关的有三篇，分别涉及SOC估计、热管理控制和储能系统弹性控制，其中两篇发表在Journal of Power Sources和Journal of Energy Storage，具有较好研究价值。还有一篇AI综述和一篇热管理综述相关但期刊质量较低，一篇充电行为研究边缘相关。</p>
+    <div class="summary-grid">
+      <div class="stat"><b>2</b> A级必读</div>
+      <div class="stat"><b>6</b> B级浏览</div>
+      <div class="stat"><b>4</b> C级备选</div>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>一、今日趋势判断</h2>
+    <p>电池状态估计和热管理的智能化方法（如深度强化学习）仍是热点，同时考虑网络攻击的弹性控制也开始受到关注。但高水平期刊中与BMS直接相关的研究较少。</p>
+  </section>
+
+  <section class="block">
+    <h2>二、A级必读论文</h2>
+    
+      
+      <article class="paper">
+        <h3>1. State of charge estimation method for high-capacity lithium iron phosphate batteries assisted by expansion force observation</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 55.5</span></p>
+        <p class="meta"><b>中文题目：</b>基于膨胀力观测的高容量磷酸铁锂电池荷电状态估计方法</p>
+        <p class="meta"><b>作者：</b>Jun Xie, Ruikang Wang, Yutong Zhang, Xiaojian Ma, Zhichao Tang et al.</p>
+        <p class="meta"><b>来源：</b>Journal of Power Sources ｜ <b>日期：</b>2026-07-04 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.1016/j.jpowsour.2026.240896</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1016/j.jpowsour.2026.240896">https://doi.org/10.1016/j.jpowsour.2026.240896</a></p>
+        <p><b>一句话总结：</b>提出利用膨胀力观测辅助SOC估计，发表在Journal of Power Sources。</p>
+        <p><b>研究问题：</b>高容量LFP电池SOC估计精度受限于平坦OCV曲线，如何利用机械信号提高精度？</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>首次将膨胀力作为辅助观测量用于SOC估计</li><li>设计了融合电化学-力学模型的状态估计算法</li><li>实验验证了所提方法的有效性</li></ul>
+        <p><b>与BMS相关性：</b>直接解决BMS核心SOC估计问题，利用多传感器融合提升精度。</p>
+        <p><b>对课题组启发：</b>可借鉴膨胀力等机械信号在状态估计中的应用，拓展课题组在数据融合方面的研究。</p>
+        <p><b>推荐理由：</b>A级：强相关且发表在Journal of Power Sources（优先列表第9位），方法创新且实用。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>2. Deep reinforcement learning for battery thermal management with multi-cycle random training: Simulation and experimental validation</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 64.69</span></p>
+        <p class="meta"><b>中文题目：</b>基于深度强化学习的电池热管理方法：多循环随机训练与实验验证</p>
+        <p class="meta"><b>作者：</b>Jifei Zhao, Rolla Almodfer, Hang Su, Ye Yuan, Meng Sun et al.</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>2026-07-04 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.1016/j.est.2026.123392</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1016/j.est.2026.123392">https://doi.org/10.1016/j.est.2026.123392</a></p>
+        <p><b>一句话总结：</b>采用深度强化学习优化电池热管理策略，并进行了实验验证。</p>
+        <p><b>研究问题：</b>传统热管理策略难以适应动态工况，如何通过智能控制提升冷却效率？</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>提出基于深度强化学习的电池热管理框架</li><li>设计了多周期随机训练方法提升泛化能力</li><li>在仿真和实验平台上验证了优越性</li></ul>
+        <p><b>与BMS相关性：</b>直接针对BMS中的热管理子系统，结合强化学习实现智能控制。</p>
+        <p><b>对课题组启发：</b>可应用于实际BMS热管理控制，课题组可在cloud/edge BMS场景中探索类似方法。</p>
+        <p><b>推荐理由：</b>A级：强相关且发表在Journal of Energy Storage（优先列表第10位），方法新颖且有实验验证。</p>
+      </article>
+      
+    
+  </section>
+
+  <section class="block">
+    <h2>三、B级建议浏览论文</h2>
+    
+      
+      <article class="paper">
+        <h3>1. Artificial Intelligence for Battery Management Systems: Challenges and Future Directions</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 160.0</span></p>
+        <p class="meta"><b>中文题目：</b>电池管理系统的人工智能：挑战与未来方向</p>
+        <p class="meta"><b>作者：</b>Deepali Amit Shinde Deepali Amit Shinde, Padmavati Ramesh Nagansure Padmavati Ramesh Nagansure</p>
+        <p class="meta"><b>来源：</b>International Scientific Journal of Engineering and Management ｜ <b>日期：</b>2026-07-05 ｜ <b>数据源：</b>Crossref</p>
+        <p class="meta"><b>DOI：</b>10.55041/isjem08142</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.55041/isjem08142">https://doi.org/10.55041/isjem08142</a></p>
+        <p><b>一句话总结：</b>综述了AI在BMS中的应用现状和未来方向，但期刊水平较低。</p>
+        <ul><li>全面回顾了机器学习、深度学习、强化学习在电池状态估计、故障诊断、寿命预测中的应用</li><li>总结了当前挑战和未来研究方向</li></ul>
+        <p><b>与BMS相关性：</b>直接针对BMS的AI方法综述，与电池管理核心任务相关。</p>
+        <p><b>对课题组启发：</b>可作为AI方法在BMS中应用的入门参考，但需注意期刊权威性不足。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>2. A time–frequency transformer-CNN gated hybrid framework for ship pump remaining useful life prediction</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 72.0</span></p>
+        <p class="meta"><b>中文题目：</b>A time–frequency transformer-CNN gated hybrid framework for ship pump remaining useful life prediction</p>
+        <p class="meta"><b>作者：</b>Wenpu Wang, Jiqiu Li, Yuqing Li, Shengtian Sang, Bai Jie et al.</p>
+        <p class="meta"><b>来源：</b>Structural Health Monitoring ｜ <b>日期：</b>2026-07-04 ｜ <b>数据源：</b>Crossref</p>
+        <p class="meta"><b>DOI：</b>10.1177/14759217261455793</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1177/14759217261455793">https://doi.org/10.1177/14759217261455793</a></p>
+        <p><b>一句话总结：</b>面向电池健康状态估计与寿命预测。</p>
+        <ul><li>提出或评估电池状态估计、健康预测或安全预警方法。</li><li>关注真实工况、pack/系统级应用或模型泛化能力。</li><li>对 BMS 算法部署、云端分析或储能运维具有参考价值。</li></ul>
+        <p><b>与BMS相关性：</b>中高：与 BMS 或储能管理相关，建议浏览。</p>
+        <p><b>对课题组启发：</b>可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>3. Physics-Informed Multi-Scale Network with Loss-Guided Curriculum Learning for Robust Fault Diagnosis</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 58.0</span></p>
+        <p class="meta"><b>中文题目：</b>Physics-Informed Multi-Scale Network with Loss-Guided Curriculum Learning for Robust Fault Diagnosis</p>
+        <p class="meta"><b>作者：</b>Panfeng Bao, Wenjun Yi, Yue Zhu, Yufeng Shen, Haotian Peng</p>
+        <p class="meta"><b>来源：</b>International Journal of Prognostics and Health Management ｜ <b>日期：</b>2026-07-05 ｜ <b>数据源：</b>Crossref</p>
+        <p class="meta"><b>DOI：</b>10.36001/ijphm.2026.v17i2.4766</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.36001/ijphm.2026.v17i2.4766">https://doi.org/10.36001/ijphm.2026.v17i2.4766</a></p>
+        <p><b>一句话总结：</b>与电池管理及智能诊断具有一定相关性。</p>
+        <ul><li>提出或评估电池状态估计、健康预测或安全预警方法。</li><li>关注真实工况、pack/系统级应用或模型泛化能力。</li><li>对 BMS 算法部署、云端分析或储能运维具有参考价值。</li></ul>
+        <p><b>与BMS相关性：</b>中高：与 BMS 或储能管理相关，建议浏览。</p>
+        <p><b>对课题组启发：</b>可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>4. Hybrid IOT Based Flood Early Warning System with Adaptive Water Rise Detection</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 46.0</span></p>
+        <p class="meta"><b>中文题目：</b>Hybrid IOT Based Flood Early Warning System with Adaptive Water Rise Detection</p>
+        <p class="meta"><b>作者：</b>KRISHNAN.E KRISHNAN.E, HARI.S HARI.S, GOKULPRASAD.V GOKULPRASAD.V, DHAYANITHI.R DHAYANITHI.R, RAJESH.M RAJESH.M</p>
+        <p class="meta"><b>来源：</b>International Journal of Creative and Open Research in Engineering and Management ｜ <b>日期：</b>2026-07-05 ｜ <b>数据源：</b>Crossref</p>
+        <p class="meta"><b>DOI：</b>10.55041/ijcope.v2i5.228</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.55041/ijcope.v2i5.228">https://doi.org/10.55041/ijcope.v2i5.228</a></p>
+        <p><b>一句话总结：</b>关注电池安全风险识别与热失控早期预警。</p>
+        <ul><li>提出或评估电池状态估计、健康预测或安全预警方法。</li><li>关注真实工况、pack/系统级应用或模型泛化能力。</li><li>对 BMS 算法部署、云端分析或储能运维具有参考价值。</li></ul>
+        <p><b>与BMS相关性：</b>中高：与 BMS 或储能管理相关，建议浏览。</p>
+        <p><b>对课题组启发：</b>可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>5. Digital Empowerment of Mountainous Rural-Urban Integrated Water Supply: Construction and Practice of a Whole-Process IoT Sensing System in Wencheng County</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 46.0</span></p>
+        <p class="meta"><b>中文题目：</b>Digital Empowerment of Mountainous Rural-Urban Integrated Water Supply: Construction and Practice of a Whole-Process IoT Sensing System in Wencheng County</p>
+        <p class="meta"><b>作者：</b>Hui Zhao, Haiwen Xu</p>
+        <p class="meta"><b>来源：</b>The Development of Humanities and Social Sciences ｜ <b>日期：</b>2026-07-05 ｜ <b>数据源：</b>Crossref</p>
+        <p class="meta"><b>DOI：</b>10.71204/dpd4gz48</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.71204/dpd4gz48">https://doi.org/10.71204/dpd4gz48</a></p>
+        <p><b>一句话总结：</b>关注电池安全风险识别与热失控早期预警。</p>
+        <ul><li>提出或评估电池状态估计、健康预测或安全预警方法。</li><li>关注真实工况、pack/系统级应用或模型泛化能力。</li><li>对 BMS 算法部署、云端分析或储能运维具有参考价值。</li></ul>
+        <p><b>与BMS相关性：</b>中高：与 BMS 或储能管理相关，建议浏览。</p>
+        <p><b>对课题组启发：</b>可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>6. Resilient switching control for battery energy storage systems in direct current microgrids against false data injection attacks</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 60.69</span></p>
+        <p class="meta"><b>中文题目：</b>直流微电网中电池储能系统对虚假数据注入攻击的弹性切换控制</p>
+        <p class="meta"><b>作者：</b>X X Li, Feng Xiao, Bo Wei, Pin Liu</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>2026-07-04 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.1016/j.est.2026.123349</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1016/j.est.2026.123349">https://doi.org/10.1016/j.est.2026.123349</a></p>
+        <p><b>一句话总结：</b>针对直流微电网中BESS面临的数据攻击，设计了弹性切换控制策略。</p>
+        <ul><li>建立了攻击下的BESS切换系统模型</li><li>设计了基于李雅普诺夫的弹性控制器</li><li>仿真验证了控制策略的有效性</li></ul>
+        <p><b>与BMS相关性：</b>涉及储能系统控制与安全，但更侧重微电网控制而非BMS核心状态估计。</p>
+        <p><b>对课题组启发：</b>对于BMS安全预警和系统级控制有一定启发，但需结合电池模型细化。</p>
+      </article>
+      
+    
+  </section>
+
+  <section class="block">
+    <h2>四、C级备选与快速浏览</h2>
+    
+    <table>
+      <thead><tr><th>标题</th><th>来源</th><th>日期</th><th>推荐理由</th></tr></thead>
+      <tbody>
+      
+        <tr>
+          <td><a href="https://doi.org/10.26437/ba5ay798">Advances in Microchannel Cooling Systems for Battery Thermal Management: A Comprehensive Review</a></td>
+          <td>African Journal Of Applied Research</td>
+          <td>2026-07-04</td>
+          <td>C级：相关但综述性工作，期刊（African Journal Of Applied Research）非高水平。</td>
+        </tr>
+      
+        <tr>
+          <td><a href="https://doi.org/10.1002/aenm.71243">Machine Learning for Zinc‐Based Energy Storage Devices: From Data‐Driven Design to Mechanistic Insights</a></td>
+          <td>Advanced Energy Materials</td>
+          <td>2026-07-04</td>
+          <td>关键词、BMS相关性和期刊优先级综合评分 79.94，推荐等级 C。</td>
+        </tr>
+      
+        <tr>
+          <td><a href="https://doi.org/10.1007/s11136-026-04310-z">Overview of the limb injury measurement battery for quality of life (LIMB-QOL)</a></td>
+          <td>Quality of Life Research</td>
+          <td>2026-07-04</td>
+          <td>关键词、BMS相关性和期刊优先级综合评分 34.0，推荐等级 C。</td>
+        </tr>
+      
+        <tr>
+          <td><a href="https://doi.org/10.38124/ijisrt/26jun074">State-of-Charge Driven Charging Behaviour at Public EV Chargers in the United Kingdom: An Empirical Study</a></td>
+          <td>International Journal of Innovative Science and Research Technology</td>
+          <td>2026-07-04</td>
+          <td>C级：边缘相关，期刊（International Journal of Innovative Science and Research Technology）非高水平。</td>
+        </tr>
+      
+      </tbody>
+    </table>
+    
+  </section>
+
+  <section class="block">
+    <h2>五、今日论文总表</h2>
+    <table>
+      <thead><tr><th>等级</th><th>标题</th><th>期刊/来源</th><th>方向判断</th><th>链接</th></tr></thead>
+      <tbody>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Artificial Intelligence for Battery Management Systems: Challenges and Future Directions</td>
+          <td>International Scientific Journal of Engineering and Management</td>
+          <td>综述了AI在BMS中的应用现状和未来方向，但期刊水平较低。</td>
+          <td><a href="https://doi.org/10.55041/isjem08142">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>A time–frequency transformer-CNN gated hybrid framework for ship pump remaining useful life prediction</td>
+          <td>Structural Health Monitoring</td>
+          <td>面向电池健康状态估计与寿命预测。</td>
+          <td><a href="https://doi.org/10.1177/14759217261455793">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>Advances in Microchannel Cooling Systems for Battery Thermal Management: A Comprehensive Review</td>
+          <td>African Journal Of Applied Research</td>
+          <td>综述了微通道冷却在电池热管理中的应用，但期刊水平低。</td>
+          <td><a href="https://doi.org/10.26437/ba5ay798">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Physics-Informed Multi-Scale Network with Loss-Guided Curriculum Learning for Robust Fault Diagnosis</td>
+          <td>International Journal of Prognostics and Health Management</td>
+          <td>与电池管理及智能诊断具有一定相关性。</td>
+          <td><a href="https://doi.org/10.36001/ijphm.2026.v17i2.4766">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Hybrid IOT Based Flood Early Warning System with Adaptive Water Rise Detection</td>
+          <td>International Journal of Creative and Open Research in Engineering and Management</td>
+          <td>关注电池安全风险识别与热失控早期预警。</td>
+          <td><a href="https://doi.org/10.55041/ijcope.v2i5.228">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Digital Empowerment of Mountainous Rural-Urban Integrated Water Supply: Construction and Practice of a Whole-Process IoT Sensing System in Wencheng County</td>
+          <td>The Development of Humanities and Social Sciences</td>
+          <td>关注电池安全风险识别与热失控早期预警。</td>
+          <td><a href="https://doi.org/10.71204/dpd4gz48">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>Machine Learning for Zinc‐Based Energy Storage Devices: From Data‐Driven Design to Mechanistic Insights</td>
+          <td>Advanced Energy Materials</td>
+          <td>与电池管理及智能诊断具有一定相关性。</td>
+          <td><a href="https://doi.org/10.1002/aenm.71243">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>State of charge estimation method for high-capacity lithium iron phosphate batteries assisted by expansion force observation</td>
+          <td>Journal of Power Sources</td>
+          <td>提出利用膨胀力观测辅助SOC估计，发表在Journal of Power Sources。</td>
+          <td><a href="https://doi.org/10.1016/j.jpowsour.2026.240896">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>Deep reinforcement learning for battery thermal management with multi-cycle random training: Simulation and experimental validation</td>
+          <td>Journal of Energy Storage</td>
+          <td>采用深度强化学习优化电池热管理策略，并进行了实验验证。</td>
+          <td><a href="https://doi.org/10.1016/j.est.2026.123392">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Resilient switching control for battery energy storage systems in direct current microgrids against false data injection attacks</td>
+          <td>Journal of Energy Storage</td>
+          <td>针对直流微电网中BESS面临的数据攻击，设计了弹性切换控制策略。</td>
+          <td><a href="https://doi.org/10.1016/j.est.2026.123349">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>Overview of the limb injury measurement battery for quality of life (LIMB-QOL)</td>
+          <td>Quality of Life Research</td>
+          <td>围绕电池 SOC 估计及不确定性管理展开。</td>
+          <td><a href="https://doi.org/10.1007/s11136-026-04310-z">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>State-of-Charge Driven Charging Behaviour at Public EV Chargers in the United Kingdom: An Empirical Study</td>
+          <td>International Journal of Innovative Science and Research Technology</td>
+          <td>基于实际数据分析了SOC对充电行为的影响。</td>
+          <td><a href="https://doi.org/10.38124/ijisrt/26jun074">Open</a></td>
+        </tr>
+      
+      </tbody>
+    </table>
+  </section>
+
+  <p class="footer">Generated by battery-paper-agent. 请人工复核关键结论后再用于论文综述或组会汇报。</p>
+</div>
+</body>
+</html>
