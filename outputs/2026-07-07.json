@@ -1,0 +1,345 @@
+[
+  {
+    "title": "Artificial Intelligence for Battery Management Systems: Challenges and Future Directions",
+    "abstract": "Battery Management Systems (BMS) are indispensable for ensuring the operational safety, reliability, and performance optimization of rechargeable energy storage systems, particularly lithium-ion batteries employed in electric vehicles, grid-scale energy storage, and portable electronic devices. Conventional BMS methodologies predominantly rely on electrochemical models, equivalent circuit models, and rule-based control strategies, which often exhibit limited adaptability under dynamic operating and environmental conditions. Recent advancements in Artificial Intelligence (AI), including machine learning, deep learning, and reinforcement learning techniques, have demonstrated significant potential in enhancing battery state estimation, fault diagnosis, degradation prediction, and energy management. AI-driven approaches facilitate the extraction of complex nonlinear relationships from battery data, thereby improving estimation accuracy and operational efficiency. This review comprehensively examines the latest developments in AI-based battery management systems, highlighting various intelligent algorithms, their applications, associated challenges, and prospective research directions for next-generation energy storage technologies. Keywords: Artificial Intelligence, Battery Management System, Lithium-Ion Batteries, Machine Learning, Deep Learning, State of Charge Estimation, State of Health, Electric Vehicles, Energy Storage Systems.",
+    "authors": [
+      "Deepali Amit Shinde Deepali Amit Shinde",
+      "Padmavati Ramesh Nagansure Padmavati Ramesh Nagansure"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "International Scientific Journal of Engineering and Management",
+    "date": "2026-07-05",
+    "doi": "10.55041/isjem08142",
+    "url": "https://doi.org/10.55041/isjem08142",
+    "source_id": "",
+    "score": 160.0,
+    "level": "B",
+    "title_zh": "人工智能在电池管理系统中的挑战与未来方向",
+    "one_sentence": "综述了人工智能技术在BMS中的应用、挑战与未来研究方向。",
+    "problem": "传统BMS方法适应性有限，亟需提升状态估计、故障诊断和能量管理的智能化水平。",
+    "contributions": [
+      "系统回顾了AI在BMS中的最新进展，涵盖机器学习、深度学习和强化学习",
+      "分析了各类智能算法在SOC/SOH估计、故障诊断和寿命预测中的应用",
+      "提出了下一代BMS的若干关键研究挑战与方向"
+    ],
+    "bms_relevance": "直接聚焦BMS核心问题，涉及SOC、SOH、故障诊断、能量管理等关键功能，与课题组的AI+BMS方向高度吻合。",
+    "insight_for_group": "可作为课题组了解AI在BMS中应用的入门综述，帮助定位当前技术瓶颈和未来切入点。但方法新颖性有限，适合背景调研。",
+    "reason": "B级：相关性强，但发表在低水平期刊（International Scientific Journal of Engineering and Management），创新性和影响力不足。"
+  },
+  {
+    "title": "Early and Uncertainty-Aware Detection of Impending Voltage Outliers in Battery Packs via a Probabilistic Hierarchical Adaptive Framework",
+    "abstract": "The global adoption of electric vehicles (EVs) highlights the critical role of lithium-ion battery packs in ensuring safety and performance, while voltage outliers as precursors to thermal runaway pose significant risks. Existing fault detection methods suffer from limited adaptability, poor uncertainty quantification, and inadequate handling of long-term temporal dynamics. To address these gaps, this study proposes a Probabilistic Hierarchical Adaptive Framework (PHAF) for early, uncertainty-aware detection of impending voltage outliers. PHAF integrates three core innovations: (1) the Weighted Outlier Depth (WOD) metric, which fuses Boltzmann-weighted voltage deviations and gradient-based thermal penalties to sensitively capture electro-thermal anomalies, especially under thermal stress (>45 °C); (2) the Learnable Spectral Convolution Network (LSCN), a novel architecture that combines adaptive spectral modulation and dual-path convolutions to model long-range frequency patterns and local temporal dependencies in voltage sequences; and (3) a hierarchical multi-model system that dynamically selects specialized models (LSCN, GRU, and LSTM) across four prediction horizons (160–40 min), leveraging quantile regression for uncertainty quantification and an early-termination mechanism to optimize computational efficiency. Evaluated on real-world data from 60 AITO EVs, PHAF achieves 95.4% classification accuracy for Level 1 (early-stage) faults at the 160 min horizon, >90% accuracy for critical Level 3 faults within 80 min, and a maximum AUC of 0.943 for long-term anomaly detection. This framework enables a transition from passive remediation to active prevention of battery thermal runaway, providing reliable, confidence-aware monitoring for safety-critical EV applications.",
+    "authors": [
+      "Teng Liu",
+      "Wei Li",
+      "Zhiqiang Li",
+      "Shangbo Wu"
+    ],
+    "source": "Crossref",
+    "venue": "Batteries",
+    "date": "2026-07-06",
+    "doi": "10.3390/batteries12070245",
+    "url": "https://doi.org/10.3390/batteries12070245",
+    "source_id": "",
+    "score": 88.0,
+    "level": "B",
+    "title_zh": "基于概率分层自适应框架的电池组电压异常早期不确定感知检测",
+    "one_sentence": "提出一种概率分层自适应框架，实现电池pack电压异常的早期检测并量化不确定性。",
+    "problem": "现有电池pack故障检测方法缺乏适应性、不确定性量化不足且难以捕捉长期时序依赖。",
+    "contributions": [
+      "设计了加权异常深度(WOD)指标融合电压偏差和热惩罚，敏感捕获电热异常",
+      "开发了可学习谱卷积网络(LSCN)，结合自适应频谱调制和双路径卷积",
+      "构建分层多模型系统，在4个预测时域动态选择模型，利用分位数回归量化不确定性"
+    ],
+    "bms_relevance": "直接针对电池pack电压异常检测和热失控预警，利用60辆AITO电动汽车的真实场数据，与pack级状态监测和现场数据应用高度相关。",
+    "insight_for_group": "其分层自适应框架和不确定性量化方法可直接迁移至课题组的field data故障诊断研究，尤其是长期预测和置信度评估。",
+    "reason": "B级：方法创新且实用，测试有真实数据，但期刊Batteries影响力一般，未达到A级高水平期刊标准。"
+  },
+  {
+    "title": "Physics-Informed Multi-Scale Network with Loss-Guided Curriculum Learning for Robust Fault Diagnosis",
+    "abstract": "Reliable fault diagnosis of rotating machinery is critical, yet early weak fault impulses are frequently buried in severe compound interference from mechanical harmonics and environmental noise. To address this, a novel Physics-Informed Multi-Scale Network (PI-MSN) is proposed. Variational Mode Decomposition (VMD) is first employed to decouple raw signals into distinct physical frequency bands. Subsequently, a Physics-Informed Channel Attention (PICA) module jointly evaluates the Kurtosis and Root Mean Square of each channel to autonomously highlight fault impulses and suppress harmonic interference. A Multi-Scale Feature Extractor then captures comprehensive fault characteristics. Furthermore, a closed-loop Loss-Guided Smooth Interference Scheduler (LGSIS) dynamically regulates injected interference during training based on real-time loss, fundamentally eradicating catastrophic forgetting. Extensive experiments on the CWRU and HUST datasets demonstrate the framework's exceptional robustness. The highly lightweight PI-MSN achieves state-of-the-art diagnostic accuracy, sustaining over 98\\% accuracy even under severe -4 dB compound interference, proving that physical interpretability effectively eliminates the reliance on massive parameter stacking.",
+    "authors": [
+      "Panfeng Bao",
+      "Wenjun Yi",
+      "Yue Zhu",
+      "Yufeng Shen",
+      "Haotian Peng"
+    ],
+    "source": "Crossref",
+    "venue": "International Journal of Prognostics and Health Management",
+    "date": "2026-07-05",
+    "doi": "10.36001/ijphm.2026.v17i2.4766",
+    "url": "https://doi.org/10.36001/ijphm.2026.v17i2.4766",
+    "source_id": "",
+    "score": 58.0,
+    "level": "B",
+    "title_zh": "Physics-Informed Multi-Scale Network with Loss-Guided Curriculum Learning for Robust Fault Diagnosis",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 58.0，推荐等级 B。"
+  },
+  {
+    "title": "Digital Empowerment of Mountainous Rural-Urban Integrated Water Supply: Construction and Practice of a Whole-Process IoT Sensing System in Wencheng County",
+    "abstract": "Against the backdrop of Zhejiang Province’s comprehensive advancement of rural drinking water safety digital upgrading and urban-rural water supply integration, mountainous counties face unique operational bottlenecks caused by fragmented water supply facilities, complex terrain and long scattered pipe networks. Taking Wencheng County—a typical mountainous water supply area in southern Wenzhou—as the research object, this paper starts from the full-cycle operation and management demands of county-level water enterprises. Combined with the actual construction and long-term stable operation of the local intelligent water supply digital system, this study designs a full-chain IoT sensing system adapted to mountain terrain, featuring multi-layer communication networking and cloud-based integrated operation platform. Differentiated from traditional single-equation monitoring schemes, the system realizes synchronized perception of raw water sources, water production workshops, regional pipe networks, village-level water supply stations and end-user metering. This paper systematically analyzes practical application effects in four core scenarios including full-process water quality early warning, DMA partition accurate loss control, unattended remote operation of scattered water supply facilities and intelligent user revenue management. Based on multi-year field operation records, it summarizes targeted operational obstacles brought by mountain climate and signal conditions, and proposes multi-dimensional optimization strategies covering communication networking, outdoor equipment durability, big data deep mining and compound talent training. The research conclusions can provide differentiated digital transformation references for mountainous counties with similar terrain and water supply layout, and offer feasible optimization ideas for the refined operation of urban-rural integrated water supply projects.",
+    "authors": [
+      "Hui Zhao",
+      "Haiwen Xu"
+    ],
+    "source": "OpenAlex",
+    "venue": "The Development of Humanities and Social Sciences",
+    "date": "2026-07-05",
+    "doi": "10.71204/dpd4gz48",
+    "url": "https://doi.org/10.71204/dpd4gz48",
+    "source_id": "",
+    "score": 46.0,
+    "level": "B",
+    "title_zh": "Digital Empowerment of Mountainous Rural-Urban Integrated Water Supply: Construction and Practice of a Whole-Process IoT Sensing System in Wencheng County",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 46.0，推荐等级 B。"
+  },
+  {
+    "title": "Emergent mirror symmetry in the optimization of the central-spin quantum battery",
+    "abstract": "Quantum batteries provide a useful setting for exploring nonequilibrium many-body effects in energy storage. Here we investigate the optimization of a quantum battery based on the central-spin model. We identify two complementary structural indicators associated with the effective charging dynamics: one yields an upper bound on the average charging power, while the other characterizes the buildup of stored energy. We show that these two indicators are jointly optimized at a distinguished initial charger excitation number, which selects a particular Dicke sector of the model. At this common optimal point, the effective charging Hamiltonian becomes exactly mirror symmetric, suggesting mirror symmetry as a useful structural indicator for optimizing the performance of quantum batteries in terms of both charging power and energy storage. We further show that the corresponding optimal dynamics can be closely approximated by product initial states, in particular by spin coherent states whose excitation-number distribution is centered at the symmetry-selected point. Our results establish a direct connection between charging performance, optimal-state structure, and emergent symmetry in the central-spin quantum battery, and suggest symmetry as a useful organizing principle for efficient charging in interacting many-body quantum systems.",
+    "authors": [
+      "Hui-Yu Yang",
+      "Kun Zhang",
+      "Xiao-Hui Wang",
+      "Hai-Long Shi"
+    ],
+    "source": "Crossref",
+    "venue": "Physical Review B",
+    "date": "2026-07-06",
+    "doi": "10.1103/sr8x-x2kr",
+    "url": "https://doi.org/10.1103/sr8x-x2kr",
+    "source_id": "",
+    "score": 44.0,
+    "level": "B",
+    "title_zh": "Emergent mirror symmetry in the optimization of the central-spin quantum battery",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 44.0，推荐等级 B。"
+  },
+  {
+    "title": "Reliability Analysis of a PCM–Liquid Hybrid Battery Thermal Management System for Electric Vehicles",
+    "abstract": "Electric vehicles (EVs) utilize batteries that generate thermal energy during charging and discharging processes. Inadequate heat management can result in thermal runaway, which is marked by a rapid and uncontrolled increase in battery temperature and may lead to fire or explosion. Battery Thermal Management Systems (BTMSs) are implemented to reduce the risk of thermal runaway by maintaining battery temperature within a defined safe operating range. Hybrid BTMS configurations integrate multiple cooling methods to enhance operational effectiveness and reliability, surpassing the performance of conventional liquid coolant systems. This work investigates the enhanced efficiency of an integrated phase change material (PCM)–liquid hybrid approach evaluated under severe 3C discharge conditions over a 10,000 h operational reliability window. Our study carefully investigates the system-level reliability using a Functional Fault Tree Analysis (FTA) framework to classify top, intermediate, and basic events. Multi-physics and probabilistic evaluation results demonstrate that the hybrid system achieves a 5 °C reduction in peak cell temperature and a 3 °C improvement in spatial temperature uniformity compared to standard liquid cooling. Reliability assessment establishes a system top-event failure probability of 6% over the 10,000 h window, identifying the coolant pump as the primary failure bottleneck with an individual contribution of 27%. These quantitative insights advance our understanding of hybrid safety architectures, providing essential baseline metrics for future electric vehicle thermal management development.",
+    "authors": [
+      "Shujaat Husain",
+      "Haroon Ashfaq",
+      "Mohammad Asjad",
+      "Pratibha Kumari",
+      "Rajeev Kumar"
+    ],
+    "source": "Crossref",
+    "venue": "World Electric Vehicle Journal",
+    "date": "2026-07-06",
+    "doi": "10.3390/wevj17070348",
+    "url": "https://doi.org/10.3390/wevj17070348",
+    "source_id": "",
+    "score": 42.0,
+    "level": "B",
+    "title_zh": "电动汽车PCM-液体混合电池热管理系统可靠性分析",
+    "one_sentence": "通过故障树分析和多物理场仿真，评估PCM-液体混合BTMS在10,000 h内的可靠性。",
+    "problem": "混合BTMS的可靠性尚未得到充分量化，尤其缺乏系统级故障概率评估。",
+    "contributions": [
+      "采用功能故障树分析（FTA）框架对混合BTMS进行系统级可靠性建模",
+      "量化了系统级故障概率为6%，并识别冷却泵为主要失效瓶颈",
+      "混合系统相比纯液冷实现峰值温度降低5°C，温度均匀性提升3°C"
+    ],
+    "bms_relevance": "涉及BMS中的热管理安全评估，混合BTMS是保障pack安全的关键子系统，与电池安全运维直接相关。",
+    "insight_for_group": "其可靠性分析方法和关键瓶颈识别可为课题组在电池系统安全评估和冗余设计方面提供参考，特别是结合热管理仿真。",
+    "reason": "B级：相关性强，但偏热管理而非状态估计核心，且期刊World Electric Vehicle Journal水平一般。"
+  },
+  {
+    "title": "Appropriate fleet selection using dynamic multi-criteria decision making (case study: Gol-E-Gohar Mine No. 3)",
+    "abstract": "Abstract The growth of large-scale mining operations presents challenging choices when selecting loading and transport equipment, as these decisions significantly impact output, expenditure, and ecological footprint; poor choices can lead to delays, increased fuel consumption, higher pollution, or damaged equipment. Because mining environments are constantly evolving, decisions must be precise, adaptable, and timely; however, past research has often overlooked the inclusion of time factors and lifecycle phases in fleet planning. This work presents a flexible decision-making method using the Analytic Network Process (ANP) at Gol-E-Gohar Iron Mine No. 3. Its main new feature is that it divides the mine’s lifespan into three periods (start-up, middle phase, and final stage) to track how priorities shift over time. For each phase’s key factors, insights were gathered from 25 mining experts (from universities and industry) through side-by-side evaluations. To enhance consistency while mitigating characteristics or peculiarities associated with phase-only reviews, another Total Mine Life (TML) setup is calculated as a reference point, influencing how technical, financial, and ecological factors are evaluated and assessed at each stage. Instead of relying solely on averages, every ANP comparison, supermatrix run, ranking outcome, and sensitivity check was handled via SuperDecisions software, which also delivered the TML and split-phase outputs used for comparison. Findings show that, compared to fixed methods, the shifting method is more effective or performs better, adjusts more easily, and is more logical or coherent, matching choices to the real-world demands of each interval, so cutting costs and easing ecological strain. In the Gol-E-Gohar No. 3 example, the fleet was first reviewed using the TML benchmark, then across three time blocks, revealing how breaking it into phases helps select suitable equipment or appropriate tools actual conditions at every turn.",
+    "authors": [
+      "Amirhossein Homayounfar",
+      "Farhad Samimi Namin"
+    ],
+    "source": "Crossref",
+    "venue": "Scientific Reports",
+    "date": "2026-07-07",
+    "doi": "10.1038/s41598-026-46304-4",
+    "url": "https://doi.org/10.1038/s41598-026-46304-4",
+    "source_id": "",
+    "score": 42.0,
+    "level": "B",
+    "title_zh": "Appropriate fleet selection using dynamic multi-criteria decision making (case study: Gol-E-Gohar Mine No. 3)",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 42.0，推荐等级 B。"
+  },
+  {
+    "title": "An Integrated Hardware Framework for Mitigating Critical Operational Threats in Next-Generation Battery Swapping Stations",
+    "abstract": "Battery swapping stations are gaining traction as a workable route to shrink the downtime that ordinarily accompanies electric-vehicle charging; even so, deploying them in the field exposes a cluster of operational risks that span energy pilferage, weak traceability of battery health, and breaches of physical security. A consolidated, inexpensive, hardware-oriented mitigation framework is proposed in this work, organised around six cooperating modules. Battery voltage is acquired through a resistive divider that feeds a microcontroller analogue-to-digital converter, and the state of charge is reconstructed from the recovered reading. Access is governed by a Bluetooth authentication layer built on the HC-05 module together with relay switching, so that charging remains blocked until the supplied credentials are matched against stored ones. Additional platform headroom is obtained by migrating from 8-bit devices to the ESP32, whose dual-core processor, 12-bit conversion, and on-chip Wi-Fi permit sensing, logging, and connectivity to proceed together. Cycle history is captured with an ACS712 current sensor combined with temporal filtering and is retained in on-board EEPROM or flash so that it survives power interruptions. Physical protection is delivered by a subsystem that combines a NEO-6M receiver for live positioning, a SIM900A module for mobile notification, and ultrasonic ranging for tamper sensing. A swap-decision pipeline finally unites a MATLAB interface with ThingSpeak analytics to derive a dynamic swap price from a fixed component, the energy delivered, and a health-dependent penalty factor. The resulting architecture is intended for rapid replication on academic and early-stage industrial testbeds, and it supplies a structured engineering blueprint for secure, health-aware, and auditable swapping operations",
+    "authors": [
+      "Hardik Agravatt",
+      "Indrajit Trivedi",
+      "Snehal Purani"
+    ],
+    "source": "Crossref",
+    "venue": "International Journal For Multidisciplinary Research",
+    "date": "2026-07-05",
+    "doi": "10.36948/ijfmr.2026.v08i04.82990",
+    "url": "https://doi.org/10.36948/ijfmr.2026.v08i04.82990",
+    "source_id": "",
+    "score": 38.0,
+    "level": "B",
+    "title_zh": "下一代电池换电站关键运行威胁缓解的集成硬件框架",
+    "one_sentence": "提出一种低成本的硬件集成框架，用于换电站的电压检测、SOC重建、安全认证和防盗。",
+    "problem": "换电站面临能源窃取、健康追溯困难和安全威胁，缺乏低成本的硬件缓解方案。",
+    "contributions": [
+      "设计了基于分压器和MCU的电压采集与SOC重建模块",
+      "构建了基于蓝牙HC-05的认证与继电器控制访问安全层",
+      "集成GPS、GSM和超声波模块实现物理安全与防盗"
+    ],
+    "bms_relevance": "涉及电池状态检测（电压、SOC）和安全管理，属于BMS在换电站场景的应用扩展。",
+    "insight_for_group": "其低成本硬件思路可用于课题组在电池状态采集和边缘计算方面的简化设计，但需注意其工程实现细节。",
+    "reason": "B级：与BMS相关，但期刊（International Journal For Multidisciplinary Research）水平低，且方法偏工程实现，创新性有限。"
+  },
+  {
+    "title": "Lithium Battery Expansion Behavior Evaluation Technology and Coping Methods",
+    "abstract": "As a key energy storage component, the rapid detection of battery status and safety and reliability evaluation of the lithium battery have attracted more attention. Among them, the expansion behavior evaluation technology of the lithium battery, as a non-destructive rapid detection method, is an effective means to evaluate the health status of the battery and realize early safety warning. This paper reviews the causes of the current expansion phenomenon of lithium battery, the development status of expansion evaluation technology and the evaluation method of expansion test results. The existing expansion behavior evaluation technology under constant pressure and constant displacement conditions are classified and discussed. By accurately obtaining changes in the internal state of the battery, it can accurately predict and evaluate performance, life and safety. By obtaining the critical conditions of battery expansion, the design and optimization of the module structure are guided. On this basis, the limitations of lithium battery expansion test under different boundary conditions are further discussed. The future development of battery expansion test methods and battery expansion control and solutions are proposed. This paper aims to optimize the evaluation technology of lithium battery expansion behavior and improve the safety and reliability of the battery.",
+    "authors": [
+      "Xin Qi",
+      "Dongsheng Qin",
+      "Yongjun Tian",
+      "Zhaoyang Li",
+      "Dinghong Liu",
+      "Wenkai Dong",
+      "Lei Liu"
+    ],
+    "source": "Crossref",
+    "venue": "Energies",
+    "date": "2026-07-06",
+    "doi": "10.3390/en19133190",
+    "url": "https://doi.org/10.3390/en19133190",
+    "source_id": "",
+    "score": 38.0,
+    "level": "B",
+    "title_zh": "锂电池膨胀行为评估技术与应对方法",
+    "one_sentence": "综述了锂电池膨胀行为的评估技术，用于健康状态监测和早期安全预警。",
+    "problem": "锂电池膨胀行为作为非破坏性指标，如何有效评估其用于安全预警和寿命预测。",
+    "contributions": [
+      "分类讨论了恒压和恒位移条件下的膨胀评估技术",
+      "分析了不同边界条件下膨胀测试的局限性",
+      "提出了未来膨胀控制与解决方案的发展方向"
+    ],
+    "bms_relevance": "膨胀评估是电池健康状态和早期安全隐患的重要指标，直接关联BMS中的安全预警功能。",
+    "insight_for_group": "可作为课题组在基于机械特征的SOH估计和故障预警方面的背景调研，特别是非电信号融合。",
+    "reason": "B级：相关，但为综述且发表在Energies（MDPI），创新性不足，无具体新方法。"
+  },
+  {
+    "title": "Economic Viability of PV-BESS Systems under Time-of-Use Pricing and Price Caps: A Multi-Location Study in Vietnam",
+    "abstract": "Utility-scale photovoltaic (PV) systems are increasingly integrated with battery energy storage systems (BESS) to mitigate curtailment and enhance renewable energy integration. However, the economic viability of photovoltaic-battery energy storage systems (PV-BESS) remains highly uncertain under current electricity pricing mechanisms, particularly in power systems characterized by transmission constraints and regulated price caps. This study develops an integrated techno-economic framework to evaluate the performance of PV-BESS systems under time-of-use (TOU) pricing. The framework combines PV generation and curtailment modeling, rule-based BESS dispatch, and financial evaluation to capture the interactions between system operation, pricing structures, and investment outcomes. The analysis is applied to three representative utility-scale PV plants in Vietnam, capturing variations in solar resource conditions and transmission congestion levels. The results show that transmission constraints strongly affect economic performance, significantly widening the financial viability gap as congestion increases. While TOU pricing improves temporal price signals, it remains insufficient to ensure investment viability under regulated price caps. Notably, stronger TOU price differentials may reduce total revenue under capped peak prices, thereby increasing the required capacity-based compensation. These findings highlight structural limitations of energy-based pricing mechanisms in supporting storage deployment in constrained power systems. Additional compensation mechanisms, such as capacity payments, are required to enable economically sustainable PV-BESS deployment and enhance renewable energy integration.",
+    "authors": [
+      "Loan Thi"
+    ],
+    "source": "OpenAlex",
+    "venue": "International Journal of Energy Economics and Policy",
+    "date": "2026-07-05",
+    "doi": "10.32479/ijeep.24099",
+    "url": "https://doi.org/10.32479/ijeep.24099",
+    "source_id": "",
+    "score": 36.0,
+    "level": "B",
+    "title_zh": "Economic Viability of PV-BESS Systems under Time-of-Use Pricing and Price Caps: A Multi-Location Study in Vietnam",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 36.0，推荐等级 B。"
+  },
+  {
+    "title": "A Physics-Informed Dual-Branch LSTM Network for UAV Position and Attitude Estimation",
+    "abstract": "To mitigate error accumulation and long-term drift in unmanned aerial vehicle (UAV) position and attitude estimation using purely inertial measurement unit (IMU) data, this paper presents a dual-branch physics-informed long short-term memory (DPI-LSTM) network incorporating shared temporal encoding, a dual-branch structured regression framework, and physical consistency constraints. The model employs a long short-term memory (LSTM)-based temporal encoder to extract temporal features from IMU time-window sequences. Established inertial kinematic relationships are embedded into the dual-branch LSTM framework as loss constraints, providing physics-based regularisation to guide the network during training. By modelling translational and rotational states separately through the position and attitude branches, the model improves stability and physical interpretability while retaining the advantages of task decoupling. Systematic experiments were conducted on the University of Zurich First-Person View (UZH-FPV) Drone Racing dataset, and comparisons were made with traditional inertial navigation methods and representative deep learning-based inertial odometry approaches. The experimental results indicate that the proposed model demonstrates a measurable reduction in positional root mean square error (RMSE) on the evaluated test sequences, decreasing the RMSE to 0.0654 m, which represents a reduction of more than 20% when compared with inertial odometry network (IONet), convolutional neural network–long short-term memory (CNN–LSTM), and robust neural inertial navigation (RoNIN). Further ablation studies and cross-sequence evaluation indicate that the physical consistency constraints and the dual-branch architecture contribute to improved position estimation stability under the evaluated benchmark sequences. The proposed kinematically constrained framework provides a viable IMU-only position and attitude estimation module, laying the groundwork for future UAV digital twin and precision-agriculture applications where continuous and physically consistent position and attitude information is required.",
+    "authors": [
+      "Weizheng Liang",
+      "Siqi Meng",
+      "Ruicheng Zhang",
+      "Qianda Luo"
+    ],
+    "source": "Crossref",
+    "venue": "Sensors",
+    "date": "2026-07-06",
+    "doi": "10.3390/s26134287",
+    "url": "https://doi.org/10.3390/s26134287",
+    "source_id": "",
+    "score": 36.0,
+    "level": "B",
+    "title_zh": "A Physics-Informed Dual-Branch LSTM Network for UAV Position and Attitude Estimation",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 36.0，推荐等级 B。"
+  },
+  {
+    "title": "Physical Model–Guided Data-Driven Approach for Degradation Prognostics of Rotating Electrical Machine Installed in Shore Marine Environment",
+    "abstract": "Abstract Reliable degradation prognostics of electric motors operating in shore marine environments is essential for early fault detection and effective maintenance planning. This article presents a physical model–guided, data-driven approach for degradation prognostics of an electric motor using thermal Non-Destructive Testing NDT data. The proposed hybrid framework integrates a particle-filter algorithm with a life-acceleration model to capture the nonlinear degradation dynamics influenced by thermal stress. Thermal imaging data acquired periodically from the machine surface are processed to extract degradation-sensitive features correlated with the internal winding condition. Since heat generated in the winding propagates outward through the machine structure, variations in surface temperature act as an indirect indicator of the underlying winding thermal behavior. These features serve as measurement inputs to the particle filter for real-time state estimation. The life-acceleration model provides the physical degradation trend, enabling physics-informed updates within the state-transition model of the particle-filter-based prediction framework. Experimental analysis on a shore-based motor–generator set operating under marine conditions demonstrates that the proposed approach effectively tracks the degradation evolution and provides accurate prognostic trends. The results confirm that incorporating physical degradation knowledge significantly improves the robustness and interpretability of data-driven prognostic models for rotating electrical machinery.",
+    "authors": [
+      "Adnan Abdullah",
+      "Tariq Khan",
+      "Moez ul Hassan",
+      "Faisal Amir"
+    ],
+    "source": "Crossref",
+    "venue": "Journal of Nondestructive Evaluation, Diagnostics and Prognostics of Engineering Systems",
+    "date": "2026-07-06",
+    "doi": "10.1115/1.4072187",
+    "url": "https://doi.org/10.1115/1.4072187",
+    "source_id": "",
+    "score": 36.0,
+    "level": "B",
+    "title_zh": "Physical Model–Guided Data-Driven Approach for Degradation Prognostics of Rotating Electrical Machine Installed in Shore Marine Environment",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 36.0，推荐等级 B。"
+  }
+]
