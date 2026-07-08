@@ -1,5 +1,127 @@
 [
   {
+    "title": "System-level assessment of dynamic reconfiguration for lifetime and cost outcomes in electric vehicle battery packs",
+    "abstract": "Abstract The electrification of transport relies heavily on lithium-ion batteries, yet conventional fixed-configuration battery packs suffer from structural inefficiencies such as cell-to-cell variability and premature failure. Dynamic battery reconfiguration, enabled by intelligent control of switching hardware around individual cells, provides an alternative pack architecture. Here we present a systematic, battery technology-agnostic evaluation of the lifetime and economic benefits of reconfigurable battery packs using a statistically grounded framework based on detailed cell modelling across diverse design and usage conditions. We show that reconfigurable battery packs can extend battery lifetime by over 20%, particularly in high-voltage applications such as electric trucks and long-range passenger vehicles. Despite higher upfront costs, reconfigurable packs can reduce lifetime cost by deferring replacements and retaining greater residual value. A sensitivity analysis identifies robust thresholds for economic viability: battery capacities above approximately 50 kWh, annual driving distances below 12,150 km, and additional upfront costs under 7.16%. These findings position dynamic reconfiguration as a scalable, cost-optimised architecture for next-generation battery platforms, and provide a quantitative foundation for future hardware design, management software, and life-cycle sustainability assessments.",
+    "authors": [
+      "Albert Škegro",
+      "Torsten Wik",
+      "Bo Bijlenga",
+      "Alexander Bessman",
+      "Changfu Zou"
+    ],
+    "source": "Crossref",
+    "venue": "Nature Communications",
+    "date": "2026-07-08",
+    "doi": "10.1038/s41467-026-74951-8",
+    "url": "https://doi.org/10.1038/s41467-026-74951-8",
+    "source_id": "",
+    "score": 95.5,
+    "level": "A",
+    "title_zh": "电动汽车电池包动态重构的寿命与成本系统级评估",
+    "one_sentence": "通过统计框架和电池建模，系统评估了动态可重构电池包在寿命和成本上的优势，可延长寿命超20%。",
+    "problem": "传统固定配置电池包因电芯不一致和过早失效导致寿命有限、成本高，如何量化动态重构的收益？",
+    "contributions": [
+      "提出电池技术无关的统计框架评估可重构电池包寿命和经济性",
+      "发现可重构架构可延长寿命超20%，尤其在高电压应用中",
+      "识别经济可行性的关键阈值（容量>50kWh、年里程<12150km、额外成本<7.16%）"
+    ],
+    "bms_relevance": "直接相关：研究电池包层面的架构优化与寿命管理，属于BMS系统级控制与状态估计的核心问题。",
+    "insight_for_group": "动态重构对延长pack寿命有显著效果，可借鉴其统计建模方法评估课题组的不一致性管理策略；另外其成本分析框架可用于指导电池组运维决策。",
+    "reason": "A级：Nature Communications是优先列表第3位，且研究内容与BMS pack层面管理、寿命和成本优化高度相关，方法系统性强，具有重要参考价值。"
+  },
+  {
+    "title": "Early warning of thermal runaway for large-capacity lithium iron phosphate batteries via multifunctional optical fiber sensors",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Energy Storage Materials",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2405829726004216?dgcid=rss_sd_all",
+    "source_id": "rss:8:Energy Storage Materials",
+    "score": 116.5,
+    "level": "A",
+    "title_zh": "基于多功能光纤传感器的大容量磷酸铁锂电池热失控早期预警",
+    "one_sentence": "利用多功能光纤传感器实现大容量LFP电池热失控的早期预警。",
+    "problem": "大容量磷酸铁锂电池热失控风险高，如何实现早期、可靠的预警？",
+    "contributions": [
+      "提出基于多功能光纤传感器的热失控早期预警方法",
+      "可能通过多参数监测提高预警准确性"
+    ],
+    "bms_relevance": "直接相关：热失控早期预警是BMS安全管理的核心功能，研究聚焦于预警传感器技术。",
+    "insight_for_group": "光纤传感器为热失控预警提供新途径，可考虑在pack级实验中引入此类传感技术，或与课题组现有安全诊断算法结合。",
+    "reason": "A级：Energy Storage Materials是优先列表第7位，且标题直接对应BMS安全预警热点，虽缺少摘要但主题明确。"
+  },
+  {
+    "title": "Battery pack diagnostics for electric vehicles: Robustness of the state of health measurement and differential voltage analysis at the vehicle level",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000470?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 108.5,
+    "level": "A",
+    "title_zh": "电动汽车电池包诊断：车辆级健康状态测量与差分电压分析的鲁棒性",
+    "one_sentence": "针对车辆级电池包SOH测量和差分电压分析的鲁棒性进行研究。",
+    "problem": "车辆实际运行中，电池包SOH测量和差分电压分析受噪声等影响鲁棒性不足，如何提升？",
+    "contributions": [
+      "评估车辆级SOH测量和差分电压分析的鲁棒性",
+      "可能提出改进方法以应对实际数据不确定性"
+    ],
+    "bms_relevance": "直接相关：pack级SOH诊断是BMS核心功能，且研究基于车辆级真实场景。",
+    "insight_for_group": "车辆级SOH鲁棒性方法可直接用于课题组基于field data的SOH估计研究，差分电压方法对不一致性分析也有借鉴。",
+    "reason": "A级：eTransportation是优先列表第15位，但内容与BMS pack诊断、真实数据高度相关，且聚焦于鲁棒性这一关键问题。"
+  },
+  {
+    "title": "A review on AI-powered safety management of battery energy storage system",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Renewable and Sustainable Energy Reviews",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1364032126004648?dgcid=rss_sd_all",
+    "source_id": "rss:20:Renewable and Sustainable Energy Reviews",
+    "score": 82.0,
+    "level": "B",
+    "title_zh": "基于人工智能的电池储能系统安全管理综述",
+    "one_sentence": "综述了AI在电池储能系统安全管理中的应用。",
+    "problem": "如何利用AI技术提升电池储能系统的安全管理水平？",
+    "contributions": [
+      "系统梳理AI在BESS安全管理的应用方法",
+      "可能指出未来方向和研究缺口"
+    ],
+    "bms_relevance": "相关：涉及电池储能系统安全，属于BMS预警与管理范畴，但为综述，创新性有限。",
+    "insight_for_group": "综述可作为背景参考，了解AI在安全管理的应用现状，但需要关注具体技术细节和实证研究。",
+    "reason": "B级：Renewable and Sustainable Energy Reviews在优先列表第17位，内容相关但为综述，创新性一般，建议浏览。"
+  },
+  {
+    "title": "Battery state-of-power estimation: A machine learning battery model with numerical searching approach",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26026873?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 69.0,
+    "level": "B",
+    "title_zh": "电池功率状态估计：基于机器学习电池模型与数值搜索方法",
+    "one_sentence": "提出一种结合机器学习电池模型与数值搜索的SOP估计方法。",
+    "problem": "电池功率状态（SOP）估计对BMS充放电控制至关重要，现有方法精度或效率不足。",
+    "contributions": [
+      "提出机器学习电池模型与数值搜索结合的SOP估计框架",
+      "可能提高估计精度和实时性"
+    ],
+    "bms_relevance": "直接相关：SOP是BMS核心状态估计之一。",
+    "insight_for_group": "SOP估计与SOH/RUL紧密相关，该方法可启发课题组在功率估计方向的研究，尤其是机器学习模型结合优化求解的思路。",
+    "reason": "B级：Journal of Energy Storage在优先列表之外，但内容直接相关，可作为补充阅读。"
+  },
+  {
     "title": "Guided wave based state-of-charge inspection of lithium-ion batteries using frequency-wavenumber domain features",
     "abstract": "Ultrasonic inspection has been recognised as one of the promising non-destructive evaluation (NDE) techniques for assessing the condition of Lithium-ion batteries (LiBs). However, the limited size of batteries causes guided waves to overlap, reducing the precision of conventional time of flight (ToF) and amplitude-based indicators. In this paper, a frequency–wavenumber ( f-k ) based index E f − k is proposed to address this limitation. In addition, a numerical finite element model incorporating lithiation-induced property variations is developed to simulate guided wave propagation across different states of charge (SoCs), further revealing the underlying mechanism during lithiation. An experimental study shows that in pouch-type LCO batteries, the wavenumber k P of the anti-symmetrical mode (A mode) decreases with battery charging. This trend is primarily associated with a significant increase in the shear modulus of the anode and a reduction in its compacted density. Simultaneously, the decrease in E f − k reflects increased wave attenuation due to elevated fluid content and enhanced microstructural heterogeneity in both the anode and cathode. A comparative analysis of ToF, amplitude, k P and E f − k index reveals distinct characteristics: ToF exhibits a clear but weakly sensitive trend with relatively low variability, whereas amplitude shows high sensitivity but suffers from substantial variability due to wave overlap. The wavenumber k P demonstrates moderate sensitivity with high reliability, particularly in the mid-to-high SoC range. E f − k index achieves an optimal balance between sensitivity and reliability, highlighting its potential for guided-wave-based LiB diagnostics.",
     "authors": [
@@ -13,109 +135,109 @@
     "doi": "10.1016/j.est.2026.123338",
     "url": "https://doi.org/10.1016/j.est.2026.123338",
     "source_id": "",
-    "score": 74.69,
-    "level": "A",
-    "title_zh": "Guided wave based state-of-charge inspection of lithium-ion batteries using frequency-wavenumber domain features",
-    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
-    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "score": 67.0,
+    "level": "B",
+    "title_zh": "基于导波频率波数域特征的锂离子电池荷电状态检测",
+    "one_sentence": "利用导波在频率波数域的特征实现锂电池SOC无损检测。",
+    "problem": "传统SOC估计基于电信号，导波方法可提供非电测量途径，但波重叠降低精度。",
     "contributions": [
-      "提出或评估电池状态估计、健康预测或安全预警方法。",
-      "关注真实工况、pack/系统级应用或模型泛化能力。",
-      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+      "提出频率波数域指数 Ef-k 作为SOC指示器",
+      "建立有限元模型揭示嵌锂机制",
+      "实验验证Ef-k在灵敏度与可靠性间的最优平衡"
     ],
-    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
-    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
-    "reason": "规则评分 74.69，推荐等级 A；期刊优先级第 10 位。"
+    "bms_relevance": "相关：提供基于物理信号的新型SOC估计方法，属于BMS状态估计范畴，但侧重于传感器技术而非传统算法。",
+    "insight_for_group": "该无损检测方法可作为SOC估计的补充手段，尤其适用于实验室验证；其有限元建模思路可用于物理信息学习研究。",
+    "reason": "B级：Journal of Energy Storage在优先列表之外，但方法新颖且与SOC估计直接相关，建议浏览。"
   },
   {
-    "title": "Thermo-electric storage systems in renewable energy communities: Modeling challenges and perspectives",
-    "abstract": "In this work, a comprehensive review of thermo-electric storage technologies within the context of Renewable Energy Communities (RECs) is presented, focusing on modeling approaches and operational perspectives. The analysis spans over 170 scientific contributions. The study categorizes state-of-the-art into three core domains: thermal energy storage (TESS), electrical storage systems (ESS), and electric mobility. First, the review explores TESS technologies ranging from sensible to latent heat systems emphasizing their critical role in enabling demand-side management and building flexibility to mitigate renewable intermittency. Second, it critically assesses electrical storage modeling, comparing equivalent circuit models for batteries and supercapacitors to identify necessary trade-offs between computational simplicity and accuracy in State-of-Charge (SOC) estimation. Third, the emerging role of Electric Vehicles (EVs) is investigated, highlighting how Vehicle-to-Grid (V2G) protocols transform passive loads into active mobile storage assets, thereby supporting the operational stability and economic viability of the community.",
+    "title": "Instance-weighted decoupled deep transfer learning for battery state-of-health estimation",
+    "abstract": "",
     "authors": [
-      "Elisa Belloni",
-      "Cinzia Buratti",
-      "Marco Casini",
-      "Matteo Intravaia",
-      "Gabriele Maria Lozito",
-      "Maria Cristina Piccirilli",
-      "Giovanni Gino Zanvettor"
+      "Haiyan Luo",
+      "Hanmin Sheng",
+      "Yuanlang Chen",
+      "Xuanming Wan",
+      "Jing Yuan"
     ],
     "source": "OpenAlex",
     "venue": "Journal of Energy Storage",
-    "date": "2026-07-06",
-    "doi": "10.1016/j.est.2026.123344",
-    "url": "https://doi.org/10.1016/j.est.2026.123344",
+    "date": "2026-07-07",
+    "doi": "10.1016/j.est.2026.123371",
+    "url": "https://doi.org/10.1016/j.est.2026.123371",
     "source_id": "",
-    "score": 70.69,
-    "level": "A",
-    "title_zh": "Thermo-electric storage systems in renewable energy communities: Modeling challenges and perspectives",
-    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
-    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "score": 65.0,
+    "level": "B",
+    "title_zh": "基于实例加权解耦深度迁移学习的电池健康状态估计",
+    "one_sentence": "提出实例加权解耦的深度迁移学习方法用于电池SOH估计。",
+    "problem": "不同电池数据分布差异导致SOH模型泛化性差，如何利用迁移学习解决？",
     "contributions": [
-      "提出或评估电池状态估计、健康预测或安全预警方法。",
-      "关注真实工况、pack/系统级应用或模型泛化能力。",
-      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+      "提出实例加权解耦的迁移学习框架",
+      "可能提高跨电池SOH估计的准确性和鲁棒性"
     ],
-    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
-    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
-    "reason": "规则评分 70.69，推荐等级 A；期刊优先级第 10 位。"
+    "bms_relevance": "直接相关：SOH估计是BMS核心，迁移学习针对实际数据分布差异问题。",
+    "insight_for_group": "迁移学习对处理field data中电芯不一致性和不同工况有直接价值，可借鉴该思路改进课题组SOH模型。",
+    "reason": "B级：Journal of Energy Storage在优先列表之外，但SOH迁移学习是热点，建议浏览。"
+  },
+  {
+    "title": "Numerical investigation and multi-objective optimization of a bio-inspired reticular cell wall liquid cooling plate for lithium-ion battery thermal management systems",
+    "abstract": "To enhance the heat dissipation performance and operational stability of lithium-ion Battery Thermal Management System (BTMS), a novel liquid cooling plate based on a Bio-Inspired Reticular Cell Wall (BRCW) structure derived from onion epidermal cells is proposed in this study. Five design variables, namely inlet velocity ( V ), channel height ( H ), channel width ( D ), plate wall thickness ( B ), and bifurcation channel radius ( R ), are selected. Response Surface Methodology (RSM) is employed to analyze the sensitivity and interaction effects of these parameters. The results indicate that the influence of the bifurcation channel radius ( R ) is relatively weak; therefore, it is fixed as a constant in the subsequent analysis. Optimal Latin Hypercube Sampling (OLHS) is adopted to generate sample points, and a refined response surface surrogate model is constructed with the maximum temperature of the two battery modules ( T max ), pressure drop across the liquid cooling plate (Δ P ), and overall temperature difference of the two battery modules (Δ T ) as objective functions. Multi-objective optimization is performed using the Non-Dominated Sorting Genetic Algorithm II (NSGA-II) to obtain the Pareto-optimal solution set, and the Entropy Weight Method combined with the Technique for Order Preference by Similarity to an Ideal Solution (EWM-TOPSIS) is applied to determine the optimal parameter combination. The results demonstrate that, compared with the initial liquid cooling plate model, the optimized model reduces T max , Δ P , and Δ T by 6.07%, 29.12%, and 24.54%, respectively. The optimized BRCW structure effectively improves temperature uniformity and reduces flow resistance, indicating significant potential for high-performance liquid cooling applications in lithium-ion BTMS.",
+    "authors": [
+      "N L Liu",
+      "Z X Sun",
+      "YeChao Tan",
+      "Yueming Jiang",
+      "Jingbin Huang",
+      "Hongchang Wu",
+      "Sivan Ding"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-07-07",
+    "doi": "10.1016/j.est.2026.123458",
+    "url": "https://doi.org/10.1016/j.est.2026.123458",
+    "source_id": "",
+    "score": 51.0,
+    "level": "C",
+    "title_zh": "仿生网状细胞壁液冷板的锂离子电池热管理系统数值研究与多目标优化",
+    "one_sentence": "提出仿生液冷板结构并基于响应面和NSGA-II优化散热性能。",
+    "problem": "锂离子电池热管理需高效散热和温度均匀性，现有液冷板结构有改进空间。",
+    "contributions": [
+      "设计仿生网孔细胞壁液冷板",
+      "多目标优化实现温度降6.07%、压降降29.12%",
+      "验证了优化结构在热管理中的潜力"
+    ],
+    "bms_relevance": "边缘相关：属于电池热管理，是BMS的一个方面，但侧重于散热板设计而非状态估计或诊断。",
+    "insight_for_group": "热管理对安全预警和寿命有影响，但该文偏机械设计，与课题组核心方向（状态估计、诊断、数据驱动）交集有限，可作为辅助参考。",
+    "reason": "C级：Journal of Energy Storage，内容虽涉及电池热管理但非BMS核心算法/诊断，建议备选。"
   },
   {
     "title": "Lithium-Ion Battery SOH Estimation Driven by Multi-Level Features from Adaptive Optimal Intervals and HISSA-BiLSTM",
     "abstract": "Abstract Accurate State of Health (SOH) estimation for lithium-ion batteries (LIBs) is essential for the safe and reliable operation of battery management systems (BMS). This study develops a practical SOH estimation framework based on adaptive optimal interval selection, multi-level health feature extraction, and a HISSA-assisted BiLSTM model. The main methodological focus is the adaptive interval search framework driven by the Multi-dimensional Hybrid Evaluation Index (MHEI), which improves feature relevance while reducing redundant sampling. Then, 16-dimensional health features are extracted from local charging intervals, full-curve charging behavior, and discharge/IC-curve electrochemical properties. A dual Pearson-Spearman correlation analysis retains 13 strongly correlated features. HISSA is used as a supporting hyperparameter optimization strategy to improve BiLSTM stability. Tests on selected NASA cells show that, compared with traditional full-interval features, the adaptive optimal intervals improve feature correlation by 8.3% while reducing data length by more than 50%. The proposed framework achieves competitive SOH estimation accuracy under controlled laboratory cycling conditions, while broader validation on different chemistries, larger datasets, and real-world operating profiles remains necessary.",
     "authors": [
-      "Yuan Jiang",
+      "缘 蒋",
       "Xinlei Qiao",
       "Lu Lv",
       "Lujun Wang"
     ],
-    "source": "Crossref",
+    "source": "OpenAlex+Crossref",
     "venue": "Journal of The Electrochemical Society",
     "date": "2026-07-07",
     "doi": "10.1149/1945-7111/ae8724",
     "url": "https://doi.org/10.1149/1945-7111/ae8724",
     "source_id": "",
-    "score": 116.0,
+    "score": 122.0,
     "level": "B",
-    "title_zh": "Lithium-Ion Battery SOH Estimation Driven by Multi-Level Features from Adaptive Optimal Intervals and HISSA-BiLSTM",
-    "one_sentence": "面向电池健康状态估计与寿命预测。",
-    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "title_zh": "基于自适应最优区间多级特征和HISSA-BiLSTM的锂离子电池SOH估计",
+    "one_sentence": "构建自适应区间选择和多级特征提取的SOH估计框架，采用HISSA优化的BiLSTM模型。",
+    "problem": "现有SOH估计中特征提取依赖全区间数据，效率低且易冗余。",
     "contributions": [
-      "提出或评估电池状态估计、健康预测或安全预警方法。",
-      "关注真实工况、pack/系统级应用或模型泛化能力。",
-      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+      "提出自适应最优区间搜索方法，减少冗余数据",
+      "提取16维多级健康特征并筛选13个强相关特征",
+      "HISSA优化BiLSTM带来竞争性精度"
     ],
-    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
-    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
-    "reason": "规则评分 116.0，推荐等级 B。"
-  },
-  {
-    "title": "Early and Uncertainty-Aware Detection of Impending Voltage Outliers in Battery Packs via a Probabilistic Hierarchical Adaptive Framework",
-    "abstract": "The global adoption of electric vehicles (EVs) highlights the critical role of lithium-ion battery packs in ensuring safety and performance, while voltage outliers as precursors to thermal runaway pose significant risks. Existing fault detection methods suffer from limited adaptability, poor uncertainty quantification, and inadequate handling of long-term temporal dynamics. To address these gaps, this study proposes a Probabilistic Hierarchical Adaptive Framework (PHAF) for early, uncertainty-aware detection of impending voltage outliers. PHAF integrates three core innovations: (1) the Weighted Outlier Depth (WOD) metric, which fuses Boltzmann-weighted voltage deviations and gradient-based thermal penalties to sensitively capture electro-thermal anomalies, especially under thermal stress (>45 °C); (2) the Learnable Spectral Convolution Network (LSCN), a novel architecture that combines adaptive spectral modulation and dual-path convolutions to model long-range frequency patterns and local temporal dependencies in voltage sequences; and (3) a hierarchical multi-model system that dynamically selects specialized models (LSCN, GRU, and LSTM) across four prediction horizons (160–40 min), leveraging quantile regression for uncertainty quantification and an early-termination mechanism to optimize computational efficiency. Evaluated on real-world data from 60 AITO EVs, PHAF achieves 95.4% classification accuracy for Level 1 (early-stage) faults at the 160 min horizon, >90% accuracy for critical Level 3 faults within 80 min, and a maximum AUC of 0.943 for long-term anomaly detection. This framework enables a transition from passive remediation to active prevention of battery thermal runaway, providing reliable, confidence-aware monitoring for safety-critical EV applications.",
-    "authors": [
-      "Teng Liu",
-      "Wei Li",
-      "Zhiqiang Li",
-      "Shangbo Wu"
-    ],
-    "source": "Crossref",
-    "venue": "Batteries",
-    "date": "2026-07-06",
-    "doi": "10.3390/batteries12070245",
-    "url": "https://doi.org/10.3390/batteries12070245",
-    "source_id": "",
-    "score": 88.0,
-    "level": "B",
-    "title_zh": "Early and Uncertainty-Aware Detection of Impending Voltage Outliers in Battery Packs via a Probabilistic Hierarchical Adaptive Framework",
-    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
-    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
-    "contributions": [
-      "提出或评估电池状态估计、健康预测或安全预警方法。",
-      "关注真实工况、pack/系统级应用或模型泛化能力。",
-      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
-    ],
-    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
-    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
-    "reason": "规则评分 88.0，推荐等级 B。"
+    "bms_relevance": "直接相关：SOH估计是BMS核心，方法在实际数据上有潜力。",
+    "insight_for_group": "自适应区间选择和特征筛选方法可迁移到课题组基于field数据的不一致性分析中；BiLSTM优化策略对时域建模有参考。",
+    "reason": "B级：虽未进入优先列表，但方法完整且与SOH估计强相关，可作为技术参考。"
   },
   {
     "title": "AMI-Informed Hierarchical Deep Reinforcement Learning–Model Predictive Control for Coordinated EV, PV, and Battery Energy Management in Campus Microgrids",
@@ -124,237 +246,26 @@
       "Mousa A. Aljabri",
       "Mohammed O. Bahabri",
       "Nasser A. Alakhrash",
-      "Fahd A. Hariri",
-      "Mohammad N. Ajour"
+      "Fahd Hariri",
+      "Mohammed N. Ajour"
     ],
-    "source": "Crossref",
+    "source": "OpenAlex+Crossref",
     "venue": "Energies",
     "date": "2026-07-07",
     "doi": "10.3390/en19133210",
     "url": "https://doi.org/10.3390/en19133210",
     "source_id": "",
-    "score": 88.0,
-    "level": "B",
-    "title_zh": "AMI-Informed Hierarchical Deep Reinforcement Learning–Model Predictive Control for Coordinated EV, PV, and Battery Energy Management in Campus Microgrids",
-    "one_sentence": "面向电池健康状态估计与寿命预测。",
-    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "score": 106.0,
+    "level": "C",
+    "title_zh": "基于AMI的分层深度强化学习-模型预测控制用于校园微电网中电动汽车、光伏和电池的协调能量管理",
+    "one_sentence": "提出分层DRL-MPC框架实现微电网中EV、PV和BESS的协调管理，成本降低53.1%。",
+    "problem": "微电网中多能源协调管理复杂，如何实现最优调度？",
     "contributions": [
-      "提出或评估电池状态估计、健康预测或安全预警方法。",
-      "关注真实工况、pack/系统级应用或模型泛化能力。",
-      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+      "提出AMI启发的分层SAC-MPC架构",
+      "在真实数据上实现显著成本削减和峰值降低"
     ],
-    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
-    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
-    "reason": "规则评分 88.0，推荐等级 B。"
-  },
-  {
-    "title": "Development of encoder-multivariate time-series transformer for remaining useful life prediction of IGBTs",
-    "abstract": "Abstract Power electronic converters (PECs) are crucial to modern electrical systems, facilitating efficient energy conversion in applications from renewable energy systems, electric vehicles, to industrial drives. To mitigate risks of extended downtime, financial losses, and health hazards associated to failure of critical PEC components like Insulated Gate Bipolar Transistors (IGBTs) while in operation, several data-driven machine learning models have been proposed in literature to estimate their remaining useful life (RUL) in order to improve system reliability and perform predictive maintenance of these critical components of the power electronic converter based on National Aeronautics and Space Administration (NASA’s) accelerated aging datasets. However, reliance on recurrence in machine learning models in literature mainly lack robustness and accuracy due to the size and patterns of the NASA accelerated aging dataset. This paper develops a novel data-driven approach to this issue. For the IGBTs, a new Transformer model, the Encoder-Transformer, is developed for RUL multivariate time-series forecasting. It employs the multi-head attention mechanism to capture long-term dependencies and outperforms traditional RNN architectures—Simple Recurrent Neural Network (Simple RNN), Gated Recurrent Unit (GRU), and Long Short-Term Memory (LSTM). The Encoder-Transformer was found to be superior compared to Simple RNN, GRU, and LSTM with RMSE of 53.81, 156.14, 166.32 and 139.89 for IGBT #3 generalization; 14.90, 105.14, 78.84 and 92.78 for IGBT #4; and 37.76, 62.34, 111.69 and 114.92 for IGBT #5 respectively based on RUL with units in seconds, trained on NASA’s IGBT #2 dataset using the steady-state data precursors. The proposed data-driven method produces robust, scalable solutions for component level prognostics.",
-    "authors": [
-      "Kofi Addo Annan",
-      "Francis Boafo Effah",
-      "Emmanuel Asuming Frimpong"
-    ],
-    "source": "OpenAlex",
-    "venue": "Journal of Electrical Systems and Information Technology",
-    "date": "2026-07-06",
-    "doi": "10.1186/s43067-026-00368-4",
-    "url": "https://doi.org/10.1186/s43067-026-00368-4",
-    "source_id": "",
-    "score": 68.0,
-    "level": "B",
-    "title_zh": "Development of encoder-multivariate time-series transformer for remaining useful life prediction of IGBTs",
-    "one_sentence": "面向电池健康状态估计与寿命预测。",
-    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
-    "contributions": [
-      "提出或评估电池状态估计、健康预测或安全预警方法。",
-      "关注真实工况、pack/系统级应用或模型泛化能力。",
-      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
-    ],
-    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
-    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
-    "reason": "规则评分 68.0，推荐等级 B。"
-  },
-  {
-    "title": "Impedance-Based Battery Health Diagnostics for Autonomous Systems Using Machine Learning",
-    "abstract": "Abstract This study addresses the challenge of accurate and real-time battery health diagnostics in autonomous systems. Conventional voltage-based methods often fail to capture complex electrochemical dynamics, limiting their reliability in safety-critical applications. To overcome this limitation, this work proposes an integrated framework combining alternating current impedance spectroscopy with machine learning techniques for enhanced battery state estimation. Electrochemical impedance features are extracted under varying operating conditions, including state of charge, temperature, and cycling behavior, and are used as inputs to a data-driven diagnostic model. Experimental results demonstrate that the proposed method achieves a battery health prediction accuracy of 93.2%, reduces false alarm rates by approximately 40% compared to traditional methods, and maintains a response time within 500 ms. Additionally, a human–machine interface is developed to translate diagnostic results into intuitive visual outputs for decision support in autonomous cockpits. The proposed approach provides a reliable and efficient solution for advanced battery management systems in intelligent transportation environments.",
-    "authors": [
-      "Jiang Hong",
-      "Shi Meiqi",
-      "Gu Di",
-      "Dong Jing",
-      "Han Jiang Mingzhu"
-    ],
-    "source": "Crossref",
-    "venue": "Clean Energy",
-    "date": "2026-07-07",
-    "doi": "10.1093/ce/zkag042",
-    "url": "https://doi.org/10.1093/ce/zkag042",
-    "source_id": "",
-    "score": 68.0,
-    "level": "B",
-    "title_zh": "Impedance-Based Battery Health Diagnostics for Autonomous Systems Using Machine Learning",
-    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
-    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
-    "contributions": [
-      "提出或评估电池状态估计、健康预测或安全预警方法。",
-      "关注真实工况、pack/系统级应用或模型泛化能力。",
-      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
-    ],
-    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
-    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
-    "reason": "规则评分 68.0，推荐等级 B。"
-  },
-  {
-    "title": "TWNN-LSTM-GSTA: A novel hybrid deep learning architecture for enhanced battery state of health prediction",
-    "abstract": "Accurate state-of-health (SOH) estimation is critical to the safe and efficient operation of lithium-ion batteries. However, battery degradation is a nonlinear and non-stationary process with local fluctuations, making it difficult for conventional models to capture both long-term degradation trends and short-term dynamic variations. To address this issue, this study proposes a hybrid SOH prediction framework that integrates a trainable wavelet neural network (TWNN), recurrent neural networks, and a gated spatiotemporal attention (GSTA) mechanism. First, Pearson correlation coefficient and grey relational analysis are jointly used to identify informative health indicators. Based on the screening results, equal-voltage-drop duration, equal-current-drop duration, and maximum discharge temperature are selected as model inputs. TWNN is then employed to extract multiscale degradation features through trainable wavelet filters, while a Frobenius norm constraint is introduced to preserve filter orthogonality. Based on these extracted features, a LSTM architecture is developed to model temporal dependencies in the degradation process. In addition, the GSTA module separately learns temporal attention and feature-wise attention, and adaptively fuses them through a learnable gating mechanism to improve feature representation. Experiments on the NASA battery dataset show that the proposed method achieves accurate SOH prediction and maintains stable performance even when the amount of training data is reduced. Further validation on a laboratory lithium iron phosphate battery dataset with dynamic current profiles suggests that the model also has potential for more complex operating conditions. Nevertheless, the computational complexity of the framework and its generalizability across broader battery datasets still require further investigation.",
-    "authors": [
-      "Xu Lei",
-      "Lingxia Shi",
-      "Yulong Guo",
-      "Xin Yi",
-      "Chenxing Hui"
-    ],
-    "source": "OpenAlex",
-    "venue": "Energy Reports",
-    "date": "2026-07-06",
-    "doi": "10.1016/j.egyr.2026.109484",
-    "url": "https://doi.org/10.1016/j.egyr.2026.109484",
-    "source_id": "",
-    "score": 56.0,
-    "level": "B",
-    "title_zh": "TWNN-LSTM-GSTA: A novel hybrid deep learning architecture for enhanced battery state of health prediction",
-    "one_sentence": "面向电池健康状态估计与寿命预测。",
-    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
-    "contributions": [
-      "提出或评估电池状态估计、健康预测或安全预警方法。",
-      "关注真实工况、pack/系统级应用或模型泛化能力。",
-      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
-    ],
-    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
-    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
-    "reason": "规则评分 56.0，推荐等级 B。"
-  },
-  {
-    "title": "Vehicle-to-Grid Systems for Renewable Energy Integration: Scheduling, Economics, and User Engagement",
-    "abstract": "With the rapid growth of electric vehicles (EVs) and renewable energy generation, Vehicle-to-Grid (V2G) technology has emerged as a promising approach for transforming EVs from passive charging loads into flexible distributed energy storage resources. By enabling bidirectional power exchange between EV batteries and the power grid, V2G can support renewable energy accommodation, peak shaving, demand response, ancillary services, and local grid balancing. This review provides a systematic synthesis of recent advances in V2G systems for renewable energy integration, with particular emphasis on coordinated scheduling, economic mechanisms, battery degradation, and user engagement. First, the technical foundations of V2G are introduced, including Vehicle-to-Everything operating modes, bidirectional charging architecture, aggregation mechanisms, grid-support services, and renewable accommodation pathways. Second, major scheduling strategies are reviewed, including price-based, load-based, renewable-forecast-driven, centralized, distributed, and hybrid approaches. Third, the economic feasibility of V2G is examined from the perspectives of revenue streams, pricing mechanisms, business models, battery aging costs, and compensation schemes. In addition, user participation barriers, such as range anxiety, battery lifetime concerns, loss of control, uncertain financial returns, and data privacy, are discussed. Key challenges related to communication standards, interoperability, cybersecurity, market access, policy design, and pilot-scale validation are also summarized. Finally, future development directions are identified, including AI-based scheduling, aggregator platforms, fleet-scale V2G, degradation-aware optimization, carbon-aware electricity markets, and user-centered participation mechanisms. This review highlights that large-scale V2G deployment requires the integrated coordination of technical scheduling, economic incentives, battery health protection, and user acceptance in renewable-rich power systems.",
-    "authors": [
-      "Peiying Zhang",
-      "Xiangguo Zheng",
-      "Yujie Yuan",
-      "Xi Chen",
-      "Chun Sing Lai"
-    ],
-    "source": "OpenAlex",
-    "venue": "World Electric Vehicle Journal",
-    "date": "2026-07-06",
-    "doi": "10.3390/wevj17070349",
-    "url": "https://doi.org/10.3390/wevj17070349",
-    "source_id": "",
-    "score": 56.0,
-    "level": "B",
-    "title_zh": "Vehicle-to-Grid Systems for Renewable Energy Integration: Scheduling, Economics, and User Engagement",
-    "one_sentence": "关注 pack 或车队级电池管理问题。",
-    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
-    "contributions": [
-      "提出或评估电池状态估计、健康预测或安全预警方法。",
-      "关注真实工况、pack/系统级应用或模型泛化能力。",
-      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
-    ],
-    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
-    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
-    "reason": "规则评分 56.0，推荐等级 B。"
-  },
-  {
-    "title": "Experimental Approach to Intelligent Estimation of the State-of-Charge (SoC) of Batteries: Case of Electric Vehicles",
-    "abstract": "The development of the electric vehicle sector increasingly requires optimal intelligent and embedded energy management. Electric vehicles are now positioning themselves as a strategic alternative to traditional fuel vehicles. This article therefore highlights the design of an embedded system capable of evaluating and transmitting in real time the state-of-charge (SoC) of an electric vehicle battery to a cloud platform, while optimizing energy consumption and data reliability. The methodological approach proposes an experimental study involving the development of two deep learning models, LSTM (Long Short-Term Memory) and GRU (Gated Recurrent Unit), in the MATLAB 2024.b environment, associated with the design of an embedded prototype for data collection and transmission via Arduino IoT Cloud. Then, a comparative analysis of the models’ performances is also carried out. The results obtained show that the GRU model offers the best performance, with an accuracy of 83.6%, an MSE of 0.0715, and an RMSE of 0.2589, thus validating the relevance of the proposed approach for the intelligent estimation of the state-of-charge in a real application context.",
-    "authors": [
-      "Luc Vivien Assiene Mouodo",
-      "Pascal Dieu Seul Assala",
-      "Petros J. Axaopoulos"
-    ],
-    "source": "OpenAlex",
-    "venue": "Applied Sciences",
-    "date": "2026-07-06",
-    "doi": "10.3390/app16136756",
-    "url": "https://doi.org/10.3390/app16136756",
-    "source_id": "",
-    "score": 48.0,
-    "level": "B",
-    "title_zh": "Experimental Approach to Intelligent Estimation of the State-of-Charge (SoC) of Batteries: Case of Electric Vehicles",
-    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
-    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
-    "contributions": [
-      "提出或评估电池状态估计、健康预测或安全预警方法。",
-      "关注真实工况、pack/系统级应用或模型泛化能力。",
-      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
-    ],
-    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
-    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
-    "reason": "规则评分 48.0，推荐等级 B。"
-  },
-  {
-    "title": "Multiphysics Modeling of Electrochemical Behavior for Vanadium Redox Flow Batteries Under Pump Fault Conditions",
-    "abstract": "Vanadium redox flow batteries (VRBs) have gained widespread adoption for large-scale energy storage applications, owing to their modular design and long operational lifespan. However, pump faults can severely disrupt electrolyte circulation, resulting in insufficient electrolyte supply, uneven ion concentration distribution, and abnormal electrochemical polarization, which compromise system performance and safety. The operation of VRBs involves the coupling of multiple physical processes, which makes fault analysis particularly challenging. To address this problem, a multiphysics-coupled model is developed using the COMSOL Multiphysics platform based on the conservation laws of momentum, charge, and mass. The model describes the coupled mechanisms among the flow field, concentration field, and electrochemical field. The model is validated through experiments conducted on a small-scale VRB system. Simulation results demonstrate that different pump fault types lead to distinct variations in vanadium ion concentration distribution, potential and overpotential distribution inside the stack, and current density inside the stack. These findings offer predictive insight into the performance degradation associated with pump faults and provide a foundation for the development of accurate fault diagnosis strategies.",
-    "authors": [
-      "Lu Lu",
-      "Hengshan Mao",
-      "Xunzhao Zheng",
-      "Binyu Xiong",
-      "Tao Wang",
-      "Jun Liu",
-      "Shaojin Wang",
-      "Jie Wang",
-      "Xiaojie Liu",
-      "Haoji Liu"
-    ],
-    "source": "Crossref",
-    "venue": "Applied Sciences",
-    "date": "2026-07-07",
-    "doi": "10.3390/app16136824",
-    "url": "https://doi.org/10.3390/app16136824",
-    "source_id": "",
-    "score": 46.0,
-    "level": "B",
-    "title_zh": "Multiphysics Modeling of Electrochemical Behavior for Vanadium Redox Flow Batteries Under Pump Fault Conditions",
-    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
-    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
-    "contributions": [
-      "提出或评估电池状态估计、健康预测或安全预警方法。",
-      "关注真实工况、pack/系统级应用或模型泛化能力。",
-      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
-    ],
-    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
-    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
-    "reason": "规则评分 46.0，推荐等级 B。"
-  },
-  {
-    "title": "Emergent mirror symmetry in the optimization of the central-spin quantum battery",
-    "abstract": "Quantum batteries provide a useful setting for exploring nonequilibrium many-body effects in energy storage. Here we investigate the optimization of a quantum battery based on the central-spin model. We identify two complementary structural indicators associated with the effective charging dynamics: one yields an upper bound on the average charging power, while the other characterizes the buildup of stored energy. We show that these two indicators are jointly optimized at a distinguished initial charger excitation number, which selects a particular Dicke sector of the model. At this common optimal point, the effective charging Hamiltonian becomes exactly mirror symmetric, suggesting mirror symmetry as a useful structural indicator for optimizing the performance of quantum batteries in terms of both charging power and energy storage. We further show that the corresponding optimal dynamics can be closely approximated by product initial states, in particular by spin coherent states whose excitation-number distribution is centered at the symmetry-selected point. Our results establish a direct connection between charging performance, optimal-state structure, and emergent symmetry in the central-spin quantum battery, and suggest symmetry as a useful organizing principle for efficient charging in interacting many-body quantum systems.",
-    "authors": [
-      "Hui-Yu Yang",
-      "Kun Zhang",
-      "Xiao-Hui Wang",
-      "Hai-Long Shi"
-    ],
-    "source": "Crossref",
-    "venue": "Physical Review B",
-    "date": "2026-07-06",
-    "doi": "10.1103/sr8x-x2kr",
-    "url": "https://doi.org/10.1103/sr8x-x2kr",
-    "source_id": "",
-    "score": 44.0,
-    "level": "B",
-    "title_zh": "Emergent mirror symmetry in the optimization of the central-spin quantum battery",
-    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
-    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
-    "contributions": [
-      "提出或评估电池状态估计、健康预测或安全预警方法。",
-      "关注真实工况、pack/系统级应用或模型泛化能力。",
-      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
-    ],
-    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
-    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
-    "reason": "规则评分 44.0，推荐等级 B。"
+    "bms_relevance": "边缘相关：涉及电池储能系统管理，但重点是微电网能量调度，非电池内部状态估计或诊断。",
+    "insight_for_group": "若课题组涉及系统级能量管理或BMS与微电网交互，可参考其分层控制架构；但核心BMS主题关联弱。",
+    "reason": "C级：Energies期刊未在优先列表，且内容偏离BMS核心问题（SOC/SOH/安全预警等），建议备选。"
   }
 ]
