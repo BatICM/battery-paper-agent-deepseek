@@ -24,22 +24,105 @@ sources:
       - cs.AI
       - eess.SY
       - stat.ML
+
   openalex:
     enabled: true
+
   crossref:
     enabled: true
+
   semantic_scholar:
-    enabled: false  # 默认关闭，避免免费额度/限流；需要时可改 true 并添加 S2_API_KEY
+    enabled: false
+
   google_scholar:
-    # Google Scholar 没有官方公开 API；这里通过 SerpAPI 的 google_scholar engine 做补充召回。
-    # GitHub Secrets 中添加 SERPAPI_KEY 后生效；没有 key 时会自动跳过。
+    enabled: false
+
+  rss_feeds:
     enabled: true
-    max_queries: 8
-    max_results: 10
-    hl: "en"
-    journal_boost_queries: true
-    max_journal_queries: 8
-    sleep_seconds: 1.0
+    max_results_per_feed: 25
+    source_bonus: 18
+    feeds:
+      - name: "Nature"
+        url: "https://www.nature.com/nature.rss"
+        priority: 1
+
+      - name: "Nature Energy"
+        url: "https://www.nature.com/nenergy.rss"
+        priority: 2
+
+      - name: "Nature Communications"
+        url: "https://www.nature.com/ncomms.rss"
+        priority: 3
+
+      - name: "Nature Sustainability"
+        url: "https://www.nature.com/natsustain.rss"
+        priority: 4
+
+      - name: "Joule"
+        url: "https://www.cell.com/joule/rss"
+        priority: 5
+
+      - name: "Energy & Environmental Science"
+        url: "https://pubs.rsc.org/en/rss/journalissues/ee"
+        priority: 6
+
+      - name: "Advanced Energy Materials"
+        url: "https://advanced.onlinelibrary.wiley.com/action/showFeed?jc=16146840&type=etoc&feed=rss"
+        priority: 7
+
+      - name: "Energy Storage Materials"
+        url: "https://rss.sciencedirect.com/publication/science/24058297"
+        priority: 8
+
+      - name: "Applied Energy"
+        url: "https://rss.sciencedirect.com/publication/science/03062619"
+        priority: 9
+
+      - name: "Journal of Power Sources"
+        url: "https://rss.sciencedirect.com/publication/science/03787753"
+        priority: 10
+
+      - name: "Journal of Energy Storage"
+        url: "https://rss.sciencedirect.com/publication/science/2352152X"
+        priority: 11
+
+      - name: "IEEE Transactions on Power Electronics"
+        url: "https://ieeexplore.ieee.org/rss/TOC63.XML"
+        priority: 12
+
+      - name: "IEEE Transactions on Transportation Electrification"
+        url: "https://ieeexplore.ieee.org/rss/TOC6687317.XML"
+        priority: 13
+
+      - name: "IEEE Transactions on Industrial Electronics"
+        url: "https://ieeexplore.ieee.org/rss/TOC41.XML"
+        priority: 14
+
+      - name: "IEEE Transactions on Intelligent Transportation Systems"
+        url: "https://ieeexplore.ieee.org/rss/TOC6979.XML"
+        priority: 15
+
+      - name: "IEEE Transactions on Industrial Informatics"
+        short_name: "IEEE TII"
+        url: "https://ieeexplore.ieee.org/rss/TOC9424.XML"
+        priority: 16
+
+      - name: "IEEE/ASME Transactions on Mechatronics"
+        short_name: "IEEE/ASME TMech"
+        url: "https://ieeexplore.ieee.org/rss/TOC3516.XML"
+        priority: 17
+
+      - name: "eTransportation"
+        url: "https://rss.sciencedirect.com/publication/science/25901168"
+        priority: 18
+
+      - name: "Cell Reports Physical Science"
+        url: "https://www.cell.com/cell-reports-physical-science/rss"
+        priority: 19
+
+      - name: "Renewable and Sustainable Energy Reviews"
+        url: "https://rss.sciencedirect.com/publication/science/13640321"
+        priority: 20
 
 queries:
   include:
@@ -138,8 +221,8 @@ journal_priority:
   - "Advanced Energy Materials"
   - "Energy Storage Materials"
   - "Applied Energy"
-  - "Journal of Power Sources"
-  - "Journal of Energy Storage"
+  - "IEEE Transactions on Industrial Informatics"
+  - "IEEE/ASME Transactions on Mechatronics"
   - "IEEE Transactions on Power Electronics"
   - "IEEE Transactions on Transportation Electrification"
   - "IEEE Transactions on Industrial Electronics"
@@ -147,12 +230,18 @@ journal_priority:
   - "eTransportation"
   - "Cell Reports Physical Science"
   - "Renewable and Sustainable Energy Reviews"
+  - "Green Energy and Intelligent Transportation"
+  - "Energy AI"
+  - "Journal of Power Sources"
+  - "Journal of Energy Storage"
+  
 
 # 兼容旧代码/模板命名。
 journal_whitelist:
   - "Nature"
   - "Nature Energy"
   - "Nature Communications"
+  - "Nature Sustainability"
   - "Joule"
   - "Energy & Environmental Science"
   - "Advanced Energy Materials"
@@ -164,9 +253,14 @@ journal_whitelist:
   - "IEEE Transactions on Transportation Electrification"
   - "IEEE Transactions on Industrial Electronics"
   - "IEEE Transactions on Intelligent Transportation Systems"
+  - "IEEE Transactions on Industrial Informatics"
+  - "IEEE/ASME Transactions on Mechatronics"
   - "eTransportation"
   - "Cell Reports Physical Science"
   - "Renewable and Sustainable Energy Reviews"
+  - "npj Materials Sustainability"
+  - "Energy AI"
+  - "Green Energy and Intelligent Transportation"
 
 email:
   enabled: true
