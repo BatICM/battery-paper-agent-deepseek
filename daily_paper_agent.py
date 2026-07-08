@@ -34,6 +34,7 @@ import requests
 import yaml
 from dateutil import parser as date_parser
 from jinja2 import Environment, FileSystemLoader, select_autoescape
+import feedparser
 
 try:
     from openai import OpenAI
@@ -266,6 +267,10 @@ def score_paper(p: Paper, cfg: Dict[str, Any]) -> float:
     if "Google Scholar" in p.source and (not p.date or re.fullmatch(r"\d{4}", p.date)):
         score -= 5
 
+    if "Journal RSS" in p.source:
+        rss_bonus = float(cfg.get("sources", {}).get("rss_feeds", {}).get("source_bonus", 18))
+        score += rss_bonus
+    
     return round(score, 2)
 
 
@@ -289,7 +294,96 @@ def level_from_paper(p: Paper, cfg: Dict[str, Any]) -> str:
         return "C"
     return "DROP"
 
+def fetch_rss_feeds(cfg: Dict[str, Any], start_date: str, end_date: str) -> List[Paper]:
+    rss_cfg = cfg.get("sources", {}).get("rss_feeds", {})
+    if not rss_cfg.get("enabled", False):
+        return []
 
+    contact = os.getenv("CONTACT_EMAIL", "")
+    max_results = int(rss_cfg.get("max_results_per_feed", 25))
+    feeds = rss_cfg.get("feeds", [])
+
+    papers: List[Paper] = []
+
+    headers = {
+        "User-Agent": USER_AGENT.format(email=contact or "unknown@example.com")
+    }
+
+    for feed in feeds:
+        name = feed.get("name", "")
+        short_name = feed.get("short_name", "")
+        url = feed.get("url", "")
+        priority = feed.get("priority", 999)
+
+        if not name or not url:
+            continue
+
+        try:
+            r = requests.get(url, headers=headers, timeout=30)
+            r.raise_for_status()
+            parsed = feedparser.parse(r.text)
+        except Exception as exc:
+            print(f"[WARN] RSS fetch failed: {name} {url} :: {exc}", file=sys.stderr)
+            continue
+
+        for entry in parsed.entries[:max_results]:
+            title = normalize_title(entry.get("title", "") or "")
+            if not title:
+                continue
+
+            summary = clean_rss_text(
+                entry.get("summary", "")
+                or entry.get("description", "")
+                or entry.get("content", [{}])[0].get("value", "")
+                if entry.get("content") else ""
+            )
+
+            published_raw = (
+                entry.get("published", "")
+                or entry.get("updated", "")
+                or entry.get("created", "")
+                or entry.get("dc_date", "")
+            )
+            pub_date = safe_date(published_raw)
+
+            # 有些 RSS 日期字段不稳定；没有日期的不直接丢弃，交给后续关键词和期刊打分。
+            if pub_date and len(pub_date) >= 10:
+                if pub_date < start_date or pub_date > end_date:
+                    continue
+
+            link = entry.get("link", "") or ""
+            doi = (
+                entry.get("prism_doi", "")
+                or entry.get("dc_identifier", "")
+                or extract_doi(" ".join([title, summary, link]))
+            )
+            doi = normalize_title(doi.replace("doi:", "").replace("https://doi.org/", ""))
+
+            authors = parse_rss_authors(entry)
+
+            venue = name
+            if short_name:
+                venue = f"{name} ({short_name})"
+
+            papers.append(
+                Paper(
+                    title=title,
+                    abstract=summary,
+                    authors=authors,
+                    source="Journal RSS",
+                    venue=venue,
+                    date=pub_date,
+                    doi=doi,
+                    url=link,
+                    source_id=f"rss:{priority}:{name}",
+                )
+            )
+
+        time.sleep(0.5)
+
+    print(f"[INFO] RSS feeds collected {len(papers)} candidate papers.")
+    return papers
+    
 def fetch_arxiv(cfg: Dict[str, Any], start_date: str, end_date: str) -> List[Paper]:
     if not cfg.get("sources", {}).get("arxiv", {}).get("enabled", False):
         return []
@@ -382,7 +476,38 @@ def fetch_openalex(cfg: Dict[str, Any], start_date: str, end_date: str) -> List[
         time.sleep(0.3)
     return papers
 
+def extract_doi(text: str) -> str:
+    if not text:
+        return ""
+    m = re.search(r"10\.\d{4,9}/[-._;()/:A-Z0-9]+", text, re.I)
+    if not m:
+        return ""
+    return m.group(0).rstrip(".,;:)]}")
 
+
+def clean_rss_text(raw: str) -> str:
+    if not raw:
+        return ""
+    txt = re.sub(r"<[^>]+>", " ", raw)
+    txt = html.unescape(txt)
+    return normalize_title(txt)
+
+
+def parse_rss_authors(entry: Dict[str, Any]) -> List[str]:
+    authors: List[str] = []
+
+    for a in entry.get("authors", []) or []:
+        name = normalize_title(a.get("name", "") if isinstance(a, dict) else str(a))
+        if name:
+            authors.append(name)
+
+    if not authors:
+        author = normalize_title(entry.get("author", "") or "")
+        if author:
+            authors.append(author)
+
+    return authors[:10]
+    
 def clean_crossref_abstract(raw: str) -> str:
     if not raw:
         return ""
@@ -613,8 +738,14 @@ def deduplicate(papers: List[Paper]) -> List[Paper]:
 
 def collect_candidates(cfg: Dict[str, Any], days: int) -> List[Paper]:
     start, end = date_window(days)
+
     print(f"[INFO] Collecting papers from {start} to {end}")
+
     papers: List[Paper] = []
+
+    # 重点期刊 RSS 放在最前面，优先发现高水平期刊最新文章。
+    papers.extend(fetch_rss_feeds(cfg, start, end))
+
     papers.extend(fetch_arxiv(cfg, start, end))
     papers.extend(fetch_openalex(cfg, start, end))
     papers.extend(fetch_crossref(cfg, start, end))
@@ -626,10 +757,18 @@ def collect_candidates(cfg: Dict[str, Any], days: int) -> List[Paper]:
         p.level = level_from_paper(p, cfg)
 
     papers = [p for p in deduplicate(papers) if p.level != "DROP"]
-    level_order = {"A": 0, "B": 1, "C": 2, "DROP": 3}
-    papers.sort(key=lambda p: (level_order.get(p.level, 3), journal_rank(p, cfg), -p.score, p.date or ""))
-    return papers
 
+    level_order = {"A": 0, "B": 1, "C": 2, "DROP": 3}
+    papers.sort(
+        key=lambda p: (
+            level_order.get(p.level, 3),
+            journal_rank(p, cfg),
+            -p.score,
+            p.date or "",
+        )
+    )
+
+    return papers
 
 def fallback_summarize(papers: List[Paper]) -> Tuple[str, str, List[Paper]]:
     for p in papers:
