@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Battery Management Literature Daily｜2026-07-09</title>
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",Arial,sans-serif;line-height:1.68;color:#1f2933;background:#f5f7fa;margin:0;padding:0;}
+    .container{max-width:1040px;margin:0 auto;padding:28px 20px 44px;}
+    .header{background:linear-gradient(135deg,#063b5c,#0b7285);color:#fff;border-radius:18px;padding:28px 30px;margin-bottom:22px;box-shadow:0 8px 22px rgba(0,0,0,.12);}
+    .header h1{margin:0 0 12px;font-size:28px;letter-spacing:.3px;}
+    .header p{margin:4px 0;color:#e7f5ff;}
+    .summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:18px 0 6px;}
+    .stat{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.22);border-radius:14px;padding:12px 14px;}
+    .stat b{font-size:24px;color:#fff;display:block;}
+    .block{background:#fff;border:1px solid #d9e2ec;border-radius:16px;padding:22px;margin:18px 0;box-shadow:0 2px 10px rgba(15,23,42,.04);}
+    h2{color:#0b3d5c;margin:0 0 14px;font-size:22px;}
+    h3{margin:0 0 10px;font-size:19px;color:#102a43;}
+    .meta{color:#52616b;font-size:14px;margin:4px 0;}
+    .paper{border-top:1px solid #e5edf3;padding-top:18px;margin-top:18px;}
+    .paper:first-child{border-top:none;padding-top:0;margin-top:0;}
+    .tag{display:inline-block;border-radius:999px;padding:4px 10px;color:#fff;font-size:12px;font-weight:700;letter-spacing:.2px;margin-right:8px;}
+    .A{background:#c62828;}.B{background:#ef6c00;}.C{background:#607d8b;}
+    .score{display:inline-block;background:#edf2f7;color:#334e68;border-radius:999px;padding:4px 10px;font-size:12px;}
+    ul{padding-left:22px;margin:8px 0 10px;}
+    a{color:#0b7285;text-decoration:none;}a:hover{text-decoration:underline;}
+    table{width:100%;border-collapse:collapse;background:white;font-size:14px;}
+    th,td{border:1px solid #d9e2ec;padding:10px;vertical-align:top;text-align:left;}
+    th{background:#edf4f7;color:#243b53;}
+    .footer{font-size:13px;color:#697386;text-align:center;margin-top:24px;}
+    @media(max-width:720px){.summary-grid{grid-template-columns:1fr}.header{border-radius:0}.container{padding:0 0 28px}.block{border-radius:0;border-left:none;border-right:none}.header h1{font-size:24px}}
+  </style>
+</head>
+<body>
+<div class="container">
+  <section class="header">
+    <h1>Battery Management Literature Daily</h1>
+    <p><b>日期：</b>2026-07-09 ｜ <b>检索窗口：</b>近 2 天 ｜ <b>生成时间：</b>2026-07-09 12:28:57 UTC+8</p>
+    <p>今日候选论文涵盖电池管理系统多个方向，包括动态重构、故障检测、SOC/SOH估计、热失控预警等，其中高水平期刊论文如Nature Communications和Energy Storage Materials具有强相关性，同时也有预印本提出新颖的Koopman分析方法。</p>
+    <div class="summary-grid">
+      <div class="stat"><b>3</b> A级必读</div>
+      <div class="stat"><b>6</b> B级浏览</div>
+      <div class="stat"><b>2</b> C级备选</div>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>一、今日趋势判断</h2>
+    <p>趋势显示BMS研究正从单细胞向系统级评估、实时故障检测及云端协同控制发展，深度学习和物理信息融合方法持续涌现，且对实际运行数据（real-world data）的依赖日益增强。</p>
+  </section>
+
+  <section class="block">
+    <h2>二、A级必读论文</h2>
+    
+      
+      <article class="paper">
+        <h3>1. System-level assessment of dynamic reconfiguration for lifetime and cost outcomes in electric vehicle battery packs</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 95.5</span></p>
+        <p class="meta"><b>中文题目：</b>电动汽车电池组动态重配置对寿命和成本的系统级评估</p>
+        <p class="meta"><b>作者：</b>Albert Škegro, Torsten Wik, Bo Bijlenga, Alexander Bessman, Changfu Zou</p>
+        <p class="meta"><b>来源：</b>Nature Communications ｜ <b>日期：</b>2026-07-08 ｜ <b>数据源：</b>Crossref</p>
+        <p class="meta"><b>DOI：</b>10.1038/s41467-026-74951-8</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1038/s41467-026-74951-8">https://doi.org/10.1038/s41467-026-74951-8</a></p>
+        <p><b>一句话总结：</b>通过统计建模和详细电池仿真，证明动态重配置可将电池组寿命延长20%以上并降低生命周期成本。</p>
+        <p><b>研究问题：</b>传统固定配置电池组存在电芯不一致和过早失效问题，需要评估动态重配置的寿命和经济收益。</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>建立了技术无关的系统级评估框架，覆盖多种设计和使用条件</li><li>量化了重配置电池组的寿命延长（&gt;20%）和成本降低效果</li><li>识别了经济可行性的关键阈值（容量&gt;50kWh、年里程&lt;12150km、额外成本&lt;7.16%）</li></ul>
+        <p><b>与BMS相关性：</b>直接相关：研究电池组架构和控制系统对寿命和成本的影响，属于BMS系统级管理与优化核心方向。</p>
+        <p><b>对课题组启发：</b>为课题组在pack不一致性和系统级控制方面提供新思路：动态重配置可缓解cell inconsistency，其统计框架可迁移至SOH/RUL预测中的pack级建模。</p>
+        <p><b>推荐理由：</b>A级：发表在Nature Communications（优先列表第3位），属于高水平期刊；内容与BMS系统级管理强相关，方法严谨，具有显著应用价值。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>2. Unsupervised probabilistic fault detection and risk quantification for lithium-ion batteries in real-world electric vehicles</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 104.5</span></p>
+        <p class="meta"><b>中文题目：</b>基于无监督概率方法的真实世界电动汽车锂离子电池故障检测与风险量化</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Energy Storage Materials ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2405829726004587?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2405829726004587?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>提出无监督概率框架检测真实行驶条件下的电池故障并量化风险。</p>
+        <p><b>研究问题：</b>真实世界电动汽车电池故障数据稀缺且标记困难，需要无监督方法进行有效检测和风险量化。</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>开发了无需标记数据的概率故障检测方法</li><li>实现了基于现场数据的风险量化</li><li>验证于实际电动汽车运行数据</li></ul>
+        <p><b>与BMS相关性：</b>强相关：直接针对BMS中的故障诊断和安全预警，且采用real-world fleet数据。</p>
+        <p><b>对课题组启发：</b>对课题组在故障诊断和field data利用方向有重要启发，无监督方法可降低对标注数据的依赖，适用于实际储能/车队数据。</p>
+        <p><b>推荐理由：</b>A级：发表在Energy Storage Materials（优先列表第7位），期刊水平高；标题明确涉及故障诊断和实际数据，符合关注范围。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>3. Koopman Spectral Analysis of Lithium-Ion Battery Dynamics: State of Charge as a Marginally Stable Observable</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 91.0</span></p>
+        <p class="meta"><b>中文题目：</b>锂离子电池动力学的Koopman谱分析：荷电状态作为边际稳定可观测量</p>
+        <p class="meta"><b>作者：</b>Bakhtiar Nafis, Khalid Mahmud Labib, Saad Waheed, Shabbir Ahmed</p>
+        <p class="meta"><b>来源：</b>arXiv [eess.SY] ｜ <b>日期：</b>2026-07-08 ｜ <b>数据源：</b>arXiv</p>
+        
+        <p class="meta"><b>链接：</b><a href="http://arxiv.org/abs/2607.07594v1">http://arxiv.org/abs/2607.07594v1</a></p>
+        <p><b>一句话总结：</b>利用Koopman理论和DMDc方法，从电压电流数据中提取SOC作为最慢边际稳定模态，无需等效电路模型参数。</p>
+        <p><b>研究问题：</b>传统SOC估计依赖模型参数辨识且非线性强，需要兼具物理可解释性和数据驱动效率的方法。</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>将Koopman算子和DMDc引入电池SOC估计</li><li>发现SOC自然表现为最慢边际稳定模态，对应电荷守恒积分行为</li><li>在HPPC测试数据上验证，避免了ECM参数辨识</li></ul>
+        <p><b>与BMS相关性：</b>直接相关：提出新颖的SOC估计框架，是BMS核心功能之一。</p>
+        <p><b>对课题组启发：</b>该方法为SOC估计提供了新范式，可结合物理信息学习（Koopman模态具有物理意义），对课题组在物理信息融合方向有直接参考价值。</p>
+        <p><b>推荐理由：</b>A级：虽为arXiv预印本，但内容创新性强，方法具有高迁移潜力，且直接解决SOC估计核心问题，属于高潜力预印本。</p>
+      </article>
+      
+    
+  </section>
+
+  <section class="block">
+    <h2>三、B级建议浏览论文</h2>
+    
+      
+      <article class="paper">
+        <h3>1. Cloud-edge collaborative state of charge estimation for lithium-ion batteries based on hybrid deep learning and adaptive unscented Kalman filter</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 83.0</span></p>
+        <p class="meta"><b>中文题目：</b>基于混合深度学习与自适应无迹卡尔曼滤波的锂离子电池云边协同荷电状态估计</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26032056?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2352152X26032056?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>提出云边协同的SOC估计框架，结合深度学习与自适应UKF。</p>
+        <ul><li>设计了云边协同架构</li><li>融合混合深度学习与自适应UKF</li><li>在Journal of Energy Storage发表</li></ul>
+        <p><b>与BMS相关性：</b>直接相关：SOC估计是BMS核心，云边协同属于cloud BMS方向。</p>
+        <p><b>对课题组启发：</b>为课题组在cloud/edge BMS方向上提供具体实现思路，可结合课题组已有算法进行边缘部署优化。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>2. A large multimodal foundation model for unified state-of-health and remaining useful life estimation of lithium-ion batteries</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 81.0</span></p>
+        <p class="meta"><b>中文题目：</b>用于锂离子电池统一健康状态与剩余寿命预测的大规模多模态基础模型</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26030823?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2352152X26030823?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>构建多模态基础模型，统一进行SOH和RUL估计。</p>
+        <ul><li>提出多模态基础模型</li><li>统一SOH和RUL估计</li><li>在Journal of Energy Storage发表</li></ul>
+        <p><b>与BMS相关性：</b>直接相关：SOH和RUL估计是BMS关键功能。</p>
+        <p><b>对课题组启发：</b>多模态基础模型思路可应用于课题组field数据融合，提升SOH/RUL估计的泛化性。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>3. Data-driven health-aware battery fast charging using adaptive neuro-fuzzy inference system-based optimized end-charging strategy for battery life extension</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 77.0</span></p>
+        <p class="meta"><b>中文题目：</b>基于自适应神经模糊推理系统的数据驱动健康感知电池快速充电策略以延长电池寿命</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26031117?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2352152X26031117?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>利用ANFIS优化充电终止策略，实现健康感知的快速充电。</p>
+        <ul><li>提出健康感知的充电策略</li><li>采用ANFIS进行优化</li><li>在Journal of Energy Storage发表</li></ul>
+        <p><b>与BMS相关性：</b>相关：充电策略属于BMS控制功能，且涉及健康管理。</p>
+        <p><b>对课题组启发：</b>健康感知充电是BMS闭环控制的重要体现，课题组可借鉴其优化思路用于SOH感知的充放电策略。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>4. Experimental characterization and dynamic simulation of gas dispersion and explosion induced by overcharge thermal runaway in a LiFePO₄ battery energy storage container</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 75.0</span></p>
+        <p class="meta"><b>中文题目：</b>LiFePO₄电池储能集装箱过充热失控气体扩散与爆炸的实验表征与动态模拟</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26032159?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2352152X26032159?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>通过实验和仿真研究储能集装箱内过充热失控导致的气体扩散与爆炸特性。</p>
+        <ul><li>实验表征了过充热失控气体产生与扩散</li><li>建立了动态仿真模型</li><li>在Journal of Energy Storage发表</li></ul>
+        <p><b>与BMS相关性：</b>相关：热失控安全预警是BMS重要方向，但更偏安全事故后果分析。</p>
+        <p><b>对课题组启发：</b>对课题组在储能系统安全预警研究中有参考价值，可结合热失控早期预警模型进行后果量化。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>5. Instance-weighted decoupled deep transfer learning for battery state-of-health estimation</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 65.0</span></p>
+        <p class="meta"><b>中文题目：</b>实例加权解耦深度迁移学习用于电池健康状态估计</p>
+        <p class="meta"><b>作者：</b>Haiyan Luo, Hanmin Sheng, Yuanlang Chen, Xuanming Wan, Jing Yuan</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>2026-07-07 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.1016/j.est.2026.123371</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1016/j.est.2026.123371">https://doi.org/10.1016/j.est.2026.123371</a></p>
+        <p><b>一句话总结：</b>提出实例加权解耦深度迁移学习方法以提高不同工况下SOH估计的泛化能力。</p>
+        <ul><li>提出实例加权解耦策略</li><li>应用于电池SOH估计</li><li>在Journal of Energy Storage发表</li></ul>
+        <p><b>与BMS相关性：</b>直接相关：SOH估计是BMS关键任务。</p>
+        <p><b>对课题组启发：</b>迁移学习策略对课题组处理不同来源field数据有借鉴意义，可用于构建通用SOH模型。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>6. Lithium-Ion Battery SOH Estimation Driven by Multi-Level Features from Adaptive Optimal Intervals and HISSA-BiLSTM</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 122.0</span></p>
+        <p class="meta"><b>中文题目：</b>基于自适应最优区间多级特征和HISSA-BiLSTM的锂离子电池SOH估计</p>
+        <p class="meta"><b>作者：</b>缘 蒋, Xinlei Qiao, Lu Lv, Lujun Wang</p>
+        <p class="meta"><b>来源：</b>Journal of The Electrochemical Society ｜ <b>日期：</b>2026-07-07 ｜ <b>数据源：</b>OpenAlex+Crossref</p>
+        <p class="meta"><b>DOI：</b>10.1149/1945-7111/ae8724</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1149/1945-7111/ae8724">https://doi.org/10.1149/1945-7111/ae8724</a></p>
+        <p><b>一句话总结：</b>提出自适应区间选择和多级特征提取结合BiLSTM的SOH估计框架。</p>
+        <ul><li>自适应最优区间搜索框架</li><li>16维多级健康特征提取</li><li>在NASA数据集上验证精度提升8.3%</li></ul>
+        <p><b>与BMS相关性：</b>直接相关：SOH估计是BMS核心功能。</p>
+        <p><b>对课题组启发：</b>自适应区间特征选择方法可提高SOH估计效率，课题组可结合实车充电数据分析。</p>
+      </article>
+      
+    
+  </section>
+
+  <section class="block">
+    <h2>四、C级备选与快速浏览</h2>
+    
+    <table>
+      <thead><tr><th>标题</th><th>来源</th><th>日期</th><th>推荐理由</th></tr></thead>
+      <tbody>
+      
+        <tr>
+          <td><a href="https://doi.org/10.1016/j.est.2026.123458">Numerical investigation and multi-objective optimization of a bio-inspired reticular cell wall liquid cooling plate for lithium-ion battery thermal management systems</a></td>
+          <td>Journal of Energy Storage</td>
+          <td>2026-07-07</td>
+          <td>C级：边缘相关，主要涉及冷却板结构优化，非BMS核心状态估计或控制，可进入备选。</td>
+        </tr>
+      
+        <tr>
+          <td><a href="https://doi.org/10.3390/en19133210">AMI-Informed Hierarchical Deep Reinforcement Learning–Model Predictive Control for Coordinated EV, PV, and Battery Energy Management in Campus Microgrids</a></td>
+          <td>Energies</td>
+          <td>2026-07-07</td>
+          <td>C级：边缘相关，更偏向微电网能量管理而非电池管理，可备选。</td>
+        </tr>
+      
+      </tbody>
+    </table>
+    
+  </section>
+
+  <section class="block">
+    <h2>五、今日论文总表</h2>
+    <table>
+      <thead><tr><th>等级</th><th>标题</th><th>期刊/来源</th><th>方向判断</th><th>链接</th></tr></thead>
+      <tbody>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>System-level assessment of dynamic reconfiguration for lifetime and cost outcomes in electric vehicle battery packs</td>
+          <td>Nature Communications</td>
+          <td>通过统计建模和详细电池仿真，证明动态重配置可将电池组寿命延长20%以上并降低生命周期成本。</td>
+          <td><a href="https://doi.org/10.1038/s41467-026-74951-8">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>Unsupervised probabilistic fault detection and risk quantification for lithium-ion batteries in real-world electric vehicles</td>
+          <td>Energy Storage Materials</td>
+          <td>提出无监督概率框架检测真实行驶条件下的电池故障并量化风险。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2405829726004587?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>Koopman Spectral Analysis of Lithium-Ion Battery Dynamics: State of Charge as a Marginally Stable Observable</td>
+          <td>arXiv [eess.SY]</td>
+          <td>利用Koopman理论和DMDc方法，从电压电流数据中提取SOC作为最慢边际稳定模态，无需等效电路模型参数。</td>
+          <td><a href="http://arxiv.org/abs/2607.07594v1">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Cloud-edge collaborative state of charge estimation for lithium-ion batteries based on hybrid deep learning and adaptive unscented Kalman filter</td>
+          <td>Journal of Energy Storage</td>
+          <td>提出云边协同的SOC估计框架，结合深度学习与自适应UKF。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26032056?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>A large multimodal foundation model for unified state-of-health and remaining useful life estimation of lithium-ion batteries</td>
+          <td>Journal of Energy Storage</td>
+          <td>构建多模态基础模型，统一进行SOH和RUL估计。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26030823?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Data-driven health-aware battery fast charging using adaptive neuro-fuzzy inference system-based optimized end-charging strategy for battery life extension</td>
+          <td>Journal of Energy Storage</td>
+          <td>利用ANFIS优化充电终止策略，实现健康感知的快速充电。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26031117?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Experimental characterization and dynamic simulation of gas dispersion and explosion induced by overcharge thermal runaway in a LiFePO₄ battery energy storage container</td>
+          <td>Journal of Energy Storage</td>
+          <td>通过实验和仿真研究储能集装箱内过充热失控导致的气体扩散与爆炸特性。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26032159?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Instance-weighted decoupled deep transfer learning for battery state-of-health estimation</td>
+          <td>Journal of Energy Storage</td>
+          <td>提出实例加权解耦深度迁移学习方法以提高不同工况下SOH估计的泛化能力。</td>
+          <td><a href="https://doi.org/10.1016/j.est.2026.123371">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>Numerical investigation and multi-objective optimization of a bio-inspired reticular cell wall liquid cooling plate for lithium-ion battery thermal management systems</td>
+          <td>Journal of Energy Storage</td>
+          <td>提出仿生结构液冷板并通过多目标优化提升热管理性能。</td>
+          <td><a href="https://doi.org/10.1016/j.est.2026.123458">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Lithium-Ion Battery SOH Estimation Driven by Multi-Level Features from Adaptive Optimal Intervals and HISSA-BiLSTM</td>
+          <td>Journal of The Electrochemical Society</td>
+          <td>提出自适应区间选择和多级特征提取结合BiLSTM的SOH估计框架。</td>
+          <td><a href="https://doi.org/10.1149/1945-7111/ae8724">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>AMI-Informed Hierarchical Deep Reinforcement Learning–Model Predictive Control for Coordinated EV, PV, and Battery Energy Management in Campus Microgrids</td>
+          <td>Energies</td>
+          <td>提出AMI信息驱动的层级SAC-MPC框架实现微网内EV、PV和电池储能协调管理。</td>
+          <td><a href="https://doi.org/10.3390/en19133210">Open</a></td>
+        </tr>
+      
+      </tbody>
+    </table>
+  </section>
+
+  <p class="footer">Generated by battery-paper-agent. 请人工复核关键结论后再用于论文综述或组会汇报。</p>
+</div>
+</body>
+</html>
