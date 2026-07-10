@@ -1,0 +1,307 @@
+[
+  {
+    "title": "System-level assessment of dynamic reconfiguration for lifetime and cost outcomes in electric vehicle battery packs",
+    "abstract": "Abstract The electrification of transport relies heavily on lithium-ion batteries, yet conventional fixed-configuration battery packs suffer from structural inefficiencies such as cell-to-cell variability and premature failure. Dynamic battery reconfiguration, enabled by intelligent control of switching hardware around individual cells, provides an alternative pack architecture. Here we present a systematic, battery technology-agnostic evaluation of the lifetime and economic benefits of reconfigurable battery packs using a statistically grounded framework based on detailed cell modelling across diverse design and usage conditions. We show that reconfigurable battery packs can extend battery lifetime by over 20%, particularly in high-voltage applications such as electric trucks and long-range passenger vehicles. Despite higher upfront costs, reconfigurable packs can reduce lifetime cost by deferring replacements and retaining greater residual value. A sensitivity analysis identifies robust thresholds for economic viability: battery capacities above approximately 50 kWh, annual driving distances below 12,150 km, and additional upfront costs under 7.16%. These findings position dynamic reconfiguration as a scalable, cost-optimised architecture for next-generation battery platforms, and provide a quantitative foundation for future hardware design, management software, and life-cycle sustainability assessments.",
+    "authors": [
+      "Albert Škegro",
+      "Torsten Wik",
+      "Bo Bijlenga",
+      "Alexander Bessman",
+      "Changfu Zou"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "Nature Communications",
+    "date": "2026-07-08",
+    "doi": "10.1038/s41467-026-74951-8",
+    "url": "https://doi.org/10.1038/s41467-026-74951-8",
+    "source_id": "",
+    "score": 95.5,
+    "level": "A",
+    "title_zh": "电动汽车电池包动态重构对寿命和成本的系统级评估",
+    "one_sentence": "通过统计框架和详细电池模型，证明可重构电池包在高电压应用中可延长20%以上寿命并降低终生成本。",
+    "problem": "传统固定配置电池包存在电池间差异和早期失效，如何量化动态重构的寿命和经济收益？",
+    "contributions": [
+      "提出了电池技术中立的可重构电池包系统级评估框架",
+      "发现重构可将寿命延长超过20%，尤其适用于电动卡车和长续航乘用车",
+      "确定了经济可行的阈值条件（容量>50 kWh、年里程<12150 km、附加成本<7.16%）"
+    ],
+    "bms_relevance": "直接相关。研究针对电池包架构优化，核心是动态重构控制策略，属于BMS系统级管理和控制范畴。",
+    "insight_for_group": "可迁移至pack不一致性管理及系统级优化，启示我们考虑硬件拓扑与控制协同设计，对pack-level状态估计和寿命预测有借鉴。",
+    "reason": "A级。Nature Communications期刊（优先列表第3位），强相关，框架系统且具有实际指导意义。"
+  },
+  {
+    "title": "A Multi‐Component Thermoelectric Modeling Framework for Electric Vehicles' Air‐Cooled Battery Packs",
+    "abstract": "ABSTRACT Battery systems, which play a critical role in the proliferation of large‐scale electric vehicle adoption, still face challenges related to their temperature control. Many studies already present modeling approaches for the thermal phenomena in battery cells or modules. However, there is still a research gap in the complete modeling of the whole battery pack, considering multiple components, for example, the presence of cable connections and their influence on the battery cells' temperature. This work aims to contribute to this topic, with a thermoelectric modeling framework for air‐cooled modular battery systems, considering the influence of different elements inside the battery pack. The models combine an analytical lumped parameter electric model for the battery module with an experimentally calibrated thermal‐fluid 3D finite element model (FEM). After the experimental electric and thermal characterization of a single battery module, a 3D FEM model in COMSOL Multiphysics is built for the whole battery pack at different loads. Results show a good accuracy of the proposed method, with a deviation of 2.1% between simulation and experimental results. It was verified that the presence of cable connections produced a higher temperature on the top of the battery modules. The tested air cooling methods were effective for reducing these local hotspots, reducing the cables and battery modules' temperatures from 125°C and 61.6°C to 45°C and 53.5°C, respectively, at full load, while also stabilizing the battery cells' average temperature. This shows the importance of modeling the whole battery pack and its auxiliary components for an adequate temperature prediction of the battery cells' temperature.",
+    "authors": [
+      "Ricardo M. M. Antunes",
+      "João F. P. Fernandes"
+    ],
+    "source": "Crossref",
+    "venue": "Energy Storage",
+    "date": "2026-07-09",
+    "doi": "10.1002/est2.70464",
+    "url": "https://doi.org/10.1002/est2.70464",
+    "source_id": "",
+    "score": 106.5,
+    "level": "B",
+    "title_zh": "电动汽车风冷电池包多组件热电建模框架",
+    "one_sentence": "提出包含电缆连接等组件影响的风冷电池包热电耦合模型，实现2.1%误差的温度预测。",
+    "problem": "现有电池包热模型未考虑电缆等辅助部件对温度分布的影响，如何精确建模完整电池包？",
+    "contributions": [
+      "建立了包含电缆等组件的电池模块解析电模型与3D热流体FEM耦合框架",
+      "实验验证表明电缆连接导致顶部温度升高，风冷可将热点从125°C降至45°C",
+      "揭示了全电池包建模对精准温度预测的重要性"
+    ],
+    "bms_relevance": "相关。热管理是BMS重要组成，但更偏建模而非核心状态估计或故障诊断。",
+    "insight_for_group": "对pack级热建模有参考价值，可结合热场数据进行寿命预测或安全预警，但方法相对传统。",
+    "reason": "B级。期刊Energy Storage非优先列表期刊，相关性中等，创新性一般。"
+  },
+  {
+    "title": "Unsupervised probabilistic fault detection and risk quantification for lithium-ion batteries in real-world electric vehicles",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Energy Storage Materials",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2405829726004587?dgcid=rss_sd_all",
+    "source_id": "rss:8:Energy Storage Materials",
+    "score": 104.5,
+    "level": "A",
+    "title_zh": "基于无监督概率方法的真实世界电动汽车锂离子电池故障检测与风险量化",
+    "one_sentence": "提出无监督概率框架，利用实车数据进行故障检测与风险量化。",
+    "problem": "真实车辆中电池故障标签稀缺，如何实现无监督故障检测并量化风险？",
+    "contributions": [
+      "无监督概率故障检测方法，无需标签数据",
+      "基于实车数据验证，具备实际应用价值",
+      "风险量化输出，可支持安全预警"
+    ],
+    "bms_relevance": "直接相关。聚焦BMS核心安全预警功能，实车数据场景，符合实时监控需求。",
+    "insight_for_group": "对基于现场数据的故障诊断方向有启发，可探索无监督方法在pack不一致性和热失控预警中的应用。",
+    "reason": "A级。Energy Storage Materials期刊（优先列表第7位），强相关，实车数据，高潜力。"
+  },
+  {
+    "title": "Koopman Spectral Analysis of Lithium-Ion Battery Dynamics: State of Charge as a Marginally Stable Observable",
+    "abstract": "Accurate state-of-charge (SOC) estimation remains a fundamental challenge in lithium-ion battery management systems because battery dynamics are highly nonlinear, operating-condition dependent, and sensitive to parameter variations caused by aging and temperature. Conventional model-based estimators, such as equivalent circuit model (ECM) and Kalman-filter-based approaches, rely heavily on repeated parameter identification and accurate electrochemical modeling, whereas purely data-driven methods often sacrifice physical interpretability. This work proposes a Koopman-theoretic, data-driven framework for SOC estimation using Dynamic Mode Decomposition with control (DMDc) combined with Hankel time-delay embedding. Instead of explicitly identifying ECM parameters, the proposed approach reconstructs a lifted dynamical state space directly from measured terminal voltage and current obtained through Hybrid Pulse Power Characterization (HPPC) testing. Spectral decomposition of the identified DMDc operator reveals intrinsic battery dynamics in terms of Koopman modes and eigenvalues. The SOC dynamics naturally emerge as the slowest marginally stable mode whose eigenvalue lies closest to the unit circle, consistent with the integrator-type behavior of charge conservation. The corresponding modal coordinate is subsequently utilized as an SOC-sensitive observable.",
+    "authors": [
+      "Bakhtiar Nafis",
+      "Khalid Mahmud Labib",
+      "Saad Waheed",
+      "Shabbir Ahmed"
+    ],
+    "source": "arXiv",
+    "venue": "arXiv [eess.SY]",
+    "date": "2026-07-08",
+    "doi": "",
+    "url": "http://arxiv.org/abs/2607.07594v2",
+    "source_id": "",
+    "score": 91.0,
+    "level": "A",
+    "title_zh": "锂离子电池动力学的Koopman谱分析：荷电状态作为边缘稳定可观测量",
+    "one_sentence": "利用动态模态分解和Hankel时延嵌入，将SOC作为最慢边缘稳定模态，实现数据驱动的SOC估计。",
+    "problem": "传统SOC估计依赖参数辨识或电化学模型，如何在不显式建模情况下保持可解释性？",
+    "contributions": [
+      "提出基于Koopman理论的SOC估计框架，结合DMDc和时延嵌入",
+      "自然揭示了SOC作为积分器特性的边际稳定模态",
+      "在HPPC测试数据上验证，方法可解释且避免参数化"
+    ],
+    "bms_relevance": "直接相关。SOC估计是BMS最基本且最关键功能之一，方法创新且具有物理意义。",
+    "insight_for_group": "可引入数据驱动与物理可解释结合的思路，应用于SOH估计或pack级状态估计，尤其适合在线辨识。",
+    "reason": "A级。arXiv预印本，但方法新颖且与BMS核心问题强相关，具有高迁移潜力。"
+  },
+  {
+    "title": "A large multimodal foundation model for unified state-of-health and remaining useful life estimation of lithium-ion batteries",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26030823?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 81.0,
+    "level": "B",
+    "title_zh": "用于锂离子电池健康状态和剩余使用寿命统一估计的大规模多模态基础模型",
+    "one_sentence": "提出多模态基础模型，统一估计锂离子电池的SOH和RUL。",
+    "problem": "如何利用多模态数据统一估计SOH和RUL？",
+    "contributions": [
+      "多模态融合框架",
+      "统一估计SOH和RUL",
+      "基于基础模型的可迁移性"
+    ],
+    "bms_relevance": "直接相关。SOH和RUL是BMS健康评估核心任务。",
+    "insight_for_group": "对课题组SOH/RUL估计方向有直接参考价值，可探索基础模型在电池数据上的应用。",
+    "reason": "B级。Journal of Energy Storage，相关但期刊水平一般，与第6篇重复，保留以备查。"
+  },
+  {
+    "title": "Data-driven health-aware battery fast charging using adaptive neuro-fuzzy inference system-based optimized end-charging strategy for battery life extension",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26031117?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 77.0,
+    "level": "B",
+    "title_zh": "基于自适应神经模糊推理系统优化末端充电策略的数据驱动健康感知电池快充方法",
+    "one_sentence": "通过自适应神经模糊推理优化充电策略，延长电池寿命。",
+    "problem": "如何在快充过程中兼顾健康以延长寿命？",
+    "contributions": [
+      "健康感知充电策略",
+      "自适应模糊推理优化",
+      "数据驱动方法"
+    ],
+    "bms_relevance": "相关。充电控制是BMS功能之一，健康感知有利于状态管理。",
+    "insight_for_group": "对充电策略优化有启发，可结合课题组SOH预测进行联合优化。",
+    "reason": "B级。Journal of Energy Storage，相关但期刊一般，与第7篇重复。"
+  },
+  {
+    "title": "Experimental characterization and dynamic simulation of gas dispersion and explosion induced by overcharge thermal runaway in a LiFePO₄ battery energy storage container",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26032159?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 75.0,
+    "level": "B",
+    "title_zh": "LiFePO₄电池储能容器过充热失控导致的气体扩散和爆炸实验表征与动态模拟",
+    "one_sentence": "实验和仿真研究LiFePO₄储能容器过充热失控后的气体扩散与爆炸。",
+    "problem": "储能系统热失控后的气体扩散和爆炸风险如何量化？",
+    "contributions": [
+      "热失控实验表征",
+      "气体扩散动态模拟",
+      "安全风险分析"
+    ],
+    "bms_relevance": "直接相关。热失控预警和安全是BMS重要方向。",
+    "insight_for_group": "对储能场站安全评估有价值，可指导热失控检测和预警策略设计。",
+    "reason": "B级。Journal of Energy Storage，相关但创新性和期刊水平一般。"
+  },
+  {
+    "title": "Cloud-edge collaborative state of charge estimation for lithium-ion batteries based on hybrid deep learning and adaptive unscented Kalman filter",
+    "abstract": "",
+    "authors": [
+      "Yukang Yang",
+      "Fengjin Cao",
+      "Yong Shen",
+      "Dong Liu",
+      "Y Yiannian He",
+      "Yu Deng",
+      "Keyi Zou",
+      "S K Wang",
+      "Weiyu Cai"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-07-08",
+    "doi": "10.1016/j.est.2026.123541",
+    "url": "https://doi.org/10.1016/j.est.2026.123541",
+    "source_id": "",
+    "score": 65.0,
+    "level": "B",
+    "title_zh": "基于混合深度学习与自适应无迹卡尔曼滤波的锂离子电池云边协同荷电状态估计",
+    "one_sentence": "提出云边协同框架，结合深度学习和自适应UKF实现SOC估计。",
+    "problem": "如何利用云端计算资源提高SOC估计精度和鲁棒性？",
+    "contributions": [
+      "云边协同计算架构",
+      "混合深度学习与自适应UKF融合",
+      "在线SOC估计"
+    ],
+    "bms_relevance": "直接相关。SOC估计和云边协同是BMS前沿方向。",
+    "insight_for_group": "对课题组cloud/edge BMS方向有直接参考，可借鉴混合模型方法。",
+    "reason": "B级。Journal of Energy Storage，相关但期刊水平一般。"
+  },
+  {
+    "title": "A large multimodal foundation model for unified state-of-health and remaining useful life estimation of lithium-ion batteries",
+    "abstract": "",
+    "authors": [
+      "Wending Zhu",
+      "Xiang Li",
+      "Zihan Gong",
+      "Mamdouh Abdelsalam",
+      "Wei Zhang",
+      "Shaojie Yang"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-07-08",
+    "doi": "10.1016/j.est.2026.123418",
+    "url": "https://doi.org/10.1016/j.est.2026.123418",
+    "source_id": "",
+    "score": 63.0,
+    "level": "B",
+    "title_zh": "用于锂离子电池健康状态和剩余使用寿命统一估计的大规模多模态基础模型",
+    "one_sentence": "提出多模态基础模型，统一估计锂离子电池的SOH和RUL。",
+    "problem": "如何利用多模态数据统一估计SOH和RUL？",
+    "contributions": [
+      "多模态融合框架",
+      "统一估计SOH和RUL",
+      "基于基础模型的可迁移性"
+    ],
+    "bms_relevance": "直接相关。SOH和RUL是BMS健康评估核心任务。",
+    "insight_for_group": "对课题组SOH/RUL估计方向有直接参考价值，可探索基础模型在电池数据上的应用。",
+    "reason": "B级。Journal of Energy Storage，相关但期刊水平一般，与第6篇重复，保留以备查。"
+  },
+  {
+    "title": "Data-driven health-aware battery fast charging using adaptive neuro-fuzzy inference system-based optimized end-charging strategy for battery life extension",
+    "abstract": "",
+    "authors": [
+      "Bibaswan Bose",
+      "Akhil Garg",
+      "Jinwoo Kim"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-07-08",
+    "doi": "10.1016/j.est.2026.123447",
+    "url": "https://doi.org/10.1016/j.est.2026.123447",
+    "source_id": "",
+    "score": 59.0,
+    "level": "B",
+    "title_zh": "基于自适应神经模糊推理系统优化末端充电策略的数据驱动健康感知电池快充方法",
+    "one_sentence": "通过自适应神经模糊推理优化充电策略，延长电池寿命。",
+    "problem": "如何在快充过程中兼顾健康以延长寿命？",
+    "contributions": [
+      "健康感知充电策略",
+      "自适应模糊推理优化",
+      "数据驱动方法"
+    ],
+    "bms_relevance": "相关。充电控制是BMS功能之一，健康感知有利于状态管理。",
+    "insight_for_group": "对充电策略优化有启发，可结合课题组SOH预测进行联合优化。",
+    "reason": "B级。Journal of Energy Storage，相关但期刊一般，与第7篇重复。"
+  },
+  {
+    "title": "Adaptive Predictive Control Framework for Energy Storage Arbitrage and Deep Discharge Protection in Day-Ahead Electricity Markets",
+    "abstract": "Battery energy storage systems (BESS) participating in day-ahead and real-time electricity market arbitrage face a critical trade-off between short-term economic revenue and long-term underlying electrochemical lifespan, particularly the non-linear damage induced by deep discharges. Traditional Model Predictive Control (MPC) and rule-based strategies typically rely on fixed penalty weights or rigid physical boundaries, struggling to achieve a dynamic balance between capturing price peaks and avoiding extreme State of Charge (SOC) conditions.To address this issue, this paper proposes a novel adaptive predictive control framework, termed Fuzzy Logic Controller-based Model Predictive Control (FLC-MPC). Specifically, a Fuzzy Logic Controller (FLC) serves as the upper-level decision module, dynamically adjusting the SOC deviation penalty weight in the underlying MPC cost function based on real-time electricity price fluctuations and current SOC conditions. Furthermore, to overcome the limitations of traditional linear throughput degradation models, a deep discharge implicit cost model based on a quadratic barrier function is formulated and integrated into the comprehensive health-economic benefit optimization system. Comprehensive ablation studies demonstrate that, compared with traditional aggressive MPC, conservative MPC, and industrial rule-based control, the proposed FLC-MPC algorithm achieves an effective Pareto trade-off. While maintaining an online solving efficiency of roughly 15 ms, the strategy effectively prevents the system from operating in the critical low-SOC region, substantially mitigates the equivalent physical State of Health (SOH) fade, and optimizes the comprehensive final benefit from a life-cycle perspective. This study provides an industry-applicable adaptive scheduling solution for BESS that combines high economic returns, robust hardware protection, and transparent explainability.",
+    "authors": [
+      "Zhenxing Wen",
+      "Dingming Zhuo",
+      "Yutao Zhou",
+      "Minghui Chen",
+      "Lei Wang"
+    ],
+    "source": "OpenAlex",
+    "venue": "Human-Centric Intelligent Systems",
+    "date": "2026-07-08",
+    "doi": "10.1007/s44230-026-00164-3",
+    "url": "https://doi.org/10.1007/s44230-026-00164-3",
+    "source_id": "",
+    "score": 124.0,
+    "level": "C",
+    "title_zh": "日前电力市场中储能套利与深度放电保护的自适应预测控制框架",
+    "one_sentence": "提出模糊逻辑-MPC框架，平衡储能套利收益与深度放电保护。",
+    "problem": "如何在日前市场套利中避免深度放电对电池寿命的损害？",
+    "contributions": [
+      "FLC-MPC自适应控制框架",
+      "深度放电隐式成本模型",
+      "实现在线优化（~15ms）"
+    ],
+    "bms_relevance": "部分相关。涉及SOC保护和SOH衰减，但主要关注经济调度而非电池状态估计或安全预警。",
+    "insight_for_group": "可启发将健康管理纳入系统级控制，但偏离核心BMS算法，参考价值有限。",
+    "reason": "C级。期刊非优先列表，相关性边缘，创新性一般。"
+  }
+]
