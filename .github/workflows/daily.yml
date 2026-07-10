@@ -1,9 +1,9 @@
-name: Daily BMS Paper Agent DeepSeek
+name: Daily BMS Paper Agent DeepSeek V1.1
 
 on:
   schedule:
-    # GitHub cron uses UTC. 00:30 UTC = 08:30 Beijing/Singapore time.
-    - cron: "30 0 * * *"
+    - cron: "30 8 * * *"
+      timezone: "Asia/Shanghai"
   workflow_dispatch:
 
 # Avoid overlapping Pages deployments.
@@ -42,16 +42,12 @@ jobs:
           
       - name: Print runner time
         run: |
-          echo "UTC:"
-          date -u
-          echo "Local:"
-          date
-          echo "Workflow cron:"
-          cat .github/workflows/daily.yml | grep cron
-          - name: Set up Python
-            uses: actions/setup-python@v5
-            with:
-              python-version: "3.11"
+          echo "Event type: $GITHUB_EVENT_NAME"
+          echo "Trigger schedule: ${{ github.event.schedule }}"
+          echo "UTC time:"
+          date -u "+%Y-%m-%d %H:%M:%S %Z"
+          echo "Shanghai time:"
+          TZ=Asia/Shanghai date "+%Y-%m-%d %H:%M:%S %Z"
 
       - name: Install dependencies
         run: |
