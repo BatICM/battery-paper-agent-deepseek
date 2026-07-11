@@ -1,0 +1,310 @@
+[
+  {
+    "title": "Cellular Structures for Electric Vehicle Battery Systems: A Critical Review and Design Guidelines",
+    "abstract": "Architected cellular materials are increasingly proposed for electric-vehicle (EV) battery systems as lightweight solutions that can combine crashworthiness, intrusion mitigation and, in some cases, thermal functionality. However, the literature remains fragmented across heterogeneous architectures, metrics and test conditions, which often prevents design-oriented comparison and limits transferability to pack-level implementation. This review consolidates the state of the art on cellular structures for EV battery applications, covering foams, honeycombs, lattice/TPMS architectures and auxetic or bio-inspired concepts. A unified, design-oriented comparative framework is introduced to discuss mechanical performance (e.g., specific energy absorption, peak crushing force, deformation control), thermal considerations and manufacturing–scalability constraints under an EV battery-pack perspective. By explicitly linking cellular architecture selection to pack safety and integration requirements, including limited crush space, joining interfaces, enclosure stiffness and emerging “pack-as-a-structure” concepts, this work translates dispersed results into actionable engineering insights. Finally, decision-oriented guidelines and a selection flowchart are proposed to support early-stage architecture choice and highlight the most critical research gaps, particularly in multiphysics validation, standardized benchmarking and production-ready integration.",
+    "authors": [
+      "Alessandra Ceci",
+      "Girolamo Costanza",
+      "Maria Elisa Tata"
+    ],
+    "source": "Crossref",
+    "venue": "Materials",
+    "date": "2026-07-10",
+    "doi": "10.3390/ma19142985",
+    "url": "https://doi.org/10.3390/ma19142985",
+    "source_id": "",
+    "score": 96.75,
+    "level": "B",
+    "title_zh": "电动汽车电池系统蜂窝结构：关键综述与设计指南",
+    "one_sentence": "综述了电动汽车电池包中蜂窝结构的设计准则，重点关注机械安全与热管理。",
+    "problem": "如何设计优化蜂窝结构以提高电池包的安全性和轻量化？",
+    "contributions": [
+      "提出了统一的设计比较框架",
+      "将蜂窝结构与电池包安全需求关联",
+      "给出了设计流程图和指南"
+    ],
+    "bms_relevance": "与电池管理间接相关，涉及电池包机械安全和热管理，但非BMS核心状态估计或诊断。",
+    "insight_for_group": "结构设计虽非BMS核心，但pack安全性是BMS关注点，可了解结构对热失控传播的影响。",
+    "reason": "B级。期刊Materials影响因子一般，且主题偏向结构设计，非BMS核心，但有一定参考价值。"
+  },
+  {
+    "title": "A Multi‐Component Thermoelectric Modeling Framework for Electric Vehicles' Air‐Cooled Battery Packs",
+    "abstract": "ABSTRACT Battery systems, which play a critical role in the proliferation of large‐scale electric vehicle adoption, still face challenges related to their temperature control. Many studies already present modeling approaches for the thermal phenomena in battery cells or modules. However, there is still a research gap in the complete modeling of the whole battery pack, considering multiple components, for example, the presence of cable connections and their influence on the battery cells' temperature. This work aims to contribute to this topic, with a thermoelectric modeling framework for air‐cooled modular battery systems, considering the influence of different elements inside the battery pack. The models combine an analytical lumped parameter electric model for the battery module with an experimentally calibrated thermal‐fluid 3D finite element model (FEM). After the experimental electric and thermal characterization of a single battery module, a 3D FEM model in COMSOL Multiphysics is built for the whole battery pack at different loads. Results show a good accuracy of the proposed method, with a deviation of 2.1% between simulation and experimental results. It was verified that the presence of cable connections produced a higher temperature on the top of the battery modules. The tested air cooling methods were effective for reducing these local hotspots, reducing the cables and battery modules' temperatures from 125°C and 61.6°C to 45°C and 53.5°C, respectively, at full load, while also stabilizing the battery cells' average temperature. This shows the importance of modeling the whole battery pack and its auxiliary components for an adequate temperature prediction of the battery cells' temperature.",
+    "authors": [
+      "Ricardo M. M. Antunes",
+      "João F. P. Fernandes"
+    ],
+    "source": "Crossref",
+    "venue": "Energy Storage",
+    "date": "2026-07-09",
+    "doi": "10.1002/est2.70464",
+    "url": "https://doi.org/10.1002/est2.70464",
+    "source_id": "",
+    "score": 106.5,
+    "level": "B",
+    "title_zh": "电动汽车空冷电池包多组分热电建模框架",
+    "one_sentence": "提出了考虑电缆连接等组件的电池包热电耦合模型，用于温度预测。",
+    "problem": "电池包完整建模中如何考虑电缆等辅助组件对温度的影响？",
+    "contributions": [
+      "建立了包含电缆连接的热电模型",
+      "实验验证偏差仅2.1%",
+      "发现了电缆导致的热点并验证了冷却效果"
+    ],
+    "bms_relevance": "与电池热管理相关，但未涉及SOC/SOH/故障诊断等BMS核心功能。",
+    "insight_for_group": "热电耦合建模方法可用于BMS中热模型校准，但直接应用有限。",
+    "reason": "B级。期刊Energy Storage影响因子一般，主题与BMS核心功能关联较弱。"
+  },
+  {
+    "title": "Unsupervised probabilistic fault detection and risk quantification for lithium-ion batteries in real-world electric vehicles",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Energy Storage Materials",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2405829726004587?dgcid=rss_sd_all",
+    "source_id": "rss:8:Energy Storage Materials",
+    "score": 104.5,
+    "level": "A",
+    "title_zh": "基于无监督概率的电动汽车锂电池故障检测与风险量化",
+    "one_sentence": "提出无监督概率方法实现真实世界电动汽车锂电池的故障检测与风险量化。",
+    "problem": "如何在无标签数据下实现真实驾驶场景中锂电池的故障检测与风险量化？",
+    "contributions": [
+      "无监督概率故障检测框架",
+      "基于真实世界车辆数据验证",
+      "可量化风险等级"
+    ],
+    "bms_relevance": "直接相关，聚焦BMS核心的故障诊断与安全预警，使用实际运行数据。",
+    "insight_for_group": "无监督方法适合缺乏标签的真实场景，可应用于我们的车队故障检测系统。",
+    "reason": "A级。发表在Energy Storage Materials（优先列表第7），主题强相关，方法创新且实用。"
+  },
+  {
+    "title": "Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 88.5,
+    "level": "B",
+    "title_zh": "基于物理约束符号回归与物理信息神经网络的PEMFC退化数据高效可解释长期预测",
+    "one_sentence": "针对质子交换膜燃料电池提出可解释的寿命预测方法，数据高效且融合物理知识。",
+    "problem": "如何实现PEMFC退化预测的数据高效性和可解释性？",
+    "contributions": [
+      "结合符号回归和PINN的混合方法",
+      "物理约束确保可解释性",
+      "小样本条件下表现优异"
+    ],
+    "bms_relevance": "研究对象为燃料电池而非锂电池，但方法可迁移至电池SOH预测，相关性中等。",
+    "insight_for_group": "物理约束符号回归方法可能为电池RUL预测提供新思路，可借鉴其可解释性。",
+    "reason": "B级。虽发表于eTransportation（优先列表第15），但对象非锂电池，且非BMS直接应用，建议浏览。"
+  },
+  {
+    "title": "Multi-objective optimization energy management strategy for hybrid heavy-duty vehicles equipped with dual auxiliary power units considering battery aging and cabin comfort adjustment",
+    "abstract": "",
+    "authors": [
+      "Wei Sun",
+      "Di Zhang",
+      "Yuan Zou",
+      "Xi Zhang",
+      "J C Zhang",
+      "Guodong Du"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-07-09",
+    "doi": "10.1016/j.est.2026.123492",
+    "url": "https://doi.org/10.1016/j.est.2026.123492",
+    "source_id": "",
+    "score": 51.0,
+    "level": "B",
+    "title_zh": "考虑电池老化和驾驶室舒适调节的双辅助动力单元混合动力重型车辆多目标优化能量管理策略",
+    "one_sentence": "为混合动力卡车提出能量管理策略，同时优化电池老化和驾驶室舒适性。",
+    "problem": "如何在混合动力重型车辆中平衡电池老化、能量消耗和驾驶室舒适性？",
+    "contributions": [
+      "多目标优化模型",
+      "考虑电池老化模型",
+      "仿真验证效果"
+    ],
+    "bms_relevance": "涉及电池老化，但属于能量管理而非BMS核心的状态估计或诊断。",
+    "insight_for_group": "电池老化模型与能量管理耦合，对理解BMS中SOH在系统级的作用有启发。",
+    "reason": "B级。期刊Journal of Energy Storage（优先列表第21），主题与BMS相关但非核心。"
+  },
+  {
+    "title": "Online SOH Estimation of Lithium-Ion Batteries with a Sequential Gaussian Process",
+    "abstract": "Lithium-ion batteries (LIBs) have been widely used in different fields as energy storage systems, such as electric vehicles and power grids. The performance of LIBs degrades with usage, which poses challenges for battery management. Thus, accurate online estimation of the state of health (SOH) is critical to ensure reliability and prolong the service time of LIBs. To achieve this, data-driven methods have become popular due to the capability of learning the mapping between SOH and measurements without prior knowledge of aging mechanisms. However, the online estimation performance of these methods cannot be guaranteed, since the models are trained offline and do not have the capability of online updating when new data are collected. In addition, the inputs for these methods are constructed with the voltage–capacity (V-Q) curve within a fixed voltage interval, which can hardly be realized in real-life applications due to the randomness of the charging or discharging process. This study proposes a Sequential Gaussian Process (Seq-GP) model-based LIB SOH estimation method, where model parameters can be updated using newly collected LIB data, such that online estimation can be fulfilled. Moreover, a novel feature extraction method is presented using random parts of the LIB V-Q curve to meet the requirements for practical applications. The proposed method is evaluated on two public battery datasets, showing competitive estimation accuracy together with online updating, uncertainty quantification, and low computational cost under the tested protocol. The results will be beneficial for online SOH estimation of LIBs in practical scenarios.",
+    "authors": [
+      "Jinzhong Li",
+      "Yuguang Xie",
+      "Bin Xu"
+    ],
+    "source": "OpenAlex",
+    "venue": "Energies",
+    "date": "2026-07-09",
+    "doi": "10.3390/en19143244",
+    "url": "https://doi.org/10.3390/en19143244",
+    "source_id": "",
+    "score": 110.0,
+    "level": "B",
+    "title_zh": "基于顺序高斯过程的锂离子电池在线SOH估计",
+    "one_sentence": "提出可在线更新的高斯过程模型实现锂电池SOH估计，仅需部分电压-容量曲线。",
+    "problem": "如何实现锂离子电池在线SOH估计并适应新数据？",
+    "contributions": [
+      "Seq-GP模型支持在线参数更新",
+      "新特征提取方法适应随机充放电",
+      "不确定性量化"
+    ],
+    "bms_relevance": "直接针对BMS中SOH估计，方法创新但期刊水平一般。",
+    "insight_for_group": "在线高斯过程方法可用于课题组实时SOH估计，但需评估在真实数据上的表现。",
+    "reason": "B级。发表于Energies（影响因子低），但主题强相关且方法实用。"
+  },
+  {
+    "title": "A Probabilistic Fractional Order Physics Informed Mamba Kolmogorov‐Arnold Network for State‐of‐Charge Estimation in Grid‐Connected Battery Energy Storage Systems",
+    "abstract": "ABSTRACT Accurate state of charge (SOC) estimation is critical for reliable battery energy storage system (BESS) operation in renewable grids. However, conventional integer‐order and deterministic models often fail to capture long‐memory electrochemical diffusion or quantify uncertainty under dynamic conditions. To address this, this paper proposes the probabilistic fractional‐order Mamba Kolmogorov‐Arnold network (PFO‐Mam‐KAN) framework. This architecture uniquely integrates a linear‐complexity temporal Mamba encoder to efficiently model long sequences, a probabilistic KAN decoder for estimating time‐varying parameter distributions, and a differentiable fractional‐order physics layer using constant phase elements, to capture non‐Markovian dynamics. These components are unified via an adaptive Kalman‐gated correction mechanism that dynamically modulates reliance on measurements based on propagated uncertainty. Validated on a hybrid AC/DC microgrid using the Sandia database, the framework achieves a superior SOC estimation RMSE of 0.31% and MAE of 0.18%, outperforming contemporary advanced observers. The model demonstrates improved SOC estimation under 3% measurement noise and temperature variations (10°C‐40°C), while exhibiting less computation burden.",
+    "authors": [
+      "Arun Kumar Rawat",
+      "Subhash Chandra",
+      "Vinay Kumar Deolia"
+    ],
+    "source": "Crossref",
+    "venue": "Energy Science & Engineering",
+    "date": "2026-07-10",
+    "doi": "10.1002/ese3.70606",
+    "url": "https://doi.org/10.1002/ese3.70606",
+    "source_id": "",
+    "score": 90.0,
+    "level": "B",
+    "title_zh": "用于并网电池储能系统SOC估计的概率分数阶物理信息Mamba Kolmogorov-Arnold网络",
+    "one_sentence": "融合分数阶物理层和Mamba架构的概率SOC估计方法，RMSE达0.31%。",
+    "problem": "如何实现并网BESS中高精度且可量化不确定性的SOC估计？",
+    "contributions": [
+      "提出PFO-Mam-KAN框架",
+      "集成物理信息层与概率输出",
+      "在微网数据上验证"
+    ],
+    "bms_relevance": "直接针对BMS中SOC估计，方法新颖，但期刊水平低。",
+    "insight_for_group": "物理信息网络与概率估计结合是前沿方向，可用于课题组SOC估计研究。",
+    "reason": "B级。发表于Energy Science & Engineering（影响因子低），但方法创新性强，建议关注。"
+  },
+  {
+    "title": "A Mamba Model Fused with Residual Convolution and Attention Mechanism for SOC Prediction of Lithium-Ion Batteries",
+    "abstract": "Abstract State of charge (SOC) is one of the most critical state variables in lithium-ion batteries for energy storage systems and electric vehicles. SOC estimation under varying temperatures and operating conditions remains challenging due to the difficulty of simultaneously representing local dynamics, long-range temporal dependencies, and salient information. To this end, this study proposes a hybrid CNN–Mamba–Attention network. A convolution-based feature extraction and residual fusion module is introduced ahead of the Mamba backbone to enhance local variation information in the input signals and to facilitate the modelling of long-term temporal dependencies during battery operation. To further refine the learned representation, an attention mechanism is applied after the Mamba module, allowing important features to be highlighted for more accurate SOC estimation. The proposed method is validated using publicly available dynamic test data for lithium-ion batteries under three temperature settings and three operating conditions. Experimental results show that the model achieves a minimum root mean square error (RMSE) of 0.75%, a lowest mean absolute error (MAE) of 0.59%, and a maximum coefficient of determination (R²) of 0.9993, demonstrating strong generalization capability and robustness across different working conditions.",
+    "authors": [
+      "zhaole deng",
+      "Hao Qiang"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of The Electrochemical Society",
+    "date": "2026-07-09",
+    "doi": "10.1149/1945-7111/ae88c6",
+    "url": "https://doi.org/10.1149/1945-7111/ae88c6",
+    "source_id": "",
+    "score": 78.0,
+    "level": "B",
+    "title_zh": "融合残差卷积与注意力机制的Mamba模型用于锂离子电池SOC预测",
+    "one_sentence": "提出CNN-Mamba-Attention混合模型实现锂电池SOC预测，RMSE最低0.75%。",
+    "problem": "如何在SOC预测中同时捕捉局部动态和长时依赖？",
+    "contributions": [
+      "提出混合网络结构",
+      "多温度、多工况验证",
+      "与经典模型对比优越"
+    ],
+    "bms_relevance": "直接针对SOC预测，属于BMS核心，但方法增量。",
+    "insight_for_group": "Mamba架构在时间序列建模有潜力，可尝试在SOC估计中应用。",
+    "reason": "B级。发表于Journal of The Electrochemical Society（影响因子一般），主题相关但创新不足。"
+  },
+  {
+    "title": "Development of a Hybrid Particle Whale Optimization Algorithm for Electric Vehicle Battery Thermal Runaway Prediction",
+    "abstract": "Accurate prediction of battery thermal runaway (TR) is a critical requirement for electric vehicle (EV) battery management systems (BMSs), as TR remains one of the most severe failure modes in lithium-ion batteries. Conventional neural network training methods may suffer from local optimum entrapment, slow convergence, and unstable performance when applied to nonlinear battery safety data. To address these limitations, this paper proposes a Hybrid Particle Whale Optimization Algorithm-optimized feedforward neural network (HPWOA-FNN) for continuous TR probability prediction and binary high-risk event classification using multivariate EV charging sensor data. The proposed HPWOA combines the rapid convergence capability of Particle Swarm Optimization (PSO) during the initial exploration phase with the exploitation and refinement capability of the Whale Optimization Algorithm (WOA) during the second phase. A global-best transfer mechanism is introduced at the PSO-WOA phase boundary to preserve the best solution identified during exploration and initialize the WOA leader, thereby improving convergence continuity and reducing premature stagnation. The model is evaluated using a 500-sample EV battery-charging dataset containing 12 electrothermal, electrical, mechanical, and environmental features. The proposed HPWOA-FNN outperforms standalone PSO-, WOA-, and Stochastic Fractal Search Algorithm (SFSA)-optimized FNN models across all regression metrics, achieving MSE = 0.000989, RMSE = 0.031442, MAE = 0.027250, R2 = 0.9702, and MAPE = 3.8075%. For binary high-risk event detection, HPWOA-FNN achieves the highest AUC of 0.9817 and the lowest false-negative count, reducing missed high-risk events to 7 compared with 9 for PSO, 12 for WOA, and 17 for SFSA. Feature-importance analysis identifies maximum temperature and internal resistance as the dominant predictors, consistent with established thermal runaway mechanisms. The results demonstrate that HPWOA-FNN provides an accurate, interpretable, and computationally practical framework for EV battery thermal runaway prediction and BMS decision support.",
+    "authors": [
+      "Buasa Andy Mayingi",
+      "Bonginkosi A. Thango",
+      "Daniel Okojie"
+    ],
+    "source": "Crossref",
+    "venue": "World Electric Vehicle Journal",
+    "date": "2026-07-10",
+    "doi": "10.3390/wevj17070354",
+    "url": "https://doi.org/10.3390/wevj17070354",
+    "source_id": "",
+    "score": 74.0,
+    "level": "B",
+    "title_zh": "用于电动汽车电池热失控预测的混合粒子鲸鱼优化算法",
+    "one_sentence": "提出HPWOA优化前馈网络用于EV电池热失控概率预测和风险分类。",
+    "problem": "如何提高电池热失控预测的准确性和鲁棒性？",
+    "contributions": [
+      "混合优化算法（HPWOA）",
+      "连续概率和二元分类任务",
+      "特征重要性分析"
+    ],
+    "bms_relevance": "直接针对BMS热失控预警，但数据集较小（500样本）。",
+    "insight_for_group": "优化算法可用于改善课题组热失控预测模型性能。",
+    "reason": "B级。发表于World Electric Vehicle Journal（影响因子低），但主题相关。"
+  },
+  {
+    "title": "Risk-Aware Assessment Framework for Industrial Renewable Energy Integration Using ISO 50001, a Digital-Twin-Ready Architecture, and Conditional Value-at-Risk",
+    "abstract": "Industrial energy transition has moved from pilot deployment to system integration, where renewable supply must be assessed together with process fit, organisational maturity, and uncertainty. This study proposes a risk-aware assessment framework integrating ISO 50001 energy-management maturity, ISO 31000 risk-management logic, a digital-twin-ready operational architecture, scenario simulation, Conditional Value-at-Risk (CVaR), and multi-criteria decision analysis. The study does not report a live plant-level digital twin or empirical survey validation. Instead, it specifies a five-layer implementation architecture, uses a synthetic survey-like dataset solely to demonstrate parameter recovery, and applies 350 Monte Carlo replications to an industrial energy hub comprising photovoltaic and wind generation, battery storage, and optional Power-to-H2-to-Power storage. The quantitative workflow is reported with explicit equations, input assumptions, random seed, CVaR estimator, TOPSIS weights, and weight-sensitivity analysis. Under the adopted assumptions, the PV–wind–battery configuration achieved the lowest mean cost and CVaR, whereas hydrogen storage substantially reduced curtailment but increased mean cost and tail risk without materially reducing grid purchases. These results are conditional on the stated model assumptions and should not be generalised as empirical evidence. The framework supports structured investment and operational assessment by linking technical performance, organisational readiness, and cost–risk–decarbonisation trade-offs.",
+    "authors": [
+      "Łukasz Kański",
+      "Jakub Pizoń",
+      "Arkadiusz Gola",
+      "Jonas Matijošius",
+      "Darius Vainorius"
+    ],
+    "source": "OpenAlex",
+    "venue": "Energies",
+    "date": "2026-07-09",
+    "doi": "10.3390/en19143239",
+    "url": "https://doi.org/10.3390/en19143239",
+    "source_id": "",
+    "score": 66.0,
+    "level": "C",
+    "title_zh": "基于ISO 50001、数字孪生架构和条件风险值的工业可再生能源整合风险感知评估框架",
+    "one_sentence": "提出包含电池储能的工业能源系统风险评估框架，使用CVaR和蒙特卡洛模拟。",
+    "problem": "如何评估工业可再生能源系统的经济风险与脱碳效益？",
+    "contributions": [
+      "集成ISO标准与数字孪生架构",
+      "CVaR风险量化",
+      "比较不同储能配置"
+    ],
+    "bms_relevance": "涉及电池储能系统，但侧重系统级经济和风险，非BMS核心。",
+    "insight_for_group": "对BMS课题组启发有限，但数字孪生架构概念可参考。",
+    "reason": "C级。主题与BMS间接相关，且期刊Energies影响因子较低，不推荐优先阅读。"
+  },
+  {
+    "title": "Design and Prototype of a Microgrid for Enhancing Reliability of Power Supply for Artificial Intelligence Data Centers",
+    "abstract": "Along with increasing use of artificial intelligence (AI), power supply for AI data centers has become critical for ensuring their continuous operation to provide multitude of services. AI data centers rely heavily on utility grids for their high power demand. However, it is known that utility grids are vulnerable to weather and other conditions which lead to outages. Hence, we design a microgrid that makes use of solar PV and battery technologies to increase reliability of power supply for AI data centers. It also reduces their carbon footprint and power demand from the utility grids. A real-world 5.85-MW AI data center in Wyoming state is used as a case study. The microgrid is designed to provide 60% of the center power demand from solar PV and 40% from utility. Additionally, it has a battery storage system capable of providing power for up to 18.2 hours. The battery is charged during high solar production hours and supplies critical loads in the data center at night. A prototype of the microgrid is built for evaluating the design concepts and the system performance. The testing results show that the prototype works properly. It supplies critical and non-critical loads in an automated manner using a microcontroller. For example, at battery state of charge (SOC) of 90% all the loads are operational. At the battery SOC of 40%, the microcontroller automatically turns off non-critical loads while keeping critical loads. The microgrid increases reliability of power supply to data centers because it has battery back-up power. The solar PV system adds to the microgrid reliability because it can supply power to data centers under utility outage conditions. The microgrid design is applicable to all data centers where space and resource are available for solar PV. The microgrid enhances AI data center reliable operation while reducing power demand stress on utility grids.",
+    "authors": [
+      "Ramon Zintzun",
+      "Ethan Hoang",
+      "Jared Wong",
+      "Akanksha Katta",
+      "Vinh Nguyen",
+      "Alex Villaneda",
+      "Gerardo Maximo",
+      "Ha Thu Le"
+    ],
+    "source": "OpenAlex",
+    "venue": "WSEAS TRANSACTIONS ON POWER SYSTEMS",
+    "date": "2026-07-09",
+    "doi": "10.37394/232016.2026.21.10",
+    "url": "https://doi.org/10.37394/232016.2026.21.10",
+    "source_id": "",
+    "score": 62.0,
+    "level": "C",
+    "title_zh": "用于增强人工智能数据中心供电可靠性的微电网设计与原型",
+    "one_sentence": "为AI数据中心设计了含光伏和电池储能的微电网原型，实现自动负载管理。",
+    "problem": "如何设计微电网提高AI数据中心的供电可靠性？",
+    "contributions": [
+      "实际案例设计",
+      "电池SOC触发的自动负载切除",
+      "原型验证"
+    ],
+    "bms_relevance": "仅涉及电池SOC作为控制阈值，与BMS核心无关。",
+    "insight_for_group": "对BMS研究几乎没有启发，不推荐。",
+    "reason": "C级。与BMS关系微弱，且期刊水平低。"
+  }
+]

@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Battery Management Literature Daily｜2026-07-11</title>
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",Arial,sans-serif;line-height:1.68;color:#1f2933;background:#f5f7fa;margin:0;padding:0;}
+    .container{max-width:1040px;margin:0 auto;padding:28px 20px 44px;}
+    .header{background:linear-gradient(135deg,#063b5c,#0b7285);color:#fff;border-radius:18px;padding:28px 30px;margin-bottom:22px;box-shadow:0 8px 22px rgba(0,0,0,.12);}
+    .header h1{margin:0 0 12px;font-size:28px;letter-spacing:.3px;}
+    .header p{margin:4px 0;color:#e7f5ff;}
+    .summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:18px 0 6px;}
+    .stat{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.22);border-radius:14px;padding:12px 14px;}
+    .stat b{font-size:24px;color:#fff;display:block;}
+    .block{background:#fff;border:1px solid #d9e2ec;border-radius:16px;padding:22px;margin:18px 0;box-shadow:0 2px 10px rgba(15,23,42,.04);}
+    h2{color:#0b3d5c;margin:0 0 14px;font-size:22px;}
+    h3{margin:0 0 10px;font-size:19px;color:#102a43;}
+    .meta{color:#52616b;font-size:14px;margin:4px 0;}
+    .paper{border-top:1px solid #e5edf3;padding-top:18px;margin-top:18px;}
+    .paper:first-child{border-top:none;padding-top:0;margin-top:0;}
+    .tag{display:inline-block;border-radius:999px;padding:4px 10px;color:#fff;font-size:12px;font-weight:700;letter-spacing:.2px;margin-right:8px;}
+    .A{background:#c62828;}.B{background:#ef6c00;}.C{background:#607d8b;}
+    .score{display:inline-block;background:#edf2f7;color:#334e68;border-radius:999px;padding:4px 10px;font-size:12px;}
+    ul{padding-left:22px;margin:8px 0 10px;}
+    a{color:#0b7285;text-decoration:none;}a:hover{text-decoration:underline;}
+    table{width:100%;border-collapse:collapse;background:white;font-size:14px;}
+    th,td{border:1px solid #d9e2ec;padding:10px;vertical-align:top;text-align:left;}
+    th{background:#edf4f7;color:#243b53;}
+    .footer{font-size:13px;color:#697386;text-align:center;margin-top:24px;}
+    @media(max-width:720px){.summary-grid{grid-template-columns:1fr}.header{border-radius:0}.container{padding:0 0 28px}.block{border-radius:0;border-left:none;border-right:none}.header h1{font-size:24px}}
+  </style>
+</head>
+<body>
+<div class="container">
+  <section class="header">
+    <h1>Battery Management Literature Daily</h1>
+    <p><b>日期：</b>2026-07-11 ｜ <b>检索窗口：</b>近 2 天 ｜ <b>生成时间：</b>2026-07-11 11:53:24 UTC+8</p>
+    <p>今日筛选12篇候选论文，其中1篇A级、8篇B级、2篇C级、1篇DROP。重点关注无监督概率故障检测、SOC/SOH估计及热失控预测方法，物理信息融合和概率模型成为趋势。</p>
+    <div class="summary-grid">
+      <div class="stat"><b>1</b> A级必读</div>
+      <div class="stat"><b>8</b> B级浏览</div>
+      <div class="stat"><b>2</b> C级备选</div>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>一、今日趋势判断</h2>
+    <p>物理信息网络（PINN）和概率模型在SOC/SOH估计中应用增多；Mamba架构与优化算法在电池诊断中崭露头角；无监督故障检测方法逐渐受到重视。</p>
+  </section>
+
+  <section class="block">
+    <h2>二、A级必读论文</h2>
+    
+      
+      <article class="paper">
+        <h3>1. Unsupervised probabilistic fault detection and risk quantification for lithium-ion batteries in real-world electric vehicles</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 104.5</span></p>
+        <p class="meta"><b>中文题目：</b>基于无监督概率的电动汽车锂电池故障检测与风险量化</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Energy Storage Materials ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2405829726004587?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2405829726004587?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>提出无监督概率方法实现真实世界电动汽车锂电池的故障检测与风险量化。</p>
+        <p><b>研究问题：</b>如何在无标签数据下实现真实驾驶场景中锂电池的故障检测与风险量化？</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>无监督概率故障检测框架</li><li>基于真实世界车辆数据验证</li><li>可量化风险等级</li></ul>
+        <p><b>与BMS相关性：</b>直接相关，聚焦BMS核心的故障诊断与安全预警，使用实际运行数据。</p>
+        <p><b>对课题组启发：</b>无监督方法适合缺乏标签的真实场景，可应用于我们的车队故障检测系统。</p>
+        <p><b>推荐理由：</b>A级。发表在Energy Storage Materials（优先列表第7），主题强相关，方法创新且实用。</p>
+      </article>
+      
+    
+  </section>
+
+  <section class="block">
+    <h2>三、B级建议浏览论文</h2>
+    
+      
+      <article class="paper">
+        <h3>1. Cellular Structures for Electric Vehicle Battery Systems: A Critical Review and Design Guidelines</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 96.75</span></p>
+        <p class="meta"><b>中文题目：</b>电动汽车电池系统蜂窝结构：关键综述与设计指南</p>
+        <p class="meta"><b>作者：</b>Alessandra Ceci, Girolamo Costanza, Maria Elisa Tata</p>
+        <p class="meta"><b>来源：</b>Materials ｜ <b>日期：</b>2026-07-10 ｜ <b>数据源：</b>Crossref</p>
+        <p class="meta"><b>DOI：</b>10.3390/ma19142985</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.3390/ma19142985">https://doi.org/10.3390/ma19142985</a></p>
+        <p><b>一句话总结：</b>综述了电动汽车电池包中蜂窝结构的设计准则，重点关注机械安全与热管理。</p>
+        <ul><li>提出了统一的设计比较框架</li><li>将蜂窝结构与电池包安全需求关联</li><li>给出了设计流程图和指南</li></ul>
+        <p><b>与BMS相关性：</b>与电池管理间接相关，涉及电池包机械安全和热管理，但非BMS核心状态估计或诊断。</p>
+        <p><b>对课题组启发：</b>结构设计虽非BMS核心，但pack安全性是BMS关注点，可了解结构对热失控传播的影响。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>2. A Multi‐Component Thermoelectric Modeling Framework for Electric Vehicles&#39; Air‐Cooled Battery Packs</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 106.5</span></p>
+        <p class="meta"><b>中文题目：</b>电动汽车空冷电池包多组分热电建模框架</p>
+        <p class="meta"><b>作者：</b>Ricardo M. M. Antunes, João F. P. Fernandes</p>
+        <p class="meta"><b>来源：</b>Energy Storage ｜ <b>日期：</b>2026-07-09 ｜ <b>数据源：</b>Crossref</p>
+        <p class="meta"><b>DOI：</b>10.1002/est2.70464</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1002/est2.70464">https://doi.org/10.1002/est2.70464</a></p>
+        <p><b>一句话总结：</b>提出了考虑电缆连接等组件的电池包热电耦合模型，用于温度预测。</p>
+        <ul><li>建立了包含电缆连接的热电模型</li><li>实验验证偏差仅2.1%</li><li>发现了电缆导致的热点并验证了冷却效果</li></ul>
+        <p><b>与BMS相关性：</b>与电池热管理相关，但未涉及SOC/SOH/故障诊断等BMS核心功能。</p>
+        <p><b>对课题组启发：</b>热电耦合建模方法可用于BMS中热模型校准，但直接应用有限。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>3. Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 88.5</span></p>
+        <p class="meta"><b>中文题目：</b>基于物理约束符号回归与物理信息神经网络的PEMFC退化数据高效可解释长期预测</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>eTransportation ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>针对质子交换膜燃料电池提出可解释的寿命预测方法，数据高效且融合物理知识。</p>
+        <ul><li>结合符号回归和PINN的混合方法</li><li>物理约束确保可解释性</li><li>小样本条件下表现优异</li></ul>
+        <p><b>与BMS相关性：</b>研究对象为燃料电池而非锂电池，但方法可迁移至电池SOH预测，相关性中等。</p>
+        <p><b>对课题组启发：</b>物理约束符号回归方法可能为电池RUL预测提供新思路，可借鉴其可解释性。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>4. Multi-objective optimization energy management strategy for hybrid heavy-duty vehicles equipped with dual auxiliary power units considering battery aging and cabin comfort adjustment</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 51.0</span></p>
+        <p class="meta"><b>中文题目：</b>考虑电池老化和驾驶室舒适调节的双辅助动力单元混合动力重型车辆多目标优化能量管理策略</p>
+        <p class="meta"><b>作者：</b>Wei Sun, Di Zhang, Yuan Zou, Xi Zhang, J C Zhang et al.</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>2026-07-09 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.1016/j.est.2026.123492</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1016/j.est.2026.123492">https://doi.org/10.1016/j.est.2026.123492</a></p>
+        <p><b>一句话总结：</b>为混合动力卡车提出能量管理策略，同时优化电池老化和驾驶室舒适性。</p>
+        <ul><li>多目标优化模型</li><li>考虑电池老化模型</li><li>仿真验证效果</li></ul>
+        <p><b>与BMS相关性：</b>涉及电池老化，但属于能量管理而非BMS核心的状态估计或诊断。</p>
+        <p><b>对课题组启发：</b>电池老化模型与能量管理耦合，对理解BMS中SOH在系统级的作用有启发。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>5. Online SOH Estimation of Lithium-Ion Batteries with a Sequential Gaussian Process</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 110.0</span></p>
+        <p class="meta"><b>中文题目：</b>基于顺序高斯过程的锂离子电池在线SOH估计</p>
+        <p class="meta"><b>作者：</b>Jinzhong Li, Yuguang Xie, Bin Xu</p>
+        <p class="meta"><b>来源：</b>Energies ｜ <b>日期：</b>2026-07-09 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.3390/en19143244</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.3390/en19143244">https://doi.org/10.3390/en19143244</a></p>
+        <p><b>一句话总结：</b>提出可在线更新的高斯过程模型实现锂电池SOH估计，仅需部分电压-容量曲线。</p>
+        <ul><li>Seq-GP模型支持在线参数更新</li><li>新特征提取方法适应随机充放电</li><li>不确定性量化</li></ul>
+        <p><b>与BMS相关性：</b>直接针对BMS中SOH估计，方法创新但期刊水平一般。</p>
+        <p><b>对课题组启发：</b>在线高斯过程方法可用于课题组实时SOH估计，但需评估在真实数据上的表现。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>6. A Probabilistic Fractional Order Physics Informed Mamba Kolmogorov‐Arnold Network for State‐of‐Charge Estimation in Grid‐Connected Battery Energy Storage Systems</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 90.0</span></p>
+        <p class="meta"><b>中文题目：</b>用于并网电池储能系统SOC估计的概率分数阶物理信息Mamba Kolmogorov-Arnold网络</p>
+        <p class="meta"><b>作者：</b>Arun Kumar Rawat, Subhash Chandra, Vinay Kumar Deolia</p>
+        <p class="meta"><b>来源：</b>Energy Science &amp; Engineering ｜ <b>日期：</b>2026-07-10 ｜ <b>数据源：</b>Crossref</p>
+        <p class="meta"><b>DOI：</b>10.1002/ese3.70606</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1002/ese3.70606">https://doi.org/10.1002/ese3.70606</a></p>
+        <p><b>一句话总结：</b>融合分数阶物理层和Mamba架构的概率SOC估计方法，RMSE达0.31%。</p>
+        <ul><li>提出PFO-Mam-KAN框架</li><li>集成物理信息层与概率输出</li><li>在微网数据上验证</li></ul>
+        <p><b>与BMS相关性：</b>直接针对BMS中SOC估计，方法新颖，但期刊水平低。</p>
+        <p><b>对课题组启发：</b>物理信息网络与概率估计结合是前沿方向，可用于课题组SOC估计研究。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>7. A Mamba Model Fused with Residual Convolution and Attention Mechanism for SOC Prediction of Lithium-Ion Batteries</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 78.0</span></p>
+        <p class="meta"><b>中文题目：</b>融合残差卷积与注意力机制的Mamba模型用于锂离子电池SOC预测</p>
+        <p class="meta"><b>作者：</b>zhaole deng, Hao Qiang</p>
+        <p class="meta"><b>来源：</b>Journal of The Electrochemical Society ｜ <b>日期：</b>2026-07-09 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.1149/1945-7111/ae88c6</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1149/1945-7111/ae88c6">https://doi.org/10.1149/1945-7111/ae88c6</a></p>
+        <p><b>一句话总结：</b>提出CNN-Mamba-Attention混合模型实现锂电池SOC预测，RMSE最低0.75%。</p>
+        <ul><li>提出混合网络结构</li><li>多温度、多工况验证</li><li>与经典模型对比优越</li></ul>
+        <p><b>与BMS相关性：</b>直接针对SOC预测，属于BMS核心，但方法增量。</p>
+        <p><b>对课题组启发：</b>Mamba架构在时间序列建模有潜力，可尝试在SOC估计中应用。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>8. Development of a Hybrid Particle Whale Optimization Algorithm for Electric Vehicle Battery Thermal Runaway Prediction</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 74.0</span></p>
+        <p class="meta"><b>中文题目：</b>用于电动汽车电池热失控预测的混合粒子鲸鱼优化算法</p>
+        <p class="meta"><b>作者：</b>Buasa Andy Mayingi, Bonginkosi A. Thango, Daniel Okojie</p>
+        <p class="meta"><b>来源：</b>World Electric Vehicle Journal ｜ <b>日期：</b>2026-07-10 ｜ <b>数据源：</b>Crossref</p>
+        <p class="meta"><b>DOI：</b>10.3390/wevj17070354</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.3390/wevj17070354">https://doi.org/10.3390/wevj17070354</a></p>
+        <p><b>一句话总结：</b>提出HPWOA优化前馈网络用于EV电池热失控概率预测和风险分类。</p>
+        <ul><li>混合优化算法（HPWOA）</li><li>连续概率和二元分类任务</li><li>特征重要性分析</li></ul>
+        <p><b>与BMS相关性：</b>直接针对BMS热失控预警，但数据集较小（500样本）。</p>
+        <p><b>对课题组启发：</b>优化算法可用于改善课题组热失控预测模型性能。</p>
+      </article>
+      
+    
+  </section>
+
+  <section class="block">
+    <h2>四、C级备选与快速浏览</h2>
+    
+    <table>
+      <thead><tr><th>标题</th><th>来源</th><th>日期</th><th>推荐理由</th></tr></thead>
+      <tbody>
+      
+        <tr>
+          <td><a href="https://doi.org/10.3390/en19143239">Risk-Aware Assessment Framework for Industrial Renewable Energy Integration Using ISO 50001, a Digital-Twin-Ready Architecture, and Conditional Value-at-Risk</a></td>
+          <td>Energies</td>
+          <td>2026-07-09</td>
+          <td>C级。主题与BMS间接相关，且期刊Energies影响因子较低，不推荐优先阅读。</td>
+        </tr>
+      
+        <tr>
+          <td><a href="https://doi.org/10.37394/232016.2026.21.10">Design and Prototype of a Microgrid for Enhancing Reliability of Power Supply for Artificial Intelligence Data Centers</a></td>
+          <td>WSEAS TRANSACTIONS ON POWER SYSTEMS</td>
+          <td>2026-07-09</td>
+          <td>C级。与BMS关系微弱，且期刊水平低。</td>
+        </tr>
+      
+      </tbody>
+    </table>
+    
+  </section>
+
+  <section class="block">
+    <h2>五、今日论文总表</h2>
+    <table>
+      <thead><tr><th>等级</th><th>标题</th><th>期刊/来源</th><th>方向判断</th><th>链接</th></tr></thead>
+      <tbody>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Cellular Structures for Electric Vehicle Battery Systems: A Critical Review and Design Guidelines</td>
+          <td>Materials</td>
+          <td>综述了电动汽车电池包中蜂窝结构的设计准则，重点关注机械安全与热管理。</td>
+          <td><a href="https://doi.org/10.3390/ma19142985">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>A Multi‐Component Thermoelectric Modeling Framework for Electric Vehicles&#39; Air‐Cooled Battery Packs</td>
+          <td>Energy Storage</td>
+          <td>提出了考虑电缆连接等组件的电池包热电耦合模型，用于温度预测。</td>
+          <td><a href="https://doi.org/10.1002/est2.70464">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>Unsupervised probabilistic fault detection and risk quantification for lithium-ion batteries in real-world electric vehicles</td>
+          <td>Energy Storage Materials</td>
+          <td>提出无监督概率方法实现真实世界电动汽车锂电池的故障检测与风险量化。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2405829726004587?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network</td>
+          <td>eTransportation</td>
+          <td>针对质子交换膜燃料电池提出可解释的寿命预测方法，数据高效且融合物理知识。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Multi-objective optimization energy management strategy for hybrid heavy-duty vehicles equipped with dual auxiliary power units considering battery aging and cabin comfort adjustment</td>
+          <td>Journal of Energy Storage</td>
+          <td>为混合动力卡车提出能量管理策略，同时优化电池老化和驾驶室舒适性。</td>
+          <td><a href="https://doi.org/10.1016/j.est.2026.123492">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Online SOH Estimation of Lithium-Ion Batteries with a Sequential Gaussian Process</td>
+          <td>Energies</td>
+          <td>提出可在线更新的高斯过程模型实现锂电池SOH估计，仅需部分电压-容量曲线。</td>
+          <td><a href="https://doi.org/10.3390/en19143244">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>A Probabilistic Fractional Order Physics Informed Mamba Kolmogorov‐Arnold Network for State‐of‐Charge Estimation in Grid‐Connected Battery Energy Storage Systems</td>
+          <td>Energy Science &amp; Engineering</td>
+          <td>融合分数阶物理层和Mamba架构的概率SOC估计方法，RMSE达0.31%。</td>
+          <td><a href="https://doi.org/10.1002/ese3.70606">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>A Mamba Model Fused with Residual Convolution and Attention Mechanism for SOC Prediction of Lithium-Ion Batteries</td>
+          <td>Journal of The Electrochemical Society</td>
+          <td>提出CNN-Mamba-Attention混合模型实现锂电池SOC预测，RMSE最低0.75%。</td>
+          <td><a href="https://doi.org/10.1149/1945-7111/ae88c6">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Development of a Hybrid Particle Whale Optimization Algorithm for Electric Vehicle Battery Thermal Runaway Prediction</td>
+          <td>World Electric Vehicle Journal</td>
+          <td>提出HPWOA优化前馈网络用于EV电池热失控概率预测和风险分类。</td>
+          <td><a href="https://doi.org/10.3390/wevj17070354">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>Risk-Aware Assessment Framework for Industrial Renewable Energy Integration Using ISO 50001, a Digital-Twin-Ready Architecture, and Conditional Value-at-Risk</td>
+          <td>Energies</td>
+          <td>提出包含电池储能的工业能源系统风险评估框架，使用CVaR和蒙特卡洛模拟。</td>
+          <td><a href="https://doi.org/10.3390/en19143239">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>Design and Prototype of a Microgrid for Enhancing Reliability of Power Supply for Artificial Intelligence Data Centers</td>
+          <td>WSEAS TRANSACTIONS ON POWER SYSTEMS</td>
+          <td>为AI数据中心设计了含光伏和电池储能的微电网原型，实现自动负载管理。</td>
+          <td><a href="https://doi.org/10.37394/232016.2026.21.10">Open</a></td>
+        </tr>
+      
+      </tbody>
+    </table>
+  </section>
+
+  <p class="footer">Generated by battery-paper-agent. 请人工复核关键结论后再用于论文综述或组会汇报。</p>
+</div>
+</body>
+</html>
