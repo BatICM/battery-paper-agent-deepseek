@@ -1,0 +1,332 @@
+[
+  {
+    "title": "Cellular Structures for Electric Vehicle Battery Systems: A Critical Review and Design Guidelines",
+    "abstract": "Architected cellular materials are increasingly proposed for electric-vehicle (EV) battery systems as lightweight solutions that can combine crashworthiness, intrusion mitigation and, in some cases, thermal functionality. However, the literature remains fragmented across heterogeneous architectures, metrics and test conditions, which often prevents design-oriented comparison and limits transferability to pack-level implementation. This review consolidates the state of the art on cellular structures for EV battery applications, covering foams, honeycombs, lattice/TPMS architectures and auxetic or bio-inspired concepts. A unified, design-oriented comparative framework is introduced to discuss mechanical performance (e.g., specific energy absorption, peak crushing force, deformation control), thermal considerations and manufacturing–scalability constraints under an EV battery-pack perspective. By explicitly linking cellular architecture selection to pack safety and integration requirements, including limited crush space, joining interfaces, enclosure stiffness and emerging “pack-as-a-structure” concepts, this work translates dispersed results into actionable engineering insights. Finally, decision-oriented guidelines and a selection flowchart are proposed to support early-stage architecture choice and highlight the most critical research gaps, particularly in multiphysics validation, standardized benchmarking and production-ready integration.",
+    "authors": [
+      "Alessandra Ceci",
+      "Girolamo Costanza",
+      "Maria Elisa Tata"
+    ],
+    "source": "Crossref",
+    "venue": "Materials",
+    "date": "2026-07-10",
+    "doi": "10.3390/ma19142985",
+    "url": "https://doi.org/10.3390/ma19142985",
+    "source_id": "",
+    "score": 96.75,
+    "level": "A",
+    "title_zh": "Cellular Structures for Electric Vehicle Battery Systems: A Critical Review and Design Guidelines",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 96.75，推荐等级 A。"
+  },
+  {
+    "title": "Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 88.5,
+    "level": "B",
+    "title_zh": "基于物理约束符号回归-物理信息神经网络的数据高效可解释PEMFC退化长期预测",
+    "one_sentence": "提出物理约束符号回归与PINN混合方法，实现燃料电池退化长期预测且数据需求低。",
+    "problem": "燃料电池退化预测常需大量数据且模型可解释性差。",
+    "contributions": [
+      "结合符号回归提取解析退化律，增强可解释性。",
+      "利用PINN嵌入物理约束，降低数据依赖性。",
+      "在PEMFC数据集上验证了长期预测精度。"
+    ],
+    "bms_relevance": "间接相关，对象为燃料电池，但方法（物理约束、符号回归）可直接迁移至锂电池SOH/RUL预测。",
+    "insight_for_group": "物理约束+符号回归思路可用于锂电池field data下的退化建模，提升小样本场景的预测能力。",
+    "reason": "B级：发表于eTransportation（优先列表第15位），相关性略偏燃料电池，但方法学具有潜力，建议浏览。"
+  },
+  {
+    "title": "Uncertainty-constrained state-of-life prediction-based post-first-life management for lithium-ion battery second-life decision-making and recycling management",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26030689?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 91.0,
+    "level": "A",
+    "title_zh": "基于不确定性约束寿命预测的锂离子电池二次利用决策与回收管理",
+    "one_sentence": "提出不确定性约束的寿命预测方法，支持锂离子电池退役后二次利用与回收决策。",
+    "problem": "锂电池退役后如何科学决策是再利用还是回收，现有方法缺乏对预测不确定性的量化。",
+    "contributions": [
+      "提出状态-寿命预测框架，并引入不确定性约束以提高决策可靠性。",
+      "将预测结果与二次利用经济性和回收策略耦合。",
+      "在真实数据上验证了方法的有效性。"
+    ],
+    "bms_relevance": "直接相关，核心是电池SOH/RUL预测及状态管理，属于BMS上层应用。",
+    "insight_for_group": "可借鉴其不确定性量化方法，用于课题组pack级SOH预测中的置信度评估；结合field data可提升退役电池分选决策的鲁棒性。",
+    "reason": "A级：发表于Journal of Energy Storage（优先列表第9位），强相关，方法创新且面向实际运维问题。"
+  },
+  {
+    "title": "Robust state of health estimation of sodium-ion batteries combining feature selection and long short-term memory networks",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26030999?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 71.0,
+    "level": "B",
+    "title_zh": "Robust state of health estimation of sodium-ion batteries combining feature selection and long short-term memory networks",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 71.0，推荐等级 B。"
+  },
+  {
+    "title": "Enhanced state of charge estimation for lithium-ion batteries: A temperature-compensated Kolmogorov–Arnold Network and Adaptive Unscented Kalman Filter approach",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26029518?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 71.0,
+    "level": "A",
+    "title_zh": "锂离子电池荷电状态估计增强：温度补偿KAN与自适应UKF方法",
+    "one_sentence": "结合Kolmogorov-Arnold网络与自适应UKF，实现温度补偿下的高精度SOC估计。",
+    "problem": "传统SOC估计方法在温度变化下精度下降，且神经网络缺乏可解释性。",
+    "contributions": [
+      "引入KAN网络建模电池非线性动态，提升可解释性。",
+      "设计温度补偿模块增强环境适应性。",
+      "融合自适应UKF实现状态与参数联合估计。"
+    ],
+    "bms_relevance": "直接相关，SOC是BMS核心状态之一。",
+    "insight_for_group": "KAN网络作为新型可解释架构，可替代传统LSTM用于SOH/RUL预测；温度补偿机制对实车现场数据很有价值。",
+    "reason": "A级：发表于Journal of Energy Storage（优先列表第9位），方法新颖（KAN），强相关，具有可迁移性。"
+  },
+  {
+    "title": "State of charge estimation for lithium-ion batteries under dynamic noisy conditions using a physics-constrained extended long short-term memory–sparse transformer",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26032342?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 71.0,
+    "level": "B",
+    "title_zh": "动态噪声条件下锂离子电池SOC估计：物理约束扩展LSTM-稀疏Transformer",
+    "one_sentence": "结合物理约束与稀疏Transformer架构，提高动态噪声下的SOC估计精度。",
+    "problem": "动态噪声条件下SOC估计精度下降，现有深度模型泛化性不足。",
+    "contributions": [
+      "设计物理约束LSTM-Transformer混合架构。",
+      "引入稀疏注意力机制降低计算量。",
+      "在噪声数据上验证了鲁棒性提升。"
+    ],
+    "bms_relevance": "直接相关，SOC估计核心问题。",
+    "insight_for_group": "物理约束+Transformer思路可扩展至SOH预测；稀疏注意力有利于实车部署。",
+    "reason": "B级：发表于Journal of Energy Storage（优先列表第9位），但方法和贡献与第5篇部分重叠，且为较早版本，建议浏览。"
+  },
+  {
+    "title": "State of charge estimation for lithium-ion batteries under dynamic noisy conditions using a physics-constrained extended long short-term memory–sparse transformer",
+    "abstract": "",
+    "authors": [
+      "Yanjun Xiao",
+      "Fang Wang",
+      "Weiling Liu",
+      "Feng Wan"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-07-10",
+    "doi": "10.1016/j.est.2026.123570",
+    "url": "https://doi.org/10.1016/j.est.2026.123570",
+    "source_id": "",
+    "score": 53.0,
+    "level": "B",
+    "title_zh": "动态噪声条件下锂离子电池SOC估计：物理约束扩展LSTM-稀疏Transformer",
+    "one_sentence": "结合物理约束与稀疏Transformer架构，提高动态噪声下的SOC估计精度。",
+    "problem": "动态噪声条件下SOC估计精度下降，现有深度模型泛化性不足。",
+    "contributions": [
+      "设计物理约束LSTM-Transformer混合架构。",
+      "引入稀疏注意力机制降低计算量。",
+      "在噪声数据上验证了鲁棒性提升。"
+    ],
+    "bms_relevance": "直接相关，SOC估计核心问题。",
+    "insight_for_group": "物理约束+Transformer思路可扩展至SOH预测；稀疏注意力有利于实车部署。",
+    "reason": "B级：发表于Journal of Energy Storage（优先列表第9位），但方法和贡献与第5篇部分重叠，且为较早版本，建议浏览。"
+  },
+  {
+    "title": "Robust state of health estimation of sodium-ion batteries combining feature selection and long short-term memory networks",
+    "abstract": "",
+    "authors": [
+      "Zixian Xia",
+      "Wei Su",
+      "S Liu",
+      "Jiang Yue",
+      "Jiangfeng Gong",
+      "Wei Chenlong",
+      "J F Xu",
+      "Hongbing Yao",
+      "Yuwu Cai",
+      "Xinyi Zhao"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-07-10",
+    "doi": "10.1016/j.est.2026.123435",
+    "url": "https://doi.org/10.1016/j.est.2026.123435",
+    "source_id": "",
+    "score": 53.0,
+    "level": "B",
+    "title_zh": "Robust state of health estimation of sodium-ion batteries combining feature selection and long short-term memory networks",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 53.0，推荐等级 B。"
+  },
+  {
+    "title": "Enhanced state of charge estimation for lithium-ion batteries: A temperature-compensated Kolmogorov–Arnold Network and Adaptive Unscented Kalman Filter approach",
+    "abstract": "",
+    "authors": [
+      "Guangyi Yang",
+      "Long Wang",
+      "Bingxiang Ji",
+      "Ran Li",
+      "Xi Zhang"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-07-10",
+    "doi": "10.1016/j.est.2026.123287",
+    "url": "https://doi.org/10.1016/j.est.2026.123287",
+    "source_id": "",
+    "score": 53.0,
+    "level": "A",
+    "title_zh": "锂离子电池荷电状态估计增强：温度补偿KAN与自适应UKF方法",
+    "one_sentence": "结合Kolmogorov-Arnold网络与自适应UKF，实现温度补偿下的高精度SOC估计。",
+    "problem": "传统SOC估计方法在温度变化下精度下降，且神经网络缺乏可解释性。",
+    "contributions": [
+      "引入KAN网络建模电池非线性动态，提升可解释性。",
+      "设计温度补偿模块增强环境适应性。",
+      "融合自适应UKF实现状态与参数联合估计。"
+    ],
+    "bms_relevance": "直接相关，SOC是BMS核心状态之一。",
+    "insight_for_group": "KAN网络作为新型可解释架构，可替代传统LSTM用于SOH/RUL预测；温度补偿机制对实车现场数据很有价值。",
+    "reason": "A级：发表于Journal of Energy Storage（优先列表第9位），方法新颖（KAN），强相关，具有可迁移性。"
+  },
+  {
+    "title": "A Probabilistic Fractional Order Physics Informed Mamba Kolmogorov‐Arnold Network for State‐of‐Charge Estimation in Grid‐Connected Battery Energy Storage Systems",
+    "abstract": "ABSTRACT Accurate state of charge (SOC) estimation is critical for reliable battery energy storage system (BESS) operation in renewable grids. However, conventional integer‐order and deterministic models often fail to capture long‐memory electrochemical diffusion or quantify uncertainty under dynamic conditions. To address this, this paper proposes the probabilistic fractional‐order Mamba Kolmogorov‐Arnold network (PFO‐Mam‐KAN) framework. This architecture uniquely integrates a linear‐complexity temporal Mamba encoder to efficiently model long sequences, a probabilistic KAN decoder for estimating time‐varying parameter distributions, and a differentiable fractional‐order physics layer using constant phase elements, to capture non‐Markovian dynamics. These components are unified via an adaptive Kalman‐gated correction mechanism that dynamically modulates reliance on measurements based on propagated uncertainty. Validated on a hybrid AC/DC microgrid using the Sandia database, the framework achieves a superior SOC estimation RMSE of 0.31% and MAE of 0.18%, outperforming contemporary advanced observers. The model demonstrates improved SOC estimation under 3% measurement noise and temperature variations (10°C‐40°C), while exhibiting less computation burden.",
+    "authors": [
+      "Arun Kumar Rawat",
+      "Subhash Chandra",
+      "Vinay Kumar Deolia"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "Energy Science & Engineering",
+    "date": "2026-07-10",
+    "doi": "10.1002/ese3.70606",
+    "url": "https://doi.org/10.1002/ese3.70606",
+    "source_id": "",
+    "score": 90.0,
+    "level": "B",
+    "title_zh": "A Probabilistic Fractional Order Physics Informed Mamba Kolmogorov‐Arnold Network for State‐of‐Charge Estimation in Grid‐Connected Battery Energy Storage Systems",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 90.0，推荐等级 B。"
+  },
+  {
+    "title": "Addressing accuracy limitations in state of charge estimation for lithium-ion batteries: model parameter, plateau period gain, and end calibration",
+    "abstract": "This study focuses on the research of three key technical difficulties in the field of modeling and state of charge (SOC) estimation of lithium iron phosphate (LFP) batteries, which are interrelated and synergistically affect the estimation accuracy, and constructs optimization and improvement strategies. The first one is that in the parameter identification process of the second-order Thevenin model, the ohmic resistance R 0 is obtained through the voltage rise (or drop) of the terminal voltage. Due to sampling errors and the randomness of manually selecting the starting and ending points of the voltage rise (or drop), the accuracy of R 0 can be affected, thereby affecting the accuracy of the battery model. This work proposes the viewpoint of optimizing the R 0 value to weaken its impact on the accuracy of the battery model. The second one is to address the issue of SOC estimation bias caused by the flat plateau characteristics of open circuit voltage (OCV), plateau period gain is introduced to reduce the weight of measurement value with low reliability during the plateau period and increase the weight of state estimation value with higher reliability. The whale optimization algorithm (WOA) is used to obtain the optimal plateau period gain, which can minimize the SOC estimation error. And the third one is to address the problem of cumulative error caused by ampere-hour integration in SOC estimation, this work proposes an end calibration method that introduces a correction coefficient to compensate for errors, enabling end calibration for charging and discharging. The cumulative correction is also introduced to accurately determine the calibration inflection point to prevent overcorrection. The verification results have demonstrated the availability of the proposed solutions. This work provides a critical support for battery management systems (BMSs).",
+    "authors": [
+      "Zhaoming Hu",
+      "Guizhou Ren",
+      "Xinyu Lin",
+      "Lingyu Meng",
+      "Weihua Ye",
+      "Wei Zhu",
+      "Tiancai Xu"
+    ],
+    "source": "OpenAlex",
+    "venue": "Proceedings of the Institution of Mechanical Engineers Part A Journal of Power and Energy",
+    "date": "2026-07-10",
+    "doi": "10.1177/09576509261466266",
+    "url": "https://doi.org/10.1177/09576509261466266",
+    "source_id": "",
+    "score": 86.0,
+    "level": "B",
+    "title_zh": "Addressing accuracy limitations in state of charge estimation for lithium-ion batteries: model parameter, plateau period gain, and end calibration",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 86.0，推荐等级 B。"
+  },
+  {
+    "title": "Development of a Hybrid Particle Whale Optimization Algorithm for Electric Vehicle Battery Thermal Runaway Prediction",
+    "abstract": "Accurate prediction of battery thermal runaway (TR) is a critical requirement for electric vehicle (EV) battery management systems (BMSs), as TR remains one of the most severe failure modes in lithium-ion batteries. Conventional neural network training methods may suffer from local optimum entrapment, slow convergence, and unstable performance when applied to nonlinear battery safety data. To address these limitations, this paper proposes a Hybrid Particle Whale Optimization Algorithm-optimized feedforward neural network (HPWOA-FNN) for continuous TR probability prediction and binary high-risk event classification using multivariate EV charging sensor data. The proposed HPWOA combines the rapid convergence capability of Particle Swarm Optimization (PSO) during the initial exploration phase with the exploitation and refinement capability of the Whale Optimization Algorithm (WOA) during the second phase. A global-best transfer mechanism is introduced at the PSO-WOA phase boundary to preserve the best solution identified during exploration and initialize the WOA leader, thereby improving convergence continuity and reducing premature stagnation. The model is evaluated using a 500-sample EV battery-charging dataset containing 12 electrothermal, electrical, mechanical, and environmental features. The proposed HPWOA-FNN outperforms standalone PSO-, WOA-, and Stochastic Fractal Search Algorithm (SFSA)-optimized FNN models across all regression metrics, achieving MSE = 0.000989, RMSE = 0.031442, MAE = 0.027250, R2 = 0.9702, and MAPE = 3.8075%. For binary high-risk event detection, HPWOA-FNN achieves the highest AUC of 0.9817 and the lowest false-negative count, reducing missed high-risk events to 7 compared with 9 for PSO, 12 for WOA, and 17 for SFSA. Feature-importance analysis identifies maximum temperature and internal resistance as the dominant predictors, consistent with established thermal runaway mechanisms. The results demonstrate that HPWOA-FNN provides an accurate, interpretable, and computationally practical framework for EV battery thermal runaway prediction and BMS decision support.",
+    "authors": [
+      "Buasa Andy Mayingi",
+      "Bonginkosi Thango",
+      "Daniel E. Okojie"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "World Electric Vehicle Journal",
+    "date": "2026-07-10",
+    "doi": "10.3390/wevj17070354",
+    "url": "https://doi.org/10.3390/wevj17070354",
+    "source_id": "",
+    "score": 74.0,
+    "level": "B",
+    "title_zh": "用于电动汽车电池热失控预测的混合粒子鲸鱼优化算法开发",
+    "one_sentence": "提出HPWOA优化前馈神经网络，利用充电数据预测热失控概率并识别高风险事件。",
+    "problem": "电动汽车电池热失控预测中，传统神经网络训练易陷入局部最优且收敛慢。",
+    "contributions": [
+      "混合PSO与WOA算法，提高优化效率。",
+      "构建连续概率预测与二分类热失控预警模型。",
+      "在真实充电数据集上取得优于对比方法的性能。"
+    ],
+    "bms_relevance": "直接相关，热失控预测是BMS安全预警核心。",
+    "insight_for_group": "可借鉴其优化算法改进课题组内电池故障诊断模型，尤其是pack级多传感器数据融合场景。",
+    "reason": "B级：发表于World Electric Vehicle Journal（非优先列表），方法常规但问题重要，相关性强，建议浏览。"
+  }
+]
