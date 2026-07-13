@@ -1,0 +1,287 @@
+[
+  {
+    "title": "Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 88.5,
+    "level": "C",
+    "title_zh": "基于物理约束符号回归与物理信息神经网络的质子交换膜燃料电池退化数据高效、可解释长期预测",
+    "one_sentence": "结合物理约束符号回归和物理信息神经网络实现PEMFC退化预测，兼顾数据效率和可解释性。",
+    "problem": "如何在少量数据下实现燃料电池退化的长期预测并保持可解释性？",
+    "contributions": [
+      "融合符号回归与PINN的混合框架",
+      "物理约束减少数据需求，提高泛化",
+      "在PEMFC数据集上验证长期预测精度"
+    ],
+    "bms_relevance": "边缘相关。研究对象为PEMFC而非锂离子电池，但退化预测方法和物理信息学习思路可迁移至锂电池BMS。",
+    "insight_for_group": "物理约束符号回归+ PINN的方法可借鉴到锂电池寿命预测中，提高小样本下的预测能力。",
+    "reason": "C级。期刊eTransportation排名15，水平较高，但研究对象非主流锂电池，且未涉及pack/field数据，属于备选。"
+  },
+  {
+    "title": "Multi-modal degradation information fusion with transfer learning for state of health estimation and remaining useful life inference of lithium-ion batteries",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26031257?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 101.0,
+    "level": "B",
+    "title_zh": "基于多模态退化信息融合与迁移学习的锂离子电池健康状态估计和剩余寿命预测",
+    "one_sentence": "融合多模态退化数据并利用迁移学习实现锂电池SOH估计与RUL预测。",
+    "problem": "如何利用多模态退化信息（如容量、内阻等）并通过迁移学习提升SOH和RUL估计精度？",
+    "contributions": [
+      "提出多模态数据融合框架，整合不同退化特征",
+      "引入迁移学习克服数据稀缺及分布差异问题",
+      "在锂离子电池数据集上验证了准确性和泛化能力"
+    ],
+    "bms_relevance": "直接相关，聚焦锂电池SOH和RUL估计，属于BMS核心功能。",
+    "insight_for_group": "多模态融合和迁移学习思路可用于课题组处理不同来源的field数据，提高状态估计的泛化性。",
+    "reason": "B级。发表于Journal of Energy Storage（排名21），相关性强，但方法新颖性一般，适合浏览。"
+  },
+  {
+    "title": "A physics-enhanced multimodal neural network for lithium-ion battery state of health estimation",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26031610?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 95.0,
+    "level": "B",
+    "title_zh": "物理增强的多模态神经网络用于锂离子电池健康状态估计",
+    "one_sentence": "构建物理增强的多模态神经网络，结合物理知识和多源数据提升SOH估计精度。",
+    "problem": "如何将物理模型（如退化机理）融入多模态神经网络以提高SOH估计的可解释性和准确性？",
+    "contributions": [
+      "设计物理增强模块，嵌入电池退化物理规律",
+      "融合电压、电流、温度等多模态数据",
+      "实验表明相比纯数据驱动方法更准确且可解释"
+    ],
+    "bms_relevance": "直接相关，SOH估计是BMS关键任务，物理增强方法可提升可靠性和可解释性。",
+    "insight_for_group": "物理信息融合的思路可应用于课题组pack-level模型中，提升对不一致性的鲁棒性。",
+    "reason": "B级。Journal of Energy Storage，相关性强，方法有亮点，建议浏览。"
+  },
+  {
+    "title": "Uncertainty-constrained state-of-life prediction-based post-first-life management for lithium-ion battery second-life decision-making and recycling management",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26030689?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 91.0,
+    "level": "B",
+    "title_zh": "基于不确定性约束寿命预测的锂离子电池二次利用决策与回收管理",
+    "one_sentence": "采用不确定性约束的寿命预测方法，为锂电池退役后第二寿命决策和回收提供管理策略。",
+    "problem": "如何考虑预测不确定性，制定锂电池退役后的二次利用或回收方案？",
+    "contributions": [
+      "提出不确定性约束的寿命预测模型",
+      "建立二次利用决策与回收管理框架",
+      "结合经济性分析优化电池退役策略"
+    ],
+    "bms_relevance": "相关，涉及电池寿命预测和后生命管理，属于BMS延伸应用。",
+    "insight_for_group": "不确定性量化方法可提升课题组SOH/RUL预测的实用性，决策框架可应用于梯次利用场景。",
+    "reason": "B级。Journal of Energy Storage，相关性强，但更偏管理决策，建议浏览。"
+  },
+  {
+    "title": "Multi-modal degradation information fusion with transfer learning for state of health estimation and remaining useful life inference of lithium-ion batteries",
+    "abstract": "",
+    "authors": [
+      "Z Liu",
+      "Siyuan Qiu",
+      "Linfeng Yao",
+      "Chunshan Yang",
+      "Yanjun Jiang",
+      "Xiaofeng Tang",
+      "Wenjing Huang"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-07-11",
+    "doi": "10.1016/j.est.2026.123461",
+    "url": "https://doi.org/10.1016/j.est.2026.123461",
+    "source_id": "",
+    "score": 83.0,
+    "level": "B",
+    "title_zh": "基于多模态退化信息融合与迁移学习的锂离子电池健康状态估计和剩余寿命预测",
+    "one_sentence": "融合多模态退化数据并利用迁移学习实现锂电池SOH估计与RUL预测。",
+    "problem": "如何利用多模态退化信息（如容量、内阻等）并通过迁移学习提升SOH和RUL估计精度？",
+    "contributions": [
+      "提出多模态数据融合框架，整合不同退化特征",
+      "引入迁移学习克服数据稀缺及分布差异问题",
+      "在锂离子电池数据集上验证了准确性和泛化能力"
+    ],
+    "bms_relevance": "直接相关，聚焦锂电池SOH和RUL估计，属于BMS核心功能。",
+    "insight_for_group": "多模态融合和迁移学习思路可用于课题组处理不同来源的field数据，提高状态估计的泛化性。",
+    "reason": "B级。发表于Journal of Energy Storage（排名21），相关性强，但方法新颖性一般，适合浏览。"
+  },
+  {
+    "title": "Online evaluation for battery pack consistency based on grey relational analysis",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26031002?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 79.0,
+    "level": "B",
+    "title_zh": "基于灰色关联分析的电池组一致性在线评估",
+    "one_sentence": "利用灰色关联分析方法实现电池组一致性的在线评估。",
+    "problem": "如何在线评估电池组中单体电池的一致性程度，识别不一致性？",
+    "contributions": [
+      "提出基于灰色关联分析的一致性指标",
+      "实现在线评估，无需离线标定",
+      "在实际电池组数据上验证有效性"
+    ],
+    "bms_relevance": "直接相关，pack一致性是BMS关键问题，在线评估方法对安全优化有重要价值。",
+    "insight_for_group": "灰色关联分析作为一种非参数方法，可快速评估pack不一致性，适合课题组在field数据中应用。",
+    "reason": "B级。Journal of Energy Storage，相关性强，方法实用，建议浏览。"
+  },
+  {
+    "title": "A physics-enhanced multimodal neural network for lithium-ion battery state of health estimation",
+    "abstract": "",
+    "authors": [
+      "Yi Yang",
+      "Qiang Ling"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-07-11",
+    "doi": "10.1016/j.est.2026.123497",
+    "url": "https://doi.org/10.1016/j.est.2026.123497",
+    "source_id": "",
+    "score": 77.0,
+    "level": "B",
+    "title_zh": "物理增强的多模态神经网络用于锂离子电池健康状态估计",
+    "one_sentence": "构建物理增强的多模态神经网络，结合物理知识和多源数据提升SOH估计精度。",
+    "problem": "如何将物理模型（如退化机理）融入多模态神经网络以提高SOH估计的可解释性和准确性？",
+    "contributions": [
+      "设计物理增强模块，嵌入电池退化物理规律",
+      "融合电压、电流、温度等多模态数据",
+      "实验表明相比纯数据驱动方法更准确且可解释"
+    ],
+    "bms_relevance": "直接相关，SOH估计是BMS关键任务，物理增强方法可提升可靠性和可解释性。",
+    "insight_for_group": "物理信息融合的思路可应用于课题组pack-level模型中，提升对不一致性的鲁棒性。",
+    "reason": "B级。Journal of Energy Storage，相关性强，方法有亮点，建议浏览。"
+  },
+  {
+    "title": "Robust state of health estimation of sodium-ion batteries combining feature selection and long short-term memory networks",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26030999?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 71.0,
+    "level": "C",
+    "title_zh": "结合特征选择和长短期记忆网络的钠离子电池健康状态鲁棒估计",
+    "one_sentence": "通过特征选择和LSTM网络实现钠离子电池SOH的鲁棒估计。",
+    "problem": "如何针对钠离子电池独特的退化特性，鲁棒地估计其健康状态？",
+    "contributions": [
+      "提出针对钠离子电池的特征选择方法",
+      "利用LSTM捕捉时序退化",
+      "实验验证了估计的鲁棒性"
+    ],
+    "bms_relevance": "边缘相关。钠离子电池与锂离子退化机制不同，但SOH估计方法相似，对BMS领域有参考价值。",
+    "insight_for_group": "特征选择和LSTM方法是通用的，可应用于课题组锂电池SOH估计，但需注意电池类型差异。",
+    "reason": "C级。Journal of Energy Storage，但针对钠离子电池，且方法较常规，备选。"
+  },
+  {
+    "title": "Online evaluation for battery pack consistency based on grey relational analysis",
+    "abstract": "",
+    "authors": [
+      "Shuangming Duan",
+      "Ying Liu",
+      "Yizhen Qu",
+      "Zhichao Hu",
+      "J Zhang"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-07-11",
+    "doi": "10.1016/j.est.2026.123436",
+    "url": "https://doi.org/10.1016/j.est.2026.123436",
+    "source_id": "",
+    "score": 61.0,
+    "level": "B",
+    "title_zh": "基于灰色关联分析的电池组一致性在线评估",
+    "one_sentence": "利用灰色关联分析方法实现电池组一致性的在线评估。",
+    "problem": "如何在线评估电池组中单体电池的一致性程度，识别不一致性？",
+    "contributions": [
+      "提出基于灰色关联分析的一致性指标",
+      "实现在线评估，无需离线标定",
+      "在实际电池组数据上验证有效性"
+    ],
+    "bms_relevance": "直接相关，pack一致性是BMS关键问题，在线评估方法对安全优化有重要价值。",
+    "insight_for_group": "灰色关联分析作为一种非参数方法，可快速评估pack不一致性，适合课题组在field数据中应用。",
+    "reason": "B级。Journal of Energy Storage，相关性强，方法实用，建议浏览。"
+  },
+  {
+    "title": "One Threshold, One Physical State: A Fleet-Wide Stability Law for Drone and eVTOL Battery Packs",
+    "abstract": "Electric vertical takeoff and landing aircraft impose a load their battery cannot refuse. The takeoff pulse must be delivered on demand, at full power, with people on board. The question that matters is not how much capacity a pack has left, but whether it can still absorb the load it is about to be asked to carry, and how long that will remain true. This paper applies a single stability law, Theta = I / R, to that question. I is the imposed load, taken as the takeoff current draw. R is the pack's capacity to absorb that load, measured as the reciprocal of its internal resistance. Both quantities are already present in any flight log. The instrument requires no additional sensor, no model training, no fitting, and no per-cell calibration. Run on the CMU eVTOL Battery Dataset, 22 real Sony-Murata VTC-6 cells cycled to failure on a real eVTOL mission profile, a single fleet-wide threshold Theta = 1.08 detected 9 of the 9 cells that reached end of life, with zero misses, at a median of 53 days of advance warning (range 8 to 73 days). The three cells that ended the test in the healthiest condition never alarmed at all. The central result is not the lead time. It is the consistency. Across every cell that alarmed, the alarm fired at a mean battery health of 87.2 percent with a standard deviation of 1.5 percent. Those cells were operated very differently from one another: ambient temperatures of 20, 30, and 35 degrees Celsius; cruise segments from 400 to 1000 seconds; different discharge powers, charge currents, and charge cutoff voltages; observed lives ranging from a few hundred cycles to well over two thousand. One threshold caught all of them at the same physical point in their decline. That is the distinction this paper argues for. A model learns a dataset and reproduces its statistics. A law reads a state, and reads it the same way regardless of how the system arrived there. The evidence presented here is that Theta = I / R behaves as the latter. An initial version of the detector, using the raw per-cycle resistance step, failed: it was noise-sensitive, produced seven spurious alarms, and missed one true end-of-life cell. That failure and its correction are reported in full, alongside all other limits. Paper 12 in a continuing series.",
+    "authors": [
+      "Oren Speiser"
+    ],
+    "source": "OpenAlex",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "date": "2026-07-11",
+    "doi": "10.5281/zenodo.21312338",
+    "url": "https://doi.org/10.5281/zenodo.21312338",
+    "source_id": "",
+    "score": 74.0,
+    "level": "A",
+    "title_zh": "单一阈值，同一物理状态：无人机和eVTOL电池组的机群级稳定性定律",
+    "one_sentence": "提出基于负载与内阻比值的单一阈值Theta=I/R，利用飞行日志中的现有数据实现无人机电池组早期失效预警，在多个不同工况下均能提前53天给出精准告警。",
+    "problem": "如何不依赖复杂模型和额外传感器，仅利用飞行日志中的电流和内阻数据实现eVTOL电池组的统一早期失效预警？",
+    "contributions": [
+      "提出一个无需模型训练、无需标定的物理阈值Θ=I/R，作为电池组稳定性判据",
+      "在CMU eVTOL电池数据集上，单一阈值成功检测所有9个失效电池，提前53天给出预警，且健康度标准差仅1.5%",
+      "证明了机群级一致性：不同温度、不同飞行剖面、不同寿命的电池在相同物理状态下触发警报"
+    ],
+    "bms_relevance": "直接相关。针对电池组pack级健康预警，利用实际飞行数据（field data），方法简洁且鲁棒，可迁移至其他电池组场景。",
+    "insight_for_group": "启发课题组探索基于物理简单规则而非复杂模型的pack级健康评估方法，尤其适用于inconsistency检测和快速预警；利用现有运行数据（如内阻）即可实现统一阈值，无需标注数据。",
+    "reason": "A级。虽然来自预印本，但问题核心、数据来源（真实飞行数据）、方法创新（简单物理阈值、跨工况一致性）均与课题组关注的pack inconsistency、field data、安全预警高度契合，具有直接借鉴价值和可迁移性。"
+  },
+  {
+    "title": "One Threshold, One Physical State: A Fleet-Wide Stability Law for Drone and eVTOL Battery Packs",
+    "abstract": "Electric vertical takeoff and landing aircraft impose a load their battery cannot refuse. The takeoff pulse must be delivered on demand, at full power, with people on board. The question that matters is not how much capacity a pack has left, but whether it can still absorb the load it is about to be asked to carry, and how long that will remain true. This paper applies a single stability law, Theta = I / R, to that question. I is the imposed load, taken as the takeoff current draw. R is the pack's capacity to absorb that load, measured as the reciprocal of its internal resistance. Both quantities are already present in any flight log. The instrument requires no additional sensor, no model training, no fitting, and no per-cell calibration. Run on the CMU eVTOL Battery Dataset, 22 real Sony-Murata VTC-6 cells cycled to failure on a real eVTOL mission profile, a single fleet-wide threshold Theta = 1.08 detected 9 of the 9 cells that reached end of life, with zero misses, at a median of 53 days of advance warning (range 8 to 73 days). The three cells that ended the test in the healthiest condition never alarmed at all. The central result is not the lead time. It is the consistency. Across every cell that alarmed, the alarm fired at a mean battery health of 87.2 percent with a standard deviation of 1.5 percent. Those cells were operated very differently from one another: ambient temperatures of 20, 30, and 35 degrees Celsius; cruise segments from 400 to 1000 seconds; different discharge powers, charge currents, and charge cutoff voltages; observed lives ranging from a few hundred cycles to well over two thousand. One threshold caught all of them at the same physical point in their decline. That is the distinction this paper argues for. A model learns a dataset and reproduces its statistics. A law reads a state, and reads it the same way regardless of how the system arrived there. The evidence presented here is that Theta = I / R behaves as the latter. An initial version of the detector, using the raw per-cycle resistance step, failed: it was noise-sensitive, produced seven spurious alarms, and missed one true end-of-life cell. That failure and its correction are reported in full, alongside all other limits. Paper 12 in a continuing series.",
+    "authors": [
+      "Oren Speiser"
+    ],
+    "source": "OpenAlex",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "date": "2026-07-11",
+    "doi": "10.5281/zenodo.21312337",
+    "url": "https://doi.org/10.5281/zenodo.21312337",
+    "source_id": "",
+    "score": 74.0,
+    "level": "A",
+    "title_zh": "单一阈值，同一物理状态：无人机和eVTOL电池组的机群级稳定性定律",
+    "one_sentence": "提出基于负载与内阻比值的单一阈值Theta=I/R，利用飞行日志中的现有数据实现无人机电池组早期失效预警，在多个不同工况下均能提前53天给出精准告警。",
+    "problem": "如何不依赖复杂模型和额外传感器，仅利用飞行日志中的电流和内阻数据实现eVTOL电池组的统一早期失效预警？",
+    "contributions": [
+      "提出一个无需模型训练、无需标定的物理阈值Θ=I/R，作为电池组稳定性判据",
+      "在CMU eVTOL电池数据集上，单一阈值成功检测所有9个失效电池，提前53天给出预警，且健康度标准差仅1.5%",
+      "证明了机群级一致性：不同温度、不同飞行剖面、不同寿命的电池在相同物理状态下触发警报"
+    ],
+    "bms_relevance": "直接相关。针对电池组pack级健康预警，利用实际飞行数据（field data），方法简洁且鲁棒，可迁移至其他电池组场景。",
+    "insight_for_group": "启发课题组探索基于物理简单规则而非复杂模型的pack级健康评估方法，尤其适用于inconsistency检测和快速预警；利用现有运行数据（如内阻）即可实现统一阈值，无需标注数据。",
+    "reason": "A级。虽然来自预印本，但问题核心、数据来源（真实飞行数据）、方法创新（简单物理阈值、跨工况一致性）均与课题组关注的pack inconsistency、field data、安全预警高度契合，具有直接借鉴价值和可迁移性。"
+  }
+]

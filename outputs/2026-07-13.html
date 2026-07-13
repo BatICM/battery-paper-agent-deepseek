@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Battery Management Literature Daily｜2026-07-13</title>
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",Arial,sans-serif;line-height:1.68;color:#1f2933;background:#f5f7fa;margin:0;padding:0;}
+    .container{max-width:1040px;margin:0 auto;padding:28px 20px 44px;}
+    .header{background:linear-gradient(135deg,#063b5c,#0b7285);color:#fff;border-radius:18px;padding:28px 30px;margin-bottom:22px;box-shadow:0 8px 22px rgba(0,0,0,.12);}
+    .header h1{margin:0 0 12px;font-size:28px;letter-spacing:.3px;}
+    .header p{margin:4px 0;color:#e7f5ff;}
+    .summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:18px 0 6px;}
+    .stat{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.22);border-radius:14px;padding:12px 14px;}
+    .stat b{font-size:24px;color:#fff;display:block;}
+    .block{background:#fff;border:1px solid #d9e2ec;border-radius:16px;padding:22px;margin:18px 0;box-shadow:0 2px 10px rgba(15,23,42,.04);}
+    h2{color:#0b3d5c;margin:0 0 14px;font-size:22px;}
+    h3{margin:0 0 10px;font-size:19px;color:#102a43;}
+    .meta{color:#52616b;font-size:14px;margin:4px 0;}
+    .paper{border-top:1px solid #e5edf3;padding-top:18px;margin-top:18px;}
+    .paper:first-child{border-top:none;padding-top:0;margin-top:0;}
+    .tag{display:inline-block;border-radius:999px;padding:4px 10px;color:#fff;font-size:12px;font-weight:700;letter-spacing:.2px;margin-right:8px;}
+    .A{background:#c62828;}.B{background:#ef6c00;}.C{background:#607d8b;}
+    .score{display:inline-block;background:#edf2f7;color:#334e68;border-radius:999px;padding:4px 10px;font-size:12px;}
+    ul{padding-left:22px;margin:8px 0 10px;}
+    a{color:#0b7285;text-decoration:none;}a:hover{text-decoration:underline;}
+    table{width:100%;border-collapse:collapse;background:white;font-size:14px;}
+    th,td{border:1px solid #d9e2ec;padding:10px;vertical-align:top;text-align:left;}
+    th{background:#edf4f7;color:#243b53;}
+    .footer{font-size:13px;color:#697386;text-align:center;margin-top:24px;}
+    @media(max-width:720px){.summary-grid{grid-template-columns:1fr}.header{border-radius:0}.container{padding:0 0 28px}.block{border-radius:0;border-left:none;border-right:none}.header h1{font-size:24px}}
+  </style>
+</head>
+<body>
+<div class="container">
+  <section class="header">
+    <h1>Battery Management Literature Daily</h1>
+    <p><b>日期：</b>2026-07-13 ｜ <b>检索窗口：</b>近 2 天 ｜ <b>生成时间：</b>2026-07-13 12:11:01 UTC+8</p>
+    <p>今日候选论文涵盖锂电池SOH/RUL估计、电池组一致性在线评估、燃料电池退化预测等方向，其中一篇预印本提出基于内阻的简单阈值方法用于无人机电池组健康预警，具有高应用潜力。总体以Journal of Energy Storage为主，涉及多模态融合、物理增强、迁移学习等方法。</p>
+    <div class="summary-grid">
+      <div class="stat"><b>2</b> A级必读</div>
+      <div class="stat"><b>7</b> B级浏览</div>
+      <div class="stat"><b>2</b> C级备选</div>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>一、今日趋势判断</h2>
+    <p>趋势上，物理增强与数据驱动融合的方法持续受到关注，尤其是可解释性和数据效率提升；车用及航空电池组的在线评估和一致性分析成为热点；简单物理规则结合实际运行数据的方案值得课题组借鉴。</p>
+  </section>
+
+  <section class="block">
+    <h2>二、A级必读论文</h2>
+    
+      
+      <article class="paper">
+        <h3>1. One Threshold, One Physical State: A Fleet-Wide Stability Law for Drone and eVTOL Battery Packs</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 74.0</span></p>
+        <p class="meta"><b>中文题目：</b>单一阈值，同一物理状态：无人机和eVTOL电池组的机群级稳定性定律</p>
+        <p class="meta"><b>作者：</b>Oren Speiser</p>
+        <p class="meta"><b>来源：</b>Zenodo (CERN European Organization for Nuclear Research) ｜ <b>日期：</b>2026-07-11 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.5281/zenodo.21312338</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.5281/zenodo.21312338">https://doi.org/10.5281/zenodo.21312338</a></p>
+        <p><b>一句话总结：</b>提出基于负载与内阻比值的单一阈值Theta=I/R，利用飞行日志中的现有数据实现无人机电池组早期失效预警，在多个不同工况下均能提前53天给出精准告警。</p>
+        <p><b>研究问题：</b>如何不依赖复杂模型和额外传感器，仅利用飞行日志中的电流和内阻数据实现eVTOL电池组的统一早期失效预警？</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>提出一个无需模型训练、无需标定的物理阈值Θ=I/R，作为电池组稳定性判据</li><li>在CMU eVTOL电池数据集上，单一阈值成功检测所有9个失效电池，提前53天给出预警，且健康度标准差仅1.5%</li><li>证明了机群级一致性：不同温度、不同飞行剖面、不同寿命的电池在相同物理状态下触发警报</li></ul>
+        <p><b>与BMS相关性：</b>直接相关。针对电池组pack级健康预警，利用实际飞行数据（field data），方法简洁且鲁棒，可迁移至其他电池组场景。</p>
+        <p><b>对课题组启发：</b>启发课题组探索基于物理简单规则而非复杂模型的pack级健康评估方法，尤其适用于inconsistency检测和快速预警；利用现有运行数据（如内阻）即可实现统一阈值，无需标注数据。</p>
+        <p><b>推荐理由：</b>A级。虽然来自预印本，但问题核心、数据来源（真实飞行数据）、方法创新（简单物理阈值、跨工况一致性）均与课题组关注的pack inconsistency、field data、安全预警高度契合，具有直接借鉴价值和可迁移性。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>2. One Threshold, One Physical State: A Fleet-Wide Stability Law for Drone and eVTOL Battery Packs</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 74.0</span></p>
+        <p class="meta"><b>中文题目：</b>单一阈值，同一物理状态：无人机和eVTOL电池组的机群级稳定性定律</p>
+        <p class="meta"><b>作者：</b>Oren Speiser</p>
+        <p class="meta"><b>来源：</b>Zenodo (CERN European Organization for Nuclear Research) ｜ <b>日期：</b>2026-07-11 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.5281/zenodo.21312337</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.5281/zenodo.21312337">https://doi.org/10.5281/zenodo.21312337</a></p>
+        <p><b>一句话总结：</b>提出基于负载与内阻比值的单一阈值Theta=I/R，利用飞行日志中的现有数据实现无人机电池组早期失效预警，在多个不同工况下均能提前53天给出精准告警。</p>
+        <p><b>研究问题：</b>如何不依赖复杂模型和额外传感器，仅利用飞行日志中的电流和内阻数据实现eVTOL电池组的统一早期失效预警？</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>提出一个无需模型训练、无需标定的物理阈值Θ=I/R，作为电池组稳定性判据</li><li>在CMU eVTOL电池数据集上，单一阈值成功检测所有9个失效电池，提前53天给出预警，且健康度标准差仅1.5%</li><li>证明了机群级一致性：不同温度、不同飞行剖面、不同寿命的电池在相同物理状态下触发警报</li></ul>
+        <p><b>与BMS相关性：</b>直接相关。针对电池组pack级健康预警，利用实际飞行数据（field data），方法简洁且鲁棒，可迁移至其他电池组场景。</p>
+        <p><b>对课题组启发：</b>启发课题组探索基于物理简单规则而非复杂模型的pack级健康评估方法，尤其适用于inconsistency检测和快速预警；利用现有运行数据（如内阻）即可实现统一阈值，无需标注数据。</p>
+        <p><b>推荐理由：</b>A级。虽然来自预印本，但问题核心、数据来源（真实飞行数据）、方法创新（简单物理阈值、跨工况一致性）均与课题组关注的pack inconsistency、field data、安全预警高度契合，具有直接借鉴价值和可迁移性。</p>
+      </article>
+      
+    
+  </section>
+
+  <section class="block">
+    <h2>三、B级建议浏览论文</h2>
+    
+      
+      <article class="paper">
+        <h3>1. Multi-modal degradation information fusion with transfer learning for state of health estimation and remaining useful life inference of lithium-ion batteries</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 101.0</span></p>
+        <p class="meta"><b>中文题目：</b>基于多模态退化信息融合与迁移学习的锂离子电池健康状态估计和剩余寿命预测</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26031257?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2352152X26031257?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>融合多模态退化数据并利用迁移学习实现锂电池SOH估计与RUL预测。</p>
+        <ul><li>提出多模态数据融合框架，整合不同退化特征</li><li>引入迁移学习克服数据稀缺及分布差异问题</li><li>在锂离子电池数据集上验证了准确性和泛化能力</li></ul>
+        <p><b>与BMS相关性：</b>直接相关，聚焦锂电池SOH和RUL估计，属于BMS核心功能。</p>
+        <p><b>对课题组启发：</b>多模态融合和迁移学习思路可用于课题组处理不同来源的field数据，提高状态估计的泛化性。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>2. A physics-enhanced multimodal neural network for lithium-ion battery state of health estimation</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 95.0</span></p>
+        <p class="meta"><b>中文题目：</b>物理增强的多模态神经网络用于锂离子电池健康状态估计</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26031610?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2352152X26031610?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>构建物理增强的多模态神经网络，结合物理知识和多源数据提升SOH估计精度。</p>
+        <ul><li>设计物理增强模块，嵌入电池退化物理规律</li><li>融合电压、电流、温度等多模态数据</li><li>实验表明相比纯数据驱动方法更准确且可解释</li></ul>
+        <p><b>与BMS相关性：</b>直接相关，SOH估计是BMS关键任务，物理增强方法可提升可靠性和可解释性。</p>
+        <p><b>对课题组启发：</b>物理信息融合的思路可应用于课题组pack-level模型中，提升对不一致性的鲁棒性。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>3. Uncertainty-constrained state-of-life prediction-based post-first-life management for lithium-ion battery second-life decision-making and recycling management</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 91.0</span></p>
+        <p class="meta"><b>中文题目：</b>基于不确定性约束寿命预测的锂离子电池二次利用决策与回收管理</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26030689?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2352152X26030689?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>采用不确定性约束的寿命预测方法，为锂电池退役后第二寿命决策和回收提供管理策略。</p>
+        <ul><li>提出不确定性约束的寿命预测模型</li><li>建立二次利用决策与回收管理框架</li><li>结合经济性分析优化电池退役策略</li></ul>
+        <p><b>与BMS相关性：</b>相关，涉及电池寿命预测和后生命管理，属于BMS延伸应用。</p>
+        <p><b>对课题组启发：</b>不确定性量化方法可提升课题组SOH/RUL预测的实用性，决策框架可应用于梯次利用场景。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>4. Multi-modal degradation information fusion with transfer learning for state of health estimation and remaining useful life inference of lithium-ion batteries</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 83.0</span></p>
+        <p class="meta"><b>中文题目：</b>基于多模态退化信息融合与迁移学习的锂离子电池健康状态估计和剩余寿命预测</p>
+        <p class="meta"><b>作者：</b>Z Liu, Siyuan Qiu, Linfeng Yao, Chunshan Yang, Yanjun Jiang et al.</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>2026-07-11 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.1016/j.est.2026.123461</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1016/j.est.2026.123461">https://doi.org/10.1016/j.est.2026.123461</a></p>
+        <p><b>一句话总结：</b>融合多模态退化数据并利用迁移学习实现锂电池SOH估计与RUL预测。</p>
+        <ul><li>提出多模态数据融合框架，整合不同退化特征</li><li>引入迁移学习克服数据稀缺及分布差异问题</li><li>在锂离子电池数据集上验证了准确性和泛化能力</li></ul>
+        <p><b>与BMS相关性：</b>直接相关，聚焦锂电池SOH和RUL估计，属于BMS核心功能。</p>
+        <p><b>对课题组启发：</b>多模态融合和迁移学习思路可用于课题组处理不同来源的field数据，提高状态估计的泛化性。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>5. Online evaluation for battery pack consistency based on grey relational analysis</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 79.0</span></p>
+        <p class="meta"><b>中文题目：</b>基于灰色关联分析的电池组一致性在线评估</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26031002?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2352152X26031002?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>利用灰色关联分析方法实现电池组一致性的在线评估。</p>
+        <ul><li>提出基于灰色关联分析的一致性指标</li><li>实现在线评估，无需离线标定</li><li>在实际电池组数据上验证有效性</li></ul>
+        <p><b>与BMS相关性：</b>直接相关，pack一致性是BMS关键问题，在线评估方法对安全优化有重要价值。</p>
+        <p><b>对课题组启发：</b>灰色关联分析作为一种非参数方法，可快速评估pack不一致性，适合课题组在field数据中应用。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>6. A physics-enhanced multimodal neural network for lithium-ion battery state of health estimation</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 77.0</span></p>
+        <p class="meta"><b>中文题目：</b>物理增强的多模态神经网络用于锂离子电池健康状态估计</p>
+        <p class="meta"><b>作者：</b>Yi Yang, Qiang Ling</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>2026-07-11 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.1016/j.est.2026.123497</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1016/j.est.2026.123497">https://doi.org/10.1016/j.est.2026.123497</a></p>
+        <p><b>一句话总结：</b>构建物理增强的多模态神经网络，结合物理知识和多源数据提升SOH估计精度。</p>
+        <ul><li>设计物理增强模块，嵌入电池退化物理规律</li><li>融合电压、电流、温度等多模态数据</li><li>实验表明相比纯数据驱动方法更准确且可解释</li></ul>
+        <p><b>与BMS相关性：</b>直接相关，SOH估计是BMS关键任务，物理增强方法可提升可靠性和可解释性。</p>
+        <p><b>对课题组启发：</b>物理信息融合的思路可应用于课题组pack-level模型中，提升对不一致性的鲁棒性。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>7. Online evaluation for battery pack consistency based on grey relational analysis</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 61.0</span></p>
+        <p class="meta"><b>中文题目：</b>基于灰色关联分析的电池组一致性在线评估</p>
+        <p class="meta"><b>作者：</b>Shuangming Duan, Ying Liu, Yizhen Qu, Zhichao Hu, J Zhang</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>2026-07-11 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.1016/j.est.2026.123436</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1016/j.est.2026.123436">https://doi.org/10.1016/j.est.2026.123436</a></p>
+        <p><b>一句话总结：</b>利用灰色关联分析方法实现电池组一致性的在线评估。</p>
+        <ul><li>提出基于灰色关联分析的一致性指标</li><li>实现在线评估，无需离线标定</li><li>在实际电池组数据上验证有效性</li></ul>
+        <p><b>与BMS相关性：</b>直接相关，pack一致性是BMS关键问题，在线评估方法对安全优化有重要价值。</p>
+        <p><b>对课题组启发：</b>灰色关联分析作为一种非参数方法，可快速评估pack不一致性，适合课题组在field数据中应用。</p>
+      </article>
+      
+    
+  </section>
+
+  <section class="block">
+    <h2>四、C级备选与快速浏览</h2>
+    
+    <table>
+      <thead><tr><th>标题</th><th>来源</th><th>日期</th><th>推荐理由</th></tr></thead>
+      <tbody>
+      
+        <tr>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all">Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network</a></td>
+          <td>eTransportation</td>
+          <td>未知</td>
+          <td>C级。期刊eTransportation排名15，水平较高，但研究对象非主流锂电池，且未涉及pack/field数据，属于备选。</td>
+        </tr>
+      
+        <tr>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26030999?dgcid=rss_sd_all">Robust state of health estimation of sodium-ion batteries combining feature selection and long short-term memory networks</a></td>
+          <td>Journal of Energy Storage</td>
+          <td>未知</td>
+          <td>C级。Journal of Energy Storage，但针对钠离子电池，且方法较常规，备选。</td>
+        </tr>
+      
+      </tbody>
+    </table>
+    
+  </section>
+
+  <section class="block">
+    <h2>五、今日论文总表</h2>
+    <table>
+      <thead><tr><th>等级</th><th>标题</th><th>期刊/来源</th><th>方向判断</th><th>链接</th></tr></thead>
+      <tbody>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network</td>
+          <td>eTransportation</td>
+          <td>结合物理约束符号回归和物理信息神经网络实现PEMFC退化预测，兼顾数据效率和可解释性。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Multi-modal degradation information fusion with transfer learning for state of health estimation and remaining useful life inference of lithium-ion batteries</td>
+          <td>Journal of Energy Storage</td>
+          <td>融合多模态退化数据并利用迁移学习实现锂电池SOH估计与RUL预测。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26031257?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>A physics-enhanced multimodal neural network for lithium-ion battery state of health estimation</td>
+          <td>Journal of Energy Storage</td>
+          <td>构建物理增强的多模态神经网络，结合物理知识和多源数据提升SOH估计精度。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26031610?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Uncertainty-constrained state-of-life prediction-based post-first-life management for lithium-ion battery second-life decision-making and recycling management</td>
+          <td>Journal of Energy Storage</td>
+          <td>采用不确定性约束的寿命预测方法，为锂电池退役后第二寿命决策和回收提供管理策略。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26030689?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Multi-modal degradation information fusion with transfer learning for state of health estimation and remaining useful life inference of lithium-ion batteries</td>
+          <td>Journal of Energy Storage</td>
+          <td>融合多模态退化数据并利用迁移学习实现锂电池SOH估计与RUL预测。</td>
+          <td><a href="https://doi.org/10.1016/j.est.2026.123461">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Online evaluation for battery pack consistency based on grey relational analysis</td>
+          <td>Journal of Energy Storage</td>
+          <td>利用灰色关联分析方法实现电池组一致性的在线评估。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26031002?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>A physics-enhanced multimodal neural network for lithium-ion battery state of health estimation</td>
+          <td>Journal of Energy Storage</td>
+          <td>构建物理增强的多模态神经网络，结合物理知识和多源数据提升SOH估计精度。</td>
+          <td><a href="https://doi.org/10.1016/j.est.2026.123497">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>Robust state of health estimation of sodium-ion batteries combining feature selection and long short-term memory networks</td>
+          <td>Journal of Energy Storage</td>
+          <td>通过特征选择和LSTM网络实现钠离子电池SOH的鲁棒估计。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26030999?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Online evaluation for battery pack consistency based on grey relational analysis</td>
+          <td>Journal of Energy Storage</td>
+          <td>利用灰色关联分析方法实现电池组一致性的在线评估。</td>
+          <td><a href="https://doi.org/10.1016/j.est.2026.123436">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>One Threshold, One Physical State: A Fleet-Wide Stability Law for Drone and eVTOL Battery Packs</td>
+          <td>Zenodo (CERN European Organization for Nuclear Research)</td>
+          <td>提出基于负载与内阻比值的单一阈值Theta=I/R，利用飞行日志中的现有数据实现无人机电池组早期失效预警，在多个不同工况下均能提前53天给出精准告警。</td>
+          <td><a href="https://doi.org/10.5281/zenodo.21312338">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>One Threshold, One Physical State: A Fleet-Wide Stability Law for Drone and eVTOL Battery Packs</td>
+          <td>Zenodo (CERN European Organization for Nuclear Research)</td>
+          <td>提出基于负载与内阻比值的单一阈值Theta=I/R，利用飞行日志中的现有数据实现无人机电池组早期失效预警，在多个不同工况下均能提前53天给出精准告警。</td>
+          <td><a href="https://doi.org/10.5281/zenodo.21312337">Open</a></td>
+        </tr>
+      
+      </tbody>
+    </table>
+  </section>
+
+  <p class="footer">Generated by battery-paper-agent. 请人工复核关键结论后再用于论文综述或组会汇报。</p>
+</div>
+</body>
+</html>
