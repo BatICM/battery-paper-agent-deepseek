@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Battery Management Literature Daily｜2026-07-16</title>
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",Arial,sans-serif;line-height:1.68;color:#1f2933;background:#f5f7fa;margin:0;padding:0;}
+    .container{max-width:1040px;margin:0 auto;padding:28px 20px 44px;}
+    .header{background:linear-gradient(135deg,#063b5c,#0b7285);color:#fff;border-radius:18px;padding:28px 30px;margin-bottom:22px;box-shadow:0 8px 22px rgba(0,0,0,.12);}
+    .header h1{margin:0 0 12px;font-size:28px;letter-spacing:.3px;}
+    .header p{margin:4px 0;color:#e7f5ff;}
+    .summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:18px 0 6px;}
+    .stat{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.22);border-radius:14px;padding:12px 14px;}
+    .stat b{font-size:24px;color:#fff;display:block;}
+    .block{background:#fff;border:1px solid #d9e2ec;border-radius:16px;padding:22px;margin:18px 0;box-shadow:0 2px 10px rgba(15,23,42,.04);}
+    h2{color:#0b3d5c;margin:0 0 14px;font-size:22px;}
+    h3{margin:0 0 10px;font-size:19px;color:#102a43;}
+    .meta{color:#52616b;font-size:14px;margin:4px 0;}
+    .paper{border-top:1px solid #e5edf3;padding-top:18px;margin-top:18px;}
+    .paper:first-child{border-top:none;padding-top:0;margin-top:0;}
+    .tag{display:inline-block;border-radius:999px;padding:4px 10px;color:#fff;font-size:12px;font-weight:700;letter-spacing:.2px;margin-right:8px;}
+    .A{background:#c62828;}.B{background:#ef6c00;}.C{background:#607d8b;}
+    .score{display:inline-block;background:#edf2f7;color:#334e68;border-radius:999px;padding:4px 10px;font-size:12px;}
+    ul{padding-left:22px;margin:8px 0 10px;}
+    a{color:#0b7285;text-decoration:none;}a:hover{text-decoration:underline;}
+    table{width:100%;border-collapse:collapse;background:white;font-size:14px;}
+    th,td{border:1px solid #d9e2ec;padding:10px;vertical-align:top;text-align:left;}
+    th{background:#edf4f7;color:#243b53;}
+    .footer{font-size:13px;color:#697386;text-align:center;margin-top:24px;}
+    @media(max-width:720px){.summary-grid{grid-template-columns:1fr}.header{border-radius:0}.container{padding:0 0 28px}.block{border-radius:0;border-left:none;border-right:none}.header h1{font-size:24px}}
+  </style>
+</head>
+<body>
+<div class="container">
+  <section class="header">
+    <h1>Battery Management Literature Daily</h1>
+    <p><b>日期：</b>2026-07-16 ｜ <b>检索窗口：</b>近 2 天 ｜ <b>生成时间：</b>2026-07-16 11:48:51 UTC+8</p>
+    <p>今日候选论文主要聚焦于真实电池组状态估计与健康管理，包括基于模型与数据驱动的SOC/SOH估计、电池均衡硬件验证、热失控传播预测等。Applied Energy上的两篇论文分别针对磷酸铁锂实车电池组SOC估计和真实车队碎片化充电片段SOH估计，具有强相关性和高水平期刊支撑。另外，Journal of Energy Storage上的热失控传播预测论文引入了物理信息图神经网络，方法新颖。</p>
+    <div class="summary-grid">
+      <div class="stat"><b>4</b> A级必读</div>
+      <div class="stat"><b>6</b> B级浏览</div>
+      <div class="stat"><b>2</b> C级备选</div>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>一、今日趋势判断</h2>
+    <p>趋势上，真实世界数据（field/fleet data）和物理信息融合方法（如PINN、GNN）在BMS领域持续受到关注。同时，电池均衡和热管理方面的硬件实验验证也在推进，但期刊层次普遍较低。建议重点关注应用在真实场景且具有创新方法的研究。</p>
+  </section>
+
+  <section class="block">
+    <h2>二、A级必读论文</h2>
+    
+      
+      <article class="paper">
+        <h3>1. State of charge estimation of real-world lithium iron phosphate battery packs combining model-based and data-driven approaches</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 132.25</span></p>
+        <p class="meta"><b>中文题目：</b>结合模型与数据驱动方法的真实磷酸铁锂电池组荷电状态估计</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Applied Energy ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S0306261926010342?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S0306261926010342?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>提出融合模型与数据驱动的方法，利用真实LFP电池组数据实现高精度SOC估计。</p>
+        <p><b>研究问题：</b>真实驾驶条件下LFP电池组SOC估计受非线性、老化及传感器噪声影响，传统方法精度不足。</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>提出模型-数据混合SOC估计框架，结合等效电路模型与机器学习补偿误差</li><li>在真实LFP电池组数据上验证，精度优于纯模型或纯数据方法</li><li>分析了不同驾驶工况下的鲁棒性</li></ul>
+        <p><b>与BMS相关性：</b>直接相关：SOC是BMS核心功能，且使用真实电池组数据，贴合课题组实际应用场景。</p>
+        <p><b>对课题组启发：</b>该混合思路可迁移至课题组SOH估计或pack不一致性建模，特别是融合物理模型与数据驱动的方法值得借鉴。</p>
+        <p><b>推荐理由：</b>A级：发表于Applied Energy（优先列表第8位），强相关，研究使用真实数据，方法创新，对课题组BMS方向有直接参考价值。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>2. Lithium-ion battery state-of-health estimation for fragmented charging segments in real-world fleets</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 120.25</span></p>
+        <p class="meta"><b>中文题目：</b>真实车队中碎片化充电片段下的锂离子电池健康状态估计</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Applied Energy ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S0306261926010317?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S0306261926010317?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>针对真实车队中不完整充电片段，提出SOH估计方法，解决了实际数据碎片化问题。</p>
+        <p><b>研究问题：</b>实际运营中充电数据常被中断或碎片化，传统SOH方法要求完整充放电曲线，难以直接应用。</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>提出了基于碎片化充电片段的特征提取与SOH估计模型</li><li>在多个真实电动公交车队数据上验证，误差低于3%</li><li>分析了不同碎片化程度下的估计鲁棒性</li></ul>
+        <p><b>与BMS相关性：</b>直接相关：SOH是BMS关键状态，且针对真实车队数据，完美契合课题组field data方向。</p>
+        <p><b>对课题组启发：</b>该工作与课题组关注的实际数据碎片化问题高度吻合，其片段特征提取和模型设计可直接用于我们的云BMS或边端部署。</p>
+        <p><b>推荐理由：</b>A级：发表于Applied Energy（优先列表第8位），强相关，解决真实数据痛点，方法可靠，对课题组实际开发有重要借鉴。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>3. State of charge estimation of real-world lithium iron phosphate battery packs combining model-based and data-driven approaches</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 114.25</span></p>
+        <p class="meta"><b>中文题目：</b>结合模型与数据驱动方法的真实磷酸铁锂电池组荷电状态估计</p>
+        <p class="meta"><b>作者：</b>Bangbang Zhang, Ranglei Wu, Wenxue Liu, Yang Xie, Chang Li et al.</p>
+        <p class="meta"><b>来源：</b>Applied Energy ｜ <b>日期：</b>2026-07-14 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.1016/j.apenergy.2026.128380</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1016/j.apenergy.2026.128380">https://doi.org/10.1016/j.apenergy.2026.128380</a></p>
+        <p><b>一句话总结：</b>提出融合模型与数据驱动的方法，利用真实LFP电池组数据实现高精度SOC估计。</p>
+        <p><b>研究问题：</b>真实驾驶条件下LFP电池组SOC估计受非线性、老化及传感器噪声影响，传统方法精度不足。</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>提出模型-数据混合SOC估计框架，结合等效电路模型与机器学习补偿误差</li><li>在真实LFP电池组数据上验证，精度优于纯模型或纯数据方法</li><li>分析了不同驾驶工况下的鲁棒性</li></ul>
+        <p><b>与BMS相关性：</b>直接相关：SOC是BMS核心功能，且使用真实电池组数据，贴合课题组实际应用场景。</p>
+        <p><b>对课题组启发：</b>该混合思路可迁移至课题组SOH估计或pack不一致性建模，特别是融合物理模型与数据驱动的方法值得借鉴。</p>
+        <p><b>推荐理由：</b>A级：发表于Applied Energy（优先列表第8位），强相关，研究使用真实数据，方法创新，对课题组BMS方向有直接参考价值。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>4. Lithium-ion battery state-of-health estimation for fragmented charging segments in real-world fleets</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 102.25</span></p>
+        <p class="meta"><b>中文题目：</b>真实车队中碎片化充电片段下的锂离子电池健康状态估计</p>
+        <p class="meta"><b>作者：</b>Zhen Wang, Jiuchun Jiang, Youzhi Song, Di Wu, Fengwei Liang et al.</p>
+        <p class="meta"><b>来源：</b>Applied Energy ｜ <b>日期：</b>2026-07-14 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.1016/j.apenergy.2026.128377</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1016/j.apenergy.2026.128377">https://doi.org/10.1016/j.apenergy.2026.128377</a></p>
+        <p><b>一句话总结：</b>针对真实车队中不完整充电片段，提出SOH估计方法，解决了实际数据碎片化问题。</p>
+        <p><b>研究问题：</b>实际运营中充电数据常被中断或碎片化，传统SOH方法要求完整充放电曲线，难以直接应用。</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>提出了基于碎片化充电片段的特征提取与SOH估计模型</li><li>在多个真实电动公交车队数据上验证，误差低于3%</li><li>分析了不同碎片化程度下的估计鲁棒性</li></ul>
+        <p><b>与BMS相关性：</b>直接相关：SOH是BMS关键状态，且针对真实车队数据，完美契合课题组field data方向。</p>
+        <p><b>对课题组启发：</b>该工作与课题组关注的实际数据碎片化问题高度吻合，其片段特征提取和模型设计可直接用于我们的云BMS或边端部署。</p>
+        <p><b>推荐理由：</b>A级：发表于Applied Energy（优先列表第8位），强相关，解决真实数据痛点，方法可靠，对课题组实际开发有重要借鉴。</p>
+      </article>
+      
+    
+  </section>
+
+  <section class="block">
+    <h2>三、B级建议浏览论文</h2>
+    
+      
+      <article class="paper">
+        <h3>1. Experimental Validation of an Adaptive Series-Parallel Recombination Battery-Balancing Architecture Using Second-Life Lithium-Ion Cells</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 93.5</span></p>
+        <p class="meta"><b>中文题目：</b>使用二次寿命锂离子电池的自适应串并联重组电池均衡架构的实验验证</p>
+        <p class="meta"><b>作者：</b>Khalid Hassan, Fei Lu Siaw, Tzer Hwai Gilbert Thio, Md Parvez Alam Khan Abir</p>
+        <p class="meta"><b>来源：</b>Electronics ｜ <b>日期：</b>2026-07-15 ｜ <b>数据源：</b>Crossref</p>
+        <p class="meta"><b>DOI：</b>10.3390/electronics15143106</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.3390/electronics15143106">https://doi.org/10.3390/electronics15143106</a></p>
+        <p><b>一句话总结：</b>实验验证了一种自适应串并联重组均衡架构，使用二次寿命电池实现无专用变换器的能量再分配。</p>
+        <ul><li>实现了动态串并联重组均衡的硬件原型</li><li>在充电、放电、静置条件下均实现完全均衡</li><li>揭示了实际非理想因素（接触电阻、老化等）对均衡性能的影响</li></ul>
+        <p><b>与BMS相关性：</b>相关：涉及电池组均衡，是BMS重要功能。但期刊水平一般，且使用二次寿命电池，创新性有限。</p>
+        <p><b>对课题组启发：</b>均衡电路硬件验证对课题组pack不一致性研究有一定启发，但算法层面的创新不多。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>2. Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 88.5</span></p>
+        <p class="meta"><b>中文题目：</b>Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>eTransportation ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>与电池管理及智能诊断具有一定相关性。</p>
+        <ul><li>提出或评估电池状态估计、健康预测或安全预警方法。</li><li>关注真实工况、pack/系统级应用或模型泛化能力。</li><li>对 BMS 算法部署、云端分析或储能运维具有参考价值。</li></ul>
+        <p><b>与BMS相关性：</b>中高：与 BMS 或储能管理相关，建议浏览。</p>
+        <p><b>对课题组启发：</b>可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>3. A physics-informed graph neural networks–Transformer framework for battery thermal runaway propagation prediction</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 71.0</span></p>
+        <p class="meta"><b>中文题目：</b>物理信息图神经网络-Transformer框架用于电池热失控传播预测</p>
+        <p class="meta"><b>作者：</b>Yongxi Wu, Yifan Zhao, Anthony Chun Yin Yuen, Chongmao Mo, Yanghan Su et al.</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>2026-07-14 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.1016/j.est.2026.123520</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1016/j.est.2026.123520">https://doi.org/10.1016/j.est.2026.123520</a></p>
+        <p><b>一句话总结：</b>提出结合图神经网络与Transformer的物理信息模型，预测电池包内热失控传播。</p>
+        <ul><li>构建了物理信息图神经网络架构，引入热传导等物理约束</li><li>利用Transformer捕获时序依赖，提高长期预测能力</li><li>在多种电芯布置和触发条件下验证了模型准确性</li></ul>
+        <p><b>与BMS相关性：</b>直接相关：热失控预警是BMS安全关键功能，且关注pack级别传播。</p>
+        <p><b>对课题组启发：</b>物理信息神经网络的应用为课题组安全预警方向提供了新思路，尤其在pack级热管理数字孪生方面有潜力。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>4. Quantum-Inspired Thermal Equilibrium: Integration of Collective Dynamics into Real-Time Stabilization of Magnetically Confined Fusion Plasmas — Extended Edition: Full-Pulse Operation and Hardware-Bounded Adversarial Stress Benchmark on TORAX 1.4, Hardware-in-the-Loop on Three Microcontroller ISAs</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 104.0</span></p>
+        <p class="meta"><b>中文题目：</b>Quantum-Inspired Thermal Equilibrium: Integration of Collective Dynamics into Real-Time Stabilization of Magnetically Confined Fusion Plasmas — Extended Edition: Full-Pulse Operation and Hardware-Bounded Adversarial Stress Benchmark on TORAX 1.4, Hardware-in-the-Loop on Three Microcontroller ISAs</p>
+        <p class="meta"><b>作者：</b>Bernd Westrick</p>
+        <p class="meta"><b>来源：</b>Zenodo (CERN European Organization for Nuclear Research) ｜ <b>日期：</b>2026-07-14 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.5281/zenodo.21365680</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.5281/zenodo.21365680">https://doi.org/10.5281/zenodo.21365680</a></p>
+        <p><b>一句话总结：</b>关注电池安全风险识别与热失控早期预警。</p>
+        <ul><li>提出或评估电池状态估计、健康预测或安全预警方法。</li><li>关注真实工况、pack/系统级应用或模型泛化能力。</li><li>对 BMS 算法部署、云端分析或储能运维具有参考价值。</li></ul>
+        <p><b>与BMS相关性：</b>中高：与 BMS 或储能管理相关，建议浏览。</p>
+        <p><b>对课题组启发：</b>可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>5. Quantum-Inspired Thermal Equilibrium: Integration of Collective Dynamics into Real-Time Stabilization of Magnetically Confined Fusion Plasmas — Extended Edition: Full-Pulse Operation and Hardware-Bounded Adversarial Stress Benchmark on TORAX 1.4, Hardware-in-the-Loop on Three Microcontroller ISAs</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 104.0</span></p>
+        <p class="meta"><b>中文题目：</b>Quantum-Inspired Thermal Equilibrium: Integration of Collective Dynamics into Real-Time Stabilization of Magnetically Confined Fusion Plasmas — Extended Edition: Full-Pulse Operation and Hardware-Bounded Adversarial Stress Benchmark on TORAX 1.4, Hardware-in-the-Loop on Three Microcontroller ISAs</p>
+        <p class="meta"><b>作者：</b>Bernd Westrick</p>
+        <p class="meta"><b>来源：</b>Zenodo (CERN European Organization for Nuclear Research) ｜ <b>日期：</b>2026-07-14 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.5281/zenodo.19457727</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.5281/zenodo.19457727">https://doi.org/10.5281/zenodo.19457727</a></p>
+        <p><b>一句话总结：</b>关注电池安全风险识别与热失控早期预警。</p>
+        <ul><li>提出或评估电池状态估计、健康预测或安全预警方法。</li><li>关注真实工况、pack/系统级应用或模型泛化能力。</li><li>对 BMS 算法部署、云端分析或储能运维具有参考价值。</li></ul>
+        <p><b>与BMS相关性：</b>中高：与 BMS 或储能管理相关，建议浏览。</p>
+        <p><b>对课题组启发：</b>可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>6. Battery-Aware Control of a Single-Phase Integrated Battery Charger Using NMPC, EKF, and LUT-Based Lithium-Ion Pack Modeling</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 68.0</span></p>
+        <p class="meta"><b>中文题目：</b>使用NMPC、EKF和基于查找表的锂离子电池包建模的电池感知控制单相集成充电器</p>
+        <p class="meta"><b>作者：</b>Phonrut Bousungnoen, Padej Pao-la-or</p>
+        <p class="meta"><b>来源：</b>Batteries ｜ <b>日期：</b>2026-07-14 ｜ <b>数据源：</b>OpenAlex+Crossref</p>
+        <p class="meta"><b>DOI：</b>10.3390/batteries12070254</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.3390/batteries12070254">https://doi.org/10.3390/batteries12070254</a></p>
+        <p><b>一句话总结：</b>提出了集成NMPC、EKF和查找表电池模型的充电控制策略，实现7kW和22kW下稳定的电池充电并估算SOC和温度。</p>
+        <ul><li>设计了结合NMPC和EKF的电池感知充电控制器</li><li>使用查找表模型准确表征电池电热特性</li><li>在仿真和有限元分析中验证了充电性能与热约束满足</li></ul>
+        <p><b>与BMS相关性：</b>相关：涉及电池包建模、SOC估计和热管理，是BMS典型功能，但侧重于充电控制。</p>
+        <p><b>对课题组启发：</b>其EKF与NMPC结合的方法可用于课题组SOC/SOH估计与充电策略优化，但实验验证不足。</p>
+      </article>
+      
+    
+  </section>
+
+  <section class="block">
+    <h2>四、C级备选与快速浏览</h2>
+    
+    <table>
+      <thead><tr><th>标题</th><th>来源</th><th>日期</th><th>推荐理由</th></tr></thead>
+      <tbody>
+      
+        <tr>
+          <td><a href="https://doi.org/10.20517/energyz.2026.14">Bringing real-time observability to practical aqueous zinc-ion batteries</a></td>
+          <td>Energy Z</td>
+          <td>2026-07-14</td>
+          <td>C级：期刊Energy Z非优先列表，且主题非锂电，但概念有启发性，建议备选。</td>
+        </tr>
+      
+        <tr>
+          <td><a href="https://doi.org/10.1007/s42452-026-09203-x">Experimental and computational analysis of electro-thermal performance of cylindrical Li-ion battery packs for EV</a></td>
+          <td>Discover Applied Sciences</td>
+          <td>2026-07-15</td>
+          <td>C级：期刊Discover Applied Sciences排名低，方法常规，建议备选。</td>
+        </tr>
+      
+      </tbody>
+    </table>
+    
+  </section>
+
+  <section class="block">
+    <h2>五、今日论文总表</h2>
+    <table>
+      <thead><tr><th>等级</th><th>标题</th><th>期刊/来源</th><th>方向判断</th><th>链接</th></tr></thead>
+      <tbody>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>State of charge estimation of real-world lithium iron phosphate battery packs combining model-based and data-driven approaches</td>
+          <td>Applied Energy</td>
+          <td>提出融合模型与数据驱动的方法，利用真实LFP电池组数据实现高精度SOC估计。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S0306261926010342?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>Lithium-ion battery state-of-health estimation for fragmented charging segments in real-world fleets</td>
+          <td>Applied Energy</td>
+          <td>针对真实车队中不完整充电片段，提出SOH估计方法，解决了实际数据碎片化问题。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S0306261926010317?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>State of charge estimation of real-world lithium iron phosphate battery packs combining model-based and data-driven approaches</td>
+          <td>Applied Energy</td>
+          <td>提出融合模型与数据驱动的方法，利用真实LFP电池组数据实现高精度SOC估计。</td>
+          <td><a href="https://doi.org/10.1016/j.apenergy.2026.128380">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>Lithium-ion battery state-of-health estimation for fragmented charging segments in real-world fleets</td>
+          <td>Applied Energy</td>
+          <td>针对真实车队中不完整充电片段，提出SOH估计方法，解决了实际数据碎片化问题。</td>
+          <td><a href="https://doi.org/10.1016/j.apenergy.2026.128377">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Experimental Validation of an Adaptive Series-Parallel Recombination Battery-Balancing Architecture Using Second-Life Lithium-Ion Cells</td>
+          <td>Electronics</td>
+          <td>实验验证了一种自适应串并联重组均衡架构，使用二次寿命电池实现无专用变换器的能量再分配。</td>
+          <td><a href="https://doi.org/10.3390/electronics15143106">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network</td>
+          <td>eTransportation</td>
+          <td>与电池管理及智能诊断具有一定相关性。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>A physics-informed graph neural networks–Transformer framework for battery thermal runaway propagation prediction</td>
+          <td>Journal of Energy Storage</td>
+          <td>提出结合图神经网络与Transformer的物理信息模型，预测电池包内热失控传播。</td>
+          <td><a href="https://doi.org/10.1016/j.est.2026.123520">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Quantum-Inspired Thermal Equilibrium: Integration of Collective Dynamics into Real-Time Stabilization of Magnetically Confined Fusion Plasmas — Extended Edition: Full-Pulse Operation and Hardware-Bounded Adversarial Stress Benchmark on TORAX 1.4, Hardware-in-the-Loop on Three Microcontroller ISAs</td>
+          <td>Zenodo (CERN European Organization for Nuclear Research)</td>
+          <td>关注电池安全风险识别与热失控早期预警。</td>
+          <td><a href="https://doi.org/10.5281/zenodo.21365680">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Quantum-Inspired Thermal Equilibrium: Integration of Collective Dynamics into Real-Time Stabilization of Magnetically Confined Fusion Plasmas — Extended Edition: Full-Pulse Operation and Hardware-Bounded Adversarial Stress Benchmark on TORAX 1.4, Hardware-in-the-Loop on Three Microcontroller ISAs</td>
+          <td>Zenodo (CERN European Organization for Nuclear Research)</td>
+          <td>关注电池安全风险识别与热失控早期预警。</td>
+          <td><a href="https://doi.org/10.5281/zenodo.19457727">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>Bringing real-time observability to practical aqueous zinc-ion batteries</td>
+          <td>Energy Z</td>
+          <td>提出通过集成微型传感器实现水系锌离子电池内部状态实时监测，并结合数据驱动和数字孪生进行预测管理。</td>
+          <td><a href="https://doi.org/10.20517/energyz.2026.14">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Battery-Aware Control of a Single-Phase Integrated Battery Charger Using NMPC, EKF, and LUT-Based Lithium-Ion Pack Modeling</td>
+          <td>Batteries</td>
+          <td>提出了集成NMPC、EKF和查找表电池模型的充电控制策略，实现7kW和22kW下稳定的电池充电并估算SOC和温度。</td>
+          <td><a href="https://doi.org/10.3390/batteries12070254">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>Experimental and computational analysis of electro-thermal performance of cylindrical Li-ion battery packs for EV</td>
+          <td>Discover Applied Sciences</td>
+          <td>通过实验与CFD仿真分析了24节圆柱电池组的热性能，验证了空气冷却设计的有效性。</td>
+          <td><a href="https://doi.org/10.1007/s42452-026-09203-x">Open</a></td>
+        </tr>
+      
+      </tbody>
+    </table>
+  </section>
+
+  <p class="footer">Generated by battery-paper-agent. 请人工复核关键结论后再用于论文综述或组会汇报。</p>
+</div>
+</body>
+</html>

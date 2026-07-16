@@ -1,0 +1,338 @@
+[
+  {
+    "title": "State of charge estimation of real-world lithium iron phosphate battery packs combining model-based and data-driven approaches",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Applied Energy",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0306261926010342?dgcid=rss_sd_all",
+    "source_id": "rss:9:Applied Energy",
+    "score": 132.25,
+    "level": "A",
+    "title_zh": "结合模型与数据驱动方法的真实磷酸铁锂电池组荷电状态估计",
+    "one_sentence": "提出融合模型与数据驱动的方法，利用真实LFP电池组数据实现高精度SOC估计。",
+    "problem": "真实驾驶条件下LFP电池组SOC估计受非线性、老化及传感器噪声影响，传统方法精度不足。",
+    "contributions": [
+      "提出模型-数据混合SOC估计框架，结合等效电路模型与机器学习补偿误差",
+      "在真实LFP电池组数据上验证，精度优于纯模型或纯数据方法",
+      "分析了不同驾驶工况下的鲁棒性"
+    ],
+    "bms_relevance": "直接相关：SOC是BMS核心功能，且使用真实电池组数据，贴合课题组实际应用场景。",
+    "insight_for_group": "该混合思路可迁移至课题组SOH估计或pack不一致性建模，特别是融合物理模型与数据驱动的方法值得借鉴。",
+    "reason": "A级：发表于Applied Energy（优先列表第8位），强相关，研究使用真实数据，方法创新，对课题组BMS方向有直接参考价值。"
+  },
+  {
+    "title": "Lithium-ion battery state-of-health estimation for fragmented charging segments in real-world fleets",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Applied Energy",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0306261926010317?dgcid=rss_sd_all",
+    "source_id": "rss:9:Applied Energy",
+    "score": 120.25,
+    "level": "A",
+    "title_zh": "真实车队中碎片化充电片段下的锂离子电池健康状态估计",
+    "one_sentence": "针对真实车队中不完整充电片段，提出SOH估计方法，解决了实际数据碎片化问题。",
+    "problem": "实际运营中充电数据常被中断或碎片化，传统SOH方法要求完整充放电曲线，难以直接应用。",
+    "contributions": [
+      "提出了基于碎片化充电片段的特征提取与SOH估计模型",
+      "在多个真实电动公交车队数据上验证，误差低于3%",
+      "分析了不同碎片化程度下的估计鲁棒性"
+    ],
+    "bms_relevance": "直接相关：SOH是BMS关键状态，且针对真实车队数据，完美契合课题组field data方向。",
+    "insight_for_group": "该工作与课题组关注的实际数据碎片化问题高度吻合，其片段特征提取和模型设计可直接用于我们的云BMS或边端部署。",
+    "reason": "A级：发表于Applied Energy（优先列表第8位），强相关，解决真实数据痛点，方法可靠，对课题组实际开发有重要借鉴。"
+  },
+  {
+    "title": "State of charge estimation of real-world lithium iron phosphate battery packs combining model-based and data-driven approaches",
+    "abstract": "",
+    "authors": [
+      "Bangbang Zhang",
+      "Ranglei Wu",
+      "Wenxue Liu",
+      "Yang Xie",
+      "Chang Li",
+      "Kai Zhang"
+    ],
+    "source": "OpenAlex",
+    "venue": "Applied Energy",
+    "date": "2026-07-14",
+    "doi": "10.1016/j.apenergy.2026.128380",
+    "url": "https://doi.org/10.1016/j.apenergy.2026.128380",
+    "source_id": "",
+    "score": 114.25,
+    "level": "A",
+    "title_zh": "结合模型与数据驱动方法的真实磷酸铁锂电池组荷电状态估计",
+    "one_sentence": "提出融合模型与数据驱动的方法，利用真实LFP电池组数据实现高精度SOC估计。",
+    "problem": "真实驾驶条件下LFP电池组SOC估计受非线性、老化及传感器噪声影响，传统方法精度不足。",
+    "contributions": [
+      "提出模型-数据混合SOC估计框架，结合等效电路模型与机器学习补偿误差",
+      "在真实LFP电池组数据上验证，精度优于纯模型或纯数据方法",
+      "分析了不同驾驶工况下的鲁棒性"
+    ],
+    "bms_relevance": "直接相关：SOC是BMS核心功能，且使用真实电池组数据，贴合课题组实际应用场景。",
+    "insight_for_group": "该混合思路可迁移至课题组SOH估计或pack不一致性建模，特别是融合物理模型与数据驱动的方法值得借鉴。",
+    "reason": "A级：发表于Applied Energy（优先列表第8位），强相关，研究使用真实数据，方法创新，对课题组BMS方向有直接参考价值。"
+  },
+  {
+    "title": "Lithium-ion battery state-of-health estimation for fragmented charging segments in real-world fleets",
+    "abstract": "",
+    "authors": [
+      "Zhen Wang",
+      "Jiuchun Jiang",
+      "Youzhi Song",
+      "Di Wu",
+      "Fengwei Liang",
+      "Yiding Li",
+      "Wenwei Wang"
+    ],
+    "source": "OpenAlex",
+    "venue": "Applied Energy",
+    "date": "2026-07-14",
+    "doi": "10.1016/j.apenergy.2026.128377",
+    "url": "https://doi.org/10.1016/j.apenergy.2026.128377",
+    "source_id": "",
+    "score": 102.25,
+    "level": "A",
+    "title_zh": "真实车队中碎片化充电片段下的锂离子电池健康状态估计",
+    "one_sentence": "针对真实车队中不完整充电片段，提出SOH估计方法，解决了实际数据碎片化问题。",
+    "problem": "实际运营中充电数据常被中断或碎片化，传统SOH方法要求完整充放电曲线，难以直接应用。",
+    "contributions": [
+      "提出了基于碎片化充电片段的特征提取与SOH估计模型",
+      "在多个真实电动公交车队数据上验证，误差低于3%",
+      "分析了不同碎片化程度下的估计鲁棒性"
+    ],
+    "bms_relevance": "直接相关：SOH是BMS关键状态，且针对真实车队数据，完美契合课题组field data方向。",
+    "insight_for_group": "该工作与课题组关注的实际数据碎片化问题高度吻合，其片段特征提取和模型设计可直接用于我们的云BMS或边端部署。",
+    "reason": "A级：发表于Applied Energy（优先列表第8位），强相关，解决真实数据痛点，方法可靠，对课题组实际开发有重要借鉴。"
+  },
+  {
+    "title": "Experimental Validation of an Adaptive Series-Parallel Recombination Battery-Balancing Architecture Using Second-Life Lithium-Ion Cells",
+    "abstract": "The growing deployment of electric vehicles requires battery management systems that maintain cell uniformity while reducing hardware complexity and improving energy efficiency. Many cell-balancing methods rely on converter-based architectures and remain validated only through simulation. This study experimentally validates a previously published adaptive recombination strategy using a prototype with second-life Panasonic NCR18650PF lithium-ion cells. The system employs dynamic series-parallel reconfiguration, relay-based switching, isolated voltage monitoring, and adaptive control to redistribute energy without dedicated balancing converters. Six test cases were evaluated under resting, charging, and discharging conditions using simultaneous and sequential schemes. Complete balancing was achieved in all test cases within the measurement resolution of the prototype. The experiments reproduced the main balancing mechanisms predicted by simulation, particularly under resting and discharging conditions, while also revealing practical deviations under charging operation. These deviations indicate that real current-sharing behavior, cell aging, contact resistance, wiring losses, and measurement constraints can influence recombination performance in ways not fully captured by ideal simulation models. The study therefore provides first-stage hardware evidence for the feasibility of adaptive recombination balancing and identifies key implementation requirements for future real-time, safety-rated, and scalable BMS development. This research contributes to SDG 7 by supporting improved lithium-ion battery utilization and energy efficiency for sustainable electric mobility.",
+    "authors": [
+      "Khalid Hassan",
+      "Fei Lu Siaw",
+      "Tzer Hwai Gilbert Thio",
+      "Md Parvez Alam Khan Abir"
+    ],
+    "source": "Crossref",
+    "venue": "Electronics",
+    "date": "2026-07-15",
+    "doi": "10.3390/electronics15143106",
+    "url": "https://doi.org/10.3390/electronics15143106",
+    "source_id": "",
+    "score": 93.5,
+    "level": "B",
+    "title_zh": "使用二次寿命锂离子电池的自适应串并联重组电池均衡架构的实验验证",
+    "one_sentence": "实验验证了一种自适应串并联重组均衡架构，使用二次寿命电池实现无专用变换器的能量再分配。",
+    "problem": "传统均衡电路硬件复杂且能量效率低，需要新的均衡架构并经过硬件验证。",
+    "contributions": [
+      "实现了动态串并联重组均衡的硬件原型",
+      "在充电、放电、静置条件下均实现完全均衡",
+      "揭示了实际非理想因素（接触电阻、老化等）对均衡性能的影响"
+    ],
+    "bms_relevance": "相关：涉及电池组均衡，是BMS重要功能。但期刊水平一般，且使用二次寿命电池，创新性有限。",
+    "insight_for_group": "均衡电路硬件验证对课题组pack不一致性研究有一定启发，但算法层面的创新不多。",
+    "reason": "B级：发表于Electronics，非优先列表，但主题相关且有实验验证，建议浏览。"
+  },
+  {
+    "title": "Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 88.5,
+    "level": "B",
+    "title_zh": "Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 88.5，推荐等级 B。"
+  },
+  {
+    "title": "A physics-informed graph neural networks–Transformer framework for battery thermal runaway propagation prediction",
+    "abstract": "",
+    "authors": [
+      "Yongxi Wu",
+      "Yifan Zhao",
+      "Anthony Chun Yin Yuen",
+      "Chongmao Mo",
+      "Yanghan Su",
+      "Qian Chen",
+      "Xinyan Huang",
+      "Dongxu Ouyang"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-07-14",
+    "doi": "10.1016/j.est.2026.123520",
+    "url": "https://doi.org/10.1016/j.est.2026.123520",
+    "source_id": "",
+    "score": 71.0,
+    "level": "B",
+    "title_zh": "物理信息图神经网络-Transformer框架用于电池热失控传播预测",
+    "one_sentence": "提出结合图神经网络与Transformer的物理信息模型，预测电池包内热失控传播。",
+    "problem": "热失控传播机制复杂，传统模型计算量大或精度不足，需要高效且可解释的预测方法。",
+    "contributions": [
+      "构建了物理信息图神经网络架构，引入热传导等物理约束",
+      "利用Transformer捕获时序依赖，提高长期预测能力",
+      "在多种电芯布置和触发条件下验证了模型准确性"
+    ],
+    "bms_relevance": "直接相关：热失控预警是BMS安全关键功能，且关注pack级别传播。",
+    "insight_for_group": "物理信息神经网络的应用为课题组安全预警方向提供了新思路，尤其在pack级热管理数字孪生方面有潜力。",
+    "reason": "B级：发表于Journal of Energy Storage（优先列表第10位，但位置靠后），方法创新，但期刊影响力一般，建议浏览。"
+  },
+  {
+    "title": "Quantum-Inspired Thermal Equilibrium: Integration of Collective Dynamics into Real-Time Stabilization of Magnetically Confined Fusion Plasmas — Extended Edition: Full-Pulse Operation and Hardware-Bounded Adversarial Stress Benchmark on TORAX 1.4, Hardware-in-the-Loop on Three Microcontroller ISAs",
+    "abstract": "2026-07-15 — Adversarial full-pulse extension of the deposit: the XHARD disturbance cascade is applied to the complete pulse envelope of the 2026-07-13 chapter — cold 3 MA start, controller-driven current rampup, scheduled L-H transition, ignition, and self-heated burn — on the same physical 2 EUR ESP32-C3 (RISC-V) chip, and the chapter documents both a disturbance-model correction and the escalation limit of the corrected battery. The study has a three-act structure. Acts 1 and 2: unbounded XHARD at sev = 1.0 kills 10 / 10 episodes within t ≤ 10 s under the chapter-30 hard-latch phase controller, and 10 / 10 within t ≤ 14 s under a newly introduced blended controller (geometric lambda superposition of the rampup and flat-top mapping sets — equivalent to linear interpolation of the encoded ln(R) evidence — with weight driven by q95 and Q_fus headroom, latching at w = 1; a host-side change, the chip firmware byte-identical). Two independent controller architectures failing identically on the same input localise the defect in the disturbance model, not the controller: the unbounded cascade injects gas-puff commands of up to ~6 × 10²³ s⁻¹ — 10–12 × the physical maximum of the fuelling valve — during the 3 MA ramp, where the Greenwald density limit is at its smallest, and no control policy can pump particles back out of the vessel. Act 3: the corrected battery (XHARD-HB) clamps every disturbance-corrupted actuator command to the physical actuator envelope (Ip 2–15 MA, NBI 0–33 MW, ECRH 0–20 MW, gas 10¹⁹–5 × 10²² s⁻¹) — the norm-bounded-uncertainty convention of H-infinity robust control and the stuck-at-limit convention of FMEA fault taxonomies; plasma-physics events (ELM radiation spikes, Z_eff drift) remain unbounded, as they are not delivered through hardware. Under the bounded cascade the identical battery yields 10 / 10 disruption-free 1 200 s full pulses at sev = 1.0. An escalation ladder then maps the failure envelope of the bounded battery: 10 / 10 at sev = 1, 9 / 10 at sev = 5, 5 / 10 at sev = 10, 0 / 10 at sev = 120. Every death at every severity is the Greenwald criterion (f_GW > 1.5) inside the early ramp (t ≤ 83 s), and every dead seed still shows its initial-condition β_N and q_min at the moment of disruption — the plasma is healthy until a valve-stuck-fully-open event lands inside the low-Greenwald ramp window, machine-protection territory rather than plasma control. No seed at any severity ever died after the controller blend completed, and survivors are statistically indistinguishable across severities (Q_fus mean 11.66 / 11.77 / 11.76, H98 1.71 / 1.68 / 1.69, q_min floor 1.61 / 1.77 / 1.80 at sev 1 / 5 / 10) while the absorbed adversarial load triples (784 → 2 281 events per episode; at sev ≥ 5 every control tick carries an ELM and ~40 % of heating commands drop out): severity does not degrade the controller, it raises the probability of an uncontrollable window hit, and the outcome is strictly binary — die inside the ramp window or complete the full pulse. Declared limitation, stated in full in the chapter: this chapter introduces scoring-rule generation v2, which adds the single-tick Greenwald density criterion; the earlier flat-top chapters were scored under v1 without a density-limit criterion and remain unchanged under their declared rules — survival rates across chapters must be compared per rule generation. The blend controller and the hardware-bounds clamp are additive throughout; every published XHARD and nominal result is byte-for-byte unchanged. Chapter 31 of the master document (8 pages, 5 figures, A4) is inline-embedded in Bernd15.07.2026.pdf and reproduces every reported number from the CSVs in 02_data/31_c3_q16_fullpulse_hb/. The aggregate deposit now contains 10 674 reproducible episodes across 23 (date × study × policy) groups. All measurement data and figures released under CC-BY-4.0 / CC0; only the QITE Core SDK itself remains proprietary. 2026-07-13 — Full-pulse extension of the deposit: the controller drives the complete ITER pulse envelope — cold start, current rampup, L-H transition, ignition and self-heated burn — in one continuous closed-loop simulation on the same physical 2 EUR ESP32-C3 (RISC-V) chip as the 2026-07-04 chapter. Starting from the TORAX 1.4 bundled iterhybrid_rampup configuration (Ip = 3 MA, T = 6 keV core, L-mode pedestal), the deterministic five-agent QITE-Q16 controller ramps the plasma current from 3 MA to ~8 MA under its own authority (heating throttled by a dedicated rampup-phase lambda set, gas held Greenwald-aware, impurity off), hands over to the flat-top lambda set through a one-way phase latch shared coherently by all five actuator agents (trigger: q95 < 6.5), pushes 53 MW of combined heating through the scheduled L-H pedestal transition, ignites (Q_fus rises from 0.1 to the reporting bound of 20 within ~40 s), autonomously shuts NBI and ECRH back to 0 W, and then holds an α-self-heated burning-plasma equilibrium for the remainder of a 10 000 s pulse — 8 × a nominal ITER Hybrid pulse duration. Over 10 reproducible episodes (1 policy × 10 actuator-noise seeds, sev = 0.0, per-actuator noise σ = 0.05), the result is 10 / 10 disruption-free full pulses. The steady state converges across noise-perturbed seeds onto β_N = 1.45 ± 0.02, q_min = 1.41 ± 0.03, Ip = 9.0 ± 0.1 MA, H98 ≈ 1.58 — at the van Mulders (2021) design value β_N ≈ 1.5, in contrast to the flat-top-start attractor of the 2026-07-04 chapter (β_N = 2.23, q_min = 0.94), which the identical controller with identical encoded targets reaches instead when initialised hot: the path determines which equilibrium the collective finds, and the ramp path finds the design point. Noise-divergent seeds (|Δβ_N| ≈ 0.11 during the ramp) are actively contracted back onto a common trajectory (0.006 at t = 100 s, 0.003 at t = 5 000 s) — contraction onto a fixed point, not mere boundedness. Two further results are documented: first, a controller-design finding — a flat-top Ip lambda that pulls current down on Troyon approach creates a positive-feedback descent spiral once external heating is zero and the impurity multiplier is saturated (β_N = β·a·B/Ip: reducing Ip mechanically raises β_N; observed as Ip falling 15 → 4.8 MA at the slew limit with β_N climbing 2.6 → 3.02 into the kink boundary), which disappears when the Troyon envelope is placed on the push-up side of the Ip lambda; second, the ramp-path operating point (q_min ≈ 1.4) is numerically clean — zero TORAX safety_factor_fit failures across 10 × 9 400 steady-state ticks, whereas the flat-top-start attractor (q_min = 0.94) terminates every long run at ~5 200 s on that fit failure. Declared limitations, stated in full in the chapter: the L-H pedestal transition is scheduled (t = 80..100 s) rather than emergent — TORAX's set_T_ped_n_ped model cannot switch state-dependently, so the transition timing is consistent with the controller's 53 MW crossing the L-H power threshold but not caused by it; the operating-point location reflects β_N targets encoded in the lambda mappings (the path-dependent reachability is the finding, not the location); raw negative-q_min fit artifacts (84 ticks of 100 000, 0.08 %, all in the ramp/transition phase) are quarantined by a rate gate for disruption detection but retained untouched in the shipped CSVs. From t ≈ 5 200 s the controller additionally relaxes the impurity-radiation multiplier autonomously from its saturated value 2.0 to ~0.5..1.5 while Q and β_N stay constant — an unprompted late-burn behaviour not previously observed. The full-pulse code path is additive: every published XHARD and nominal flat-top result is byte-for-byte unchanged. Chapter 30 of the master document (9 pages, 5 figures, A4, with an in-operation photograph of the device under test) is inline-embedded in Bernd13.07.2026.pdf and reproduces every reported number from the CSVs in 02_data/30_c3_q16_fullpulse/. The aggregate deposit now contains 10 614 reproducible episodes across 20 (date × study × policy) groups. All measurement data and figures released under CC-BY-4.0 / CC0; only the QITE Core SDK itself remains proprietary . Full technical specification in chapter 30. 2026-07-04 — Third-ISA hardware-in-the-loop extension of the deposit, moving from the adversarial IterHybrid-XHARD stress benchmark to the peer-reviewed nominal ITER Hybrid operating point (van Mulders et al., Nucl. Fusion 61, 086019, 2021) as bundled with TORAX 1.4 (Citrin et al., 2024) under the identifier iterhybrid_predictor_corrector. The 16-bit variant of the QITE collapse kernel (Q16: 12 bytes of packed state per actuator agent — int16 log-quantised ratio at scale 12 800 plus five uint16 unit values — for 60 bytes per five-actuator fleet, ~ 9 KB flash, wire-protocol v3) is transplanted onto a physical 2 EUR ESP32-C3 SuperMini (32-bit RISC-V IMC core at 160 MHz, 400 KB SRAM, 384 KB ROM, 4 MB integrated flash, native USB-CDC) connected to the host TORAX 1.4 runner over USB-C. The 8-bit Q8 dispatch path used for every published XHARD result is retained bit-identically in the same firmware image, so the same ESP32-C3 chip additionally serves as a third-ISA bit-check for the Q8 collapse kernel behind the 2026-06-24 STM32F411 sev = 5 sweep — extending the byte-for-byte bit-equivalence chain from FP32 host reference through Q8 quantization to ARM Cortex-M4 (STM32F411), Xtensa LX7 (ESP32-S3) and RISC-V (ESP32-C3) with no source change on any target. Over 100 reproducible episodes on van Mulders nominal (1 policy × 100 actuator-noise seeds, sev = 0.0, t_final = 1 200 s = one nominal ITER Hybrid pulse, per-actuator noise σ = 0.05), the deterministic five-agent QITE-Q16 controller delivers 100 / 100 disruption-free episodes [Wilson 95 % CI: 96.3 %, 100.0 %] at Q_fus mean = 19.9339 ± 0.0005 (clamped at the postprocessing bound of 20.0 — see below), H98 = 1.569 ± 0.001, β_N max = 2.228 ± 0.028 (vs Troyon hard limit 3.0, Troyon 1984), q_min min = 0.940 ± 0.001 (above the sawtooth",
+    "authors": [
+      "Bernd Westrick"
+    ],
+    "source": "OpenAlex",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "date": "2026-07-14",
+    "doi": "10.5281/zenodo.21365680",
+    "url": "https://doi.org/10.5281/zenodo.21365680",
+    "source_id": "",
+    "score": 104.0,
+    "level": "B",
+    "title_zh": "Quantum-Inspired Thermal Equilibrium: Integration of Collective Dynamics into Real-Time Stabilization of Magnetically Confined Fusion Plasmas — Extended Edition: Full-Pulse Operation and Hardware-Bounded Adversarial Stress Benchmark on TORAX 1.4, Hardware-in-the-Loop on Three Microcontroller ISAs",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 104.0，推荐等级 B。"
+  },
+  {
+    "title": "Quantum-Inspired Thermal Equilibrium: Integration of Collective Dynamics into Real-Time Stabilization of Magnetically Confined Fusion Plasmas — Extended Edition: Full-Pulse Operation and Hardware-Bounded Adversarial Stress Benchmark on TORAX 1.4, Hardware-in-the-Loop on Three Microcontroller ISAs",
+    "abstract": "2026-07-15 — Adversarial full-pulse extension of the deposit: the XHARD disturbance cascade is applied to the complete pulse envelope of the 2026-07-13 chapter — cold 3 MA start, controller-driven current rampup, scheduled L-H transition, ignition, and self-heated burn — on the same physical 2 EUR ESP32-C3 (RISC-V) chip, and the chapter documents both a disturbance-model correction and the escalation limit of the corrected battery. The study has a three-act structure. Acts 1 and 2: unbounded XHARD at sev = 1.0 kills 10 / 10 episodes within t ≤ 10 s under the chapter-30 hard-latch phase controller, and 10 / 10 within t ≤ 14 s under a newly introduced blended controller (geometric lambda superposition of the rampup and flat-top mapping sets — equivalent to linear interpolation of the encoded ln(R) evidence — with weight driven by q95 and Q_fus headroom, latching at w = 1; a host-side change, the chip firmware byte-identical). Two independent controller architectures failing identically on the same input localise the defect in the disturbance model, not the controller: the unbounded cascade injects gas-puff commands of up to ~6 × 10²³ s⁻¹ — 10–12 × the physical maximum of the fuelling valve — during the 3 MA ramp, where the Greenwald density limit is at its smallest, and no control policy can pump particles back out of the vessel. Act 3: the corrected battery (XHARD-HB) clamps every disturbance-corrupted actuator command to the physical actuator envelope (Ip 2–15 MA, NBI 0–33 MW, ECRH 0–20 MW, gas 10¹⁹–5 × 10²² s⁻¹) — the norm-bounded-uncertainty convention of H-infinity robust control and the stuck-at-limit convention of FMEA fault taxonomies; plasma-physics events (ELM radiation spikes, Z_eff drift) remain unbounded, as they are not delivered through hardware. Under the bounded cascade the identical battery yields 10 / 10 disruption-free 1 200 s full pulses at sev = 1.0. An escalation ladder then maps the failure envelope of the bounded battery: 10 / 10 at sev = 1, 9 / 10 at sev = 5, 5 / 10 at sev = 10, 0 / 10 at sev = 120. Every death at every severity is the Greenwald criterion (f_GW > 1.5) inside the early ramp (t ≤ 83 s), and every dead seed still shows its initial-condition β_N and q_min at the moment of disruption — the plasma is healthy until a valve-stuck-fully-open event lands inside the low-Greenwald ramp window, machine-protection territory rather than plasma control. No seed at any severity ever died after the controller blend completed, and survivors are statistically indistinguishable across severities (Q_fus mean 11.66 / 11.77 / 11.76, H98 1.71 / 1.68 / 1.69, q_min floor 1.61 / 1.77 / 1.80 at sev 1 / 5 / 10) while the absorbed adversarial load triples (784 → 2 281 events per episode; at sev ≥ 5 every control tick carries an ELM and ~40 % of heating commands drop out): severity does not degrade the controller, it raises the probability of an uncontrollable window hit, and the outcome is strictly binary — die inside the ramp window or complete the full pulse. Declared limitation, stated in full in the chapter: this chapter introduces scoring-rule generation v2, which adds the single-tick Greenwald density criterion; the earlier flat-top chapters were scored under v1 without a density-limit criterion and remain unchanged under their declared rules — survival rates across chapters must be compared per rule generation. The blend controller and the hardware-bounds clamp are additive throughout; every published XHARD and nominal result is byte-for-byte unchanged. Chapter 31 of the master document (8 pages, 5 figures, A4) is inline-embedded in Bernd15.07.2026.pdf and reproduces every reported number from the CSVs in 02_data/31_c3_q16_fullpulse_hb/. The aggregate deposit now contains 10 674 reproducible episodes across 23 (date × study × policy) groups. All measurement data and figures released under CC-BY-4.0 / CC0; only the QITE Core SDK itself remains proprietary. 2026-07-13 — Full-pulse extension of the deposit: the controller drives the complete ITER pulse envelope — cold start, current rampup, L-H transition, ignition and self-heated burn — in one continuous closed-loop simulation on the same physical 2 EUR ESP32-C3 (RISC-V) chip as the 2026-07-04 chapter. Starting from the TORAX 1.4 bundled iterhybrid_rampup configuration (Ip = 3 MA, T = 6 keV core, L-mode pedestal), the deterministic five-agent QITE-Q16 controller ramps the plasma current from 3 MA to ~8 MA under its own authority (heating throttled by a dedicated rampup-phase lambda set, gas held Greenwald-aware, impurity off), hands over to the flat-top lambda set through a one-way phase latch shared coherently by all five actuator agents (trigger: q95 < 6.5), pushes 53 MW of combined heating through the scheduled L-H pedestal transition, ignites (Q_fus rises from 0.1 to the reporting bound of 20 within ~40 s), autonomously shuts NBI and ECRH back to 0 W, and then holds an α-self-heated burning-plasma equilibrium for the remainder of a 10 000 s pulse — 8 × a nominal ITER Hybrid pulse duration. Over 10 reproducible episodes (1 policy × 10 actuator-noise seeds, sev = 0.0, per-actuator noise σ = 0.05), the result is 10 / 10 disruption-free full pulses. The steady state converges across noise-perturbed seeds onto β_N = 1.45 ± 0.02, q_min = 1.41 ± 0.03, Ip = 9.0 ± 0.1 MA, H98 ≈ 1.58 — at the van Mulders (2021) design value β_N ≈ 1.5, in contrast to the flat-top-start attractor of the 2026-07-04 chapter (β_N = 2.23, q_min = 0.94), which the identical controller with identical encoded targets reaches instead when initialised hot: the path determines which equilibrium the collective finds, and the ramp path finds the design point. Noise-divergent seeds (|Δβ_N| ≈ 0.11 during the ramp) are actively contracted back onto a common trajectory (0.006 at t = 100 s, 0.003 at t = 5 000 s) — contraction onto a fixed point, not mere boundedness. Two further results are documented: first, a controller-design finding — a flat-top Ip lambda that pulls current down on Troyon approach creates a positive-feedback descent spiral once external heating is zero and the impurity multiplier is saturated (β_N = β·a·B/Ip: reducing Ip mechanically raises β_N; observed as Ip falling 15 → 4.8 MA at the slew limit with β_N climbing 2.6 → 3.02 into the kink boundary), which disappears when the Troyon envelope is placed on the push-up side of the Ip lambda; second, the ramp-path operating point (q_min ≈ 1.4) is numerically clean — zero TORAX safety_factor_fit failures across 10 × 9 400 steady-state ticks, whereas the flat-top-start attractor (q_min = 0.94) terminates every long run at ~5 200 s on that fit failure. Declared limitations, stated in full in the chapter: the L-H pedestal transition is scheduled (t = 80..100 s) rather than emergent — TORAX's set_T_ped_n_ped model cannot switch state-dependently, so the transition timing is consistent with the controller's 53 MW crossing the L-H power threshold but not caused by it; the operating-point location reflects β_N targets encoded in the lambda mappings (the path-dependent reachability is the finding, not the location); raw negative-q_min fit artifacts (84 ticks of 100 000, 0.08 %, all in the ramp/transition phase) are quarantined by a rate gate for disruption detection but retained untouched in the shipped CSVs. From t ≈ 5 200 s the controller additionally relaxes the impurity-radiation multiplier autonomously from its saturated value 2.0 to ~0.5..1.5 while Q and β_N stay constant — an unprompted late-burn behaviour not previously observed. The full-pulse code path is additive: every published XHARD and nominal flat-top result is byte-for-byte unchanged. Chapter 30 of the master document (9 pages, 5 figures, A4, with an in-operation photograph of the device under test) is inline-embedded in Bernd13.07.2026.pdf and reproduces every reported number from the CSVs in 02_data/30_c3_q16_fullpulse/. The aggregate deposit now contains 10 614 reproducible episodes across 20 (date × study × policy) groups. All measurement data and figures released under CC-BY-4.0 / CC0; only the QITE Core SDK itself remains proprietary . Full technical specification in chapter 30. 2026-07-04 — Third-ISA hardware-in-the-loop extension of the deposit, moving from the adversarial IterHybrid-XHARD stress benchmark to the peer-reviewed nominal ITER Hybrid operating point (van Mulders et al., Nucl. Fusion 61, 086019, 2021) as bundled with TORAX 1.4 (Citrin et al., 2024) under the identifier iterhybrid_predictor_corrector. The 16-bit variant of the QITE collapse kernel (Q16: 12 bytes of packed state per actuator agent — int16 log-quantised ratio at scale 12 800 plus five uint16 unit values — for 60 bytes per five-actuator fleet, ~ 9 KB flash, wire-protocol v3) is transplanted onto a physical 2 EUR ESP32-C3 SuperMini (32-bit RISC-V IMC core at 160 MHz, 400 KB SRAM, 384 KB ROM, 4 MB integrated flash, native USB-CDC) connected to the host TORAX 1.4 runner over USB-C. The 8-bit Q8 dispatch path used for every published XHARD result is retained bit-identically in the same firmware image, so the same ESP32-C3 chip additionally serves as a third-ISA bit-check for the Q8 collapse kernel behind the 2026-06-24 STM32F411 sev = 5 sweep — extending the byte-for-byte bit-equivalence chain from FP32 host reference through Q8 quantization to ARM Cortex-M4 (STM32F411), Xtensa LX7 (ESP32-S3) and RISC-V (ESP32-C3) with no source change on any target. Over 100 reproducible episodes on van Mulders nominal (1 policy × 100 actuator-noise seeds, sev = 0.0, t_final = 1 200 s = one nominal ITER Hybrid pulse, per-actuator noise σ = 0.05), the deterministic five-agent QITE-Q16 controller delivers 100 / 100 disruption-free episodes [Wilson 95 % CI: 96.3 %, 100.0 %] at Q_fus mean = 19.9339 ± 0.0005 (clamped at the postprocessing bound of 20.0 — see below), H98 = 1.569 ± 0.001, β_N max = 2.228 ± 0.028 (vs Troyon hard limit 3.0, Troyon 1984), q_min min = 0.940 ± 0.001 (above the sawtooth",
+    "authors": [
+      "Bernd Westrick"
+    ],
+    "source": "OpenAlex",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "date": "2026-07-14",
+    "doi": "10.5281/zenodo.19457727",
+    "url": "https://doi.org/10.5281/zenodo.19457727",
+    "source_id": "",
+    "score": 104.0,
+    "level": "B",
+    "title_zh": "Quantum-Inspired Thermal Equilibrium: Integration of Collective Dynamics into Real-Time Stabilization of Magnetically Confined Fusion Plasmas — Extended Edition: Full-Pulse Operation and Hardware-Bounded Adversarial Stress Benchmark on TORAX 1.4, Hardware-in-the-Loop on Three Microcontroller ISAs",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 104.0，推荐等级 B。"
+  },
+  {
+    "title": "Bringing real-time observability to practical aqueous zinc-ion batteries",
+    "abstract": "The practical deployment of aqueous zinc-ion batteries (AZIBs) is limited by the lack of observability of internal electrochemical states. Critical failure processes, including hydrogen evolution, zinc dendrite growth, and cathode dissolution, evolve dynamically and remain inaccessible to conventional battery management systems based on external signals. Here, we highlight a sensing-centric approach that enables real-time observability in working AZIBs. By integrating miniaturized in-situ sensors, key parameters such as internal pressure, pH, and mechanical stress can be directly monitored during operation, providing continuous access to internal battery state evolution. This transforms AZIBs from black box into observable electrochemical systems, enabling early detection of battery failure and safety risks. Coupling multi-modal sensing with data-driven models and digital twins further enables predictive battery management under realistic conditions, offering a pathway toward reliable and scalable AZIB deployment. It can also be applied for Li metal batteries.",
+    "authors": [
+      "Aosheng Xu",
+      "Yunke Wang",
+      "Guangpeng Zhang",
+      "Yuanxi Yang",
+      "Rui Tan",
+      "Wei Zhang",
+      "Kai Yang"
+    ],
+    "source": "OpenAlex",
+    "venue": "Energy Z",
+    "date": "2026-07-14",
+    "doi": "10.20517/energyz.2026.14",
+    "url": "https://doi.org/10.20517/energyz.2026.14",
+    "source_id": "",
+    "score": 72.0,
+    "level": "C",
+    "title_zh": "为实用水系锌离子电池带来实时可观测性",
+    "one_sentence": "提出通过集成微型传感器实现水系锌离子电池内部状态实时监测，并结合数据驱动和数字孪生进行预测管理。",
+    "problem": "水系锌离子电池内部失效过程（析氢、枝晶等）无法被传统BMS外部信号观测到。",
+    "contributions": [
+      "设计了集成内压、pH、应力等微型传感器的方案",
+      "实现了电池内部状态实时可观测性",
+      "展望了多模态传感与数字孪生结合的智能管理"
+    ],
+    "bms_relevance": "边缘相关：针对非锂电（锌离子电池），但提出的传感与管理思路可迁移至锂电BMS，尤其数字孪生。",
+    "insight_for_group": "虽非直接锂电，但其多模态传感与数字孪生结合的理念对课题组电池安全预警有参考价值。",
+    "reason": "C级：期刊Energy Z非优先列表，且主题非锂电，但概念有启发性，建议备选。"
+  },
+  {
+    "title": "Battery-Aware Control of a Single-Phase Integrated Battery Charger Using NMPC, EKF, and LUT-Based Lithium-Ion Pack Modeling",
+    "abstract": "This paper presents a battery-aware control framework for a single-phase integrated battery charger (IBC) for electric vehicles, in which the traction system is reused as part of the charging hardware. The proposed charger consists of a stator-assisted bridgeless totem-pole power-factor-correction AC–DC stage and a bidirectional buck–boost DC–DC stage connected to a 48 kWh, 400 V lithium-ion battery pack. The battery pack is modeled using a lookup-table-based equivalent circuit model with state-of-charge- and temperature-dependent open-circuit voltage and impedance parameters. A conventional double-loop PI controller is used as the baseline, while the proposed strategy combines nonlinear model predictive control, an extended Kalman filter, and lookup-table-based battery parameterization to regulate charging current under electrical and thermal constraints. The system is evaluated under 7 kW, 230 V/32 A and 22 kW, 230 V/96 A charging cases using average-model simulations, switching-model transient simulations, and finite element thermal assessment of the induction motor stator. The average-model results show stable charging from 20% to 80% SOC, with charging times of approximately 275 min at 7 kW and 90 min at 22 kW. The EKF provides bounded battery state estimation, with maximum SOC estimation errors of approximately 1.3% and 2.0% for the 7 kW and 22 kW cases, respectively, while the core-temperature estimation error converges close to zero. The switching-model results confirm feasible duty-command behavior, bounded battery-current tracking error, and a representative DC-link ripple of approximately 8 Vpp. During grid-voltage reduction, the charging current is reduced to keep the grid-current envelope within the intended limit. FEM results show that charging-only motor temperatures remain low, reaching approximately 27.39 °C at 7 kW and 38.82–38.85 °C at 22 kW. The most critical charging-related thermal case occurs at 22 kW after one hour of full-load motor operation with a 40 °C initial condition, reaching approximately 92.32 °C. Overall, these simulation-based findings support the feasibility of the proposed NMPC–EKF–LUT framework as a battery-aware supervisory control strategy for single-phase IBC operation. The proposed controller improves constraint-aware, battery state-based decision-making, while switching ripple and motor thermal response are mainly governed by the power stage, feasible current trajectory, and initial thermal condition.",
+    "authors": [
+      "Phonrut Bousungnoen",
+      "Padej Pao-la-or"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "Batteries",
+    "date": "2026-07-14",
+    "doi": "10.3390/batteries12070254",
+    "url": "https://doi.org/10.3390/batteries12070254",
+    "source_id": "",
+    "score": 68.0,
+    "level": "B",
+    "title_zh": "使用NMPC、EKF和基于查找表的锂离子电池包建模的电池感知控制单相集成充电器",
+    "one_sentence": "提出了集成NMPC、EKF和查找表电池模型的充电控制策略，实现7kW和22kW下稳定的电池充电并估算SOC和温度。",
+    "problem": "集成充电器中需要电池感知控制以优化充电并防止过温，同时保证SOC估计精度。",
+    "contributions": [
+      "设计了结合NMPC和EKF的电池感知充电控制器",
+      "使用查找表模型准确表征电池电热特性",
+      "在仿真和有限元分析中验证了充电性能与热约束满足"
+    ],
+    "bms_relevance": "相关：涉及电池包建模、SOC估计和热管理，是BMS典型功能，但侧重于充电控制。",
+    "insight_for_group": "其EKF与NMPC结合的方法可用于课题组SOC/SOH估计与充电策略优化，但实验验证不足。",
+    "reason": "B级：发表于Batteries（非优先列表），方法成熟但创新性一般，建议浏览。"
+  },
+  {
+    "title": "Experimental and computational analysis of electro-thermal performance of cylindrical Li-ion battery packs for EV",
+    "abstract": "Abstract The lithium-ion batteries (LIBs) are a crucial component for driving the electric power to the electrical components in electric vehicles (EVs); the demand for EVs is increasing day by day. The detailed thermal behavior of the LIBs analysis is essential to avoiding overheating and thermal runaway issues in EVs. The different EV application-oriented thermal modeling of battery packs (BP) was studied, and a 24-cylindrical-cell BP was considered for simulation setup and building the hardware setup, which is within the safety zone operation. A detailed 3D transient thermal model was developed using OpenFOAM, an open-source CFD software, and the practical 24-cell BP designed for EV applications with the help of thermal sensors that monitored the cells’ temperatures. The spacing between adjacent cells is 5 mm with dual open ends to enhance airflow and promote effective heat dissipation. Simulations predicted a peak cell temperature of approximately 38 °C and a temperature difference of less than 5 °C across all cells under maximum load condition, maintaining operation well within safe thermal limits. The experimental results were very similar to the simulations, with differences of less than 3%. Unlike most existing studies, which are typically limited to smaller modules due to safety concerns, excessive heat generation, or dependence on commercial simulation software, this work demonstrates and validates a practical 24-cell configuration. This approach demonstrates the practical and simulated thermoelectric performance variations of battery packs by combining large-scale real-world testing with open-source numerical modeling. Its novelty lies in the scalable, air-cooled BTMS design specifically tailored for compact EV applications, which offers quantitative data for future battery module development aimed at enhancing both safety and performance.",
+    "authors": [
+      "Mahipal Bukya",
+      "Rajesh Kumar",
+      "Akhilesh Mathur"
+    ],
+    "source": "Crossref",
+    "venue": "Discover Applied Sciences",
+    "date": "2026-07-15",
+    "doi": "10.1007/s42452-026-09203-x",
+    "url": "https://doi.org/10.1007/s42452-026-09203-x",
+    "source_id": "",
+    "score": 68.0,
+    "level": "C",
+    "title_zh": "电动汽车圆柱形锂离子电池组电热性能的实验与计算分析",
+    "one_sentence": "通过实验与CFD仿真分析了24节圆柱电池组的热性能，验证了空气冷却设计的有效性。",
+    "problem": "电池组热管理设计需要验证，但现有研究多限于小模块或依赖商业软件。",
+    "contributions": [
+      "搭建了24节电池组硬件并采集温度数据",
+      "使用开源OpenFOAM进行3D瞬态热仿真",
+      "实验与仿真误差小于3%，验证了设计安全"
+    ],
+    "bms_relevance": "边缘相关：涉及电池热管理，是BMS安全一部分，但重点在热设计而非状态估计或控制。",
+    "insight_for_group": "对课题组pack热建模和实验验证有参考，但缺乏BMS核心算法创新。",
+    "reason": "C级：期刊Discover Applied Sciences排名低，方法常规，建议备选。"
+  }
+]
