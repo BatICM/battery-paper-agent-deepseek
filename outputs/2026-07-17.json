@@ -1,0 +1,318 @@
+[
+  {
+    "title": "State of charge estimation of real-world lithium iron phosphate battery packs combining model-based and data-driven approaches",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Applied Energy",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0306261926010342?dgcid=rss_sd_all",
+    "source_id": "rss:9:Applied Energy",
+    "score": 132.25,
+    "level": "A",
+    "title_zh": "结合模型与数据驱动的实际磷酸铁锂电池组荷电状态估计",
+    "one_sentence": "本文提出一种融合模型和数据驱动的方法，用于实际运行LFP电池组的SOC估计，并验证了其有效性。",
+    "problem": "实际运行中的LFP电池组SOC估计面临非线性、老化及工况复杂等挑战，单一方法精度不足。",
+    "contributions": [
+      "提出将模型（等效电路）与数据驱动（机器学习）方法有机结合的策略，提升SOC估计精度与鲁棒性",
+      "使用真实世界电池组运行数据进行验证，反映实际应用场景",
+      "为模型-数据融合方法在BMS中的应用提供范例"
+    ],
+    "bms_relevance": "直接相关，SOC估计是BMS核心功能之一，论文关注实际电池组的SOC估计问题。",
+    "insight_for_group": "可借鉴其融合思路，在课题组的SOH/RUL估计中引入类似混合架构，利用实际运行数据提升模型泛化能力。",
+    "reason": "A级。发表在Applied Energy（优先列表第8位），研究内容与BMS核心SOC估计强相关，且基于真实数据，具有实际应用价值。"
+  },
+  {
+    "title": "Experimental Validation of an Adaptive Series-Parallel Recombination Battery-Balancing Architecture Using Second-Life Lithium-Ion Cells",
+    "abstract": "The growing deployment of electric vehicles requires battery management systems that maintain cell uniformity while reducing hardware complexity and improving energy efficiency. Many cell-balancing methods rely on converter-based architectures and remain validated only through simulation. This study experimentally validates a previously published adaptive recombination strategy using a prototype with second-life Panasonic NCR18650PF lithium-ion cells. The system employs dynamic series-parallel reconfiguration, relay-based switching, isolated voltage monitoring, and adaptive control to redistribute energy without dedicated balancing converters. Six test cases were evaluated under resting, charging, and discharging conditions using simultaneous and sequential schemes. Complete balancing was achieved in all test cases within the measurement resolution of the prototype. The experiments reproduced the main balancing mechanisms predicted by simulation, particularly under resting and discharging conditions, while also revealing practical deviations under charging operation. These deviations indicate that real current-sharing behavior, cell aging, contact resistance, wiring losses, and measurement constraints can influence recombination performance in ways not fully captured by ideal simulation models. The study therefore provides first-stage hardware evidence for the feasibility of adaptive recombination balancing and identifies key implementation requirements for future real-time, safety-rated, and scalable BMS development. This research contributes to SDG 7 by supporting improved lithium-ion battery utilization and energy efficiency for sustainable electric mobility.",
+    "authors": [
+      "Khalid Hassan",
+      "Fei Lu Siaw",
+      "Tzer Hwai Gilbert Thio",
+      "Md Parvez Alam Khan Abir"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "Electronics",
+    "date": "2026-07-15",
+    "doi": "10.3390/electronics15143106",
+    "url": "https://doi.org/10.3390/electronics15143106",
+    "source_id": "",
+    "score": 93.5,
+    "level": "B",
+    "title_zh": "采用二次寿命锂离子电池的自适应串并联重组均压架构的实验验证",
+    "one_sentence": "本文实验验证了一种无专用变换器的自适应串并联重组均衡架构，在二次寿命电池上实现完全均衡。",
+    "problem": "传统电池均衡方法依赖变换器，硬件复杂且效率低，且多停留在仿真验证。",
+    "contributions": [
+      "实验验证了自适应串并联重组均衡架构的可行性",
+      "使用二次寿命电池，符合可持续利用趋势",
+      "揭示了实际运行中接触电阻、接线损耗等因素对均衡性能的影响"
+    ],
+    "bms_relevance": "相关，电池均衡是BMS重要功能，论文涉及均衡架构的硬件验证。",
+    "insight_for_group": "对课题组在电池组不一致性研究方面有参考价值，可考虑利用类似重组架构提升pack均衡效率。",
+    "reason": "B级。相关性强，但发表在Electronics，非优先列表期刊，创新性一般，建议浏览。"
+  },
+  {
+    "title": "Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 88.5,
+    "level": "C",
+    "title_zh": "基于物理约束符号回归-物理信息神经网络的PEMFC退化数据高效可解释长期预测",
+    "one_sentence": "本文针对质子交换膜燃料电池（PEMFC）提出一种结合物理约束符号回归和PINN的长期退化预测方法。",
+    "problem": "PEMFC退化预测面临数据稀缺和模型可解释性差的问题。",
+    "contributions": [
+      "提出物理约束符号回归与PINN混合框架，实现数据高效且可解释的退化建模",
+      "在PEMFC数据集上验证了方法的有效性"
+    ],
+    "bms_relevance": "边缘相关，研究对象为燃料电池而非锂离子电池，但方法（PINN）可迁移至电池SOH/RUL预测。",
+    "insight_for_group": "其物理约束符号回归思路可借鉴用于锂电池退化建模，提升模型可解释性。",
+    "reason": "C级。相关性强但研究对象非锂离子电池，且发表在eTransportation（优先列表第15位），方法有潜力，建议进入备选列表。"
+  },
+  {
+    "title": "Joint estimation of SOC and SOH for lithium-ion power battery based on fractional-order model and multi-algorithm fusion",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26032366?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 85.0,
+    "level": "B",
+    "title_zh": "基于分数阶模型与多算法融合的锂离子动力电池SOC与SOH联合估计",
+    "one_sentence": "本文利用分数阶模型和多算法融合实现锂离子电池SOC和SOH的联合估计。",
+    "problem": "传统整数阶模型难以精确描述电池动态，且SOC/SOH联合估计精度有待提升。",
+    "contributions": [
+      "采用分数阶模型提高电池动态建模精度",
+      "融合多种算法提升联合估计的稳定性和准确性",
+      "在动力电池数据集上验证了方法"
+    ],
+    "bms_relevance": "直接相关，SOC/SOH联合估计是BMS核心功能。",
+    "insight_for_group": "可参考其分数阶模型和算法融合策略，用于课题组SOH/RUL估计。",
+    "reason": "B级。相关性强，但期刊Journal of Energy Storage在优先列表中排第10位，创新性一般，建议浏览。"
+  },
+  {
+    "title": "State of charge-capacity-pressure coupled effects on combustion characteristics and suppression of thermal runaway gases in lithium iron phosphate batteries",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26032500?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 85.0,
+    "level": "B",
+    "title_zh": "荷电状态-容量-压力耦合效应对磷酸铁锂电池热失控气体燃烧特性及抑制的影响",
+    "one_sentence": "与上一篇相同，但作者不同，内容一致。",
+    "problem": "同上。",
+    "contributions": [
+      "同上"
+    ],
+    "bms_relevance": "同上",
+    "insight_for_group": "同上",
+    "reason": "B级。重复论文，直接归为B。"
+  },
+  {
+    "title": "Investigation and battery temperature prediction for battery thermal management based on phase change material and thermoelectric cooler",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26032561?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 69.0,
+    "level": "C",
+    "title_zh": "基于相变材料和热电冷却器的电池热管理温度预测研究",
+    "one_sentence": "本文研究相变材料和热电冷却器用于电池热管理，并预测电池温度。",
+    "problem": "电池热管理系统的温度预测精度对安全和控制至关重要。",
+    "contributions": [
+      "提出了结合相变材料和热电冷却器的热管理方案",
+      "建立了温度预测模型",
+      "实验验证了冷却效果"
+    ],
+    "bms_relevance": "边缘相关，属于电池热管理，但更偏热设计而非BMS状态估计。",
+    "insight_for_group": "热管理是BMS的扩展领域，可借鉴其温度预测方法用于热状态监控。",
+    "reason": "C级。边缘相关，期刊Journal of Energy Storage但内容偏向热管理而非BMS核心，建议备选。"
+  },
+  {
+    "title": "State of charge-capacity-pressure coupled effects on combustion characteristics and suppression of thermal runaway gases in lithium iron phosphate batteries",
+    "abstract": "",
+    "authors": [
+      "Lin Yu",
+      "Yuhui Wang",
+      "Xingtong Wu",
+      "Fangzhou Li",
+      "Qing Wang",
+      "Kuo Wang",
+      "Wenhao Hao",
+      "Jianqi Zhang",
+      "Xinming Qian"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-07-15",
+    "doi": "10.1016/j.est.2026.123586",
+    "url": "https://doi.org/10.1016/j.est.2026.123586",
+    "source_id": "",
+    "score": 67.0,
+    "level": "B",
+    "title_zh": "荷电状态-容量-压力耦合效应对磷酸铁锂电池热失控气体燃烧特性及抑制的影响",
+    "one_sentence": "与上一篇相同，但作者不同，内容一致。",
+    "problem": "同上。",
+    "contributions": [
+      "同上"
+    ],
+    "bms_relevance": "同上",
+    "insight_for_group": "同上",
+    "reason": "B级。重复论文，直接归为B。"
+  },
+  {
+    "title": "A Hybrid Framework of VMD-KPCA and PLO-PINN for Lithium-Ion Battery SOH Estimation",
+    "abstract": "Accurate state of health (SOH) estimation of lithium-ion batteries (LIBs) is critical to ensuring the safety and reliability of battery management system (BMS). To achieve precise estimation, this study proposes a hybrid framework that integrates variational mode decomposition (VMD), kernel principal component analysis (KPCA), polar lights optimizer (PLO), and physics-informed neural network (PINN) for SOH estimation. First, multidimensional health features are extracted and decomposed by VMD into intrinsic mode functions (IMFs), which are then compressed into a one-dimensional principal component via KPCA, retaining over 95% of the original information. Subsequently, the PLO algorithm is used to adaptively optimize three key hyperparameters of the PINN-based model: the learning rate, the number of collocation points, and the regularization loss weight. Finally, the optimized PINN is deployed to predict the SOH of the Center for Advanced Life Cycle Engineering (CALCE) battery dataset. Experimental results demonstrate that the proposed VMD-KPCA-PLO-PINN exhibits high prediction accuracy under both 7:3 and 5:5 training-to-testing data partitions. For example, under the 5:5 partition, the proposed model achieves an average R2 of 0.983 and an average RMSE of 0.0085 on the tested CALCE cells.",
+    "authors": [
+      "Zhiwei Yang",
+      "Qianli Dong",
+      "Rui Dong",
+      "Guangjun Liu"
+    ],
+    "source": "Crossref",
+    "venue": "World Electric Vehicle Journal",
+    "date": "2026-07-16",
+    "doi": "10.3390/wevj17070368",
+    "url": "https://doi.org/10.3390/wevj17070368",
+    "source_id": "",
+    "score": 122.0,
+    "level": "C",
+    "title_zh": "混合VMD-KPCA和PLO-PINN框架用于锂离子电池健康状态估计",
+    "one_sentence": "本文提出VMD-KPCA特征提取结合PLO优化PINN的SOH估计方法，在CALCE数据集上验证。",
+    "problem": "SOH估计中特征提取和模型超参数选择困难。",
+    "contributions": [
+      "采用VMD-KPCA提取多维健康特征并降维",
+      "利用PLO优化PINN超参数",
+      "在CALCE数据集上获得较高预测精度"
+    ],
+    "bms_relevance": "直接相关，SOH估计是BMS核心功能。",
+    "insight_for_group": "可借鉴其特征提取和优化思路，但所发期刊权威性不足。",
+    "reason": "C级。相关性强，但发表在World Electric Vehicle Journal，非优先列表期刊，创新性一般，建议浏览。"
+  },
+  {
+    "title": "Hybrid temporal deep learning and ensemble regression framework for remaining useful life prediction of lithium-ion batteries in energy storage systems",
+    "abstract": "Accurate prediction of the remaining useful life (RUL) of lithium-ion batteries (LIBs) is essential for enhancing the reliability, operational safety, and energy management efficiency of electric vehicles and modern energy storage systems. However, battery degradation is governed by highly nonlinear electrochemical mechanisms and complex temporal dependencies that are difficult to model using conventional physics-based approaches or standalone machine learning techniques. To address these challenges, this article proposes a hybrid data-driven framework integrating a Temporal Convolutional Network (TCN), Bidirectional Long Short-Term Memory (BiLSTM), and Extreme Gradient Boosting (XGBoost) for accurate LIB RUL prediction. The proposed architecture utilizes the TCN module to capture short-term temporal degradation patterns from sequential battery operational data, while the BiLSTM network learns long-term temporal dependencies and degradation evolution across multiple charge–discharge cycles. The deep temporal representations extracted by the TCN–BiLSTM network are subsequently processed using an XGBoost regression model to effectively model nonlinear relationships between battery operational characteristics and RUL. The framework is validated using the NASA LIB aging dataset containing 14,896 charge–discharge cycle samples with operational features including cycle index, discharge time, charging duration, voltage degradation characteristics, and constant-current charging behavior. Statistical analysis and Min–Max normalization are employed to improve feature consistency, numerical stability, and model convergence. Experimental results demonstrate that the proposed framework effectively captures battery degradation dynamics and achieves highly accurate and stable prediction performance. Five-fold cross-validation results yield a low Mean Absolute Error of 0.00957, Root Mean Square Error of 0.02926, and a high coefficient of determination ( R 2 ) of 0.9882, indicating excellent predictive capability and strong generalization performance. Comparative analysis further demonstrates that the proposed hybrid framework outperforms conventional Random Forest, XGBoost, LSTM, and BiLSTM models in terms of prediction accuracy and robustness. In addition, ablation analysis confirms the complementary contribution of temporal convolutional learning, sequential dependency modeling, and ensemble nonlinear regression toward improved RUL estimation. The proposed framework provides a robust and computationally efficient solution for intelligent battery health monitoring, predictive maintenance, and smart battery management applications in electric vehicles and energy storage systems.",
+    "authors": [
+      "T. Mariprasath",
+      "Kumaresh S S",
+      "Seif Al Bustanji",
+      "Viktoriia Bereznychenko"
+    ],
+    "source": "Crossref",
+    "venue": "Energy Exploration & Exploitation",
+    "date": "2026-07-16",
+    "doi": "10.1177/01445987261470170",
+    "url": "https://doi.org/10.1177/01445987261470170",
+    "source_id": "",
+    "score": 120.0,
+    "level": "C",
+    "title_zh": "混合时序深度学习与集成回归框架用于储能系统锂离子电池剩余寿命预测",
+    "one_sentence": "本文提出TCN-BiLSTM和XGBoost结合的RUL预测框架，在NASA数据集上验证。",
+    "problem": "电池RUL预测受非线性退化和时序依赖影响，传统方法精度低。",
+    "contributions": [
+      "结合TCN和BiLSTM捕获短长期退化模式",
+      "使用XGBoost进行回归预测",
+      "在NASA数据集上取得较好结果"
+    ],
+    "bms_relevance": "直接相关，RUL预测是BMS重要功能。",
+    "insight_for_group": "可参考其深度学习混合架构，但数据集较小，方法常规。",
+    "reason": "C级。相关性强，但期刊Energy Exploration & Exploitation非优先列表，创新性一般，建议浏览。"
+  },
+  {
+    "title": "Taylor polynomial-constrained physics-informed neural network for battery degradation modeling and SOH estimation",
+    "abstract": "Abstract Accurate state-of-health (SOH) estimation is essential for the safety and reliability of lithium-ion batteries. During battery cycling, battery management systems (BMSs) continuously acquire a large amount of measurement data, which provide the data foundation for battery SOH estimation. However, battery degradation exhibits highly nonlinear and complex dynamics, limiting the robustness and generalization capability of existing methods under different operating conditions. To address these issues, this paper proposes a Taylor polynomial-constrained physics-informed neural network (Taylor-PINN) for accurate and robust battery degradation modeling and SOH estimation. First, a unified health feature (HF) extraction strategy focusing on the charging measurements is introduced to reduce the uncertainty caused by discharge variability. A parallel long short-term memory network is then designed to extract HFs from the constant-current voltage data and constant-voltage current measurements. Finally, a Taylor polynomial-constrained degradation modeling network is constructed to model smooth and continuous SOH evolution. In addition, a monotonicity constraint is applied to suppress non-physical SOH rebound and enforce irreversible degradation trends. Extensive experiments are conducted on the XJTU, TJU, and CALCE battery datasets under different battery chemistries, and operating conditions. The results demonstrate that the proposed Taylor-PINN achieves superior estimation accuracy, stability, and generalization capability compared with several state-of-the-art methods. Furthermore, the proposed framework maintains robust performance in cross-batch tasks and incomplete charging scenarios. The proposed method highlights the potential of PINNs for BMS applications.",
+    "authors": [
+      "Wenlan Xu"
+    ],
+    "source": "Crossref",
+    "venue": "Measurement Science and Technology",
+    "date": "2026-07-16",
+    "doi": "10.1088/1361-6501/ae83d4",
+    "url": "https://doi.org/10.1088/1361-6501/ae83d4",
+    "source_id": "",
+    "score": 120.0,
+    "level": "B",
+    "title_zh": "泰勒多项式约束物理信息神经网络用于电池退化建模与健康状态估计",
+    "one_sentence": "本文提出泰勒多项式约束的PINN用于SOH估计，引入单调性约束抑制非物理回弹。",
+    "problem": "现有SOH估计方法缺乏物理约束，导致退化趋势不合理。",
+    "contributions": [
+      "设计泰勒多项式约束网络建模连续退化",
+      "引入单调性约束确保不可逆退化",
+      "在多个数据集上验证了鲁棒性和泛化能力"
+    ],
+    "bms_relevance": "直接相关，SOH估计是BMS核心，且方法具有物理可解释性。",
+    "insight_for_group": "其物理约束思想对课题组SOH/RUL研究有借鉴价值，可提升模型合理性。",
+    "reason": "B级。相关性强，但发表在Measurement Science and Technology，非优先列表期刊，创新性较好，建议浏览。"
+  },
+  {
+    "title": "Battery State-of-Charge Estimation Using Factor Graph Optimization with Linear and Nonlinear Voltage Observation Models",
+    "abstract": "Accurate battery state-of-charge (SOC) estimation is essential for battery management systems in electric vehicles and energy storage applications. Traditional estimation methods often rely on recursive filtering techniques and may experience performance degradation under nonlinear operating conditions and measurement uncertainty. This study proposes a factor graph optimization (FGO)-based SOC estimation framework incorporating voltage observation constraints. Three estimation configurations are investigated, including Current-Only FGO, Linear Voltage FGO, and Nonlinear Voltage FGO. A custom 3 Ah lithium-ion battery simulation model implemented in C++ was developed to generate benchmark datasets under both constant-current and random-current operating conditions. The results indicate that incorporating voltage information can improve SOC estimation accuracy within the investigated simulation benchmark. Under constant-current conditions, the Current-Only FGO achieved an RMSE of 0.128303, while the Linear Voltage FGO reduced the RMSE to 0.067395. The Nonlinear Voltage FGO further reduced the RMSE to 0.013604. Under random-current conditions, the nonlinear voltage formulation achieved an RMSE of 0.009022. Noise sensitivity analysis was conducted by injecting zero-mean Gaussian voltage measurement noise ranging from 0.01 V to 0.10 V. Additional validation experiments were conducted by including an EKF baseline, practical uncertainty cases, OCV–SOC model mismatch, and covariance sensitivity analysis. The results suggest that the nonlinear voltage formulation maintained relatively low estimation errors under the investigated voltage noise levels, while model mismatch and covariance settings can influence estimation accuracy. Since the present study is based on a simplified simulation model, the proposed framework should be regarded as a simulation-based proof-of-concept for voltage-constrained FGO-based SOC estimation. Future work will focus on validation using real battery datasets and comparison with conventional battery state estimation methods.",
+    "authors": [
+      "Lei Zhang",
+      "Daisuke Tashima"
+    ],
+    "source": "Crossref",
+    "venue": "Applied Sciences",
+    "date": "2026-07-15",
+    "doi": "10.3390/app16147100",
+    "url": "https://doi.org/10.3390/app16147100",
+    "source_id": "",
+    "score": 110.0,
+    "level": "C",
+    "title_zh": "基于因子图优化与线性和非线性电压观测模型的电池荷电状态估计",
+    "one_sentence": "本文使用因子图优化方法进行SOC估计，比较了电压观测模型的影响。",
+    "problem": "传统递归滤波方法在非线性条件下性能退化。",
+    "contributions": [
+      "提出因子图优化框架用于SOC估计",
+      "比较线性与非线性电压模型对精度的影响",
+      "在仿真数据上验证了非线性模型优势"
+    ],
+    "bms_relevance": "直接相关，SOC估计是BMS核心。",
+    "insight_for_group": "因子图优化方法可作为课题组SOC估计的备选算法。",
+    "reason": "C级。相关性强，但发表在Applied Sciences，非优先列表期刊，仿真验证缺乏真实数据，建议浏览。"
+  },
+  {
+    "title": "Performance Comparison of Event-Triggered RLS-EKF, EKF, CKF and SR-CKF for EV Battery SOC Estimation During Interference Bursts: A Simulation-Based Study",
+    "abstract": "Accurate state-of-charge (SOC) estimation is essential for preventing battery degradation, improving energy management, and providing reliable driving-range predictions in electric vehicles (EVs). The extended Kalman filter (EKF) is a widely adopted model-based estimation technique and remains an industry-standard approach in EV battery management systems (BMS). However, its performance can be degraded by model nonlinearities, parameter uncertainties, measurement noise, and interference bursts commonly encountered in real-world operating environments. To overcome these limitations, this paper proposes an event-triggered adaptive SOC estimation framework that integrates a recursive least squares (RLS) filter with the EKF. In the proposed approach, the RLS filter recursively updates its weighting coefficients in real time to compensate for model uncertainties and measurement disturbances, thereby generating an alternative residual signal for SOC estimation. An event-triggered mechanism dynamically selects the most reliable innovation sequence for updating the EKF state estimate, enhancing estimation robustness under adverse operating conditions. A second-order RC equivalent circuit model (ECM) is employed as the nominal battery model, and a Hybrid Pulse Power Characterization (HPPC)-based current profile is used to evaluate performance over the entire SOC operating range. Extensive simulations are conducted to assess the effectiveness of the proposed event-triggered RLS-EKF algorithm under various noise levels and interference-burst scenarios. The estimation accuracy is compared with that of the conventional EKF, cubature Kalman filter (CKF), and square root cubature Kalman filter (SR-CKF) using root mean square error (RMSE) and mean absolute error (MAE) as performance metrics. Simulation results demonstrate that, under regular noise conditions and short-term interference bursts, the proposed event-triggered RLS-EKF achieves estimation performance comparable to that of the SR-CKF while consistently outperforming the EKF and CKF in both RMSE and MAE. Under long-term interference-burst conditions, the proposed method further surpasses the SR-CKF, achieving approximately 10% improvement in overall estimation accuracy as measured by RMSE and MAE. These results confirm the effectiveness and robustness of the proposed framework, highlighting its potential for practical implementation in advanced EV battery management systems.",
+    "authors": [
+      "Miin-Jong Hao",
+      "Yu-Shuo Yang"
+    ],
+    "source": "Crossref",
+    "venue": "Applied Sciences",
+    "date": "2026-07-15",
+    "doi": "10.3390/app16147095",
+    "url": "https://doi.org/10.3390/app16147095",
+    "source_id": "",
+    "score": 96.0,
+    "level": "C",
+    "title_zh": "事件触发RLS-EKF、EKF、CKF和SR-CKF在干扰爆发期间电动汽车电池SOC估计的性能比较：仿真研究",
+    "one_sentence": "本文提出事件触发RLS-EKF算法，并与多种滤波方法在干扰场景下比较SOC估计性能。",
+    "problem": "传统EKF在干扰和模型不确定下SOC估计鲁棒性差。",
+    "contributions": [
+      "提出事件触发RLS-EKF自适应估计框架",
+      "通过仿真比较多种算法的抗干扰性能",
+      "验证了事件触发机制的有效性"
+    ],
+    "bms_relevance": "直接相关，SOC估计增强鲁棒性。",
+    "insight_for_group": "事件触发机制可借鉴用于课题组在实际数据中的SOC估计。",
+    "reason": "C级。相关性强，但发表在Applied Sciences，非优先列表期刊，纯仿真缺乏实验验证，建议浏览。"
+  }
+]

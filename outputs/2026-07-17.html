@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Battery Management Literature Daily｜2026-07-17</title>
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",Arial,sans-serif;line-height:1.68;color:#1f2933;background:#f5f7fa;margin:0;padding:0;}
+    .container{max-width:1040px;margin:0 auto;padding:28px 20px 44px;}
+    .header{background:linear-gradient(135deg,#063b5c,#0b7285);color:#fff;border-radius:18px;padding:28px 30px;margin-bottom:22px;box-shadow:0 8px 22px rgba(0,0,0,.12);}
+    .header h1{margin:0 0 12px;font-size:28px;letter-spacing:.3px;}
+    .header p{margin:4px 0;color:#e7f5ff;}
+    .summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:18px 0 6px;}
+    .stat{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.22);border-radius:14px;padding:12px 14px;}
+    .stat b{font-size:24px;color:#fff;display:block;}
+    .block{background:#fff;border:1px solid #d9e2ec;border-radius:16px;padding:22px;margin:18px 0;box-shadow:0 2px 10px rgba(15,23,42,.04);}
+    h2{color:#0b3d5c;margin:0 0 14px;font-size:22px;}
+    h3{margin:0 0 10px;font-size:19px;color:#102a43;}
+    .meta{color:#52616b;font-size:14px;margin:4px 0;}
+    .paper{border-top:1px solid #e5edf3;padding-top:18px;margin-top:18px;}
+    .paper:first-child{border-top:none;padding-top:0;margin-top:0;}
+    .tag{display:inline-block;border-radius:999px;padding:4px 10px;color:#fff;font-size:12px;font-weight:700;letter-spacing:.2px;margin-right:8px;}
+    .A{background:#c62828;}.B{background:#ef6c00;}.C{background:#607d8b;}
+    .score{display:inline-block;background:#edf2f7;color:#334e68;border-radius:999px;padding:4px 10px;font-size:12px;}
+    ul{padding-left:22px;margin:8px 0 10px;}
+    a{color:#0b7285;text-decoration:none;}a:hover{text-decoration:underline;}
+    table{width:100%;border-collapse:collapse;background:white;font-size:14px;}
+    th,td{border:1px solid #d9e2ec;padding:10px;vertical-align:top;text-align:left;}
+    th{background:#edf4f7;color:#243b53;}
+    .footer{font-size:13px;color:#697386;text-align:center;margin-top:24px;}
+    @media(max-width:720px){.summary-grid{grid-template-columns:1fr}.header{border-radius:0}.container{padding:0 0 28px}.block{border-radius:0;border-left:none;border-right:none}.header h1{font-size:24px}}
+  </style>
+</head>
+<body>
+<div class="container">
+  <section class="header">
+    <h1>Battery Management Literature Daily</h1>
+    <p><b>日期：</b>2026-07-17 ｜ <b>检索窗口：</b>近 2 天 ｜ <b>生成时间：</b>2026-07-17 11:48:31 UTC+8</p>
+    <p>今日候选论文主要聚焦于锂离子电池的荷电状态（SOC）、健康状态（SOH）及剩余寿命（RUL）估计，涉及模型-数据融合、物理信息神经网络、均衡架构及热管理。其中一篇来自Applied Energy的SOC估计算法具有较强的实际应用价值，其余论文多发表在中等或较低水平期刊。</p>
+    <div class="summary-grid">
+      <div class="stat"><b>1</b> A级必读</div>
+      <div class="stat"><b>5</b> B级浏览</div>
+      <div class="stat"><b>6</b> C级备选</div>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>一、今日趋势判断</h2>
+    <p>当前趋势表明，物理信息神经网络（PINN）和混合数据驱动方法在电池状态估计中受到关注，同时基于事件触发的自适应滤波和因子图优化等新算法被探索用于提高鲁棒性。热失控预警和电池均衡的硬件验证也是研究热点。</p>
+  </section>
+
+  <section class="block">
+    <h2>二、A级必读论文</h2>
+    
+      
+      <article class="paper">
+        <h3>1. State of charge estimation of real-world lithium iron phosphate battery packs combining model-based and data-driven approaches</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 132.25</span></p>
+        <p class="meta"><b>中文题目：</b>结合模型与数据驱动的实际磷酸铁锂电池组荷电状态估计</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Applied Energy ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S0306261926010342?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S0306261926010342?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>本文提出一种融合模型和数据驱动的方法，用于实际运行LFP电池组的SOC估计，并验证了其有效性。</p>
+        <p><b>研究问题：</b>实际运行中的LFP电池组SOC估计面临非线性、老化及工况复杂等挑战，单一方法精度不足。</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>提出将模型（等效电路）与数据驱动（机器学习）方法有机结合的策略，提升SOC估计精度与鲁棒性</li><li>使用真实世界电池组运行数据进行验证，反映实际应用场景</li><li>为模型-数据融合方法在BMS中的应用提供范例</li></ul>
+        <p><b>与BMS相关性：</b>直接相关，SOC估计是BMS核心功能之一，论文关注实际电池组的SOC估计问题。</p>
+        <p><b>对课题组启发：</b>可借鉴其融合思路，在课题组的SOH/RUL估计中引入类似混合架构，利用实际运行数据提升模型泛化能力。</p>
+        <p><b>推荐理由：</b>A级。发表在Applied Energy（优先列表第8位），研究内容与BMS核心SOC估计强相关，且基于真实数据，具有实际应用价值。</p>
+      </article>
+      
+    
+  </section>
+
+  <section class="block">
+    <h2>三、B级建议浏览论文</h2>
+    
+      
+      <article class="paper">
+        <h3>1. Experimental Validation of an Adaptive Series-Parallel Recombination Battery-Balancing Architecture Using Second-Life Lithium-Ion Cells</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 93.5</span></p>
+        <p class="meta"><b>中文题目：</b>采用二次寿命锂离子电池的自适应串并联重组均压架构的实验验证</p>
+        <p class="meta"><b>作者：</b>Khalid Hassan, Fei Lu Siaw, Tzer Hwai Gilbert Thio, Md Parvez Alam Khan Abir</p>
+        <p class="meta"><b>来源：</b>Electronics ｜ <b>日期：</b>2026-07-15 ｜ <b>数据源：</b>OpenAlex+Crossref</p>
+        <p class="meta"><b>DOI：</b>10.3390/electronics15143106</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.3390/electronics15143106">https://doi.org/10.3390/electronics15143106</a></p>
+        <p><b>一句话总结：</b>本文实验验证了一种无专用变换器的自适应串并联重组均衡架构，在二次寿命电池上实现完全均衡。</p>
+        <ul><li>实验验证了自适应串并联重组均衡架构的可行性</li><li>使用二次寿命电池，符合可持续利用趋势</li><li>揭示了实际运行中接触电阻、接线损耗等因素对均衡性能的影响</li></ul>
+        <p><b>与BMS相关性：</b>相关，电池均衡是BMS重要功能，论文涉及均衡架构的硬件验证。</p>
+        <p><b>对课题组启发：</b>对课题组在电池组不一致性研究方面有参考价值，可考虑利用类似重组架构提升pack均衡效率。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>2. Joint estimation of SOC and SOH for lithium-ion power battery based on fractional-order model and multi-algorithm fusion</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 85.0</span></p>
+        <p class="meta"><b>中文题目：</b>基于分数阶模型与多算法融合的锂离子动力电池SOC与SOH联合估计</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26032366?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2352152X26032366?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>本文利用分数阶模型和多算法融合实现锂离子电池SOC和SOH的联合估计。</p>
+        <ul><li>采用分数阶模型提高电池动态建模精度</li><li>融合多种算法提升联合估计的稳定性和准确性</li><li>在动力电池数据集上验证了方法</li></ul>
+        <p><b>与BMS相关性：</b>直接相关，SOC/SOH联合估计是BMS核心功能。</p>
+        <p><b>对课题组启发：</b>可参考其分数阶模型和算法融合策略，用于课题组SOH/RUL估计。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>3. State of charge-capacity-pressure coupled effects on combustion characteristics and suppression of thermal runaway gases in lithium iron phosphate batteries</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 85.0</span></p>
+        <p class="meta"><b>中文题目：</b>荷电状态-容量-压力耦合效应对磷酸铁锂电池热失控气体燃烧特性及抑制的影响</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26032500?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2352152X26032500?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>与上一篇相同，但作者不同，内容一致。</p>
+        <ul><li>同上</li></ul>
+        <p><b>与BMS相关性：</b>同上</p>
+        <p><b>对课题组启发：</b>同上</p>
+      </article>
+      
+      <article class="paper">
+        <h3>4. State of charge-capacity-pressure coupled effects on combustion characteristics and suppression of thermal runaway gases in lithium iron phosphate batteries</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 67.0</span></p>
+        <p class="meta"><b>中文题目：</b>荷电状态-容量-压力耦合效应对磷酸铁锂电池热失控气体燃烧特性及抑制的影响</p>
+        <p class="meta"><b>作者：</b>Lin Yu, Yuhui Wang, Xingtong Wu, Fangzhou Li, Qing Wang et al.</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>2026-07-15 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.1016/j.est.2026.123586</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1016/j.est.2026.123586">https://doi.org/10.1016/j.est.2026.123586</a></p>
+        <p><b>一句话总结：</b>与上一篇相同，但作者不同，内容一致。</p>
+        <ul><li>同上</li></ul>
+        <p><b>与BMS相关性：</b>同上</p>
+        <p><b>对课题组启发：</b>同上</p>
+      </article>
+      
+      <article class="paper">
+        <h3>5. Taylor polynomial-constrained physics-informed neural network for battery degradation modeling and SOH estimation</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 120.0</span></p>
+        <p class="meta"><b>中文题目：</b>泰勒多项式约束物理信息神经网络用于电池退化建模与健康状态估计</p>
+        <p class="meta"><b>作者：</b>Wenlan Xu</p>
+        <p class="meta"><b>来源：</b>Measurement Science and Technology ｜ <b>日期：</b>2026-07-16 ｜ <b>数据源：</b>Crossref</p>
+        <p class="meta"><b>DOI：</b>10.1088/1361-6501/ae83d4</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1088/1361-6501/ae83d4">https://doi.org/10.1088/1361-6501/ae83d4</a></p>
+        <p><b>一句话总结：</b>本文提出泰勒多项式约束的PINN用于SOH估计，引入单调性约束抑制非物理回弹。</p>
+        <ul><li>设计泰勒多项式约束网络建模连续退化</li><li>引入单调性约束确保不可逆退化</li><li>在多个数据集上验证了鲁棒性和泛化能力</li></ul>
+        <p><b>与BMS相关性：</b>直接相关，SOH估计是BMS核心，且方法具有物理可解释性。</p>
+        <p><b>对课题组启发：</b>其物理约束思想对课题组SOH/RUL研究有借鉴价值，可提升模型合理性。</p>
+      </article>
+      
+    
+  </section>
+
+  <section class="block">
+    <h2>四、C级备选与快速浏览</h2>
+    
+    <table>
+      <thead><tr><th>标题</th><th>来源</th><th>日期</th><th>推荐理由</th></tr></thead>
+      <tbody>
+      
+        <tr>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all">Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network</a></td>
+          <td>eTransportation</td>
+          <td>未知</td>
+          <td>C级。相关性强但研究对象非锂离子电池，且发表在eTransportation（优先列表第15位），方法有潜力，建议进入备选列表。</td>
+        </tr>
+      
+        <tr>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26032561?dgcid=rss_sd_all">Investigation and battery temperature prediction for battery thermal management based on phase change material and thermoelectric cooler</a></td>
+          <td>Journal of Energy Storage</td>
+          <td>未知</td>
+          <td>C级。边缘相关，期刊Journal of Energy Storage但内容偏向热管理而非BMS核心，建议备选。</td>
+        </tr>
+      
+        <tr>
+          <td><a href="https://doi.org/10.3390/wevj17070368">A Hybrid Framework of VMD-KPCA and PLO-PINN for Lithium-Ion Battery SOH Estimation</a></td>
+          <td>World Electric Vehicle Journal</td>
+          <td>2026-07-16</td>
+          <td>C级。相关性强，但发表在World Electric Vehicle Journal，非优先列表期刊，创新性一般，建议浏览。</td>
+        </tr>
+      
+        <tr>
+          <td><a href="https://doi.org/10.1177/01445987261470170">Hybrid temporal deep learning and ensemble regression framework for remaining useful life prediction of lithium-ion batteries in energy storage systems</a></td>
+          <td>Energy Exploration &amp; Exploitation</td>
+          <td>2026-07-16</td>
+          <td>C级。相关性强，但期刊Energy Exploration &amp; Exploitation非优先列表，创新性一般，建议浏览。</td>
+        </tr>
+      
+        <tr>
+          <td><a href="https://doi.org/10.3390/app16147100">Battery State-of-Charge Estimation Using Factor Graph Optimization with Linear and Nonlinear Voltage Observation Models</a></td>
+          <td>Applied Sciences</td>
+          <td>2026-07-15</td>
+          <td>C级。相关性强，但发表在Applied Sciences，非优先列表期刊，仿真验证缺乏真实数据，建议浏览。</td>
+        </tr>
+      
+        <tr>
+          <td><a href="https://doi.org/10.3390/app16147095">Performance Comparison of Event-Triggered RLS-EKF, EKF, CKF and SR-CKF for EV Battery SOC Estimation During Interference Bursts: A Simulation-Based Study</a></td>
+          <td>Applied Sciences</td>
+          <td>2026-07-15</td>
+          <td>C级。相关性强，但发表在Applied Sciences，非优先列表期刊，纯仿真缺乏实验验证，建议浏览。</td>
+        </tr>
+      
+      </tbody>
+    </table>
+    
+  </section>
+
+  <section class="block">
+    <h2>五、今日论文总表</h2>
+    <table>
+      <thead><tr><th>等级</th><th>标题</th><th>期刊/来源</th><th>方向判断</th><th>链接</th></tr></thead>
+      <tbody>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>State of charge estimation of real-world lithium iron phosphate battery packs combining model-based and data-driven approaches</td>
+          <td>Applied Energy</td>
+          <td>本文提出一种融合模型和数据驱动的方法，用于实际运行LFP电池组的SOC估计，并验证了其有效性。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S0306261926010342?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Experimental Validation of an Adaptive Series-Parallel Recombination Battery-Balancing Architecture Using Second-Life Lithium-Ion Cells</td>
+          <td>Electronics</td>
+          <td>本文实验验证了一种无专用变换器的自适应串并联重组均衡架构，在二次寿命电池上实现完全均衡。</td>
+          <td><a href="https://doi.org/10.3390/electronics15143106">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network</td>
+          <td>eTransportation</td>
+          <td>本文针对质子交换膜燃料电池（PEMFC）提出一种结合物理约束符号回归和PINN的长期退化预测方法。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Joint estimation of SOC and SOH for lithium-ion power battery based on fractional-order model and multi-algorithm fusion</td>
+          <td>Journal of Energy Storage</td>
+          <td>本文利用分数阶模型和多算法融合实现锂离子电池SOC和SOH的联合估计。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26032366?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>State of charge-capacity-pressure coupled effects on combustion characteristics and suppression of thermal runaway gases in lithium iron phosphate batteries</td>
+          <td>Journal of Energy Storage</td>
+          <td>与上一篇相同，但作者不同，内容一致。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26032500?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>Investigation and battery temperature prediction for battery thermal management based on phase change material and thermoelectric cooler</td>
+          <td>Journal of Energy Storage</td>
+          <td>本文研究相变材料和热电冷却器用于电池热管理，并预测电池温度。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26032561?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>State of charge-capacity-pressure coupled effects on combustion characteristics and suppression of thermal runaway gases in lithium iron phosphate batteries</td>
+          <td>Journal of Energy Storage</td>
+          <td>与上一篇相同，但作者不同，内容一致。</td>
+          <td><a href="https://doi.org/10.1016/j.est.2026.123586">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>A Hybrid Framework of VMD-KPCA and PLO-PINN for Lithium-Ion Battery SOH Estimation</td>
+          <td>World Electric Vehicle Journal</td>
+          <td>本文提出VMD-KPCA特征提取结合PLO优化PINN的SOH估计方法，在CALCE数据集上验证。</td>
+          <td><a href="https://doi.org/10.3390/wevj17070368">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>Hybrid temporal deep learning and ensemble regression framework for remaining useful life prediction of lithium-ion batteries in energy storage systems</td>
+          <td>Energy Exploration &amp; Exploitation</td>
+          <td>本文提出TCN-BiLSTM和XGBoost结合的RUL预测框架，在NASA数据集上验证。</td>
+          <td><a href="https://doi.org/10.1177/01445987261470170">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Taylor polynomial-constrained physics-informed neural network for battery degradation modeling and SOH estimation</td>
+          <td>Measurement Science and Technology</td>
+          <td>本文提出泰勒多项式约束的PINN用于SOH估计，引入单调性约束抑制非物理回弹。</td>
+          <td><a href="https://doi.org/10.1088/1361-6501/ae83d4">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>Battery State-of-Charge Estimation Using Factor Graph Optimization with Linear and Nonlinear Voltage Observation Models</td>
+          <td>Applied Sciences</td>
+          <td>本文使用因子图优化方法进行SOC估计，比较了电压观测模型的影响。</td>
+          <td><a href="https://doi.org/10.3390/app16147100">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>Performance Comparison of Event-Triggered RLS-EKF, EKF, CKF and SR-CKF for EV Battery SOC Estimation During Interference Bursts: A Simulation-Based Study</td>
+          <td>Applied Sciences</td>
+          <td>本文提出事件触发RLS-EKF算法，并与多种滤波方法在干扰场景下比较SOC估计性能。</td>
+          <td><a href="https://doi.org/10.3390/app16147095">Open</a></td>
+        </tr>
+      
+      </tbody>
+    </table>
+  </section>
+
+  <p class="footer">Generated by battery-paper-agent. 请人工复核关键结论后再用于论文综述或组会汇报。</p>
+</div>
+</body>
+</html>
