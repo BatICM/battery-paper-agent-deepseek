@@ -1,0 +1,335 @@
+[
+  {
+    "title": "Breaking the Energy Cascades: Stage‐Specific Mitigation of Thermal Runaway Propagation in Lithium‐Ion Battery Systems",
+    "abstract": "ABSTRACT Thermal safety remains a critical challenge for lithium‐ion battery systems in electric vehicles and large‐scale energy storage systems. Thermal runaway propagation is a stage‐evolving, multiphysics‐coupled energy cascade governed by triggering pathways, heat‐transfer modes, and combustion behavior. This review reorganizes passive mitigation strategies according to the dominant hazards in the early, intermediate, and late stages of thermal runaway. Thermal buffering, thermal blocking, and fire suppression are integrated into a single framework. Major triggering pathways, including overcharge, external heating, and internal short circuits, are first summarized, followed by analysis of the stage‐dependent evolution of solid‐state conduction, vent‐driven convection, and radiative and flame‐mediated transport during propagation. Representative protective materials, including phase change materials, low‐thermal‐conductivity barriers, and fire suppressants, are then critically evaluated in terms of mechanism, trade‐off, and stage‐specific function. Beyond conventional layered barriers, future protection systems should evolve toward integrated, multifunctional intelligent platforms combining phase‐change buffering, high‐temperature insulation, and event‐triggered suppression. Coupled with artificial‐intelligence‐assisted design and digital‐twin‐enabled validation, such platforms offer a promising route toward scalable battery thermal‐safety architectures.",
+    "authors": [
+      "Shihang Li",
+      "Guangyu Yang",
+      "Penghui Xiao",
+      "Yongchao Yu",
+      "Jingwen Guan",
+      "Wenqing Li",
+      "Xinze Li",
+      "Dong Sheng Chua",
+      "David Brian Munyao",
+      "Que Huang"
+    ],
+    "source": "Crossref",
+    "venue": "Advanced Energy Materials",
+    "date": "2026-07-17",
+    "doi": "10.1002/aenm.71302",
+    "url": "https://doi.org/10.1002/aenm.71302",
+    "source_id": "",
+    "score": 120.75,
+    "level": "A",
+    "title_zh": "Breaking the Energy Cascades: Stage‐Specific Mitigation of Thermal Runaway Propagation in Lithium‐Ion Battery Systems",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 120.75，推荐等级 A；期刊优先级第 6 位。"
+  },
+  {
+    "title": "Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 88.5,
+    "level": "B",
+    "title_zh": "Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 88.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Joint estimation of SOC and SOH for lithium-ion power battery based on fractional-order model and multi-algorithm fusion",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26032366?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 85.0,
+    "level": "B",
+    "title_zh": "Joint estimation of SOC and SOH for lithium-ion power battery based on fractional-order model and multi-algorithm fusion",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 85.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Investigation and battery temperature prediction for battery thermal management based on phase change material and thermoelectric cooler",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26032561?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 69.0,
+    "level": "B",
+    "title_zh": "Investigation and battery temperature prediction for battery thermal management based on phase change material and thermoelectric cooler",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 69.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Investigation and battery temperature prediction for battery thermal management based on phase change material and thermoelectric cooler",
+    "abstract": "",
+    "authors": [
+      "Xiaoyong Gu",
+      "Guojie Chao",
+      "Peng Ding",
+      "Ying Cui"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-07-16",
+    "doi": "10.1016/j.est.2026.123592",
+    "url": "https://doi.org/10.1016/j.est.2026.123592",
+    "source_id": "",
+    "score": 51.0,
+    "level": "B",
+    "title_zh": "Investigation and battery temperature prediction for battery thermal management based on phase change material and thermoelectric cooler",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 51.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "AI/ML enabled smart battery management systems in electric vehicles",
+    "abstract": "The rapid growth of electric vehicles (EVs) has intensified the necessity for advanced battery management system (BMS) capable of ensuring safety, reliability and optimal performance of lithium-ion batteries (LIB). This study presents a comprehensive review and analysis of modern smart BMS architecture with a particular focus on the integration of artificial intelligence (AI) and machine learning (ML) techniques. Key functional aspects including state estimation, cell balancing, thermal management, fault detection, and predictive maintenance are critically examined. The role of AI/ML algorithms such as artificial neural networks, long short-term memory networks, support vector machines, and deep learning modes in enhancing sate of charge (SoC), state of health (SoH), and remaining useful life (RUL) is discussed in detail. Next, the study evaluates emerging trends such as FPGA-based edge implementation and IoT-enabled cloud integration for real-time monitoring and control. A comparative analysis of various AI/ML techniques highlights their pros, cons, and practical deployment challenges. The finding indicates that hybrid approaches combining model-based methods with data-driven algorithms offer the most promising pathway for next-generation BMS. This work provides valuable insight into current technological advancements and identifies key research gaps for the development of scalable, efficient and intelligent battery management solution. Based on a critical assessment of 120 research articles and review papers, this study provides a comprehensive system-level evaluation of AI/ML-enabled BMS for electric vehicles. Unlike previous reviews focusing on individual BMS functions, it integrates and critically compares state estimation, cell balancing, thermal management, fault diagnosis, predictive maintenance, intelligent charging, FPGA-based edge intelligence, and IoT-cloud-enabled battery monitoring while identifying key research gaps and future opportunities.",
+    "authors": [
+      "Mohammad Waseem"
+    ],
+    "source": "Crossref",
+    "venue": "Frontiers in Batteries and Electrochemistry",
+    "date": "2026-07-17",
+    "doi": "10.3389/fbael.2026.1883201",
+    "url": "https://doi.org/10.3389/fbael.2026.1883201",
+    "source_id": "",
+    "score": 198.0,
+    "level": "B",
+    "title_zh": "AI/ML enabled smart battery management systems in electric vehicles",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 198.0，推荐等级 B。"
+  },
+  {
+    "title": "A Hybrid Framework of VMD-KPCA and PLO-PINN for Lithium-Ion Battery SOH Estimation",
+    "abstract": "Accurate state of health (SOH) estimation of lithium-ion batteries (LIBs) is critical to ensuring the safety and reliability of battery management system (BMS). To achieve precise estimation, this study proposes a hybrid framework that integrates variational mode decomposition (VMD), kernel principal component analysis (KPCA), polar lights optimizer (PLO), and physics-informed neural network (PINN) for SOH estimation. First, multidimensional health features are extracted and decomposed by VMD into intrinsic mode functions (IMFs), which are then compressed into a one-dimensional principal component via KPCA, retaining over 95% of the original information. Subsequently, the PLO algorithm is used to adaptively optimize three key hyperparameters of the PINN-based model: the learning rate, the number of collocation points, and the regularization loss weight. Finally, the optimized PINN is deployed to predict the SOH of the Center for Advanced Life Cycle Engineering (CALCE) battery dataset. Experimental results demonstrate that the proposed VMD-KPCA-PLO-PINN exhibits high prediction accuracy under both 7:3 and 5:5 training-to-testing data partitions. For example, under the 5:5 partition, the proposed model achieves an average R2 of 0.983 and an average RMSE of 0.0085 on the tested CALCE cells.",
+    "authors": [
+      "Zhiwei Yang",
+      "Qianli Dong",
+      "Rui Dong",
+      "Gai Liu"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "World Electric Vehicle Journal",
+    "date": "2026-07-16",
+    "doi": "10.3390/wevj17070368",
+    "url": "https://doi.org/10.3390/wevj17070368",
+    "source_id": "",
+    "score": 122.0,
+    "level": "B",
+    "title_zh": "A Hybrid Framework of VMD-KPCA and PLO-PINN for Lithium-Ion Battery SOH Estimation",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 122.0，推荐等级 B。"
+  },
+  {
+    "title": "Hybrid temporal deep learning and ensemble regression framework for remaining useful life prediction of lithium-ion batteries in energy storage systems",
+    "abstract": "Accurate prediction of the remaining useful life (RUL) of lithium-ion batteries (LIBs) is essential for enhancing the reliability, operational safety, and energy management efficiency of electric vehicles and modern energy storage systems. However, battery degradation is governed by highly nonlinear electrochemical mechanisms and complex temporal dependencies that are difficult to model using conventional physics-based approaches or standalone machine learning techniques. To address these challenges, this article proposes a hybrid data-driven framework integrating a Temporal Convolutional Network (TCN), Bidirectional Long Short-Term Memory (BiLSTM), and Extreme Gradient Boosting (XGBoost) for accurate LIB RUL prediction. The proposed architecture utilizes the TCN module to capture short-term temporal degradation patterns from sequential battery operational data, while the BiLSTM network learns long-term temporal dependencies and degradation evolution across multiple charge–discharge cycles. The deep temporal representations extracted by the TCN–BiLSTM network are subsequently processed using an XGBoost regression model to effectively model nonlinear relationships between battery operational characteristics and RUL. The framework is validated using the NASA LIB aging dataset containing 14,896 charge–discharge cycle samples with operational features including cycle index, discharge time, charging duration, voltage degradation characteristics, and constant-current charging behavior. Statistical analysis and Min–Max normalization are employed to improve feature consistency, numerical stability, and model convergence. Experimental results demonstrate that the proposed framework effectively captures battery degradation dynamics and achieves highly accurate and stable prediction performance. Five-fold cross-validation results yield a low Mean Absolute Error of 0.00957, Root Mean Square Error of 0.02926, and a high coefficient of determination ( R 2 ) of 0.9882, indicating excellent predictive capability and strong generalization performance. Comparative analysis further demonstrates that the proposed hybrid framework outperforms conventional Random Forest, XGBoost, LSTM, and BiLSTM models in terms of prediction accuracy and robustness. In addition, ablation analysis confirms the complementary contribution of temporal convolutional learning, sequential dependency modeling, and ensemble nonlinear regression toward improved RUL estimation. The proposed framework provides a robust and computationally efficient solution for intelligent battery health monitoring, predictive maintenance, and smart battery management applications in electric vehicles and energy storage systems.",
+    "authors": [
+      "T. Mariprasath",
+      "Kumaresh S S",
+      "Seif Al Bustanji",
+      "Viktoriia Bereznychenko"
+    ],
+    "source": "OpenAlex",
+    "venue": "Energy Exploration & Exploitation",
+    "date": "2026-07-16",
+    "doi": "10.1177/01445987261470170",
+    "url": "https://doi.org/10.1177/01445987261470170",
+    "source_id": "",
+    "score": 120.0,
+    "level": "B",
+    "title_zh": "Hybrid temporal deep learning and ensemble regression framework for remaining useful life prediction of lithium-ion batteries in energy storage systems",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 120.0，推荐等级 B。"
+  },
+  {
+    "title": "Taylor polynomial-constrained physics-informed neural network for battery degradation modeling and SOH estimation",
+    "abstract": "Abstract Accurate state-of-health (SOH) estimation is essential for the safety and reliability of lithium-ion batteries. During battery cycling, battery management systems (BMSs) continuously acquire a large amount of measurement data, which provide the data foundation for battery SOH estimation. However, battery degradation exhibits highly nonlinear and complex dynamics, limiting the robustness and generalization capability of existing methods under different operating conditions. To address these issues, this paper proposes a Taylor polynomial-constrained physics-informed neural network (Taylor-PINN) for accurate and robust battery degradation modeling and SOH estimation. First, a unified health feature (HF) extraction strategy focusing on the charging measurements is introduced to reduce the uncertainty caused by discharge variability. A parallel long short-term memory network is then designed to extract HFs from the constant-current voltage data and constant-voltage current measurements. Finally, a Taylor polynomial-constrained degradation modeling network is constructed to model smooth and continuous SOH evolution. In addition, a monotonicity constraint is applied to suppress non-physical SOH rebound and enforce irreversible degradation trends. Extensive experiments are conducted on the XJTU, TJU, and CALCE battery datasets under different battery chemistries, and operating conditions. The results demonstrate that the proposed Taylor-PINN achieves superior estimation accuracy, stability, and generalization capability compared with several state-of-the-art methods. Furthermore, the proposed framework maintains robust performance in cross-batch tasks and incomplete charging scenarios. The proposed method highlights the potential of PINNs for BMS applications.",
+    "authors": [
+      "Wenlan Xu"
+    ],
+    "source": "Crossref",
+    "venue": "Measurement Science and Technology",
+    "date": "2026-07-16",
+    "doi": "10.1088/1361-6501/ae83d4",
+    "url": "https://doi.org/10.1088/1361-6501/ae83d4",
+    "source_id": "",
+    "score": 120.0,
+    "level": "B",
+    "title_zh": "Taylor polynomial-constrained physics-informed neural network for battery degradation modeling and SOH estimation",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 120.0，推荐等级 B。"
+  },
+  {
+    "title": "Intelligent microprocessor system for diagnostics and balancing of rechargeable batteries of various electrochemical types",
+    "abstract": "Contemporary energy storage deployments increasingly incorporate heterogeneous cell chemistries within a single installation, yet most commercial battery management circuits remain optimized for a single electrochemical type. This paper describes a microprocessor-controlled platform capable of autonomous diagnostics and charge equalization across four battery technologies: lithium-ion NMC, lithium iron phosphate (LiFePO₄), nickel-metal hydride (NiMH), and lead-acid. The measurement front-end is a 16-bit delta-sigma converter delivering 46 μV resolution and ±1.4 mV per-cell accuracy, interfaced to an STM32F446RE ARM Cortex-M4 processor at 180 MHz. Equalization combines resistive dissipation for voltage spreads below 50 mV with a switched-capacitor network achieving above 90 % energy-transfer efficiency for larger disparities. State-of-charge tracking couples’ coulomb integration with an adaptive extended Kalman observer, maintaining accuracy within ±3 % even from a 40 % seed-error initialization. Benchtop trials on four-cell series packs of each chemistry recorded inter-cell convergence to ±5 mV within 22 min, SOC root-mean-square error below 3 %, and correct automatic chemistry classification across all laboratory sessions. The novelty of the proposed system is not in the individual use of battery diagnostics or cell balancing, which are well-established topics, but in their integration into a single microprocessor-based multi-chemistry platform capable of automatic electrochemical-type identification, chemistry-specific parameter loading, adaptive SOC/SOH estimation, and hybrid passive-active balancing. This distinguishes the proposed approach from conventional BMS solutions optimized for only one battery chemistry.",
+    "authors": [
+      "Saken Jarkeshev",
+      "Asfandiyar Orynbay",
+      "Nurgul Karymsakova",
+      "Saltanat Yusupova",
+      "Yerlan Eleukulov",
+      "Yerkebulan Nurgizat"
+    ],
+    "source": "OpenAlex",
+    "venue": "Vibroengineering PROCEDIA",
+    "date": "2026-07-16",
+    "doi": "10.21595/vp.2026.26544",
+    "url": "https://doi.org/10.21595/vp.2026.26544",
+    "source_id": "",
+    "score": 110.0,
+    "level": "B",
+    "title_zh": "Intelligent microprocessor system for diagnostics and balancing of rechargeable batteries of various electrochemical types",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 110.0，推荐等级 B。"
+  },
+  {
+    "title": "Variability Analysis of Battery EIS Measurements",
+    "abstract": "Electrochemical Impedance Spectroscopy (EIS) is a non-destructive technique for characterizing the battery behavior for estimating the state of health (SOH). EIS provides frequency-domain information on key parameters, including solid electrolyte interphase (SEI) resistance, charge-transfer (CT) resistance, and ohmic resistance, which are sensitive to battery degradation mechanisms. In an EIS test, a sinusoidal excitation signal is applied to the battery, and the corresponding voltage response is analyzed to extract the impedance spectrum. The reliability of SOH estimation therefore depends critically on the accurate and repeatable extraction of impedance features. This paper investigates the variability in impedance spectra arising from the state of charge (SOC), temperature, rest time, and repeated measurements under nominally identical conditions. This variability is identified as drift and represents previously underexplored variations in the impedance spectrum. To quantify these variations, this work proposes a normalized resistance-based index that captures changes in the impedance spectrum using estimated equivalent circuit model (ECM) parameters. The proposed index is applicable across battery chemistries, sizes, and operating conditions. It is evaluated using published datasets spanning different chemistries, SOC levels, and temperatures, as well as laboratory data collected from repeated EIS experiments. The results show that even at fixed SOC and temperature, repeated measurements can produce measurable bias and variance in ECM parameters. These findings highlight the importance of accounting for drift in EIS analysis and motivate uncertainty-aware battery diagnostics for practical SOH monitoring systems.",
+    "authors": [
+      "Prarthana Pillai",
+      "Banuselvasaraswathy Balasubramanian",
+      "Krishna R. Pattipati",
+      "Balakumar Balasingam"
+    ],
+    "source": "Crossref",
+    "venue": "Batteries",
+    "date": "2026-07-17",
+    "doi": "10.3390/batteries12070258",
+    "url": "https://doi.org/10.3390/batteries12070258",
+    "source_id": "",
+    "score": 108.0,
+    "level": "B",
+    "title_zh": "Variability Analysis of Battery EIS Measurements",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 108.0，推荐等级 B。"
+  },
+  {
+    "title": "Machine learning-based uncertainty quantification for energy consumption and driving range estimation in electric cargo vehicles",
+    "abstract": "Abstract The energy consumption estimation and remaining driving range estimation are important aspects of electric vehicles for intelligent transportation systems, battery management systems, and for reducing range anxiety. Typical deterministic models, however, do not account for the uncertainty associated with dynamic driving behaviour, traffic variations, environmental conditions, and battery characteristics, and therefore have limited prediction ability. This study implements a comparative analysis of several uncertainty-aware machine learning models to estimate energy consumption and driving range of EVs using real-world driving data. The developed methods include SVR Residual Bootstrap, RF Variance Estimation, SVR Conformal Prediction, SVR Adaptive Conformal Prediction, LightGBM Quantile Regression, LightGBM Conformal Quantile Regression (CQR), and LightGBM Adaptive Conformal Quantile Regression (ACQR). The models are evaluated using deterministic metrics including RMSE, MAE, R 2 , and uncertainty-specific metrics including PICP and MPIW. The experimental results showed that accuracy of predictions, uncertainty coverage reliability, and interval sharpness were not equally good for the frameworks evaluated, resulting in significant trade-offs. SVR Residual Bootstrap had the best prediction performance in a deterministic prediction with RMSE = 2.358, MAE = 1.742, and R 2 = 0.893. RF Variance and LightGBM CQR had higher uncertainty coverage but with wider intervals, while LightGBM ACQR had better balance between uncertainty coverage reliability and interval efficiency. Among all implemented approaches, the results of the SVR Conformal approach showed consistent and stable uncertainty estimation with reliability of the coverage (PICP = 0.95) and moderate interval width (MPIW = 15), making it suitable for real-world EV applications. The results underscore the significance of incorporating uncertainty quantification in EV prediction systems to ensure reliable and dependable sustainable transportation applications.",
+    "authors": [
+      "Mrugank Gandhi",
+      "Archana Y. Chaudhari"
+    ],
+    "source": "Crossref",
+    "venue": "Energy Informatics",
+    "date": "2026-07-17",
+    "doi": "10.1186/s42162-026-00682-1",
+    "url": "https://doi.org/10.1186/s42162-026-00682-1",
+    "source_id": "",
+    "score": 84.0,
+    "level": "B",
+    "title_zh": "Machine learning-based uncertainty quantification for energy consumption and driving range estimation in electric cargo vehicles",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 84.0，推荐等级 B。"
+  }
+]
