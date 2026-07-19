@@ -1,0 +1,325 @@
+[
+  {
+    "title": "Breaking the Energy Cascades: Stage‐Specific Mitigation of Thermal Runaway Propagation in Lithium‐Ion Battery Systems",
+    "abstract": "ABSTRACT Thermal safety remains a critical challenge for lithium‐ion battery systems in electric vehicles and large‐scale energy storage systems. Thermal runaway propagation is a stage‐evolving, multiphysics‐coupled energy cascade governed by triggering pathways, heat‐transfer modes, and combustion behavior. This review reorganizes passive mitigation strategies according to the dominant hazards in the early, intermediate, and late stages of thermal runaway. Thermal buffering, thermal blocking, and fire suppression are integrated into a single framework. Major triggering pathways, including overcharge, external heating, and internal short circuits, are first summarized, followed by analysis of the stage‐dependent evolution of solid‐state conduction, vent‐driven convection, and radiative and flame‐mediated transport during propagation. Representative protective materials, including phase change materials, low‐thermal‐conductivity barriers, and fire suppressants, are then critically evaluated in terms of mechanism, trade‐off, and stage‐specific function. Beyond conventional layered barriers, future protection systems should evolve toward integrated, multifunctional intelligent platforms combining phase‐change buffering, high‐temperature insulation, and event‐triggered suppression. Coupled with artificial‐intelligence‐assisted design and digital‐twin‐enabled validation, such platforms offer a promising route toward scalable battery thermal‐safety architectures.",
+    "authors": [
+      "Shihang Li",
+      "Guangyu Yang",
+      "Penghui Xiao",
+      "Yongchao Yu",
+      "Jingwen Guan",
+      "Weiwei Li",
+      "Xinze Li",
+      "Dong Sheng Chua",
+      "David Brian Munyao",
+      "Que Huang"
+    ],
+    "source": "Journal RSS+OpenAlex+Crossref",
+    "venue": "Advanced Energy Materials",
+    "date": "2026-07-17",
+    "doi": "10.1002/aenm.71302",
+    "url": "https://doi.org/10.1002/aenm.71302",
+    "source_id": "",
+    "score": 120.75,
+    "level": "A",
+    "title_zh": "打破能量级联：锂离子电池系统中热失控传播的阶段特异性缓解",
+    "one_sentence": "综述了锂离子电池热失控传播的阶段演化机制，并提出集成相变、隔热和灭火的智能缓解平台。",
+    "problem": "如何针对热失控传播的不同阶段设计有效的被动缓解策略？",
+    "contributions": [
+      "系统梳理了热失控传播的触发路径和阶段依赖的传热模式",
+      "评估了相变材料、低热导率屏障和灭火剂等代表性防护材料的阶段特异性功能",
+      "提出了集成相变缓冲、高温绝缘和事件触发抑制的智能平台，结合AI和数字孪生验证"
+    ],
+    "bms_relevance": "直接相关：热失控传播是BMS安全管理的核心问题，综述提供了缓解策略的系统框架，对BMS安全预警设计有参考价值。",
+    "insight_for_group": "可借鉴其阶段特异性防护思路，结合我们组的pack一致性研究，设计基于数字孪生的热安全预警策略。",
+    "reason": "A级：Advanced Energy Materials（优先级第6），强相关，系统综述，对pack级热安全设计有指导意义。"
+  },
+  {
+    "title": "Uncertainty-aware multi-fault diagnosis in gas turbines via graph neural networks and weighted total least squares",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Applied Energy",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S030626192601069X?dgcid=rss_sd_all",
+    "source_id": "rss:9:Applied Energy",
+    "score": 100.25,
+    "level": "A",
+    "title_zh": "Uncertainty-aware multi-fault diagnosis in gas turbines via graph neural networks and weighted total least squares",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 100.25，推荐等级 A。"
+  },
+  {
+    "title": "Resilient hierarchical control strategy for digital twin cloud-edge collaboration in multi-energy microgrids under non-ideal communication conditions",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Applied Energy",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0306261926010287?dgcid=rss_sd_all",
+    "source_id": "rss:9:Applied Energy",
+    "score": 98.25,
+    "level": "A",
+    "title_zh": "Resilient hierarchical control strategy for digital twin cloud-edge collaboration in multi-energy microgrids under non-ideal communication conditions",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 98.25，推荐等级 A。"
+  },
+  {
+    "title": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "A",
+    "title_zh": "锂离子电池包热失控过程中的电气短路行为与临时局部过充电条件",
+    "one_sentence": "研究了电池包热失控时内部短路和局部过充电的动态行为，为pack级安全设计提供依据。",
+    "problem": "电池包热失控过程中电气短路和局部过充电如何演化？",
+    "contributions": [
+      "揭示了热失控期间短路和局部过充电的耦合机制",
+      "提供了pack-level电气行为的实验数据",
+      "为电池包安全设计和BMS故障诊断提供了关键参考"
+    ],
+    "bms_relevance": "直接相关：pack级热失控行为是BMS故障诊断和安全预警的关键研究内容。",
+    "insight_for_group": "有助于我们理解pack内部短路与过充电的耦合，改进故障诊断算法。",
+    "reason": "A级：eTransportation（优先级第15），强相关，直接针对pack级热失控电行为，对BMS安全控制有直接参考。"
+  },
+  {
+    "title": "Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 88.5,
+    "level": "B",
+    "title_zh": "Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 88.5，推荐等级 B。"
+  },
+  {
+    "title": "Cycle-wise detrending method for strain-based aging characterization and feature development of batteries: Case study of 18650 NMC Li-ion cells",
+    "abstract": "Accurate assessment of lithium-ion battery state of health (SOH) is essential for ensuring their safe and reliable operation, particularly under abnormal conditions such as overcharging. This study investigates the use of strain measurements to evaluate the SOH of a 3000 mAh Samsung 30Q cell subjected to standard cycling and an overcharge event introduced midway through its expected lifetime. Continuous strain gauge-based monitoring revealed distinct changes in residual deformation following overcharge, indicating irreversible structural modification. A strain-decomposition framework was developed to separate cyclic deformation into offset, slope, and residual components. The offset captured irreversible baseline shifts associated with cumulative degradation, while the slope reflected reversible, SOC-dependent expansion and contraction. The residual component isolated nonlinear intercalation-driven deformation, providing a sensitive indicator of evolving internal electrochemical conditions. Feature-based analysis of the residual strain incorporated distribution-shape features, in addition to both time-domain and frequency-domain metrics. Maximum strain and root mean square frequency (RMSF) exhibited the strongest cross-cell consistency, with average Spearman correlations exceeding 95% and median absolute differences below 4%. Principal component analysis further revealed distinct mechanical signatures between charging and discharging. Charging PC1 was dominated by waveform-shape descriptors such as skewness, shape factor, and crest factor, whereas discharging PC1 was governed primarily by strain-magnitude features, including RMSF, maximum strain, and mean strain, aligning more with feature correlation results. These complementary modes captured approximately 99% of the total variance across the first five charging and discharging components. Post-overcharge analysis displayed clear increases in residual strain and changes in slope, consistent with irreversible structural damage and aligned with observed reductions in electrical performance. This work establishes a foundation for integrating mechanical strain diagnostics into future battery management systems.",
+    "authors": [
+      "Malichi Flemming",
+      "George Anthony",
+      "Ryan Limbaugh",
+      "Austin Downey"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-07-17",
+    "doi": "10.1016/j.est.2026.123341",
+    "url": "https://doi.org/10.1016/j.est.2026.123341",
+    "source_id": "",
+    "score": 129.0,
+    "level": "B",
+    "title_zh": "基于逐周期去趋势的应变老化表征与特征开发方法：以18650 NMC锂离子电池为例",
+    "one_sentence": "提出了基于应变的逐周期去趋势方法，用于提取电池老化特征并评估SOH。",
+    "problem": "如何利用应变测量准确评估电池SOH，尤其是在异常过充电情况下？",
+    "contributions": [
+      "开发了应变分解框架，分离偏移、斜率和残差分量的循环变形",
+      "识别了最大应变和均方根频率等强一致性特征",
+      "通过主成分分析揭示了充放电过程中的不同机械特征模式"
+    ],
+    "bms_relevance": "相关：应变基SOH估计是BMS健康评估的新兴方法，直接服务于状态估计。",
+    "insight_for_group": "可探索结合应变信号与电压温度数据，提升SOH估计鲁棒性。",
+    "reason": "B级：Journal of Energy Storage（排名21），内容相关但期刊水平一般，方法有创新但应用场景有限。"
+  },
+  {
+    "title": "Comparative study on improved mechanical-electrochemical equivalent circuit model and state of charge estimation for semi-solid-state batteries",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26032573?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 71.0,
+    "level": "B",
+    "title_zh": "改进的机电耦合等效电路模型及半固态电池荷电状态估计的对比研究",
+    "one_sentence": "针对半固态电池提出了改进的机电耦合等效电路模型，并用于SOC估计。",
+    "problem": "如何为半固态电池建立准确的电模型并进行SOC估计？",
+    "contributions": [
+      "提出了考虑机械-电化学耦合的等效电路模型",
+      "对比了不同SOC估计方法的性能",
+      "为新型电池的BMS建模提供了参考"
+    ],
+    "bms_relevance": "直接相关：SOC估计是BMS核心功能，模型改进具有应用价值。",
+    "insight_for_group": "可借鉴其机电耦合建模思路，用于我们组的pack一致性或SOH研究。",
+    "reason": "B级：Journal of Energy Storage（排名21），相关性明确但期刊一般，且半固态电池未成主流，创新性中等。"
+  },
+  {
+    "title": "Comparative study on improved mechanical-electrochemical equivalent circuit model and state of charge estimation for semi-solid-state batteries",
+    "abstract": "",
+    "authors": [
+      "Chengyu Liu",
+      "Chenglin Liao",
+      "Hongyu Zhao",
+      "Liye Wang",
+      "Lifang Wang",
+      "Chunxiao Ma"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-07-17",
+    "doi": "10.1016/j.est.2026.123593",
+    "url": "https://doi.org/10.1016/j.est.2026.123593",
+    "source_id": "",
+    "score": 53.0,
+    "level": "B",
+    "title_zh": "改进的机电耦合等效电路模型及半固态电池荷电状态估计的对比研究",
+    "one_sentence": "针对半固态电池提出了改进的机电耦合等效电路模型，并用于SOC估计。",
+    "problem": "如何为半固态电池建立准确的电模型并进行SOC估计？",
+    "contributions": [
+      "提出了考虑机械-电化学耦合的等效电路模型",
+      "对比了不同SOC估计方法的性能",
+      "为新型电池的BMS建模提供了参考"
+    ],
+    "bms_relevance": "直接相关：SOC估计是BMS核心功能，模型改进具有应用价值。",
+    "insight_for_group": "可借鉴其机电耦合建模思路，用于我们组的pack一致性或SOH研究。",
+    "reason": "B级：Journal of Energy Storage（排名21），相关性明确但期刊一般，且半固态电池未成主流，创新性中等。"
+  },
+  {
+    "title": "AI/ML enabled smart battery management systems in electric vehicles",
+    "abstract": "The rapid growth of electric vehicles (EVs) has intensified the necessity for advanced battery management system (BMS) capable of ensuring safety, reliability and optimal performance of lithium-ion batteries (LIB). This study presents a comprehensive review and analysis of modern smart BMS architecture with a particular focus on the integration of artificial intelligence (AI) and machine learning (ML) techniques. Key functional aspects including state estimation, cell balancing, thermal management, fault detection, and predictive maintenance are critically examined. The role of AI/ML algorithms such as artificial neural networks, long short-term memory networks, support vector machines, and deep learning modes in enhancing sate of charge (SoC), state of health (SoH), and remaining useful life (RUL) is discussed in detail. Next, the study evaluates emerging trends such as FPGA-based edge implementation and IoT-enabled cloud integration for real-time monitoring and control. A comparative analysis of various AI/ML techniques highlights their pros, cons, and practical deployment challenges. The finding indicates that hybrid approaches combining model-based methods with data-driven algorithms offer the most promising pathway for next-generation BMS. This work provides valuable insight into current technological advancements and identifies key research gaps for the development of scalable, efficient and intelligent battery management solution. Based on a critical assessment of 120 research articles and review papers, this study provides a comprehensive system-level evaluation of AI/ML-enabled BMS for electric vehicles. Unlike previous reviews focusing on individual BMS functions, it integrates and critically compares state estimation, cell balancing, thermal management, fault diagnosis, predictive maintenance, intelligent charging, FPGA-based edge intelligence, and IoT-cloud-enabled battery monitoring while identifying key research gaps and future opportunities.",
+    "authors": [
+      "Mohammad Waseem"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "Frontiers in Batteries and Electrochemistry",
+    "date": "2026-07-17",
+    "doi": "10.3389/fbael.2026.1883201",
+    "url": "https://doi.org/10.3389/fbael.2026.1883201",
+    "source_id": "",
+    "score": 198.0,
+    "level": "B",
+    "title_zh": "人工智能/机器学习赋能的电动汽车智能电池管理系统",
+    "one_sentence": "综述了AI/ML技术在BMS中用于状态估计、均衡、热管理、故障诊断和预测维护的最新进展。",
+    "problem": "如何将AI/ML技术有效集成到BMS中以提高性能？",
+    "contributions": [
+      "系统综述了120篇文章，覆盖BMS各功能",
+      "比较了不同AI/ML算法的优缺点和部署挑战",
+      "指出混合模型结合数据驱动和模型方法是下一代BMS的关键路径"
+    ],
+    "bms_relevance": "直接相关：全面覆盖BMS功能，但为综述，原创性不足。",
+    "insight_for_group": "可参考其中的方法分类和部署挑战，指导我们组的BMS算法选型。",
+    "reason": "B级：期刊Frontiers in Batteries and Electrochemistry为非高优先级，但内容全面，适合作为背景参考。"
+  },
+  {
+    "title": "Acoustic Emission-Based Early Warning of Thermal Runaway in Lithium-Ion Batteries",
+    "abstract": "The increasing adoption of lithium-ion batteries (LIBs) in electric vehicles, energy storage systems, and marine applications has amplified the demand for advanced health monitoring technologies that ensure operational safety and reliability. Among the various failure modes of LIBs, thermal runaway (TR) poses the most severe safety hazard, as it involves uncontrollable exothermic reactions that can lead to fire or explosion. Current monitoring systems based on voltage, temperature, or gas venting typically provide warning only after irreversible internal degradation has occurred, offering limited time for intervention. To address this challenge, this study presents an acoustic emission (AE)-based early warning system capable of detecting the onset of thermal runaway at its initial stage, well before conventional indicators become evident. The proposed system employs piezoelectric AE sensors coupled to the battery casing to capture transient acoustic signals generated by early-stage internal phenomena such as micro-cracking, electrode deformation, separator failure, and gas evolution. The signals are acquired through a high-speed data acquisition unit equipped with preamplification and band-pass filtering. Real-time data processing includes noise filtering, event detection, and feature extraction across time, frequency, and statistical domains. A threshold is set based on baseline noise characterization to ensure robust event identification. Experiments were performed on NCM prismatic cells and modules under controlled thermal abuse conditions. A heating plate was used to induce localized heating and trigger TR, while thermocouples monitored temperature changes across the cell surfaces. In the single-cell tests, AE activity was observed approximately 210 seconds after heating began, when the cell temperature was still near 40 °C, far below the onset of venting or visible deformation. As heating continued, AE events increased in both amplitude and frequency, signaling intensified internal reactions. The activation of the safety valve, indicating gas venting, occurred roughly three minutes later, confirming that AE monitoring provides a significant early-warning window. In the module-level experiments, one AE sensor was installed on the surface of one cell while the other cell was heated. Remarkably, the system detected precursor AE signals from both cells, demonstrating effective coverage of multi-cell structures with very few sensors. This highlights the scalability and cost-efficiency of the method for large-format battery packs. The results confirm that AE sensing can serve as a sensitive, non-invasive, and scalable approach for early-stage detection of thermal instability in lithium-ion batteries. Compared with temperature or voltage monitoring, AE provides earlier and more direct insight into internal degradation mechanisms. This work extends the application of structural health monitoring (SHM) concepts to the field of battery safety, offering a new direction for integrating acoustic sensing and intelligent diagnostics into next-generation Battery Management Systems (BMS).",
+    "authors": [
+      "Wuke Xu",
+      "Fan Shi"
+    ],
+    "source": "OpenAlex",
+    "venue": "e-Journal of Nondestructive Testing",
+    "date": "2026-07-17",
+    "doi": "10.58286/34074",
+    "url": "https://doi.org/10.58286/34074",
+    "source_id": "",
+    "score": 146.0,
+    "level": "B",
+    "title_zh": "基于声发射的锂离子电池热失控早期预警",
+    "one_sentence": "提出基于声发射传感器的热失控早期预警系统，能在传统指标报警前210秒检测到异常。",
+    "problem": "如何提前检测锂离子电池热失控的初始阶段？",
+    "contributions": [
+      "设计了基于压电声发射传感器的实时预警系统",
+      "在热滥用条件下实现了提前210秒的预警",
+      "提供了声发射特征提取和阈值设定的方法"
+    ],
+    "bms_relevance": "直接相关：热失控早期预警是BMS安全的重要方向，声发射方法具有创新性。",
+    "insight_for_group": "可考虑将声发射与其他传感器融合，提升我们组的安全预警系统。",
+    "reason": "B级：期刊非高优先级，但方法新颖，实验验证有效，值得浏览。"
+  },
+  {
+    "title": "Variability Analysis of Battery EIS Measurements",
+    "abstract": "Electrochemical Impedance Spectroscopy (EIS) is a non-destructive technique for characterizing the battery behavior for estimating the state of health (SOH). EIS provides frequency-domain information on key parameters, including solid electrolyte interphase (SEI) resistance, charge-transfer (CT) resistance, and ohmic resistance, which are sensitive to battery degradation mechanisms. In an EIS test, a sinusoidal excitation signal is applied to the battery, and the corresponding voltage response is analyzed to extract the impedance spectrum. The reliability of SOH estimation therefore depends critically on the accurate and repeatable extraction of impedance features. This paper investigates the variability in impedance spectra arising from the state of charge (SOC), temperature, rest time, and repeated measurements under nominally identical conditions. This variability is identified as drift and represents previously underexplored variations in the impedance spectrum. To quantify these variations, this work proposes a normalized resistance-based index that captures changes in the impedance spectrum using estimated equivalent circuit model (ECM) parameters. The proposed index is applicable across battery chemistries, sizes, and operating conditions. It is evaluated using published datasets spanning different chemistries, SOC levels, and temperatures, as well as laboratory data collected from repeated EIS experiments. The results show that even at fixed SOC and temperature, repeated measurements can produce measurable bias and variance in ECM parameters. These findings highlight the importance of accounting for drift in EIS analysis and motivate uncertainty-aware battery diagnostics for practical SOH monitoring systems.",
+    "authors": [
+      "Prarthana Pillai",
+      "Banuselvasaraswathy Balasubramanian",
+      "Krishna R. Pattipati",
+      "Balakumar Balasingam"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "Batteries",
+    "date": "2026-07-17",
+    "doi": "10.3390/batteries12070258",
+    "url": "https://doi.org/10.3390/batteries12070258",
+    "source_id": "",
+    "score": 108.0,
+    "level": "B",
+    "title_zh": "电池电化学阻抗谱测量变异性分析",
+    "one_sentence": "量化了EIS测量中由SOC、温度和重复性引起的漂移，提出了归一化电阻指标用于不确定性感知诊断。",
+    "problem": "EIS测量中的变异性如何影响SOH估计可靠性？",
+    "contributions": [
+      "发现了EIS测量中之前未被充分探索的漂移现象",
+      "提出了归一化电阻指标来量化阻抗谱变化",
+      "强调了不确定性感知诊断对实际SOH监测的重要性"
+    ],
+    "bms_relevance": "直接相关：EIS用于SOH估计是BMS健康评估的关键，变异性分析有助于提高估计鲁棒性。",
+    "insight_for_group": "可引入不确定性分析改进我们组的SOH估计算法。",
+    "reason": "B级：期刊Batteries非高优先级，但方法实用，对实际部署有参考价值。"
+  },
+  {
+    "title": "Post-disaster emergency electrification of shelters and vulnerable households : a data-driven two-stage stochastic optimization approach",
+    "abstract": "Large-scale disasters can severely disrupt the main electricity grid, leaving shelters and vulnerable households without reliable power when electricity is most critical for safety, health, and emergency response. This thesis investigates the problem of post-disaster emergency electrification under prolonged grid outage conditions and develops an optimization-based framework for coordinating stationary and mobile energy resources. The proposed system includes shelter-level photovoltaic panels, wind turbines, battery energy storage systems, and backup generators, together with electric vehicles (EVs) that can provide mobile electricity support to shelters and critical households. The research is carried out in two stages. First, a deterministic mixed-integer linear programming model is developed to determine shelter-level resource installation decisions and post-outage operational schedules over a multi-period planning horizon. Second, this benchmark model is extended into a data-driven two-stage stochastic optimization framework that incorporates uncertainty. In particular, the stochastic framework considers uncertainty in home and shelter electricity demand, renewable resource availability, and the initial state of charge of EV batteries. In the stochastic model, representative demand scenarios and associated probabilities are generated for homes and shelters using a data-driven procedure based on Gaussian mixture models, principal component analysis, robust kernel density estimation, uncertainty filtering, and scenario construction. In addition, renewable resource availability is represented through forecasting-based profiles for wind speed and solar irradiance, and uncertainty in EV initial state of charge is incorporated as a scenario-dependent parameter. The proposed models are evaluated through a case study motivated by the impacts of Typhoon Faxai in Chiba Prefecture, Japan. The results show that coordinated use of distributed generation, battery storage, backup generation, and EV-based mobile electricity support can improve service continuity, reduce unmet demand, and lower emergency operating cost. The findings also highlight the value of EVs as flexible supplementary energy resources in disaster settings and demonstrate the importance of incorporating uncertainty into emergency energy planning. This thesis contributes an integrated decision-support framework that links disaster resilient microgrid planning, EV-enabled mobile energy support, and uncertainty modeling and stochastic optimization for post-disaster emergency electrification.",
+    "authors": [
+      "Haofei Song"
+    ],
+    "source": "OpenAlex",
+    "venue": "Open Collections",
+    "date": "2026-07-17",
+    "doi": "10.14288/1.0453264",
+    "url": "https://doi.org/10.14288/1.0453264",
+    "source_id": "",
+    "score": 104.0,
+    "level": "B",
+    "title_zh": "Post-disaster emergency electrification of shelters and vulnerable households : a data-driven two-stage stochastic optimization approach",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 104.0，推荐等级 B。"
+  }
+]

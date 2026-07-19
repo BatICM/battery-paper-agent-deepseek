@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Battery Management Literature Daily｜2026-07-19</title>
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",Arial,sans-serif;line-height:1.68;color:#1f2933;background:#f5f7fa;margin:0;padding:0;}
+    .container{max-width:1040px;margin:0 auto;padding:28px 20px 44px;}
+    .header{background:linear-gradient(135deg,#063b5c,#0b7285);color:#fff;border-radius:18px;padding:28px 30px;margin-bottom:22px;box-shadow:0 8px 22px rgba(0,0,0,.12);}
+    .header h1{margin:0 0 12px;font-size:28px;letter-spacing:.3px;}
+    .header p{margin:4px 0;color:#e7f5ff;}
+    .summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:18px 0 6px;}
+    .stat{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.22);border-radius:14px;padding:12px 14px;}
+    .stat b{font-size:24px;color:#fff;display:block;}
+    .block{background:#fff;border:1px solid #d9e2ec;border-radius:16px;padding:22px;margin:18px 0;box-shadow:0 2px 10px rgba(15,23,42,.04);}
+    h2{color:#0b3d5c;margin:0 0 14px;font-size:22px;}
+    h3{margin:0 0 10px;font-size:19px;color:#102a43;}
+    .meta{color:#52616b;font-size:14px;margin:4px 0;}
+    .paper{border-top:1px solid #e5edf3;padding-top:18px;margin-top:18px;}
+    .paper:first-child{border-top:none;padding-top:0;margin-top:0;}
+    .tag{display:inline-block;border-radius:999px;padding:4px 10px;color:#fff;font-size:12px;font-weight:700;letter-spacing:.2px;margin-right:8px;}
+    .A{background:#c62828;}.B{background:#ef6c00;}.C{background:#607d8b;}
+    .score{display:inline-block;background:#edf2f7;color:#334e68;border-radius:999px;padding:4px 10px;font-size:12px;}
+    ul{padding-left:22px;margin:8px 0 10px;}
+    a{color:#0b7285;text-decoration:none;}a:hover{text-decoration:underline;}
+    table{width:100%;border-collapse:collapse;background:white;font-size:14px;}
+    th,td{border:1px solid #d9e2ec;padding:10px;vertical-align:top;text-align:left;}
+    th{background:#edf4f7;color:#243b53;}
+    .footer{font-size:13px;color:#697386;text-align:center;margin-top:24px;}
+    @media(max-width:720px){.summary-grid{grid-template-columns:1fr}.header{border-radius:0}.container{padding:0 0 28px}.block{border-radius:0;border-left:none;border-right:none}.header h1{font-size:24px}}
+  </style>
+</head>
+<body>
+<div class="container">
+  <section class="header">
+    <h1>Battery Management Literature Daily</h1>
+    <p><b>日期：</b>2026-07-19 ｜ <b>检索窗口：</b>近 2 天 ｜ <b>生成时间：</b>2026-07-19 12:04:56 UTC+8</p>
+    <p>今日收录7篇论文，涵盖热失控传播缓解、pack级短路行为、基于应变的SOH表征、半固态电池SOC估计、AI/ML BMS综述、声发射热失控预警以及EIS测量变异性分析。其中2篇来自高优先级期刊（Advanced Energy Materials和eTransportation），其余为低优先级期刊但内容直接相关。</p>
+    <div class="summary-grid">
+      <div class="stat"><b>4</b> A级必读</div>
+      <div class="stat"><b>8</b> B级浏览</div>
+      <div class="stat"><b>0</b> C级备选</div>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>一、今日趋势判断</h2>
+    <p>趋势：电池安全与热失控预警仍是热点，结合机械应变、声发射等物理信号的健康监测方法受到关注；AI/ML集成到BMS的综述性工作持续出现；半固态电池等新型电池的状态估计开始受到研究。</p>
+  </section>
+
+  <section class="block">
+    <h2>二、A级必读论文</h2>
+    
+      
+      <article class="paper">
+        <h3>1. Breaking the Energy Cascades: Stage‐Specific Mitigation of Thermal Runaway Propagation in Lithium‐Ion Battery Systems</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 120.75</span></p>
+        <p class="meta"><b>中文题目：</b>打破能量级联：锂离子电池系统中热失控传播的阶段特异性缓解</p>
+        <p class="meta"><b>作者：</b>Shihang Li, Guangyu Yang, Penghui Xiao, Yongchao Yu, Jingwen Guan et al.</p>
+        <p class="meta"><b>来源：</b>Advanced Energy Materials ｜ <b>日期：</b>2026-07-17 ｜ <b>数据源：</b>Journal RSS+OpenAlex+Crossref</p>
+        <p class="meta"><b>DOI：</b>10.1002/aenm.71302</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1002/aenm.71302">https://doi.org/10.1002/aenm.71302</a></p>
+        <p><b>一句话总结：</b>综述了锂离子电池热失控传播的阶段演化机制，并提出集成相变、隔热和灭火的智能缓解平台。</p>
+        <p><b>研究问题：</b>如何针对热失控传播的不同阶段设计有效的被动缓解策略？</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>系统梳理了热失控传播的触发路径和阶段依赖的传热模式</li><li>评估了相变材料、低热导率屏障和灭火剂等代表性防护材料的阶段特异性功能</li><li>提出了集成相变缓冲、高温绝缘和事件触发抑制的智能平台，结合AI和数字孪生验证</li></ul>
+        <p><b>与BMS相关性：</b>直接相关：热失控传播是BMS安全管理的核心问题，综述提供了缓解策略的系统框架，对BMS安全预警设计有参考价值。</p>
+        <p><b>对课题组启发：</b>可借鉴其阶段特异性防护思路，结合我们组的pack一致性研究，设计基于数字孪生的热安全预警策略。</p>
+        <p><b>推荐理由：</b>A级：Advanced Energy Materials（优先级第6），强相关，系统综述，对pack级热安全设计有指导意义。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>2. Uncertainty-aware multi-fault diagnosis in gas turbines via graph neural networks and weighted total least squares</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 100.25</span></p>
+        <p class="meta"><b>中文题目：</b>Uncertainty-aware multi-fault diagnosis in gas turbines via graph neural networks and weighted total least squares</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Applied Energy ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S030626192601069X?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S030626192601069X?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>与电池管理及智能诊断具有一定相关性。</p>
+        <p><b>研究问题：</b>围绕电池健康、安全、状态估计或储能管理问题展开。</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>提出或评估电池状态估计、健康预测或安全预警方法。</li><li>关注真实工况、pack/系统级应用或模型泛化能力。</li><li>对 BMS 算法部署、云端分析或储能运维具有参考价值。</li></ul>
+        <p><b>与BMS相关性：</b>高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。</p>
+        <p><b>对课题组启发：</b>可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。</p>
+        <p><b>推荐理由：</b>关键词、BMS相关性和期刊优先级综合评分 100.25，推荐等级 A。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>3. Resilient hierarchical control strategy for digital twin cloud-edge collaboration in multi-energy microgrids under non-ideal communication conditions</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 98.25</span></p>
+        <p class="meta"><b>中文题目：</b>Resilient hierarchical control strategy for digital twin cloud-edge collaboration in multi-energy microgrids under non-ideal communication conditions</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Applied Energy ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S0306261926010287?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S0306261926010287?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>与电池管理及智能诊断具有一定相关性。</p>
+        <p><b>研究问题：</b>围绕电池健康、安全、状态估计或储能管理问题展开。</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>提出或评估电池状态估计、健康预测或安全预警方法。</li><li>关注真实工况、pack/系统级应用或模型泛化能力。</li><li>对 BMS 算法部署、云端分析或储能运维具有参考价值。</li></ul>
+        <p><b>与BMS相关性：</b>高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。</p>
+        <p><b>对课题组启发：</b>可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。</p>
+        <p><b>推荐理由：</b>关键词、BMS相关性和期刊优先级综合评分 98.25，推荐等级 A。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>4. Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 90.5</span></p>
+        <p class="meta"><b>中文题目：</b>锂离子电池包热失控过程中的电气短路行为与临时局部过充电条件</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>eTransportation ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>研究了电池包热失控时内部短路和局部过充电的动态行为，为pack级安全设计提供依据。</p>
+        <p><b>研究问题：</b>电池包热失控过程中电气短路和局部过充电如何演化？</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>揭示了热失控期间短路和局部过充电的耦合机制</li><li>提供了pack-level电气行为的实验数据</li><li>为电池包安全设计和BMS故障诊断提供了关键参考</li></ul>
+        <p><b>与BMS相关性：</b>直接相关：pack级热失控行为是BMS故障诊断和安全预警的关键研究内容。</p>
+        <p><b>对课题组启发：</b>有助于我们理解pack内部短路与过充电的耦合，改进故障诊断算法。</p>
+        <p><b>推荐理由：</b>A级：eTransportation（优先级第15），强相关，直接针对pack级热失控电行为，对BMS安全控制有直接参考。</p>
+      </article>
+      
+    
+  </section>
+
+  <section class="block">
+    <h2>三、B级建议浏览论文</h2>
+    
+      
+      <article class="paper">
+        <h3>1. Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 88.5</span></p>
+        <p class="meta"><b>中文题目：</b>Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>eTransportation ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>与电池管理及智能诊断具有一定相关性。</p>
+        <ul><li>提出或评估电池状态估计、健康预测或安全预警方法。</li><li>关注真实工况、pack/系统级应用或模型泛化能力。</li><li>对 BMS 算法部署、云端分析或储能运维具有参考价值。</li></ul>
+        <p><b>与BMS相关性：</b>中高：与 BMS 或储能管理相关，建议浏览。</p>
+        <p><b>对课题组启发：</b>可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>2. Cycle-wise detrending method for strain-based aging characterization and feature development of batteries: Case study of 18650 NMC Li-ion cells</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 129.0</span></p>
+        <p class="meta"><b>中文题目：</b>基于逐周期去趋势的应变老化表征与特征开发方法：以18650 NMC锂离子电池为例</p>
+        <p class="meta"><b>作者：</b>Malichi Flemming, George Anthony, Ryan Limbaugh, Austin Downey</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>2026-07-17 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.1016/j.est.2026.123341</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1016/j.est.2026.123341">https://doi.org/10.1016/j.est.2026.123341</a></p>
+        <p><b>一句话总结：</b>提出了基于应变的逐周期去趋势方法，用于提取电池老化特征并评估SOH。</p>
+        <ul><li>开发了应变分解框架，分离偏移、斜率和残差分量的循环变形</li><li>识别了最大应变和均方根频率等强一致性特征</li><li>通过主成分分析揭示了充放电过程中的不同机械特征模式</li></ul>
+        <p><b>与BMS相关性：</b>相关：应变基SOH估计是BMS健康评估的新兴方法，直接服务于状态估计。</p>
+        <p><b>对课题组启发：</b>可探索结合应变信号与电压温度数据，提升SOH估计鲁棒性。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>3. Comparative study on improved mechanical-electrochemical equivalent circuit model and state of charge estimation for semi-solid-state batteries</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 71.0</span></p>
+        <p class="meta"><b>中文题目：</b>改进的机电耦合等效电路模型及半固态电池荷电状态估计的对比研究</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26032573?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2352152X26032573?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>针对半固态电池提出了改进的机电耦合等效电路模型，并用于SOC估计。</p>
+        <ul><li>提出了考虑机械-电化学耦合的等效电路模型</li><li>对比了不同SOC估计方法的性能</li><li>为新型电池的BMS建模提供了参考</li></ul>
+        <p><b>与BMS相关性：</b>直接相关：SOC估计是BMS核心功能，模型改进具有应用价值。</p>
+        <p><b>对课题组启发：</b>可借鉴其机电耦合建模思路，用于我们组的pack一致性或SOH研究。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>4. Comparative study on improved mechanical-electrochemical equivalent circuit model and state of charge estimation for semi-solid-state batteries</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 53.0</span></p>
+        <p class="meta"><b>中文题目：</b>改进的机电耦合等效电路模型及半固态电池荷电状态估计的对比研究</p>
+        <p class="meta"><b>作者：</b>Chengyu Liu, Chenglin Liao, Hongyu Zhao, Liye Wang, Lifang Wang et al.</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>2026-07-17 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.1016/j.est.2026.123593</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1016/j.est.2026.123593">https://doi.org/10.1016/j.est.2026.123593</a></p>
+        <p><b>一句话总结：</b>针对半固态电池提出了改进的机电耦合等效电路模型，并用于SOC估计。</p>
+        <ul><li>提出了考虑机械-电化学耦合的等效电路模型</li><li>对比了不同SOC估计方法的性能</li><li>为新型电池的BMS建模提供了参考</li></ul>
+        <p><b>与BMS相关性：</b>直接相关：SOC估计是BMS核心功能，模型改进具有应用价值。</p>
+        <p><b>对课题组启发：</b>可借鉴其机电耦合建模思路，用于我们组的pack一致性或SOH研究。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>5. AI/ML enabled smart battery management systems in electric vehicles</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 198.0</span></p>
+        <p class="meta"><b>中文题目：</b>人工智能/机器学习赋能的电动汽车智能电池管理系统</p>
+        <p class="meta"><b>作者：</b>Mohammad Waseem</p>
+        <p class="meta"><b>来源：</b>Frontiers in Batteries and Electrochemistry ｜ <b>日期：</b>2026-07-17 ｜ <b>数据源：</b>OpenAlex+Crossref</p>
+        <p class="meta"><b>DOI：</b>10.3389/fbael.2026.1883201</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.3389/fbael.2026.1883201">https://doi.org/10.3389/fbael.2026.1883201</a></p>
+        <p><b>一句话总结：</b>综述了AI/ML技术在BMS中用于状态估计、均衡、热管理、故障诊断和预测维护的最新进展。</p>
+        <ul><li>系统综述了120篇文章，覆盖BMS各功能</li><li>比较了不同AI/ML算法的优缺点和部署挑战</li><li>指出混合模型结合数据驱动和模型方法是下一代BMS的关键路径</li></ul>
+        <p><b>与BMS相关性：</b>直接相关：全面覆盖BMS功能，但为综述，原创性不足。</p>
+        <p><b>对课题组启发：</b>可参考其中的方法分类和部署挑战，指导我们组的BMS算法选型。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>6. Acoustic Emission-Based Early Warning of Thermal Runaway in Lithium-Ion Batteries</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 146.0</span></p>
+        <p class="meta"><b>中文题目：</b>基于声发射的锂离子电池热失控早期预警</p>
+        <p class="meta"><b>作者：</b>Wuke Xu, Fan Shi</p>
+        <p class="meta"><b>来源：</b>e-Journal of Nondestructive Testing ｜ <b>日期：</b>2026-07-17 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.58286/34074</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.58286/34074">https://doi.org/10.58286/34074</a></p>
+        <p><b>一句话总结：</b>提出基于声发射传感器的热失控早期预警系统，能在传统指标报警前210秒检测到异常。</p>
+        <ul><li>设计了基于压电声发射传感器的实时预警系统</li><li>在热滥用条件下实现了提前210秒的预警</li><li>提供了声发射特征提取和阈值设定的方法</li></ul>
+        <p><b>与BMS相关性：</b>直接相关：热失控早期预警是BMS安全的重要方向，声发射方法具有创新性。</p>
+        <p><b>对课题组启发：</b>可考虑将声发射与其他传感器融合，提升我们组的安全预警系统。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>7. Variability Analysis of Battery EIS Measurements</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 108.0</span></p>
+        <p class="meta"><b>中文题目：</b>电池电化学阻抗谱测量变异性分析</p>
+        <p class="meta"><b>作者：</b>Prarthana Pillai, Banuselvasaraswathy Balasubramanian, Krishna R. Pattipati, Balakumar Balasingam</p>
+        <p class="meta"><b>来源：</b>Batteries ｜ <b>日期：</b>2026-07-17 ｜ <b>数据源：</b>OpenAlex+Crossref</p>
+        <p class="meta"><b>DOI：</b>10.3390/batteries12070258</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.3390/batteries12070258">https://doi.org/10.3390/batteries12070258</a></p>
+        <p><b>一句话总结：</b>量化了EIS测量中由SOC、温度和重复性引起的漂移，提出了归一化电阻指标用于不确定性感知诊断。</p>
+        <ul><li>发现了EIS测量中之前未被充分探索的漂移现象</li><li>提出了归一化电阻指标来量化阻抗谱变化</li><li>强调了不确定性感知诊断对实际SOH监测的重要性</li></ul>
+        <p><b>与BMS相关性：</b>直接相关：EIS用于SOH估计是BMS健康评估的关键，变异性分析有助于提高估计鲁棒性。</p>
+        <p><b>对课题组启发：</b>可引入不确定性分析改进我们组的SOH估计算法。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>8. Post-disaster emergency electrification of shelters and vulnerable households : a data-driven two-stage stochastic optimization approach</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 104.0</span></p>
+        <p class="meta"><b>中文题目：</b>Post-disaster emergency electrification of shelters and vulnerable households : a data-driven two-stage stochastic optimization approach</p>
+        <p class="meta"><b>作者：</b>Haofei Song</p>
+        <p class="meta"><b>来源：</b>Open Collections ｜ <b>日期：</b>2026-07-17 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.14288/1.0453264</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.14288/1.0453264">https://doi.org/10.14288/1.0453264</a></p>
+        <p><b>一句话总结：</b>关注电池安全风险识别与热失控早期预警。</p>
+        <ul><li>提出或评估电池状态估计、健康预测或安全预警方法。</li><li>关注真实工况、pack/系统级应用或模型泛化能力。</li><li>对 BMS 算法部署、云端分析或储能运维具有参考价值。</li></ul>
+        <p><b>与BMS相关性：</b>中高：与 BMS 或储能管理相关，建议浏览。</p>
+        <p><b>对课题组启发：</b>可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。</p>
+      </article>
+      
+    
+  </section>
+
+  <section class="block">
+    <h2>四、C级备选与快速浏览</h2>
+    
+      <p>今日无C级备选论文。</p>
+    
+  </section>
+
+  <section class="block">
+    <h2>五、今日论文总表</h2>
+    <table>
+      <thead><tr><th>等级</th><th>标题</th><th>期刊/来源</th><th>方向判断</th><th>链接</th></tr></thead>
+      <tbody>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>Breaking the Energy Cascades: Stage‐Specific Mitigation of Thermal Runaway Propagation in Lithium‐Ion Battery Systems</td>
+          <td>Advanced Energy Materials</td>
+          <td>综述了锂离子电池热失控传播的阶段演化机制，并提出集成相变、隔热和灭火的智能缓解平台。</td>
+          <td><a href="https://doi.org/10.1002/aenm.71302">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>Uncertainty-aware multi-fault diagnosis in gas turbines via graph neural networks and weighted total least squares</td>
+          <td>Applied Energy</td>
+          <td>与电池管理及智能诊断具有一定相关性。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S030626192601069X?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>Resilient hierarchical control strategy for digital twin cloud-edge collaboration in multi-energy microgrids under non-ideal communication conditions</td>
+          <td>Applied Energy</td>
+          <td>与电池管理及智能诊断具有一定相关性。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S0306261926010287?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs</td>
+          <td>eTransportation</td>
+          <td>研究了电池包热失控时内部短路和局部过充电的动态行为，为pack级安全设计提供依据。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network</td>
+          <td>eTransportation</td>
+          <td>与电池管理及智能诊断具有一定相关性。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Cycle-wise detrending method for strain-based aging characterization and feature development of batteries: Case study of 18650 NMC Li-ion cells</td>
+          <td>Journal of Energy Storage</td>
+          <td>提出了基于应变的逐周期去趋势方法，用于提取电池老化特征并评估SOH。</td>
+          <td><a href="https://doi.org/10.1016/j.est.2026.123341">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Comparative study on improved mechanical-electrochemical equivalent circuit model and state of charge estimation for semi-solid-state batteries</td>
+          <td>Journal of Energy Storage</td>
+          <td>针对半固态电池提出了改进的机电耦合等效电路模型，并用于SOC估计。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26032573?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Comparative study on improved mechanical-electrochemical equivalent circuit model and state of charge estimation for semi-solid-state batteries</td>
+          <td>Journal of Energy Storage</td>
+          <td>针对半固态电池提出了改进的机电耦合等效电路模型，并用于SOC估计。</td>
+          <td><a href="https://doi.org/10.1016/j.est.2026.123593">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>AI/ML enabled smart battery management systems in electric vehicles</td>
+          <td>Frontiers in Batteries and Electrochemistry</td>
+          <td>综述了AI/ML技术在BMS中用于状态估计、均衡、热管理、故障诊断和预测维护的最新进展。</td>
+          <td><a href="https://doi.org/10.3389/fbael.2026.1883201">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Acoustic Emission-Based Early Warning of Thermal Runaway in Lithium-Ion Batteries</td>
+          <td>e-Journal of Nondestructive Testing</td>
+          <td>提出基于声发射传感器的热失控早期预警系统，能在传统指标报警前210秒检测到异常。</td>
+          <td><a href="https://doi.org/10.58286/34074">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Variability Analysis of Battery EIS Measurements</td>
+          <td>Batteries</td>
+          <td>量化了EIS测量中由SOC、温度和重复性引起的漂移，提出了归一化电阻指标用于不确定性感知诊断。</td>
+          <td><a href="https://doi.org/10.3390/batteries12070258">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Post-disaster emergency electrification of shelters and vulnerable households : a data-driven two-stage stochastic optimization approach</td>
+          <td>Open Collections</td>
+          <td>关注电池安全风险识别与热失控早期预警。</td>
+          <td><a href="https://doi.org/10.14288/1.0453264">Open</a></td>
+        </tr>
+      
+      </tbody>
+    </table>
+  </section>
+
+  <p class="footer">Generated by battery-paper-agent. 请人工复核关键结论后再用于论文综述或组会汇报。</p>
+</div>
+</body>
+</html>
