@@ -1,0 +1,313 @@
+[
+  {
+    "title": "Uncertainty-aware multi-fault diagnosis in gas turbines via graph neural networks and weighted total least squares",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Applied Energy",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S030626192601069X?dgcid=rss_sd_all",
+    "source_id": "rss:9:Applied Energy",
+    "score": 100.25,
+    "level": "A",
+    "title_zh": "Uncertainty-aware multi-fault diagnosis in gas turbines via graph neural networks and weighted total least squares",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 100.25，推荐等级 A。"
+  },
+  {
+    "title": "Resilient hierarchical control strategy for digital twin cloud-edge collaboration in multi-energy microgrids under non-ideal communication conditions",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Applied Energy",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0306261926010287?dgcid=rss_sd_all",
+    "source_id": "rss:9:Applied Energy",
+    "score": 98.25,
+    "level": "A",
+    "title_zh": "Resilient hierarchical control strategy for digital twin cloud-edge collaboration in multi-energy microgrids under non-ideal communication conditions",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 98.25，推荐等级 A。"
+  },
+  {
+    "title": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "锂离子电池组热失控过程中的短路行为与局部过充条件",
+    "one_sentence": "研究了锂离子电池组热失控时内部短路和局部过充的动态特性。",
+    "problem": "锂离子电池组热失控过程中的局部短路和过充机制尚不明确。",
+    "contributions": [
+      "揭示了热失控时电池组内电短路和局部过充的演化路径",
+      "提供了实验表征和建模方法",
+      "为热蔓延安全预警提供了基础数据"
+    ],
+    "bms_relevance": "直接相关：电池组热失控是BMS安全预警的核心问题，研究结果可用于改进BMS的故障诊断和预警策略。",
+    "insight_for_group": "可借鉴其对pack级热蔓延的建模方法，结合课题组现场数据构建热失控早期预测模型。",
+    "reason": "B级：eTransportation属高水平期刊（优先列表15），论文强相关，但主要侧重实验表征，算法创新不足，适合浏览。"
+  },
+  {
+    "title": "Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 88.5,
+    "level": "B",
+    "title_zh": "Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 88.5，推荐等级 B。"
+  },
+  {
+    "title": "Comparative study on improved mechanical-electrochemical equivalent circuit model and state of charge estimation for semi-solid-state batteries",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26032573?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 71.0,
+    "level": "B",
+    "title_zh": "半固态电池改进的机械-电化学等效电路模型与荷电状态估计对比研究",
+    "one_sentence": "针对半固态电池提出机械-电化学耦合等效电路模型并用于SOC估计。",
+    "problem": "半固态电池的机械效应影响电化学特性，传统SOC模型精度不足。",
+    "contributions": [
+      "建立了考虑机械应变的等效电路模型",
+      "对比了不同SOC估计方法的性能",
+      "验证了模型在变工况下的鲁棒性"
+    ],
+    "bms_relevance": "相关：SOC估计是BMS核心功能，且半固态电池属于新型锂电池，但其建模方法对pack级应用推广性待评估。",
+    "insight_for_group": "机械-电化学耦合建模思路可用于pack不一致性分析，但需验证能否扩展到fleet数据。",
+    "reason": "B级：Journal of Energy Storage属储能领域期刊（优先列表21），论文直接涉及SOC估计，但模型复杂度高，实用价值需进一步评估，建议浏览。"
+  },
+  {
+    "title": "SSA(BBO)-optimized neural networks for remaining useful life estimation and health monitoring of lithium-ion batteries",
+    "abstract": "Accurate prediction of the remaining useful life (RUL) of lithium-ion batteries is crucial for advancing battery health management, enhancing safety, and improving the efficiency of electric vehicles and energy storage systems. This study introduces a novel hybrid deep learning framework that integrates a deep neural network (DNN) with advanced optimization algorithms, including Biogeography-Based Optimization (BBO) and the Improved Sparrow Search Algorithm (ISSA). The framework further employs a competitive adversarial learning mechanism utilizing a linear Support Vector Machine (SVM) as a discriminator. Unlike conventional approaches that primarily rely on past cycle data under constant conditions, the proposed model incorporates real operating parameters—such as variable charge/discharge C-rates, load profiles, ambient temperature, depth of discharge (DoD), and driving cycle statistics—as input features. This significantly reduces uncertainty and enhances the model’s generalizability across diverse operating conditions. Within this framework, the DNN acts as the RUL predictor (generator), while the SVM formulates a min-max optimization problem to penalize physically implausible predictions. Validation on NASA-based datasets augmented with realistic variable operating profiles demonstrates that the proposed ISSA-optimized DNN-SVM model achieves excellent performance with RMSE of 2.25 ± 0.12 cycles, MAE of 1.68 ± 0.09 cycles, and R² of 0.995 ± 0.002 (mean ± std. dev. over 10 independent runs). These results represent a substantial improvement of 58–72% in RMSE compared to standard methods (including the baseline Autoencoder-DNN, LSTM, and CNN-LSTM). The framework also significantly outperforms the BBO-optimized variant, confirming the effectiveness of ISSA in global parameter optimization. These findings underscore the proposed approach’s high robustness under real-world variable operating conditions and its strong potential for real-time deployment in battery management systems (BMS) after offline training, marking a significant step toward extending the lifespan and reliability of lithium-ion batteries.",
+    "authors": [
+      "Wenlong Tao",
+      "Chao Lu",
+      "Y Jin"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "Scientific Reports",
+    "date": "2026-07-18",
+    "doi": "10.1038/s41598-026-62566-4",
+    "url": "https://doi.org/10.1038/s41598-026-62566-4",
+    "source_id": "",
+    "score": 168.0,
+    "level": "B",
+    "title_zh": "基于SSA(BBO)优化神经网络的锂离子电池剩余寿命估计与健康监测",
+    "one_sentence": "提出混合深度学习框架结合改进麻雀搜索算法优化DNN用于锂电池RUL预测。",
+    "problem": "现有RUL估计方法依赖恒流恒温数据，对真实变工况泛化性差。",
+    "contributions": [
+      "引入实际运行参数（变倍率、负载、温度、放电深度）作为输入特征",
+      "设计对抗学习（SVM判别器）惩罚不合理预测",
+      "在NASA数据集上取得RMSE 2.25 cycles的显著提升"
+    ],
+    "bms_relevance": "高度相关：RUL估计是BMS健康管理关键任务，方法可迁移至pack级和field场景。",
+    "insight_for_group": "其考虑变工况输入和生成对抗学习的思想可用于课题组现场数据的不确定性建模，提升RUL预测鲁棒性。",
+    "reason": "B级：虽发表在Scientific Reports（非优先列表），但方法创新性强（混合优化+对抗学习），且直击RUL核心问题，具有参考价值，建议阅读。"
+  },
+  {
+    "title": "Dual Independent Hermetic Sealing Aluminum Passive Heat Dissipation Modular Smartphone: Full-Cycle Standardized Industrial Design Methodology",
+    "abstract": "Author Information Dejian Feng, Yuwen Feng ORCID: 0009-0000-5793-9666 Nomenclature P_{clamp} Single-side buckle locking force, unit N; Calibration source: average tensile test of 6 physical prototypes \\delta_{seal} Compression thickness of fluorosilicone sealing ring, unit mm; Calibration source: ANSYS contact stress simulation + IPX8 continuous immersion durability test G_{cell} Reserved swelling buffer clearance for lithium cell, unit mm; Calibration source: 1000-cycle cell swelling characterization accelerated aging test t_{Au} Gold plating thickness of conductive contact terminal, unit μm; Calibration source: IEC 60943 electronic contact plating specification T_{chip,max} Peak junction temperature of main SoC under full gaming load, unit ℃; Calibration source: Fluent steady-state fluid-thermal coupling simulation + infrared thermal imaging test L_{drop} Free drop test height for mechanical reliability verification, unit m; Calibration source: IEC 60068-2-31 portable electronic shock standard R_{leak} Helium mass spectrometry leakage rate of permanent main airtight cavity, unit Pa·m³/s; Calibration source: IEC 60529:2019 ingress protection detection criterion N_{cycle} Rated repeated disassembly cycle of replaceable battery module; Calibration source: Counterpoint CP-SMAR-0425 global user maintenance frequency statistics \\eta_{conv} Convective heat transfer enhancement ratio of micro-frosted aluminum outer texture; Calibration source: comparative thermal imaging measurement of six identical prototypes Abstract Conventional glued monolithic smartphones suffer irreversible waterproof degradation after disassembly, redundant VC liquid cooling thermal stacks, excessive after-sales maintenance expenditure, and non-compliance with Regulation (EU) 2023/1670 effective February 2027. This work constructs a standardized parallel full-cycle industrial design workflow covering demand constraint locking, multi-scheme concept screening, multidisciplinary layered structural design, multi-physics pre-simulation iterative optimization, cross-regional global pre-compliance embedded design, DFM/DFA manufacturability optimization, full DFMEA reliability risk control, ergonomic and aesthetic co-design, dual optimization constraints of full-lifecycle cost and carbon footprint, four-tier DV design verification,and standardized modular platform freezing. A dual independent hermetic sealing architecture is innovatively proposed, consisting of a permanently laser-welded airtight main cavity and an integrated aluminum alloy rear cover ultra-thin flat soft-pack lithium buckle module. The fluorosilicone sealing ring is entirely integrated onto the replaceable module, so repeated user disassembly never impairs the IP68 hermetic performance of the core main body. A micro-frosted 6061 aluminum alloy shell forms a passive full-area heat dissipation system that eliminates bulky VC liquid cooling assemblies; the average core SoC temperature drops by 5–8 °C under sustained heavy gaming loads, validated by six repeated prototype thermal tests. All structural dimensional and material thresholds are calibrated through coupled mechanical, thermal-fluid, radio frequency electromagnetic, and seepage hermetic simulation. Critical inherent design risks, including aluminum Faraday cage signal attenuation, stainless steel buckle fatigue fracture, lithium cell swelling extrusion short circuit, complete machine scrapping after screen breakage due to full laser welding, and contact galvanic corrosion under high-current fast charging, are eliminated by embedded redundant structural measures at the early design stage. Although the basic integration logic of \"rear cover and lithium cell as a single interchangeable assembly\" draws on mature structural schemes of historical plastic flip feature phones, disruptive multidisciplinary innovations are realized in multi-layer hermetic protection, passive metal thermal engineering, segmented laser de-welding screen maintenance, electromagnetic compatibility optimization, and global circular economy regulatory adaptation. Compared with mainstream glued glass flagships and foldable terminals relying on temporary regulatory exemption, the proposed parallel development workflow shortens overall R&D cycle by 25% and reduces mold modification trial-production cost by 60%. The design extends the service life of permanent core components (mid-frame, motherboard, display) to 4–5 years, cutting end-users full-lifecycle equipment expenditure by over 40%. The overall design fully complies with (EU) 2023/1670 portable battery rules, IEC 60529:2019 IP rating standard, UN 38.3 lithium cell transportation safety specification, RoHS 2.0, REACH SVHC restricted substance control, IEC 61000-4-2 ESD anti-static standard, and EU CSRD carbon footprint disclosure requirements. To bridge the gap between theoretical design and mass production engineering, three gradient compromise transformation schemes for lithium PACK production lines are developed to minimize factory reconstruction capital investment. This complete standardized parallel design system provides a replicable technical paradigm for low-carbon, repairable, sustainable consumer electronic hardware. Keywords: full-cycle industrial design; dual independent hermetic sealing; aluminum passive heat dissipation module; multi-physics pre-simulation iteration; DFMEA risk analysis; DFM/DFA manufacturing optimization; EU portable battery regulation; circular carbon footprint design; modular repairable smartphone; PACK productionline compromise engineering transformation",
+    "authors": [
+      "Feng yvwen Fengdejian"
+    ],
+    "source": "OpenAlex",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "date": "2026-07-19",
+    "doi": "10.5281/zenodo.21434469",
+    "url": "https://doi.org/10.5281/zenodo.21434469",
+    "source_id": "",
+    "score": 76.0,
+    "level": "B",
+    "title_zh": "Dual Independent Hermetic Sealing Aluminum Passive Heat Dissipation Modular Smartphone: Full-Cycle Standardized Industrial Design Methodology",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 76.0，推荐等级 B。"
+  },
+  {
+    "title": "Dual Independent Hermetic Sealing Aluminum Passive Heat Dissipation Modular Smartphone: Full-Cycle Standardized Industrial Design Methodology",
+    "abstract": "Author Information Dejian Feng, Yuwen Feng ORCID: 0009-0000-5793-9666 Nomenclature P_{clamp} Single-side buckle locking force, unit N; Calibration source: average tensile test of 6 physical prototypes \\delta_{seal} Compression thickness of fluorosilicone sealing ring, unit mm; Calibration source: ANSYS contact stress simulation + IPX8 continuous immersion durability test G_{cell} Reserved swelling buffer clearance for lithium cell, unit mm; Calibration source: 1000-cycle cell swelling characterization accelerated aging test t_{Au} Gold plating thickness of conductive contact terminal, unit μm; Calibration source: IEC 60943 electronic contact plating specification T_{chip,max} Peak junction temperature of main SoC under full gaming load, unit ℃; Calibration source: Fluent steady-state fluid-thermal coupling simulation + infrared thermal imaging test L_{drop} Free drop test height for mechanical reliability verification, unit m; Calibration source: IEC 60068-2-31 portable electronic shock standard R_{leak} Helium mass spectrometry leakage rate of permanent main airtight cavity, unit Pa·m³/s; Calibration source: IEC 60529:2019 ingress protection detection criterion N_{cycle} Rated repeated disassembly cycle of replaceable battery module; Calibration source: Counterpoint CP-SMAR-0425 global user maintenance frequency statistics \\eta_{conv} Convective heat transfer enhancement ratio of micro-frosted aluminum outer texture; Calibration source: comparative thermal imaging measurement of six identical prototypes Abstract Conventional glued monolithic smartphones suffer irreversible waterproof degradation after disassembly, redundant VC liquid cooling thermal stacks, excessive after-sales maintenance expenditure, and non-compliance with Regulation (EU) 2023/1670 effective February 2027. This work constructs a standardized parallel full-cycle industrial design workflow covering demand constraint locking, multi-scheme concept screening, multidisciplinary layered structural design, multi-physics pre-simulation iterative optimization, cross-regional global pre-compliance embedded design, DFM/DFA manufacturability optimization, full DFMEA reliability risk control, ergonomic and aesthetic co-design, dual optimization constraints of full-lifecycle cost and carbon footprint, four-tier DV design verification,and standardized modular platform freezing. A dual independent hermetic sealing architecture is innovatively proposed, consisting of a permanently laser-welded airtight main cavity and an integrated aluminum alloy rear cover ultra-thin flat soft-pack lithium buckle module. The fluorosilicone sealing ring is entirely integrated onto the replaceable module, so repeated user disassembly never impairs the IP68 hermetic performance of the core main body. A micro-frosted 6061 aluminum alloy shell forms a passive full-area heat dissipation system that eliminates bulky VC liquid cooling assemblies; the average core SoC temperature drops by 5–8 °C under sustained heavy gaming loads, validated by six repeated prototype thermal tests. All structural dimensional and material thresholds are calibrated through coupled mechanical, thermal-fluid, radio frequency electromagnetic, and seepage hermetic simulation. Critical inherent design risks, including aluminum Faraday cage signal attenuation, stainless steel buckle fatigue fracture, lithium cell swelling extrusion short circuit, complete machine scrapping after screen breakage due to full laser welding, and contact galvanic corrosion under high-current fast charging, are eliminated by embedded redundant structural measures at the early design stage. Although the basic integration logic of \"rear cover and lithium cell as a single interchangeable assembly\" draws on mature structural schemes of historical plastic flip feature phones, disruptive multidisciplinary innovations are realized in multi-layer hermetic protection, passive metal thermal engineering, segmented laser de-welding screen maintenance, electromagnetic compatibility optimization, and global circular economy regulatory adaptation. Compared with mainstream glued glass flagships and foldable terminals relying on temporary regulatory exemption, the proposed parallel development workflow shortens overall R&D cycle by 25% and reduces mold modification trial-production cost by 60%. The design extends the service life of permanent core components (mid-frame, motherboard, display) to 4–5 years, cutting end-users full-lifecycle equipment expenditure by over 40%. The overall design fully complies with (EU) 2023/1670 portable battery rules, IEC 60529:2019 IP rating standard, UN 38.3 lithium cell transportation safety specification, RoHS 2.0, REACH SVHC restricted substance control, IEC 61000-4-2 ESD anti-static standard, and EU CSRD carbon footprint disclosure requirements. To bridge the gap between theoretical design and mass production engineering, three gradient compromise transformation schemes for lithium PACK production lines are developed to minimize factory reconstruction capital investment. This complete standardized parallel design system provides a replicable technical paradigm for low-carbon, repairable, sustainable consumer electronic hardware. Keywords: full-cycle industrial design; dual independent hermetic sealing; aluminum passive heat dissipation module; multi-physics pre-simulation iteration; DFMEA risk analysis; DFM/DFA manufacturing optimization; EU portable battery regulation; circular carbon footprint design; modular repairable smartphone; PACK productionline compromise engineering transformation",
+    "authors": [
+      "Feng yvwen Fengdejian"
+    ],
+    "source": "OpenAlex",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "date": "2026-07-19",
+    "doi": "10.5281/zenodo.21434468",
+    "url": "https://doi.org/10.5281/zenodo.21434468",
+    "source_id": "",
+    "score": 76.0,
+    "level": "B",
+    "title_zh": "Dual Independent Hermetic Sealing Aluminum Passive Heat Dissipation Modular Smartphone: Full-Cycle Standardized Industrial Design Methodology",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 76.0，推荐等级 B。"
+  },
+  {
+    "title": "Digital twins for supply chain resilience",
+    "abstract": "Purpose Today supply chains are working under high demand volatility, tight regulatory requirements and sustainability pressure. Existing literature considers digital twins (DTs) as technological tools to anticipate, absorb, adapt and recover quickly from disruptions as compared to strategic capability integrated into organizational processes. Tools alone cannot ensure resilience, and without integrating DTs into firm's core processes, it cannot develop the ability to sense, seize, and reconfigure and adapt to the uncertain nature of disruptions. This narrow focus is insufficient for real-world resilience needs, where real-time collaboration, continuous adaptation and learning from past data are critical. Design/methodology/approach To address the gap between digitalization literature and resilience theory, we conceptualized a framework explaining how DTs enable supply chain visibility (SCV) and supply chain risk management (SCRM) towards supply chain resilience (SCR). Adopting a dynamic capability view (DCV), we used empirical data to explain the association among DTs, SCV, SCRM and SCR using partial least squares-structural equation modelling (PLS-SEM). Based on a 5-point Likert Scale survey questionnaire, data from 246 supply chain professionals were collected. Findings DTs are key enablers of SCV with beta value of 0.759, which further facilitate SCRM with a beta value of 0.605. It is also found that DTs enhance the SCR (0.629) not only by improving the SCV and SCRM, but also directly facilitating the real-time simulations and predictive analytics. The relationship between SCRM and SCR (0.146) indicates that traditional SCRM practices without digital interventions are not very helpful towards SCR. Our study also indicates that SCV is critical as compared to SCRM (SCV-SCR with 0.272), indicating the importance of real-time information sharing. Originality/value This study enhances the body of knowledge by expanding the theoretical boundaries of DCV, where the study highlights the role of DTs as a strategic enabler towards supply chain resilience. Managers need to invest in DTs to boost visibility and enhance risk management capabilities that lead to stronger SCR. DTs act as a sensing capability for SCV that acts as a foundation for seizing and reconfiguring the SCRM.",
+    "authors": [
+      "Sachin Modgil",
+      "Rohit Kumar Singh"
+    ],
+    "source": "Crossref",
+    "venue": "International Journal of Productivity and Performance Management",
+    "date": "2026-07-20",
+    "doi": "10.1108/ijppm-09-2024-0593",
+    "url": "https://doi.org/10.1108/ijppm-09-2024-0593",
+    "source_id": "",
+    "score": 52.0,
+    "level": "B",
+    "title_zh": "Digital twins for supply chain resilience",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 52.0，推荐等级 B。"
+  },
+  {
+    "title": "Battery-aware approximate wireless telemetry framework for resilient wearable ECG monitoring under extreme power constraints",
+    "abstract": "Abstract Wearable electrocardiogram (ECG) patches utilizing Bluetooth Low Energy (BLE) face a critical, yet under- characterized, failure mode: as battery state of charge (SoC) depletes, firmware-mandated reductions in RF transmission power elevate the bit error rate (BER) in Rayleigh-fading channels, causing conventional QRS detection to fail during the most clinically important periods of continuous cardiac monitoring. This paper presents the Battery-Aware Approximate Wireless Telemetry (BAWT) framework, a co-designed solution that jointly optimizes a Peukert-corrected Li-ion discharge model, a six-state adaptive RF power controller, and a Rayleigh-fading indoor channel model. At the receiver, the proposed Bayesian Adaptive Feature Estimator (BAFE) fuses a Wiener-optimal morphological bandpass prior with a channel-SNR-derived MMSE-Wiener weight, enabling reliable QRS extraction from severely corrupted bit streams without forward error correction hardware. Validated on the MIT-BIH Arrhythmia and PTB-XL clinical databases against the ANSI/AAMI EC57 standard, BAWT demonstrates substantial performance gains: at the clinically critical 20% SoC operating point, BAFE raises mean QRS sensitivity from 35.1% to 91.9% on MIT-BIH and from 32.9% to 82.8% on PTB-XL, with the majority of individual records satisfying the Se ≥ 95% clinical threshold. The adaptive power controller extends the critical operating window by 355% over fixed full-power operation, and a fully characterized Pareto-optimal frontier enables system designers to navigate the trade-off between battery lifetime extension (up to 144.5%) and clinical QRS detection accuracy across the full SoC range. These results establish a rigorous co-design framework for robust, power-aware wearable cardiac monitoring compliant with ANSI/AAMI EC57. .",
+    "authors": [
+      "Mohamed Naeem"
+    ],
+    "source": "Crossref",
+    "venue": "Scientific Reports",
+    "date": "2026-07-19",
+    "doi": "10.1038/s41598-026-62387-5",
+    "url": "https://doi.org/10.1038/s41598-026-62387-5",
+    "source_id": "",
+    "score": 48.0,
+    "level": "B",
+    "title_zh": "Battery-aware approximate wireless telemetry framework for resilient wearable ECG monitoring under extreme power constraints",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 48.0，推荐等级 B。"
+  },
+  {
+    "title": "Physics-informed multi-task learning for permeability prediction and probabilistic HFU modeling: a case study from the Lower Bahariya Reservoir, Shahd SE field Egypt",
+    "abstract": "Abstract Accurate permeability prediction is essential for reliable reservoir characterization and simulation, yet remains challenging due to complex nonlinear relationships and subsurface heterogeneity. Conventional hydraulic flow unit (HFU) methods rely on discrete rock typing and fixed porosity–permeability relationships, limiting their ability to capture continuous variations. Physics-informed neural networks (PINNs) offer a data-driven alternative with embedded physical constraints, but their effectiveness is often limited by weak enforcement of physics during inference. In this study, a physics-guided multi-task neural network (MT-PINN) is proposed to simultaneously predict permeability and hydraulic flow units within a unified framework. The model integrates data-driven learning with physics-based relationships and probabilistic rock typing, enabling permeability to be estimated as a weighted combination of multiple flow units and allowing smoother transitions between facies. The proposed approach was evaluated using core and well log data and compared against conventional HFU and standard PINN methods. Within the studied dataset, the MT-PINN demonstrated improved predictive performance, with a higher correlation coefficient ( $$\\:R\\:=\\:0.936$$ ) compared to HFU ( $$\\:R\\:=\\:0.89$$ ) and PINN ( $$\\:R\\:=\\:0.90$$ ), along with a reduction in log-scale error. The model also provides more continuous and stable permeability predictions along depth. In addition to permeability estimation, the MT-PINN outputs both discrete HFU classifications and associated class probabilities, which can be incorporated into 3D stochastic reservoir modeling workflows for uncertainty-aware multi-realization analysis. The proposed framework demonstrates the potential to integrate traditional petrophysical methods with modern machine learning techniques, providing a promising workflow for permeability prediction and reservoir characterization within the studied reservoir.",
+    "authors": [
+      "Khaled Saleh",
+      "Walid M. Mabrouk",
+      "Ahmed M. Metwally"
+    ],
+    "source": "Crossref",
+    "venue": "Scientific Reports",
+    "date": "2026-07-19",
+    "doi": "10.1038/s41598-026-61051-2",
+    "url": "https://doi.org/10.1038/s41598-026-61051-2",
+    "source_id": "",
+    "score": 46.0,
+    "level": "B",
+    "title_zh": "Physics-informed multi-task learning for permeability prediction and probabilistic HFU modeling: a case study from the Lower Bahariya Reservoir, Shahd SE field Egypt",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 46.0，推荐等级 B。"
+  },
+  {
+    "title": "Modified-inverse physics informed neural networks for determination of orthotropic thermal conductivities",
+    "abstract": "Purpose This study aims to propose a modified inverse physics-informed neural network (MIPINN) framework for accurate and efficient simultaneous multiparameter identification in three-dimensional heat conduction problems under sparse experimental data conditions. Design/methodology/approach The proposed MIPINN framework enhances conventional inverse-PINN formulations by integrating finite difference-based pseudo gradient descent optimization within the physics informed architecture. The methodology is systematically validated through five configurations: (i) two-dimensional numerical simulation considering temperature as the exact solution for strict comparison and methodological assessment, (ii) three-dimensional synthetic temperature field reconstruction with prescribed orthotropic thermal conductivity parameters, (iii) isotropic thermal conductivity estimation of AISI 304 stainless steel using experimentally acquired temperature data, (iv) orthotropic thermal conductivity tensor identification of a lithium-ion pouch battery (AMP20M1HD-A) through controlled thermal characterization experiments and (v) extension of the methodology for determination of specific heat capacity of a three-dimensional slab using synthetically generated data. Findings Across all investigated cases, the proposed technique demonstrates improved parameter estimation accuracy and computational efficiency compared to conventional inverse-PINN approach. The MIPINN methodology exhibits enhanced robustness, reduced parameter uncertainty, and stable convergence behavior under sparse data constraints even in three-dimensional multiparameter inverse heat conduction scenarios. Originality/value This study presents a modified inverse-PINN strategy that strengthens constraint enforcement, thereby improving solution stability and convergence under limited observational data for multiparameter inverse heat conduction problems and demonstrates its effectiveness through comprehensive three-dimensional experimental validation.",
+    "authors": [
+      "Gudipati Sai Krishna",
+      "Jithu J.",
+      "Muthusaran Coimbatore Vijayakumar",
+      "Balaji Chakravarthy",
+      "Balaji Srinivasan"
+    ],
+    "source": "Crossref",
+    "venue": "International Journal of Numerical Methods for Heat & Fluid Flow",
+    "date": "2026-07-20",
+    "doi": "10.1108/hff-03-2026-0324",
+    "url": "https://doi.org/10.1108/hff-03-2026-0324",
+    "source_id": "",
+    "score": 44.0,
+    "level": "B",
+    "title_zh": "Modified-inverse physics informed neural networks for determination of orthotropic thermal conductivities",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 44.0，推荐等级 B。"
+  }
+]
