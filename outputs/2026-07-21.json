@@ -1,0 +1,307 @@
+[
+  {
+    "title": "Uncertainty-aware multi-fault diagnosis in gas turbines via graph neural networks and weighted total least squares",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Applied Energy",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S030626192601069X?dgcid=rss_sd_all",
+    "source_id": "rss:9:Applied Energy",
+    "score": 100.25,
+    "level": "A",
+    "title_zh": "Uncertainty-aware multi-fault diagnosis in gas turbines via graph neural networks and weighted total least squares",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 100.25，推荐等级 A。"
+  },
+  {
+    "title": "Resilient hierarchical control strategy for digital twin cloud-edge collaboration in multi-energy microgrids under non-ideal communication conditions",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Applied Energy",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0306261926010287?dgcid=rss_sd_all",
+    "source_id": "rss:9:Applied Energy",
+    "score": 98.25,
+    "level": "A",
+    "title_zh": "Resilient hierarchical control strategy for digital twin cloud-edge collaboration in multi-energy microgrids under non-ideal communication conditions",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 98.25，推荐等级 A。"
+  },
+  {
+    "title": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "A",
+    "title_zh": "锂离子电池组热失控过程中的短路行为与临时局部过充电条件",
+    "one_sentence": "系统研究了锂离子电池组热失控中的内部短路和局部过充电现象，为热失控早期预警提供机理支撑。",
+    "problem": "电池组热失控过程中内部短路和局部过充电的动态行为尚不明确，缺乏定量表征。",
+    "contributions": [
+      "揭示了热失控期间电池组内短路和局部过充电的演化规律",
+      "量化了短路电流和过充电程度对热失控传播的影响",
+      "为电池组热失控早期预警提供了关键特征指标"
+    ],
+    "bms_relevance": "直接相关：研究电池组热失控行为和故障机理，对应BMS安全预警功能。",
+    "insight_for_group": "启发我们结合电热模型与实验数据，开发基于局部过充电特征的pack级热失控预警算法。",
+    "reason": "来自eTransportation（优先列表第15位），相关性极强，研究电池组关键安全问题，方法实验扎实，必须读。"
+  },
+  {
+    "title": "Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 88.5,
+    "level": "B",
+    "title_zh": "Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 88.5，推荐等级 B。"
+  },
+  {
+    "title": "Foresight-based fault detection for electric vertical take-off and landing aircraft battery packs",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26033141?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 83.0,
+    "level": "B",
+    "title_zh": "基于预见的电动垂直起降飞行器电池组故障检测",
+    "one_sentence": "提出一种前瞻性故障检测方法，用于电动垂直起降飞行器电池组的早期故障识别。",
+    "problem": "电动航空电池组安全要求极高，现有故障检测方法响应滞后。",
+    "contributions": [
+      "设计了基于未来工况预测的故障检测框架",
+      "结合飞行任务剖面的电池行为预测",
+      "提高了故障提前检测的准确性"
+    ],
+    "bms_relevance": "直接相关：针对电池组故障检测，属于BMS安全预警范畴。",
+    "insight_for_group": "其任务剖面预测方法可迁移至储能电站或电动车辆的工况预测，提升早期预警能力。",
+    "reason": "来自Journal of Energy Storage（优先列表第21位），相关性好，但期刊排名一般，方法有一定新意，建议浏览。"
+  },
+  {
+    "title": "Comparative study on improved mechanical-electrochemical equivalent circuit model and state of charge estimation for semi-solid-state batteries",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26032573?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 71.0,
+    "level": "B",
+    "title_zh": "半固态电池改进机械-电化学等效电路模型与荷电状态估计对比研究",
+    "one_sentence": "提出并对比了半固态电池的机械-电化学等效电路模型，用于SOC估计。",
+    "problem": "半固态电池的力学-电化学耦合效应影响SOC估计精度，现有模型未充分考虑。",
+    "contributions": [
+      "建立了考虑机械应力的等效电路模型",
+      "改进了SOC估计在不同放电倍率下的精度",
+      "对比了多种模型结构并给出最优选择"
+    ],
+    "bms_relevance": "直接相关：SOC估计是BMS核心功能，针对新型半固态电池。",
+    "insight_for_group": "可借鉴其力学-电化学耦合建模思路，提升对电池不一致性（如压力分布不均）影响的表征能力。",
+    "reason": "来自Journal of Energy Storage（优先列表第21位），相关性明确，但模型验证数据有限，建议浏览。"
+  },
+  {
+    "title": "Lithium-Ion Battery SOH Estimation Driven by Multi-Level Features from Adaptive Optimal Intervals and HISSA-BiLSTM",
+    "abstract": "Accurate State of Health (SOH) estimation for lithium-ion batteries (LIBs) is essential for the safe and reliable operation of battery management systems (BMS). This study develops a practical SOH estimation framework based on adaptive optimal interval selection, multi-level health feature extraction, and a HISSA-assisted BiLSTM model. The main methodological focus is the adaptive interval search framework driven by the Multi-dimensional Hybrid Evaluation Index (MHEI), which improves feature relevance while reducing redundant sampling. Then, 16-dimensional health features are extracted from local charging intervals, full-curve charging behavior, and discharge/IC-curve electrochemical properties. A dual Pearson-Spearman correlation analysis retains 13 strongly correlated features. HISSA is used as a supporting hyperparameter optimization strategy to improve BiLSTM stability. Tests on selected NASA cells show that, compared with traditional full-interval features, the adaptive optimal intervals improve feature correlation by 8.3% while reducing data length by more than 50%. The proposed framework achieves competitive SOH estimation accuracy under controlled laboratory cycling conditions, while broader validation on different chemistries, larger datasets, and real-world operating profiles remains necessary.",
+    "authors": [
+      "Yuan Jiang",
+      "Xinlei Qiao",
+      "Lu Lv",
+      "Lujun Wang"
+    ],
+    "source": "Crossref",
+    "venue": "Journal of The Electrochemical Society",
+    "date": "2026-07-20",
+    "doi": "10.1149/1945-7111/ae8724",
+    "url": "https://doi.org/10.1149/1945-7111/ae8724",
+    "source_id": "",
+    "score": 122.0,
+    "level": "B",
+    "title_zh": "基于自适应最优区间多级特征和HISSA-BiLSTM的锂离子电池SOH估计",
+    "one_sentence": "提出自适应区间选择的SOH估计框架，利用多级健康特征和优化BiLSTM提高精度。",
+    "problem": "传统SOH估计依赖完整充放电数据，特征选择缺乏自适应性。",
+    "contributions": [
+      "提出自适应最优区间搜索方法，减少冗余数据",
+      "提取16维多级别健康特征，经相关性分析保留13维",
+      "引入HISSA优化BiLSTM，提升SOH估计稳定性"
+    ],
+    "bms_relevance": "直接相关：SOH估计是BMS核心功能，方法创新。",
+    "insight_for_group": "自适应区间选择策略可减少计算开销，适用于云端BMS的大规模数据处理。",
+    "reason": "来自Journal of The Electrochemical Society（非优先列表但相关性强），方法具有实际价值，但实验室数据验证为主，建议浏览。"
+  },
+  {
+    "title": "Dual-Branch Bidirectional Long Short-Term Memory Network for Battery State of Health Estimation Under Incomplete Data",
+    "abstract": "Accurate estimation of the state of health (SOH) of lithium-ion batteries is crucial for battery management systems (BMS), as it directly affects system safety, operational reliability, and remaining useful life prediction. Traditional SOH estimation methods generally rely on complete charge–discharge cycle data, which limits their practicality in real-time and online applications. To address this limitation, this paper proposes a novel voltage-charge increment curve-based dual-branch bidirectional long short-term memory network (VCIC-DB-BiLSTM) for battery SOH estimation under incomplete data. First, non-uniformly sampled battery current-voltage data are processed into standardized sequences with equal voltage intervals via voltage-charge increment curves based on ampere-hour integration and cubic spline interpolation. Subsequently, sliding window segmentation is applied to extract fixed-length curve segments from continuous voltage intervals as input features, while the corresponding complete voltage interval curves are used as labels. Finally, the VCIC-DB-BiLSTM network is designed, which uses a dual-branch structure to integrate feature extraction from both patch-processed and raw data, combined with bidirectional sequential modeling. Experimental validation on four benchmark datasets, CALCE, Oxford, XJTU, and TJU, demonstrates that the proposed method achieves competitive performance in SOH estimation under incomplete discharge data conditions, confirming its effectiveness and practical applicability.",
+    "authors": [
+      "Le Ke",
+      "Xiangbo Zhang",
+      "Lujuan Dang"
+    ],
+    "source": "Crossref",
+    "venue": "Energies",
+    "date": "2026-07-20",
+    "doi": "10.3390/en19143417",
+    "url": "https://doi.org/10.3390/en19143417",
+    "source_id": "",
+    "score": 122.0,
+    "level": "B",
+    "title_zh": "基于双分支双向长短期记忆网络的不完整数据下电池健康状态估计",
+    "one_sentence": "提出双分支BiLSTM网络，利用电压-电荷增量曲线从不完整放电数据估计SOH。",
+    "problem": "实际运行时充放电数据常不完整，传统方法依赖完整周期。",
+    "contributions": [
+      "设计电压-电荷增量曲线处理非均匀采样数据",
+      "采用滑动窗口提取定长曲线段作为输入",
+      "双分支BiLSTM融合不同粒度特征，提高不完整数据下的SOH精度"
+    ],
+    "bms_relevance": "直接相关：SOH估计是不完整数据场景下的实用问题，面向BMS在线应用。",
+    "insight_for_group": "不完整数据场景贴近真实运行，可启发我们开发基于片段数据的SOH估计方法。",
+    "reason": "来自Energies（非优先列表），相关性强但期刊一般，方法有针对性，建议浏览。"
+  },
+  {
+    "title": "Combustion Battery: A Thermoacoustic Metal-Air Vehicle Powertrain",
+    "abstract": "We describe a hybrid vehicle powertrain that unifies electrochemical energy storage with thermoacoustic energy conversion, producing a system that discharges as electricity, heat, sound, and mechanical vibration simultaneously — the four output modes historically associated with internal combustion engines, but sourced from a metal-air electrochemical reaction rather than fossil fuel oxidation. The central engineering novelty is not the metal-air chemistry (established by Phinergy and Form Energy) nor the thermoacoustic conversion (established by Los Alamos National Laboratory and NASA Glenn Research Center), but their integration under a single throttle-mapped control system. The metal-air cell provides thermal input to a standing-wave resonator whose acoustic output is coupled to the vehicle exhaust path as engineered sound; excess acoustic energy is recaptured by piezoelectric transducers as supplementary electricity; buffer lithium-ion cells handle peak power demand and regenerative braking. Version 3.0 corrects three overclaims from the v2.0 EXPANDED concept document dated 27 April 2026. First, energy density figures are separated into anode-only and system-level columns in Section 4, with realistic system-level performance estimated at 300-500 Wh/kg — still 2 to 3 times superior to current lithium-ion at pack level, but no longer inflated to the 2000-4000 Wh/kg figure that appeared in v2.0. Second, the Meme rating is downgraded to Meme_3 with an annotated path to Meme_4 pending benchtop validation. Third, the previously stated 608.4 kHz ultrasonic catalysis frequency is reframed as one candidate operating point requiring empirical determination, with the correct scope being low-MHz sonoelectrochemistry per Compton et al 1997. Substantive additions in v3.0 include: Section 5, a stability analysis of the acoustic-electrochemical feedback loop proving bounded servo operation via three natural saturation mechanisms (resonator geometry ceiling, mass-transport limit, thermal management ceiling); Section 6, explicit cross-engine arsenal integration naming Combustion Battery as the electrochemical cousin of PWOTE within the True North Star — Mars 5-engine family, with the design philosophy \"geometry as instrument\" stated as prior art; Section 7, a mapping of the five-substrate frequency chain (chemical, thermal, acoustic, mechanical, electrical) to the four-vector relation P^mu = h-bar K^mu, positioning this powertrain as a physical demonstration of the Hz Is Everything framework at V10.1.0; Section 8, a fleet-first deployment strategy citing Better Place (2013 bankruptcy) and Gogoro (scooter-only) as consumer cartridge-swap failure precedents, with long-haul trucking, taxi and rideshare fleets, motorsport, and military auxiliary identified as Wave 1 targets and Australia as anchor market; Section 10, five falsification criteria specified for scientific rigor; Section 11, ethical constraints locked as prior art (prohibited applications: autonomous weapons platforms, civilian surveillance drones, environmentally destructive extraction, acoustic harassment; permitted applications enumerated in parallel); Section 13, an Australian empirical protocol proposal at N=10 vehicles per arm over 12 months on the Melbourne-Sydney freight corridor with Portland Aluminium as smelter partner; Section 14, constellation outreach targets including Phinergy, Form Energy, Los Alamos Thermoacoustics Group, NASA Glenn TAP Program, CSIRO Manufacturing, La Trobe University, Monash University, and the Australian Renewable Energy Agency. All technical claims are released under CC BY 4.0 to establish a public prior art record. Any party may build on, cite, or extend this work provided attribution is preserved. No patent applications are filed on the claims described. Priority date is 19 July 2026 Melbourne Australian Eastern Standard Time. This publication is part of the True North Star — Mars intellectual estate constellation. See Related Identifiers for isPartOf references to EVIS, Cellular Resonance V2.0, Quantorigami v0.1, Cellular DC V1.0, Cancer Corpus V1.0, and Vocal Trauma Tensor V1.0.",
+    "authors": [
+      "Saeid Ghiasi"
+    ],
+    "source": "OpenAlex",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "date": "2026-07-19",
+    "doi": "10.5281/zenodo.21435863",
+    "url": "https://doi.org/10.5281/zenodo.21435863",
+    "source_id": "",
+    "score": 110.0,
+    "level": "B",
+    "title_zh": "Combustion Battery: A Thermoacoustic Metal-Air Vehicle Powertrain",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 110.0，推荐等级 B。"
+  },
+  {
+    "title": "Combustion Battery: A Thermoacoustic Metal-Air Vehicle Powertrain",
+    "abstract": "We describe a hybrid vehicle powertrain that unifies electrochemical energy storage with thermoacoustic energy conversion, producing a system that discharges as electricity, heat, sound, and mechanical vibration simultaneously — the four output modes historically associated with internal combustion engines, but sourced from a metal-air electrochemical reaction rather than fossil fuel oxidation. The central engineering novelty is not the metal-air chemistry (established by Phinergy and Form Energy) nor the thermoacoustic conversion (established by Los Alamos National Laboratory and NASA Glenn Research Center), but their integration under a single throttle-mapped control system. The metal-air cell provides thermal input to a standing-wave resonator whose acoustic output is coupled to the vehicle exhaust path as engineered sound; excess acoustic energy is recaptured by piezoelectric transducers as supplementary electricity; buffer lithium-ion cells handle peak power demand and regenerative braking. Version 3.0 corrects three overclaims from the v2.0 EXPANDED concept document dated 27 April 2026. First, energy density figures are separated into anode-only and system-level columns in Section 4, with realistic system-level performance estimated at 300-500 Wh/kg — still 2 to 3 times superior to current lithium-ion at pack level, but no longer inflated to the 2000-4000 Wh/kg figure that appeared in v2.0. Second, the Meme rating is downgraded to Meme_3 with an annotated path to Meme_4 pending benchtop validation. Third, the previously stated 608.4 kHz ultrasonic catalysis frequency is reframed as one candidate operating point requiring empirical determination, with the correct scope being low-MHz sonoelectrochemistry per Compton et al 1997. Substantive additions in v3.0 include: Section 5, a stability analysis of the acoustic-electrochemical feedback loop proving bounded servo operation via three natural saturation mechanisms (resonator geometry ceiling, mass-transport limit, thermal management ceiling); Section 6, explicit cross-engine arsenal integration naming Combustion Battery as the electrochemical cousin of PWOTE within the True North Star — Mars 5-engine family, with the design philosophy \"geometry as instrument\" stated as prior art; Section 7, a mapping of the five-substrate frequency chain (chemical, thermal, acoustic, mechanical, electrical) to the four-vector relation P^mu = h-bar K^mu, positioning this powertrain as a physical demonstration of the Hz Is Everything framework at V10.1.0; Section 8, a fleet-first deployment strategy citing Better Place (2013 bankruptcy) and Gogoro (scooter-only) as consumer cartridge-swap failure precedents, with long-haul trucking, taxi and rideshare fleets, motorsport, and military auxiliary identified as Wave 1 targets and Australia as anchor market; Section 10, five falsification criteria specified for scientific rigor; Section 11, ethical constraints locked as prior art (prohibited applications: autonomous weapons platforms, civilian surveillance drones, environmentally destructive extraction, acoustic harassment; permitted applications enumerated in parallel); Section 13, an Australian empirical protocol proposal at N=10 vehicles per arm over 12 months on the Melbourne-Sydney freight corridor with Portland Aluminium as smelter partner; Section 14, constellation outreach targets including Phinergy, Form Energy, Los Alamos Thermoacoustics Group, NASA Glenn TAP Program, CSIRO Manufacturing, La Trobe University, Monash University, and the Australian Renewable Energy Agency. All technical claims are released under CC BY 4.0 to establish a public prior art record. Any party may build on, cite, or extend this work provided attribution is preserved. No patent applications are filed on the claims described. Priority date is 19 July 2026 Melbourne Australian Eastern Standard Time. This publication is part of the True North Star — Mars intellectual estate constellation. See Related Identifiers for isPartOf references to EVIS, Cellular Resonance V2.0, Quantorigami v0.1, Cellular DC V1.0, Cancer Corpus V1.0, and Vocal Trauma Tensor V1.0.",
+    "authors": [
+      "Saeid Ghiasi"
+    ],
+    "source": "OpenAlex",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "date": "2026-07-19",
+    "doi": "10.5281/zenodo.21435864",
+    "url": "https://doi.org/10.5281/zenodo.21435864",
+    "source_id": "",
+    "score": 110.0,
+    "level": "B",
+    "title_zh": "Combustion Battery: A Thermoacoustic Metal-Air Vehicle Powertrain",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 110.0，推荐等级 B。"
+  },
+  {
+    "title": "Quantum-Inspired Thermal Equilibrium: Integration of Collective Dynamics into Real-Time Stabilization of Magnetically Confined Fusion Plasmas — Extended Edition: Full-Pulse Operation and Hardware-Bounded Adversarial Stress Benchmark on TORAX 1.4, Hardware-in-the-Loop on Three Microcontroller ISAs, and a Second Machine: the GOLEM Tokamak from Public Data (Validated One-Parameter TORAX Model, 500 Blind-Predicted Shots, Chip-in-the-Loop Shot-to-Shot Campaigns)",
+    "abstract": "2026-07-19 — Second-machine extension of the deposit: the GOLEM tokamak (CTU Prague, R = 0.4 m, a = 0.085 m, Bt < 0.6 T, ohmic, ~15 ms discharges — the only tokamak with fully open per-shot data publication) is studied entirely from its public shot database, with no involvement of the GOLEM team and no endorsement implied. Three artefacts. (A) Dataset: 13 549 shots mined (2019–2026, 9 771 with plasma, H and He), shipped as one compact CSV of set parameters and per-shot results; measured shot-to-shot repeatability at fixed settings is ~25 % median Ip scatter, with systematic campaign-era drift (wall conditioning) — the machine is non-stationary. (B) Model: GOLEM implemented in TORAX 1.4 (circular geometry at GOLEM scale, ohmic + equipartition sources only, no pedestal, constant chi = 1.5 m²/s calibrated on a single helium shot and then frozen; QLKNN declared out of domain at 30..300 eV). 500 stratified unseen shots are then predicted blind, each driven by its real measured Ip(t) waveform, density, gas species and field: median |deviation| 17 % in Te_0, 335/500 within ±25 %, 490/500 within a factor 1.5; standard operating regime 15 % at −6 % bias; helium bias-free (−1 %). Systematic residuals concentrate in four declared zones (weak field U_Bt < 500 V: −26 %, runaway edge Te ≥ 150 eV: −22 %, 2019 era: −21 %, strong drive U_cd ≥ 650 V: +16 %); the error distribution is statistically identical at N = 200 and N = 500. The reference Te_0 is GOLEM's own conductivity-based estimate, so the validation is model-vs-model on identical raw signals; the model is nonetheless more precise than the ~25 % repeatability of the machine it models. (C) Campaigns: the identical 2 EUR ESP32-C3/Q16 chip of chapters 29–32 performs shot-to-shot optimisation (set knobs for shot N+1 from the measurements of shot N; no millisecond real-time claim is made or possible over the internet) against a k-NN surrogate that answers each knob setting with the outcome of a real neighbouring shot — response and noise measured, not modelled. Over 100 campaigns × 60 shots per policy with full per-shot logs: the QITE collective holds the found operating point at 5.45 kA (mean of the last 10 shots) vs 5.05 kA for a greedy hill-climber at comparable failed-shot cost (1.4 vs 1.2 per campaign); random search holds 3.81 kA and wastes 5.2 shots per campaign; best-found values are statistically equal (a lottery statistic under 25 % noise). Per-knob authority (kappa) and campaign confidence (vote V) are carried in the Q16 agent fields; the chip transfer function is verified against the analytic collapse formula to within 6 × 10⁻⁵ (the Q16 quantisation grid). 5 900 fleet calls, 0 protocol errors, 526 µs mean roundtrip. GOLEM campaign data are a separate data class and are deliberately not added to the tokamak-episode index. Chapter 33 of the master document (8 pages, 5 figures, A4) is inline-embedded in Bernd19.07.2026.pdf and reproduces every reported number from the CSVs in 02_data/33_golem_torax/. All measurement data and figures released under CC-BY-4.0 / CC0; GOLEM source data remain the property of their publishers (golem.fjfi.cvut.cz);Full technical specification in chapter 33. 2026-07-17 — Endurance and statistics extension of the hardware-bounded adversarial full-pulse study (chapter 31). Two studies on the same physical 2 EUR ESP32-C3 (RISC-V) chip, blend controller, criteria generation v2. Study A, single-seed endurance at XHARD-HB sev = 2: one continuous full pulse of 129 417 s (1.5 simulated days), terminated by operator with no disruption criterion fired. After 65 187 s of quiet burn (Q ≈ 12.7, β_N 0.82, two Greenwald bursts above f_GW 1.30 in 65 ks), the first triple valve-max fault stack of the run quenches the core — and the system locks into a self-sustaining relaxation cycle: quench, autonomous gas cut, unassisted in-model re-ignition, ~350 s period, 216 cycles to end of run with the controller reaction identical and correct in every one. The lock-in mechanism is measurable in the actuator stream (post-quench refuelling raises the mean commanded gas, so the stationary multiplicative disturbance saturates the valve clamp more often: 674..755 valve-max ticks per 10 ks before, 977..1075 after), and the controller autonomously raises Ip 9.8 → 10.7 MA under sustained load — the correct defensive direction. The same ~350 s relaxation-cycle class was observed in the 2026-06-25 STM32/Q8 flat-top long pulse (1 489 cycles, 335.6 s mean period) — a different kernel, scenario, chip and disturbance model finding the same attractor class. The deepest Greenwald burst reaches f_GW = 1.496 of the 1.5 criterion; zero criterion crossings in 129 417 ticks; one raw negative-q_min fit-artifact tick (quarantined, retained — the safety_factor_fit defect of TORAX issue #2284, whose upstream fix PR #2288 was opened by the TORAX maintainers while these runs were executing). Declared: the quench/re-ignition cycles are 1D-transport model dynamics, not plasma-survivability claims. Study B, 100-seed statistics at XHARD-HB sev = 5, 5 000 s pulses: 68/100 disruption-free [Wilson 95 %: 58.3 %, 76.3 %], superseding the N = 10 ladder point of chapter 31 (9/10). All 32 deaths are the Greenwald criterion inside the early ramp (t = 4..78 s); zero deaths afterwards — the 68 survivors accumulate 333 ks of burn at sev = 5 without a single disruption while absorbing ~9 417 disturbance events each, and converge onto one operating point (q_min floor 1.776 ± 0.017 across 68 independent seeds, Q_fus mean 12.43 ± 0.39, H98 1.751 ± 0.026). Additionally documented: a 12 000 s re-execution of study A's (severity, seed) configuration, launched independently ~22 h earlier, is byte-identical to study A over all 12 000 overlapping ticks — through the full chain of TORAX/JAX numerics, USB-CDC transport and the Q16 kernel on silicon; every episode in this deposit is reproducible in this exact sense. Chapter 32 of the master document (8 pages, 5 figures, A4) is inline-embedded in Bernd17.07.2026.pdf and reproduces every reported number from the CSVs in 02_data/32_c3_q16_longpulse_hb/. The aggregate deposit now contains 10 775 reproducible episodes across 25 (date × study × policy) groups. All measurement data and figures released under CC-BY-4.0 / CC0; only the QITE Core SDK itself remains proprietary (DPMA Aktenzeichen 10 2025 003 906.9 and 10 2025 004 891.2). Full technical specification in chapter 32. 2026-07-15 — Adversarial full-pulse extension of the deposit: the XHARD disturbance cascade is applied to the complete pulse envelope of the 2026-07-13 chapter — cold 3 MA start, controller-driven current rampup, scheduled L-H transition, ignition, and self-heated burn — on the same physical 2 EUR ESP32-C3 (RISC-V) chip, and the chapter documents both a disturbance-model correction and the escalation limit of the corrected battery. The study has a three-act structure. Acts 1 and 2: unbounded XHARD at sev = 1.0 kills 10 / 10 episodes within t ≤ 10 s under the chapter-30 hard-latch phase controller, and 10 / 10 within t ≤ 14 s under a newly introduced blended controller (geometric lambda superposition of the rampup and flat-top mapping sets — equivalent to linear interpolation of the encoded ln(R) evidence — with weight driven by q95 and Q_fus headroom, latching at w = 1; a host-side change, the chip firmware byte-identical). Two independent controller architectures failing identically on the same input localise the defect in the disturbance model, not the controller: the unbounded cascade injects gas-puff commands of up to ~6 × 10²³ s⁻¹ — 10–12 × the physical maximum of the fuelling valve — during the 3 MA ramp, where the Greenwald density limit is at its smallest, and no control policy can pump particles back out of the vessel. Act 3: the corrected battery (XHARD-HB) clamps every disturbance-corrupted actuator command to the physical actuator envelope (Ip 2–15 MA, NBI 0–33 MW, ECRH 0–20 MW, gas 10¹⁹–5 × 10²² s⁻¹) — the norm-bounded-uncertainty convention of H-infinity robust control and the stuck-at-limit convention of FMEA fault taxonomies; plasma-physics events (ELM radiation spikes, Z_eff drift) remain unbounded, as they are not delivered through hardware. Under the bounded cascade the identical battery yields 10 / 10 disruption-free 1 200 s full pulses at sev = 1.0. An escalation ladder then maps the failure envelope of the bounded battery: 10 / 10 at sev = 1, 9 / 10 at sev = 5, 5 / 10 at sev = 10, 0 / 10 at sev = 120. Every death at every severity is the Greenwald criterion (f_GW > 1.5) inside the early ramp (t ≤ 83 s), and every dead seed still shows its initial-condition β_N and q_min at the moment of disruption — the plasma is healthy until a valve-stuck-fully-open event lands inside the low-Greenwald ramp window, machine-protection territory rather than plasma control. No seed at any severity ever died after the controller blend completed, and survivors are statistically indistinguishable across severities (Q_fus mean 11.66 / 11.77 / 11.76, H98 1.71 / 1.68 / 1.69, q_min floor 1.61 / 1.77 / 1.80 at sev 1 / 5 / 10) while the absorbed adversarial load triples (784 → 2 281 events per episode; at sev ≥ 5 every control tick carries an ELM and ~40 % of heating commands drop out): severity does not degrade the controller, it raises the probability of an uncontrollable window hit, and the outcome is strictly binary — die inside the ramp window or complete the full pulse. Declared limitation, stated in full in the chapter: this chapter introduces scoring-rule generation v2, which adds the single-tick Greenwald density criterion; the earlier flat-top chapters were scored under v1 without a density-limit criterion and remain unchanged under their declared rules — survival rates across chapters must be compared per rule generation. The blend controller and the hardware-bounds clamp are additive throughout; every published XHARD and nominal result is byte-for-byte unchanged. Chapter 31 of the maste",
+    "authors": [
+      "Bernd Westrick"
+    ],
+    "source": "OpenAlex",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "date": "2026-07-19",
+    "doi": "10.5281/zenodo.21445160",
+    "url": "https://doi.org/10.5281/zenodo.21445160",
+    "source_id": "",
+    "score": 94.0,
+    "level": "B",
+    "title_zh": "Quantum-Inspired Thermal Equilibrium: Integration of Collective Dynamics into Real-Time Stabilization of Magnetically Confined Fusion Plasmas — Extended Edition: Full-Pulse Operation and Hardware-Bounded Adversarial Stress Benchmark on TORAX 1.4, Hardware-in-the-Loop on Three Microcontroller ISAs, and a Second Machine: the GOLEM Tokamak from Public Data (Validated One-Parameter TORAX Model, 500 Blind-Predicted Shots, Chip-in-the-Loop Shot-to-Shot Campaigns)",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 94.0，推荐等级 B。"
+  },
+  {
+    "title": "Quantum-Inspired Thermal Equilibrium: Integration of Collective Dynamics into Real-Time Stabilization of Magnetically Confined Fusion Plasmas — Extended Edition: Full-Pulse Operation and Hardware-Bounded Adversarial Stress Benchmark on TORAX 1.4, Hardware-in-the-Loop on Three Microcontroller ISAs, and a Second Machine: the GOLEM Tokamak from Public Data (Validated One-Parameter TORAX Model, 500 Blind-Predicted Shots, Chip-in-the-Loop Shot-to-Shot Campaigns)",
+    "abstract": "2026-07-19 — Second-machine extension of the deposit: the GOLEM tokamak (CTU Prague, R = 0.4 m, a = 0.085 m, Bt < 0.6 T, ohmic, ~15 ms discharges — the only tokamak with fully open per-shot data publication) is studied entirely from its public shot database, with no involvement of the GOLEM team and no endorsement implied. Three artefacts. (A) Dataset: 13 549 shots mined (2019–2026, 9 771 with plasma, H and He), shipped as one compact CSV of set parameters and per-shot results; measured shot-to-shot repeatability at fixed settings is ~25 % median Ip scatter, with systematic campaign-era drift (wall conditioning) — the machine is non-stationary. (B) Model: GOLEM implemented in TORAX 1.4 (circular geometry at GOLEM scale, ohmic + equipartition sources only, no pedestal, constant chi = 1.5 m²/s calibrated on a single helium shot and then frozen; QLKNN declared out of domain at 30..300 eV). 500 stratified unseen shots are then predicted blind, each driven by its real measured Ip(t) waveform, density, gas species and field: median |deviation| 17 % in Te_0, 335/500 within ±25 %, 490/500 within a factor 1.5; standard operating regime 15 % at −6 % bias; helium bias-free (−1 %). Systematic residuals concentrate in four declared zones (weak field U_Bt < 500 V: −26 %, runaway edge Te ≥ 150 eV: −22 %, 2019 era: −21 %, strong drive U_cd ≥ 650 V: +16 %); the error distribution is statistically identical at N = 200 and N = 500. The reference Te_0 is GOLEM's own conductivity-based estimate, so the validation is model-vs-model on identical raw signals; the model is nonetheless more precise than the ~25 % repeatability of the machine it models. (C) Campaigns: the identical 2 EUR ESP32-C3/Q16 chip of chapters 29–32 performs shot-to-shot optimisation (set knobs for shot N+1 from the measurements of shot N; no millisecond real-time claim is made or possible over the internet) against a k-NN surrogate that answers each knob setting with the outcome of a real neighbouring shot — response and noise measured, not modelled. Over 100 campaigns × 60 shots per policy with full per-shot logs: the QITE collective holds the found operating point at 5.45 kA (mean of the last 10 shots) vs 5.05 kA for a greedy hill-climber at comparable failed-shot cost (1.4 vs 1.2 per campaign); random search holds 3.81 kA and wastes 5.2 shots per campaign; best-found values are statistically equal (a lottery statistic under 25 % noise). Per-knob authority (kappa) and campaign confidence (vote V) are carried in the Q16 agent fields; the chip transfer function is verified against the analytic collapse formula to within 6 × 10⁻⁵ (the Q16 quantisation grid). 5 900 fleet calls, 0 protocol errors, 526 µs mean roundtrip. GOLEM campaign data are a separate data class and are deliberately not added to the tokamak-episode index. Chapter 33 of the master document (8 pages, 5 figures, A4) is inline-embedded in Bernd19.07.2026.pdf and reproduces every reported number from the CSVs in 02_data/33_golem_torax/. All measurement data and figures released under CC-BY-4.0 / CC0; GOLEM source data remain the property of their publishers (golem.fjfi.cvut.cz);Full technical specification in chapter 33. 2026-07-17 — Endurance and statistics extension of the hardware-bounded adversarial full-pulse study (chapter 31). Two studies on the same physical 2 EUR ESP32-C3 (RISC-V) chip, blend controller, criteria generation v2. Study A, single-seed endurance at XHARD-HB sev = 2: one continuous full pulse of 129 417 s (1.5 simulated days), terminated by operator with no disruption criterion fired. After 65 187 s of quiet burn (Q ≈ 12.7, β_N 0.82, two Greenwald bursts above f_GW 1.30 in 65 ks), the first triple valve-max fault stack of the run quenches the core — and the system locks into a self-sustaining relaxation cycle: quench, autonomous gas cut, unassisted in-model re-ignition, ~350 s period, 216 cycles to end of run with the controller reaction identical and correct in every one. The lock-in mechanism is measurable in the actuator stream (post-quench refuelling raises the mean commanded gas, so the stationary multiplicative disturbance saturates the valve clamp more often: 674..755 valve-max ticks per 10 ks before, 977..1075 after), and the controller autonomously raises Ip 9.8 → 10.7 MA under sustained load — the correct defensive direction. The same ~350 s relaxation-cycle class was observed in the 2026-06-25 STM32/Q8 flat-top long pulse (1 489 cycles, 335.6 s mean period) — a different kernel, scenario, chip and disturbance model finding the same attractor class. The deepest Greenwald burst reaches f_GW = 1.496 of the 1.5 criterion; zero criterion crossings in 129 417 ticks; one raw negative-q_min fit-artifact tick (quarantined, retained — the safety_factor_fit defect of TORAX issue #2284, whose upstream fix PR #2288 was opened by the TORAX maintainers while these runs were executing). Declared: the quench/re-ignition cycles are 1D-transport model dynamics, not plasma-survivability claims. Study B, 100-seed statistics at XHARD-HB sev = 5, 5 000 s pulses: 68/100 disruption-free [Wilson 95 %: 58.3 %, 76.3 %], superseding the N = 10 ladder point of chapter 31 (9/10). All 32 deaths are the Greenwald criterion inside the early ramp (t = 4..78 s); zero deaths afterwards — the 68 survivors accumulate 333 ks of burn at sev = 5 without a single disruption while absorbing ~9 417 disturbance events each, and converge onto one operating point (q_min floor 1.776 ± 0.017 across 68 independent seeds, Q_fus mean 12.43 ± 0.39, H98 1.751 ± 0.026). Additionally documented: a 12 000 s re-execution of study A's (severity, seed) configuration, launched independently ~22 h earlier, is byte-identical to study A over all 12 000 overlapping ticks — through the full chain of TORAX/JAX numerics, USB-CDC transport and the Q16 kernel on silicon; every episode in this deposit is reproducible in this exact sense. Chapter 32 of the master document (8 pages, 5 figures, A4) is inline-embedded in Bernd17.07.2026.pdf and reproduces every reported number from the CSVs in 02_data/32_c3_q16_longpulse_hb/. The aggregate deposit now contains 10 775 reproducible episodes across 25 (date × study × policy) groups. All measurement data and figures released under CC-BY-4.0 / CC0; only the QITE Core SDK itself remains proprietary (DPMA Aktenzeichen 10 2025 003 906.9 and 10 2025 004 891.2). Full technical specification in chapter 32. 2026-07-15 — Adversarial full-pulse extension of the deposit: the XHARD disturbance cascade is applied to the complete pulse envelope of the 2026-07-13 chapter — cold 3 MA start, controller-driven current rampup, scheduled L-H transition, ignition, and self-heated burn — on the same physical 2 EUR ESP32-C3 (RISC-V) chip, and the chapter documents both a disturbance-model correction and the escalation limit of the corrected battery. The study has a three-act structure. Acts 1 and 2: unbounded XHARD at sev = 1.0 kills 10 / 10 episodes within t ≤ 10 s under the chapter-30 hard-latch phase controller, and 10 / 10 within t ≤ 14 s under a newly introduced blended controller (geometric lambda superposition of the rampup and flat-top mapping sets — equivalent to linear interpolation of the encoded ln(R) evidence — with weight driven by q95 and Q_fus headroom, latching at w = 1; a host-side change, the chip firmware byte-identical). Two independent controller architectures failing identically on the same input localise the defect in the disturbance model, not the controller: the unbounded cascade injects gas-puff commands of up to ~6 × 10²³ s⁻¹ — 10–12 × the physical maximum of the fuelling valve — during the 3 MA ramp, where the Greenwald density limit is at its smallest, and no control policy can pump particles back out of the vessel. Act 3: the corrected battery (XHARD-HB) clamps every disturbance-corrupted actuator command to the physical actuator envelope (Ip 2–15 MA, NBI 0–33 MW, ECRH 0–20 MW, gas 10¹⁹–5 × 10²² s⁻¹) — the norm-bounded-uncertainty convention of H-infinity robust control and the stuck-at-limit convention of FMEA fault taxonomies; plasma-physics events (ELM radiation spikes, Z_eff drift) remain unbounded, as they are not delivered through hardware. Under the bounded cascade the identical battery yields 10 / 10 disruption-free 1 200 s full pulses at sev = 1.0. An escalation ladder then maps the failure envelope of the bounded battery: 10 / 10 at sev = 1, 9 / 10 at sev = 5, 5 / 10 at sev = 10, 0 / 10 at sev = 120. Every death at every severity is the Greenwald criterion (f_GW > 1.5) inside the early ramp (t ≤ 83 s), and every dead seed still shows its initial-condition β_N and q_min at the moment of disruption — the plasma is healthy until a valve-stuck-fully-open event lands inside the low-Greenwald ramp window, machine-protection territory rather than plasma control. No seed at any severity ever died after the controller blend completed, and survivors are statistically indistinguishable across severities (Q_fus mean 11.66 / 11.77 / 11.76, H98 1.71 / 1.68 / 1.69, q_min floor 1.61 / 1.77 / 1.80 at sev 1 / 5 / 10) while the absorbed adversarial load triples (784 → 2 281 events per episode; at sev ≥ 5 every control tick carries an ELM and ~40 % of heating commands drop out): severity does not degrade the controller, it raises the probability of an uncontrollable window hit, and the outcome is strictly binary — die inside the ramp window or complete the full pulse. Declared limitation, stated in full in the chapter: this chapter introduces scoring-rule generation v2, which adds the single-tick Greenwald density criterion; the earlier flat-top chapters were scored under v1 without a density-limit criterion and remain unchanged under their declared rules — survival rates across chapters must be compared per rule generation. The blend controller and the hardware-bounds clamp are additive throughout; every published XHARD and nominal result is byte-for-byte unchanged. Chapter 31 of the maste",
+    "authors": [
+      "Bernd Westrick"
+    ],
+    "source": "OpenAlex",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "date": "2026-07-19",
+    "doi": "10.5281/zenodo.19457727",
+    "url": "https://doi.org/10.5281/zenodo.19457727",
+    "source_id": "",
+    "score": 94.0,
+    "level": "B",
+    "title_zh": "Quantum-Inspired Thermal Equilibrium: Integration of Collective Dynamics into Real-Time Stabilization of Magnetically Confined Fusion Plasmas — Extended Edition: Full-Pulse Operation and Hardware-Bounded Adversarial Stress Benchmark on TORAX 1.4, Hardware-in-the-Loop on Three Microcontroller ISAs, and a Second Machine: the GOLEM Tokamak from Public Data (Validated One-Parameter TORAX Model, 500 Blind-Predicted Shots, Chip-in-the-Loop Shot-to-Shot Campaigns)",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计或储能管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "关键词、BMS相关性和期刊优先级综合评分 94.0，推荐等级 B。"
+  }
+]
