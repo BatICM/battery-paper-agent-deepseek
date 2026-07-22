@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Battery Management Literature Daily｜2026-07-22</title>
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",Arial,sans-serif;line-height:1.68;color:#1f2933;background:#f5f7fa;margin:0;padding:0;}
+    .container{max-width:1040px;margin:0 auto;padding:28px 20px 44px;}
+    .header{background:linear-gradient(135deg,#063b5c,#0b7285);color:#fff;border-radius:18px;padding:28px 30px;margin-bottom:22px;box-shadow:0 8px 22px rgba(0,0,0,.12);}
+    .header h1{margin:0 0 12px;font-size:28px;letter-spacing:.3px;}
+    .header p{margin:4px 0;color:#e7f5ff;}
+    .summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:18px 0 6px;}
+    .stat{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.22);border-radius:14px;padding:12px 14px;}
+    .stat b{font-size:24px;color:#fff;display:block;}
+    .block{background:#fff;border:1px solid #d9e2ec;border-radius:16px;padding:22px;margin:18px 0;box-shadow:0 2px 10px rgba(15,23,42,.04);}
+    h2{color:#0b3d5c;margin:0 0 14px;font-size:22px;}
+    h3{margin:0 0 10px;font-size:19px;color:#102a43;}
+    .meta{color:#52616b;font-size:14px;margin:4px 0;}
+    .paper{border-top:1px solid #e5edf3;padding-top:18px;margin-top:18px;}
+    .paper:first-child{border-top:none;padding-top:0;margin-top:0;}
+    .tag{display:inline-block;border-radius:999px;padding:4px 10px;color:#fff;font-size:12px;font-weight:700;letter-spacing:.2px;margin-right:8px;}
+    .A{background:#c62828;}.B{background:#ef6c00;}.C{background:#607d8b;}
+    .score{display:inline-block;background:#edf2f7;color:#334e68;border-radius:999px;padding:4px 10px;font-size:12px;}
+    ul{padding-left:22px;margin:8px 0 10px;}
+    a{color:#0b7285;text-decoration:none;}a:hover{text-decoration:underline;}
+    table{width:100%;border-collapse:collapse;background:white;font-size:14px;}
+    th,td{border:1px solid #d9e2ec;padding:10px;vertical-align:top;text-align:left;}
+    th{background:#edf4f7;color:#243b53;}
+    .footer{font-size:13px;color:#697386;text-align:center;margin-top:24px;}
+    @media(max-width:720px){.summary-grid{grid-template-columns:1fr}.header{border-radius:0}.container{padding:0 0 28px}.block{border-radius:0;border-left:none;border-right:none}.header h1{font-size:24px}}
+  </style>
+</head>
+<body>
+<div class="container">
+  <section class="header">
+    <h1>Battery Management Literature Daily</h1>
+    <p><b>日期：</b>2026-07-22 ｜ <b>检索窗口：</b>近 2 天 ｜ <b>生成时间：</b>2026-07-22 11:58:56 UTC+8</p>
+    <p>今日候选论文覆盖电池热失控、早期寿命预测、SOH/SOC估计、电池均衡及故障检测等BMS核心方向，其中eTransportation和Journal of Energy Storage上的研究具有较高价值，同时出现多篇聚焦真实场景数据与实用方法的论文。</p>
+    <div class="summary-grid">
+      <div class="stat"><b>3</b> A级必读</div>
+      <div class="stat"><b>6</b> B级浏览</div>
+      <div class="stat"><b>1</b> C级备选</div>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>一、今日趋势判断</h2>
+    <p>趋势上，物理信息融合（如CR-TESD、PA-FMCN）与数据驱动结合成为热点，同时退役电池均衡、多车型SOC估计等实际应用问题受到关注；不完整数据下的SOH估计和eVTOL电池故障检测也是新兴方向。</p>
+  </section>
+
+  <section class="block">
+    <h2>二、A级必读论文</h2>
+    
+      
+      <article class="paper">
+        <h3>1. Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 90.5</span></p>
+        <p class="meta"><b>中文题目：</b>锂离子电池包热失控过程中的电短路行为与临时局部过充电条件</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>eTransportation ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>详细分析电池包热失控中的内部短路和局部过充机制，为安全预警提供依据。</p>
+        <p><b>研究问题：</b>电池包热失控过程中内部短路与局部过充的演化规律及影响。</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>揭示了热失控期间局部过充的动态形成机制</li><li>建立了短路行为与热失控传播的关联模型</li><li>为热失控早期预警提供了关键特征</li></ul>
+        <p><b>与BMS相关性：</b>强相关。直接研究电池包热失控行为，是BMS安全预警的核心问题。</p>
+        <p><b>对课题组启发：</b>可借鉴其局部过充检测思路，用于pack-level不一致性分析和热失控早期预警算法开发。</p>
+        <p><b>推荐理由：</b>A级：eTransportation（优先级15）高相关期刊，内容聚焦BMS安全预警，对课题组热失控方向有直接参考价值。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>2. Foresight-based fault detection for electric vertical take-off and landing aircraft battery packs</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 83.0</span></p>
+        <p class="meta"><b>中文题目：</b>基于预见性的电动垂直起降飞行器电池包故障检测</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26033141?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2352152X26033141?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>针对eVTOL电池包提出预见性故障检测方法，保障安全运行。</p>
+        <p><b>研究问题：</b>eVTOL电池包在严苛工况下的故障检测挑战。</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>提出基于模型和数据混合的预见性检测方法</li><li>实现在线故障早期识别</li><li>在eVTOL电池包数据上验证</li></ul>
+        <p><b>与BMS相关性：</b>强相关。直接面向电池包故障检测，属于BMS安全预警方向。</p>
+        <p><b>对课题组启发：</b>其混合检测策略可用于课题组电池包故障诊断，特别是高空飞行场景下的安全监控。</p>
+        <p><b>推荐理由：</b>A级：Journal of Energy Storage（优先级在第15之后但属电池领域存贮专业期刊），内容与BMS故障检测高度相关。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>3. State of Charge Estimation for Both Electric Bus and Passenger Vehicles with Different Battery Types Using Multi-Instance Learning</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 76.0</span></p>
+        <p class="meta"><b>中文题目：</b>基于多实例学习的电动公交和乘用车不同电池类型荷电状态估计</p>
+        <p class="meta"><b>作者：</b>Ibrahim Atakan Kubilay, Derya Birant</p>
+        <p class="meta"><b>来源：</b>Batteries ｜ <b>日期：</b>2026-07-21 ｜ <b>数据源：</b>Crossref</p>
+        <p class="meta"><b>DOI：</b>10.3390/batteries12070266</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.3390/batteries12070266">https://doi.org/10.3390/batteries12070266</a></p>
+        <p><b>一句话总结：</b>提出MIL-LGBM框架，利用真实运行数据实现多车型、多化学体系的SOC估计。</p>
+        <p><b>研究问题：</b>现有SOC方法局限于单一车型、化学体系和实验室条件。</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>引入多实例学习处理真实数据不确定性</li><li>联合覆盖公交和乘用车、NMC和LFP</li><li>在真实道路上实现0.799 MAE</li></ul>
+        <p><b>与BMS相关性：</b>强相关。SOC估计是BMS核心，且使用真实车队数据。</p>
+        <p><b>对课题组启发：</b>其多实例学习方法可用于课题组现场数据分析，解决数据异质性问题。</p>
+        <p><b>推荐理由：</b>A级：虽期刊Batteries一般，但方法创新（多实例学习）和真实数据应用价值高，对课题组SOC研究有直接启发。</p>
+      </article>
+      
+    
+  </section>
+
+  <section class="block">
+    <h2>三、B级建议浏览论文</h2>
+    
+      
+      <article class="paper">
+        <h3>1. Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 88.5</span></p>
+        <p class="meta"><b>中文题目：</b>基于物理约束符号回归-物理信息神经网络的PEMFC退化数据高效可解释长期预测</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>eTransportation ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>提出物理信息神经网络用于燃料电池退化预测，方法可迁移至锂电池RUL。</p>
+        <ul><li>结合符号回归与物理信息神经网络</li><li>实现了数据高效且可解释的预测</li><li>在PEMFC数据集上验证</li></ul>
+        <p><b>与BMS相关性：</b>相关但不直接。研究对象为PEMFC，但PHM方法可用于电池RUL预测。</p>
+        <p><b>对课题组启发：</b>其物理约束+符号回归思路可借鉴到电池RUL预测，特别是轻量化模型设计。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>2. Design of an Improved Physics-Aware Early-Life Prognostic Framework for Reliable Remaining Useful Life Prediction of Lithium-Ion Batteries in Real-Time Battery Management Systems</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 176.0</span></p>
+        <p class="meta"><b>中文题目：</b>面向实时BMS的改进物理感知早期寿命预测框架用于锂离子电池可靠剩余寿命预测</p>
+        <p class="meta"><b>作者：</b>Vinaya Sonparote</p>
+        <p class="meta"><b>来源：</b>International Journal for Research in Applied Science and Engineering Technology ｜ <b>日期：</b>2026-07-20 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.22214/ijraset.2026.84327</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.22214/ijraset.2026.84327">https://doi.org/10.22214/ijraset.2026.84327</a></p>
+        <p><b>一句话总结：</b>提出融合物理信息的早期寿命预测框架，包含退化显著性分析和约束特征学习。</p>
+        <ul><li>提出CR-TESD进行退化显著性分析</li><li>设计PA-FMCN进行物理约束特征学习</li><li>构建PEL-RBL和PGTHPN实现早期RUL预测</li></ul>
+        <p><b>与BMS相关性：</b>强相关。专注于锂电池RUL预测，面向实时BMS部署。</p>
+        <p><b>对课题组启发：</b>其物理感知早期预测思路可迁移到课题组SOH/RUL研究，尤其是特征压缩与单调性约束。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>3. Dual-Branch Bidirectional Long Short-Term Memory Network for Battery State of Health Estimation Under Incomplete Data</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 122.0</span></p>
+        <p class="meta"><b>中文题目：</b>面向不完整数据的双分支双向LSTM网络用于电池健康状态估计</p>
+        <p class="meta"><b>作者：</b>Le Ke, Xi Zhang, Lujuan Dang</p>
+        <p class="meta"><b>来源：</b>Energies ｜ <b>日期：</b>2026-07-20 ｜ <b>数据源：</b>OpenAlex+Crossref</p>
+        <p class="meta"><b>DOI：</b>10.3390/en19143417</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.3390/en19143417">https://doi.org/10.3390/en19143417</a></p>
+        <p><b>一句话总结：</b>提出VCIC-DB-BiLSTM网络在不完整放电数据下实现精确SOH估计。</p>
+        <ul><li>提出电压-充电增量曲线处理不完整数据</li><li>设计双分支双向LSTM网络融合多尺度特征</li><li>在四个公开数据集上验证有效性</li></ul>
+        <p><b>与BMS相关性：</b>强相关。SOH估计是BMS核心功能，且解决不完整数据实际问题。</p>
+        <p><b>对课题组启发：</b>可用于课题组SOH估计研究，特别是现场数据不完整情况下的方法设计。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>4. Lithium-Ion Battery SOH Estimation Driven by Multi-Level Features from Adaptive Optimal Intervals and HISSA-BiLSTM</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 122.0</span></p>
+        <p class="meta"><b>中文题目：</b>基于自适应最优区间多级特征和HISSA-BiLSTM的锂离子电池SOH估计</p>
+        <p class="meta"><b>作者：</b>Yuan Jiang, Xinlei Qiao, Lu Lv, Lujun Wang</p>
+        <p class="meta"><b>来源：</b>Journal of The Electrochemical Society ｜ <b>日期：</b>2026-07-20 ｜ <b>数据源：</b>Crossref</p>
+        <p class="meta"><b>DOI：</b>10.1149/1945-7111/ae8724</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1149/1945-7111/ae8724">https://doi.org/10.1149/1945-7111/ae8724</a></p>
+        <p><b>一句话总结：</b>通过自适应区间选择和混合优化BiLSTM实现电池SOH估计。</p>
+        <ul><li>提出自适应区间搜索框架</li><li>提取16维多级特征并筛选</li><li>利用HISSA优化BiLSTM</li></ul>
+        <p><b>与BMS相关性：</b>强相关。直接面向BMS中的SOH估计。</p>
+        <p><b>对课题组启发：</b>其自适应区间特征选择方法可用于课题组特征工程和数据驱动建模。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>5. BMS algorithm using AI techniques for state of charge estimation in electric vehicles</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 118.0</span></p>
+        <p class="meta"><b>中文题目：</b>基于AI技术的电动汽车电池管理系统算法用于荷电状态估计</p>
+        <p class="meta"><b>作者：</b>Beril Yildirim, Majd Zakour Ashi, Barış Aykent</p>
+        <p class="meta"><b>来源：</b>Proceedings of the Institution of Mechanical Engineers Part D Journal of Automobile Engineering ｜ <b>日期：</b>2026-07-20 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.1177/09544070261468609</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1177/09544070261468609">https://doi.org/10.1177/09544070261468609</a></p>
+        <p><b>一句话总结：</b>对比EKF、FFNN和NARX神经网络在SOC估计中的性能，考虑道路坡度影响。</p>
+        <ul><li>在多种坡度条件下比较模型和数据驱动方法</li><li>评估了不同方法的MSE和RMSE</li></ul>
+        <p><b>与BMS相关性：</b>强相关。SOC估计是BMS核心。</p>
+        <p><b>对课题组启发：</b>提供了不同SOC方法的对比，可参考其坡度影响分析。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>6. An Adaptive Fuzzy Active Equalization Strategy Coupling SOC and Irradiance for Retired Batteries in Photovoltaic Energy Storage Applications</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 78.0</span></p>
+        <p class="meta"><b>中文题目：</b>耦合SOC和辐照度的自适应模糊主动均衡策略用于光伏储能中的退役电池</p>
+        <p class="meta"><b>作者：</b>Yan Jiang, Jiawei Chen, Rui Liu, Yupeng Guo, Hai Wang et al.</p>
+        <p class="meta"><b>来源：</b>Batteries ｜ <b>日期：</b>2026-07-20 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.3390/batteries12070263</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.3390/batteries12070263">https://doi.org/10.3390/batteries12070263</a></p>
+        <p><b>一句话总结：</b>提出考虑辐照度波动的自适应模糊均衡策略，缩短退役电池组均衡时间。</p>
+        <ul><li>引入辐照度及其变化率作为模糊控制器输入</li><li>基于多通道双向反激变换器实现均衡</li><li>仿真验证性能提升</li></ul>
+        <p><b>与BMS相关性：</b>强相关。针对pack均衡，直接关联BMS中的主动均衡技术。</p>
+        <p><b>对课题组启发：</b>其辐照度感知思路可用于课题组储能场景下的电池均衡控制。</p>
+      </article>
+      
+    
+  </section>
+
+  <section class="block">
+    <h2>四、C级备选与快速浏览</h2>
+    
+    <table>
+      <thead><tr><th>标题</th><th>来源</th><th>日期</th><th>推荐理由</th></tr></thead>
+      <tbody>
+      
+        <tr>
+          <td><a href="https://doi.org/10.3390/batteries12070264">Rechargeable Batteries for Grid-Scale Energy Storage: Technologies, Performance, and Emerging Directions</a></td>
+          <td>Batteries</td>
+          <td>2026-07-20</td>
+          <td>C级：综述文章，与BMS相关但不够聚焦，仅备选。</td>
+        </tr>
+      
+      </tbody>
+    </table>
+    
+  </section>
+
+  <section class="block">
+    <h2>五、今日论文总表</h2>
+    <table>
+      <thead><tr><th>等级</th><th>标题</th><th>期刊/来源</th><th>方向判断</th><th>链接</th></tr></thead>
+      <tbody>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs</td>
+          <td>eTransportation</td>
+          <td>详细分析电池包热失控中的内部短路和局部过充机制，为安全预警提供依据。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network</td>
+          <td>eTransportation</td>
+          <td>提出物理信息神经网络用于燃料电池退化预测，方法可迁移至锂电池RUL。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>Foresight-based fault detection for electric vertical take-off and landing aircraft battery packs</td>
+          <td>Journal of Energy Storage</td>
+          <td>针对eVTOL电池包提出预见性故障检测方法，保障安全运行。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26033141?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Design of an Improved Physics-Aware Early-Life Prognostic Framework for Reliable Remaining Useful Life Prediction of Lithium-Ion Batteries in Real-Time Battery Management Systems</td>
+          <td>International Journal for Research in Applied Science and Engineering Technology</td>
+          <td>提出融合物理信息的早期寿命预测框架，包含退化显著性分析和约束特征学习。</td>
+          <td><a href="https://doi.org/10.22214/ijraset.2026.84327">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Dual-Branch Bidirectional Long Short-Term Memory Network for Battery State of Health Estimation Under Incomplete Data</td>
+          <td>Energies</td>
+          <td>提出VCIC-DB-BiLSTM网络在不完整放电数据下实现精确SOH估计。</td>
+          <td><a href="https://doi.org/10.3390/en19143417">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Lithium-Ion Battery SOH Estimation Driven by Multi-Level Features from Adaptive Optimal Intervals and HISSA-BiLSTM</td>
+          <td>Journal of The Electrochemical Society</td>
+          <td>通过自适应区间选择和混合优化BiLSTM实现电池SOH估计。</td>
+          <td><a href="https://doi.org/10.1149/1945-7111/ae8724">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>BMS algorithm using AI techniques for state of charge estimation in electric vehicles</td>
+          <td>Proceedings of the Institution of Mechanical Engineers Part D Journal of Automobile Engineering</td>
+          <td>对比EKF、FFNN和NARX神经网络在SOC估计中的性能，考虑道路坡度影响。</td>
+          <td><a href="https://doi.org/10.1177/09544070261468609">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>Rechargeable Batteries for Grid-Scale Energy Storage: Technologies, Performance, and Emerging Directions</td>
+          <td>Batteries</td>
+          <td>全面综述电网储能电池技术，涵盖热管理、安全及数字孪生。</td>
+          <td><a href="https://doi.org/10.3390/batteries12070264">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>An Adaptive Fuzzy Active Equalization Strategy Coupling SOC and Irradiance for Retired Batteries in Photovoltaic Energy Storage Applications</td>
+          <td>Batteries</td>
+          <td>提出考虑辐照度波动的自适应模糊均衡策略，缩短退役电池组均衡时间。</td>
+          <td><a href="https://doi.org/10.3390/batteries12070263">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>State of Charge Estimation for Both Electric Bus and Passenger Vehicles with Different Battery Types Using Multi-Instance Learning</td>
+          <td>Batteries</td>
+          <td>提出MIL-LGBM框架，利用真实运行数据实现多车型、多化学体系的SOC估计。</td>
+          <td><a href="https://doi.org/10.3390/batteries12070266">Open</a></td>
+        </tr>
+      
+      </tbody>
+    </table>
+  </section>
+
+  <p class="footer">Generated by battery-paper-agent. 请人工复核关键结论后再用于论文综述或组会汇报。</p>
+</div>
+</body>
+</html>
