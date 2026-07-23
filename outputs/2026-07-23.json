@@ -1,0 +1,261 @@
+[
+  {
+    "title": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "锂离子电池组热失控过程中的电气短路行为与临时局部过充条件",
+    "one_sentence": "研究电池组热失控中短路与局部过充现象，与安全预警直接相关。",
+    "problem": "锂离子电池组热失控过程中电气短路与局部过充的机理不清。",
+    "contributions": [
+      "分析热失控过程中的短路行为",
+      "揭示临时局部过充条件",
+      "提供安全预警的物理基础"
+    ],
+    "bms_relevance": "直接涉及电池组热失控，属于BMS安全预警核心问题。",
+    "insight_for_group": "可为课题组热蔓延仿真与预警阈值设计提供参考。",
+    "reason": "相关性强且发表在eTransportation（高水平期刊第15位），但摘要空，缺乏细节，因此评为B级。"
+  },
+  {
+    "title": "AI-Driven Hybrid Battery–Supercapacitor Systems for Electric Vehicles: Performance Analysis and Opportunities",
+    "abstract": "The rapid adoption of electric vehicles (EVs) has intensified the demand for advanced energy storage technologies capable of delivering high energy density, high power density, enhanced safety, and extended service life. Although lithium-ion batteries remain the dominant energy storage technology for EVs, their limited power capability, thermal degradation, and accelerated aging under high transient loads constrain vehicle performance. Battery–supercapacitor hybrid energy storage systems (HESSs) have emerged as a promising solution by combining the high energy density of batteries with the high-power density and rapid charge–discharge capability of supercapacitors. However, the increasing complexity of HESS architecture requires intelligent energy management strategies to optimize power allocation, battery protection, thermal regulation, and overall system efficiency. Existing review papers primarily address individual aspects of HESS architecture, battery management, or artificial intelligence (AI)-based control, leaving a lack of a unified review integrating these topics. This paper addresses this gap by reviewing 181 publications published between 2020 and 2026, covering HESS architectures, conventional and AI-driven energy management strategies, machine learning, deep learning, reinforcement learning, battery state estimation, diagnostics, prognostics, thermal management, and fault diagnosis. The reviewed studies are critically analyzed to assess the impact of AI on battery lifetime, regenerative braking, charging performance, thermal behavior, and energy efficiency. The review further identifies emerging research directions, including explainable AI, digital twins, federated learning, edge intelligence, vehicle-to-grid integration, and cybersecurity-aware energy management. The findings indicate that AI-based approaches generally demonstrate greater adaptability, predictive capability, and battery protection than conventional methods under dynamic operating conditions, although challenges related to computational complexity, real-time implementation, data availability, explainability, cybersecurity, and standardization remain significant barriers to large-scale deployment.",
+    "authors": [
+      "Stella N. Arinze",
+      "Augustine O. Nwajana"
+    ],
+    "source": "Crossref",
+    "venue": "World Electric Vehicle Journal",
+    "date": "2026-07-22",
+    "doi": "10.3390/wevj17070380",
+    "url": "https://doi.org/10.3390/wevj17070380",
+    "source_id": "",
+    "score": 146.0,
+    "level": "C",
+    "title_zh": "AI驱动的电动汽车电池-超级电容混合系统：性能分析与机遇",
+    "one_sentence": "综述AI在混合储能系统中的应用，范围宽泛但深度有限。",
+    "problem": "混合储能系统管理复杂，缺乏统一AI框架综述。",
+    "contributions": [
+      "覆盖HESS架构与控制策略",
+      "讨论AI在状态估计、诊断、热管理中的应用",
+      "指出未来方向"
+    ],
+    "bms_relevance": "部分涉及电池状态估计与健康管理，但偏向系统级综述。",
+    "insight_for_group": "可作为背景参考，但创新性不足。",
+    "reason": "相关但期刊一般（World Electric Vehicle Journal），创新点散，评为C级。"
+  },
+  {
+    "title": "Experimental Multi-Metric Health Assessment of Second-Life Electric Vehicle Batteries for Reuse Pathway Classification",
+    "abstract": "Second-life electric vehicle (EV) batteries are increasingly recognized as valuable resources for stationary energy storage. However, the heterogeneous degradation of retired batteries makes reliable and application-oriented reuse decisions challenging. Existing studies primarily focus on battery health estimation or degradation characterization, while limited attention has been given to systematically translating experimentally measured health indicators into practical second-life deployment decisions. To address this gap, this study proposes an experimental multi-metric battery health assessment and decision-support framework for application-oriented screening and reuse pathway allocation of retired EV batteries. A total of 91 s life lithium-ion battery cells were experimentally characterized through standardized laboratory charge–discharge testing. Multiple complementary health indicators, including State of Health (SoH), discharge capacity, round-trip energy efficiency, and voltage–current time-series characteristics, were extracted and statistically analyzed to evaluate residual battery performance and degradation behavior. The experimental results reveal substantial variability among retired batteries, with SoH values ranging from approximately 22% to 96%, while more than half of the tested cells exhibit SoH below 60%. Furthermore, batteries with comparable SoH frequently demonstrate different energy efficiencies, indicating that capacity retention alone is insufficient for reliable second-life battery assessment. Building upon these findings, a transparent rule-based decision-support framework is developed to map experimentally measured battery health indicators to application-oriented reuse pathways, including grid-support systems, residential energy storage, backup applications, and recycling. The proposed framework establishes a practical bridge between laboratory battery characterization and deployment-oriented second-life decision-making, providing an interpretable and experimentally grounded methodology for scalable battery screening and sustainable reuse planning.",
+    "authors": [
+      "Md Sabbir Hossen",
+      "Gobbi Ramasamy",
+      "Eng Eng Ngu",
+      "Marran Al Qwaid"
+    ],
+    "source": "OpenAlex",
+    "venue": "Batteries",
+    "date": "2026-07-21",
+    "doi": "10.3390/batteries12070265",
+    "url": "https://doi.org/10.3390/batteries12070265",
+    "source_id": "",
+    "score": 106.0,
+    "level": "B",
+    "title_zh": "基于实验的多指标健康评估用于退役电动汽车电池再利用路径分类",
+    "one_sentence": "提出多指标实验框架筛选退役电池并分配再利用路径。",
+    "problem": "退役电池异质性强，缺乏系统性再利用决策方法。",
+    "contributions": [
+      "对91个退役电池进行多指标表征",
+      "建立SOH、效率等健康指标",
+      "开发规则化再利用路径分配框架"
+    ],
+    "bms_relevance": "直接涉及退役电池SOH评估与分类，属于健康管理应用。",
+    "insight_for_group": "对课题组退役电池数据分析和梯队利用研究有参考价值。",
+    "reason": "相关性好，但期刊Batteries影响因子一般，评为B级。"
+  },
+  {
+    "title": "A Whale Optimization Algorithm-Enhanced CNN–TCN Model with Temporal Attention for Lithium-Ion Battery State-of-Health Estimation",
+    "abstract": "Reliable state of health (SOH) estimation plays an important role in the safe and stable operation of lithium-ion battery energy storage systems. Nevertheless, the nonlinear degradation characteristics and complex aging behaviors of batteries hinder accurate SOH estimation. This study proposes a Whale Optimization Algorithm (WOA)-optimized Convolutional Neural Network (CNN)–Temporal Convolutional Network (TCN)–Temporal Pattern Attention (TPA) framework for lithium-ion battery SOH estimation. Multiple health factors are extracted from charge–discharge curves to characterize battery degradation behaviors. Neighborhood-based imputation and Hampel-Median Absolute Deviation (MAD) correction are employed to handle missing values and local outliers, while Pearson correlation analysis is applied to evaluate the relevance of extracted features. CNN module captures local degradation patterns, TCN module learns long-term aging dependencies, and TPA mechanism enhances the representation of critical degradation stages. Furthermore, WOA adaptively optimizes key hyperparameters to improve model performance and robustness. The proposed framework is validated using NASA and CALCE battery datasets. Experimental results demonstrate that, compared with the CNN-TCN model, the proposed method reduces RMSE by 7.49–50.81% on NASA datasets and 15.83–60.38% on CALCE datasets, achieving higher estimation accuracy and stability.",
+    "authors": [
+      "Haolong Yang",
+      "Hengjie Hu",
+      "Chaoyu Jiang",
+      "Jun Wang"
+    ],
+    "source": "Crossref",
+    "venue": "Energies",
+    "date": "2026-07-22",
+    "doi": "10.3390/en19143448",
+    "url": "https://doi.org/10.3390/en19143448",
+    "source_id": "",
+    "score": 84.0,
+    "level": "B",
+    "title_zh": "鲸鱼优化算法增强的CNN-TCN时间注意力模型用于锂离子电池SOH估计",
+    "one_sentence": "提出WOA优化CNN-TCN-TPA深度学习框架用于SOH估计。",
+    "problem": "锂离子电池SOH估计中非线性退化与复杂老化行为难以准确建模。",
+    "contributions": [
+      "提取多健康因子",
+      "采用CNN-TCN-TPA捕捉局部与长期依赖",
+      "WOA优化超参数"
+    ],
+    "bms_relevance": "直接针对BMS中SOH估计核心问题。",
+    "insight_for_group": "方法组合较为常规，但实验对比充分，可借鉴特征提取与优化思路。",
+    "reason": "相关性强，但期刊Energies影响因子一般，创新性中等，评为B级。"
+  },
+  {
+    "title": "State of Charge Estimation for Both Electric Bus and Passenger Vehicles with Different Battery Types Using Multi-Instance Learning",
+    "abstract": "State of charge (SoC) estimation for an electric vehicle (EV) is critical for range estimation, preventing overcharging or undercharging, energy management, and battery lifespan. The current studies are typically based on single-instance learning, focus on a specific battery chemistry or a single vehicle type, rely on controlled Lab conditions, and often lack explainability mechanisms. To overcome all these limitations, this paper proposes a more practically applicable and explainable SoC estimation framework that jointly addresses vehicle diversity (bus and passenger EVs), battery chemistry variability (Nickel Cobalt Manganese and Lithium Iron Phosphate), collective battery dynamics, and real-world on-road operational uncertainties within a unified learning architecture. This study introduces MIL-LGBM, a specialized method that integrates Multiple Instance Learning with Light Gradient Boosting Machine to effectively capture the complex nonlinear behavior of battery SoC while maintaining a low computational footprint. An experimental study conducted on a real-world dataset demonstrated that the proposed framework achieved a 0.799 MAE for passenger vehicles across a wide range of on-road driving conditions.",
+    "authors": [
+      "İbrahim Atakan Kubilay",
+      "Derya Birant"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "Batteries",
+    "date": "2026-07-21",
+    "doi": "10.3390/batteries12070266",
+    "url": "https://doi.org/10.3390/batteries12070266",
+    "source_id": "",
+    "score": 76.0,
+    "level": "B",
+    "title_zh": "基于多实例学习的电动巴士与乘用车不同电池类型SOC估计",
+    "one_sentence": "提出MIL-LGBM框架，利用真实道路数据实现多车型、多化学体系下的SOC估计。",
+    "problem": "现有SOC估计方法局限于单一电池类型和控制条件，缺乏通用性和可解释性。",
+    "contributions": [
+      "提出多实例学习与LGBM结合的SOC估计方法",
+      "在真实道路数据集上验证",
+      "适用于多种车辆和电池类型"
+    ],
+    "bms_relevance": "直接针对SOC估计，使用真实数据，具有实际应用价值。",
+    "insight_for_group": "对课题组利用现场数据进行SOC估计有启发，多实例学习方法可处理异质性数据。",
+    "reason": "相关性强，期刊Batteries一般，但方法有新意，评为B级。"
+  },
+  {
+    "title": "Online Estimation of Battery Resistances in a Battery Integrated Modular Multilevel Converter",
+    "abstract": "For lifetime-optimized control of a modular multi-level converter battery energy storage system, determining the current state of health is crucial. Due to the degrees of freedom within the control of such a system, the utilization of dedicated test signals is possible without interrupting operation. In this paper, a method to determine internal battery resistance is described and implemented in the control structure of a prototype converter. The method is verified by measurement, and the results are validated by electrochemical impedance spectroscopy.",
+    "authors": [
+      "Lars Leister",
+      "Niklas Katzenburg",
+      "Phil Neugebauer",
+      "Lukas Stefanski",
+      "Marc Hiller"
+    ],
+    "source": "OpenAlex",
+    "venue": "KITopen",
+    "date": "2026-07-21",
+    "doi": "10.5445/ir/1000195458",
+    "url": "https://doi.org/10.5445/ir/1000195458",
+    "source_id": "",
+    "score": 68.0,
+    "level": "B",
+    "title_zh": "电池集成模块化多电平变换器中电池内阻的在线估计",
+    "one_sentence": "在MMC-BESS中利用测试信号在线估计电池内阻，实现不停运健康监测。",
+    "problem": "模块化多电平变换器电池储能系统中电池内阻在线估计困难。",
+    "contributions": [
+      "提出利用控制自由度注入测试信号的方法",
+      "实现内阻在线估算",
+      "通过EIS验证"
+    ],
+    "bms_relevance": "直接针对电池内阻在线估计，属于BMS中健康评估方法。",
+    "insight_for_group": "对课题组在BMS中集成系统级控制与在线诊断有参考意义。",
+    "reason": "相关，但来自机构库（KITopen），未正式发表，评为B级。"
+  },
+  {
+    "title": "Field-Based Reliability and Battery Lifetime Assessment of Autonomous-Range Trolleybuses",
+    "abstract": "This study presents an empirical fleet-level assessment of 110 autonomous-range trolleybuses using anonymized records collected over 12 months. The dataset comprises 40,150 vehicle-day operating records, 40,150 energy records, 3960 pack-month SOH records, and 584 maintenance, failure, and downtime events. Outcomes are reported in absolute units: RUB/km for LCC, kg CO2-eq/km for ELC, events per 100,000 km, and downtime hours per 10,000 km. Autonomous operation accounted for 24.5% of mileage. Average net energy consumption was 1.520 kWh/km, whereas mode-distributed gross energy was 1.521 kWh/km in contact-supply mode and 1.752 kWh/km in autonomous mode. The daily-energy model achieved a full-sample fit of R2 = 0.860 and MAPE = 8.119%. Validation of vehicle-grouped data using the generated dataset showed R2 = 0.842 and MAPE = 8.74%. Mean SOH decreased from 89.98% to 85.94%, accompanied by higher internal resistance. In the central 6.5-year scenario, diagnostic-gated strategy B2 reduced estimated LCC from 29.52 to 26.16 RUB/km. The event-weighted control effect by RPN decreased from 125.4 to 80.4 (35.9%). Baseline ELC decreased only from 0.6646 to 0.6594 kg CO2-eq/km because operational electricity dominated the total. The contribution is an observation-linked framework that integrates vehicle-day operation, pack-month diagnostics, and event-level maintenance data to compare cost, emissions, and risk under explicit battery-eligibility and service-coverage constraints. The novelty is therefore the empirical, observation-level coupling and joint calibration of existing energy, battery-condition, life-cycle, and reliability methods within one auditable fleet workflow, rather than the introduction of a new standalone degradation or reliability model.",
+    "authors": [
+      "Boris V. Malozyomov",
+      "Nikita V. Martyushev",
+      "Vadim S. Tynchenko",
+      "Vitaly Aleksandrovich Gladkikh",
+      "Tatyana Aleksandrovna Panfilova",
+      "Aleksey Sergeevich Govorkov",
+      "Valeriya V. Tynchenko",
+      "Marina A. Modina"
+    ],
+    "source": "Crossref",
+    "venue": "World Electric Vehicle Journal",
+    "date": "2026-07-22",
+    "doi": "10.3390/wevj17070377",
+    "url": "https://doi.org/10.3390/wevj17070377",
+    "source_id": "",
+    "score": 66.0,
+    "level": "B",
+    "title_zh": "基于现场数据的自主续航无轨电车可靠性及电池寿命评估",
+    "one_sentence": "基于110辆无轨电车12个月现场数据，评估电池寿命、成本与排放。",
+    "problem": "缺少基于真实车队数据的电池寿命与可靠性评估框架。",
+    "contributions": [
+      "集成车辆日运行、电池月度SOH、维护事件等数据",
+      "比较不同电池使用策略下的LCC与排放",
+      "提出事件加权控制效果指标"
+    ],
+    "bms_relevance": "直接利用现场数据进行电池寿命评估，属于BMS应用。",
+    "insight_for_group": "对课题组开展车队级电池数据分析具有参考价值。",
+    "reason": "相关且数据量大，但期刊一般，评为B级。"
+  },
+  {
+    "title": "Thermal Runaway Simulation and Fire Risk Assessment of Electric Vehicle Power Battery Packs",
+    "abstract": "Thermal runaway in electric vehicle power battery packs is a key risk in fire prevention and control for electric transportation. Its triggering, propagation, and failure modes are jointly affected by external thermal abuse, material insulation performance, and side reactions inside cells. To identify the temperature response and fire risk of power battery packs under different thermal abuse intensities, this study established a three-dimensional multiphysics thermal runaway simulation model in COMSOL Multiphysics 6.1, coupling solid heat transfer, electrochemical heat generation, and side-reaction heat release. A semi-quantitative risk ranking was then performed using failure mode, effects, and criticality analysis (FMECA). The model considered the low-temperature safe conditions, 120 °C, 140 °C, and 170 °C, as the main ambient temperature conditions, while also analyzing the effects of the heat transfer coefficient on trigger time and peak temperature. The results show that, under the low-temperature safe condition and the 120 °C condition, the battery module mainly exhibits slow heating and does not undergo thermal runaway. Based on the side-reaction characteristics, the temperature near 125 °C can be used as a risk warning threshold for thermal runaway. At 140 °C, the side-reaction heat source increases markedly, and the system enters the thermal runaway risk region. Because the trigger time is strongly affected by the heat transfer coefficient and monitoring position, this condition is interpreted only as a risk-acceleration stage under critical thermal abuse. Approximately 167 °C can be regarded as the critical threshold for irreversible thermal runaway. Under severe thermal abuse at 170 °C, rapid intensification of internal side reactions increases the peak module temperature to 375–385 °C. Temperature field evolution shows that heat is transferred mainly from the exterior to the interior before thermal runaway, forming an outside-high- and inside-low-temperature distribution. After the runaway stage begins, heat release from internal cell side reactions becomes dominant, and the high-temperature region concentrates inside the module, producing a gradient reversal with a higher internal temperature. The FMECA results show that the positive electrode–electrolyte reaction has the highest RPN, with a value of 405. Accelerated SEI decomposition and the negative electrode–electrolyte reaction also form key risk links in the chain heat-release pathway. This study provides a reference for thermal management, fire barrier design, and fire risk classification of power battery packs.",
+    "authors": [
+      "Junwei Shi",
+      "Ziyan Zhang",
+      "Mengyao Zhang"
+    ],
+    "source": "Crossref",
+    "venue": "Fire",
+    "date": "2026-07-22",
+    "doi": "10.3390/fire9070313",
+    "url": "https://doi.org/10.3390/fire9070313",
+    "source_id": "",
+    "score": 66.0,
+    "level": "B",
+    "title_zh": "电动汽车动力电池组热失控模拟与火灾风险评估",
+    "one_sentence": "建立三维多物理场热失控模型，结合FMECA进行半定量风险排序。",
+    "problem": "不同热滥用强度下电池组热响应与火灾风险需要定量评估。",
+    "contributions": [
+      "建立耦合固体传热、电化学、副反应的热失控模型",
+      "利用FMECA进行风险排序",
+      "识别关键阈值温度"
+    ],
+    "bms_relevance": "直接涉及热失控安全预警，属于BMS安全域。",
+    "insight_for_group": "对课题组热失控仿真与预警阈值研究有直接参考价值。",
+    "reason": "相关性强，但期刊Fire影响因子较低，评为B级。"
+  },
+  {
+    "title": "Mathematical Assessment of the Reliability of Battery Systems of Electric Transport Rolling Stock Taking into Account Thermal Barriers",
+    "abstract": "A comprehensive mathematical framework for assessing the reliability of lithium-ion battery systems of urban electric transport rolling stock, taking into account selectively placed thermal barriers, was developed. The reliability problem was formulated in the context of cascading failures initiated by thermal instability of individual cells and was described using coupled partial differential equations of heat transfer and Arrhenius-type temperature-dependent degradation kinetics. A deterministic finite element model was constructed to evaluate the influence of different thermal barrier configurations on temperature fields and the state of health (SoH) degradation rate. The model was further extended using Monte Carlo simulation to incorporate uncertainty in key parameters and to estimate confidence intervals of reliability indicators. In addition, a discrete optimization problem of barrier placement was formulated and solved using a genetic algorithm. It was demonstrated that selective placement of thermal barriers in thermally critical regions led to a reduction in degradation rate by 15%–20% compared to both barrier-free and uniformly shielded configurations, while also reducing uncertainty in lifetime prediction. The obtained results provided a quantitative basis for reliability-oriented design and optimization of battery systems.",
+    "authors": [
+      "Boris V. Malozyomov",
+      "Nikita V. Martyushev",
+      "Anton Y. Demin",
+      "Svetlana N. Sorokova",
+      "Egor A. Efremenkov",
+      "Denis V. Valuev",
+      "Andrei O. Kotov"
+    ],
+    "source": "Crossref",
+    "venue": "Contemporary Mathematics",
+    "date": "2026-07-23",
+    "doi": "10.37256/cm.7420269541",
+    "url": "https://doi.org/10.37256/cm.7420269541",
+    "source_id": "",
+    "score": 66.0,
+    "level": "C",
+    "title_zh": "考虑热屏障的电动运输车辆电池系统可靠性数学评估",
+    "one_sentence": "建立数学模型评估热屏障对电池系统可靠性的影响，采用遗传算法优化布局。",
+    "problem": "热屏障配置对电池系统级联失效和寿命的影响需量化。",
+    "contributions": [
+      "建立热-退化耦合有限元模型",
+      "蒙特卡洛模拟不确定性",
+      "遗传算法优化热屏障位置"
+    ],
+    "bms_relevance": "涉及电池系统热管理与可靠性，但偏数学建模。",
+    "insight_for_group": "可作为热管理优化参考，但工程应用距离较远。",
+    "reason": "轻度相关，期刊Contemporary Mathematics非工程类，评为C级。"
+  }
+]
