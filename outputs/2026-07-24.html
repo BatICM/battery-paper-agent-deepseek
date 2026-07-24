@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Battery Management Literature Daily｜2026-07-24</title>
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",Arial,sans-serif;line-height:1.68;color:#1f2933;background:#f5f7fa;margin:0;padding:0;}
+    .container{max-width:1040px;margin:0 auto;padding:28px 20px 44px;}
+    .header{background:linear-gradient(135deg,#063b5c,#0b7285);color:#fff;border-radius:18px;padding:28px 30px;margin-bottom:22px;box-shadow:0 8px 22px rgba(0,0,0,.12);}
+    .header h1{margin:0 0 12px;font-size:28px;letter-spacing:.3px;}
+    .header p{margin:4px 0;color:#e7f5ff;}
+    .summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:18px 0 6px;}
+    .stat{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.22);border-radius:14px;padding:12px 14px;}
+    .stat b{font-size:24px;color:#fff;display:block;}
+    .block{background:#fff;border:1px solid #d9e2ec;border-radius:16px;padding:22px;margin:18px 0;box-shadow:0 2px 10px rgba(15,23,42,.04);}
+    h2{color:#0b3d5c;margin:0 0 14px;font-size:22px;}
+    h3{margin:0 0 10px;font-size:19px;color:#102a43;}
+    .meta{color:#52616b;font-size:14px;margin:4px 0;}
+    .paper{border-top:1px solid #e5edf3;padding-top:18px;margin-top:18px;}
+    .paper:first-child{border-top:none;padding-top:0;margin-top:0;}
+    .tag{display:inline-block;border-radius:999px;padding:4px 10px;color:#fff;font-size:12px;font-weight:700;letter-spacing:.2px;margin-right:8px;}
+    .A{background:#c62828;}.B{background:#ef6c00;}.C{background:#607d8b;}
+    .score{display:inline-block;background:#edf2f7;color:#334e68;border-radius:999px;padding:4px 10px;font-size:12px;}
+    ul{padding-left:22px;margin:8px 0 10px;}
+    a{color:#0b7285;text-decoration:none;}a:hover{text-decoration:underline;}
+    table{width:100%;border-collapse:collapse;background:white;font-size:14px;}
+    th,td{border:1px solid #d9e2ec;padding:10px;vertical-align:top;text-align:left;}
+    th{background:#edf4f7;color:#243b53;}
+    .footer{font-size:13px;color:#697386;text-align:center;margin-top:24px;}
+    @media(max-width:720px){.summary-grid{grid-template-columns:1fr}.header{border-radius:0}.container{padding:0 0 28px}.block{border-radius:0;border-left:none;border-right:none}.header h1{font-size:24px}}
+  </style>
+</head>
+<body>
+<div class="container">
+  <section class="header">
+    <h1>Battery Management Literature Daily</h1>
+    <p><b>日期：</b>2026-07-24 ｜ <b>检索窗口：</b>近 2 天 ｜ <b>生成时间：</b>2026-07-24 11:55:09 UTC+8</p>
+    <p>今日候选论文涵盖热失控预警、SOH/RUL估计、pack容量估计、数字孪生等方向，其中多篇涉及物理信息神经网络和迁移学习。需关注高水平期刊eTransportation上的电池包热失控行为研究。</p>
+    <div class="summary-grid">
+      <div class="stat"><b>1</b> A级必读</div>
+      <div class="stat"><b>7</b> B级浏览</div>
+      <div class="stat"><b>3</b> C级备选</div>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>一、今日趋势判断</h2>
+    <p>物理信息融合（PINN、物理先验BNN）和迁移学习在电池健康估计中持续受关注；pack级状态估计和热失控动态预警成为热点。</p>
+  </section>
+
+  <section class="block">
+    <h2>二、A级必读论文</h2>
+    
+      
+      <article class="paper">
+        <h3>1. Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 90.5</span></p>
+        <p class="meta"><b>中文题目：</b>锂离子电池包热失控过程中的电气短路行为与局部过充条件</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>eTransportation ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>研究了电池包热失控时内部短路和局部过充的演化机制。</p>
+        <p><b>研究问题：</b>电池包热失控过程中电气短路与局部过充的耦合行为</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>揭示了热失控时局部过充与短路的时空动态</li><li>为pack级热安全设计提供了实验依据</li><li>支持热蔓延模型的改进</li></ul>
+        <p><b>与BMS相关性：</b>直接相关：热失控预警是BMS安全核心功能，pack级行为分析对系统管理至关重要。</p>
+        <p><b>对课题组启发：</b>可借鉴其pack级热失控实验方法，结合课题组field数据建立热蔓延预警模型。</p>
+        <p><b>推荐理由：</b>A级。发表在eTransportation（优先列表第15位），强相关且实验设计扎实。</p>
+      </article>
+      
+    
+  </section>
+
+  <section class="block">
+    <h2>三、B级建议浏览论文</h2>
+    
+      
+      <article class="paper">
+        <h3>1. A transfer learning framework with trend-constrained residual diffusion augmentation for few-shot cross-domain battery state of health estimation</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 97.0</span></p>
+        <p class="meta"><b>中文题目：</b>趋势约束残差扩散增强的迁移学习框架用于少样本跨域电池健康状态估计</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26033967?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2352152X26033967?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>提出迁移学习与扩散增强结合，解决少样本跨域SOH估计问题。</p>
+        <ul><li>设计趋势约束残差扩散增强方法</li><li>构建迁移学习框架实现跨域适应</li><li>在多个数据集上验证有效性</li></ul>
+        <p><b>与BMS相关性：</b>核心相关：直接解决SOH估计中的小样本和跨域难题。</p>
+        <p><b>对课题组启发：</b>迁移学习思路可应用于课题组不同车型或工况的SOH模型泛化。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>2. Remaining useful life prediction and dynamic early warning for new energy vehicle batteries based on a PINN enhanced by explicit physical guidance</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 91.0</span></p>
+        <p class="meta"><b>中文题目：</b>基于显式物理引导PINN的新能源汽车电池剩余寿命预测与动态预警</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26033128?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2352152X26033128?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>显式物理引导的PINN用于RUL预测和早期预警。</p>
+        <ul><li>引入显式物理方程约束PINN</li><li>实现动态预警阈值设定</li><li>在实车数据上验证</li></ul>
+        <p><b>与BMS相关性：</b>核心相关：RUL预测与动态预警是BMS关键功能。</p>
+        <p><b>对课题组启发：</b>显式物理引导的方法可提升课题组SOH/RUL模型的可解释性与外推能力。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>3. A transfer learning framework with trend-constrained residual diffusion augmentation for few-shot cross-domain battery state of health estimation</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 79.0</span></p>
+        <p class="meta"><b>中文题目：</b>趋势约束残差扩散增强的迁移学习框架用于少样本跨域电池健康状态估计</p>
+        <p class="meta"><b>作者：</b>Siyuan Shang, Hailong Zhang, Jianming Li, Fubin Yang, Yinlian Yan et al.</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>2026-07-22 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.1016/j.est.2026.123732</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1016/j.est.2026.123732">https://doi.org/10.1016/j.est.2026.123732</a></p>
+        <p><b>一句话总结：</b>提出迁移学习与扩散增强结合，解决少样本跨域SOH估计问题。</p>
+        <ul><li>设计趋势约束残差扩散增强方法</li><li>构建迁移学习框架实现跨域适应</li><li>在多个数据集上验证有效性</li></ul>
+        <p><b>与BMS相关性：</b>核心相关：直接解决SOH估计中的小样本和跨域难题。</p>
+        <p><b>对课题组启发：</b>迁移学习思路可应用于课题组不同车型或工况的SOH模型泛化。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>4. Dynamic risk assessment of thermal runaway in lithium-ion battery electric vehicles based on scenario construction and prediction</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 77.0</span></p>
+        <p class="meta"><b>中文题目：</b>基于场景构建与预测的锂离子电动汽车热失控动态风险评估</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26034262?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2352152X26034262?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>通过场景构建和预测实现电动汽车热失控动态风险量化。</p>
+        <ul><li>提出场景构建与预测结合的风险评估框架</li><li>动态更新故障概率</li><li>支持安全预警决策</li></ul>
+        <p><b>与BMS相关性：</b>直接相关：热失控风险评估是BMS安全预警的重要组成部分。</p>
+        <p><b>对课题组启发：</b>动态风险评估方法可融入课题组云端预警系统。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>5. State of health estimation for lithium-ion batteries using dual-model fusion driven based on empirical prediction and process observation: Oriented toward vehicle dynamic discharge processes</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 57.0</span></p>
+        <p class="meta"><b>中文题目：</b>基于经验预测与过程观测的双模型融合驱动锂离子电池SOH估计：面向车辆动态放电过程</p>
+        <p class="meta"><b>作者：</b>Junxiong Chen, Yan Gao, Weiqun Liu, Cong Yin, Kai Li et al.</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>2026-07-22 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.1016/j.est.2026.123666</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1016/j.est.2026.123666">https://doi.org/10.1016/j.est.2026.123666</a></p>
+        <p><b>一句话总结：</b>融合经验模型和过程观测的双模型SOH估计方法。</p>
+        <ul><li>提出双模型融合框架</li><li>考虑动态放电特征</li><li>实验验证精度提升</li></ul>
+        <p><b>与BMS相关性：</b>核心相关：SOH估计是BMS基础功能，且面向实车动态工况。</p>
+        <p><b>对课题组启发：</b>双模型融合思路可用于课题组field数据下的SOH鲁棒估计。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>6. Bayesian neural networks with physics-based priors for robust battery health assessment</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 122.0</span></p>
+        <p class="meta"><b>中文题目：</b>基于物理先验的贝叶斯神经网络用于鲁棒电池健康评估</p>
+        <p class="meta"><b>作者：</b>Jokin Alcibar, Aitor Aguirre-Ortuzar, Ekhi Zugasti, Chetan S. Kulkarni, Juan Fernandez et al.</p>
+        <p class="meta"><b>来源：</b>Scientific Reports ｜ <b>日期：</b>2026-07-23 ｜ <b>数据源：</b>Crossref</p>
+        <p class="meta"><b>DOI：</b>10.1038/s41598-026-63104-y</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1038/s41598-026-63104-y">https://doi.org/10.1038/s41598-026-63104-y</a></p>
+        <p><b>一句话总结：</b>将物理先验嵌入贝叶斯神经网络实现可量化的不确定性电池健康评估。</p>
+        <ul><li>引入基于电化学仿真的物理先验</li><li>在BNN框架中实现端到端不确定性量化</li><li>在pack级数据上验证</li></ul>
+        <p><b>与BMS相关性：</b>核心相关：直接针对电池健康评估和不确定性量化。</p>
+        <p><b>对课题组启发：</b>物理先验BNN方法可提升课题组SOH模型的可信度和鲁棒性。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>7. A Novel Capacity Estimation Model Based on Scaling Transform for Series-Parallel LiFePO4 Battery System</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 112.0</span></p>
+        <p class="meta"><b>中文题目：</b>基于缩放变换的串并联磷酸铁锂电池系统容量估计新模型</p>
+        <p class="meta"><b>作者：</b>Yuedong Sun, Jinwei Zhang, Zhicheng Zhu, wenkai gao, dongdong qiao et al.</p>
+        <p class="meta"><b>来源：</b>Journal of The Electrochemical Society ｜ <b>日期：</b>2026-07-23 ｜ <b>数据源：</b>Crossref</p>
+        <p class="meta"><b>DOI：</b>10.1149/1945-7111/ae8f79</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1149/1945-7111/ae8f79">https://doi.org/10.1149/1945-7111/ae8f79</a></p>
+        <p><b>一句话总结：</b>提出缩放变换模型估计串并联电池包容量。</p>
+        <ul><li>提出缩放变换容量估计模型</li><li>仿真与实验验证低误差</li><li>支持系统级状态估计</li></ul>
+        <p><b>与BMS相关性：</b>直接相关：pack级容量估计是BMS关键，尤其针对不一致性。</p>
+        <p><b>对课题组启发：</b>缩放变换方法可用于课题组pack容量估计及不一致性分析。</p>
+      </article>
+      
+    
+  </section>
+
+  <section class="block">
+    <h2>四、C级备选与快速浏览</h2>
+    
+    <table>
+      <thead><tr><th>标题</th><th>来源</th><th>日期</th><th>推荐理由</th></tr></thead>
+      <tbody>
+      
+        <tr>
+          <td><a href="https://doi.org/10.3390/wevj17070380">AI-Driven Hybrid Battery–Supercapacitor Systems for Electric Vehicles: Performance Analysis and Opportunities</a></td>
+          <td>World Electric Vehicle Journal</td>
+          <td>2026-07-22</td>
+          <td>C级。期刊为World Electric Vehicle Journal，水平较低，且为综述。</td>
+        </tr>
+      
+        <tr>
+          <td><a href="https://doi.org/10.3390/en19143448">A Whale Optimization Algorithm-Enhanced CNN–TCN Model with Temporal Attention for Lithium-Ion Battery State-of-Health Estimation</a></td>
+          <td>Energies</td>
+          <td>2026-07-22</td>
+          <td>C级。发表于Energies（低水平期刊），方法组合常见。</td>
+        </tr>
+      
+        <tr>
+          <td><a href="https://doi.org/10.5281/zenodo.21485561">Digital Twin Technologies for Electric Vehicles: An Integrated Review of Applications, AI-Driven Approaches, Challenges, and Future Directions</a></td>
+          <td>Zenodo (CERN European Organization for Nuclear Research)</td>
+          <td>2026-07-22</td>
+          <td>C级。预印本且综述，贡献有限。</td>
+        </tr>
+      
+      </tbody>
+    </table>
+    
+  </section>
+
+  <section class="block">
+    <h2>五、今日论文总表</h2>
+    <table>
+      <thead><tr><th>等级</th><th>标题</th><th>期刊/来源</th><th>方向判断</th><th>链接</th></tr></thead>
+      <tbody>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs</td>
+          <td>eTransportation</td>
+          <td>研究了电池包热失控时内部短路和局部过充的演化机制。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>A transfer learning framework with trend-constrained residual diffusion augmentation for few-shot cross-domain battery state of health estimation</td>
+          <td>Journal of Energy Storage</td>
+          <td>提出迁移学习与扩散增强结合，解决少样本跨域SOH估计问题。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26033967?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Remaining useful life prediction and dynamic early warning for new energy vehicle batteries based on a PINN enhanced by explicit physical guidance</td>
+          <td>Journal of Energy Storage</td>
+          <td>显式物理引导的PINN用于RUL预测和早期预警。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26033128?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>A transfer learning framework with trend-constrained residual diffusion augmentation for few-shot cross-domain battery state of health estimation</td>
+          <td>Journal of Energy Storage</td>
+          <td>提出迁移学习与扩散增强结合，解决少样本跨域SOH估计问题。</td>
+          <td><a href="https://doi.org/10.1016/j.est.2026.123732">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Dynamic risk assessment of thermal runaway in lithium-ion battery electric vehicles based on scenario construction and prediction</td>
+          <td>Journal of Energy Storage</td>
+          <td>通过场景构建和预测实现电动汽车热失控动态风险量化。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26034262?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>State of health estimation for lithium-ion batteries using dual-model fusion driven based on empirical prediction and process observation: Oriented toward vehicle dynamic discharge processes</td>
+          <td>Journal of Energy Storage</td>
+          <td>融合经验模型和过程观测的双模型SOH估计方法。</td>
+          <td><a href="https://doi.org/10.1016/j.est.2026.123666">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>AI-Driven Hybrid Battery–Supercapacitor Systems for Electric Vehicles: Performance Analysis and Opportunities</td>
+          <td>World Electric Vehicle Journal</td>
+          <td>综述AI在混合储能系统能量管理中的应用。</td>
+          <td><a href="https://doi.org/10.3390/wevj17070380">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Bayesian neural networks with physics-based priors for robust battery health assessment</td>
+          <td>Scientific Reports</td>
+          <td>将物理先验嵌入贝叶斯神经网络实现可量化的不确定性电池健康评估。</td>
+          <td><a href="https://doi.org/10.1038/s41598-026-63104-y">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>A Novel Capacity Estimation Model Based on Scaling Transform for Series-Parallel LiFePO4 Battery System</td>
+          <td>Journal of The Electrochemical Society</td>
+          <td>提出缩放变换模型估计串并联电池包容量。</td>
+          <td><a href="https://doi.org/10.1149/1945-7111/ae8f79">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>A Whale Optimization Algorithm-Enhanced CNN–TCN Model with Temporal Attention for Lithium-Ion Battery State-of-Health Estimation</td>
+          <td>Energies</td>
+          <td>WOA优化CNN-TCN时间注意力模型进行SOH估计。</td>
+          <td><a href="https://doi.org/10.3390/en19143448">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>Digital Twin Technologies for Electric Vehicles: An Integrated Review of Applications, AI-Driven Approaches, Challenges, and Future Directions</td>
+          <td>Zenodo (CERN European Organization for Nuclear Research)</td>
+          <td>综述数字孪生在电动汽车中的应用，包括电池管理。</td>
+          <td><a href="https://doi.org/10.5281/zenodo.21485561">Open</a></td>
+        </tr>
+      
+      </tbody>
+    </table>
+  </section>
+
+  <p class="footer">Generated by battery-paper-agent. 请人工复核关键结论后再用于论文综述或组会汇报。</p>
+</div>
+</body>
+</html>

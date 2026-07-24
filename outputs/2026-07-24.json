@@ -1,0 +1,309 @@
+[
+  {
+    "title": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "A",
+    "title_zh": "锂离子电池包热失控过程中的电气短路行为与局部过充条件",
+    "one_sentence": "研究了电池包热失控时内部短路和局部过充的演化机制。",
+    "problem": "电池包热失控过程中电气短路与局部过充的耦合行为",
+    "contributions": [
+      "揭示了热失控时局部过充与短路的时空动态",
+      "为pack级热安全设计提供了实验依据",
+      "支持热蔓延模型的改进"
+    ],
+    "bms_relevance": "直接相关：热失控预警是BMS安全核心功能，pack级行为分析对系统管理至关重要。",
+    "insight_for_group": "可借鉴其pack级热失控实验方法，结合课题组field数据建立热蔓延预警模型。",
+    "reason": "A级。发表在eTransportation（优先列表第15位），强相关且实验设计扎实。"
+  },
+  {
+    "title": "A transfer learning framework with trend-constrained residual diffusion augmentation for few-shot cross-domain battery state of health estimation",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26033967?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 97.0,
+    "level": "B",
+    "title_zh": "趋势约束残差扩散增强的迁移学习框架用于少样本跨域电池健康状态估计",
+    "one_sentence": "提出迁移学习与扩散增强结合，解决少样本跨域SOH估计问题。",
+    "problem": "跨域少量数据下的电池SOH估计精度不足",
+    "contributions": [
+      "设计趋势约束残差扩散增强方法",
+      "构建迁移学习框架实现跨域适应",
+      "在多个数据集上验证有效性"
+    ],
+    "bms_relevance": "核心相关：直接解决SOH估计中的小样本和跨域难题。",
+    "insight_for_group": "迁移学习思路可应用于课题组不同车型或工况的SOH模型泛化。",
+    "reason": "B级。发表于Journal of Energy Storage（排名21），相关性好但期刊水平中等。"
+  },
+  {
+    "title": "Remaining useful life prediction and dynamic early warning for new energy vehicle batteries based on a PINN enhanced by explicit physical guidance",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26033128?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 91.0,
+    "level": "B",
+    "title_zh": "基于显式物理引导PINN的新能源汽车电池剩余寿命预测与动态预警",
+    "one_sentence": "显式物理引导的PINN用于RUL预测和早期预警。",
+    "problem": "传统数据驱动RUL模型可解释性和泛化能力不足",
+    "contributions": [
+      "引入显式物理方程约束PINN",
+      "实现动态预警阈值设定",
+      "在实车数据上验证"
+    ],
+    "bms_relevance": "核心相关：RUL预测与动态预警是BMS关键功能。",
+    "insight_for_group": "显式物理引导的方法可提升课题组SOH/RUL模型的可解释性与外推能力。",
+    "reason": "B级。发表于Journal of Energy Storage（排名21），方法有创新但期刊一般。"
+  },
+  {
+    "title": "A transfer learning framework with trend-constrained residual diffusion augmentation for few-shot cross-domain battery state of health estimation",
+    "abstract": "",
+    "authors": [
+      "Siyuan Shang",
+      "Hailong Zhang",
+      "Jianming Li",
+      "Fubin Yang",
+      "Yinlian Yan",
+      "Nanqiao Wang",
+      "Yonghong Xu"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-07-22",
+    "doi": "10.1016/j.est.2026.123732",
+    "url": "https://doi.org/10.1016/j.est.2026.123732",
+    "source_id": "",
+    "score": 79.0,
+    "level": "B",
+    "title_zh": "趋势约束残差扩散增强的迁移学习框架用于少样本跨域电池健康状态估计",
+    "one_sentence": "提出迁移学习与扩散增强结合，解决少样本跨域SOH估计问题。",
+    "problem": "跨域少量数据下的电池SOH估计精度不足",
+    "contributions": [
+      "设计趋势约束残差扩散增强方法",
+      "构建迁移学习框架实现跨域适应",
+      "在多个数据集上验证有效性"
+    ],
+    "bms_relevance": "核心相关：直接解决SOH估计中的小样本和跨域难题。",
+    "insight_for_group": "迁移学习思路可应用于课题组不同车型或工况的SOH模型泛化。",
+    "reason": "B级。发表于Journal of Energy Storage（排名21），相关性好但期刊水平中等。"
+  },
+  {
+    "title": "Dynamic risk assessment of thermal runaway in lithium-ion battery electric vehicles based on scenario construction and prediction",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26034262?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 77.0,
+    "level": "B",
+    "title_zh": "基于场景构建与预测的锂离子电动汽车热失控动态风险评估",
+    "one_sentence": "通过场景构建和预测实现电动汽车热失控动态风险量化。",
+    "problem": "电动汽车热失控风险实时评估困难",
+    "contributions": [
+      "提出场景构建与预测结合的风险评估框架",
+      "动态更新故障概率",
+      "支持安全预警决策"
+    ],
+    "bms_relevance": "直接相关：热失控风险评估是BMS安全预警的重要组成部分。",
+    "insight_for_group": "动态风险评估方法可融入课题组云端预警系统。",
+    "reason": "B级。发表于Journal of Energy Storage（排名21），应用场景明确。"
+  },
+  {
+    "title": "State of health estimation for lithium-ion batteries using dual-model fusion driven based on empirical prediction and process observation: Oriented toward vehicle dynamic discharge processes",
+    "abstract": "",
+    "authors": [
+      "Junxiong Chen",
+      "Yan Gao",
+      "Weiqun Liu",
+      "Cong Yin",
+      "Kai Li",
+      "Qiao Zhu",
+      "Hao Tang"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-07-22",
+    "doi": "10.1016/j.est.2026.123666",
+    "url": "https://doi.org/10.1016/j.est.2026.123666",
+    "source_id": "",
+    "score": 57.0,
+    "level": "B",
+    "title_zh": "基于经验预测与过程观测的双模型融合驱动锂离子电池SOH估计：面向车辆动态放电过程",
+    "one_sentence": "融合经验模型和过程观测的双模型SOH估计方法。",
+    "problem": "车辆动态放电条件下SOH估计准确度低",
+    "contributions": [
+      "提出双模型融合框架",
+      "考虑动态放电特征",
+      "实验验证精度提升"
+    ],
+    "bms_relevance": "核心相关：SOH估计是BMS基础功能，且面向实车动态工况。",
+    "insight_for_group": "双模型融合思路可用于课题组field数据下的SOH鲁棒估计。",
+    "reason": "B级。发表于Journal of Energy Storage（排名21），方法具有实用性。"
+  },
+  {
+    "title": "AI-Driven Hybrid Battery–Supercapacitor Systems for Electric Vehicles: Performance Analysis and Opportunities",
+    "abstract": "The rapid adoption of electric vehicles (EVs) has intensified the demand for advanced energy storage technologies capable of delivering high energy density, high power density, enhanced safety, and extended service life. Although lithium-ion batteries remain the dominant energy storage technology for EVs, their limited power capability, thermal degradation, and accelerated aging under high transient loads constrain vehicle performance. Battery–supercapacitor hybrid energy storage systems (HESSs) have emerged as a promising solution by combining the high energy density of batteries with the high-power density and rapid charge–discharge capability of supercapacitors. However, the increasing complexity of HESS architecture requires intelligent energy management strategies to optimize power allocation, battery protection, thermal regulation, and overall system efficiency. Existing review papers primarily address individual aspects of HESS architecture, battery management, or artificial intelligence (AI)-based control, leaving a lack of a unified review integrating these topics. This paper addresses this gap by reviewing 181 publications published between 2020 and 2026, covering HESS architectures, conventional and AI-driven energy management strategies, machine learning, deep learning, reinforcement learning, battery state estimation, diagnostics, prognostics, thermal management, and fault diagnosis. The reviewed studies are critically analyzed to assess the impact of AI on battery lifetime, regenerative braking, charging performance, thermal behavior, and energy efficiency. The review further identifies emerging research directions, including explainable AI, digital twins, federated learning, edge intelligence, vehicle-to-grid integration, and cybersecurity-aware energy management. The findings indicate that AI-based approaches generally demonstrate greater adaptability, predictive capability, and battery protection than conventional methods under dynamic operating conditions, although challenges related to computational complexity, real-time implementation, data availability, explainability, cybersecurity, and standardization remain significant barriers to large-scale deployment.",
+    "authors": [
+      "Stella N. Arinze",
+      "Augustine O. Nwajana"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "World Electric Vehicle Journal",
+    "date": "2026-07-22",
+    "doi": "10.3390/wevj17070380",
+    "url": "https://doi.org/10.3390/wevj17070380",
+    "source_id": "",
+    "score": 146.0,
+    "level": "C",
+    "title_zh": "AI驱动的电动汽车混合电池-超级电容器系统：性能分析与机遇",
+    "one_sentence": "综述AI在混合储能系统能量管理中的应用。",
+    "problem": "混合储能系统能量管理策略综述",
+    "contributions": [
+      "系统梳理HESS架构与AI方法",
+      "指出数字孪生、边缘智能等方向"
+    ],
+    "bms_relevance": "边缘相关：涉及电池能量管理，但重心是混合系统而非纯BMS。",
+    "insight_for_group": "可提供AI能量管理视角，但直接贡献有限。",
+    "reason": "C级。期刊为World Electric Vehicle Journal，水平较低，且为综述。"
+  },
+  {
+    "title": "Bayesian neural networks with physics-based priors for robust battery health assessment",
+    "abstract": "Abstract Accurate and uncertainty-aware health assessment of lithium-ion batteries is essential for ensuring the reliability, safety, and efficiency of energy storage systems. While data-driven methods provide strong predictive performance, they often lack interpretability and reliable uncertainty quantification, whereas physics-based models rely on accurate parameterization and may exhibit limited generalization. To address these challenges, this paper proposes a Bayesian neural network (Bayesian Neural Network (BNN)) framework incorporating physics-based priors derived from electrochemical battery simulations. These priors embed electrochemical domain knowledge directly into the Bayesian inference process via the Kullback–Leibler divergence term of the variational objective, providing a principled regularization mechanism that balances data fidelity with physical consistency. The proposed framework produces a physics-informed posterior predictive distribution and enables end-to-end uncertainty quantification. Its performance is evaluated on the publicly available NASA battery dataset and the Wenzhou Pack Degradation dataset, covering diverse discharge profiles, operating conditions, and battery scales. Across both datasets, the method consistently achieves improvements in predictive accuracy, probabilistic calibration, and robustness compared to standard BNNs with conventional priors and state-of-the-art physics-guided Bayesian approaches. These results highlight the effectiveness of physics-informed priors for reliable battery health prognostics across different chemistries and cell-to-pack validation settings, under controlled nominal operating conditions.",
+    "authors": [
+      "Jokin Alcibar",
+      "Aitor Aguirre-Ortuzar",
+      "Ekhi Zugasti",
+      "Chetan S. Kulkarni",
+      "Juan Fernandez",
+      "Jose I. Aizpurua"
+    ],
+    "source": "Crossref",
+    "venue": "Scientific Reports",
+    "date": "2026-07-23",
+    "doi": "10.1038/s41598-026-63104-y",
+    "url": "https://doi.org/10.1038/s41598-026-63104-y",
+    "source_id": "",
+    "score": 122.0,
+    "level": "B",
+    "title_zh": "基于物理先验的贝叶斯神经网络用于鲁棒电池健康评估",
+    "one_sentence": "将物理先验嵌入贝叶斯神经网络实现可量化的不确定性电池健康评估。",
+    "problem": "电池健康评估中缺乏可靠的不确定性量化",
+    "contributions": [
+      "引入基于电化学仿真的物理先验",
+      "在BNN框架中实现端到端不确定性量化",
+      "在pack级数据上验证"
+    ],
+    "bms_relevance": "核心相关：直接针对电池健康评估和不确定性量化。",
+    "insight_for_group": "物理先验BNN方法可提升课题组SOH模型的可信度和鲁棒性。",
+    "reason": "B级。虽发表在Scientific Reports（低水平），但方法创新且验证充分。"
+  },
+  {
+    "title": "A Novel Capacity Estimation Model Based on Scaling Transform for Series-Parallel LiFePO4 Battery System",
+    "abstract": "Abstract For battery energy storage systems with series‑parallel system (SPS), accurately estimating the capacity of each parallel pack in the SPS is crucial for improving the overall system efficiency and capacity utilization, and it serves as a foundational yet significant research topic for estimating system-level states (state of charge, state of energy, and state of health). In this study, based on the characteristic analysis of SPS, a novel capacity estimation model for SPS based on scaling transform is proposed. The model was verified through simulations of five different inconsistency configurations, and the average estimation error across all the simulation results was 0.49%. Two sets of experimental verification tests were performed, and the average error was approximately 1.77%. The results from both simulations and experiments demonstrate that the model is viable and achieves reasonable accuracy for the capacity estimation of battery packs within the SPS.",
+    "authors": [
+      "Yuedong Sun",
+      "Jinwei Zhang",
+      "Zhicheng Zhu",
+      "wenkai gao",
+      "dongdong qiao",
+      "Xin LAI",
+      "Dongxu Guo",
+      "Yuejiu Zheng",
+      "Shumao Wang"
+    ],
+    "source": "Crossref",
+    "venue": "Journal of The Electrochemical Society",
+    "date": "2026-07-23",
+    "doi": "10.1149/1945-7111/ae8f79",
+    "url": "https://doi.org/10.1149/1945-7111/ae8f79",
+    "source_id": "",
+    "score": 112.0,
+    "level": "B",
+    "title_zh": "基于缩放变换的串并联磷酸铁锂电池系统容量估计新模型",
+    "one_sentence": "提出缩放变换模型估计串并联电池包容量。",
+    "problem": "串并联电池包容量估计误差大",
+    "contributions": [
+      "提出缩放变换容量估计模型",
+      "仿真与实验验证低误差",
+      "支持系统级状态估计"
+    ],
+    "bms_relevance": "直接相关：pack级容量估计是BMS关键，尤其针对不一致性。",
+    "insight_for_group": "缩放变换方法可用于课题组pack容量估计及不一致性分析。",
+    "reason": "B级。发表于Journal of The Electrochemical Society（中等），pack级容量估计实用。"
+  },
+  {
+    "title": "A Whale Optimization Algorithm-Enhanced CNN–TCN Model with Temporal Attention for Lithium-Ion Battery State-of-Health Estimation",
+    "abstract": "Reliable state of health (SOH) estimation plays an important role in the safe and stable operation of lithium-ion battery energy storage systems. Nevertheless, the nonlinear degradation characteristics and complex aging behaviors of batteries hinder accurate SOH estimation. This study proposes a Whale Optimization Algorithm (WOA)-optimized Convolutional Neural Network (CNN)–Temporal Convolutional Network (TCN)–Temporal Pattern Attention (TPA) framework for lithium-ion battery SOH estimation. Multiple health factors are extracted from charge–discharge curves to characterize battery degradation behaviors. Neighborhood-based imputation and Hampel-Median Absolute Deviation (MAD) correction are employed to handle missing values and local outliers, while Pearson correlation analysis is applied to evaluate the relevance of extracted features. CNN module captures local degradation patterns, TCN module learns long-term aging dependencies, and TPA mechanism enhances the representation of critical degradation stages. Furthermore, WOA adaptively optimizes key hyperparameters to improve model performance and robustness. The proposed framework is validated using NASA and CALCE battery datasets. Experimental results demonstrate that, compared with the CNN-TCN model, the proposed method reduces RMSE by 7.49–50.81% on NASA datasets and 15.83–60.38% on CALCE datasets, achieving higher estimation accuracy and stability.",
+    "authors": [
+      "Haolong Yang",
+      "Hengjie Hu",
+      "Jiang Chaoyu",
+      "Yi-Xiang Wang"
+    ],
+    "source": "OpenAlex",
+    "venue": "Energies",
+    "date": "2026-07-22",
+    "doi": "10.3390/en19143448",
+    "url": "https://doi.org/10.3390/en19143448",
+    "source_id": "",
+    "score": 84.0,
+    "level": "C",
+    "title_zh": "鲸鱼优化算法增强的CNN-TCN时间注意力模型用于锂离子电池SOH估计",
+    "one_sentence": "WOA优化CNN-TCN时间注意力模型进行SOH估计。",
+    "problem": "非线性退化下SOH估计精度不足",
+    "contributions": [
+      "提出WOA-CNN-TCN-TPA混合框架",
+      "多健康因子提取与特征选择",
+      "在NASA和CALCE数据集上验证"
+    ],
+    "bms_relevance": "相关：SOH估计，但方法较为常规。",
+    "insight_for_group": "优化算法与注意力机制可参考，但创新性一般。",
+    "reason": "C级。发表于Energies（低水平期刊），方法组合常见。"
+  },
+  {
+    "title": "Digital Twin Technologies for Electric Vehicles: An Integrated Review of Applications, AI-Driven Approaches, Challenges, and Future Directions",
+    "abstract": "The rapid development of electric vehicles (EVs) has increased the need for intelligent technologies capable of improving vehicle efficiency, reliability, and sustainable operation. Digital Twin (DT) technology has emerged as a promising approach by enabling continuous interaction between physical EV systems and their virtual counterparts through real-time data exchange, simulation, and intelligent analysis. However, the increasing complexity of EV architectures, including battery systems, powertrains, thermal management units, fuel cell systems, and charging infrastructures, requires a comprehensive understanding of how DTs can be effectively integrated with artificial intelligence (AI) and advanced computational methods. This review analyzes recent advances in Digital Twin applications for electric vehicles, focusing on the integration of model-driven and data-driven approaches. The study examines the fundamental architectures of EV Digital Twins and discusses their applications in battery management, powertrain optimization, fuel cell hybrid electric vehicles, and smart charging systems. Furthermore, the role of AI techniques, including machine learning, predictive analytics, and hybrid physics-informed models, in enhancing DT accuracy and adaptability is comprehensively discussed. The review identifies major challenges limiting large-scale DT adoption in EVs, including real-time synchronization, computational requirements, data availability, cybersecurity risks, and the lack of standardization between different platforms. Based on these findings, future research directions are proposed, emphasizing hybrid AI-driven Digital Twin frameworks, edge and cloud computing integration, secure data-sharing mechanisms, and interoperable architectures. This review provides a comprehensive perspective on the current development status of Digital Twins in EVs and highlights their potential role in enabling intelligent, efficient, and sustainable transportation systems.",
+    "authors": [
+      "Asmae Khachan",
+      "Hamza Bahloul",
+      "Ghizlane Khachan"
+    ],
+    "source": "OpenAlex",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "date": "2026-07-22",
+    "doi": "10.5281/zenodo.21485561",
+    "url": "https://doi.org/10.5281/zenodo.21485561",
+    "source_id": "",
+    "score": 76.0,
+    "level": "C",
+    "title_zh": "电动汽车数字孪生技术：应用、AI驱动方法、挑战与未来方向综述",
+    "one_sentence": "综述数字孪生在电动汽车中的应用，包括电池管理。",
+    "problem": "数字孪生在EV中的集成综述",
+    "contributions": [
+      "系统梳理DT架构与AI融合",
+      "指出电池管理、充电等应用"
+    ],
+    "bms_relevance": "边缘相关：涉及电池管理但为综述。",
+    "insight_for_group": "可作为数字孪生背景参考，但无具体方法。",
+    "reason": "C级。预印本且综述，贡献有限。"
+  }
+]
