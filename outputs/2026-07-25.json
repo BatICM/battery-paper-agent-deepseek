@@ -1,0 +1,229 @@
+[
+  {
+    "title": "Thermal Performance Enhancement of a Hybrid Liquid‐Cooled Lithium‐Ion Battery Pack Using Flow Modification and Nanofluid Cooling",
+    "abstract": "ABSTRACT Growing environmental pollution from Internal Combustion engines has driven research toward Electric Vehicles. Lithium‐ion cells, being ideal for Electric vehicles due to their wide operating range and high energy density, require effective temperature regulation through a high‐performance battery thermal management system for their durability and long‐term performance. The current study investigates the cooling performance of BTMS using flow modification in the form of baffles of various shapes in five different BTMS designs (BTMS‐I, II, III, IV, and V), along with their four different inlet/outlet flow configurations (F1, F2, F3, and F4). Additionally the cooling effect of five different nanofluid coolants (TiO 2 ‐Water, Al 2 O 3 ‐Water, SiO 2 ‐Water, ZnO‐Water, and CuO‐Water) at 5% concentration and 0.2 m/s velocity is also studied. The BTMS performance is assessed using three distinct parameters‐maximum temperature ( T max ), maximum temperature difference (∆ T max ) and normalized pumping power (NPP). The findings indicate that TiO 2 ‐Water nanofluid achieves the lowest T max and ∆ T max values of 4.15 K lower than that of water as coolant and among the BTMS designs, BTMS‐II‐F1 exhibits the lowest T max and ∆ T max , equal to 302.07 and 3.93 K, respectively. In addition, the combined effect of optimal BTMS design (BTMS‐II‐F1) and three best‐performing nanofluids (TiO 2 ‐Water, Al 2 O 3 ‐Water, SiO 2 ‐Water) on the T max , ∆ T max , and NPP is studied. The study indicates that the combination of BTMS‐II‐F1 & TiO 2 ‐Water delivers the best cooling performance, with T max , ∆ T max , and NPP values equal to 301.87 K, 3.77 K, and 2.928, respectively. In all cases, the NPP shows an overall increase compared to the base case.",
+    "authors": [
+      "Afreen Shakeel",
+      "Amir Yousf Sofi",
+      "Adnan Qayoum"
+    ],
+    "source": "Crossref",
+    "venue": "Energy Storage",
+    "date": "2026-07-24",
+    "doi": "10.1002/est2.70476",
+    "url": "https://doi.org/10.1002/est2.70476",
+    "source_id": "",
+    "score": 110.5,
+    "level": "C",
+    "title_zh": "采用流场修改和纳米流体冷却的混合液冷锂离子电池组热性能增强",
+    "one_sentence": "研究了不同档板和纳米流体对电池组冷却性能的影响，属于热管理设计而非BMS核心状态估计与安全预警。",
+    "problem": "如何通过流场修改和纳米流体冷却提升电池组的热管理性能？",
+    "contributions": [
+      "设计了五种BTMS结构和四种流配置",
+      "对比了五种纳米流体的冷却效果",
+      "找到最优组合BTMS-II-F1与TiO2-水纳米流体"
+    ],
+    "bms_relevance": "边缘相关：属于电池热管理，是BMS的辅助功能，但不涉及SOC/SOH估计、故障诊断、安全预警等核心BMS问题。",
+    "insight_for_group": "对课题组热管理设计有参考价值，但非主要研究方向。",
+    "reason": "C级：相关期刊Energy Storage，内容与BMS核心功能间接相关，创新性一般。"
+  },
+  {
+    "title": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "锂离子电池组热失控过程中的电短路行为与临时局部过充条件",
+    "one_sentence": "研究电池组热失控时的电短路和局部过充现象，与安全预警直接相关。",
+    "problem": "电池组热失控过程中短路行为和局部过充如何演化？",
+    "contributions": [
+      "揭示了热失控时电短路和局部过充的耦合机制",
+      "为热失控早期预警提供理论基础"
+    ],
+    "bms_relevance": "强相关：直接涉及热失控行为，是BMS安全预警的关键研究内容。",
+    "insight_for_group": "可借鉴其热失控机理建模方法，用于pack级安全预警算法开发。",
+    "reason": "B级：eTransportation（优先列表15），摘要缺失，但标题明确相关，建议浏览全文后决定是否升级。"
+  },
+  {
+    "title": "State of health estimation of lithium-ion batteries using electrochemical impedance spectroscopy image encoding and deep learning",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26033682?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 77.0,
+    "level": "A",
+    "title_zh": "基于电化学阻抗谱图像编码和深度学习的锂离子电池健康状态估计",
+    "one_sentence": "将EIS数据编码为图像用深度学习估计SOH，方法新颖且精度高。",
+    "problem": "如何利用EIS图像编码提高SOH估计的准确性和鲁棒性？",
+    "contributions": [
+      "提出EIS图像编码方法",
+      "结合深度学习实现高精度SOH估计",
+      "在公开数据集上验证有效性"
+    ],
+    "bms_relevance": "强相关：直接解决SOH估计这一BMS核心问题。",
+    "insight_for_group": "可探索将EIS图像编码与课题组现有SOH方法结合，提升特征提取能力。",
+    "reason": "A级：Journal of Energy Storage（优先列表10），内容直接相关，方法创新，值得精读。"
+  },
+  {
+    "title": "State of health estimation for lithium-ion batteries using graph-structured micro-voltage segments",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26034614?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 71.0,
+    "level": "A",
+    "title_zh": "基于图结构微电压段的锂离子电池健康状态估计",
+    "one_sentence": "利用微电压段的图结构特征进行SOH估计，具有高效和可解释性。",
+    "problem": "如何从局部电压片段中提取有效特征以实现准确SOH估计？",
+    "contributions": [
+      "构建图结构微电压段特征",
+      "实现高精度SOH估计",
+      "降低数据采集成本"
+    ],
+    "bms_relevance": "强相关：属于SOH估计，且适用于实际运行数据。",
+    "insight_for_group": "微电压段图结构方法可迁移到课题组的不一致性分析中，用于pack级SOH估计。",
+    "reason": "A级：Journal of Energy Storage（优先列表10），方法新颖且实用，建议精读。"
+  },
+  {
+    "title": "Bayesian neural networks with physics-based priors for robust battery health assessment",
+    "abstract": "Abstract Accurate and uncertainty-aware health assessment of lithium-ion batteries is essential for ensuring the reliability, safety, and efficiency of energy storage systems. While data-driven methods provide strong predictive performance, they often lack interpretability and reliable uncertainty quantification, whereas physics-based models rely on accurate parameterization and may exhibit limited generalization. To address these challenges, this paper proposes a Bayesian neural network (Bayesian Neural Network (BNN)) framework incorporating physics-based priors derived from electrochemical battery simulations. These priors embed electrochemical domain knowledge directly into the Bayesian inference process via the Kullback–Leibler divergence term of the variational objective, providing a principled regularization mechanism that balances data fidelity with physical consistency. The proposed framework produces a physics-informed posterior predictive distribution and enables end-to-end uncertainty quantification. Its performance is evaluated on the publicly available NASA battery dataset and the Wenzhou Pack Degradation dataset, covering diverse discharge profiles, operating conditions, and battery scales. Across both datasets, the method consistently achieves improvements in predictive accuracy, probabilistic calibration, and robustness compared to standard BNNs with conventional priors and state-of-the-art physics-guided Bayesian approaches. These results highlight the effectiveness of physics-informed priors for reliable battery health prognostics across different chemistries and cell-to-pack validation settings, under controlled nominal operating conditions.",
+    "authors": [
+      "Jokin Alcibar",
+      "Aitor Aguirre-Ortuzar",
+      "Ekhi Zugasti",
+      "Chetan S. Kulkarni",
+      "Juan Fernandez",
+      "Jose I. Aizpurua"
+    ],
+    "source": "Crossref",
+    "venue": "Scientific Reports",
+    "date": "2026-07-23",
+    "doi": "10.1038/s41598-026-63104-y",
+    "url": "https://doi.org/10.1038/s41598-026-63104-y",
+    "source_id": "",
+    "score": 122.0,
+    "level": "A",
+    "title_zh": "具有物理先验的贝叶斯神经网络用于鲁棒电池健康评估",
+    "one_sentence": "将物理先验融入贝叶斯神经网络，实现可解释、不确定量化的健康评估。",
+    "problem": "如何结合物理知识提高SOH估计的准确性和不确定性量化能力？",
+    "contributions": [
+      "提出物理先验的贝叶斯神经网络框架",
+      "在NASA和温州Pack退化数据集上验证",
+      "实现了优于传统方法的预测校准和鲁棒性"
+    ],
+    "bms_relevance": "强相关：直接针对电池健康评估，且使用了pack级实际数据。",
+    "insight_for_group": "物理先验与贝叶斯结合的方法可应用于课题组的不确定性量化及pack不一致性建模。",
+    "reason": "A级：Scientific Reports虽非顶级，但内容扎实，涉及field数据（温州Pack退化数据集），方法创新且对课题组有直接启发。"
+  },
+  {
+    "title": "A Novel Capacity Estimation Model Based on Scaling Transform for Series-Parallel LiFePO4 Battery System",
+    "abstract": "Abstract For battery energy storage systems with series‑parallel system (SPS), accurately estimating the capacity of each parallel pack in the SPS is crucial for improving the overall system efficiency and capacity utilization, and it serves as a foundational yet significant research topic for estimating system-level states (state of charge, state of energy, and state of health). In this study, based on the characteristic analysis of SPS, a novel capacity estimation model for SPS based on scaling transform is proposed. The model was verified through simulations of five different inconsistency configurations, and the average estimation error across all the simulation results was 0.49%. Two sets of experimental verification tests were performed, and the average error was approximately 1.77%. The results from both simulations and experiments demonstrate that the model is viable and achieves reasonable accuracy for the capacity estimation of battery packs within the SPS.",
+    "authors": [
+      "Yuedong Sun",
+      "Jinwei Zhang",
+      "Zhicheng Zhu",
+      "wenkai gao",
+      "dongdong qiao",
+      "Xin LAI",
+      "Dongxu Guo",
+      "Yuejiu Zheng",
+      "Shumao Wang"
+    ],
+    "source": "Crossref",
+    "venue": "Journal of The Electrochemical Society",
+    "date": "2026-07-23",
+    "doi": "10.1149/1945-7111/ae8f79",
+    "url": "https://doi.org/10.1149/1945-7111/ae8f79",
+    "source_id": "",
+    "score": 112.0,
+    "level": "A",
+    "title_zh": "基于缩放变换的串并联磷酸铁锂电池系统容量估计新模型",
+    "one_sentence": "提出缩放变换模型准确估计串并联系统中各并联组的容量。",
+    "problem": "如何在不拆解情况下估计串并联电池系统中各pack的容量？",
+    "contributions": [
+      "提出基于缩放变换的容量估计模型",
+      "仿真和实验验证平均误差分别为0.49%和1.77%",
+      "直接支持系统级状态估计"
+    ],
+    "bms_relevance": "强相关：解决pack级和系统级容量估计问题，直接用于SOH和SOC估计。",
+    "insight_for_group": "缩放变换方法为pack不一致性建模提供新思路，可应用于课题组储能系统状态估计。",
+    "reason": "A级：Journal of The Electrochemical Society虽非优先列表前15，但内容直接对应pack-level容量估计和inconsistency问题，方法创新且验证充分。"
+  },
+  {
+    "title": "Mathematical Assessment of the Reliability of Battery Systems of Electric Transport Rolling Stock Taking into Account Thermal Barriers",
+    "abstract": "A comprehensive mathematical framework for assessing the reliability of lithium-ion battery systems of urban electric transport rolling stock, taking into account selectively placed thermal barriers, was developed. The reliability problem was formulated in the context of cascading failures initiated by thermal instability of individual cells and was described using coupled partial differential equations of heat transfer and Arrhenius-type temperature-dependent degradation kinetics. A deterministic finite element model was constructed to evaluate the influence of different thermal barrier configurations on temperature fields and the state of health (SoH) degradation rate. The model was further extended using Monte Carlo simulation to incorporate uncertainty in key parameters and to estimate confidence intervals of reliability indicators. In addition, a discrete optimization problem of barrier placement was formulated and solved using a genetic algorithm. It was demonstrated that selective placement of thermal barriers in thermally critical regions led to a reduction in degradation rate by 15%–20% compared to both barrier-free and uniformly shielded configurations, while also reducing uncertainty in lifetime prediction. The obtained results provided a quantitative basis for reliability-oriented design and optimization of battery systems.",
+    "authors": [
+      "Boris V. Malozyomov",
+      "Nikita V. Martyushev",
+      "Anton Y. Demin",
+      "Svetlana N. Sorokova",
+      "Egor A. Efremenkov",
+      "Denis V. Valuev",
+      "Andrei Kotov"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "Contemporary Mathematics",
+    "date": "2026-07-23",
+    "doi": "10.37256/cm.7420269541",
+    "url": "https://doi.org/10.37256/cm.7420269541",
+    "source_id": "",
+    "score": 66.0,
+    "level": "B",
+    "title_zh": "考虑热屏障的电动运输车辆电池系统可靠性数学评估",
+    "one_sentence": "基于热屏障配置的电池系统可靠性数学模型，考虑级联失效和SOH退化。",
+    "problem": "如何通过热屏障布置提高电池系统可靠性和寿命？",
+    "contributions": [
+      "建立热-退化耦合的可靠性模型",
+      "使用遗传算法优化热屏障位置",
+      "减少退化速率15%-20%"
+    ],
+    "bms_relevance": "相关：涉及SOH退化和系统可靠性，但对BMS核心算法贡献有限。",
+    "insight_for_group": "热屏障优化思路可参考，但课题组更关注算法层面。",
+    "reason": "B级：期刊Contemporary Mathematics非相关领域，内容偏热设计，相关性一般，建议浏览。"
+  },
+  {
+    "title": "An approach of state-of-charge prediction for lithium-ion batteries using hybrid Pyraformer-LSTM learning network",
+    "abstract": "Accurate prediction of the State of Charge (SOC) of lithium-ion batteries remains difficult under complex operating conditions. This difficulty arises from strong nonlinearity and long-term temporal dependency in battery data. In this study, we developed a hybrid prediction model that combines a pyramidal attention network with a Long Short-Term Memory (LSTM) network. The key innovation of this work lies in the integration of a pyramidal attention mechanism with a multi-scale sliding window design, enabling hierarchical extraction of temporal features ranging from local dynamic variations to long-term evolutionary trends. Specifically, the pyramidal attention module captures multi-granularity temporal dependencies through dynamic weighted fusion of features from different window scales (8, 16, and 32), while the LSTM network captures nonlinear dynamics and preserves long-term dependencies through gated temporal modeling. We evaluated the proposed method using battery datasets collected under multiple temperatures. We compared its performance with six representative SOC estimation methods. The experimental results show that the proposed model achieves RMSE and MAE of 1.8554% and 1.3021% on the test set, significantly outperforming baselines, demonstrating high prediction accuracy and validating the effectiveness of multi-scale attention and recurrent structures in SOC prediction.",
+    "authors": [
+      "Xianbin Wang",
+      "Liping Zhang",
+      "Qihua Fan",
+      "Yiyin Hu",
+      "Jian Zhang",
+      "Huimin Chen"
+    ],
+    "source": "Crossref",
+    "venue": "PLOS One",
+    "date": "2026-07-24",
+    "doi": "10.1371/journal.pone.0353298",
+    "url": "https://doi.org/10.1371/journal.pone.0353298",
+    "source_id": "",
+    "score": 48.0,
+    "level": "A",
+    "title_zh": "基于混合Pyraformer-LSTM网络的锂离子电池荷电状态预测方法",
+    "one_sentence": "融合金字塔注意力和LSTM的多尺度SOC预测模型，精度优于基线方法。",
+    "problem": "如何在复杂工况下提高SOC预测的准确性和长时依赖性建模？",
+    "contributions": [
+      "提出Pyraformer-LSTM混合模型",
+      "多尺度滑动窗口设计提取局部和全局特征",
+      "RMSE和MAE分别达1.86%和1.30%"
+    ],
+    "bms_relevance": "强相关：直接解决SOC预测这一BMS核心问题。",
+    "insight_for_group": "多尺度时间特征提取方法可应用于课题组的不一致性分析或SOH预测，具有迁移价值。",
+    "reason": "A级：PLOS One虽非高影响力期刊，但方法创新性强（Pyraformer+LSTM），SOC预测效果好，对课题组算法开发有启发。"
+  }
+]
