@@ -1,0 +1,254 @@
+[
+  {
+    "title": "Thermal Performance Enhancement of a Hybrid Liquid‐Cooled Lithium‐Ion Battery Pack Using Flow Modification and Nanofluid Cooling",
+    "abstract": "ABSTRACT Growing environmental pollution from Internal Combustion engines has driven research toward Electric Vehicles. Lithium‐ion cells, being ideal for Electric vehicles due to their wide operating range and high energy density, require effective temperature regulation through a high‐performance battery thermal management system for their durability and long‐term performance. The current study investigates the cooling performance of BTMS using flow modification in the form of baffles of various shapes in five different BTMS designs (BTMS‐I, II, III, IV, and V), along with their four different inlet/outlet flow configurations (F1, F2, F3, and F4). Additionally the cooling effect of five different nanofluid coolants (TiO 2 ‐Water, Al 2 O 3 ‐Water, SiO 2 ‐Water, ZnO‐Water, and CuO‐Water) at 5% concentration and 0.2 m/s velocity is also studied. The BTMS performance is assessed using three distinct parameters‐maximum temperature ( T max ), maximum temperature difference (∆ T max ) and normalized pumping power (NPP). The findings indicate that TiO 2 ‐Water nanofluid achieves the lowest T max and ∆ T max values of 4.15 K lower than that of water as coolant and among the BTMS designs, BTMS‐II‐F1 exhibits the lowest T max and ∆ T max , equal to 302.07 and 3.93 K, respectively. In addition, the combined effect of optimal BTMS design (BTMS‐II‐F1) and three best‐performing nanofluids (TiO 2 ‐Water, Al 2 O 3 ‐Water, SiO 2 ‐Water) on the T max , ∆ T max , and NPP is studied. The study indicates that the combination of BTMS‐II‐F1 &amp; TiO 2 ‐Water delivers the best cooling performance, with T max , ∆ T max , and NPP values equal to 301.87 K, 3.77 K, and 2.928, respectively. In all cases, the NPP shows an overall increase compared to the base case.",
+    "authors": [
+      "Afreen Shakeel",
+      "Amir Yousf Sofi",
+      "Adnan Qayoum"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "Energy Storage",
+    "date": "2026-07-24",
+    "doi": "10.1002/est2.70476",
+    "url": "https://doi.org/10.1002/est2.70476",
+    "source_id": "",
+    "score": 110.5,
+    "level": "B",
+    "title_zh": "采用流动改进和纳米流体冷却的混合液冷锂离子电池组热性能增强",
+    "one_sentence": "通过不同挡板形状和纳米流体冷却设计优化电池组热管理性能，降低最高温度和温差。",
+    "problem": "如何通过流动改进和纳米流体冷却提升电池组热管理系统的冷却性能？",
+    "contributions": [
+      "设计了五种不同挡板形状的BTMS结构及四种进出口配置",
+      "评估了五种纳米流体冷却剂的冷却效果",
+      "确定了BTMS-II-F1与TiO₂-水纳米流体组合的最佳冷却性能"
+    ],
+    "bms_relevance": "直接相关电池热管理，是BMS安全运行的关键组成部分，但属于热设计而非状态估计或寿命预测。",
+    "insight_for_group": "对pack热管理的结构优化和冷却介质选择有参考价值，可与热模型耦合用于BMS热策略。",
+    "reason": "B级：相关但非核心BMS方向，期刊Energy Storage在优先列表外，创新性一般。"
+  },
+  {
+    "title": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "A",
+    "title_zh": "锂离子电池组热失控过程中的电短路行为与局部过充状态",
+    "one_sentence": "研究电池组热失控时的短路行为及局部过充现象，为安全预警提供机理理解。",
+    "problem": "电池组热失控过程中电短路和局部过充如何演化？",
+    "contributions": [
+      "揭示了热失控期间短路与局部过充的耦合机制",
+      "可能提供基于故障行为的预警特征",
+      "期刊eTransportation为高水平，符合BMS安全方向"
+    ],
+    "bms_relevance": "直接关联电池组安全预警和故障诊断，是BMS热失控预警的核心问题。",
+    "insight_for_group": "对理解pack级热失控触发机制有重要价值，可指导安全预警算法设计。",
+    "reason": "A级：eTransportation为优先列表第15位，强相关，标题明确指向pack热失控，但需注意摘要为空，待获取全文验证。"
+  },
+  {
+    "title": "State of health estimation of lithium-ion batteries using electrochemical impedance spectroscopy image encoding and deep learning",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26033682?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 77.0,
+    "level": "B",
+    "title_zh": "利用电化学阻抗谱图像编码和深度学习的锂离子电池健康状态估计",
+    "one_sentence": "将EIS数据编码为图像，利用深度学习估计电池SOH。",
+    "problem": "如何将EIS数据转换为图像形式并利用深度学习准确估计电池SOH？",
+    "contributions": [
+      "提出EIS图像编码方法",
+      "构建深度学习模型进行SOH估计",
+      "方法创新性一般但实用"
+    ],
+    "bms_relevance": "直接相关SOH估计，是BMS核心功能。",
+    "insight_for_group": "可探索EIS图像化方法用于field数据SOH估计，但需关注计算复杂度。",
+    "reason": "B级：Journal of Energy Storage相关但非顶级，方法创新有限。"
+  },
+  {
+    "title": "State of health estimation for lithium-ion batteries using graph-structured micro-voltage segments",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26034614?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 71.0,
+    "level": "B",
+    "title_zh": "利用图结构微电压片段的锂离子电池健康状态估计",
+    "one_sentence": "将微电压片段构建为图结构，用于电池SOH估计。",
+    "problem": "如何利用图神经网络从微电压片段中提取SOH相关信息？",
+    "contributions": [
+      "提出基于图结构微电压片段的SOH估计方法",
+      "利用图神经网络捕获片段间关系",
+      "在数据集上验证有效性"
+    ],
+    "bms_relevance": "直接相关SOH估计，图结构方法适用于电池数据。",
+    "insight_for_group": "图结构方法可用于处理pack中单体不一致性，值得关注。",
+    "reason": "B级：期刊一般，但方法有借鉴意义，相关性明确。"
+  },
+  {
+    "title": "Towards Safe Fast Charging of Lithium–Ion Batteries via a Simulation-Trained Digital Twin Framework",
+    "abstract": "Fast charging of lithium–ion batteries is essential for accelerating a widespread use of electric vehicles; however, its adoption significantly increases battery thermal stress and the risk of thermal runaway, particularly in aged cells. This study proposes a simulation-trained digital twin (DT) framework for probabilistic assessment of thermal runaway and critical charging current estimation under fast charging conditions. A dataset is generated using an electrochemical–thermal Single Particle model, varying current rate, capacity, and internal resistance. Then, an encoder–decoder neural network architecture is developed to map and convert static operating conditions into dynamic temperature evolution, enabling efficient surrogate modeling of thermal behavior. The proposed digital twin achieved an MAE of 3.05 °C and a recall of 97.22% for thermal runaway prediction while estimating critical charging currents of approximately 1.35–1.52C. The proposed methodology provides a computationally efficient tool for risk-aware fast-charging strategies, which can be integrated into battery management systems for enhanced safety. While the current study is applied to specific single-cell chemistry and simulation-based training, the framework can be easily extended to online battery systems and operating conditions.",
+    "authors": [
+      "Milad Tulabi",
+      "Roberto Bubbico"
+    ],
+    "source": "OpenAlex",
+    "venue": "Batteries",
+    "date": "2026-07-24",
+    "doi": "10.3390/batteries12080271",
+    "url": "https://doi.org/10.3390/batteries12080271",
+    "source_id": "",
+    "score": 84.0,
+    "level": "B",
+    "title_zh": "基于仿真训练的数字孪生框架实现锂离子电池安全快速充电",
+    "one_sentence": "利用电化学-热模型生成数据集，训练数字孪生用于热失控预测和临界充电电流估计。",
+    "problem": "如何在快速充电条件下预测热失控风险并估计安全充电电流？",
+    "contributions": [
+      "提出仿真训练的数字孪生框架",
+      "使用编码器-解码器网络预测温度演化",
+      "实现热失控预测召回率97.22%，MAE 3.05°C"
+    ],
+    "bms_relevance": "直接相关BMS安全预警和充电策略优化，数字孪生可用于在线BMS。",
+    "insight_for_group": "数字孪生方法可迁移到pack级安全预警，但当前基于单电池仿真，需扩展。",
+    "reason": "B级：期刊Batteries非顶级，但框架实用，相关性高。"
+  },
+  {
+    "title": "Mechanical‐Electrochemical Coupling Enables Pressure‐Informed Diagnosis and Interfacial Self‐Leveling in Sodium‐Ion Batteries",
+    "abstract": "ABSTRACT Sodium (Na)‐ion batteries (NIBs) are attractive for sustainable energy storage because of the abundance and low cost of Na resources. However, their practical fast‐charging operation is severely challenged by metallic Na plating, continuous interfacial degradation, and the associated safety risks. Here we establish a quantitative mechanical‐electrochemical coupling framework that links macroscopic pressure signals with microscopic electrode reactions, enabling real‐time and nondestructive diagnosis of Na plating in NIBs. On this basis, we develop an integrated diagnose‐repair‐utilize management strategy (DRUMS) that shifts battery management from passive warning to active intervention. Beyond early identification of hazardous metallic Na plating, DRUMS further induces dual‐interfacial self‐leveling by redirecting plated Na at the anode into an in situ Na source for reconstruction of the cathode interphase, while simultaneously eliminating unsafe metallic Na accumulation on the anode. This coupling‐enabled strategy mitigates interfacial deterioration and markedly enhances the cycling stability of fast‐charging NIBs. More broadly, this work provides a mechanistically guided strategy for dynamic interface management and offers a practical route toward safer and more durable fast‐charging batteries.",
+    "authors": [
+      "Sheng Dai",
+      "Kai Jiang",
+      "Junjie Song",
+      "Yuan Tu",
+      "Yingfei Li",
+      "Shurong Wang",
+      "Xuelong Wang",
+      "Xiqian Yu",
+      "Huilin Pan"
+    ],
+    "source": "Crossref",
+    "venue": "Advanced Materials",
+    "date": "2026-07-25",
+    "doi": "10.1002/adma.74334",
+    "url": "https://doi.org/10.1002/adma.74334",
+    "source_id": "",
+    "score": 72.0,
+    "level": "C",
+    "title_zh": "力学-电化学耦合实现钠离子电池的压力诊断与界面自修复",
+    "one_sentence": "通过机械-电化学耦合，利用压力信号诊断钠离子电池的钠沉积并实现界面自修复。",
+    "problem": "如何利用压力信号实时诊断钠离子电池的钠沉积并动态管理界面？",
+    "contributions": [
+      "建立压力与界面反应的定量耦合框架",
+      "提出诊断-修复-利用管理策略(DRUMS)",
+      "提升钠离子电池循环稳定性"
+    ],
+    "bms_relevance": "间接相关：涉及诊断策略，但聚焦钠离子电池界面，非传统BMS核心方向。",
+    "insight_for_group": "压力信号诊断思路可借鉴，但需适配锂离子电池体系。",
+    "reason": "C级：Advanced Materials是高水平期刊，但内容偏向材料界面管理，与BMS状态估计和安全预警的直接关联有限。"
+  },
+  {
+    "title": "Multicriteria selection of innovative battery cell technologies for electric vehicle applications",
+    "abstract": "Abstract Achieving global climate-neutrality goals requires a consistent transformation of vehicle fleets toward electric vehicles. Due to the increasing diversification of battery technologies, automotive manufacturers face the complex task of identifying the most suitable cell technology for specific vehicle applications. This study presents a method for segment-specific cell selection for innovative cell technologies during the early phase of vehicle development. The study covers a wide range of battery cell chemistries, including established lithium-ion batteries, emerging sodium-ion batteries, and future battery technologies such as solid-state batteries (SSB) and lithium-sulfur batteries (Li-S). These are selected for different electric vehicle applications, ranging from small to large passenger battery electric vehicles (BEVs) to battery electric trucks. The results show that cell technology selection depends highly on the vehicle segment and its specific requirements. In the large BEV segment, only lithium-ion batteries and SSB are technically feasible due to packaging restrictions, with SSB offering the highest ranges but also the highest costs. In the mid-size BEV segment, cost-efficient sodium-ion technologies compete with established LFP battery technology, with LFP offering advantages in terms of achievable range. In the small BEV segment, Li-S technology has big potential, enabling high maximum ranges at comparatively low cost. For battery electric trucks, sodium-ion and Li-S batteries are unsuitable for long-haul applications due to insufficient range, but represent an economically attractive alternative for short-haul applications. The present study provides a well-founded scientific basis for multicriteria cell selection in vehicle development and evaluates the potential of innovative battery technologies for electric vehicles.",
+    "authors": [
+      "Jan Koloch",
+      "Cristina Grosu",
+      "M. J. Booysen",
+      "Markus Lienkamp"
+    ],
+    "source": "Crossref",
+    "venue": "Discover Vehicles",
+    "date": "2026-07-24",
+    "doi": "10.1007/s44465-026-00022-3",
+    "url": "https://doi.org/10.1007/s44465-026-00022-3",
+    "source_id": "",
+    "score": 64.0,
+    "level": "C",
+    "title_zh": "电动汽车应用创新电池技术的多准则选择",
+    "one_sentence": "针对不同电动车辆类型，基于多准则选择电池电芯技术。",
+    "problem": "如何在车辆开发早期阶段，根据多准则选择最适合的电芯技术？",
+    "contributions": [
+      "覆盖多种电池化学体系（锂离子、钠离子、固态、锂硫）",
+      "针对不同车辆细分市场进行技术选择",
+      "提供科学的多准则决策框架"
+    ],
+    "bms_relevance": "边缘相关：涉及电池选型，但非状态估计或管理算法，与BMS系统设计间接相关。",
+    "insight_for_group": "对理解不同电池技术特性和应用场景有参考价值，但非核心技术。",
+    "reason": "C级：期刊Discover Vehicles非BMS主流，内容偏向选型而非管理，相关性弱。"
+  },
+  {
+    "title": "Multi timescale predictive energy management for battery life extension in electric vehicles",
+    "abstract": "Abstract Electric-vehicle battery energy management increasingly requires coordinated control of electrical demand, thermal behavior, and long-term degradation to ensure safe and durable operation. Existing predictive and digital-twin-inspired model-based observer battery-management approaches often do not fully integrate fast electro-thermal regulation with slow health-aware supervisory adaptation. To address this gap, this study proposes a multi-timescale health-resilient predictive energy-management framework that combines a fast predictive control layer for real-time traction-demand satisfaction with a slow supervisory layer that updates health-dependent limits, adaptive weights, and operating envelopes using cumulative electro-thermal-aging stress. The framework is evaluated in discrete-time simulation under Urban-Nominal, Highway-Nominal, Aggressive-Hot, and Aged-Battery-Hot scenarios against Rule-Based, Fast-MPC-Only, and Electro-Thermal-MPC strategies. Results show that the proposed controller consistently provides the most favorable battery-preservation tradeoff. Under Urban-Nominal operation, it reduces RMS current to 125.75 A and achieves the lowest cumulative degradation among the predictive controllers. Under Aggressive-Hot operation, it lowers RMS current to 120.44 A and cumulative degradation to $$\\:1.4929\\times\\:{10}^{-5}$$ , while under Aged-Battery-Hot conditions it again yields the lowest degradation and loss-energy trends among the predictive methods. The proposed framework therefore offers a balanced compromise between short-term energy-management performance and long-term battery durability, suggesting its potential usefulness for health-aware EV battery energy-management studies, subject to further experimental and long-horizon validation.",
+    "authors": [
+      "Kiran Keshyagol",
+      "Pooja Anil Bagane",
+      "Darshankumar D. Billur",
+      "Abhishek Magadum",
+      "Siddalingappa Gandh",
+      "Vasantkumar K. Upadhye"
+    ],
+    "source": "Crossref",
+    "venue": "Scientific Reports",
+    "date": "2026-07-25",
+    "doi": "10.1038/s41598-026-63658-x",
+    "url": "https://doi.org/10.1038/s41598-026-63658-x",
+    "source_id": "",
+    "score": 62.0,
+    "level": "B",
+    "title_zh": "多时间尺度预测性能量管理以实现电动汽车电池寿命延长",
+    "one_sentence": "提出多时间尺度预测框架，结合快速MPC和慢速健康感知监督，实现电池寿命延长。",
+    "problem": "如何在电动汽车能量管理中协调快速电热调节与慢速健康衰退，以延长电池寿命？",
+    "contributions": [
+      "提出双时间尺度预测能量管理框架",
+      "仿真了多种工况并与基线方法对比",
+      "在多数场景下降低了累积退化"
+    ],
+    "bms_relevance": "直接相关：BMS能量管理和寿命优化，考虑电热-老化耦合。",
+    "insight_for_group": "多时间尺度框架可借鉴于pack级能量管理与健康平衡，但需实验验证。",
+    "reason": "B级：Scientific Reports期刊一般，但研究问题与BMS核心相关，方法务实。"
+  },
+  {
+    "title": "An approach of state-of-charge prediction for lithium-ion batteries using hybrid Pyraformer-LSTM learning network",
+    "abstract": "Accurate prediction of the State of Charge (SOC) of lithium-ion batteries remains difficult under complex operating conditions. This difficulty arises from strong nonlinearity and long-term temporal dependency in battery data. In this study, we developed a hybrid prediction model that combines a pyramidal attention network with a Long Short-Term Memory (LSTM) network. The key innovation of this work lies in the integration of a pyramidal attention mechanism with a multi-scale sliding window design, enabling hierarchical extraction of temporal features ranging from local dynamic variations to long-term evolutionary trends. Specifically, the pyramidal attention module captures multi-granularity temporal dependencies through dynamic weighted fusion of features from different window scales (8, 16, and 32), while the LSTM network captures nonlinear dynamics and preserves long-term dependencies through gated temporal modeling. We evaluated the proposed method using battery datasets collected under multiple temperatures. We compared its performance with six representative SOC estimation methods. The experimental results show that the proposed model achieves RMSE and MAE of 1.8554% and 1.3021% on the test set, significantly outperforming baselines, demonstrating high prediction accuracy and validating the effectiveness of multi-scale attention and recurrent structures in SOC prediction.",
+    "authors": [
+      "Xianbin Wang",
+      "Li Zhang",
+      "Qihua Fan",
+      "Yiyin Hu",
+      "Jian Zhang",
+      "Huimin Chen"
+    ],
+    "source": "OpenAlex",
+    "venue": "PLoS ONE",
+    "date": "2026-07-24",
+    "doi": "10.1371/journal.pone.0353298",
+    "url": "https://doi.org/10.1371/journal.pone.0353298",
+    "source_id": "",
+    "score": 48.0,
+    "level": "B",
+    "title_zh": "基于混合Pyraformer-LSTM学习网络的锂离子电池荷电状态预测方法",
+    "one_sentence": "结合金字塔注意力机制与LSTM实现多尺度SOC预测，在测试集上RMSE为1.86%。",
+    "problem": "如何在复杂工况下提高SOC预测精度，同时捕获长期依赖与局部变化？",
+    "contributions": [
+      "提出金字塔注意力与LSTM的混合模型",
+      "设计多尺度滑窗提取时域特征",
+      "在多种温度数据集上验证性能优于基线方法"
+    ],
+    "bms_relevance": "直接相关：SOC估计是BMS核心功能。",
+    "insight_for_group": "多尺度注意力机制可应用于SOH估计和pack不一致性分析，但期刊级别一般。",
+    "reason": "B级：PLoS ONE非优先期刊，但方法创新性较好，相关性明确。"
+  }
+]

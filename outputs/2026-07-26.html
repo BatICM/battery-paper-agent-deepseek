@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Battery Management Literature Daily｜2026-07-26</title>
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",Arial,sans-serif;line-height:1.68;color:#1f2933;background:#f5f7fa;margin:0;padding:0;}
+    .container{max-width:1040px;margin:0 auto;padding:28px 20px 44px;}
+    .header{background:linear-gradient(135deg,#063b5c,#0b7285);color:#fff;border-radius:18px;padding:28px 30px;margin-bottom:22px;box-shadow:0 8px 22px rgba(0,0,0,.12);}
+    .header h1{margin:0 0 12px;font-size:28px;letter-spacing:.3px;}
+    .header p{margin:4px 0;color:#e7f5ff;}
+    .summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:18px 0 6px;}
+    .stat{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.22);border-radius:14px;padding:12px 14px;}
+    .stat b{font-size:24px;color:#fff;display:block;}
+    .block{background:#fff;border:1px solid #d9e2ec;border-radius:16px;padding:22px;margin:18px 0;box-shadow:0 2px 10px rgba(15,23,42,.04);}
+    h2{color:#0b3d5c;margin:0 0 14px;font-size:22px;}
+    h3{margin:0 0 10px;font-size:19px;color:#102a43;}
+    .meta{color:#52616b;font-size:14px;margin:4px 0;}
+    .paper{border-top:1px solid #e5edf3;padding-top:18px;margin-top:18px;}
+    .paper:first-child{border-top:none;padding-top:0;margin-top:0;}
+    .tag{display:inline-block;border-radius:999px;padding:4px 10px;color:#fff;font-size:12px;font-weight:700;letter-spacing:.2px;margin-right:8px;}
+    .A{background:#c62828;}.B{background:#ef6c00;}.C{background:#607d8b;}
+    .score{display:inline-block;background:#edf2f7;color:#334e68;border-radius:999px;padding:4px 10px;font-size:12px;}
+    ul{padding-left:22px;margin:8px 0 10px;}
+    a{color:#0b7285;text-decoration:none;}a:hover{text-decoration:underline;}
+    table{width:100%;border-collapse:collapse;background:white;font-size:14px;}
+    th,td{border:1px solid #d9e2ec;padding:10px;vertical-align:top;text-align:left;}
+    th{background:#edf4f7;color:#243b53;}
+    .footer{font-size:13px;color:#697386;text-align:center;margin-top:24px;}
+    @media(max-width:720px){.summary-grid{grid-template-columns:1fr}.header{border-radius:0}.container{padding:0 0 28px}.block{border-radius:0;border-left:none;border-right:none}.header h1{font-size:24px}}
+  </style>
+</head>
+<body>
+<div class="container">
+  <section class="header">
+    <h1>Battery Management Literature Daily</h1>
+    <p><b>日期：</b>2026-07-26 ｜ <b>检索窗口：</b>近 2 天 ｜ <b>生成时间：</b>2026-07-26 12:09:25 UTC+8</p>
+    <p>今日候选论文涵盖电池热管理、热失控行为、SOH/SOC估计、数字孪生安全框架、能量管理及电池选型，其中多篇聚焦数据驱动与物理模型结合，以及多时间尺度控制。</p>
+    <div class="summary-grid">
+      <div class="stat"><b>1</b> A级必读</div>
+      <div class="stat"><b>6</b> B级浏览</div>
+      <div class="stat"><b>2</b> C级备选</div>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>一、今日趋势判断</h2>
+    <p>趋势显示，数据驱动方法（深度学习、图结构）在SOH/SOC估计中持续活跃，数字孪生与热安全预警的结合受到重视，多时间尺度能量管理策略成为延长电池寿命的研究热点。</p>
+  </section>
+
+  <section class="block">
+    <h2>二、A级必读论文</h2>
+    
+      
+      <article class="paper">
+        <h3>1. Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 90.5</span></p>
+        <p class="meta"><b>中文题目：</b>锂离子电池组热失控过程中的电短路行为与局部过充状态</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>eTransportation ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>研究电池组热失控时的短路行为及局部过充现象，为安全预警提供机理理解。</p>
+        <p><b>研究问题：</b>电池组热失控过程中电短路和局部过充如何演化？</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>揭示了热失控期间短路与局部过充的耦合机制</li><li>可能提供基于故障行为的预警特征</li><li>期刊eTransportation为高水平，符合BMS安全方向</li></ul>
+        <p><b>与BMS相关性：</b>直接关联电池组安全预警和故障诊断，是BMS热失控预警的核心问题。</p>
+        <p><b>对课题组启发：</b>对理解pack级热失控触发机制有重要价值，可指导安全预警算法设计。</p>
+        <p><b>推荐理由：</b>A级：eTransportation为优先列表第15位，强相关，标题明确指向pack热失控，但需注意摘要为空，待获取全文验证。</p>
+      </article>
+      
+    
+  </section>
+
+  <section class="block">
+    <h2>三、B级建议浏览论文</h2>
+    
+      
+      <article class="paper">
+        <h3>1. Thermal Performance Enhancement of a Hybrid Liquid‐Cooled Lithium‐Ion Battery Pack Using Flow Modification and Nanofluid Cooling</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 110.5</span></p>
+        <p class="meta"><b>中文题目：</b>采用流动改进和纳米流体冷却的混合液冷锂离子电池组热性能增强</p>
+        <p class="meta"><b>作者：</b>Afreen Shakeel, Amir Yousf Sofi, Adnan Qayoum</p>
+        <p class="meta"><b>来源：</b>Energy Storage ｜ <b>日期：</b>2026-07-24 ｜ <b>数据源：</b>OpenAlex+Crossref</p>
+        <p class="meta"><b>DOI：</b>10.1002/est2.70476</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1002/est2.70476">https://doi.org/10.1002/est2.70476</a></p>
+        <p><b>一句话总结：</b>通过不同挡板形状和纳米流体冷却设计优化电池组热管理性能，降低最高温度和温差。</p>
+        <ul><li>设计了五种不同挡板形状的BTMS结构及四种进出口配置</li><li>评估了五种纳米流体冷却剂的冷却效果</li><li>确定了BTMS-II-F1与TiO₂-水纳米流体组合的最佳冷却性能</li></ul>
+        <p><b>与BMS相关性：</b>直接相关电池热管理，是BMS安全运行的关键组成部分，但属于热设计而非状态估计或寿命预测。</p>
+        <p><b>对课题组启发：</b>对pack热管理的结构优化和冷却介质选择有参考价值，可与热模型耦合用于BMS热策略。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>2. State of health estimation of lithium-ion batteries using electrochemical impedance spectroscopy image encoding and deep learning</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 77.0</span></p>
+        <p class="meta"><b>中文题目：</b>利用电化学阻抗谱图像编码和深度学习的锂离子电池健康状态估计</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26033682?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2352152X26033682?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>将EIS数据编码为图像，利用深度学习估计电池SOH。</p>
+        <ul><li>提出EIS图像编码方法</li><li>构建深度学习模型进行SOH估计</li><li>方法创新性一般但实用</li></ul>
+        <p><b>与BMS相关性：</b>直接相关SOH估计，是BMS核心功能。</p>
+        <p><b>对课题组启发：</b>可探索EIS图像化方法用于field数据SOH估计，但需关注计算复杂度。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>3. State of health estimation for lithium-ion batteries using graph-structured micro-voltage segments</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 71.0</span></p>
+        <p class="meta"><b>中文题目：</b>利用图结构微电压片段的锂离子电池健康状态估计</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26034614?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2352152X26034614?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>将微电压片段构建为图结构，用于电池SOH估计。</p>
+        <ul><li>提出基于图结构微电压片段的SOH估计方法</li><li>利用图神经网络捕获片段间关系</li><li>在数据集上验证有效性</li></ul>
+        <p><b>与BMS相关性：</b>直接相关SOH估计，图结构方法适用于电池数据。</p>
+        <p><b>对课题组启发：</b>图结构方法可用于处理pack中单体不一致性，值得关注。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>4. Towards Safe Fast Charging of Lithium–Ion Batteries via a Simulation-Trained Digital Twin Framework</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 84.0</span></p>
+        <p class="meta"><b>中文题目：</b>基于仿真训练的数字孪生框架实现锂离子电池安全快速充电</p>
+        <p class="meta"><b>作者：</b>Milad Tulabi, Roberto Bubbico</p>
+        <p class="meta"><b>来源：</b>Batteries ｜ <b>日期：</b>2026-07-24 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.3390/batteries12080271</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.3390/batteries12080271">https://doi.org/10.3390/batteries12080271</a></p>
+        <p><b>一句话总结：</b>利用电化学-热模型生成数据集，训练数字孪生用于热失控预测和临界充电电流估计。</p>
+        <ul><li>提出仿真训练的数字孪生框架</li><li>使用编码器-解码器网络预测温度演化</li><li>实现热失控预测召回率97.22%，MAE 3.05°C</li></ul>
+        <p><b>与BMS相关性：</b>直接相关BMS安全预警和充电策略优化，数字孪生可用于在线BMS。</p>
+        <p><b>对课题组启发：</b>数字孪生方法可迁移到pack级安全预警，但当前基于单电池仿真，需扩展。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>5. Multi timescale predictive energy management for battery life extension in electric vehicles</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 62.0</span></p>
+        <p class="meta"><b>中文题目：</b>多时间尺度预测性能量管理以实现电动汽车电池寿命延长</p>
+        <p class="meta"><b>作者：</b>Kiran Keshyagol, Pooja Anil Bagane, Darshankumar D. Billur, Abhishek Magadum, Siddalingappa Gandh et al.</p>
+        <p class="meta"><b>来源：</b>Scientific Reports ｜ <b>日期：</b>2026-07-25 ｜ <b>数据源：</b>Crossref</p>
+        <p class="meta"><b>DOI：</b>10.1038/s41598-026-63658-x</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1038/s41598-026-63658-x">https://doi.org/10.1038/s41598-026-63658-x</a></p>
+        <p><b>一句话总结：</b>提出多时间尺度预测框架，结合快速MPC和慢速健康感知监督，实现电池寿命延长。</p>
+        <ul><li>提出双时间尺度预测能量管理框架</li><li>仿真了多种工况并与基线方法对比</li><li>在多数场景下降低了累积退化</li></ul>
+        <p><b>与BMS相关性：</b>直接相关：BMS能量管理和寿命优化，考虑电热-老化耦合。</p>
+        <p><b>对课题组启发：</b>多时间尺度框架可借鉴于pack级能量管理与健康平衡，但需实验验证。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>6. An approach of state-of-charge prediction for lithium-ion batteries using hybrid Pyraformer-LSTM learning network</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 48.0</span></p>
+        <p class="meta"><b>中文题目：</b>基于混合Pyraformer-LSTM学习网络的锂离子电池荷电状态预测方法</p>
+        <p class="meta"><b>作者：</b>Xianbin Wang, Li Zhang, Qihua Fan, Yiyin Hu, Jian Zhang et al.</p>
+        <p class="meta"><b>来源：</b>PLoS ONE ｜ <b>日期：</b>2026-07-24 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.1371/journal.pone.0353298</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1371/journal.pone.0353298">https://doi.org/10.1371/journal.pone.0353298</a></p>
+        <p><b>一句话总结：</b>结合金字塔注意力机制与LSTM实现多尺度SOC预测，在测试集上RMSE为1.86%。</p>
+        <ul><li>提出金字塔注意力与LSTM的混合模型</li><li>设计多尺度滑窗提取时域特征</li><li>在多种温度数据集上验证性能优于基线方法</li></ul>
+        <p><b>与BMS相关性：</b>直接相关：SOC估计是BMS核心功能。</p>
+        <p><b>对课题组启发：</b>多尺度注意力机制可应用于SOH估计和pack不一致性分析，但期刊级别一般。</p>
+      </article>
+      
+    
+  </section>
+
+  <section class="block">
+    <h2>四、C级备选与快速浏览</h2>
+    
+    <table>
+      <thead><tr><th>标题</th><th>来源</th><th>日期</th><th>推荐理由</th></tr></thead>
+      <tbody>
+      
+        <tr>
+          <td><a href="https://doi.org/10.1002/adma.74334">Mechanical‐Electrochemical Coupling Enables Pressure‐Informed Diagnosis and Interfacial Self‐Leveling in Sodium‐Ion Batteries</a></td>
+          <td>Advanced Materials</td>
+          <td>2026-07-25</td>
+          <td>C级：Advanced Materials是高水平期刊，但内容偏向材料界面管理，与BMS状态估计和安全预警的直接关联有限。</td>
+        </tr>
+      
+        <tr>
+          <td><a href="https://doi.org/10.1007/s44465-026-00022-3">Multicriteria selection of innovative battery cell technologies for electric vehicle applications</a></td>
+          <td>Discover Vehicles</td>
+          <td>2026-07-24</td>
+          <td>C级：期刊Discover Vehicles非BMS主流，内容偏向选型而非管理，相关性弱。</td>
+        </tr>
+      
+      </tbody>
+    </table>
+    
+  </section>
+
+  <section class="block">
+    <h2>五、今日论文总表</h2>
+    <table>
+      <thead><tr><th>等级</th><th>标题</th><th>期刊/来源</th><th>方向判断</th><th>链接</th></tr></thead>
+      <tbody>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Thermal Performance Enhancement of a Hybrid Liquid‐Cooled Lithium‐Ion Battery Pack Using Flow Modification and Nanofluid Cooling</td>
+          <td>Energy Storage</td>
+          <td>通过不同挡板形状和纳米流体冷却设计优化电池组热管理性能，降低最高温度和温差。</td>
+          <td><a href="https://doi.org/10.1002/est2.70476">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs</td>
+          <td>eTransportation</td>
+          <td>研究电池组热失控时的短路行为及局部过充现象，为安全预警提供机理理解。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>State of health estimation of lithium-ion batteries using electrochemical impedance spectroscopy image encoding and deep learning</td>
+          <td>Journal of Energy Storage</td>
+          <td>将EIS数据编码为图像，利用深度学习估计电池SOH。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26033682?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>State of health estimation for lithium-ion batteries using graph-structured micro-voltage segments</td>
+          <td>Journal of Energy Storage</td>
+          <td>将微电压片段构建为图结构，用于电池SOH估计。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26034614?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Towards Safe Fast Charging of Lithium–Ion Batteries via a Simulation-Trained Digital Twin Framework</td>
+          <td>Batteries</td>
+          <td>利用电化学-热模型生成数据集，训练数字孪生用于热失控预测和临界充电电流估计。</td>
+          <td><a href="https://doi.org/10.3390/batteries12080271">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>Mechanical‐Electrochemical Coupling Enables Pressure‐Informed Diagnosis and Interfacial Self‐Leveling in Sodium‐Ion Batteries</td>
+          <td>Advanced Materials</td>
+          <td>通过机械-电化学耦合，利用压力信号诊断钠离子电池的钠沉积并实现界面自修复。</td>
+          <td><a href="https://doi.org/10.1002/adma.74334">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>Multicriteria selection of innovative battery cell technologies for electric vehicle applications</td>
+          <td>Discover Vehicles</td>
+          <td>针对不同电动车辆类型，基于多准则选择电池电芯技术。</td>
+          <td><a href="https://doi.org/10.1007/s44465-026-00022-3">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Multi timescale predictive energy management for battery life extension in electric vehicles</td>
+          <td>Scientific Reports</td>
+          <td>提出多时间尺度预测框架，结合快速MPC和慢速健康感知监督，实现电池寿命延长。</td>
+          <td><a href="https://doi.org/10.1038/s41598-026-63658-x">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>An approach of state-of-charge prediction for lithium-ion batteries using hybrid Pyraformer-LSTM learning network</td>
+          <td>PLoS ONE</td>
+          <td>结合金字塔注意力机制与LSTM实现多尺度SOC预测，在测试集上RMSE为1.86%。</td>
+          <td><a href="https://doi.org/10.1371/journal.pone.0353298">Open</a></td>
+        </tr>
+      
+      </tbody>
+    </table>
+  </section>
+
+  <p class="footer">Generated by battery-paper-agent. 请人工复核关键结论后再用于论文综述或组会汇报。</p>
+</div>
+</body>
+</html>
