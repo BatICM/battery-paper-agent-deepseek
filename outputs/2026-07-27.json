@@ -1,0 +1,245 @@
+[
+  {
+    "title": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "A",
+    "title_zh": "锂离子电池组热失控过程中的电短路行为与局部过充状态",
+    "one_sentence": "研究了电池组热失控过程中短路行为与局部过充的演化机制。",
+    "problem": "电池组热失控时，短路与过充如何耦合传播？",
+    "contributions": [
+      "揭示了pack内短路与局部过充的相互作用机制",
+      "为热失控早期预警提供了实验与理论依据",
+      "促进pack级安全设计优化"
+    ],
+    "bms_relevance": "直接相关：研究pack级热失控行为，涉及短路与过充检测，是BMS安全预警的核心问题。",
+    "insight_for_group": "可借鉴其pack内短路演化模型，用于课题组pack级故障诊断与安全预警算法开发。",
+    "reason": "A级，eTransportation期刊（优先列表15），强相关，pack级热失控研究对BMS安全具有重要参考价值。"
+  },
+  {
+    "title": "Investigation of battery-aging dynamics for electric vehicle management under real-world driving stress",
+    "abstract": "The aging characteristics of lithium-ion (Li-ion) batteries under realistic operating conditions significantly affect the long-term reliability, safety, and operational efficiency of electric vehicles (EVs). Batteries in real-world services are subjected to complex, coupled stressors such as aggressive acceleration, regenerative braking, fast charging, temperature variation, high state-of-charge (SOC) operation and irregular depth-of-discharge (DOD) patterns, which differ from controlled laboratory cycling. These conditions accelerate nonlinear degradation pathways including solid electrolyte interphase (SEI) growth, lithium plating, cathode degradation, electrolyte decomposition, impedance growth and thermal instability. This paper presents a comprehensive review of battery aging dynamics in EVs, emphasising the link between driving stress, degradation evolution, and management strategies. Four classes of aging models; electrochemical, empirical/semi-empirical, equivalent-circuit and machine learning, are compared in terms of prediction ability for onboard battery management systems (BMSs). This review also introduces the Real-World Aging Stress Index (RWASI), a normalization-based composite metric that combines kinematic intensity, DC fast-charging fraction, ambient temperature deviation and SOC variation into a single bounded descriptor of cumulative degradation. Aging-aware BMS architectures incorporating adaptive charging control, digital twins, cloud-assisted diagnostics, and estimation for state-of-health (SOH) and remaining useful life (RUL) prediction are discussed, providing an integrated perspective to enhance EV durability, safety, and lifetime sustainability.",
+    "authors": [
+      "Chinedu T. Obe",
+      "Chika O. Ujah",
+      "S Oti",
+      "Nnamdi I. Nwulu"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Power Sources",
+    "date": "2026-07-25",
+    "doi": "10.1016/j.jpowsour.2026.241071",
+    "url": "https://doi.org/10.1016/j.jpowsour.2026.241071",
+    "source_id": "",
+    "score": 215.25,
+    "level": "B",
+    "title_zh": "实际驾驶应力下电动汽车管理的电池老化动力学研究",
+    "one_sentence": "综述了实际驾驶条件下电池老化动力学，提出了RWASI指数及老化感知BMS架构。",
+    "problem": "实际驾驶工况下电池非线性老化规律及BMS管理策略。",
+    "contributions": [
+      "提出了实际驾驶老化应力指数RWASI",
+      "比较了多种老化模型在BMS中的适用性",
+      "讨论了老化感知BMS架构，包括数字孪生与云辅助诊断"
+    ],
+    "bms_relevance": "直接相关：聚焦电动汽车电池老化管理与SOH/RUL预测，是BMS核心任务。",
+    "insight_for_group": "RWASI指数可借鉴用于课题组现场数据驱动的老化评估；老化感知BMS架构对云端BMS项目有参考价值。",
+    "reason": "B级，Journal of Power Sources（优先列表9），综述性文章，覆盖全面，但创新性有限，建议浏览。"
+  },
+  {
+    "title": "State of health estimation of lithium-ion batteries using electrochemical impedance spectroscopy image encoding and deep learning",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26033682?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 77.0,
+    "level": "B",
+    "title_zh": "基于电化学阻抗谱图像编码与深度学习的锂离子电池健康状态估计",
+    "one_sentence": "将EIS数据编码为图像，利用深度学习进行SOH估计。",
+    "problem": "如何利用EIS数据高效、准确估计电池SOH？",
+    "contributions": [
+      "提出EIS图像编码方法，融合频域与时间特征",
+      "深度学习模型实现高精度SOH估计",
+      "验证了方法的有效性"
+    ],
+    "bms_relevance": "直接相关：SOH估计是BMS关键功能，EIS作为诊断手段。",
+    "insight_for_group": "图像编码的思路可迁移至课题组其他信号（如电压、电流）的SOH估计。",
+    "reason": "B级，Journal of Energy Storage（优先列表10），方法新颖但期刊一般，建议浏览。"
+  },
+  {
+    "title": "State of health estimation for lithium-ion batteries using graph-structured micro-voltage segments",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26034614?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 71.0,
+    "level": "B",
+    "title_zh": "基于图结构微电压段的锂离子电池健康状态估计",
+    "one_sentence": "利用图神经网络从微电压段中提取特征进行SOH估计。",
+    "problem": "如何从局部电压变化中挖掘退化特征？",
+    "contributions": [
+      "将电压片段构建为图结构，捕捉时序依赖",
+      "图神经网络实现SOH预测",
+      "在公共数据集上验证"
+    ],
+    "bms_relevance": "直接相关：SOH估计方法，可集成于BMS中。",
+    "insight_for_group": "图结构处理电压片段的方法可用于课题组pack不一致性分析。",
+    "reason": "B级，Journal of Energy Storage，方法新颖但期刊一般，建议浏览。"
+  },
+  {
+    "title": "Review on the application of metaheuristic algorithms in neural network-based methods for lithium-ion battery state estimation and prediction",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26034018?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 69.0,
+    "level": "B",
+    "title_zh": "元启发式算法在基于神经网络的锂离子电池状态估计与预测中的应用综述",
+    "one_sentence": "综述了元启发式算法优化神经网络用于电池SOC/SOH/RUL估计的方法。",
+    "problem": "如何利用元启发式算法提升神经网络在电池状态估计中的性能？",
+    "contributions": [
+      "系统梳理了多种元启发式算法与神经网络的结合方式",
+      "比较了不同方法在SOC、SOH、RUL估计中的表现",
+      "指出了未来研究方向"
+    ],
+    "bms_relevance": "直接相关：聚焦电池状态估计，是BMS核心技术。",
+    "insight_for_group": "可参考综述中算法对比，为课题组选择优化方法提供依据。",
+    "reason": "B级，Journal of Energy Storage，综述性文章，内容相关但创新性一般，建议浏览。"
+  },
+  {
+    "title": "Uncertainty-aware physics-guided digital twins for lithium-ion batteries: toward integrated health, safety, and fast-charging management",
+    "abstract": "Lithium-ion battery management is shifting from scalar state estimation to integrated supervision of health, safety, and fast-charging capability. Existing reviews have addressed battery informatics, probabilistic prognostics, physics-guided learning, or digital-twin concepts as largely separate topics, but the connections among observability, mechanistic state representation, uncertainty quantification, and decision-oriented control remains underdeveloped. This Review reorganizes the field around uncertainty-aware physics-guided digital twins and argues that health loss, safety risk, and fast-charge limitations originate from coupled electrochemical, thermal, mechanical, and interfacial processes rather than from independent objectives. The discussion first identifies the shared physicochemical basis of degradation, with fast charging treated as a stringent validation case for a useful twin. The literature is then structured around four coupled layers: observability and data, physics-based and hybrid models, uncertainty-aware inference, and decision-facing control. On this basis, the Review examines health management beyond scalar state of health, plating-aware safety diagnosis, risk-constrained fast charging, and deployment from cell to pack and fleet levels. Finally, benchmarking, standardization, semantic data governance, and battery-passport requirements are discussed together with future opportunities in multimodal sensing, knowledge-enhanced twins, and autonomous closed-loop optimization. The central conclusion is that a deployable battery digital twin must be physics-grounded, uncertainty-calibrated, and explicitly designed to support decisions.",
+    "authors": [
+      "Hanfeng Wu",
+      "Yuanxing Zhang*",
+      "Daobin Mu*"
+    ],
+    "source": "Crossref",
+    "venue": "Energy Z",
+    "date": "2026-07-27",
+    "doi": "10.20517/energyz.2026.24",
+    "url": "https://doi.org/10.20517/energyz.2026.24",
+    "source_id": "",
+    "score": 166.0,
+    "level": "B",
+    "title_zh": "不确定性感知的物理引导锂离子电池数字孪生：迈向集成健康、安全与快充管理",
+    "one_sentence": "综述了不确定性感知的物理引导数字孪生，涵盖健康、安全与快充管理。",
+    "problem": "如何构建可部署的电池数字孪生，支持集成管理决策？",
+    "contributions": [
+      "提出了四层耦合框架：数据、模型、推理、控制",
+      "讨论了从单电池到pack和车队级别的部署",
+      "强调了不确定性量化与物理一致性"
+    ],
+    "bms_relevance": "直接相关：数字孪生是BMS前沿方向，涉及健康、安全、快充管理。",
+    "insight_for_group": "四层框架可为课题组构建云端数字孪生系统提供指导，尤其是不确定性量化部分。",
+    "reason": "B级，期刊Energy Z非高水平，但综述内容前沿且与课题组方向高度吻合，建议浏览。"
+  },
+  {
+    "title": "AI-driven predictive energy storage management for electric vehicle battery systems using a hybrid PSO–RNN framework",
+    "abstract": "To enhance the performance, lifespan, and reliability of lithium-ion battery packs in Electric Vehicles (EVs), this paper proposes an adaptive predictive Battery Management System (BMS) based on a hybrid Particle Swarm Optimization–Recurrent Neural Network (PSO–RNN) framework. Unlike conventional BMS approaches that struggle with charge imbalance and inefficient energy utilization, the proposed system integrates predictive analytics with real-time optimization to proactively manage State-of-Charge (SoC) variations. The effectiveness of the proposed approach is validated using both real-world and simulated datasets. Experimental results demonstrate a 75% reduction in SoC deviation (from ±4.8% to ±1.2%), a 55.6% decrease in equalization time (from 45 min to 20 min), and a 67.7% reduction in energy loss (from 6.5% to 2.1%) compared to conventional BMS methods. Additionally, the system achieves a cycle life improvement of up to 23.7%, extending battery longevity significantly. The proposed model also improves prediction accuracy, achieving an R 2 value of 0.98, compared to 0.92 in traditional approaches. These results confirm that the PSO–RNN-based adaptive BMS provides superior charge balancing, enhanced energy efficiency, and extended battery life without significant additional hardware cost. The proposed framework offers a scalable and robust solution for next-generation EV battery systems and can be extended to Vehicle-to-Grid (V2G) applications under diverse operating conditions.",
+    "authors": [
+      "Kavitha C",
+      "Sivakumar P"
+    ],
+    "source": "Crossref",
+    "venue": "Proceedings of the Institution of Mechanical Engineers, Part A: Journal of Power and Energy",
+    "date": "2026-07-26",
+    "doi": "10.1177/09576509261471635",
+    "url": "https://doi.org/10.1177/09576509261471635",
+    "source_id": "",
+    "score": 142.0,
+    "level": "B",
+    "title_zh": "基于PSO-RNN混合框架的电动汽车电池系统AI驱动预测性能量存储管理",
+    "one_sentence": "提出PSO优化RNN的BMS框架，实现SOC均衡与能量效率提升。",
+    "problem": "传统BMS在SOC均衡和能量管理上效果不佳。",
+    "contributions": [
+      "PSO-RNN混合模型实现自适应SOC均衡",
+      "在真实和仿真数据上验证，SOC偏差降低75%",
+      "延长循环寿命23.7%"
+    ],
+    "bms_relevance": "直接相关：BMS核心功能包括SOC均衡与能量管理。",
+    "insight_for_group": "PSO-RNN方法可尝试用于课题组pack均衡策略优化。",
+    "reason": "B级，期刊水平一般，但方法实用，实验效果显著，建议浏览。"
+  },
+  {
+    "title": "Smart EV Battery Monitoring System and Fire Prevention System",
+    "abstract": "The rapid growth of electric vehicles (EVs) has increased the demand for intelligent battery management systems capable of ensuring operational safety, reliability, and extended battery life. Battery failures caused by overvoltage, undervoltage, overcurrent, overheating, and gas leakage can significantly degrade battery performance and may lead to hazardous incidents such as thermal runaway and fire. This paper presents a Smart EV Battery Monitoring and Fire Prevention System that continuously monitors critical battery parameters and provides real-time protection against abnormal operating conditions. The proposed system employs an ESP32 microcontroller integrated with voltage, current (ACS712), temperature, and MQ-2 gas sensors to acquire and process battery data. A Battery Management System (BMS) is incorporated to provide overcharge, over-discharge, and short-circuit protection, while a relay module disconnects the battery during critical conditions. The system also utilizes a cooling fan, buzzer, LCD display, and GPS module to enhance user safety through immediate alerts, thermal management, and location tracking. Experimental evaluation under normal operation and multiple fault scenarios—including over-temperature, over-voltage, under-voltage, and over-current conditions—demonstrated reliable fault detection, rapid response, and effective activation of protective mechanisms. The developed prototype successfully enhanced battery safety, minimized the risk of fire hazards, and improved system reliability through continuous real-time monitoring. Owing to its low cost, scalability, and IoT-enabled architecture, the proposed system is well suited for electric vehicles, e-bikes, battery energy storage systems, and other smart energy applications requiring continuous battery health monitoring and fire prevention.",
+    "authors": [
+      "Sahitya Kiran P",
+      "Sujatha Kadagala",
+      "prasanna laxmi Kinthada",
+      "Malathi Bairi",
+      "Sagar Dereddi",
+      "a janaki aparna Mugad",
+      "Bhaskar Allam"
+    ],
+    "source": "Crossref",
+    "venue": "International Journal of Scientific Research in Engineering & Technology",
+    "date": "2026-07-26",
+    "doi": "10.59256/ijsreat.20260604014",
+    "url": "https://doi.org/10.59256/ijsreat.20260604014",
+    "source_id": "",
+    "score": 114.0,
+    "level": "C",
+    "title_zh": "智能电动汽车电池监测与防火系统",
+    "one_sentence": "开发了基于ESP32的电池监测与防火原型系统。",
+    "problem": "如何低成本实现电池的过压、过温、漏气监测与防火？",
+    "contributions": [
+      "集成了多传感器与BMS保护功能",
+      "实现了实时监测与报警",
+      "原型验证有效"
+    ],
+    "bms_relevance": "相关：涉及电池监测与保护，是BMS的基础功能。",
+    "insight_for_group": "可作为低成本监测方案的参考，但技术深度有限。",
+    "reason": "C级，期刊水平低，技术细节简单，边缘相关，进入备选。"
+  },
+  {
+    "title": "Multi timescale predictive energy management for battery life extension in electric vehicles",
+    "abstract": "Abstract Electric-vehicle battery energy management increasingly requires coordinated control of electrical demand, thermal behavior, and long-term degradation to ensure safe and durable operation. Existing predictive and digital-twin-inspired model-based observer battery-management approaches often do not fully integrate fast electro-thermal regulation with slow health-aware supervisory adaptation. To address this gap, this study proposes a multi-timescale health-resilient predictive energy-management framework that combines a fast predictive control layer for real-time traction-demand satisfaction with a slow supervisory layer that updates health-dependent limits, adaptive weights, and operating envelopes using cumulative electro-thermal-aging stress. The framework is evaluated in discrete-time simulation under Urban-Nominal, Highway-Nominal, Aggressive-Hot, and Aged-Battery-Hot scenarios against Rule-Based, Fast-MPC-Only, and Electro-Thermal-MPC strategies. Results show that the proposed controller consistently provides the most favorable battery-preservation tradeoff. Under Urban-Nominal operation, it reduces RMS current to 125.75 A and achieves the lowest cumulative degradation among the predictive controllers. Under Aggressive-Hot operation, it lowers RMS current to 120.44 A and cumulative degradation to $$\\:1.4929\\times\\:{10}^{-5}$$ , while under Aged-Battery-Hot conditions it again yields the lowest degradation and loss-energy trends among the predictive methods. The proposed framework therefore offers a balanced compromise between short-term energy-management performance and long-term battery durability, suggesting its potential usefulness for health-aware EV battery energy-management studies, subject to further experimental and long-horizon validation.",
+    "authors": [
+      "Kiran Keshyagol",
+      "Pooja Anil Bagane",
+      "Darshankumar D.Billur",
+      "Abhishek Magadum",
+      "Siddalingappa Gandh",
+      "Vasantkumar K. Upadhye"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "Scientific Reports",
+    "date": "2026-07-25",
+    "doi": "10.1038/s41598-026-63658-x",
+    "url": "https://doi.org/10.1038/s41598-026-63658-x",
+    "source_id": "",
+    "score": 62.0,
+    "level": "B",
+    "title_zh": "多时间尺度预测能量管理实现电动汽车电池寿命延长",
+    "one_sentence": "提出多时间尺度健康感知预测能量管理框架，兼顾实时牵引与长期退化。",
+    "problem": "如何协调电热调节与健康退化以实现电池寿命延长？",
+    "contributions": [
+      "双层MPC框架，快层满足需求，慢层更新健康限制",
+      "在多种工况下验证，退化最低",
+      "平衡了短期性能与长期寿命"
+    ],
+    "bms_relevance": "直接相关：BMS能量管理与健康管理集成。",
+    "insight_for_group": "多时间尺度框架可参考用于课题组电池能量管理项目。",
+    "reason": "B级，Scientific Reports期刊，相关性强，方法系统，建议浏览。"
+  }
+]
