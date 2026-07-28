@@ -1,0 +1,301 @@
+[
+  {
+    "title": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "A",
+    "title_zh": "锂离子电池组热失控中的短路行为与临时局部过充条件",
+    "one_sentence": "实验研究了电池组热失控过程中的内部短路和局部过充现象。",
+    "problem": "电池组热失控的安全机制尚不明确，特别是短路和局部过充的相互作用。",
+    "contributions": [
+      "揭示了pack级别热失控的短路行为与局部过充的演化规律",
+      "提供了实验数据和机理分析",
+      "为电池组安全设计和预警提供了依据"
+    ],
+    "bms_relevance": "直接关联电池组安全预警，是BMS故障诊断和热失控预测的核心问题。",
+    "insight_for_group": "可借鉴其pack实验方案和数据分析方法，用于安全性预警模型的构建或验证。",
+    "reason": "A级：eTransportation (排名15) 高相关，pack级热失控安全直接是BMS核心方向。"
+  },
+  {
+    "title": "Estimation of SoC, SoH, and RUL in battery management systems using artificial intelligence: A tertiary mapping study",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26033578?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 137.0,
+    "level": "B",
+    "title_zh": "基于人工智能的电池管理系统中SoC/SoH/RUL估计：三级映射研究",
+    "one_sentence": "系统综述了AI方法在BMS状态估计中的应用（相同标题不同作者/DOI）。",
+    "problem": "BMS中SOC/SOH/RUL估计的AI方法缺乏系统性综述。",
+    "contributions": [
+      "三级映射梳理了AI方法的应用现状",
+      "识别了研究空白与趋势",
+      "为后续研究提供了结构化参考"
+    ],
+    "bms_relevance": "直接覆盖BMS核心状态估计任务。",
+    "insight_for_group": "可作为课题组的文献索引，快速了解AI在状态估计中的主流方法。",
+    "reason": "B级：强相关，但为映射综述且期刊Journal of Energy Storage不在高优先列表前15，创新性一般。"
+  },
+  {
+    "title": "Estimation of SoC, SoH, and RUL in battery management systems using artificial intelligence: A tertiary mapping study",
+    "abstract": "",
+    "authors": [
+      "Michael Lopes Bastos",
+      "Maria Alice Andrade Calazans",
+      "Monalisa C. Moura dos Santos",
+      "Igor Amaral M. Sousa",
+      "Luiz Henrique Bertucci Borges",
+      "Leonardo Didier Coelho"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-07-27",
+    "doi": "10.1016/j.est.2026.123693",
+    "url": "https://doi.org/10.1016/j.est.2026.123693",
+    "source_id": "",
+    "score": 119.0,
+    "level": "B",
+    "title_zh": "基于人工智能的电池管理系统中SoC/SoH/RUL估计：三级映射研究",
+    "one_sentence": "系统综述了AI方法在BMS状态估计中的应用（相同标题不同作者/DOI）。",
+    "problem": "BMS中SOC/SOH/RUL估计的AI方法缺乏系统性综述。",
+    "contributions": [
+      "三级映射梳理了AI方法的应用现状",
+      "识别了研究空白与趋势",
+      "为后续研究提供了结构化参考"
+    ],
+    "bms_relevance": "直接覆盖BMS核心状态估计任务。",
+    "insight_for_group": "可作为课题组的文献索引，快速了解AI在状态估计中的主流方法。",
+    "reason": "B级：强相关，但为映射综述且期刊Journal of Energy Storage不在高优先列表前15，创新性一般。"
+  },
+  {
+    "title": "Retired battery state of health estimation: A cross-lifecycle data fusion approach with dual physical constraints",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26034572?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 95.0,
+    "level": "B",
+    "title_zh": "退役电池健康状态估计：具有双物理约束的跨生命周期数据融合方法",
+    "one_sentence": "提出物理约束数据融合方法估计退役电池SOH。",
+    "problem": "退役电池SOH估计困难，缺乏跨生命周期数据融合。",
+    "contributions": [
+      "提出了双物理约束的跨生命周期数据融合框架",
+      "提高了退役电池SOH估计准确性",
+      "利用了实际退役电池数据验证"
+    ],
+    "bms_relevance": "直接覆盖SOH估计，且面向退役电池与BMS二次利用相关。",
+    "insight_for_group": "物理约束数据融合方法可借鉴用于pack级或实车SOH估计。",
+    "reason": "B级：相关性强，但期刊Journal of Energy Storage，创新性一般。"
+  },
+  {
+    "title": "Empowering the next generation of automotive energy systems: A comprehensive review of battery management systems, modeling, estimation, and future research directions",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26034808?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 89.0,
+    "level": "B",
+    "title_zh": "赋能下一代汽车能源系统：电池管理系统、建模、估计及未来研究方向的综合综述",
+    "one_sentence": "综合综述了下一代汽车BMS的建模、估计与未来方向（不同作者版本）。",
+    "problem": "现有BMS综述缺乏对下一代技术方向的全面梳理。",
+    "contributions": [
+      "系统回顾了BMS建模与估计方法",
+      "展望了未来研究方向如数字孪生、边缘计算等",
+      "为BMS发展提供了全景视角"
+    ],
+    "bms_relevance": "直接综述BMS整个领域。",
+    "insight_for_group": "可作为课题组了解BMS前沿方向的参考资料。",
+    "reason": "B级：强相关，但为综述且期刊一般。"
+  },
+  {
+    "title": "Energy storage battery state of health estimation using a phototropic growth algorithm optimized multi-order Kolmogorov-Arnold TimeXer integrated architecture",
+    "abstract": "",
+    "authors": [
+      "Tiangqing Yuan",
+      "Bin Han",
+      "彭光涛",
+      "R Wang"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-07-27",
+    "doi": "10.1016/j.est.2026.123812",
+    "url": "https://doi.org/10.1016/j.est.2026.123812",
+    "source_id": "",
+    "score": 73.0,
+    "level": "B",
+    "title_zh": "基于向光生长算法优化的多阶Kolmogorov-Arnold TimeXer集成架构的储能电池SOH估计",
+    "one_sentence": "提出了一种新型集成网络架构用于储能电池SOH估计。",
+    "problem": "储能电池SOH估计精度受限于模型结构。",
+    "contributions": [
+      "引入了Kolmogorov-Arnold神经网络和TimeXer组合",
+      "采用光生长算法优化超参数",
+      "在储能电池数据上验证了有效性"
+    ],
+    "bms_relevance": "直接针对储能电池SOH估计，属于BMS健康管理。",
+    "insight_for_group": "可尝试其新型网络架构用于SOH预测，但注意方法复杂度。",
+    "reason": "B级：相关，方法新颖但期刊一般。"
+  },
+  {
+    "title": "Empowering the next generation of automotive energy systems: A comprehensive review of battery management systems, modeling, estimation, and future research directions",
+    "abstract": "",
+    "authors": [
+      "Assia Redouani",
+      "Kamal Zared",
+      "Najiba El Amrani El Idrissi"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-07-27",
+    "doi": "10.1016/j.est.2026.123816",
+    "url": "https://doi.org/10.1016/j.est.2026.123816",
+    "source_id": "",
+    "score": 71.0,
+    "level": "B",
+    "title_zh": "赋能下一代汽车能源系统：电池管理系统、建模、估计及未来研究方向的综合综述",
+    "one_sentence": "综合综述了下一代汽车BMS的建模、估计与未来方向（不同作者版本）。",
+    "problem": "现有BMS综述缺乏对下一代技术方向的全面梳理。",
+    "contributions": [
+      "系统回顾了BMS建模与估计方法",
+      "展望了未来研究方向如数字孪生、边缘计算等",
+      "为BMS发展提供了全景视角"
+    ],
+    "bms_relevance": "直接综述BMS整个领域。",
+    "insight_for_group": "可作为课题组了解BMS前沿方向的参考资料。",
+    "reason": "B级：强相关，但为综述且期刊一般。"
+  },
+  {
+    "title": "Review on the application of metaheuristic algorithms in neural network-based methods for lithium-ion battery state estimation and prediction",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26034018?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 69.0,
+    "level": "B",
+    "title_zh": "元启发算法在基于神经网络的锂离子电池状态估计与预测中的应用综述",
+    "one_sentence": "综述了元启发算法优化神经网络用于电池状态估计的方法（不同作者/DOI版本）。",
+    "problem": "元启发算法在电池状态估计中的系统应用综述不足。",
+    "contributions": [
+      "分类总结了多种元启发算法与神经网络结合的方案",
+      "分析了不同方法的优缺点",
+      "提供了未来研究方向"
+    ],
+    "bms_relevance": "直接关联电池状态估计（SOC/SOH/RUL）。",
+    "insight_for_group": "可为课题组在优化算法选择上提供参考。",
+    "reason": "B级：强相关，但综述且期刊一般。"
+  },
+  {
+    "title": "An adaptive Autoregressive model by particle filtering algorithm for prognostics of lithium-ion batteries",
+    "abstract": "",
+    "authors": [
+      "Jing Cheng",
+      "Zeyu Gu",
+      "Jie Hu"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-07-27",
+    "doi": "10.1016/j.est.2026.123697",
+    "url": "https://doi.org/10.1016/j.est.2026.123697",
+    "source_id": "",
+    "score": 59.0,
+    "level": "B",
+    "title_zh": "基于粒子滤波的自适应自回归模型用于锂离子电池预测",
+    "one_sentence": "提出自适应自回归结合粒子滤波的电池寿命预测方法。",
+    "problem": "电池寿命预测中模型自适应能力不足。",
+    "contributions": [
+      "融合自回归模型与粒子滤波实现自适应预测",
+      "在实测数据上验证了有效性",
+      "提供了不确定性量化"
+    ],
+    "bms_relevance": "直接针对电池RUL预测，属于BMS健康管理。",
+    "insight_for_group": "可借鉴其自适应滤波思想用于RUL在线估计。",
+    "reason": "B级：相关，但方法较传统且期刊一般。"
+  },
+  {
+    "title": "Random fragment-oriented state of health estimation for lithium-ion batteries: A generative data reconstruction and ensemble learning framework",
+    "abstract": "",
+    "authors": [
+      "Rui Pan",
+      "Cong Li",
+      "Duo Yang",
+      "Peng Wang",
+      "Mao Tan",
+      "Yongxin Su",
+      "Yi Su",
+      "Tongshen Liu"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-07-27",
+    "doi": "10.1016/j.est.2026.123657",
+    "url": "https://doi.org/10.1016/j.est.2026.123657",
+    "source_id": "",
+    "score": 53.0,
+    "level": "B",
+    "title_zh": "面向随机片段的锂离子电池SOH估计：生成式数据重构与集成学习框架",
+    "one_sentence": "提出基于随机片段数据重构和集成学习的SOH估计方法。",
+    "problem": "SOH估计中数据片段不完整问题。",
+    "contributions": [
+      "利用生成式模型重构随机片段数据",
+      "集成多个基础模型提高鲁棒性",
+      "在公共数据集上取得良好性能"
+    ],
+    "bms_relevance": "直接针对SOH估计，属于BMS状态监测。",
+    "insight_for_group": "数据重构思路可用于处理实车噪声或缺失数据。",
+    "reason": "B级：相关，但方法较常规且期刊一般。"
+  },
+  {
+    "title": "Review on the application of metaheuristic algorithms in neural network-based methods for lithium-ion battery state estimation and prediction",
+    "abstract": "",
+    "authors": [
+      "J Liu",
+      "Chengqi She",
+      "Guangfu Bin",
+      "Yuandong Xu",
+      "Litao Zhou"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-07-26",
+    "doi": "10.1016/j.est.2026.123737",
+    "url": "https://doi.org/10.1016/j.est.2026.123737",
+    "source_id": "",
+    "score": 51.0,
+    "level": "B",
+    "title_zh": "元启发算法在基于神经网络的锂离子电池状态估计与预测中的应用综述",
+    "one_sentence": "综述了元启发算法优化神经网络用于电池状态估计的方法（不同作者/DOI版本）。",
+    "problem": "元启发算法在电池状态估计中的系统应用综述不足。",
+    "contributions": [
+      "分类总结了多种元启发算法与神经网络结合的方案",
+      "分析了不同方法的优缺点",
+      "提供了未来研究方向"
+    ],
+    "bms_relevance": "直接关联电池状态估计（SOC/SOH/RUL）。",
+    "insight_for_group": "可为课题组在优化算法选择上提供参考。",
+    "reason": "B级：强相关，但综述且期刊一般。"
+  }
+]
