@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Battery Management Literature Daily｜2026-07-30</title>
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",Arial,sans-serif;line-height:1.68;color:#1f2933;background:#f5f7fa;margin:0;padding:0;}
+    .container{max-width:1040px;margin:0 auto;padding:28px 20px 44px;}
+    .header{background:linear-gradient(135deg,#063b5c,#0b7285);color:#fff;border-radius:18px;padding:28px 30px;margin-bottom:22px;box-shadow:0 8px 22px rgba(0,0,0,.12);}
+    .header h1{margin:0 0 12px;font-size:28px;letter-spacing:.3px;}
+    .header p{margin:4px 0;color:#e7f5ff;}
+    .summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:18px 0 6px;}
+    .stat{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.22);border-radius:14px;padding:12px 14px;}
+    .stat b{font-size:24px;color:#fff;display:block;}
+    .block{background:#fff;border:1px solid #d9e2ec;border-radius:16px;padding:22px;margin:18px 0;box-shadow:0 2px 10px rgba(15,23,42,.04);}
+    h2{color:#0b3d5c;margin:0 0 14px;font-size:22px;}
+    h3{margin:0 0 10px;font-size:19px;color:#102a43;}
+    .meta{color:#52616b;font-size:14px;margin:4px 0;}
+    .paper{border-top:1px solid #e5edf3;padding-top:18px;margin-top:18px;}
+    .paper:first-child{border-top:none;padding-top:0;margin-top:0;}
+    .tag{display:inline-block;border-radius:999px;padding:4px 10px;color:#fff;font-size:12px;font-weight:700;letter-spacing:.2px;margin-right:8px;}
+    .A{background:#c62828;}.B{background:#ef6c00;}.C{background:#607d8b;}
+    .score{display:inline-block;background:#edf2f7;color:#334e68;border-radius:999px;padding:4px 10px;font-size:12px;}
+    ul{padding-left:22px;margin:8px 0 10px;}
+    a{color:#0b7285;text-decoration:none;}a:hover{text-decoration:underline;}
+    table{width:100%;border-collapse:collapse;background:white;font-size:14px;}
+    th,td{border:1px solid #d9e2ec;padding:10px;vertical-align:top;text-align:left;}
+    th{background:#edf4f7;color:#243b53;}
+    .footer{font-size:13px;color:#697386;text-align:center;margin-top:24px;}
+    @media(max-width:720px){.summary-grid{grid-template-columns:1fr}.header{border-radius:0}.container{padding:0 0 28px}.block{border-radius:0;border-left:none;border-right:none}.header h1{font-size:24px}}
+  </style>
+</head>
+<body>
+<div class="container">
+  <section class="header">
+    <h1>Battery Management Literature Daily</h1>
+    <p><b>日期：</b>2026-07-30 ｜ <b>检索窗口：</b>近 2 天 ｜ <b>生成时间：</b>2026-07-30 11:42:39 UTC+8</p>
+    <p>今日候选论文涵盖电池热失控预警、SOH估计、电池模组短路行为等BMS核心主题，但部分来自低影响因子期刊或与电池管理间接相关。Applied Energy和eTransportation上论文涉及热失控预警和pack级故障分析，相关性高；J. Energy Storage上的LLM物理增强预警和可解释图网络SOH估计值得关注。其余论文因期刊水平或相关度不足予以降级或剔除。</p>
+    <div class="summary-grid">
+      <div class="stat"><b>2</b> A级必读</div>
+      <div class="stat"><b>7</b> B级浏览</div>
+      <div class="stat"><b>3</b> C级备选</div>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>一、今日趋势判断</h2>
+    <p>近期研究注重物理信息与数据驱动融合，如物理引导的数据增强用于热失控预警、符号回归-物理信息神经网络用于退化预测。同时，pack级热失控行为分析（如短路和过充）仍是安全领域重点。SOH估计转向可解释图网络。但部分低层次期刊综述性文章创新有限。</p>
+  </section>
+
+  <section class="block">
+    <h2>二、A级必读论文</h2>
+    
+      
+      <article class="paper">
+        <h3>1. Renewable Energy-Aware Carbon Digital Twin for Smart and Sustainable Construction Operations Using AI-Based Multi-Objective Optimization</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 151.0</span></p>
+        <p class="meta"><b>中文题目：</b>Renewable Energy-Aware Carbon Digital Twin for Smart and Sustainable Construction Operations Using AI-Based Multi-Objective Optimization</p>
+        <p class="meta"><b>作者：</b>Qasim Aljamal, Nawal Louzi, Ayoub Alsarhan, Kholoud Alkayid, Malek Barhoush et al.</p>
+        <p class="meta"><b>来源：</b>Sci ｜ <b>日期：</b>2026-07-28 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.3390/sci8080183</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.3390/sci8080183">https://doi.org/10.3390/sci8080183</a></p>
+        <p><b>一句话总结：</b>面向电池健康状态估计与寿命预测。</p>
+        <p><b>研究问题：</b>围绕电池健康、安全、状态估计或储能管理问题展开。</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>提出或评估电池状态估计、健康预测或安全预警方法。</li><li>关注真实工况、pack/系统级应用或模型泛化能力。</li><li>对 BMS 算法部署、云端分析或储能运维具有参考价值。</li></ul>
+        <p><b>与BMS相关性：</b>高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。</p>
+        <p><b>对课题组启发：</b>可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。</p>
+        <p><b>推荐理由：</b>关键词、BMS相关性和期刊优先级综合评分 151.0，推荐等级 A。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>2. Valve-strain-enabled staged early warning of overheating-induced thermal runaway in LiFePO&lt;sub&gt;4&lt;/sub&gt; energy storage cells</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 114.25</span></p>
+        <p class="meta"><b>中文题目：</b>基于阀应变的LiFePO4储能电池过热热失控分级预警</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Applied Energy ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S0306261926011803?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S0306261926011803?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>利用阀应变信号实现储能电池热失控的分级早期预警。</p>
+        <p><b>研究问题：</b>如何在不依赖昂贵传感器的情况下实现储能电池热失控的早期分级预警。</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>提出利用电池阀应变作为热失控早期信号，实现分级预警机制。</li><li>在LiFePO4储能电池上验证了方法的有效性和及时性。</li><li>为储能系统低成本、高安全性的热失控预警提供新方案。</li></ul>
+        <p><b>与BMS相关性：</b>直接相关：热失控预警是BMS安全管理的核心功能，该研究针对储能场景提出新型预警方法。</p>
+        <p><b>对课题组启发：</b>可借鉴阀应变信号应用于pack级热失控预警，结合课题组现场数据开发低成本预警算法。</p>
+        <p><b>推荐理由：</b>A级：发表于Applied Energy（高水平期刊，优先列表第8位），研究方向与BMS安全预警高度相关，方法新颖且具有工程实用价值。</p>
+      </article>
+      
+    
+  </section>
+
+  <section class="block">
+    <h2>三、B级建议浏览论文</h2>
+    
+      
+      <article class="paper">
+        <h3>1. Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 90.5</span></p>
+        <p class="meta"><b>中文题目：</b>锂离子电池包热失控过程中的电短路行为与局部过充状态分析</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>eTransportation ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>实验分析电池包热失控中短路和局部过充的演化规律。</p>
+        <ul><li>揭示了电池包热失控时内部短路与局部过充的相互作用。</li><li>基于实验数据量化了短路电流和过充程度。</li><li>为pack级热失控安全设计提供机理支撑。</li></ul>
+        <p><b>与BMS相关性：</b>相关：直接研究pack级热失控行为，对BMS故障诊断和安全预警有参考价值。</p>
+        <p><b>对课题组启发：</b>pack不一致性评估可参考局部过充现象，对SOH估计中的异常检测有启发。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>2. Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 88.5</span></p>
+        <p class="meta"><b>中文题目：</b>Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>eTransportation ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>与电池管理及智能诊断具有一定相关性。</p>
+        <ul><li>提出或评估电池状态估计、健康预测或安全预警方法。</li><li>关注真实工况、pack/系统级应用或模型泛化能力。</li><li>对 BMS 算法部署、云端分析或储能运维具有参考价值。</li></ul>
+        <p><b>与BMS相关性：</b>中高：与 BMS 或储能管理相关，建议浏览。</p>
+        <p><b>对课题组启发：</b>可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>3. A large language model approach with physics-guided data augmentation for early warning of battery thermal runaway</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 101.0</span></p>
+        <p class="meta"><b>中文题目：</b>基于大语言模型与物理引导数据增强的电池热失控预警</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26034882?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2352152X26034882?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>利用大语言模型结合物理数据增强实现电池热失控预警。</p>
+        <ul><li>首次将大语言模型应用于电池热失控预警。</li><li>提出物理引导的数据增强方法缓解小样本问题。</li><li>在公开数据集上验证了方法的优越性。</li></ul>
+        <p><b>与BMS相关性：</b>直接相关：热失控预警是BMS安全的关键，且探索了LLM新范式。</p>
+        <p><b>对课题组启发：</b>可探索LLM在SOC/SOH估计、异常检测中的应用，结合物理信息提升可解释性。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>4. A large language model approach with physics-guided data augmentation for early warning of battery thermal runaway</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 83.0</span></p>
+        <p class="meta"><b>中文题目：</b>基于大语言模型与物理引导数据增强的电池热失控预警</p>
+        <p class="meta"><b>作者：</b>Yong Gao, Jiayi Huang, Rui Chen, Jiacheng He, Ting Wang</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>2026-07-28 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.1016/j.est.2026.123824</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1016/j.est.2026.123824">https://doi.org/10.1016/j.est.2026.123824</a></p>
+        <p><b>一句话总结：</b>利用大语言模型结合物理数据增强实现电池热失控预警。</p>
+        <ul><li>首次将大语言模型应用于电池热失控预警。</li><li>提出物理引导的数据增强方法缓解小样本问题。</li><li>在公开数据集上验证了方法的优越性。</li></ul>
+        <p><b>与BMS相关性：</b>直接相关：热失控预警是BMS安全的关键，且探索了LLM新范式。</p>
+        <p><b>对课题组启发：</b>可探索LLM在SOC/SOH估计、异常检测中的应用，结合物理信息提升可解释性。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>5. Gramian angular field-based explainable graph network for battery state-of-health estimation</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 77.0</span></p>
+        <p class="meta"><b>中文题目：</b>基于格拉米角场的可解释图网络电池健康状态估计</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26034675?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2352152X26034675?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>将格拉米角场与图网络结合实现可解释的SOH估计。</p>
+        <ul><li>提出格拉米角场编码电压序列为图像，增强特征可解释性。</li><li>设计图网络融合多电池关系，提升估计精度。</li><li>在循环老化数据集上验证了性能。</li></ul>
+        <p><b>与BMS相关性：</b>直接相关：SOH估计是BMS核心功能，且关注可解释性。</p>
+        <p><b>对课题组启发：</b>可借鉴该特征编码方法处理pack不一致性数据，或用于基于现场数据的SOH估计。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>6. An intelligent graph-based framework for hydrogen refueling station siting in mines: Integrating 3D topology restoration and physics-informed energy optimization</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 71.0</span></p>
+        <p class="meta"><b>中文题目：</b>An intelligent graph-based framework for hydrogen refueling station siting in mines: Integrating 3D topology restoration and physics-informed energy optimization</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26034456?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2352152X26034456?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>与电池管理及智能诊断具有一定相关性。</p>
+        <ul><li>提出或评估电池状态估计、健康预测或安全预警方法。</li><li>关注真实工况、pack/系统级应用或模型泛化能力。</li><li>对 BMS 算法部署、云端分析或储能运维具有参考价值。</li></ul>
+        <p><b>与BMS相关性：</b>中高：与 BMS 或储能管理相关，建议浏览。</p>
+        <p><b>对课题组启发：</b>可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>7. Adaptive energy management strategy for fuel cell electric vehicles using online self-tuning neural networks</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 70.0</span></p>
+        <p class="meta"><b>中文题目：</b>Adaptive energy management strategy for fuel cell electric vehicles using online self-tuning neural networks</p>
+        <p class="meta"><b>作者：</b>Ahmad Jobran Al-Mahasneh, Mohammed Abu Mallouh, Basel Jouda, Mohammed Baniyounis</p>
+        <p class="meta"><b>来源：</b>Proceedings of the Institution of Mechanical Engineers Part D Journal of Automobile Engineering ｜ <b>日期：</b>2026-07-28 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.1177/09544070261469747</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1177/09544070261469747">https://doi.org/10.1177/09544070261469747</a></p>
+        <p><b>一句话总结：</b>围绕电池 SOC 估计及不确定性管理展开。</p>
+        <ul><li>提出或评估电池状态估计、健康预测或安全预警方法。</li><li>关注真实工况、pack/系统级应用或模型泛化能力。</li><li>对 BMS 算法部署、云端分析或储能运维具有参考价值。</li></ul>
+        <p><b>与BMS相关性：</b>中高：与 BMS 或储能管理相关，建议浏览。</p>
+        <p><b>对课题组启发：</b>可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。</p>
+      </article>
+      
+    
+  </section>
+
+  <section class="block">
+    <h2>四、C级备选与快速浏览</h2>
+    
+    <table>
+      <thead><tr><th>标题</th><th>来源</th><th>日期</th><th>推荐理由</th></tr></thead>
+      <tbody>
+      
+        <tr>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26034018?dgcid=rss_sd_all">Review on the application of metaheuristic algorithms in neural network-based methods for lithium-ion battery state estimation and prediction</a></td>
+          <td>Journal of Energy Storage</td>
+          <td>未知</td>
+          <td>C级：综述性论文，无新方法，期刊水平一般，备选。</td>
+        </tr>
+      
+        <tr>
+          <td><a href="https://doi.org/10.3390/pr14152445">Adaptive Control of Dual-Phase Bidirectional Flyback Converters for Efficient Cell Balancing in Lithium-Ion Battery Packs: A Comprehensive Review</a></td>
+          <td>Processes</td>
+          <td>2026-07-29</td>
+          <td>C级：综述论文，无新贡献，期刊Processes非优先列表，边缘相关。</td>
+        </tr>
+      
+        <tr>
+          <td><a href="https://doi.org/10.1177/01423312261466331">Machine learning-based fault diagnosis for lithium-ion battery systems</a></td>
+          <td>Transactions of the Institute of Measurement and Control</td>
+          <td>2026-07-29</td>
+          <td>C级：发表于低影响因子期刊，方法创新性一般，备选。</td>
+        </tr>
+      
+      </tbody>
+    </table>
+    
+  </section>
+
+  <section class="block">
+    <h2>五、今日论文总表</h2>
+    <table>
+      <thead><tr><th>等级</th><th>标题</th><th>期刊/来源</th><th>方向判断</th><th>链接</th></tr></thead>
+      <tbody>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>Renewable Energy-Aware Carbon Digital Twin for Smart and Sustainable Construction Operations Using AI-Based Multi-Objective Optimization</td>
+          <td>Sci</td>
+          <td>面向电池健康状态估计与寿命预测。</td>
+          <td><a href="https://doi.org/10.3390/sci8080183">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>Valve-strain-enabled staged early warning of overheating-induced thermal runaway in LiFePO&lt;sub&gt;4&lt;/sub&gt; energy storage cells</td>
+          <td>Applied Energy</td>
+          <td>利用阀应变信号实现储能电池热失控的分级早期预警。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S0306261926011803?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs</td>
+          <td>eTransportation</td>
+          <td>实验分析电池包热失控中短路和局部过充的演化规律。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network</td>
+          <td>eTransportation</td>
+          <td>与电池管理及智能诊断具有一定相关性。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>A large language model approach with physics-guided data augmentation for early warning of battery thermal runaway</td>
+          <td>Journal of Energy Storage</td>
+          <td>利用大语言模型结合物理数据增强实现电池热失控预警。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26034882?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>A large language model approach with physics-guided data augmentation for early warning of battery thermal runaway</td>
+          <td>Journal of Energy Storage</td>
+          <td>利用大语言模型结合物理数据增强实现电池热失控预警。</td>
+          <td><a href="https://doi.org/10.1016/j.est.2026.123824">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Gramian angular field-based explainable graph network for battery state-of-health estimation</td>
+          <td>Journal of Energy Storage</td>
+          <td>将格拉米角场与图网络结合实现可解释的SOH估计。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26034675?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>An intelligent graph-based framework for hydrogen refueling station siting in mines: Integrating 3D topology restoration and physics-informed energy optimization</td>
+          <td>Journal of Energy Storage</td>
+          <td>与电池管理及智能诊断具有一定相关性。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26034456?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>Review on the application of metaheuristic algorithms in neural network-based methods for lithium-ion battery state estimation and prediction</td>
+          <td>Journal of Energy Storage</td>
+          <td>综述元启发式算法优化神经网络用于电池SOC/SOH等估计的进展。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26034018?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>Adaptive Control of Dual-Phase Bidirectional Flyback Converters for Efficient Cell Balancing in Lithium-Ion Battery Packs: A Comprehensive Review</td>
+          <td>Processes</td>
+          <td>综述双相反激变换器在电池均衡中的控制策略。</td>
+          <td><a href="https://doi.org/10.3390/pr14152445">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>Machine learning-based fault diagnosis for lithium-ion battery systems</td>
+          <td>Transactions of the Institute of Measurement and Control</td>
+          <td>结合实验与合成数据，用机器学习实现电池故障诊断。</td>
+          <td><a href="https://doi.org/10.1177/01423312261466331">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Adaptive energy management strategy for fuel cell electric vehicles using online self-tuning neural networks</td>
+          <td>Proceedings of the Institution of Mechanical Engineers Part D Journal of Automobile Engineering</td>
+          <td>围绕电池 SOC 估计及不确定性管理展开。</td>
+          <td><a href="https://doi.org/10.1177/09544070261469747">Open</a></td>
+        </tr>
+      
+      </tbody>
+    </table>
+  </section>
+
+  <p class="footer">Generated by battery-paper-agent. 请人工复核关键结论后再用于论文综述或组会汇报。</p>
+</div>
+</body>
+</html>
