@@ -1,0 +1,335 @@
+[
+  {
+    "title": "Trustworthy digital twins for thermal and energy conversion systems: physics-grounded modeling, uncertainty-aware prediction, and operational decision support",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Applied Energy",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0306261926012316?dgcid=rss_sd_all",
+    "source_id": "rss:9:Applied Energy",
+    "score": 100.25,
+    "level": "A",
+    "title_zh": "Trustworthy digital twins for thermal and energy conversion systems: physics-grounded modeling, uncertainty-aware prediction, and operational decision support",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 100.25，推荐等级 A；期刊优先级第 8 位。"
+  },
+  {
+    "title": "Physics-Informed Deep Gated Recurrent Unit Network for Lithium-Ion Battery State of Health Estimation Under Field Conditions",
+    "abstract": "",
+    "authors": [
+      "Laijin Luo",
+      "Yu Wang",
+      "Yang Li",
+      "Qiushi Cui"
+    ],
+    "source": "Crossref",
+    "venue": "IEEE Transactions on Transportation Electrification",
+    "date": "2026-08-01",
+    "doi": "10.1109/tte.2026.3686077",
+    "url": "https://doi.org/10.1109/tte.2026.3686077",
+    "source_id": "",
+    "score": 87.25,
+    "level": "A",
+    "title_zh": "Physics-Informed Deep Gated Recurrent Unit Network for Lithium-Ion Battery State of Health Estimation Under Field Conditions",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 87.25，推荐等级 A；期刊优先级第 12 位。"
+  },
+  {
+    "title": "Distributed Finite-Time SoC Estimation for Lithium-Ion Battery Packs",
+    "abstract": "",
+    "authors": [
+      "Heng Li",
+      "Haiya Yu",
+      "Ren Zhu",
+      "Chen Le",
+      "Yue Wu",
+      "Weirong Liu"
+    ],
+    "source": "Crossref",
+    "venue": "IEEE Transactions on Industrial Electronics",
+    "date": "2026-08-01",
+    "doi": "10.1109/tie.2026.3661048",
+    "url": "https://doi.org/10.1109/tie.2026.3661048",
+    "source_id": "",
+    "score": 77.0,
+    "level": "B",
+    "title_zh": "Distributed Finite-Time SoC Estimation for Lithium-Ion Battery Packs",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 77.0，推荐等级 B；期刊优先级第 13 位。"
+  },
+  {
+    "title": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 90.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 88.5,
+    "level": "B",
+    "title_zh": "Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 88.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Joint estimation of battery state of health and remaining useful life via degradation encoding and implicit physics-informed neural networks",
+    "abstract": "",
+    "authors": [
+      "Zheng Liu",
+      "Linfeng Yao",
+      "Wenjing Huang",
+      "Yanjun Jiang",
+      "Siyuan Qiu",
+      "Xiaofeng Tang"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Power Sources",
+    "date": "2026-07-31",
+    "doi": "10.1016/j.jpowsour.2026.241124",
+    "url": "https://doi.org/10.1016/j.jpowsour.2026.241124",
+    "source_id": "",
+    "score": 97.25,
+    "level": "B",
+    "title_zh": "Joint estimation of battery state of health and remaining useful life via degradation encoding and implicit physics-informed neural networks",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 97.25，推荐等级 B；期刊优先级第 20 位。"
+  },
+  {
+    "title": "Multi-fault diagnosis of lithium-ion battery packs based on fast electrochemical impedance spectroscopy under the coexistence of abnormal aging, lithium plating and internal short circuit",
+    "abstract": "",
+    "authors": [
+      "Chun Chang",
+      "Yedong He",
+      "Linghan Zhu",
+      "Lu Lv",
+      "Shaoyuan Wei",
+      "Jiuchun Jiang"
+    ],
+    "source": "Crossref",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-08-01",
+    "doi": "10.1016/j.est.2026.122749",
+    "url": "https://doi.org/10.1016/j.est.2026.122749",
+    "source_id": "",
+    "score": 91.0,
+    "level": "B",
+    "title_zh": "Multi-fault diagnosis of lithium-ion battery packs based on fast electrochemical impedance spectroscopy under the coexistence of abnormal aging, lithium plating and internal short circuit",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 91.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "EV battery management system with integrated bypass switching matrix for voltage/SOC balancing and traction inverter loss minimisation",
+    "abstract": "",
+    "authors": [
+      "Adnan Ashraf",
+      "Basit Ali",
+      "Mothanna S.A. Alsunjury",
+      "Paul Weston",
+      "Pietro Tricoli"
+    ],
+    "source": "Crossref",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-08-01",
+    "doi": "10.1016/j.est.2026.122683",
+    "url": "https://doi.org/10.1016/j.est.2026.122683",
+    "source_id": "",
+    "score": 85.0,
+    "level": "B",
+    "title_zh": "EV battery management system with integrated bypass switching matrix for voltage/SOC balancing and traction inverter loss minimisation",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 85.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Design and multi-objective optimization of single-phase natural-convection immersion cooling for cylindrical Lithium-ion battery packs in subaquatic energy storage systems",
+    "abstract": "",
+    "authors": [
+      "Zhaolong Zeng",
+      "Xing Ju",
+      "Xiaole Yao",
+      "Qian Liu",
+      "Xiaoqing Zhu",
+      "Chao Xu"
+    ],
+    "source": "Crossref",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-08-01",
+    "doi": "10.1016/j.est.2026.122582",
+    "url": "https://doi.org/10.1016/j.est.2026.122582",
+    "source_id": "",
+    "score": 65.0,
+    "level": "B",
+    "title_zh": "Design and multi-objective optimization of single-phase natural-convection immersion cooling for cylindrical Lithium-ion battery packs in subaquatic energy storage systems",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 65.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Federated Digital Twin Reinforcement Learning Framework with Physics Informed Intelligence for Autonomous Battery Management Systems",
+    "abstract": "The rapid evolution of electric vehicles, smart grids, and energy storage infrastructures has exposed critical limitations in conventional Battery Management Systems (BMS), particularly in adaptive intelligence, privacy preservation, degradation awareness, and real-time decision autonomy. This paper proposes a novel Federated Physics-Informed Digital Twin Reinforcement Learning Battery Management System (FPD-RL BMS), an autonomous multi-layered framework that integrates Physics-Informed Neural Networks (PINNs), federated edge learning, deep reinforcement learning, and synchronized digital twin technology into a unified intelligent battery ecosystem. Unlike traditional AI-based BMS approaches that rely on centralized data training and isolated state estimation models, the proposed framework introduces a unique Adaptive Federated Physics-Informed Deep Reinforcement Learning (AFPIDRL) algorithm capable of jointly optimizing State-of-Charge (SOC), State-of-Health (SOH), thermal stability, charging efficiency, and battery lifespan under dynamic operating conditions. The methodology enables distributed vehicles or battery nodes to collaboratively learn degradation patterns without sharing raw data, thereby ensuring cybersecurity and privacy preservation. Additionally, a continuously evolving digital twin provides real-time electrochemical synchronization and predictive fault intelligence, while the reinforcement learning agent autonomously adapts charging and balancing strategies based on aging-aware reward functions. Experimental simulations demonstrate that the proposed architecture significantly enhances prediction accuracy, thermal safety, energy efficiency, and long-term battery sustainability compared with existing AI-driven BMS frameworks.",
+    "authors": [
+      "Swetha Shekarappa R. Ninitha Ashwini"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Intelligent Decision Making and Information Science",
+    "date": "2026-07-31",
+    "doi": "10.59543/jidmis.v3.1041",
+    "url": "https://doi.org/10.59543/jidmis.v3.1041",
+    "source_id": "",
+    "score": 178.0,
+    "level": "B",
+    "title_zh": "Federated Digital Twin Reinforcement Learning Framework with Physics Informed Intelligence for Autonomous Battery Management Systems",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 178.0，推荐等级 B。"
+  },
+  {
+    "title": "A Novel Approach to Renewable Energy Storage: Enhancing Efficiency with Advanced Lithium-Ion Battery Technologies",
+    "abstract": "To operate renewable-energy systems, there is a need to have efficient storage solutions to address the temporal mismatch between the variable generation and the demand of the load. This paper suggests a more advanced lithium-ion battery management system as a way of enhancing the performance of the renewable-energy storage in a solar-wind-commercial load system. A time-simulated framework of an hourly simulation was developed in Austin Texas using a normalized 1 MW commercial load profile, 1 MW photovoltaic generation, 1 MW wind generation and a 1 MW/4 MWh lithium-ion battery energy storage system. The experiment compared a traditional rule-based dispatch strategy with a state-of-the-art battery management system with efficiency-conscious operation, a protective state-of-charge window, derating power consumption based on temperature, and reserve preservation with short horizon. The annual dataset had 8,760 hourly observations with the total load demand of 3,853.72 MWh and the renewable generation of 3,127.67 MWh. The outcomes indicate that the suggested plan enhanced the efficiency of operations in terms of round-trip efficiency of 85.38 to 90.23 and annual battery energy losses of 44.00 MWh to 26.11 MWh. Final state of health improved to 99.112% and capacity decreased to 0.888%. However, the progressive approach decreased renewable curtailment of 365.04 MWh to 396.92 MWh and grid import of 1,133.89 MWh to 1,148.45 MWh, which represents a calculated trade-off between battery health maintenance and maximum renewable uptake. In general, the research shows that the high-performance Li-ion battery management can improve storage performance and decrease the stress of degradation of renewable-energy sources.",
+    "authors": [
+      "Rakhi Dua"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Intelligent Decision Making and Information Science",
+    "date": "2026-07-31",
+    "doi": "10.59543/jidmis.v3.1031",
+    "url": "https://doi.org/10.59543/jidmis.v3.1031",
+    "source_id": "",
+    "score": 110.0,
+    "level": "B",
+    "title_zh": "A Novel Approach to Renewable Energy Storage: Enhancing Efficiency with Advanced Lithium-Ion Battery Technologies",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 110.0，推荐等级 B。"
+  },
+  {
+    "title": "# \"SOLAR-ELECTRIC MOBILITY FOR SUSTAINABLE CITIES: A Comprehensive Framework for Design Optimization, Performance Analysis, Energy Management, and Environmental Impact Assessment of Solar-Powered Electric Vehicles\" ---",
+    "abstract": "## ALTERNATIVE TITLES ### Primary Alternative Titles: 1. **\"Solar-Powered Electric Vehicles: An Integrated Approach to Sustainable Urban Transportation Design and Performance Optimization\"** 2. **\"Harnessing Solar Energy for Electric Mobility: From Photovoltaic Integration to Carbon-Neutral Transportation\"** 3. **\"The Solar-Electric Vehicle Platform: Design Principles, Energy Efficiency, and Environmental Sustainability\"** 4. **\"Sustainable Urban Transportation Through Solar-Electric Mobility: A Comprehensive Framework for Design and Performance Evaluation\"** 5. **\"Renewable Energy in Motion: Solar-Assisted Electric Vehicles for Smart and Sustainable Cities\"** ### Academic/Scholarly Alternative Titles: 6. **\"Solar-Electric Mobility Systems: An Interdisciplinary Analysis of Photovoltaic Integration, Battery Management, and Propulsion Efficiency\"** 7. **\"The Science of Solar-Powered Transportation: Energy Conversion, Storage, and Vehicle Performance Optimization\"** 8. **\"From Sunlight to Mobility: A Comprehensive Review of Solar Electric Vehicle Technologies, Performance Metrics, and Sustainability Assessment\"** 9. **\"Photovoltaic-Electric Vehicle Integration: Design Methodologies, Energy Analysis, and Environmental Life Cycle Assessment\"** 10. **\"Sustainable Urban Mobility Through Solar Energy: A Multidisciplinary Framework for Electric Vehicle Development\"** ### Engineering & Technical Alternative Titles: 11. **\"Design and Development of a Solar-Assisted Battery Electric Vehicle: Systems Engineering, Performance Analysis, and Optimization\"** 12. **\"Solar Electric Vehicle Engineering: Photovoltaic Systems, Battery Management, and Propulsion Technology\"** 13. **\"Technical Performance Evaluation of Solar-Powered Electric Vehicles: Energy Efficiency, Range, and Charging Strategies\"** 14. **\"Advanced Solar-Electric Vehicle Architecture: Component Selection, Integration, and Performance Optimization\"** 15. **\"Photovoltaic-Battery-Electric Propulsion Systems: Design, Modeling, and Performance Characterization\"** ### Environmental & Sustainability Alternative Titles: 16. **\"Carbon-Neutral Transportation Through Solar Electric Vehicles: Environmental Benefits, Emissions Reduction, and Sustainability Assessment\"** 17. **\"Green Mobility Solutions: Environmental Impact Assessment of Solar-Powered Electric Vehicle Platforms\"** 18. **\"Solar Electric Vehicles and Sustainable Development: Reducing Carbon Footprint Through Renewable Energy Integration\"** 19. **\"The Environmental Imperative: Solar-Electric Mobility for Climate Change Mitigation and Urban Air Quality Improvement\"** 20. **\"Life Cycle Sustainability Assessment of Solar-Powered Electric Vehicles: From Manufacturing to End-of-Life\"** ### Technology & Innovation Alternative Titles: 21. **\"Next-Generation Solar Electric Mobility: Emerging Technologies, AI Integration, and Smart Charging Systems\"** 22. **\"Innovations in Solar-Powered Transportation: Perovskite Solar Cells, Solid-State Batteries, and Autonomous Mobility\"** 23. **\"The Future of Sustainable Urban Transport: Solar-Electric Vehicles with AI-Enabled Energy Management\"** 24. **\"Smart Solar Mobility: IoT-Enabled Vehicle Monitoring, Predictive Energy Management, and V2G Integration\"** 25. **\"Digital Twins and Solar Electric Vehicles: Virtual Modeling for Performance Optimization and Predictive Maintenance\"** ### Comprehensive Alternative Titles: 26. **\"The Complete Guide to Solar-Powered Electric Vehicles: Design, Performance, Energy Management, and Environmental Impact\"** 27. **\"Solar Electric Mobility Unlocked: A Comprehensive Analysis of Technologies, Performance Metrics, and Sustainability Pathways\"** 28. **\"Pathways to Sustainable Transportation: An Integrated Framework for Solar-Electric Vehicle Development and Deployment\"** 29. **\"The Solar Mobility Ecosystem: Understanding Technology, Infrastructure, Policy, and Environmental Dimensions\"** 30. **\"Towards Zero-Emission Urban Transport: Solar-Electric Vehicles and the Future of Sustainable Mobility\"** ### Policy & Economic Alternative Titles: 31. **\"Economic Viability and Policy Framework for Solar Electric Vehicle Adoption: Cost-Benefit Analysis and Market Considerations\"** 32. **\"Accelerating Solar Electric Mobility: Policy Recommendations for Infrastructure Development and Market Penetration\"** 33. **\"The Business Case for Solar Electric Vehicles: Economic Benefits, Operational Savings, and Return on Investment\"** 34. **\"Policy Pathways for Solar-Electric Transportation: Incentives, Standards, and Regulatory Frameworks\"** 35. **\"Sustainable Transportation Economics: Lifecycle Cost Analysis of Solar-Powered Electric Vehicle Platforms\"** --- ## SUBTITLES ### Section 1: Introduction and Background **Subtitle 1.1:** *The Transportation Challenge: Understanding the Environmental and Energy Imperatives* **Subtitle 1.2:** *Setting the Scientific Context: Research Objectives, Scope, and Methodology* **Subtitle 1.3:** *The Evolution of Electric Mobility: From Early EVs to Solar-Assisted Platforms* **Subtitle 1.4:** *Defining the Solar Electric Vehicle: Concepts, Principles, and Design Philosophies* ### Section 2: Solar Photovoltaic Technology for Vehicles **Subtitle 2.1:** *Fundamentals of Photovoltaic Energy Conversion: Principles and Efficiency* **Subtitle 2.2:** *Solar Cell Technologies: Monocrystalline, Polycrystalline, Thin-Film, and Emerging Technologies* **Subtitle 2.3:** *Vehicle-Integrated Photovoltaics: Roof Integration, Aerodynamic Considerations, and Structural Design* **Subtitle 2.4:** *Solar Energy Harvesting: Irradiance, Orientation, and Performance Optimization* ### Section 3: Battery Systems and Energy Storage **Subtitle 3.1:** *Battery Technologies for Electric Vehicles: Li-ion, LiFePO₄, Solid-State, and Beyond* **Subtitle 3.2:** *Battery Management Systems: Cell Monitoring, State-of-Charge Estimation, and Safety Protection* **Subtitle 3.3:** *Thermal Management Systems: Cooling, Heating, and Temperature Control* **Subtitle 3.4:** *Battery Performance: Energy Density, Cycle Life, Degradation, and Reliability* ### Section 4: Electric Propulsion Systems **Subtitle 4.1:** *Electric Motor Technologies: BLDC, Induction, PM Synchronous, and Switched Reluctance Motors* **Subtitle 4.2:** *Motor Controllers and Power Electronics: Speed Regulation, Torque Control, and Efficiency* **Subtitle 4.3:** *Regenerative Braking Systems: Energy Recovery, Control Strategies, and Performance* **Subtitle 4.4:** *Drivetrain Configurations: Direct Drive, Transmission-Based, and Hub Motor Systems* ### Section 5: Vehicle Architecture and Design **Subtitle 5.1:** *Chassis Design: Lightweight Materials, Structural Integrity, and Safety* **Subtitle 5.2:** *Body Design: Aerodynamics, Weight Reduction, and Aesthetic Considerations* **Subtitle 5.3:** *Integration of Solar Panels: Roof Integration, Electrical Connections, and Structural Support* **Subtitle 5.4:** *Component Selection and Sizing: Solar Panels, Batteries, Motors, and Controllers* ### Section 6: Energy Management and Control Systems **Subtitle 6.1:** *Maximum Power Point Tracking (MPPT): Algorithms and Implementation* **Subtitle 6.2:** *Energy Management Strategies: Solar Charging, Grid Charging, and Hybrid Operation* **Subtitle 6.3:** *Predictive Energy Management: AI and Machine Learning for Optimization* **Subtitle 6.4:** *Vehicle-to-Grid (V2G) Integration: Grid Interaction, Energy Exchange, and Benefits* ### Section 7: Performance Analysis and Evaluation **Subtitle 7.1:** *Driving Range Analysis: Battery Capacity, Solar Contribution, and Driving Conditions* **Subtitle 7.2:** *Energy Consumption: Factors Affecting Efficiency and Optimization Strategies* **Subtitle 7.3:** *Charging Performance: Solar Charging Efficiency, Grid Charging, and Fast Charging* **Subtitle 7.4:** *Vehicle Dynamics: Speed, Acceleration, and Handling Performance* ### Section 8: Environmental Impact Assessment **Subtitle 8.1:** *Lifecycle Emissions: Manufacturing, Operation, and End-of-Life Environmental Impact* **Subtitle 8.2:** *Carbon Footprint Reduction: Comparison with Conventional and BEV Vehicles* **Subtitle 8.3:** *Life Cycle Assessment: Raw Materials, Production, Use Phase, and Recycling* **Subtitle 8.4:** *Sustainable Materials: Recyclability, Circular Economy, and Environmental Impact* ### Section 9: Economic Analysis and Cost-Benefit **Subtitle 9.1:** *Initial Cost Analysis: Solar Panels, Battery, Motor, and Vehicle Components* **Subtitle 9.2:** *Operating Cost Comparison: Fuel, Electricity, Maintenance, and Depreciation* **Subtitle 9.3:** *Lifecycle Cost Analysis: Total Cost of Ownership (TCO) Evaluation* **Subtitle 9.4:** *Return on Investment: Economic Benefits and Payback Period Analysis* ### Section 10: Charging Infrastructure and Grid Integration **Subtitle 10.1:** *Charging Station Types: Level 1, Level 2, DC Fast Charging, and Solar Charging* **Subtitle 10.2:** *Infrastructure Planning: Placement, Capacity, and Grid Integration* **Subtitle 10.3:** *Smart Charging: Load Balancing, Demand Response, and Energy Management* **Subtitle 10.4:** *Renewable Energy Integration: Solar, Wind, and Hybrid Charging Systems* ### Section 11: Materials Science and Lightweighting **Subtitle 11.1:** *Lightweight Materials: Aluminum Alloys, Magnesium Alloys, and Advanced Composites* **Subtitle 11.2:** *Composite Materials: Carbon Fiber, Fiberglass, and Natural Fiber Composites* **Subtitle 11.3:** *Material Selection Criteria: Strength, Weight, Cost, and Sustainability* **Subtitle 11.4:** *Manufacturing Processes: Casting, Forming, Composite Fabrication, and Assembly* ### Section 12: The Solar Electric Mobility Efficiency Index (SEMEI) **Subtitle 12.1:** *Developing the SEMEI: A Comprehensive Performance Assessment Tool* **Subtitle 12.2:** *Components and Scoring: S, B, R, C, E, P Framework* **Subtitle 12.3:** *Interpretation and Ap",
+    "authors": [
+      "Sudhakar Geruganti"
+    ],
+    "source": "OpenAlex",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "date": "2026-07-31",
+    "doi": "10.5281/zenodo.21719729",
+    "url": "https://doi.org/10.5281/zenodo.21719729",
+    "source_id": "",
+    "score": 106.0,
+    "level": "B",
+    "title_zh": "# \"SOLAR-ELECTRIC MOBILITY FOR SUSTAINABLE CITIES: A Comprehensive Framework for Design Optimization, Performance Analysis, Energy Management, and Environmental Impact Assessment of Solar-Powered Electric Vehicles\" ---",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 106.0，推荐等级 B。"
+  }
+]
