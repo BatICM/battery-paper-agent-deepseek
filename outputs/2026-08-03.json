@@ -1,0 +1,331 @@
+[
+  {
+    "title": "A reliability-guided supervision and trajectory learning framework for health monitoring and Long-term prognostics of electric vehicle battery packs from field data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Applied Energy",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0306261926011785?dgcid=rss_sd_all",
+    "source_id": "rss:9:Applied Energy",
+    "score": 140.25,
+    "level": "A",
+    "title_zh": "A reliability-guided supervision and trajectory learning framework for health monitoring and Long-term prognostics of electric vehicle battery packs from field data",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 140.25，推荐等级 A；期刊优先级第 8 位。"
+  },
+  {
+    "title": "Trustworthy digital twins for thermal and energy conversion systems: physics-grounded modeling, uncertainty-aware prediction, and operational decision support",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Applied Energy",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0306261926012316?dgcid=rss_sd_all",
+    "source_id": "rss:9:Applied Energy",
+    "score": 100.25,
+    "level": "A",
+    "title_zh": "Trustworthy digital twins for thermal and energy conversion systems: physics-grounded modeling, uncertainty-aware prediction, and operational decision support",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 100.25，推荐等级 A；期刊优先级第 8 位。"
+  },
+  {
+    "title": "Physics-Informed Deep Gated Recurrent Unit Network for Lithium-Ion Battery State of Health Estimation Under Field Conditions",
+    "abstract": "",
+    "authors": [
+      "Laijin Luo",
+      "Yu Wang",
+      "Yang Li",
+      "Qiushi Cui"
+    ],
+    "source": "Crossref",
+    "venue": "IEEE Transactions on Transportation Electrification",
+    "date": "2026-08-01",
+    "doi": "10.1109/tte.2026.3686077",
+    "url": "https://doi.org/10.1109/tte.2026.3686077",
+    "source_id": "",
+    "score": 87.25,
+    "level": "A",
+    "title_zh": "Physics-Informed Deep Gated Recurrent Unit Network for Lithium-Ion Battery State of Health Estimation Under Field Conditions",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 87.25，推荐等级 A；期刊优先级第 12 位。"
+  },
+  {
+    "title": "Distributed Finite-Time SoC Estimation for Lithium-Ion Battery Packs",
+    "abstract": "",
+    "authors": [
+      "Heng Li",
+      "Haiya Yu",
+      "Ren Zhu",
+      "Chen Le",
+      "Yue Wu",
+      "Weirong Liu"
+    ],
+    "source": "Crossref",
+    "venue": "IEEE Transactions on Industrial Electronics",
+    "date": "2026-08-01",
+    "doi": "10.1109/tie.2026.3661048",
+    "url": "https://doi.org/10.1109/tie.2026.3661048",
+    "source_id": "",
+    "score": 77.0,
+    "level": "B",
+    "title_zh": "Distributed Finite-Time SoC Estimation for Lithium-Ion Battery Packs",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 77.0，推荐等级 B；期刊优先级第 13 位。"
+  },
+  {
+    "title": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 90.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 88.5,
+    "level": "B",
+    "title_zh": "Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 88.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Multi-fault diagnosis of lithium-ion battery packs based on fast electrochemical impedance spectroscopy under the coexistence of abnormal aging, lithium plating and internal short circuit",
+    "abstract": "",
+    "authors": [
+      "Chun Chang",
+      "Yedong He",
+      "Linghan Zhu",
+      "Lu Lv",
+      "Shaoyuan Wei",
+      "Jiuchun Jiang"
+    ],
+    "source": "Crossref",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-08-01",
+    "doi": "10.1016/j.est.2026.122749",
+    "url": "https://doi.org/10.1016/j.est.2026.122749",
+    "source_id": "",
+    "score": 91.0,
+    "level": "B",
+    "title_zh": "Multi-fault diagnosis of lithium-ion battery packs based on fast electrochemical impedance spectroscopy under the coexistence of abnormal aging, lithium plating and internal short circuit",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 91.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Design and multi-objective optimization of single-phase natural-convection immersion cooling for cylindrical Lithium-ion battery packs in subaquatic energy storage systems",
+    "abstract": "",
+    "authors": [
+      "Zhaolong Zeng",
+      "Xing Ju",
+      "Xiaole Yao",
+      "Qian Liu",
+      "Xiaoqing Zhu",
+      "Chao Xu"
+    ],
+    "source": "Crossref",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-08-01",
+    "doi": "10.1016/j.est.2026.122582",
+    "url": "https://doi.org/10.1016/j.est.2026.122582",
+    "source_id": "",
+    "score": 65.0,
+    "level": "B",
+    "title_zh": "Design and multi-objective optimization of single-phase natural-convection immersion cooling for cylindrical Lithium-ion battery packs in subaquatic energy storage systems",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 65.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Battery performance prediction using supervised learning: a comparative study",
+    "abstract": "Abstract Accurate prediction of lithium-ion battery state of charge (SOC) is critical for ensuring safety, durability, and efficient energy management in electric vehicles (EVs). This study presents a systematic comparative analysis of supervised machine learning (ML) models for SOC prediction using the publicly available SiCWell battery dataset. Five regression-based algorithms—Generalized Linear Model (GLM), Gradient Boosting Machine (GBM), Extreme Gradient Boosting (XGBoost), Distributed Random Forest (DRF), and Extremely Randomized Trees (XRT)—are implemented within the H2O framework. The analysis considers six physically measurable battery features derived from voltage, resistance, charge throughput, and current direction. Model performance is evaluated using multiple regression metrics, including MAE, MSE, RMSE, RMSLE, residual deviance, and R², under a consistent train–test evaluation protocol. Results indicate that GLM achieves low prediction errors across both training and testing datasets, suggesting that the selected feature set exhibits a strong linear relationship with SOC within the evaluated operating range. However, ensemble models demonstrate higher variance and sensitivity to hyperparameter configurations, leading to reduced generalization performance. Rather than asserting a universally superior model, this study highlights how dataset characteristics, feature linearity, and model complexity influence SOC prediction accuracy. The findings provide insights into selecting appropriate ML models for battery management systems while emphasizing the importance of dataset transparency, interpretability, and generalization analysis.",
+    "authors": [
+      "Mandeddu Sudhakar Reddy",
+      "M. Monisha"
+    ],
+    "source": "OpenAlex",
+    "venue": "Scientific Reports",
+    "date": "2026-08-01",
+    "doi": "10.1038/s41598-026-58099-5",
+    "url": "https://doi.org/10.1038/s41598-026-58099-5",
+    "source_id": "",
+    "score": 82.0,
+    "level": "B",
+    "title_zh": "Battery performance prediction using supervised learning: a comparative study",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 82.0，推荐等级 B。"
+  },
+  {
+    "title": "Reusing EV Batteries is Not Automatically Circular: A Perspective on Conditional Reuse, Battery Intelligence, and Responsible End-of-life Management",
+    "abstract": "The rapid expansion of electric vehicles creates a new sustainability challenge: managing used lithium-ion batteries that no longer meet vehicle requirements but still retain capacity for lower-demand uses. Used EV batteries can extend material value, reduce waste, support renewable energy integration, and advance circular economy transitions. However, they are not automatically sustainable. Their benefits depend on accurate state-of-health assessment, safety screening, lifecycle data, economic feasibility, social acceptance, circular business models, and eventual recycling. Hence, the central argument of this perspective is that used EV batteries should be managed through conditional circularity; reuse should be prioritized over recycling only when residual performance, safety, lifecycle environmental benefit, economic feasibility, data traceability, and final recycling responsibility can be demonstrated. Recent studies show potential applications in stationary storage, microgrids, renewable energy systems, and energy access, but barriers remain, including degradation uncertainty, thermal safety, standardization, data transparency, and market confidence. The main contribution of this perspective is a lifecycle decision framework for operationalizing conditional circularity in used EV battery management. The framework links battery diagnostics, sustainability assessment, planetary-boundary thinking, circular business models, risk assessment, AI-enabled battery management, and final recycling responsibility to determine when reuse, cascading, or direct recycling is the most responsible pathway.",
+    "authors": [
+      "Zeshan Alam",
+      "Shabbir Gheewala"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "Journal of Circular Economy",
+    "date": "2026-08-02",
+    "doi": "10.55845/joce-2026-42402",
+    "url": "https://doi.org/10.55845/joce-2026-42402",
+    "source_id": "",
+    "score": 80.0,
+    "level": "B",
+    "title_zh": "Reusing EV Batteries is Not Automatically Circular: A Perspective on Conditional Reuse, Battery Intelligence, and Responsible End-of-life Management",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 80.0，推荐等级 B。"
+  },
+  {
+    "title": "Ultrasonic Time of Flight Technique for State of Charge Estimation in Lithium-Ion Batteries",
+    "abstract": "Accurate State of Charge (SoC) estimation is essential for the safe and reliable operation of lithium-ion batteries. Conventional electrical methods often require complex models and are sensitive to temperature variations and hysteresis eects. This work proposes a non-destructive ultrasonic Time-of-Flight (ToF) technique for SoC monitoring. The method exploits the sensitivity of longitudinal ultrasonic wave velocity to internal mechanical changes occurring during charge and discharge. Experiments were conducted on a lithium-ion pouch cell immersed in oil to ensure stable acoustic coupling. Ultrasonic trans- ducers were positioned on opposite sides of the battery to measure transmitted signals and track ToF variations throughout cycling. Results reveal a clear correlation between SoC and ToF. A reduction in ToF during charging corresponds to an increase in acoustic velocity, attributed to changes in density, stiness, and lithium concentration within the electrodes. These nding demonstrate the potential of ultrasonic sensing for real-time, in situ SoC estimation and future integration into advanced battery management systems.",
+    "authors": [
+      "Yassine MORADI",
+      "julien bustillo",
+      "Lionel haumesser",
+      "Khalid CHICK",
+      "marc lethiecq"
+    ],
+    "source": "Crossref",
+    "venue": "Acta Acustica",
+    "date": "2026-08-03",
+    "doi": "10.1051/aacus/2026081",
+    "url": "https://doi.org/10.1051/aacus/2026081",
+    "source_id": "",
+    "score": 78.0,
+    "level": "B",
+    "title_zh": "Ultrasonic Time of Flight Technique for State of Charge Estimation in Lithium-Ion Batteries",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 78.0，推荐等级 B。"
+  },
+  {
+    "title": "Machine Learning-Based Intelligent Prediction of Electric Vehicle Battery Health for Enhanced Per-formance and Lifetime Estimation",
+    "abstract": "The increasing adoption of electric vehicles (EVs) has created a growing demand for reliable battery health monitoring systems that can improve operational efficiency and extend battery service life. One of the most important performance indicators of a lithium-ion battery is its State of Health (SOH), which reflects the remaining capacity and overall condition of the battery throughout its lifecycle. Accurate SOH estimation enables timely maintenance, minimizes unexpected failures, and improves the reliability of electric transportation systems. This research presents a machine learning framework for predicting EV battery SOH using two ensemble learning algorithms, namely Extreme Gradient Boosting (XGBoost) and Light Gradient Boosting Machine (LightGBM). The proposed framework utilizes battery operating parameters including voltage, current, temperature, and charging history to develop predictive models capable of learning battery degradation patterns. The collected dataset undergoes preprocessing, feature engineering, and train-test partitioning before model training. Performance evaluation is carried out using statistical measures such as R² Score, Adjusted R², Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE). Experimental findings demonstrate that both algorithms achieve excellent prediction accuracy, with XGBoost showing slightly superior performance compared to LightGBM. The developed system provides an efficient solution for real-time battery health assessment, supporting intelligent maintenance scheduling, reducing operational costs, and improving battery lifespan in modern electric vehicles.",
+    "authors": [
+      "Ch. Sravan Kumar",
+      "Palle Vasantha"
+    ],
+    "source": "OpenAlex",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "date": "2026-08-01",
+    "doi": "10.5281/zenodo.21735380",
+    "url": "https://doi.org/10.5281/zenodo.21735380",
+    "source_id": "",
+    "score": 70.0,
+    "level": "B",
+    "title_zh": "Machine Learning-Based Intelligent Prediction of Electric Vehicle Battery Health for Enhanced Per-formance and Lifetime Estimation",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 70.0，推荐等级 B。"
+  }
+]
