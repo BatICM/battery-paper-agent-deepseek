@@ -1,0 +1,320 @@
+[
+  {
+    "title": "Sintering-Resistant Aerogel-Based Fire-Protective Coating Enabled by Interfacial Anchoring strategy for Battery Thermal Runaway Protection",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Energy Storage Materials",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2405829726005672?dgcid=rss_sd_all",
+    "source_id": "rss:8:Energy Storage Materials",
+    "score": 102.5,
+    "level": "A",
+    "title_zh": "Sintering-Resistant Aerogel-Based Fire-Protective Coating Enabled by Interfacial Anchoring strategy for Battery Thermal Runaway Protection",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 102.5，推荐等级 A；期刊优先级第 7 位。"
+  },
+  {
+    "title": "A reliability-guided supervision and trajectory learning framework for health monitoring and Long-term prognostics of electric vehicle battery packs from field data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Applied Energy",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0306261926011785?dgcid=rss_sd_all",
+    "source_id": "rss:9:Applied Energy",
+    "score": 140.25,
+    "level": "A",
+    "title_zh": "A reliability-guided supervision and trajectory learning framework for health monitoring and Long-term prognostics of electric vehicle battery packs from field data",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 140.25，推荐等级 A；期刊优先级第 8 位。"
+  },
+  {
+    "title": "Trustworthy digital twins for thermal and energy conversion systems: physics-grounded modeling, uncertainty-aware prediction, and operational decision support",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Applied Energy",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0306261926012316?dgcid=rss_sd_all",
+    "source_id": "rss:9:Applied Energy",
+    "score": 100.25,
+    "level": "A",
+    "title_zh": "Trustworthy digital twins for thermal and energy conversion systems: physics-grounded modeling, uncertainty-aware prediction, and operational decision support",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 100.25，推荐等级 A；期刊优先级第 8 位。"
+  },
+  {
+    "title": "Reserve Deliverability-Constrained Battery Energy Storage Sizing for Renewable Power Plants Considering Cycling Degradation",
+    "abstract": "High penetration of wind and photovoltaic generation requires renewable power plants to maintain not only energy delivery capability, but also prescribed upward and downward reserve capability. However, many existing battery energy storage system (BESS) sizing models evaluate reserve capability mainly through nominal power headroom or optional ancillary service revenue, which may lead to biased capacity decisions when state-of-charge limits and point of common coupling (PCC) constraints are binding. This paper proposes a reserve deliverability-constrained BESS sizing framework for renewable power plants considering cycling degradation. The proposed model represents reserve requirements explicitly and evaluates deliverable reserve by jointly considering BESS power headroom, dual-endpoint state-of-charge energy margins, and PCC export/import headroom. Real day-mapped typical scenarios and extreme stress test scenarios are integrated into the evaluation, while rainflow degradation is assessed after dispatch and included only in the candidate-level economic comparison. Numerical experiments are conducted on an equivalent large-scale renewable portfolio constructed from the 2023 nationally aggregated Belgian wind and photovoltaic generation profiles. Within the original 15-candidate set, the selected configuration increases from 300 MW/300 MWh to 1000 MW/1000 MWh when the reserve requirement rises from 5% to 15%. Under the base economic assumptions and the cycling-only degradation model, tightening the PCC export limit from 10000 to 4000 MW changes the best-performing configuration from 300 MW/300 MWh/1 h to 1000 MW/4000 MWh/4 h. Ablation results indicate that ignoring reserve requirements or deliverability constraints may lead to smaller selected capacities or overestimated feasible reserve capability. The proposed framework provides an interpretable sizing method for renewable plant-level BESS planning under prescribed reserve requirements, PCC constraints, and cycling degradation costs.",
+    "authors": [
+      "Ruosong Hou",
+      "Wei Guo",
+      "Xiaolin Tan",
+      "Ziheng Zhao",
+      "Fuqiang You",
+      "Xiaoyong Yang"
+    ],
+    "source": "OpenAlex",
+    "venue": "Electronics",
+    "date": "2026-08-03",
+    "doi": "10.3390/electronics15153442",
+    "url": "https://doi.org/10.3390/electronics15153442",
+    "source_id": "",
+    "score": 77.5,
+    "level": "A",
+    "title_zh": "Reserve Deliverability-Constrained Battery Energy Storage Sizing for Renewable Power Plants Considering Cycling Degradation",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 77.5，推荐等级 A；期刊优先级第 11 位。"
+  },
+  {
+    "title": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 90.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 88.5,
+    "level": "B",
+    "title_zh": "Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 88.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Lithium-ion battery state of health prediction model with wrapper feature selection and exponentially decaying physics-informed loss",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26036078?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 105.0,
+    "level": "B",
+    "title_zh": "Lithium-ion battery state of health prediction model with wrapper feature selection and exponentially decaying physics-informed loss",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 105.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Improving thermal performance of 1 kWh battery pack with tab-cooling design",
+    "abstract": "",
+    "authors": [
+      "Gwi Taek Kim",
+      "Nam Kwon Lee",
+      "Joo Young Jung"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-08-03",
+    "doi": "10.1016/j.est.2026.123838",
+    "url": "https://doi.org/10.1016/j.est.2026.123838",
+    "source_id": "",
+    "score": 61.0,
+    "level": "B",
+    "title_zh": "Improving thermal performance of 1 kWh battery pack with tab-cooling design",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 61.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "State of health estimation for lithium-ion batteries based on multidimensional feature fusion and optimized long short-term memory neural networks",
+    "abstract": "",
+    "authors": [
+      "Shenhua Zhong",
+      "Zhizheng Li",
+      "Qian Liu",
+      "Xiaoqing Zhu",
+      "Xing Ju"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-08-03",
+    "doi": "10.1016/j.est.2026.123944",
+    "url": "https://doi.org/10.1016/j.est.2026.123944",
+    "source_id": "",
+    "score": 53.0,
+    "level": "B",
+    "title_zh": "State of health estimation for lithium-ion batteries based on multidimensional feature fusion and optimized long short-term memory neural networks",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 53.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Synergizing Neural Networks and Salp Swarm–Kepler Optimization with Physical Information for Fractional-Order Battery Modeling",
+    "abstract": "Abstract Accurate battery modeling is essential for the performance of battery management systems in electric vehicles and grid-scale energy storage applications. To improve both static characteristic representation and dynamic parameter identification, this paper presents a physics-informed parameter identification approach for fractional-order battery models using an improved salp swarm-kepler optimization algorithm. A feedforward neural network is employed to capture the nonlinear open-circuit voltage versus state-of-charge relationship, particularly in the plateau and steep transition regions where conventional polynomial fitting exhibits limited accuracy. For fractional-order model identification, an improved salp swarm-kepler optimization algorithm is developed. By incorporating battery electrochemical knowledge through a physics-informed barrier term, the proposed method avoids physically infeasible solutions while maintaining population diversity during optimization. Experimental results under a wide range of temperatures and operating conditions demonstrate high prediction accuracy and strong generalization capability, with an RMSE of 0.0030V at 25℃ and below 0.017V under all untrained conditions. These results indicate that the proposed framework provides an effective and physically consistent solution for battery parameter identification in complex environments.",
+    "authors": [
+      "Peng Liu",
+      "Haoyu Li",
+      "Zhongyu Qian",
+      "Junhong Zhao"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "Journal of The Electrochemical Society",
+    "date": "2026-08-03",
+    "doi": "10.1149/1945-7111/ae9408",
+    "url": "https://doi.org/10.1149/1945-7111/ae9408",
+    "source_id": "",
+    "score": 102.0,
+    "level": "B",
+    "title_zh": "Synergizing Neural Networks and Salp Swarm–Kepler Optimization with Physical Information for Fractional-Order Battery Modeling",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 102.0，推荐等级 B。"
+  },
+  {
+    "title": "PAAD-Net: A physics-aware asymmetric decoupling network for remaining useful life prediction of lithium-ion batteries",
+    "abstract": "Abstract Accurate remaining useful life (RUL) prediction of lithium-ion batteries (LIBs) is crucial for reliable operation of battery management systems (BMS). However, conventional data-driven models often blindly mix thermodynamic and kinetic features, leading to prediction error during the non-linear capacity plunge at the end-of-life (EOL). To address this critical bottleneck, this paper proposes a physics-aware asymmetric decoupling network (PA AD-Net) with adaptive physical constraints. Specifically, the model utilizes causal convolutions and asymmetric cross-attention to decouple thermodynamic and kinetic features, which are then processed by a specialized capacity decoder to ensure robust prediction while avoiding the over-parameterization of purely non-linear architectures. Most importantly, this paper designs an adaptive physical partial differential equation (PDE) constraint by leveraging the gating signal to dynamically modulate the weight of the physical loss. Extensive comparative experiments on CALCE and Oxford datasets demonstrate that PA AD-Net achieves low mean absolute error (MAE) of 0.0070 Ah and 0.0011Ah, respectively. Experimental results verify that PAAD-Net achieves high-precision prediction throughout the full lifecycle, with comparative and ablation experiments further validating its accuracy and generalization.",
+    "authors": [
+      "Hanlin Cheng",
+      "Lifeng Zhang",
+      "Bin Wang"
+    ],
+    "source": "OpenAlex",
+    "venue": "Measurement Science and Technology",
+    "date": "2026-08-03",
+    "doi": "10.1088/1361-6501/ae93f0",
+    "url": "https://doi.org/10.1088/1361-6501/ae93f0",
+    "source_id": "",
+    "score": 98.0,
+    "level": "B",
+    "title_zh": "PAAD-Net: A physics-aware asymmetric decoupling network for remaining useful life prediction of lithium-ion batteries",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 98.0，推荐等级 B。"
+  },
+  {
+    "title": "A Fusion Mechanism-Coordinated Dynamic Modeling Approach for Smartphone Battery Depletion Prediction",
+    "abstract": "Accurate time-to-empty (TTE) estimation for smartphones remains challenging because battery electrochemical dynamics interact with highly variable device-level power demands. This study develops the Fusion Mechanism-Coordinated Dynamic Model (FM-CDM), a physics-informed theoretical framework that couples a second-order Thevenin equivalent-circuit model with component-level power consumption, electro-thermal feedback, battery state of health, and stochastic workload generation. TTE is formulated as the first time at which the terminal voltage reaches a 3.2 V cutoff, thereby distinguishing the shutdown condition from SOC = 0%. The algebraic coupling among device power, discharge current, and terminal voltage is resolved using the physically admissible solution of the constant-power load equation. Separate battery and processor thermal states are introduced to represent temperature-dependent internal resistance, battery heat generation, heat dissipation, and processor thermal throttling. Four representative workload classes—Standby, Light, Medium, and Heavy—are considered, with 500 Monte Carlo realizations used for each class to propagate workload and parameter uncertainty. Global sensitivity is evaluated using the Morris elementary-effects method. The illustrative numerical analysis shows that increasing component activity shortens model-estimated runtime and that voltage-triggered shutdown can occur at a nonzero residual SOC, particularly when temperature-dependent resistance and load-induced voltage drop become significant. The framework provides a transparent and reproducible basis for investigating smartphone battery depletion, uncertainty propagation, and mechanism-level energy-management strategies under explicitly defined reference conditions.",
+    "authors": [
+      "Wenqi Hu",
+      "Qijian Liu",
+      "Zhibin Han"
+    ],
+    "source": "Crossref",
+    "venue": "Energies",
+    "date": "2026-08-04",
+    "doi": "10.3390/en19153669",
+    "url": "https://doi.org/10.3390/en19153669",
+    "source_id": "",
+    "score": 92.0,
+    "level": "B",
+    "title_zh": "A Fusion Mechanism-Coordinated Dynamic Modeling Approach for Smartphone Battery Depletion Prediction",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 92.0，推荐等级 B。"
+  }
+]
