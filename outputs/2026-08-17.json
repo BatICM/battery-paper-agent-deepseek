@@ -1,0 +1,306 @@
+[
+  {
+    "title": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 112.5,
+    "level": "B",
+    "title_zh": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 112.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000858?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 90.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 90.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 88.5,
+    "level": "B",
+    "title_zh": "Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 88.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Switching Configurations for reconfigurable battery packs: A review",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26036339?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 79.0,
+    "level": "B",
+    "title_zh": "Switching Configurations for reconfigurable battery packs: A review",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 79.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Bio-inspired approaches in battery thermal management of electric vehicles: A critical review of feasibility and challenges",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26035619?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 75.0,
+    "level": "B",
+    "title_zh": "Bio-inspired approaches in battery thermal management of electric vehicles: A critical review of feasibility and challenges",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 75.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Solvent- and binder-free PEEK–LIG electrodes for supercapacitors with data-driven RUL prediction",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26036443?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 73.0,
+    "level": "B",
+    "title_zh": "Solvent- and binder-free PEEK–LIG electrodes for supercapacitors with data-driven RUL prediction",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 73.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Self-evolving multimodal digital twin for health-aware and safety-aware intelligence in electric vehicle lithium-ion batteries",
+    "abstract": "Abstract Battery intelligence is a vital component for the safe, energy-efficient, and sustainable adoption of electric vehicles. This study proposes a self-evolving multimodal digital twin for EV lithium-ion batteries that enables concurrent electro-thermal state estimation, health-dependent parameter adaptation, uncertainty-based inference, and anomaly-oriented safety intelligence. Compared with existing battery monitoring systems that mainly depend on voltage, current, and temperature sensing channels, the proposed approach integrates an additional impedance-derived measurement channel with a second-order electrical network, a two-node thermal network, stress-dependent health evolution rules, and an Unscented Kalman Filter for nonlinear state inference. A self-evolving trust-allocation strategy is employed for dynamic redistribution of trust among voltage, temperature, and impedance-derived sensing channels based on innovation consistency, and bounded process-noise inflation is used to enhance estimator adaptability under persistent model–measurement mismatch. An anomaly and thermal-risk accumulation layer is also adopted to generate fault-oriented safety decisions. Four configurations of increasing complexity are considered to evaluate the relationship between estimation accuracy and anomaly sensitivity, and the final v4 formulation is selected as the optimal configuration. The simulation results indicate that the proposed framework delivers an RMSE of 0.0525 for SOC, 0.4049 K for core temperature, 234.92 C for capacity, and 0.01078 Ω for ohmic resistance, in addition to a detection accuracy of 0.9017, recall of 1, and F1-score of 0.8716. Furthermore, the framework is validated using a lithium-ion battery aging dataset, which produces RMSE values of 0.081 V for voltage, 0.6458 K for temperature, 0.0297 for SOC, 0.0231 for SOH, and 1.4 × 10⁻⁷ Ω for the internal-resistance-based impedance proxy. These results demonstrate that the proposed digital twin provides integrated electro-thermal-health estimation, adaptive multimodal fusion, and safety-aware abnormality detection while remaining compatible with real battery cycling data.",
+    "authors": [
+      "Kiran Keshyagol",
+      "Prasad Kulkarni",
+      "Santosh Madiwal"
+    ],
+    "source": "Crossref",
+    "venue": "Scientific Reports",
+    "date": "2026-08-16",
+    "doi": "10.1038/s41598-026-66576-0",
+    "url": "https://doi.org/10.1038/s41598-026-66576-0",
+    "source_id": "",
+    "score": 134.0,
+    "level": "B",
+    "title_zh": "Self-evolving multimodal digital twin for health-aware and safety-aware intelligence in electric vehicle lithium-ion batteries",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 134.0，推荐等级 B。"
+  },
+  {
+    "title": "IIoT-Based Automated Environmental Control and Quality Tracking System for Food Processing and Storage Facilities",
+    "abstract": "Abstract Keeping perishable food safe, fresh, visually appealing, and nutritionally dense throughout the complex journey from initial agricultural harvest, through heavy industrial processing, and into commercial cold storage warehouses requires rigorous, minute-by-minute regulation of environmental conditions and continuous, proactive tracking of critical preservation parameters. Traditional monitoring methodologies deployed across the food processing and distribution sectors have historically depended on periodic manual inspections, rudimentary clipboard logs, or basic, completely isolated standalone electronic data loggers. These legacy approaches suffer from inherent systemic sluggishness, exhibit a total absence of automated corrective actuation capabilities, and remain acutely vulnerable to human error, administrative oversight, and dangerously delayed emergency interventions. This research paper presents a comprehensive, highly reliable, and cost-effective Industrial Internet of Things (IIoT)-based automated environmental control and quality tracking system specifically engineered and tailored for modern food processing plants and commercial cold storage facilities. The proposed system seamlessly integrates a distributed, fault-tolerant network of smart sensor nodes—precisely measuring ambient temperature, relative humidity, ethylene ripening gas accumulation, and carbon dioxide concentrations—with robust local edge microcontrollers and a centralized cloud supervisory dashboard through standardized, highly secure industrial communication protocols. Automated industrial actuators, encompassing variable-speed cooling compressors, motorized ventilation louvers, and ultrasonic misting humidifiers, operate in close coordination to dynamically maintain storage microclimates within safe, optimal parameters, functioning reliably even during temporary wide-area network or cloud connection outages. Furthermore, an intuitive, entirely non-mathematical cumulative quality tracking methodology estimates remaining shelf-life dynamically based on how thermal fluctuations and environmental exposures impact food freshness over extended holding periods. Extensive simulation and hardware testing within a controlled industrial cold storage environment demonstrate exceptionally stable temperature regulation, consistent humidity control, and a dramatic reduction in food spoilage, shrink, and waste when compared to traditional, warning-only monitoring setups. Ultimately, this IIoT architecture provides a robust, cyber-secure, and economically viable solution for modern food facilities striving to minimize inventory loss and strictly adhere to international food safety regulations. Keywords: Industrial Internet of Things (IIoT), Cold Chain Management, Environmental Control, Food Safety, Edge Computing, Quality Tracking, Diploma Research, Smart Warehousing. 1. Introduction The global food supply chain faces extraordinary, multifaceted challenges regarding food safety, quality deterioration, and massive food loss occurring between the initial agricultural harvest, industrial processing, and final consumer retail. According to recent comprehensive reports published by major agricultural, economic, and food organizations, a staggering share of the total food produced globally is wasted annually across various stages of the supply chain. A substantial portion of this avoidable waste occurs directly within intermediate storage, distribution, and processing facilities due to inadequate temperature regulation and poor humidity control. In modern food processing plants and cold storage warehouses, maintaining precise microclimates is not merely a matter of operational preference or energy conservation; it is an absolute biological and regulatory necessity required to inhibit pathogenic bacteria proliferation, suppress mold germination and mycotoxin production, and prevent physical degradation symptoms such as enzymatic browning, tissue softening, surface dehydration, and premature rotting. Traditional monitoring paradigms utilized in industrial food facilities typically depend on periodic manual inspections or isolated electronic data loggers. These legacy systems suffer from several critical shortcomings that compromise food safety and operational efficiency: High Latency and Detection Delay: Environmental deviations, equipment failures, or localized temperature spikes are frequently discovered long after perishable commodities have already suffered irreversible quality degradation, making corrective actions useless. By the time human operators inspect a clipboard log or retrieve a data logger from a refrigerated chamber, hours may have passed, allowing perishable goods to cross thermal thresholds into accelerated spoilage zones. Absence of Closed-Loop Automation: Plant operators must manually intervene, adjusting heating, ventilation, and air conditioning (HVAC) or refrigeration machinery only after receiving an alert notification. This manual lag wastes precious response time, increases labor overhead, and invites operational mistakes during high-stress operational shifts. Data Silos and Fragmentation: Information regarding storage environmental conditions is frequently kept isolated from overarching inventory management, stock rotation, and traceability records, hindering holistic facility oversight and complicating compliance audits required by regulatory bodies. The emergence of the Industrial Internet of Things (IIoT) offers a transformative technological solution to these systemic vulnerabilities. By harnessing low-power wireless sensor networks, intelligent local edge computing devices, secure cloud-based visualization dashboards, and automated control actuators, industrial facilities can transition proactively from a reactive stance of simply observing problems unfold to an autonomous posture of real-time correction. This research paper introduces a complete, deployable IIoT-based automated environmental control and quality tracking system designed specifically for food processing and storage facilities, keeping technical implementation accessible for diploma-level engineering students. The primary objectives of this work include: Designing a practical, cost-effective IIoT hardware and software architecture utilizing low-power wireless sensors and reliable industrial communication standards. Implementing local smart edge controllers capable of maintaining strict room environmental stability independently, even when external internet connections experience temporary disruptions. Integrating a straightforward, intuitive shelf-life tracking framework to monitor real-time food quality status without relying on complex, cumbersome mathematical equations. Evaluating the proposed system within a simulated industrial storage environment to validate its ability to sustain environmental stability and curb food spoilage effectively. The remainder of this paper is structured as follows: Section 2 reviews related literature concerning cold chain management and industrial automation. Section 3 details the system architecture and hardware design. Section 4 presents the practical quality tracking approach. Section 5 describes the experimental setup and evaluation results. Finally, Section 6 concludes the paper and outlines future directions. 2. Related Work and Background The integration of Internet of Things (IoT) technologies into agricultural production and food supply chain logistics has expanded at a remarkable pace over the past decade. Early developmental projects primarily utilized basic radio-frequency identification (RFID) tags paired with rudimentary thermal logging stickers. While these early tools successfully improved product tracking and geographical visibility along transit routes, they were strictly passive observational devices incapable of executing active environmental modifications or corrective interventions. Following the maturation of wireless sensor networks (WSNs), researchers began deploying networks of sensing nodes inside large warehouses to facilitate continuous environmental surveillance. Although these deployments provided unprecedented visibility into warehouse thermal conditions, they frequently encountered severe technical bottlenecks, including scalability limits, high battery consumption in cold environments, and network congestion when deployed across large multi-zone cold storage facilities comprising dozens of isolated refrigerated chambers. Furthermore, early WSN installations lacked standardized communication protocols, leading to proprietary vendor lock-in and excessive maintenance complexity for facility engineering staff. In recent years, industry and academia have shifted their focus toward cloud-connected IIoT platforms. While these sophisticated cloud ecosystems offer magnificent graphical data displays and enterprise-wide reporting capabilities, a major operational gap remains persistent: many commercial systems focus heavily on data visualization while failing to execute autonomous local actuation. When an environmental fault occurs—such as a sudden thermal spike caused by a failing compressor valve—these platforms typically transmit emergency alerts to human supervisors, leaving the physical mitigation entirely dependent on human response times. If an alert occurs during off-peak hours or night shifts, response delays can result in catastrophic inventory loss. Furthermore, traditional quality assessment models rely on rigid, binary threshold limits (such as flagging any inventory item exposed to temperatures exceeding a fixed limit). While straightforward, this static approach fails to account for the cumulative biological reality of food degradation, where minor, brief temperature elevations compound over time to degrade freshness. This research addresses these critical gaps by combining autonomous local equipment actuation with an intuitive,",
+    "authors": [
+      "Vishwanath. D",
+      "M A Khizzar, S Jayanth, Abdul Shahid,  Nagayya Swamy Hiremath, Bhavishya Reddy M"
+    ],
+    "source": "OpenAlex",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "date": "2026-08-15",
+    "doi": "10.5281/zenodo.21947814",
+    "url": "https://doi.org/10.5281/zenodo.21947814",
+    "source_id": "",
+    "score": 76.0,
+    "level": "B",
+    "title_zh": "IIoT-Based Automated Environmental Control and Quality Tracking System for Food Processing and Storage Facilities",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 76.0，推荐等级 B。"
+  },
+  {
+    "title": "IIoT-Based Automated Environmental Control and Quality Tracking System for Food Processing and Storage Facilities",
+    "abstract": "Abstract Keeping perishable food safe, fresh, visually appealing, and nutritionally dense throughout the complex journey from initial agricultural harvest, through heavy industrial processing, and into commercial cold storage warehouses requires rigorous, minute-by-minute regulation of environmental conditions and continuous, proactive tracking of critical preservation parameters. Traditional monitoring methodologies deployed across the food processing and distribution sectors have historically depended on periodic manual inspections, rudimentary clipboard logs, or basic, completely isolated standalone electronic data loggers. These legacy approaches suffer from inherent systemic sluggishness, exhibit a total absence of automated corrective actuation capabilities, and remain acutely vulnerable to human error, administrative oversight, and dangerously delayed emergency interventions. This research paper presents a comprehensive, highly reliable, and cost-effective Industrial Internet of Things (IIoT)-based automated environmental control and quality tracking system specifically engineered and tailored for modern food processing plants and commercial cold storage facilities. The proposed system seamlessly integrates a distributed, fault-tolerant network of smart sensor nodes—precisely measuring ambient temperature, relative humidity, ethylene ripening gas accumulation, and carbon dioxide concentrations—with robust local edge microcontrollers and a centralized cloud supervisory dashboard through standardized, highly secure industrial communication protocols. Automated industrial actuators, encompassing variable-speed cooling compressors, motorized ventilation louvers, and ultrasonic misting humidifiers, operate in close coordination to dynamically maintain storage microclimates within safe, optimal parameters, functioning reliably even during temporary wide-area network or cloud connection outages. Furthermore, an intuitive, entirely non-mathematical cumulative quality tracking methodology estimates remaining shelf-life dynamically based on how thermal fluctuations and environmental exposures impact food freshness over extended holding periods. Extensive simulation and hardware testing within a controlled industrial cold storage environment demonstrate exceptionally stable temperature regulation, consistent humidity control, and a dramatic reduction in food spoilage, shrink, and waste when compared to traditional, warning-only monitoring setups. Ultimately, this IIoT architecture provides a robust, cyber-secure, and economically viable solution for modern food facilities striving to minimize inventory loss and strictly adhere to international food safety regulations. Keywords: Industrial Internet of Things (IIoT), Cold Chain Management, Environmental Control, Food Safety, Edge Computing, Quality Tracking, Diploma Research, Smart Warehousing. 1. Introduction The global food supply chain faces extraordinary, multifaceted challenges regarding food safety, quality deterioration, and massive food loss occurring between the initial agricultural harvest, industrial processing, and final consumer retail. According to recent comprehensive reports published by major agricultural, economic, and food organizations, a staggering share of the total food produced globally is wasted annually across various stages of the supply chain. A substantial portion of this avoidable waste occurs directly within intermediate storage, distribution, and processing facilities due to inadequate temperature regulation and poor humidity control. In modern food processing plants and cold storage warehouses, maintaining precise microclimates is not merely a matter of operational preference or energy conservation; it is an absolute biological and regulatory necessity required to inhibit pathogenic bacteria proliferation, suppress mold germination and mycotoxin production, and prevent physical degradation symptoms such as enzymatic browning, tissue softening, surface dehydration, and premature rotting. Traditional monitoring paradigms utilized in industrial food facilities typically depend on periodic manual inspections or isolated electronic data loggers. These legacy systems suffer from several critical shortcomings that compromise food safety and operational efficiency: High Latency and Detection Delay: Environmental deviations, equipment failures, or localized temperature spikes are frequently discovered long after perishable commodities have already suffered irreversible quality degradation, making corrective actions useless. By the time human operators inspect a clipboard log or retrieve a data logger from a refrigerated chamber, hours may have passed, allowing perishable goods to cross thermal thresholds into accelerated spoilage zones. Absence of Closed-Loop Automation: Plant operators must manually intervene, adjusting heating, ventilation, and air conditioning (HVAC) or refrigeration machinery only after receiving an alert notification. This manual lag wastes precious response time, increases labor overhead, and invites operational mistakes during high-stress operational shifts. Data Silos and Fragmentation: Information regarding storage environmental conditions is frequently kept isolated from overarching inventory management, stock rotation, and traceability records, hindering holistic facility oversight and complicating compliance audits required by regulatory bodies. The emergence of the Industrial Internet of Things (IIoT) offers a transformative technological solution to these systemic vulnerabilities. By harnessing low-power wireless sensor networks, intelligent local edge computing devices, secure cloud-based visualization dashboards, and automated control actuators, industrial facilities can transition proactively from a reactive stance of simply observing problems unfold to an autonomous posture of real-time correction. This research paper introduces a complete, deployable IIoT-based automated environmental control and quality tracking system designed specifically for food processing and storage facilities, keeping technical implementation accessible for diploma-level engineering students. The primary objectives of this work include: Designing a practical, cost-effective IIoT hardware and software architecture utilizing low-power wireless sensors and reliable industrial communication standards. Implementing local smart edge controllers capable of maintaining strict room environmental stability independently, even when external internet connections experience temporary disruptions. Integrating a straightforward, intuitive shelf-life tracking framework to monitor real-time food quality status without relying on complex, cumbersome mathematical equations. Evaluating the proposed system within a simulated industrial storage environment to validate its ability to sustain environmental stability and curb food spoilage effectively. The remainder of this paper is structured as follows: Section 2 reviews related literature concerning cold chain management and industrial automation. Section 3 details the system architecture and hardware design. Section 4 presents the practical quality tracking approach. Section 5 describes the experimental setup and evaluation results. Finally, Section 6 concludes the paper and outlines future directions. 2. Related Work and Background The integration of Internet of Things (IoT) technologies into agricultural production and food supply chain logistics has expanded at a remarkable pace over the past decade. Early developmental projects primarily utilized basic radio-frequency identification (RFID) tags paired with rudimentary thermal logging stickers. While these early tools successfully improved product tracking and geographical visibility along transit routes, they were strictly passive observational devices incapable of executing active environmental modifications or corrective interventions. Following the maturation of wireless sensor networks (WSNs), researchers began deploying networks of sensing nodes inside large warehouses to facilitate continuous environmental surveillance. Although these deployments provided unprecedented visibility into warehouse thermal conditions, they frequently encountered severe technical bottlenecks, including scalability limits, high battery consumption in cold environments, and network congestion when deployed across large multi-zone cold storage facilities comprising dozens of isolated refrigerated chambers. Furthermore, early WSN installations lacked standardized communication protocols, leading to proprietary vendor lock-in and excessive maintenance complexity for facility engineering staff. In recent years, industry and academia have shifted their focus toward cloud-connected IIoT platforms. While these sophisticated cloud ecosystems offer magnificent graphical data displays and enterprise-wide reporting capabilities, a major operational gap remains persistent: many commercial systems focus heavily on data visualization while failing to execute autonomous local actuation. When an environmental fault occurs—such as a sudden thermal spike caused by a failing compressor valve—these platforms typically transmit emergency alerts to human supervisors, leaving the physical mitigation entirely dependent on human response times. If an alert occurs during off-peak hours or night shifts, response delays can result in catastrophic inventory loss. Furthermore, traditional quality assessment models rely on rigid, binary threshold limits (such as flagging any inventory item exposed to temperatures exceeding a fixed limit). While straightforward, this static approach fails to account for the cumulative biological reality of food degradation, where minor, brief temperature elevations compound over time to degrade freshness. This research addresses these critical gaps by combining autonomous local equipment actuation with an intuitive,",
+    "authors": [
+      "Vishwanath. D",
+      "M A Khizzar, S Jayanth, Abdul Shahid,  Nagayya Swamy Hiremath, Bhavishya Reddy M"
+    ],
+    "source": "OpenAlex",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "date": "2026-08-15",
+    "doi": "10.5281/zenodo.21947813",
+    "url": "https://doi.org/10.5281/zenodo.21947813",
+    "source_id": "",
+    "score": 76.0,
+    "level": "B",
+    "title_zh": "IIoT-Based Automated Environmental Control and Quality Tracking System for Food Processing and Storage Facilities",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 76.0，推荐等级 B。"
+  },
+  {
+    "title": "Scenario-Based Profitability Analysis for Battery Energy Storage System Investments",
+    "abstract": "Assessing the financial viability of Battery Energy Storage System is challenging due to the volatility of electricity markets. This research develops a stochastic simulation framework to analyze their profitability under volatile conditions. We combine long-term, high-resolution electricity price scenario generation with a battery operational model. A Rolling Horizon Optimization determines the operational dispatch, co-optimizing for energy arbitrage and Frequency Containment Reserve revenues. Simulations across an ensemble of scenarios produce statistical distributions of metrics, such as lifetime profit and State of Health, enabling a quantification of investment risk. We show that average daily price spread is a stronger predictor of arbitrage profitability than overall price levels. We demonstrate a trade-off between a system’s C-rate, its degradation trajectory and its revenue potential. We find that maximizing lifetime value is achieved by aligning the system’s technical parameters and the optimization strategy with the target revenue streams.",
+    "authors": [
+      "Fabio Göldi",
+      "Stephan Aier"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of the Association for Information Systems",
+    "date": "2026-08-15",
+    "doi": "",
+    "url": "https://openalex.org/W7164622603",
+    "source_id": "",
+    "score": 76.0,
+    "level": "B",
+    "title_zh": "Scenario-Based Profitability Analysis for Battery Energy Storage System Investments",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 76.0，推荐等级 B。"
+  },
+  {
+    "title": "Multi‐Agent and Forecast‐Conscious <scp>DRL</scp> ‐ <scp>MPC</scp> Framework of Safe and Efficient <scp>EV</scp> Fast‐Charging With Digital Twins",
+    "abstract": "ABSTRACT The growing adoption of electric vehicles (EVs) puts a lot of pressure on fast‐charging and distribution grids. The current methods of charging control, which are rule based, stand‐alone Model Predictive Control (MPC), and deep reinforcement learning (DRL), have several important limitations: poor scalability, absence of coordination across chargers, the safety of exploration and reactive behavior because of the no‐forecasting of demand. Such deficiencies lead to grid constraint breach, ineffective charging as well as poor system reliability in peak demand states. To solve these dilemmas, this paper suggests a Digital Twin‐based, forecast‐aware Multi‐ Agent Deep Reinforcement Learning (MARL) architecture with MPC‐based safety oversight in coordinated EV fast charging. The electro‐thermal battery dynamics, charger constraints and grid limits of a high‐fidelity digital twin is electronegative and allows safe learning and realistic evaluation in closed‐loop. The agent observations are equipped with short‐term load forecasting, which facilitates grid‐aware decision‐making, that is, proactive charging. MARL will regulate individual chargers, and an MPC supervisor will implement strict operational and safety limitations. Extensive experimental analyses reveal that the proposed framework has a significant reduction of charging completion time, charging efficiency, smooths aggregate grid load, and an overall result that eliminates grid and thermal constraint violations using MPC only, DRL only, and single‐agent DRL MPC baselines. Scalability test also proves its strong performance when scaling the number of charging agents, which proves the appropriateness of the framework to large‐scale rollout of EV fast‐charging infrastructure.",
+    "authors": [
+      "K. Preetha",
+      "S. Titus"
+    ],
+    "source": "Crossref",
+    "venue": "Advanced Control for Applications",
+    "date": "2026-08-16",
+    "doi": "10.1002/adc2.70064",
+    "url": "https://doi.org/10.1002/adc2.70064",
+    "source_id": "",
+    "score": 70.0,
+    "level": "B",
+    "title_zh": "Multi‐Agent and Forecast‐Conscious <scp>DRL</scp> ‐ <scp>MPC</scp> Framework of Safe and Efficient <scp>EV</scp> Fast‐Charging With Digital Twins",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 70.0，推荐等级 B。"
+  }
+]
