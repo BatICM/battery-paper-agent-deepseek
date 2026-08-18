@@ -1,0 +1,311 @@
+[
+  {
+    "title": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 112.5,
+    "level": "B",
+    "title_zh": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 112.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000858?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 90.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 90.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 88.5,
+    "level": "B",
+    "title_zh": "Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 88.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Bio-inspired approaches in battery thermal management of electric vehicles: A critical review of feasibility and challenges",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26035619?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 75.0,
+    "level": "B",
+    "title_zh": "Bio-inspired approaches in battery thermal management of electric vehicles: A critical review of feasibility and challenges",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 75.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Solvent- and binder-free PEEK–LIG electrodes for supercapacitors with data-driven RUL prediction",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26036443?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 73.0,
+    "level": "B",
+    "title_zh": "Solvent- and binder-free PEEK–LIG electrodes for supercapacitors with data-driven RUL prediction",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 73.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Fault Early Warning and Remaining Useful Life Prediction for Wind Turbine Main Shaft Systems Using IPSO–XGBoost and MSCNN–GRU–SA",
+    "abstract": "Abstract To meet the requirements of intelligent operation and maintenance for wind turbine main shaft systems, this study addresses the limitations of traditional methods, which exhibit low sensitivity to early defects and have difficulty predicting performance degradation. This study proposes a fault early warning and Remaining Useful Life (RUL) prediction model that integrates intelligent optimization and deep learning. In the fault early warning stage, an improved Particle Swarm Optimization algorithm dynamically optimizes the hyperparameters of the eXtreme Gradient Boosting. In the RUL prediction stage, a Multi-Scale Convolutional Neural Network extracts temporal features from degradation signals, and a Self-Attention mechanism highlights critical degradation stages. Experimental results indicate that the proposed model significantly reduces the Root Mean Square Error and Mean Absolute Error of the RUL prediction to 8.7 h and 6.3 h, respectively. Correlation coefficients between the predicted sequences and the true sequences are 0.978 and 0.971. The model maintains high prediction accuracy across the early-, middle-, and late-life stages. The proposed model is significant for improving the timeliness of fault early warning, the accuracy of prediction, as well as the stability in complicated conditions.",
+    "authors": [
+      "Xiaoxi Zheng",
+      "Lianrong Li",
+      "Zehua Yang",
+      "Shuaifei Shao"
+    ],
+    "source": "Crossref",
+    "venue": "Journal of Nondestructive Evaluation, Diagnostics and Prognostics of Engineering Systems",
+    "date": "2026-08-17",
+    "doi": "10.1115/1.4072381",
+    "url": "https://doi.org/10.1115/1.4072381",
+    "source_id": "",
+    "score": 82.0,
+    "level": "B",
+    "title_zh": "Fault Early Warning and Remaining Useful Life Prediction for Wind Turbine Main Shaft Systems Using IPSO–XGBoost and MSCNN–GRU–SA",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 82.0，推荐等级 B。"
+  },
+  {
+    "title": "Multi-Objective EV Routing with Recharging, Battery-Swapping, and K-Means Station Siting for Ride-Hailing Fleets in Medan City",
+    "abstract": "Electric vehicle adoption requires routing strategies that address travel efficiency and battery-energy constraints. This study develops a Multi-Objective Electric Vehicle Routing Problem (EVRP) model for two-wheeled electric ride-hailing services in Medan City, Indonesia. The model minimizes total travel distance and operational energy cost while incorporating recharging and battery-swapping strategies and identifying candidate sites for public charging stations (SPKLU) and battery-swapping stations (SPBKLU). It integrates route construction, battery-energy feasibility, recharge–swap assignment, multi-objective evaluation, and spatial clustering within one decision-support framework. Secondary data comprise one depot, 200 service points, four existing SPKLU, and nine existing SPBKLU. The Clarke–Wright Savings algorithm generates six routes, while the State of Charge (SOC) model evaluates battery feasibility. Twenty recharge–swap assignments are evaluated using the weighted sum method, and Pareto analysis identifies five non-dominated solutions. Under the cost-oriented weighting scenario, recharging is assigned to Routes 1, 4, and 6 and battery swapping to Routes 2, 3, and 5, yielding a travel distance of 327.79 km and an operational cost of IDR 39,131. This solution requires four SPKLU and three SPBKLU points, which K-Means clustering reduces to three and two candidate locations, respectively, providing guidance for battery-replenishment infrastructure planning.",
+    "authors": [
+      "Widya Afriani",
+      "Fibri Rakhmawati"
+    ],
+    "source": "Crossref",
+    "venue": "Journal of Computers and Digital Business",
+    "date": "2026-08-17",
+    "doi": "10.56427/jcbd.v5i3.1054",
+    "url": "https://doi.org/10.56427/jcbd.v5i3.1054",
+    "source_id": "",
+    "score": 78.0,
+    "level": "B",
+    "title_zh": "Multi-Objective EV Routing with Recharging, Battery-Swapping, and K-Means Station Siting for Ride-Hailing Fleets in Medan City",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 78.0，推荐等级 B。"
+  },
+  {
+    "title": "A Review of Current Approaches to Fault Diagnosis in Lithium-Ion Batteries",
+    "abstract": "In the age of rapid digital transformation, electric vehicles have become more and more common, and have gradually displaced the status of diesel. It is essential for people to pay more attention to the safety of lithium batteries. To illustrate, a lithium-ion battery is prone to error under long-term charging or discharging and high temperature. If the fault diagnosis is not at the right time, it might lead to the declining performance of the lithium-ion battery and shorten the servicing life. This study aims to discuss the technologies for detecting the error in lithium batteries, which are categorized into three forms: Model-based method, Signal processing-based method and Machine learning method. Meanwhile, these technologies have been widely applied in the area of electric vehicle and battery management systems, detecting the state of batteries in real-time. Overall, this study considers that there are no any fault diagnosis methods that are suitable for all the application scenarios, and researchers should choose the approach according to their needs. The future development trend is the combination of various fault diagnosis techniques, improving the accuracy, reliability and performance.",
+    "authors": [
+      "Shunpang Zeng"
+    ],
+    "source": "Crossref",
+    "venue": "Applied and Computational Engineering",
+    "date": "2026-08-18",
+    "doi": "10.54254/2755-2721/2026.ba36186",
+    "url": "https://doi.org/10.54254/2755-2721/2026.ba36186",
+    "source_id": "",
+    "score": 78.0,
+    "level": "B",
+    "title_zh": "A Review of Current Approaches to Fault Diagnosis in Lithium-Ion Batteries",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 78.0，推荐等级 B。"
+  },
+  {
+    "title": "Techno-economic optimization of a hybrid wind-PV-diesel microgrid for Kasabonika Lake First Nation with Li-ion battery thermal safety assessment",
+    "abstract": "Remote communities often do not have on-grid electricity and usually depend on fossil fuels to meet their demand. Canada has been developing on-grid power access for its remote population to reduce reliance on fossil fuels. Besides grid electricity, hybrid renewable power generation could be effective for remote areas, providing options of support and backup in case the grid is unavailable during harsh weather. Hybrid renewable power systems can simultaneously meet energy needs and reduce greenhouse gas emissions. Solar-wind-diesel-battery hybrid power systems are widespread in remote communities in Canada; however, properly selected components are crucial for their effectiveness. In this study, a hybrid power system for the remote community of Kasabonika Lake First Nation, Ontario has been designed. Different configurations of renewable energy components are considered to check their feasibility with the location. HOMER Pro software is utilized to simulate and analyze the techno-economic aspect of each configuration and identify a reference techno-economic configuration for the site under the assumed resource, cost, and component inputs. HOMER Pro shows Case 5-5 as the reference configuration for the site, with diesel generation retained to maintain reliability and a renewable fraction of around 49%. The wind assessment is limited to preliminary resource and energy-yield screening and does not represent a complete IEC-level wind engineering design. A Li-ion case study was also presented for comparison, and the intent to support the battery-pack thermal analysis in COMSOL Multiphysics. However, further results will show that the energy storage system remained as a backup, limiting our possibility to model it in COMSOL Multiphysics. Therefore, the novelty of this work is to conduct an independent safety screening based on the thermal analysis of the hypothetic lithium-ion battery bank scenarios, using COMSOL Multiphysics, to rule out fire hazards. The simulation will show that temperature will not surpass 45°C. This approach will provide further learning towards designing safe, cost-effective, and optimized hybrid power systems to ensure a reliable power supply for any location, including our selected remote community.",
+    "authors": [
+      "Saikat Roy",
+      "Edison Sosa",
+      "Amin Etminan"
+    ],
+    "source": "Crossref",
+    "venue": "Wind Engineering",
+    "date": "2026-08-17",
+    "doi": "10.1177/0309524x261477870",
+    "url": "https://doi.org/10.1177/0309524x261477870",
+    "source_id": "",
+    "score": 70.0,
+    "level": "B",
+    "title_zh": "Techno-economic optimization of a hybrid wind-PV-diesel microgrid for Kasabonika Lake First Nation with Li-ion battery thermal safety assessment",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 70.0，推荐等级 B。"
+  },
+  {
+    "title": "UAV Fleet Configuration for Wind-Exposed Truck–Drone Collaborative Delivery: A Paired Comparative Study",
+    "abstract": "UAV fleet configuration for truck–drone collaborative delivery requires deployment-oriented drone specification choice under wind. In this study, a UAV configuration is defined as a specific hardware parameter bundle comprising cruise speed, battery-block count, and associated mass and energy specifications. Nominal cruise speed or battery-block count alone do not predict synchronized system performance. Nine UAV configurations are compared under a common experimental protocol and the same heuristic on 60 mFSTSP instances (10, 25, and 50 customers) and nine wind scenarios, using paired makespan gaps relative to a baseline of six battery blocks and a 20 m/s cruise speed (Configuration 5). Wind affects drone outcomes through flight time and through expansion or contraction of the wind-feasible sortie set, which reshapes customer allocation and truck–drone synchronization. UAV performance is governed by a time–energy balance rather than any single nominal attribute, and no universally best drone configuration emerges. Balanced high-support UAV configurations are most robust at medium and large customer scales, though rankings remain scenario-dependent. Validation using real-world operational data under three wind conditions confirms the simulation findings, with model predictions achieving acceptable accuracy (3–6% deviation for makespan and energy consumption) and demonstrating wind-aware configuration superiority and practical applicability. The evidence supports predeployment drone fleet screening by expected wind exposure and service scale for effective drone deployment planning.",
+    "authors": [
+      "Chaofeng Wang",
+      "Shengming Dai",
+      "Jie Luo",
+      "Longfei Zhang"
+    ],
+    "source": "Crossref",
+    "venue": "Drones",
+    "date": "2026-08-17",
+    "doi": "10.3390/drones10080627",
+    "url": "https://doi.org/10.3390/drones10080627",
+    "source_id": "",
+    "score": 64.0,
+    "level": "B",
+    "title_zh": "UAV Fleet Configuration for Wind-Exposed Truck–Drone Collaborative Delivery: A Paired Comparative Study",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 64.0，推荐等级 B。"
+  },
+  {
+    "title": "Design and Simulation of an Intelligent 48V DC Power Distribution and Management System",
+    "abstract": "With the increasing use of 48V microgrids in telecommunication facilities, RVs and distributed energy storage systems, it is necessary to build an efficient dynamic load scheduling system and strong battery protection circuit at the same time. Based on the above analysis, a complete design and evaluation of the 48V direct current intelligent power distribution topology are proposed in this paper.A close connection has been established between the MCU and BMS; thus, both can be dynamically turned off quickly and high-speed fault isolation can also be carried out.A basic part of this research is to study how different gate-drive forms affect the operation of solid-state power switches (MOSFETs). According to the simulation results, using low-side N-channel MOSFET switches with fast-recovery flyback diodes and optimised RC snubber networks can effectively reduce high-voltage inductive transients. Thus, this MCU-centred architecture will be more functionally stable, scalable and thermally safe for current low-voltage DC energy control systems.",
+    "authors": [
+      "Xingchen Jiang"
+    ],
+    "source": "Crossref",
+    "venue": "Applied and Computational Engineering",
+    "date": "2026-08-18",
+    "doi": "10.54254/2755-2721/2026.ba36209",
+    "url": "https://doi.org/10.54254/2755-2721/2026.ba36209",
+    "source_id": "",
+    "score": 62.0,
+    "level": "B",
+    "title_zh": "Design and Simulation of an Intelligent 48V DC Power Distribution and Management System",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 62.0，推荐等级 B。"
+  }
+]
