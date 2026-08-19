@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Battery Management Literature Daily｜2026-08-19</title>
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",Arial,sans-serif;line-height:1.68;color:#1f2933;background:#f5f7fa;margin:0;padding:0;}
+    .container{max-width:1040px;margin:0 auto;padding:28px 20px 44px;}
+    .header{background:linear-gradient(135deg,#063b5c,#0b7285);color:#fff;border-radius:18px;padding:28px 30px;margin-bottom:22px;box-shadow:0 8px 22px rgba(0,0,0,.12);}
+    .header h1{margin:0 0 12px;font-size:28px;letter-spacing:.3px;}
+    .header p{margin:4px 0;color:#e7f5ff;}
+    .summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:18px 0 6px;}
+    .stat{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.22);border-radius:14px;padding:12px 14px;}
+    .stat b{font-size:24px;color:#fff;display:block;}
+    .block{background:#fff;border:1px solid #d9e2ec;border-radius:16px;padding:22px;margin:18px 0;box-shadow:0 2px 10px rgba(15,23,42,.04);}
+    h2{color:#0b3d5c;margin:0 0 14px;font-size:22px;}
+    h3{margin:0 0 10px;font-size:19px;color:#102a43;}
+    .meta{color:#52616b;font-size:14px;margin:4px 0;}
+    .paper{border-top:1px solid #e5edf3;padding-top:18px;margin-top:18px;}
+    .paper:first-child{border-top:none;padding-top:0;margin-top:0;}
+    .tag{display:inline-block;border-radius:999px;padding:4px 10px;color:#fff;font-size:12px;font-weight:700;letter-spacing:.2px;margin-right:8px;}
+    .A{background:#c62828;}.B{background:#ef6c00;}.C{background:#607d8b;}
+    .score{display:inline-block;background:#edf2f7;color:#334e68;border-radius:999px;padding:4px 10px;font-size:12px;}
+    ul{padding-left:22px;margin:8px 0 10px;}
+    a{color:#0b7285;text-decoration:none;}a:hover{text-decoration:underline;}
+    table{width:100%;border-collapse:collapse;background:white;font-size:14px;}
+    th,td{border:1px solid #d9e2ec;padding:10px;vertical-align:top;text-align:left;}
+    th{background:#edf4f7;color:#243b53;}
+    .footer{font-size:13px;color:#697386;text-align:center;margin-top:24px;}
+    @media(max-width:720px){.summary-grid{grid-template-columns:1fr}.header{border-radius:0}.container{padding:0 0 28px}.block{border-radius:0;border-left:none;border-right:none}.header h1{font-size:24px}}
+  </style>
+</head>
+<body>
+<div class="container">
+  <section class="header">
+    <h1>Battery Management Literature Daily</h1>
+    <p><b>日期：</b>2026-08-19 ｜ <b>检索窗口：</b>近 2 天 ｜ <b>生成时间：</b>2026-08-19 10:03:58 UTC+8</p>
+    <p>今日候选论文聚焦锂电池健康管理核心议题，涵盖SOH估计、RUL预测、内阻退化建模与热失控安全，其中eTransportation与Cell Reports Physical Science的高水平论文尤为值得关注，同时也有部分电力系统调度与热管理建模等边缘主题。</p>
+    <div class="summary-grid">
+      <div class="stat"><b>4</b> A级必读</div>
+      <div class="stat"><b>1</b> B级浏览</div>
+      <div class="stat"><b>4</b> C级备选</div>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>一、今日趋势判断</h2>
+    <p>当前研究明显向数据驱动与物理约束相结合的方向演进，利用真实运行数据（field data）和深度学习（如扩散模型、混合预测架构）实现更准确、更可解释的电池状态估计与寿命预测，同时pack级和热失控行为成为安全预警研究的重要切入点。</p>
+  </section>
+
+  <section class="block">
+    <h2>二、A级必读论文</h2>
+    
+      
+      <article class="paper">
+        <h3>1. Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 112.5</span></p>
+        <p class="meta"><b>中文题目：</b>基于语义嵌入的端到端深度学习用于电池储能系统健康状态估计：现场数据驱动的验证</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>eTransportation ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>提出一种语义嵌入的端到端深度学习模型，利用储能系统现场数据进行SOH估计。</p>
+        <p><b>研究问题：</b>大规模电池储能系统现场数据复杂且标签稀疏，传统SOH估计方法难以准确泛化。</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>提出语义嵌入机制融合多源信息</li><li>端到端深度学习架构直接从现场数据学习SOH</li><li>利用真实储能系统数据验证模型有效性</li></ul>
+        <p><b>与BMS相关性：</b>直接针对电池储能系统SOH估计，使用field data，是BMS状态估计的核心研究方向。</p>
+        <p><b>对课题组启发：</b>语义嵌入思想可用于融合电池类型、温度、工况等先验信息，提升SOH估计在 heterogeneous 现场数据上的泛化能力。</p>
+        <p><b>推荐理由：</b>发表在eTransportation（优先列表第15位），主题高度契合BMS，真实数据驱动，属于A级必读论文。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>2. Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 90.5</span></p>
+        <p class="meta"><b>中文题目：</b>基于真实世界数据的锂离子电池包内阻退化整车级建模及影响参数分析</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>eTransportation ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000858?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2590116826000858?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>利用真实车队数据建立整车级锂离子电池包内阻退化模型，并分析关键影响因素。</p>
+        <p><b>研究问题：</b>实际车辆运行条件下电池包内阻退化机制复杂，缺乏基于真实数据的整车级模型。</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>建立pack-level的内阻退化经验模型</li><li>基于实车数据量化温度、SOC循环等参数的影响</li><li>为BMS中的内阻估计和寿命预测提供数据支撑</li></ul>
+        <p><b>与BMS相关性：</b>直接关注动力电池pack内阻退化，是电池健康评估和系统级管理的关键问题，且使用real-world data。</p>
+        <p><b>对课题组启发：</b>该研究为pack不一致性和寿命建模提供整车级数据案例，可借鉴其参数化建模方法分析实车数据中的内阻演化规律。</p>
+        <p><b>推荐理由：</b>eTransportation期刊，主题聚焦pack内阻退化且基于真实数据，对BMS健康评估有直接价值，A级。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>3. Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 90.5</span></p>
+        <p class="meta"><b>中文题目：</b>锂离子电池包热失控过程中的电短路行为与局部暂时过充状态研究</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>eTransportation ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>研究了锂离子电池包在热失控期间发生的电短路行为及局部暂时过充条件。</p>
+        <p><b>研究问题：</b>热失控过程中电池包内部电短路和局部过充的演化机制不明确，对安全预警提出挑战。</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>揭示了热失控中短路电流和局部过充的耦合特性</li><li>分析了pack级热失控传播中的电-热相互作用</li><li>为热失控早期预警和防护设计提供依据</li></ul>
+        <p><b>与BMS相关性：</b>直接聚焦电池包热失控过程中的电行为，是BMS安全预警和故障诊断的核心问题。</p>
+        <p><b>对课题组启发：</b>pack级热失控中的局部过充和短路行为可帮助建立更精确的安全阈值和故障诊断特征，用于云BMS预警算法开发。</p>
+        <p><b>推荐理由：</b>eTransportation期刊，研究热失控安全关键问题，与BMS安全预警强相关，A级。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>4. Ultra-fast battery health estimation from random 100 mV charging fragments using conditional generative diffusion</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 92.25</span></p>
+        <p class="meta"><b>中文题目：</b>基于条件生成扩散的100 mV随机充电片段超快速电池健康估计</p>
+        <p class="meta"><b>作者：</b>Ziheng Li, Guangzhong Dong, Haonan Chen, Xiaojia Luo, Li Sun et al.</p>
+        <p class="meta"><b>来源：</b>Cell Reports Physical Science ｜ <b>日期：</b>2026-08-17 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.1016/j.xcrp.2026.103496</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1016/j.xcrp.2026.103496">https://doi.org/10.1016/j.xcrp.2026.103496</a></p>
+        <p><b>一句话总结：</b>提出一种条件扩散模型，从短至20 mV的随机充电片段生成完整数据并估计SOH，误差低至0.18%。</p>
+        <p><b>研究问题：</b>实际应用中充电数据常不完整，传统SOH估计对碎片化数据敏感。</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>设计了条件扩散框架以生成完整充电曲线</li><li>在89块电池、3种正极化学体系、9种协议下验证</li><li>实现MAE低至0.18%，且对数据缺失鲁棒</li></ul>
+        <p><b>与BMS相关性：</b>直接解决电池SOH估计中数据碎片化问题，适用于云BMS和车载快速评估。</p>
+        <p><b>对课题组启发：</b>扩散模型在生成缺失充电片段方面表现出高保真度，可应用到团队实车数据缺失场景的SOH估计，提高数据利用率。</p>
+        <p><b>推荐理由：</b>发表于Cell Reports Physical Science（优先列表第16位），方法创新性强、数据规模大，与BMS健康估计紧密相关，A级。</p>
+      </article>
+      
+    
+  </section>
+
+  <section class="block">
+    <h2>三、B级建议浏览论文</h2>
+    
+      
+      <article class="paper">
+        <h3>1. A Lithium-Ion Battery Remaining Useful Life Prediction Framework Based on Mode Decomposition and CNN-TimeXer</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 105.5</span></p>
+        <p class="meta"><b>中文题目：</b>基于模态分解和CNN-TimeXer的锂离子电池剩余使用寿命预测框架</p>
+        <p class="meta"><b>作者：</b>Jiayun Xu, Hairong Li</p>
+        <p class="meta"><b>来源：</b>Electronics ｜ <b>日期：</b>2026-08-18 ｜ <b>数据源：</b>Crossref</p>
+        <p class="meta"><b>DOI：</b>10.3390/electronics15163687</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.3390/electronics15163687">https://doi.org/10.3390/electronics15163687</a></p>
+        <p><b>一句话总结：</b>提出一种通过VMD自适应分解结合CNN-TimeXer预测电池容量轨迹的RUL预测方法，在CALCE数据集上验证了高精度。</p>
+        <ul><li>采用Dream Optimization Algorithm自适应优化VMD参数</li><li>构建CNN增强的TimeXer模型分别提取局部和长时依赖特征</li><li>在四个CALCE电池上实现RMSE最低0.0103，R2高于0.994</li></ul>
+        <p><b>与BMS相关性：</b>直接面向电池RUL预测，是BMS健康管理的重要组成部分。</p>
+        <p><b>对课题组启发：</b>VMD分解思路可用于处理现场数据中的容量波动和再生效应，CNN与Transformer结合架构可作为SOH/RUL预测的基线模型之一。</p>
+      </article>
+      
+    
+  </section>
+
+  <section class="block">
+    <h2>四、C级备选与快速浏览</h2>
+    
+    <table>
+      <thead><tr><th>标题</th><th>来源</th><th>日期</th><th>推荐理由</th></tr></thead>
+      <tbody>
+      
+        <tr>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all">Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network</a></td>
+          <td>eTransportation</td>
+          <td>未知</td>
+          <td>虽在eTransportation上，但主题是燃料电池，非锂电BMS，相关性边缘，作为备选。</td>
+        </tr>
+      
+        <tr>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26035619?dgcid=rss_sd_all">Bio-inspired approaches in battery thermal management of electric vehicles: A critical review of feasibility and challenges</a></td>
+          <td>Journal of Energy Storage</td>
+          <td>未知</td>
+          <td>主题与热管理相关但偏传热，与BMS核心算法关联弱，作为边缘备选。</td>
+        </tr>
+      
+        <tr>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X2603728X?dgcid=rss_sd_all">Numerical modeling of a Li-ion electric vehicle battery and its thermal management system</a></td>
+          <td>Journal of Energy Storage</td>
+          <td>未知</td>
+          <td>与前一热管理论文重复，仍属边缘相关，备选。</td>
+        </tr>
+      
+        <tr>
+          <td><a href="https://doi.org/10.1016/j.est.2026.124064">Numerical modeling of a Li-ion electric vehicle battery and its thermal management system</a></td>
+          <td>Journal of Energy Storage</td>
+          <td>2026-08-17</td>
+          <td>与前一热管理论文重复，仍属边缘相关，备选。</td>
+        </tr>
+      
+      </tbody>
+    </table>
+    
+  </section>
+
+  <section class="block">
+    <h2>五、今日论文总表</h2>
+    <table>
+      <thead><tr><th>等级</th><th>标题</th><th>期刊/来源</th><th>方向判断</th><th>链接</th></tr></thead>
+      <tbody>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>A Lithium-Ion Battery Remaining Useful Life Prediction Framework Based on Mode Decomposition and CNN-TimeXer</td>
+          <td>Electronics</td>
+          <td>提出一种通过VMD自适应分解结合CNN-TimeXer预测电池容量轨迹的RUL预测方法，在CALCE数据集上验证了高精度。</td>
+          <td><a href="https://doi.org/10.3390/electronics15163687">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data</td>
+          <td>eTransportation</td>
+          <td>提出一种语义嵌入的端到端深度学习模型，利用储能系统现场数据进行SOH估计。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data</td>
+          <td>eTransportation</td>
+          <td>利用真实车队数据建立整车级锂离子电池包内阻退化模型，并分析关键影响因素。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000858?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs</td>
+          <td>eTransportation</td>
+          <td>研究了锂离子电池包在热失控期间发生的电短路行为及局部暂时过充条件。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network</td>
+          <td>eTransportation</td>
+          <td>提出一种结合符号回归和物理信息神经网络的框架，用于PEMFC退化的长期预测，兼顾数据效率和可解释性。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>Ultra-fast battery health estimation from random 100 mV charging fragments using conditional generative diffusion</td>
+          <td>Cell Reports Physical Science</td>
+          <td>提出一种条件扩散模型，从短至20 mV的随机充电片段生成完整数据并估计SOH，误差低至0.18%。</td>
+          <td><a href="https://doi.org/10.1016/j.xcrp.2026.103496">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>Bio-inspired approaches in battery thermal management of electric vehicles: A critical review of feasibility and challenges</td>
+          <td>Journal of Energy Storage</td>
+          <td>综述了仿生结构在电动汽车电池热管理中的应用，分析了其可行性、性能与挑战。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26035619?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>Numerical modeling of a Li-ion electric vehicle battery and its thermal management system</td>
+          <td>Journal of Energy Storage</td>
+          <td>建立锂离子电池及热管理系统的数值模型，分析冷却策略和温度分布。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X2603728X?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>Numerical modeling of a Li-ion electric vehicle battery and its thermal management system</td>
+          <td>Journal of Energy Storage</td>
+          <td>建立锂离子电池及热管理系统的数值模型，分析冷却策略和温度分布。</td>
+          <td><a href="https://doi.org/10.1016/j.est.2026.124064">Open</a></td>
+        </tr>
+      
+      </tbody>
+    </table>
+  </section>
+
+  <p class="footer">Generated by battery-paper-agent. 请人工复核关键结论后再用于论文综述或组会汇报。</p>
+</div>
+</body>
+</html>
