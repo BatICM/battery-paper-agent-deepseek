@@ -1,0 +1,318 @@
+[
+  {
+    "title": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 112.5,
+    "level": "B",
+    "title_zh": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 112.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000858?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 90.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 90.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 88.5,
+    "level": "B",
+    "title_zh": "Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 88.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Bio-inspired approaches in battery thermal management of electric vehicles: A critical review of feasibility and challenges",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26035619?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 75.0,
+    "level": "B",
+    "title_zh": "Bio-inspired approaches in battery thermal management of electric vehicles: A critical review of feasibility and challenges",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 75.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Rapid lithium-ion battery health estimation from short initial charging data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26039149?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 73.0,
+    "level": "B",
+    "title_zh": "Rapid lithium-ion battery health estimation from short initial charging data",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 73.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Deep Learning for Lithium-Ion Battery State of Health Estimation via Explainable Feature Screening",
+    "abstract": "Accurate state of health estimation is essential for the safe and reliable operation of lithium-ion battery management systems, yet practical prediction remains difficult because battery degradation involves strong nonlinearity, local capacity regeneration, and long-range temporal dependence. This study proposes an Informer encoder and Newton–Raphson-optimized extreme learning machine framework (InE-NRBO-ELM) that integrates random forest and SHapley Additive exPlanations feature screening (RF-SHAP) with an Informer encoder and a Newton–Raphson optimizer for extreme learning machine regression. Nineteen candidate health features are first evaluated to retain the most informative inputs and suppress redundant interference. The Informer encoder then learns long-range degradation representations, while the Newton–Raphson optimizer jointly optimizes the extreme learning machine regularization coefficient and hidden node number to improve regression stability. Experiments on the NASA and CALCE datasets show that the proposed method accurately tracks both gradual degradation and local regeneration behavior. Under a 60% training ratio, the model achieved mean absolute percentage error of 0.4801%, mean absolute error of 0.00342, and root mean square error of 0.00460 across eight batteries. Within the controlled NASA and CALCE test conditions, benchmark, robustness and ablation studies demonstrate stable performance and the complementary roles of input screening, temporal representation, and adaptive regression optimization.",
+    "authors": [
+      "Zhijun Gao",
+      "Bowen Duan",
+      "Xinlu Wang",
+      "Yiyang Liu"
+    ],
+    "source": "Crossref",
+    "venue": "Journal of The Electrochemical Society",
+    "date": "2026-08-20",
+    "doi": "10.1149/1945-7111/ae95a0",
+    "url": "https://doi.org/10.1149/1945-7111/ae95a0",
+    "source_id": "",
+    "score": 84.0,
+    "level": "B",
+    "title_zh": "Deep Learning for Lithium-Ion Battery State of Health Estimation via Explainable Feature Screening",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 84.0，推荐等级 B。"
+  },
+  {
+    "title": "Damage Analysis of Prismatic Battery Pack with Polyurea-Coated Carbon Fiber Reinforced Plastic Bottom Plate Due to Ground Impact",
+    "abstract": "A polyurea-coated carbon fiber reinforced plastic (CFRP) laminated structure is designed to enhance the impact resistance of lithium-ion batteries against ground impact. This paper presents a numerical simulation to investigate the influence of a polyurea-coated CFRP battery pack bottom plate on mitigating battery damage under ground impact conditions. A novel three-dimensional finite element model of the polyurea-coated CFRP laminate, incorporating a hyper-viscoelastic material model for the polyurea coating and an orthotropic model for the CFRP, is established to analyze the impact response and damage behavior of the laminate. The simulated impact peak force, energy absorption, and maximum crack length of the polyurea-coated CFRP laminate are all within 5% of the experimental results. Based on this validated three-dimensional model, a new battery pack simulation model is developed. The battery module model innovatively adopts a hybrid approach that combines homogenized battery module models and detailed battery module models, enabling accurate simulation of localized cell damage and failure during collisions while significantly improving computational efficiency. The punching process after perforation of the polyurea-coated CFRP laminate, the subsequent crack propagation of the plate, and the local deformation modes of individual cells are clearly predicted by the global model. Battery shortening is recorded as an important indicator of internal short circuits and potential thermal runaway. A parametric study is carried out, and several underlying rules are revealed: the front coating method leads to a greater reduction in battery damage, and the stiffness–toughness interplay between the polyurea coating and the carbon fiber composite is identified as a critical factor governing battery damage. This study provides important insights for the design of protective structures for battery packs against ground impact.",
+    "authors": [
+      "Wenhong Ao",
+      "Luyang Wang",
+      "Chenghao Ma",
+      "Qing Zhou",
+      "Yong Xia"
+    ],
+    "source": "Crossref",
+    "venue": "Batteries",
+    "date": "2026-08-20",
+    "doi": "10.3390/batteries12080315",
+    "url": "https://doi.org/10.3390/batteries12080315",
+    "source_id": "",
+    "score": 64.0,
+    "level": "B",
+    "title_zh": "Damage Analysis of Prismatic Battery Pack with Polyurea-Coated Carbon Fiber Reinforced Plastic Bottom Plate Due to Ground Impact",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 64.0，推荐等级 B。"
+  },
+  {
+    "title": "Integrated Control of Battery Storage and Switch-Off Policies for Energy-Efficient Manufacturing Systems",
+    "abstract": "Escalating energy costs and peak power demand charges pose significant challenges to the manufacturing sector. In response, industries are increasingly adopting on-site renewable energy sources and Battery Energy Storage Systems (BESSs). However, maximizing their economic benefit requires sophisticated control strategies that integrate energy management with production operations. This paper proposes and evaluates an integrated and adaptive rule-based coordination framework for BESS and machine-level switch-off policies in a production environment. Using discrete-event simulation, we model a four-machine manufacturing flow line powered by the grid and an on-site solar PV plant. We compare six distinct control policies, ranging from a benchmark case without storage to progressively more integrated context-aware strategies that incorporate price-aware BESS charging, dynamic peak-shaving, and adaptive machine switch-offs. The results demonstrate that integrated policies yield substantial economic benefits. The most advanced policy dynamically coordinates BESS dispatch with machine-level switch-off decisions based on electricity prices, production conditions, and energy availability, achieving the largest reduction in total energy costs and peak grid demand among the evaluated policies. This study quantifies the synergistic effects of combining supply-side (BESS) and demand-side (switch-off) strategies, providing a framework for developing resilient and cost-effective energy management systems in modern manufacturing.",
+    "authors": [
+      "Paolo Renna"
+    ],
+    "source": "Crossref",
+    "venue": "Applied Sciences",
+    "date": "2026-08-20",
+    "doi": "10.3390/app16168284",
+    "url": "https://doi.org/10.3390/app16168284",
+    "source_id": "",
+    "score": 60.0,
+    "level": "B",
+    "title_zh": "Integrated Control of Battery Storage and Switch-Off Policies for Energy-Efficient Manufacturing Systems",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 60.0，推荐等级 B。"
+  },
+  {
+    "title": "State of charge estimation using extended Kalman filtering approach with sensitivity and energy management assessment for battery electric vehicles",
+    "abstract": "The accurate estimation of State of Charge (SoC) is critical for safe, reliable, and optimistic operation of Battery Electric Vehicles (BEVs). Nevertheless, achieving robust SoC estimation is a big challenge because of nonlinear battery dynamics, parameter variability, sensor noise, and uncertain initial conditions. Standard techniques for measuring the state of charge (SoC), e.g., Coulomb Counting (CC) and Open Circuit Voltage (OCV), tend to drift and are not flexible in rapidly changing operating conditions. In this paper, we propose a model-based SoC estimation framework using an Extended Kalman Filter (EKF) and a second-order Thevenin equivalent circuit model. Previous works propose more sophisticated and hybrid estimation algorithms; the main contribution of this work is a systematic and reproducible assessment of classical EKF performance under various controlled scenarios with respect to disturbances caused by sensor noise, bias, and initialization errors. The EKF implementation is tested on the standardized driving cycles based on the Worldwide Harmonized Light-Duty Vehicle Test Procedure (WLTP), the Urban Dynamometer Driving Schedule (UDDS), and the Highway Fuel Economy Driving Schedule (HWFET) in a MATLAB-based simulation platform. A comparative study with Coulomb Counting is performed under identical disturbance conditions, which enables the identification of regions of operation where the EKF offers robustness benefits. Findings show that Coulomb Counting performs well under ideal conditions but degrades under realistic disturbances, whereas the EKF maintains stable and accurate state estimation, making it more reliable for BEV energy management.",
+    "authors": [
+      "Mazhar Hussain Shaik",
+      "Shafiq Ul Rehman",
+      "Imran Mohd Ibrahim"
+    ],
+    "source": "Crossref",
+    "venue": "Clean Energy Science and Technology",
+    "date": "2026-08-19",
+    "doi": "10.18686/cest777",
+    "url": "https://doi.org/10.18686/cest777",
+    "source_id": "",
+    "score": 58.0,
+    "level": "B",
+    "title_zh": "State of charge estimation using extended Kalman filtering approach with sensitivity and energy management assessment for battery electric vehicles",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 58.0，推荐等级 B。"
+  },
+  {
+    "title": "Scalable, Electrically Insulating TPMS Silicone Cold Plates for Passive Battery Thermal Management",
+    "abstract": "This study introduces a novel class of architected foam structures based on triply periodic minimal surface (TPMS) geometries for passive battery thermal management. Unlike conventional cold plates that rely on active pumping or high-conductivity solid materials, the proposed TPMS-like foams leverage convective fluid transport within a lightweight, electrically insulating polymer matrix. We present the design, fabrication, and experimental characterization of Schwarz Primitive TPMS structures manufactured via injection molding using silicone rubber, which has a comparable quality to additively manufactured polymer cold plates but with significantly lower manufacturing complexity and cost. The TPMS cold plates achieve passive fluid circulation without external pumps, reducing parasitic power consumption while maintaining thermal resistance values of approximately 23.5 K/W. Although its thermal resistance is higher than that of an aluminum plate of the same size (2.7 K/W), the TPMS cold plate is electrically insulating and offers additional safety benefits. Additionally, it can be fabricated from and filled with fire-retardant materials to prevent thermal propagation while maintaining a relatively low temperature gradient. Mechanical compression testing of TPMS foam samples with about 30% solid volume fraction showed a compressive strength of 86.2 kPa at 0.2 strain, equivalent to 30.5% of the compressive modulus of solid silicone (282.6 kPa). Compared to solid silicone plates (thermal resistance is 1420 K/W), the TPMS fluid-filled structures reduce thermal resistance by more than two orders of magnitude. This work establishes design rules, fabrication protocols, and performance benchmarks for TPMS-based passive cooling devices, offering a scalable pathway toward safer, lighter, and more energy-dense battery packs.",
+    "authors": [
+      "Nicholas Harris",
+      "Abel Solomon",
+      "Jinhao Cao",
+      "Yi Ding",
+      "Xianglin Li"
+    ],
+    "source": "Crossref",
+    "venue": "Batteries",
+    "date": "2026-08-20",
+    "doi": "10.3390/batteries12080316",
+    "url": "https://doi.org/10.3390/batteries12080316",
+    "source_id": "",
+    "score": 58.0,
+    "level": "B",
+    "title_zh": "Scalable, Electrically Insulating TPMS Silicone Cold Plates for Passive Battery Thermal Management",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 58.0，推荐等级 B。"
+  },
+  {
+    "title": "Sustainability-Oriented Priority-Based Load Management Control Architectures for Demand-Constrained Grid-Tied PV–Battery AC Microgrids Using MAS: A Comparative Evaluation",
+    "abstract": "Sustainable energy management in grid-connected AC microgrids is investigated through a comparative assessment of centralized, distributed, and decentralized multi-agent-system-based load management control architectures integrating photovoltaic (PV) generation and battery energy storage system. A sustainability-oriented rule-based load scheduling strategy is implemented to efficiently utilize available renewable energy while maintaining grid power consumption within the prescribed demand limits and ensuring priority support for critical loads. Multi-agent-system (MAS)-based load agents coordinate centralized, distributed, and decentralized load management operations. The control architectures are evaluated under identical load profiles, PV generation patterns, and demand-limit constraints to ensure a fair comparison of sustainability-oriented energy management performance. Their resilience is further assessed under agent failures, communication losses, and delays. The comparative analysis employs sustainability-oriented performance metrics, including load served percentage, load curtailment percentage, demand-limit violation duration, and PV utilisation, to assess reliable energy delivery, demand-side efficiency, grid compliance, and effective renewable-energy utilisation. The results reveal distinct architectural trade-offs in sustainable energy management: decentralized control offers greater resilience to agent failures and achieves the highest average load-served percentage (64.83%) and lowest demand-limit violation duration (40.61 ms). Distributed control provides enhanced coordination and priority-based load management, with intermediate performance (64.10%, 41.17 ms), whereas centralized control is constrained by single-point failures and scalability, exhibiting the lowest performance (58.52%, 43.33 ms). PV utilisation remains approximately 99% across all architectures, indicating near-complete utilisation of available solar generation for load supply and battery charging with minimal curtailment.",
+    "authors": [
+      "Sujo Vasu",
+      "P. Ramesh Kumar",
+      "E. A. Jasmin",
+      "V. Mini"
+    ],
+    "source": "Crossref",
+    "venue": "Sustainability",
+    "date": "2026-08-19",
+    "doi": "10.3390/su18168508",
+    "url": "https://doi.org/10.3390/su18168508",
+    "source_id": "",
+    "score": 56.0,
+    "level": "B",
+    "title_zh": "Sustainability-Oriented Priority-Based Load Management Control Architectures for Demand-Constrained Grid-Tied PV–Battery AC Microgrids Using MAS: A Comparative Evaluation",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 56.0，推荐等级 B。"
+  }
+]
