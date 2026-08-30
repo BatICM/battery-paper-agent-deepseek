@@ -1,0 +1,327 @@
+[
+  {
+    "title": "Thermal runaway in lithium-ion batteries: a critical review of mechanisms, models, early warning systems, and safety strategies",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Applied Energy",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0306261926013620?dgcid=rss_sd_all",
+    "source_id": "rss:9:Applied Energy",
+    "score": 98.25,
+    "level": "A",
+    "title_zh": "Thermal runaway in lithium-ion batteries: a critical review of mechanisms, models, early warning systems, and safety strategies",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 98.25，推荐等级 A；期刊优先级第 8 位。"
+  },
+  {
+    "title": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 112.5,
+    "level": "B",
+    "title_zh": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 112.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000858?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 90.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 90.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 88.5,
+    "level": "B",
+    "title_zh": "Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 88.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Battery-health-aware energy management for hybrid electric vehicles via imitation-guided reinforcement learning",
+    "abstract": "",
+    "authors": [
+      "Dingyi Guo",
+      "Guangyin Lei",
+      "Jiankun Yin",
+      "Huichao Zhao",
+      "Fang Yang"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-08-28",
+    "doi": "10.1016/j.est.2026.124100",
+    "url": "https://doi.org/10.1016/j.est.2026.124100",
+    "source_id": "",
+    "score": 65.0,
+    "level": "B",
+    "title_zh": "Battery-health-aware energy management for hybrid electric vehicles via imitation-guided reinforcement learning",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 65.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "A comparative study of battery state-of-charge estimation using multi-source features with machine learning models",
+    "abstract": "",
+    "authors": [
+      "Shaoxiao Ju",
+      "Jinqi Liu",
+      "Peichao Li",
+      "Hengyun Zhang"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-08-28",
+    "doi": "10.1016/j.est.2026.124342",
+    "url": "https://doi.org/10.1016/j.est.2026.124342",
+    "source_id": "",
+    "score": 51.0,
+    "level": "B",
+    "title_zh": "A comparative study of battery state-of-charge estimation using multi-source features with machine learning models",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 51.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "TL-PINN: Transfer Learning-Enhanced Physics-Informed Neural Network for Lithium-Ion Battery State of Charge Estimation",
+    "abstract": "Abstract Accurate state-of-charge (SOC) estimation is essential for the safe and efficient operation of battery management systems (BMS). To address the limited accuracy and poor reliability of conventional methods under complex operating conditions, a transfer learning-enhanced physics-informed neural network (TL-PINN) is proposed for SOC estimation. The proposed framework embeds the underlying dynamics of the equivalent circuit into the neural network through differential equation constraints. By jointly optimizing data reconstruction and physical constraints, electrochemical knowledge is explicitly incorporated into the network, enabling improved estimation accuracy and robustness under complex scenarios. Furthermore, maximum mean discrepancy (MMD)-based adaptation and fine-tuning strategies are introduced to facilitate efficient reuse of source-domain knowledge and enhance cross-domain generalization. Experiments conducted on both single-cell and real-world vehicle datasets demonstrate that the base PINN model achieves the best overall performance, with a root mean square error (RMSE) of 0.835%. In cross-temperature transfer scenarios, the RMSE remains below 3.0% across all target temperatures after fine-tuning. Moreover, after transferring the pretrained single-cell model to real-world vehicle operating data, the proposed method still achieves an average RMSE of 4.21%. These results demonstrate the superior adaptability and robustness of the proposed TL-PINN, highlighting its potential for reliable battery state monitoring in electric vehicles",
+    "authors": [
+      "Zhihong Wang",
+      "Siquan YUAN",
+      "Shijie Cai",
+      "Ranjun Huang",
+      "Ruifeng Zheng",
+      "Min Wei",
+      "Pei Zhang",
+      "Jie Hu"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "Journal of The Electrochemical Society",
+    "date": "2026-08-28",
+    "doi": "10.1149/1945-7111/aea05a",
+    "url": "https://doi.org/10.1149/1945-7111/aea05a",
+    "source_id": "",
+    "score": 134.0,
+    "level": "B",
+    "title_zh": "TL-PINN: Transfer Learning-Enhanced Physics-Informed Neural Network for Lithium-Ion Battery State of Charge Estimation",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 134.0，推荐等级 B。"
+  },
+  {
+    "title": "Разработка цифровой модели цифрового двойника ветровой электростанции с использование онтологического моделирования",
+    "abstract": "В статье рассматривается задача интеграции разнородных математических моделей, применяемых при формировании цифровой модели цифрового двойника ветровой электростанции. Актуальность исследования определяется тем, что ветровая электростанция представляет собой не один объект, а сложную техническую систему, включающую ряд взаимосвязанных подсистем: ветровую установку, аэродинамический контур, механическую передачу, силовую электронику, систему передачи энергии, дизельную электростанцию, аккумуляторные батареи и потребителей. Для каждой из указанных подсистем в научной литературе используются различные классы моделей, отличающиеся составом исходных данных, уровнем детализации, расчетным шагом, принятыми допущениями, ограничениями и областью применимости. При разработке цифрового двойника такие модели должны быть не только реализованы в одном программном комплексе, но и согласованы между собой по смыслу параметров, единицам измерения, временным характеристикам, граничным условиям и правилам передачи результатов расчетов. Цель работы состоит в обосновании целесообразности применения онтологического подхода к интеграции моделей в цифровой модели цифрового двойника ветровой электростанции. Показано, что при отсутствии явной формализации предметной области усложнение цифрового двойника сопровождается дублированием данных, появлением неявных зависимостей между расчетными модулями, затруднением сопровождения программной системы и ростом затрат на развитие новой функциональности. Предлагается использовать онтологическую модель, как средство ограничения этих эффектов, задающее общий слой терминов, связей, ограничений и требований к данным. Целесообразно применять такую модель на этапе проектирования новой функциональности цифрового двойника, включая внедрение новых расчетных моделей, изменение компонентов визуализации, расширение базы данных и уточнение связей между подсистемами. Новизна подхода заключается в рассмотрении онтологии не только как средства представления знаний о предметной области, но и как инструмента снижения организационных и программно-инженерных рисков при интеграции моделей цифрового двойника. Отдельное внимание уделено тому, что онтологическая модель позволяет фиксировать знания специалистов в формализованном виде и тем самым снижать зависимость проекта от ограниченного числа сотрудников, одновременно владеющих программной инженерией, математическим моделированием и спецификой энергетических объектов. В работе обосновывается, что использование онтологического подхода может способствовать повышению согласованности компонентов цифровой модели, снижению вероятности ошибок при обмене данными между расчетными модулями и упрощению последующего развития цифрового двойника ветровой электростанции. The paper addresses the problem of integrating heterogeneous mathematical models used in the formation of a digital model of a digital twin of a wind power plant. The relevance of the study is determined by the fact that a wind power plant is not a single computational object, but a complex technical system comprising a number of interrelated subsystems: a wind turbine, an aerodynamic circuit, a mechanical transmission, power electronics, an energy transmission system, a diesel power plant, battery energy storage systems, and consumers. For each of these subsystems, the scientific literature presents various classes of models that differ in terms of input data, level of detail, computational time step, adopted assumptions, constraints, and scope of applicability. In the development of a digital twin, such models should not only be implemented within a single software system, but also coordinated with one another in terms of parameter semantics, units of measurement, temporal characteristics, boundary conditions, and rules for transferring computational results. The aim of the study is to substantiate the feasibility of applying an ontological approach to model integration within the digital model of a digital twin of a wind power plant. It is shown that, in the absence of explicit formalization of the subject area, the increasing complexity of a digital twin is accompanied by data duplication, the emergence of implicit dependencies between computational modules, difficulties in maintaining the software system, and growing costs associated with the development of new functionality. An ontological model is proposed as a means of limiting these effects, defining a common layer of terms, relationships, constraints, and data requirements. It is advisable to apply such a model at the stage of designing new digital twin functionality, including the implementation of new computational models, modification of visualization components, database expansion, and refinement of relationships between subsystems. The novelty of the proposed approach lies in considering ontology not only as a means of representing knowledge about the subject area, but also as a tool for reducing organizational and software engineering risks in the integration of digital twin models. Particular attention is paid to the fact that an ontological model makes it possible to capture specialists’ knowledge in a formalized form and thereby reduce the project’s dependence on a limited number of employees who simultaneously possess expertise in software engineering, mathematical modeling, and the specific features of energy facilities. The paper substantiates that the use of an ontological approach can contribute to improving the consistency of digital model components, reducing the probability of errors in data exchange between computational modules, and simplifying the further development of the digital twin of a wind power plant.",
+    "authors": [
+      "Н.И. Щукин"
+    ],
+    "source": "OpenAlex",
+    "venue": "Информационные и математические технологии в науке и управлении",
+    "date": "2026-08-28",
+    "doi": "10.25729/esi.2026.43.3.010",
+    "url": "https://doi.org/10.25729/esi.2026.43.3.010",
+    "source_id": "",
+    "score": 90.0,
+    "level": "B",
+    "title_zh": "Разработка цифровой модели цифрового двойника ветровой электростанции с использование онтологического моделирования",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 90.0，推荐等级 B。"
+  },
+  {
+    "title": "Detection and Prevention Technologies for Lithium-Ion Battery Thermal Runaway",
+    "abstract": "Abstract The rapid popularization of lithium-ion batteries (LIBs) in vehicles and energy storage brings frequent thermal runaway safety accidents, which severely restrict industrial development. Thermal runaway originates from multi-stage exothermic chain reactions inside cells and is the most dangerous battery failure mode. Based on domestic and international research, this paper systematically elaborates LIB thermal runaway reaction mechanisms, root inducements, advanced early warning technologies and battery thermal management strategies. The collaborative application of early warning and thermal management systems can effectively suppress thermal runaway initiation and propagation. Finally, the existing technical bottlenecks and future intelligent integrated development directions are prospected.",
+    "authors": [
+      "Yuansheng Xu",
+      "Yanfang Ma",
+      "jianjian han",
+      "Yuying Zheng",
+      "Shan Xu"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "Journal of The Electrochemical Society",
+    "date": "2026-08-28",
+    "doi": "10.1149/1945-7111/aea059",
+    "url": "https://doi.org/10.1149/1945-7111/aea059",
+    "source_id": "",
+    "score": 86.0,
+    "level": "B",
+    "title_zh": "Detection and Prevention Technologies for Lithium-Ion Battery Thermal Runaway",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 86.0，推荐等级 B。"
+  },
+  {
+    "title": "Smart Home Energy Digital Twin with Agentic Optimisation Control",
+    "abstract": "Dynamic time-of-use electricity tariffs expose households to half-hourly price volatility, yet most domestic loads and battery systems are still operated on static schedules that ignore this signal. This research presents a smart home energy digital twin that couples real half-hourly tariff data from the Octopus Energy Agile API with historical solar radiation data from OpenMeteo, a physics-informed home battery model incorporating charge and discharge efficiency and an explicit cycling degradation cost, and a deferrable appliance load. Three autonomous control strategies are evaluated within the digital twin: a static baseline controller; a forecastaware agent that applies interpretable price look-ahead rules for battery arbitrage and appliance scheduling; and a mixed-integer linear programming (MILP) optimiser that computes a costminimal 24-hour schedule subject to battery dynamics, energy-balance, and appliance-deadline constraints. A 30-day backtest over December 2024, selected as a deliberately adverse low-solar and high-volatility stress period, shows that the forecast-aware agent reduces the effective energy cost by 21.41% (£28.20) relative to the baseline, while the MILP optimiser achieves a 27.71% reduction (£36.50) and is cheaper on every one of the 30 days. An analytical derivation and a sensitivity analysis confirm that the agent’s decision thresholds are economically grounded and that its performance is robust across wide threshold ranges. Notably, the optimiser attains the lowest cost while importing slightly more grid energy, demonstrating that intelligent load shifting into low-price windows, rather than import minimisation, drives cost reduction under dynamic pricing.",
+    "authors": [
+      "Kavindu Karunarathne"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Information Technology and Digital World",
+    "date": "2026-08-28",
+    "doi": "10.36548/jitdw.2026.3.010",
+    "url": "https://doi.org/10.36548/jitdw.2026.3.010",
+    "source_id": "",
+    "score": 82.0,
+    "level": "B",
+    "title_zh": "Smart Home Energy Digital Twin with Agentic Optimisation Control",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 82.0，推荐等级 B。"
+  },
+  {
+    "title": "Effects of an Induced Temperature Gradient on the Performance and Degradation of LFP/AG Cylindrical Cells",
+    "abstract": "Abstract Thermal management of Li-ion cells within battery packs for stationary energy storage and electric vehicles is critical to ensure longevity. Cells within packs are often heated or cooled using a thermal plate underneath the pack, which could lead to non-uniform temperature in the cells. To test the effects of temperature gradients on LFP/graphite cylindrical cells, a specialized cell holder was designed to apply a constant temperature to the top of a cell and a different constant temperature to the bottom. Temperatures of 30-40, 25-45, and 15-55 ºC were applied to the bottom and tops of the cells, respectively, and verified using an infrared camera. Cells were cycled at a variety of rates for approximately six months, and the capacity loss was compared between the different conditions. For most conditions there was no difference in the capacity fade based on temperature gradient and performance closely matched that of cells tested at a constant temperature of 35 0C. Thermal modeling of the jelly roll suggests that the temperature gradient does not penetrate deeply into the jelly roll due to the excellent axial thermal conductivity and this can explain the independence of capacity loss on the magnitude of the applied temperature gradient.",
+    "authors": [
+      "Kate Leslie",
+      "Yuqing Zhao",
+      "Michel B. Johnson",
+      "Claire Floras",
+      "Michael Metzger",
+      "J. R. Dahn"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of The Electrochemical Society",
+    "date": "2026-08-28",
+    "doi": "10.1149/1945-7111/aea028",
+    "url": "https://doi.org/10.1149/1945-7111/aea028",
+    "source_id": "",
+    "score": 78.0,
+    "level": "B",
+    "title_zh": "Effects of an Induced Temperature Gradient on the Performance and Degradation of LFP/AG Cylindrical Cells",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 78.0，推荐等级 B。"
+  }
+]
