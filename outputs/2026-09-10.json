@@ -1,0 +1,310 @@
+[
+  {
+    "title": "Thermal runaway in lithium-ion batteries: a critical review of mechanisms, models, early warning systems, and safety strategies",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Applied Energy",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0306261926013620?dgcid=rss_sd_all",
+    "source_id": "rss:9:Applied Energy",
+    "score": 98.25,
+    "level": "A",
+    "title_zh": "Thermal runaway in lithium-ion batteries: a critical review of mechanisms, models, early warning systems, and safety strategies",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 98.25，推荐等级 A；期刊优先级第 8 位。"
+  },
+  {
+    "title": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 112.5,
+    "level": "B",
+    "title_zh": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 112.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000858?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 90.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 90.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 88.5,
+    "level": "B",
+    "title_zh": "Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 88.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Lithium-ion battery health prediction under exhibit non-independent and identically distributed data: A systematic review of challenges and federated learning solutions",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26041162?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 77.0,
+    "level": "B",
+    "title_zh": "Lithium-ion battery health prediction under exhibit non-independent and identically distributed data: A systematic review of challenges and federated learning solutions",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 77.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Validating a battery fault model for synthetic fault data generation for lithium-ion battery systems",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26038041?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 69.0,
+    "level": "B",
+    "title_zh": "Validating a battery fault model for synthetic fault data generation for lithium-ion battery systems",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 69.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "AI driven real-time battery SOC estimation with intelligent power control",
+    "abstract": "Abstract Accurate estimation of battery State of Charge (SOC) is essential for the reliable and efficient operation of Battery Management Systems (BMS) in electric vehicles, renewable energy storage, and portable electronics. Conventional techniques such as open-circuit voltage measurement and Coulomb counting suffer from limitations including sensitivity to operating conditions, cumulative errors, and reduced accuracy under dynamic loads. This paper presents an integrated hardware–software framework for real-time SOC estimation and intelligent power control using a machine learning approach. An Arduino-based sensing layer acquires voltage, current, temperature, and discharge time, which are processed using a hyperparameter-optimized Random Forest regression model implemented in Python. The predicted SOC is transmitted to an ESP32 microcontroller that executes a threshold-based load management strategy using optocoupler-isolated relay switching. Experimental results demonstrate high prediction accuracy with a Mean Absolute Error of 0.0062% and R² of 99.9997%, outperforming conventional and deep learning-based approaches. The proposed system offers a low-cost, scalable, and IoT-enabled solution for precise battery monitoring and adaptive load control in real-time applications.",
+    "authors": [
+      "Prince Winston David",
+      "Kalai Vani solaisamy",
+      "S.Kavitha SURESH KUMAR",
+      "HARI KUMARAN S S",
+      "Kankeshraj A",
+      "Praveen Kumar Balachandran"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "Engineering Research Express",
+    "date": "2026-09-08",
+    "doi": "10.1088/2631-8695/aea46f",
+    "url": "https://doi.org/10.1088/2631-8695/aea46f",
+    "source_id": "",
+    "score": 116.0,
+    "level": "B",
+    "title_zh": "AI driven real-time battery SOC estimation with intelligent power control",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 116.0，推荐等级 B。"
+  },
+  {
+    "title": "Artificial Intelligence-Enabled Battery Energy Storage Systems for Renewable Energy: A Comprehensive Review of Technologies, Applications, Challenges, and Future Directions",
+    "abstract": "The rapid growth of renewable energy sources, particularly solar and wind power, has increased the demand for efficient and reliable battery energy storage systems (BESSs) to address intermittency, enhance grid stability, and improve energy management. In recent years, artificial intelligence (AI) has emerged as a transformative technology for optimizing the operation, control, monitoring, and maintenance of battery storage systems. This review provides a comprehensive overview of AI-driven BESS technologies for renewable energy applications. The study examines recent advances in machine learning, deep learning, reinforcement learning, and hybrid intelligent algorithms applied to battery state estimation, energy management, fault diagnosis, predictive maintenance, thermal management, and lifetime prediction. Furthermore, the integration of AI-based BESSs with photovoltaic systems, wind farms, microgrids, and smart grids is critically analyzed. The review highlights the advantages of AI techniques in improving system efficiency, reliability, adaptability, and decision-making capabilities under uncertain operating conditions. Current challenges, including data quality, model interpretability, computational requirements, cybersecurity concerns, and real-time implementation issues, are also discussed. Finally, emerging research directions such as digital twins, explainable artificial intelligence, federated learning, and edge intelligence are explored to provide insights into the future development of intelligent battery storage systems. This review aims to serve as a valuable reference for researchers, engineers, and practitioners working at the intersection of artificial intelligence, battery technologies, and renewable energy systems.",
+    "authors": [
+      "Habib Benbouhenni",
+      "Nicu Bizon"
+    ],
+    "source": "Crossref",
+    "venue": "Batteries",
+    "date": "2026-09-09",
+    "doi": "10.3390/batteries12090353",
+    "url": "https://doi.org/10.3390/batteries12090353",
+    "source_id": "",
+    "score": 106.0,
+    "level": "B",
+    "title_zh": "Artificial Intelligence-Enabled Battery Energy Storage Systems for Renewable Energy: A Comprehensive Review of Technologies, Applications, Challenges, and Future Directions",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 106.0，推荐等级 B。"
+  },
+  {
+    "title": "Volts Wings: An Autonomous Aerial Vehicle Framework for On-Demand Wireless Charging of Electric Vehicles",
+    "abstract": "Electric vehicle (EV) adoption is expanding rapidly, yet the growth of charging infrastructure continues to lag behind vehicle deployment, leaving drivers dependent on fixed plug-in stations, connector standards, queueing time, and uneven geographic coverage. This paper presents Volts Wings, an autonomous aerial vehicle (AAV) framework that reframes the EV charger itself as a mobile, on-demand service rather than a fixed asset. In the proposed system, an electric vehicle continuously reports its battery state of charge (SoC), location, and charging urgency through an Internet-of-Things (IoT) telemetry link; a cloud-hosted fleet-management layer evaluates available charging drones and dispatches the most suitable unit; the selected drone autonomously plans and flies a collision-free route using GPS, LiDAR, vision, and inertial sensing; and, upon reaching the vehicle, it establishes a precisely aligned hover position and initiates resonant inductive wireless power transfer (WPT) while continuously monitoring coupling quality, thermal state, and battery response. The paper develops a complete system architecture, a subsystem-level functional decomposition, mathematical models for WPT efficiency, mission-level energy economics, trajectory cost, and closed-loop alignment control, and a simulation and validation plan built around MATLAB/Simulink and the Robot Operating System (ROS). A structured literature synthesis spanning twenty-five references is used to position Volts Wings against existing EV-WPT, UAV-assisted charging, autonomous-navigation, and IoT-based monitoring research, and to identify a specific integration gap: no prior work jointly addresses demand detection, fleet dispatch, autonomous three-dimensional navigation, adaptive charging alignment, and UAV energy-budget management as a single closed-loop service. Comparative analysis against wired, static-pad, dynamic-road, and mobile-robot charging approaches indicates that an aerial WPT service can offer the strongest combination of on-demand availability, mobility, and scalability, at the cost of a bounded flightenergy budget that must be actively managed. The work is presented as a simulation-first research platform; hardware validation, regulatory compliance, and large-scale field trials are identified as the necessary next phase of the project.",
+    "authors": [
+      "Nikhil G, A Mohammed Rahil, Mohammed Aftab Vali, Danish"
+    ],
+    "source": "OpenAlex",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "date": "2026-09-08",
+    "doi": "10.5281/zenodo.22658103",
+    "url": "https://doi.org/10.5281/zenodo.22658103",
+    "source_id": "",
+    "score": 88.0,
+    "level": "B",
+    "title_zh": "Volts Wings: An Autonomous Aerial Vehicle Framework for On-Demand Wireless Charging of Electric Vehicles",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 88.0，推荐等级 B。"
+  },
+  {
+    "title": "Volts Wings: An Autonomous Aerial Vehicle Framework for On-Demand Wireless Charging of Electric Vehicles",
+    "abstract": "Electric vehicle (EV) adoption is expanding rapidly, yet the growth of charging infrastructure continues to lag behind vehicle deployment, leaving drivers dependent on fixed plug-in stations, connector standards, queueing time, and uneven geographic coverage. This paper presents Volts Wings, an autonomous aerial vehicle (AAV) framework that reframes the EV charger itself as a mobile, on-demand service rather than a fixed asset. In the proposed system, an electric vehicle continuously reports its battery state of charge (SoC), location, and charging urgency through an Internet-of-Things (IoT) telemetry link; a cloud-hosted fleet-management layer evaluates available charging drones and dispatches the most suitable unit; the selected drone autonomously plans and flies a collision-free route using GPS, LiDAR, vision, and inertial sensing; and, upon reaching the vehicle, it establishes a precisely aligned hover position and initiates resonant inductive wireless power transfer (WPT) while continuously monitoring coupling quality, thermal state, and battery response. The paper develops a complete system architecture, a subsystem-level functional decomposition, mathematical models for WPT efficiency, mission-level energy economics, trajectory cost, and closed-loop alignment control, and a simulation and validation plan built around MATLAB/Simulink and the Robot Operating System (ROS). A structured literature synthesis spanning twenty-five references is used to position Volts Wings against existing EV-WPT, UAV-assisted charging, autonomous-navigation, and IoT-based monitoring research, and to identify a specific integration gap: no prior work jointly addresses demand detection, fleet dispatch, autonomous three-dimensional navigation, adaptive charging alignment, and UAV energy-budget management as a single closed-loop service. Comparative analysis against wired, static-pad, dynamic-road, and mobile-robot charging approaches indicates that an aerial WPT service can offer the strongest combination of on-demand availability, mobility, and scalability, at the cost of a bounded flightenergy budget that must be actively managed. The work is presented as a simulation-first research platform; hardware validation, regulatory compliance, and large-scale field trials are identified as the necessary next phase of the project.",
+    "authors": [
+      "Nikhil G, A Mohammed Rahil, Mohammed Aftab Vali, Danish"
+    ],
+    "source": "OpenAlex",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "date": "2026-09-08",
+    "doi": "10.5281/zenodo.22658102",
+    "url": "https://doi.org/10.5281/zenodo.22658102",
+    "source_id": "",
+    "score": 88.0,
+    "level": "B",
+    "title_zh": "Volts Wings: An Autonomous Aerial Vehicle Framework for On-Demand Wireless Charging of Electric Vehicles",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 88.0，推荐等级 B。"
+  },
+  {
+    "title": "Detection and Prevention Technologies for Lithium-Ion Battery Thermal Runaway",
+    "abstract": "The rapid popularization of lithium-ion batteries (LIBs) in vehicles and energy storage brings frequent thermal runaway safety accidents, which severely restrict industrial development. Thermal runaway originates from multi-stage exothermic chain reactions inside cells and is the most dangerous battery failure mode. Based on domestic and international research, this paper systematically elaborates LIB thermal runaway reaction mechanisms, root inducements, advanced early warning technologies and battery thermal management strategies. The collaborative application of early warning and thermal management systems can effectively suppress thermal runaway initiation and propagation. Finally, the existing technical bottlenecks and future intelligent integrated development directions are prospected.",
+    "authors": [
+      "Yuansheng Xu",
+      "Yanfang Ma",
+      "Jianjian Han",
+      "Yuying Zheng",
+      "Shan Xu"
+    ],
+    "source": "Crossref",
+    "venue": "Journal of The Electrochemical Society",
+    "date": "2026-09-08",
+    "doi": "10.1149/1945-7111/aea059",
+    "url": "https://doi.org/10.1149/1945-7111/aea059",
+    "source_id": "",
+    "score": 86.0,
+    "level": "B",
+    "title_zh": "Detection and Prevention Technologies for Lithium-Ion Battery Thermal Runaway",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 86.0，推荐等级 B。"
+  }
+]
