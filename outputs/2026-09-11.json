@@ -1,0 +1,313 @@
+[
+  {
+    "title": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 112.5,
+    "level": "B",
+    "title_zh": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 112.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000858?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 90.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 90.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000731?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 88.5,
+    "level": "B",
+    "title_zh": "Data-efficient and interpretable long-term prognostics of PEMFC degradation via physics-constrained symbolic regression–physics-informed neural network",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 88.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Lithium-ion battery health prediction under exhibit non-independent and identically distributed data: A systematic review of challenges and federated learning solutions",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26041162?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 77.0,
+    "level": "B",
+    "title_zh": "Lithium-ion battery health prediction under exhibit non-independent and identically distributed data: A systematic review of challenges and federated learning solutions",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 77.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Validating a battery fault model for synthetic fault data generation for lithium-ion battery systems",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26038041?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 69.0,
+    "level": "B",
+    "title_zh": "Validating a battery fault model for synthetic fault data generation for lithium-ion battery systems",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 69.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "lithium-ion battery life cycle monitoring system based on IoT edge computing and cloud big data",
+    "abstract": "The reliable lifecycle monitoring of lithium-ion batteries is critical for microgrid energy storage systems, where battery degradation, dynamic load variation, and abnormal operating conditions may directly affect system safety and energy efficiency. However, existing battery monitoring systems still have limitations in long-term degradation analysis, adaptive threshold adjustment, and edge–cloud collaborative decision-making. Conventional battery management systems mainly focus on local protection and short-term state estimation, IoT-based monitoring systems often emphasize data acquisition rather than lifecycle analysis, and cloud-only approaches may suffer from delayed responses to safety-critical events. To address these challenges, this study proposes a lithium-ion battery lifecycle monitoring system based on IoT edge computing and cloud big data for a BYD LiFePO4 battery pack in a 5 kW microgrid. The principal contribution of the proposed system is architectural and system-oriented rather than the development of a new standalone estimation or prediction algorithm. It organizes established battery monitoring, edge computing, and cloud analytics techniques into a lifecycle-oriented edge–cloud closed-loop architecture, in which latency-sensitive monitoring and warning tasks are executed at the edge, while long-term degradation analysis and model updating are performed in the cloud. The edge layer uses a BYD battery management unit and a Raspberry Pi node to collect and process voltage, current, temperature, and SOC data, while the cloud layer performs long-term data storage and advanced analysis through synchronized communication using Modbus TCP/IP and REST API. The system was validated using laboratory test data and continuous microgrid operation data collected from 2020 to 2022. The experimental results show that the proposed system improves SOC estimation accuracy under different operating conditions. Under dynamic load conditions, the proposed system reduced the SOC mean absolute error to 2.17%, compared with 3.85% for the Coulomb-counting/BMU-based SOC baseline without edge-side correction. The SOH prediction RMSE was also reduced to 2.13%, compared with 4.87% for the conventional capacity-ratio SOH baseline. These results demonstrate that the proposed system provides an effective solution for improving real-time response, prediction accuracy, and lifecycle management capability of lithium-ion batteries in microgrid applications.",
+    "authors": [
+      "Xiaoqing Yang",
+      "Tseren-Onolt Ishdorj",
+      "Zhengwei Liu"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "Discover Applied Sciences",
+    "date": "2026-09-09",
+    "doi": "10.1007/s42452-026-09478-0",
+    "url": "https://doi.org/10.1007/s42452-026-09478-0",
+    "source_id": "",
+    "score": 138.0,
+    "level": "B",
+    "title_zh": "lithium-ion battery life cycle monitoring system based on IoT edge computing and cloud big data",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 138.0，推荐等级 B。"
+  },
+  {
+    "title": "Integrated Analysis of EIS, DCIR, and SoH for Degradation Diagnosis and Durability Assessment of NCM811 Lithium-Ion Batteries",
+    "abstract": "Accurate battery state estimation is essential for electric-vehicle battery management systems (BMSs), directly improving their safety, durability, and operational reliability. This study proposes an integrated degradation-diagnosis framework that is, to our knowledge, among the first to combine electrochemical impedance spectroscopy (EIS), direct-current internal resistance (DCIR), and state of health (SoH) within a single, quantitative, low-complexity analysis of a hybrid-vehicle NCM811 lithium-ion battery module. Cycling-test data measured at 0, 400, 800, and 1200 cycles were reanalyzed using power-law regression, end-of-life (EOL) extrapolation, and cross-metric correlation analysis; the dataset was then extended to 2000 cycles (six checkpoints in total) to test the reliability of long-term lifetime prediction. Three findings are experimentally demonstrated. First, the ohmic resistance remained essentially constant during cycling, whereas the interfacial resistance increased by +422.7%, identifying interfacial (not bulk) resistance growth as the dominant degradation pathway. Second, power-law models substantially outperformed conventional exponential models for RE, DCIR, and SoH (R2 = 0.998, 0.999, and 0.990, respectively, vs. R2 = 0.870 for the exponential SoH model); extending the dataset from four to six checkpoints narrowed the resulting EOL model-form uncertainty from a 3.5-fold to a 1.6-fold discrepancy (2776 vs. 9831 cycles, narrowing to 3124 vs. 4908 cycles). Third, a strong linear relationship between DCIR and SoH (R2 = 0.956) was obtained, indicating that resistance-only monitoring can approximate SoH without full impedance measurement. Beyond these demonstrated results, the proposed framework offers potential value for SoH estimation, battery condition diagnosis, and state-estimation algorithm development in advanced BMSs; these broader applications have not been experimentally validated in this study and are discussed as directions for future work.",
+    "authors": [
+      "Hongjong Lee",
+      "Byunghyun Lee",
+      "Kwonse Kim"
+    ],
+    "source": "Crossref",
+    "venue": "Batteries",
+    "date": "2026-09-10",
+    "doi": "10.3390/batteries12090357",
+    "url": "https://doi.org/10.3390/batteries12090357",
+    "source_id": "",
+    "score": 126.0,
+    "level": "B",
+    "title_zh": "Integrated Analysis of EIS, DCIR, and SoH for Degradation Diagnosis and Durability Assessment of NCM811 Lithium-Ion Batteries",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 126.0，推荐等级 B。"
+  },
+  {
+    "title": "A multi-state dynamic framework for electric ship BMS reliability evaluation: time-interval sequential rules, multi-domain CCF, and closed-form CTMC solutions",
+    "abstract": "Introduction Aiming at the progressive failure and multi-domain coupling risks of battery management systems (BMS) for electric ships operating in marine environments, existing reliability evaluation methods fail to simultaneously characterize multi-state degradation evolution, sequential failure propagation, and common cause failure (CCF) coupling effects. This study constructs a quantitative reliability evaluation framework for ship BMS to support failure risk control and full-lifecycle operation and maintenance decision-making. Methods A four-level multi-state fault tree model covering the cell, module, pack, and system layers is established, defining three operating states—intact, performance-degraded, and complete failure—to match the system failure evolution logic. An extended multi-group β-factor model is adopted to quantify CCF risks across four coupling domains: power supply, communication bus, thermal environment, and software. A modular dynamic fault tree (DFT) framework is proposed, with dedicated two-event and three-event DFT modules featuring sequential discrimination capability; an interval partitioning strategy is implemented to eliminate double-counting errors in sequential analysis. Closed-form analytical solutions are derived based on the inclusion–exclusion principle to avoid truncation errors inherent in numerical integration. A Multi-State continuous-time Markov chain (CTMC) model is built for analytical dynamic reliability assessment, with Monte Carlo simulation adopted for comparative verification of calculation results. Cross-validation of Birnbaum importance and Spearman rank correlation coefficients is conducted to distinguish inherent parameter risks from CCF-amplified secondary risks. Results Validation results demonstrate that the optimized sequential interval rule table eliminates double-counting defects of traditional algorithms, and all analytical expressions for system state probabilities satisfy the probability normalization axiom. The absolute error between the Multi-State CTMC analytical solutions and the closed-form solutions derived via the inclusion–exclusion principle remains negligible across the full-time horizon, with the relative error consistently approaching zero, verifying the mathematical consistency and accuracy of both solution frameworks. Compared with the independent failure assumption, CCF exhibits marked time heterogeneity: the probability of complete system failure at 1000 h is 10.1 times higher than that under the independent condition, while it decreases by 10.0% at 100000 h, an effect originating from the component screening mechanism. CCF reshapes component criticality rankings: the Birnbaum importance of bus-related basic events Total voltage detection and Total current detection increase by 159.9% and 168.8%, respectively, under CCF conditions, whereas that of the relay control fault rises by only 2.8%, establishing it as the core failure trigger throughout the entire service cycle. Parameter uncertainty analysis reveals that the 95% confidence interval of the system complete failure probability at 100000 h is [0.3737, 0.3971], which is 13.0% higher than the deterministic point estimate. Discussion The proposed framework addresses the limitation of traditional static fault trees in handling sequential and multi-state failures, and achieves compatibility between CCF modeling and hierarchical degradation logic. The modular DFT architecture balances computational accuracy and efficiency, making it applicable to reliability evaluation of complex marine electronic equipment. Comparative results between the Multi-State CTMC and closed-form approaches confirm that the proposed model is free of truncation errors, yielding bias-free reliability metrics over the entire mission duration. For engineering applications, global CCF monitoring is recommended in the early service stage; redundancy optimization and fault decoupling for bus-associated basic events should be prioritized in the medium stage; and independent redundancy design of relay units must be strengthened in the long-term service stage. Future research should incorporate component repair behaviors and cross-domain secondary CCF propagation mechanisms to improve model applicability further. This study provides a quantitative tool for the reliability design, risk assessment, and operation and maintenance strategy formulation of electric ship BMS.",
+    "authors": [
+      "Hongbin Wei",
+      "Yunbo Li"
+    ],
+    "source": "OpenAlex",
+    "venue": "Frontiers in Marine Science",
+    "date": "2026-09-09",
+    "doi": "10.3389/fmars.2026.1921264",
+    "url": "https://doi.org/10.3389/fmars.2026.1921264",
+    "source_id": "",
+    "score": 124.0,
+    "level": "B",
+    "title_zh": "A multi-state dynamic framework for electric ship BMS reliability evaluation: time-interval sequential rules, multi-domain CCF, and closed-form CTMC solutions",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 124.0，推荐等级 B。"
+  },
+  {
+    "title": "Artificial Intelligence-Enabled Battery Energy Storage Systems for Renewable Energy: A Comprehensive Review of Technologies, Applications, Challenges, and Future Directions",
+    "abstract": "The rapid growth of renewable energy sources, particularly solar and wind power, has increased the demand for efficient and reliable battery energy storage systems (BESSs) to address intermittency, enhance grid stability, and improve energy management. In recent years, artificial intelligence (AI) has emerged as a transformative technology for optimizing the operation, control, monitoring, and maintenance of battery storage systems. This review provides a comprehensive overview of AI-driven BESS technologies for renewable energy applications. The study examines recent advances in machine learning, deep learning, reinforcement learning, and hybrid intelligent algorithms applied to battery state estimation, energy management, fault diagnosis, predictive maintenance, thermal management, and lifetime prediction. Furthermore, the integration of AI-based BESSs with photovoltaic systems, wind farms, microgrids, and smart grids is critically analyzed. The review highlights the advantages of AI techniques in improving system efficiency, reliability, adaptability, and decision-making capabilities under uncertain operating conditions. Current challenges, including data quality, model interpretability, computational requirements, cybersecurity concerns, and real-time implementation issues, are also discussed. Finally, emerging research directions such as digital twins, explainable artificial intelligence, federated learning, and edge intelligence are explored to provide insights into the future development of intelligent battery storage systems. This review aims to serve as a valuable reference for researchers, engineers, and practitioners working at the intersection of artificial intelligence, battery technologies, and renewable energy systems.",
+    "authors": [
+      "Habib Benbouhenni",
+      "Nicu Bizon"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "Batteries",
+    "date": "2026-09-09",
+    "doi": "10.3390/batteries12090353",
+    "url": "https://doi.org/10.3390/batteries12090353",
+    "source_id": "",
+    "score": 106.0,
+    "level": "B",
+    "title_zh": "Artificial Intelligence-Enabled Battery Energy Storage Systems for Renewable Energy: A Comprehensive Review of Technologies, Applications, Challenges, and Future Directions",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 106.0，推荐等级 B。"
+  },
+  {
+    "title": "Domain-Adaptive Mixture-of-Experts for Cross-Dataset Lithium-Ion Battery State-of-Health Prediction via Adaptive Strategy Selection",
+    "abstract": "Accurate cross-dataset state-of-health prediction for lithium-ion batteries remains challenging due to distribution shifts arising from diverse cathode chemistries, operating temperatures, and charge–discharge protocols across heterogeneous battery fleets. Drawing upon established machine learning paradigms, this study tailors a Domain-Adaptive Mixture-of-Experts (DA-MoE) framework to the battery prognostic context, automatically selecting the optimal domain adaptation strategy for each target domain through a physics-aware, lightweight linear gating network comprising merely 32 learnable parameters. The framework integrates a shared Transformer-based backbone with four adaptation strategies spanning the full spectrum of target-domain information utilization, namely zero-shot transfer, Test-Time Adaptation, Fine-Tuning, and Model-Agnostic Meta-Learning. A comprehensive evaluation on 564 battery cells from seven publicly available datasets under Leave-One-Domain-Out Cross-Validation protocol demonstrates that the proposed framework achieves an average coefficient of determination of 0.864 with perfect oracle strategy alignment under full domain training and maintains competitive generalization at an average R2 of 0.795 when each target domain is held out during gating network training. Hard argmax selection consistently outperforms weighted fusion across all seven domains with an average margin of +0.027 in R2, confirming that the four adaptation strategies compete rather than cooperate in this application context. A feature ablation analysis identifies sample count as the dominant determinant of strategy selection with performance degradation of ΔR2 = −0.182 upon removal, followed by the early-cycle degradation slope and early-cycle nonlinearity index as secondary signals, all of which are computable at deployment time without future ground-truth SOH information. The proposed framework provides a practically deployable solution for battery management systems operating across heterogeneous fleets with minimal computational overhead and strong cross-dataset generalization capability.",
+    "authors": [
+      "Teng Liu",
+      "Wei Li",
+      "Zhiqiang Li"
+    ],
+    "source": "Crossref",
+    "venue": "Batteries",
+    "date": "2026-09-10",
+    "doi": "10.3390/batteries12090359",
+    "url": "https://doi.org/10.3390/batteries12090359",
+    "source_id": "",
+    "score": 96.0,
+    "level": "B",
+    "title_zh": "Domain-Adaptive Mixture-of-Experts for Cross-Dataset Lithium-Ion Battery State-of-Health Prediction via Adaptive Strategy Selection",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 96.0，推荐等级 B。"
+  },
+  {
+    "title": "Targeted Battery Degradation Data Augmentation: Comparison of Gramian Angular Fields and Time-Series Representations",
+    "abstract": "Battery prognosis is a critical component of battery management systems, enabling the prediction of end of life (EoL) and remaining useful life (RUL). However, obtaining sufficiently large labelled datasets for data-driven prognosis is challenging because battery ageing experiments are time-consuming and expensive. To address this data scarcity, we propose a conditional generative adversarial network (GAN) framework for targeted synthetic battery-data generation, in which degradation regime is explicitly used as conditioning information. The framework generates samples from three degradation regions—early, pre-knee, and post-knee—and is investigated using two representations of the same underlying battery data: direct time series and Gramian Angular Fields (GAFs). The generated data are evaluated using representation-specific quantitative metrics together with qualitative distributional analyses. As an additional validation of synthetic-data utility, GAN-generated samples are incorporated as unlabelled data in a Mean Teacher semi-supervised EoL prediction framework. Across 10 matched random-seed runs, augmentation reduces the mean EoL prediction error for both representations. For the time-series workflow, MAE and RMSE decrease by 6.37% and 3.66%, respectively, while the GAF-based workflow shows larger reductions of 15.93% and 16.20%. The improvements in both metrics are statistically significant for the GAF-based workflow, and after augmentation no statistically significant difference is detected between the aggregate EoL prediction errors of the GAF and time-series-based models. These findings demonstrate the potential of targeted conditional GANs for battery-data augmentation and highlight GAF-based generation as a promising complementary approach to conventional time-series-based augmentation for battery prognosis.",
+    "authors": [
+      "Vamsi Krishna Garapati",
+      "Julie Pires",
+      "Hanho Lee",
+      "Jacob Joseph Lamb"
+    ],
+    "source": "Crossref",
+    "venue": "Batteries",
+    "date": "2026-09-10",
+    "doi": "10.3390/batteries12090358",
+    "url": "https://doi.org/10.3390/batteries12090358",
+    "source_id": "",
+    "score": 84.0,
+    "level": "B",
+    "title_zh": "Targeted Battery Degradation Data Augmentation: Comparison of Gramian Angular Fields and Time-Series Representations",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 84.0，推荐等级 B。"
+  }
+]
