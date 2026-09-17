@@ -1,0 +1,313 @@
+[
+  {
+    "title": "Artificial intelligence-enabled energy optimization in electric and hybrid vehicles: towards sustainable and smart transportation systems",
+    "abstract": "The rapid electrification of transportation demands advanced energy management strategies capable of improving efficiency, extending battery lifetime, and enhancing system level sustainability. This review provides a comprehensive and quantitative assessment of artificial intelligence enabled energy optimization techniques for electric and hybrid vehicles, with emphasis on their integration into smart and renewable energy systems. We systematically analyze machine learning, deep learning, reinforcement learning, and hybrid model-based frameworks across vehicle level and grid interactive applications. Reported literature indicates energy consumption reductions of 3 to 20% (median: 10.2%, IQR: 6.8–15.4%; estimated I 2 = 78%, high heterogeneity; results represent qualitative performance envelopes rather than pooled effect sizes), fuel savings in hybrid architectures up to 22% (median: 12.5%, IQR: 8.1–18.3%; I 2 > 75%), regenerative energy utilization improvements of 5 to 25%, and state of charge estimation error reductions of up to 40% compared to conventional rule-based strategies. Beyond vehicle level optimization, we examine vehicle to grid coordination, renewable aligned smart charging, multi energy system interaction, and distributed fleet optimization. Tradeoffs among computational complexity, real time feasibility, battery degradation, and lifecycle emissions are critically evaluated using normalized performance metrics. The analysis demonstrates that hybrid AI and physics informed approaches offer superior robustness and scalability for real world deployment. Finally, key research gaps are identified in uncertainty quantification, degradation aware control, grid carbon intensity aware charging, and large-scale validation under real driving conditions. This work provides an integrated energy systems perspective to guide the development of intelligent, low carbon, and grid compatible transportation solutions.",
+    "authors": [
+      "Mehari Kiros",
+      "Kumlachew Yeneneh",
+      "Gadisa Sufe"
+    ],
+    "source": "OpenAlex",
+    "venue": "Applied Energy",
+    "date": "2026-09-15",
+    "doi": "10.1016/j.apenergy.2026.128796",
+    "url": "https://doi.org/10.1016/j.apenergy.2026.128796",
+    "source_id": "",
+    "score": 152.25,
+    "level": "A",
+    "title_zh": "Artificial intelligence-enabled energy optimization in electric and hybrid vehicles: towards sustainable and smart transportation systems",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 152.25，推荐等级 A；期刊优先级第 8 位。"
+  },
+  {
+    "title": "Online operating of photovoltaic–energy storage-charging and swapping stations in coordinated energy and regulation markets",
+    "abstract": "With the rapid and sustained growth of electric vehicles (EVs), integrated photovoltaic-energy storage-charging and swapping stations (PV-ES-CSSs) are emerging as a new business model that enhances station profitability while providing flexible resources for mitigating EV-induced grid impacts and promoting renewable energy accommodation. However, uncertainties in PV generation and EV charging/swapping demand, along with volatile real-time electricity prices, challenge the reliable and economic operation of PV-ES-CSSs. This paper proposes an online operation strategy for PV-ES-CSSs in a multi-market environment to maximize station revenue while ensuring operational feasibility under uncertainty. First, a state of charge (SOC)-consistency-based flexibility aggregation model is developed to quantify heterogeneous regulation capability and reduce station-level flexibility overestimation, providing a unified scheduling basis for coordinated participation in energy and regulation markets. Then, an opportunity value function model integrating supervised learning and dynamic programming is proposed to map the residual energy states of ES, charging EVs, and swapping batteries into future revenue, enabling coordinated optimization of immediate profits and future regulation potential. Furthermore, a geometric-water-filling-based power allocation strategy with urgency indicators is designed to decompose station-level dispatch commands online under different market conditions while ensuring service demand fulfillment and regulation response accuracy. Simulation results show that the proposed strategy satisfies real-time response requirements, and reduces flexibility overestimation by 4.81%. Compared with coordinated multi-market operation without considering future opportunity values, the proposed strategy increases the total revenue by 2.98%. Moreover, compared with the cases involving participation only in the energy market and only in the regulation market, the total revenue is increased by 176.84% and 2.37%, respectively.",
+    "authors": [
+      "Yanxin Wang",
+      "Jiajia Chen",
+      "Dechang Yang",
+      "Nikita Tomin",
+      "Yanlei Zhao"
+    ],
+    "source": "OpenAlex",
+    "venue": "Applied Energy",
+    "date": "2026-09-15",
+    "doi": "10.1016/j.apenergy.2026.128821",
+    "url": "https://doi.org/10.1016/j.apenergy.2026.128821",
+    "source_id": "",
+    "score": 116.25,
+    "level": "A",
+    "title_zh": "Online operating of photovoltaic–energy storage-charging and swapping stations in coordinated energy and regulation markets",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 116.25，推荐等级 A；期刊优先级第 8 位。"
+  },
+  {
+    "title": "Cross-domain state-of-health estimation for lithium-ion batteries via meta-transfer learning",
+    "abstract": "The inherent cell-to-cell variations of lithium-ion batteries, coupled with the complexity of real-world operating conditions, pose substantial challenges for cross-domain state-of-health (SOH) estimation. Existing cross-domain approaches have improved adaptability to some extent, but they fall short of achieving adaptability under real-world complex conditions. Motivated by these issues, this paper proposes a unified Meta-Transfer Learning Framework (MTLF). The framework embeds a battery-oriented Model-Agnostic Meta-Learning (MAML) strategy in both source-domain meta-learning and target-domain meta-adaptation. In the source domain, the model learns generalized initialization parameters from multiple battery tasks. In the target domain, only the first 20% of the cycling data are used for bi-level adaptation, while the remaining 80% are reserved exclusively for testing. Each battery is treated as an independent task, and its aging data are partitioned chronologically into support and query sets to preserve the temporal evolution of battery degradation. The source and target domains are strictly separated at the cell level, and the designated cross-domain factor or factors are non-overlapping in each scenario. In addition, to further enhance the representation of health features, we design a one-dimensional convolutional neural network (1-D CNN) and a Transformer Encoder in sequence to jointly capture local features and global dependencies from relaxation voltage (RV). This study systematically investigates seven cross-domain scenarios, covering all combinations of three factors, namely material system, ambient temperature, and charge/discharge rate. On the Tongji and the private dataset, MTLF achieves average root mean squared error (RMSE) of 1.34%, 1.43%, and 1.68%, and average mean absolute error (MAE) of 1.08%, 1.16%, and 1.38% across the seven scenarios, respectively. It outperforms three state-of-the-art cross-domain methods. These results demonstrate superior accuracy and strong adaptability under challenging cross-domain scenarios.",
+    "authors": [
+      "Shujuan Hou",
+      "Yue Fan",
+      "Bowen Dou",
+      "Li Hai",
+      "Qin Zhang"
+    ],
+    "source": "OpenAlex",
+    "venue": "Applied Energy",
+    "date": "2026-09-15",
+    "doi": "10.1016/j.apenergy.2026.128834",
+    "url": "https://doi.org/10.1016/j.apenergy.2026.128834",
+    "source_id": "",
+    "score": 110.25,
+    "level": "A",
+    "title_zh": "Cross-domain state-of-health estimation for lithium-ion batteries via meta-transfer learning",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 110.25，推荐等级 A；期刊优先级第 8 位。"
+  },
+  {
+    "title": "Physics-inspired window-wise learning framework for capacity degradation prediction using diverse real-world battery packs",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Applied Energy",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S030626192601456X?dgcid=rss_sd_all",
+    "source_id": "rss:9:Applied Energy",
+    "score": 106.25,
+    "level": "A",
+    "title_zh": "Physics-inspired window-wise learning framework for capacity degradation prediction using diverse real-world battery packs",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 106.25，推荐等级 A；期刊优先级第 8 位。"
+  },
+  {
+    "title": "Federated Physics-Informed Neural Networks for Privacy-Preserving Lithium-Ion Battery Degradation Prognostics Under Sparse Data Conditions",
+    "abstract": "Lithium-ion batteries (LIBs) are widely used in electric vehicles (EVs), renewable energy storage systems (ESSs), and smart grids, but accurate degradation and remaining useful life (RUL) prediction remains challenging under sparse data and distributed data-storage conditions. This study proposes a Federated Physics-Informed Neural Network (F-PINN) framework that combines federated learning with reduced-order physics-informed constraints for privacy-preserving battery degradation prognostics. The framework incorporates degradation monotonicity, a reduced-order Fickian lithium-diffusion constraint, and a battery thermal energy-balance constraint into the neural-network optimization. The effective lithium-concentration and temperature states are treated as latent physical states rather than independently supervised targets. Experiments using NASA lithium-ion battery datasets evaluate the framework under different training-data ratios and noise conditions against LSTM, GPR, SVR, and standalone PINN models. F-PINN substantially reduces the RMSE compared with standalone PINN. The results demonstrate improved sparse-data prognostics, physically constrained degradation trajectories, and privacy-preserving collaborative learning. The framework provides a potential scalable architecture for distributed battery-management applications.",
+    "authors": [
+      "Ali M. Eltamaly",
+      "S. Al-Senaidi"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "Electronics",
+    "date": "2026-09-15",
+    "doi": "10.3390/electronics15184177",
+    "url": "https://doi.org/10.3390/electronics15184177",
+    "source_id": "",
+    "score": 177.5,
+    "level": "A",
+    "title_zh": "Federated Physics-Informed Neural Networks for Privacy-Preserving Lithium-Ion Battery Degradation Prognostics Under Sparse Data Conditions",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 177.5，推荐等级 A；期刊优先级第 11 位。"
+  },
+  {
+    "title": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 112.5,
+    "level": "B",
+    "title_zh": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 112.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000858?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 90.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 90.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Thermal-aware active balancing for lithium-ion battery packs using hierarchical model predictive control",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X2604315X?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 79.0,
+    "level": "B",
+    "title_zh": "Thermal-aware active balancing for lithium-ion battery packs using hierarchical model predictive control",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 79.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Lithium-ion battery health prediction under exhibit non-independent and identically distributed data: A systematic review of challenges and federated learning solutions",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26041162?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 77.0,
+    "level": "B",
+    "title_zh": "Lithium-ion battery health prediction under exhibit non-independent and identically distributed data: A systematic review of challenges and federated learning solutions",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 77.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Optimization of the double-sinusoidal manifold cold plate structure for power battery thermal management",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26043872?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 69.0,
+    "level": "B",
+    "title_zh": "Optimization of the double-sinusoidal manifold cold plate structure for power battery thermal management",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 69.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Review of Lithium-Ion Battery Capacity-Based State of Health Estimation Algorithms",
+    "abstract": "Accurate estimation of the state of health (SOH) of lithium-ion batteries is essential for ensuring the safety, reliability, and longevity of electric vehicles, battery energy storage systems, and other energy applications. This paper presents a comprehensive review of capacity-based SOH estimation algorithms, focusing on methods suitable for real-time battery management system (BMS) implementation. Existing approaches are categorized into model-based and data-driven methods. Model-based techniques, including equivalent circuit models, electrochemical models, and filtering algorithms such as extended Kalman filters, unscented Kalman filters, and particle filters, provide strong interpretability and compatibility with embedded systems. Data-driven approaches, including machine learning, deep learning, transfer learning, and feature-driven statistical methods, offer improved accuracy and adaptability by learning degradation patterns directly from operational data. Methods that fuse physical modelling with data-driven learning are reviewed within both categories, according to which component forms the structural core of the estimator. The paper compares these approaches using key criteria relevant to BMS deployment, including estimation accuracy, robustness, interpretability, computational complexity, and implementation feasibility. Emerging trends such as physics-informed learning, cloud-edge collaboration, and digital twinning are identified as promising directions for developing scalable, adaptive, and practical next-generation SOH estimation algorithms.",
+    "authors": [
+      "Manh‐Kien Tran",
+      "Kintak Raymond Yu",
+      "Dean D. MacNeil"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "Batteries",
+    "date": "2026-09-15",
+    "doi": "10.3390/batteries12090364",
+    "url": "https://doi.org/10.3390/batteries12090364",
+    "source_id": "",
+    "score": 192.0,
+    "level": "B",
+    "title_zh": "Review of Lithium-Ion Battery Capacity-Based State of Health Estimation Algorithms",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 192.0，推荐等级 B。"
+  }
+]
