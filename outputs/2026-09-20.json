@@ -1,0 +1,319 @@
+[
+  {
+    "title": "Dynamic Flexibility and Screening Assessment of a 550 <scp>MW</scp> Combined‐Cycle Gas‐Turbine Plant With Two‐Tank Molten‐Salt Thermal Storage",
+    "abstract": "ABSTRACT The increasing penetration of variable renewable generation requires combined‐cycle gas‐turbine plants to follow load more frequently, while repeated cycling reduces part‐load efficiency and increases thermal stress. The unresolved problem is whether a utility‐scale plant retrofitted with two‐tank molten‐salt storage can follow a daily dispatch while respecting inventory, thermal, control, degradation, and economic constraints. This study develops a component‐based MATLAB/Simulink model of a 550 MW plant and a 488.6 MWhth storage system, including the gas‐turbine island, heat‐recovery steam generator, steam cycle, molten‐salt heater and steam generator, tanks, pumps, heat tracing, supervisory control, direct emissions, a repairable‐component availability framework, a normalized thermal‐cycle severity indicator, and a screening‐level economic model. The design point is calibrated with deviations below 2%. Dynamic credibility is assessed through conservation checks, state‐bound and limiting‐case tests, and comparison with an internal transient benchmark trajectory; independent plant transient validation remains unavailable. Under a 24 h renewable‐rich dispatch, net output ranges from 313.542 to 557.990 MW and daily generation is 10 296.98 MWh, 58.34 MWh above the storage‐free trajectory. The storage charges 230.50 MWhth and delivers 399.20 MWhth using both initial inventory and newly stored heat; a closed tank‐side balance gives a final state of charge of 9.06%. Direct carbon intensity varies from 0.302 to 0.364 tCO 2 /MWh. The value 1.70 × 10 −4 is retained only as a normalized cycle‐severity indicator, not a life fraction. With 31 USD/kWhth installed cost, an 8% discount rate, a 25‐year life, and 300 equivalent cycles per year, the levelized cost of stored heat is 15.39 USD/MWhth and ranges from 11.54 to 23.08 USD/MWhth for 400 to 200 cycles. The results demonstrate that storage can widen the dispatch range and shift recovered exhaust heat to high‐value periods; however, design and investment decisions require plant transient data, disclosed component maps and controller settings, material‐specific degradation laws, vendor reliability data, and annual market‐based optimization.",
+    "authors": [
+      "Mwehu Banza Samson",
+      "Zheng Cao"
+    ],
+    "source": "Crossref",
+    "venue": "Energy Storage",
+    "date": "2026-09-19",
+    "doi": "10.1002/est2.70517",
+    "url": "https://doi.org/10.1002/est2.70517",
+    "source_id": "",
+    "score": 84.5,
+    "level": "A",
+    "title_zh": "Dynamic Flexibility and Screening Assessment of a 550 <scp>MW</scp> Combined‐Cycle Gas‐Turbine Plant With Two‐Tank Molten‐Salt Thermal Storage",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 84.5，推荐等级 A；期刊优先级第 7 位。"
+  },
+  {
+    "title": "Meta-learning based on Hypernetworks for State of Health prediction of lithium-ion batteries under data scarcity",
+    "abstract": "Accurate prediction of the State of Health (SOH) of lithium-ion batteries is crucial for ensuring their safe and reliable operation. However, existing data-driven methods rely on large amounts of data for training, resulting in limited generalization ability under data-scarce conditions. To address this issue, Model-Agnostic Meta-Learning (MAML) has been widely applied, but its two loops optimization mechanism involving inner and outer loops leads to low training efficiency and high computational burden. Therefore, this paper proposes a Meta-Learning based on Hypernetworks (MLH) method. This method extracts Health Indicators (HI) through an attention mechanism and uses a support set encoder and hypernetworks to generate prediction network parameters. Based on this, the prediction network performs gradient descent on the query set and achieves multi-module collaborative updates through end-to-end gradient propagation. Compared to MAML, the proposed method generates prediction network parameters through a single forward propagation for a single task, avoiding multi-step gradient updates within the inner loop, thus significantly reducing computational burden. Furthermore, the model can directly predict SOH requires limited data for rapid fine-tuning under different types of battery conditions. Experimental results based on the MIT, CALCE, and XJTU datasets demonstrate that, under conditions of data scarcity, MLH achieve higher accuracy and lower computational burden compared to MAML and the traditional transfer learning method in the task of predicting SOH of unseen batteries.",
+    "authors": [
+      "Quanxi Guo",
+      "Francesco Grimaccia",
+      "Alessandro Niccolai",
+      "Renxin Tu"
+    ],
+    "source": "OpenAlex",
+    "venue": "Applied Energy",
+    "date": "2026-09-18",
+    "doi": "10.1016/j.apenergy.2026.128910",
+    "url": "https://doi.org/10.1016/j.apenergy.2026.128910",
+    "source_id": "",
+    "score": 98.25,
+    "level": "A",
+    "title_zh": "Meta-learning based on Hypernetworks for State of Health prediction of lithium-ion batteries under data scarcity",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 98.25，推荐等级 A；期刊优先级第 8 位。"
+  },
+  {
+    "title": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 112.5,
+    "level": "B",
+    "title_zh": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 112.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000858?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 90.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 90.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Study on the deformation pattern of prismatic lithium-ion battery casings under different state-of-charge",
+    "abstract": "To elucidate the deformation characteristics of prismatic lithium-ion battery casings under various charging conditions, this study designed a spring-clip-based deformation measurement fixture and conducted a series of measurements in conjunction with surface strain analysis. The results indicate that during standard charging and discharging cycles, the casing deformation of prismatic lithium batteries exhibits a certain correlation with the State of Charge (SOC). However, the maximum coefficient of determination reaches only approximately 0.8, rendering it unsuitable for precise SOC estimation, a finding that distinguishes prismatic batteries from their cylindrical counterparts. In overcharging experiments utilizing the spring-clip fixture, it was observed that in the early stages of overcharge, the casing deformation remained comparable to that observed during normal charging processes. Once a certain extent was exceeded, the battery casing deformation entered an accelerated phase, and the fixture strain can be more than ten times higher than that observed during a normal charging process. CT scanning and ultrasonic inspection subsequently confirmed that this accelerated expansion was attributable to internal gas generation. The experimental findings demonstrate that, for prismatic lithium batteries, the correlation between casing deformation and SOC is insufficient to support accurate SOC estimation; nevertheless, this method proves feasible for detecting abnormal casing deformation caused by factors such as gas generation, thereby offering a concise and effective reference solution for auxiliary state-of-health monitoring in lithium-ion batteries.",
+    "authors": [
+      "Jifeng Song",
+      "Mingzhe Du",
+      "Zhengye Yang",
+      "Hui Yang",
+      "Yuanyang Gao"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-09-18",
+    "doi": "10.1016/j.est.2026.124649",
+    "url": "https://doi.org/10.1016/j.est.2026.124649",
+    "source_id": "",
+    "score": 93.0,
+    "level": "B",
+    "title_zh": "Study on the deformation pattern of prismatic lithium-ion battery casings under different state-of-charge",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 93.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Reproducibility of battery state of health estimation using short discharge tests across independent experimental platforms",
+    "abstract": "Accurate estimation of battery state of health (SOH) is essential for practical battery diagnostics and for screening retired lithium-ion batteries for second-life applications. Although short-duration discharge-based data-driven approaches show promising performance, their reproducibility across independently acquired datasets remains insufficiently explored. This study evaluates a previously developed short-duration discharge-based cell-level SOH estimation framework using two independently acquired datasets generated under methodologically matched aging and diagnostic procedures. The same commercial cell model, aging procedure, diagnostic protocol, preprocessing method, and LSTM-based model architecture are used for both datasets. Within each dataset, short partial-discharge voltage features maintain a stable relationship with SOH, enabling reliable estimation under same-dataset learning conditions. In contrast, direct cross-dataset application of the learned relationship leads to less consistent estimation behavior. Further analysis reveals noticeable differences in voltage characteristics between the two datasets despite the use of the same cell model and diagnostic protocol. To account for this variability, an integrated learning condition is also examined by combining the two datasets into a unified training set. The present findings were obtained using the cells and experimental conditions examined in this study, and further validation under broader cell populations and operating conditions is needed to establish wider applicability.",
+    "authors": [
+      "Younggill Son",
+      "Giorgio Rizzoni",
+      "Woongchul Choi"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-09-18",
+    "doi": "10.1016/j.est.2026.124600",
+    "url": "https://doi.org/10.1016/j.est.2026.124600",
+    "source_id": "",
+    "score": 91.0,
+    "level": "B",
+    "title_zh": "Reproducibility of battery state of health estimation using short discharge tests across independent experimental platforms",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 91.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Modeling of non-linear dynamics and degradation characterization of lithium-ion batteries using delay-embedded dynamic mode decomposition",
+    "abstract": "Data-driven modeling approaches offer a compelling alternative of the physics-based models that do not require explicit use of governing equations of the system. In this study, Koopman-based approaches such as dynamic mode decomposition with control (DMDc) and its extended formulation (eDMDc) are employed to construct models for predicting the non-linear voltage behavior of lithium-ion batteries from hybrid pulse power characterization (HPPC) tests. To better capture the nonlinear dynamics of the battery and perform long-horizon prediction, time-delay embedded snapshots were constructed via Hankel-delay embedding using 60% of the voltage data from a single HPPC test. By augmenting the state space with lagged observations, the embedding lifts the system’s dynamics into a higher-dimensional linear representation, enabling DMDc and eDMDc to approximate the underlying nonlinear behavior more faithfully. Optimum embedding dimensions for the input and output data were determined using residual sum of squares criteria such that both models can capture the underlying patterns without being underfitted or overfitted. Cross-cell validation and the behavior under aging were also investigated. Additionally, spectral analysis of the dynamic modes from both models reveals a monotonic decrease in modal decay coefficients with progressive cycling. This monotonic spectral evolution contrasts with the non-monotonic trends commonly observed in equivalent circuit model (ECM) parameters, suggesting that DMDc and eDMDc modal spectra could provide a reliable and interpretable signature of battery state of health.",
+    "authors": [
+      "Khalid Mahmud Labib",
+      "Shabbir Ahmed"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-09-18",
+    "doi": "10.1016/j.est.2026.124567",
+    "url": "https://doi.org/10.1016/j.est.2026.124567",
+    "source_id": "",
+    "score": 85.0,
+    "level": "B",
+    "title_zh": "Modeling of non-linear dynamics and degradation characterization of lithium-ion batteries using delay-embedded dynamic mode decomposition",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 85.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "State-of-health-coupled power sharing in a hierarchical control framework for battery-supercapacitor hybrid energy storage in solar-powered microgrids",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26044191?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 73.0,
+    "level": "B",
+    "title_zh": "State-of-health-coupled power sharing in a hierarchical control framework for battery-supercapacitor hybrid energy storage in solar-powered microgrids",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 73.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "A closed-loop state of charge estimation of lithium-ion batteries by integrating deep learning and adaptive Kalman filter",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26042805?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 71.0,
+    "level": "B",
+    "title_zh": "A closed-loop state of charge estimation of lithium-ion batteries by integrating deep learning and adaptive Kalman filter",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 71.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "The study on temperature control of lithium-ion battery thermal runaway using water-based extinguishing agents and the effects of injection strategies",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26043860?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 71.0,
+    "level": "B",
+    "title_zh": "The study on temperature control of lithium-ion battery thermal runaway using water-based extinguishing agents and the effects of injection strategies",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 71.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Structural evolution indicator for lithium-ion batteries deep discharge via ultrasonic inspection",
+    "abstract": "Deep discharge-induced microstructural evolution significantly affects battery reliability. Conventional methods based on macroscopic electrochemical features, such as incremental capacity analysis and internal resistance, exhibit significant nonlinear hysteresis. This hysteresis occurs because macroscopic indicators only respond after substantial microstructural degradation, as macro-capacity fading lags behind internal structural evolution. Consequently, these methods struggle to capture the real-time evolution of micromechanical properties under dynamic conditions. To address this gap, this study proposes a structural change indicator (SCI) identification method combining ultrasonic inspection with a patching-enhanced scalar LSTM (P-sLSTM). The proposed method employs discrete wavelet transform for time-frequency decomposition of ultrasonic signals. Dynamic features sensitive to the mechanical modulus and interfacial states are extracted. Subsequently, P-sLSTM learns long-term temporal dependencies of feature sequences under normal operating conditions to establish a healthy-state baseline. SCI is identified based on abrupt L2 (Euclidean) reconstruction error. Experimental results show that the SCI exhibits jumps within the 75%–80% depth of discharge, marking the critical boundary of internal structural state changes. Multi-condition tests confirm that the SCI maintains high sensitivity and consistency across different temperatures and discharge rates, providing an indicator with sensitivity and physical meaning for the structural health assessment of lithium-ion batteries.",
+    "authors": [
+      "Mingqiang Lin",
+      "Songjie Zhu",
+      "Ji Wu",
+      "Jinhao Meng",
+      "Wen Zhao",
+      "Fusen Guo",
+      "Huadong Mo"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-09-18",
+    "doi": "10.1016/j.est.2026.124773",
+    "url": "https://doi.org/10.1016/j.est.2026.124773",
+    "source_id": "",
+    "score": 71.0,
+    "level": "B",
+    "title_zh": "Structural evolution indicator for lithium-ion batteries deep discharge via ultrasonic inspection",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 71.0，推荐等级 B；期刊优先级第 21 位。"
+  }
+]
