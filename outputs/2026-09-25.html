@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Battery Management Literature Daily｜2026-09-25</title>
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",Arial,sans-serif;line-height:1.68;color:#1f2933;background:#f5f7fa;margin:0;padding:0;}
+    .container{max-width:1040px;margin:0 auto;padding:28px 20px 44px;}
+    .header{background:linear-gradient(135deg,#063b5c,#0b7285);color:#fff;border-radius:18px;padding:28px 30px;margin-bottom:22px;box-shadow:0 8px 22px rgba(0,0,0,.12);}
+    .header h1{margin:0 0 12px;font-size:28px;letter-spacing:.3px;}
+    .header p{margin:4px 0;color:#e7f5ff;}
+    .summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:18px 0 6px;}
+    .stat{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.22);border-radius:14px;padding:12px 14px;}
+    .stat b{font-size:24px;color:#fff;display:block;}
+    .block{background:#fff;border:1px solid #d9e2ec;border-radius:16px;padding:22px;margin:18px 0;box-shadow:0 2px 10px rgba(15,23,42,.04);}
+    h2{color:#0b3d5c;margin:0 0 14px;font-size:22px;}
+    h3{margin:0 0 10px;font-size:19px;color:#102a43;}
+    .meta{color:#52616b;font-size:14px;margin:4px 0;}
+    .paper{border-top:1px solid #e5edf3;padding-top:18px;margin-top:18px;}
+    .paper:first-child{border-top:none;padding-top:0;margin-top:0;}
+    .tag{display:inline-block;border-radius:999px;padding:4px 10px;color:#fff;font-size:12px;font-weight:700;letter-spacing:.2px;margin-right:8px;}
+    .A{background:#c62828;}.B{background:#ef6c00;}.C{background:#607d8b;}
+    .score{display:inline-block;background:#edf2f7;color:#334e68;border-radius:999px;padding:4px 10px;font-size:12px;}
+    ul{padding-left:22px;margin:8px 0 10px;}
+    a{color:#0b7285;text-decoration:none;}a:hover{text-decoration:underline;}
+    table{width:100%;border-collapse:collapse;background:white;font-size:14px;}
+    th,td{border:1px solid #d9e2ec;padding:10px;vertical-align:top;text-align:left;}
+    th{background:#edf4f7;color:#243b53;}
+    .footer{font-size:13px;color:#697386;text-align:center;margin-top:24px;}
+    @media(max-width:720px){.summary-grid{grid-template-columns:1fr}.header{border-radius:0}.container{padding:0 0 28px}.block{border-radius:0;border-left:none;border-right:none}.header h1{font-size:24px}}
+  </style>
+</head>
+<body>
+<div class="container">
+  <section class="header">
+    <h1>Battery Management Literature Daily</h1>
+    <p><b>日期：</b>2026-09-25 ｜ <b>检索窗口：</b>近 2 天 ｜ <b>生成时间：</b>2026-09-25 13:14:23 UTC+8</p>
+    <p>今日候选共 12 条（含 1 条重复记录）。与 BMS 直接相关的核心工作集中在三条主线：一是 RUL/SOH 预测向可解释性、不确定性量化和物理信息融合演进（Applied Energy、Journal of Power Sources）；二是基于现场/实车数据的 pack 级与储能系统级健康评估（eTransportation 两篇）；三是电池安全与热失控、能量管理等系统级议题。另有 3 条与电池管理完全无关（数字孪生预印本、锂电回收工艺），已剔除。</p>
+    <div class="summary-grid">
+      <div class="stat"><b>4</b> A级必读</div>
+      <div class="stat"><b>4</b> B级浏览</div>
+      <div class="stat"><b>1</b> C级备选</div>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>一、今日趋势判断</h2>
+    <p>SOH/RUL 研究正从单点精度竞赛转向“可解释 + 不确定性量化 + 物理约束”的联合建模范式，说明 BMS 端对可信预测与风险边界的需求上升。同时，多篇工作直接使用实车/储能现场数据，反映 pack 级与系统级真实工况评估已成为主流场景。需要注意的是，本次候选中出现以“digital twin”为关键词但与电池无关的预印本，关键词召回噪声仍存在，人工相关性判读不可省略。</p>
+  </section>
+
+  <section class="block">
+    <h2>二、A级必读论文</h2>
+    
+      
+      <article class="paper">
+        <h3>1. Interpretable and uncertainty-quantified early remaining useful life prediction for lithium-ion batteries under fast charging protocols</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 100.25</span></p>
+        <p class="meta"><b>中文题目：</b>快充协议下锂离子电池早期剩余使用寿命的可解释且不确定性量化预测</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Applied Energy ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S0306261926015485?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S0306261926015485?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>面向快充工况，构建兼具可解释性与不确定性量化的锂离子电池早期 RUL 预测方法。</p>
+        <p><b>研究问题：</b>快充协议下电池早期退化信号弱、数据稀疏，传统 RUL 预测既缺乏可解释性，也难以给出可信的预测不确定区间。</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>提出面向快充协议的早期 RUL 预测框架，在退化早期即可给出寿命预测</li><li>引入可解释性机制，量化输入特征/退化因子对 RUL 预测的贡献</li><li>实现预测不确定性量化，输出带置信区间的 RUL 结果而非点估计</li></ul>
+        <p><b>与BMS相关性：</b>RUL 是 BMS 健康管理的核心状态量，直接服务于维护决策、质保评估与安全预警；快充是最典型的寿命加速工况，该问题属于 BMS 核心范畴。</p>
+        <p><b>对课题组启发：</b>可解释性与不确定性量化思路可迁移到课题组的 SOH/RUL 联合估计与 pack 级剩余寿命外推；带置信区间的 RUL 输出可与故障诊断/安全预警的阈值决策串联，形成“预测—风险—策略”闭环。</p>
+        <p><b>推荐理由：</b>A 级。Applied Energy 在优先期刊列表第 8 位，属高水平能源应用期刊；主题为快充下 RUL 可解释与不确定性量化，与课题组 SOH/RUL 方向强相关，方法可迁移性强，必须精读。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>2. Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 112.5</span></p>
+        <p class="meta"><b>中文题目：</b>基于语义嵌入端到端深度学习的储能电池系统现场数据健康状态估计</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>eTransportation ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>提出语义嵌入的端到端深度学习框架，直接在现场储能运行数据上估计电池系统 SOH。</p>
+        <p><b>研究问题：</b>储能电站现场数据工况复杂、标签稀缺，传统基于实验室特征工程的 SOH 估计方法难以在真实运行数据上稳定泛化。</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>构建语义嵌入表示，将电化学/运行语义先验融入端到端网络</li><li>面向 BESS 现场数据设计端到端 SOH 估计流程，减少人工特征依赖</li><li>在真实储能运行数据上验证方法有效性，体现工程可部署性</li></ul>
+        <p><b>与BMS相关性：</b>直接针对储能系统级 SOH 估计与现场数据，属于 pack/系统级状态估计与 cloud BMS 的核心议题。</p>
+        <p><b>对课题组启发：</b>为课题组在 cloud BMS / 储能现场数据上的 SOH 建模提供了“语义先验 + 端到端”的技术路线；其处理无标签、强工况漂移现场数据的思路可迁移到车队数据的一致性分析与 pack 级健康评估。</p>
+        <p><b>推荐理由：</b>A 级。eTransportation 在优先列表第 15 位，是电池交通应用领域的专业期刊；该文同时满足现场数据、系统级 SOH、端到端深度学习三项强相关要素，工程价值高。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>3. Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 90.5</span></p>
+        <p class="meta"><b>中文题目：</b>基于真实世界数据的锂离子电池包内阻退化整车级建模与影响参数分析</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>eTransportation ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000858?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2590116826000858?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>利用实车运行数据建立整车级电池包内阻退化模型，并辨识主导影响因素。</p>
+        <p><b>研究问题：</b>实验室单体内阻退化规律难以直接外推到整车电池包，真实工况下 pack 级内阻退化的建模与关键影响因素缺乏系统性量化。</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>基于实车真实数据建立整车级电池包内阻退化模型</li><li>系统性辨识温度、充放电行为、里程等对 pack 内阻退化的影响权重</li><li>给出整车包级别退化规律的量化证据，弥合单体验证与实车表现之间的差距</li></ul>
+        <p><b>与BMS相关性：</b>内阻是 BMS 中 SOH 与功率能力估计的关键参量，pack 级建模直接服务于车载 SOH 估计与一致性诊断。</p>
+        <p><b>对课题组启发：</b>为课题组 field data 驱动的 pack 级 SOH 建模提供真实数据支撑；其影响参数分析可作为 pack 不一致性归因与特征筛选的先验，也可用于构建物理约束型退化模型。</p>
+        <p><b>推荐理由：</b>A 级。eTransportation（优先列表第 15 位）来源可靠，且使用 real-world 实车数据、聚焦 pack 级内阻退化，契合课题组“pack inconsistency + field data”的主攻方向，建议精读。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>4. A physics-informed joint estimation framework for state of health and remaining useful life of lithium-ion batteries via the remaining dischargeable budget</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 99.25</span></p>
+        <p class="meta"><b>中文题目：</b>基于剩余可放电预算的物理信息融合锂离子电池健康状态与剩余寿命联合估计框架</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Journal of Power Sources ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S0378775326023104?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S0378775326023104?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>以“剩余可放电预算”为物理桥梁，构建 SOH 与 RUL 的物理信息联合估计框架。</p>
+        <p><b>研究问题：</b>SOH 与 RUL 通常被割裂建模，导致短期健康状态与长期寿命预测不自洽，且纯数据驱动方法缺乏物理可解释性。</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>提出“剩余可放电预算”物理量，统一刻画 SOH 与 RUL 的耦合关系</li><li>构建物理信息融合的联合估计框架，实现 SOH 与 RUL 一致输出</li><li>在电池退化数据上验证联合估计相对独立建模的精度与一致性优势</li></ul>
+        <p><b>与BMS相关性：</b>同时覆盖 BMS 两大核心状态量 SOH 与 RUL，物理信息融合正是课题组关注的方法方向。</p>
+        <p><b>对课题组启发：</b>“剩余可放电预算”这类物理中间量可作为 physics-informed learning 的约束接口，迁移到 pack 级 SOH/RUL 联合估计；该联合建模范式有助于缓解 pack 内单体差异导致的估计不一致。</p>
+        <p><b>推荐理由：</b>A 级。Journal of Power Sources 在优先列表中列第 9 位，是电池领域经典期刊；主题为 physics-informed 的 SOH/RUL 联合估计，与课题组方向高度重合，方法可直接借鉴。</p>
+      </article>
+      
+    
+  </section>
+
+  <section class="block">
+    <h2>三、B级建议浏览论文</h2>
+    
+      
+      <article class="paper">
+        <h3>1. Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 90.5</span></p>
+        <p class="meta"><b>中文题目：</b>锂离子电池包热失控过程中的电气短路行为与暂态局部过充条件</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>eTransportation ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>刻画电池包热失控过程中内部短路与局部暂态过充的电气行为特征。</p>
+        <ul><li>实验揭示电池包热失控过程中的电气短路行为特征</li><li>识别热失控期间出现的暂态局部过充条件及其成因</li><li>给出可用于电信号特征提取的失效过程观测结果</li></ul>
+        <p><b>与BMS相关性：</b>热失控早期预警是 BMS 安全功能的核心；理解 pack 级电气失效特征可直接支撑预警信号与阈值设计。</p>
+        <p><b>对课题组启发：</b>可为课题组热失控早期预警研究提供失效机理层面的电信号特征线索，用于构造物理可解释的预警特征；但其偏向实验表征，需与数据驱动预警算法结合才能落地。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>2. Risk-aware hierarchical predictive energy management for battery energy storage utilization in plug-in hybrid electric vehicles</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 75.0</span></p>
+        <p class="meta"><b>中文题目：</b>插电式混合动力汽车储能电池使用的风险感知分层预测能量管理</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26043343?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2352152X26043343?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>提出风险感知的分层预测能量管理策略，优化 PHEV 中电池储能的使用方式。</p>
+        <ul><li>构建风险感知的分层预测能量管理架构</li><li>在优化目标中显式纳入电池使用风险/老化代价</li><li>验证策略对电池储能利用率与经济性的改善效果</li></ul>
+        <p><b>与BMS相关性：</b>属于电池系统级控制与使用管理范畴，间接影响电池老化与寿命，但侧重点在整车能量管理而非电池状态估计。</p>
+        <p><b>对课题组启发：</b>可为课题组提供“管理策略与电池老化代价耦合”的思路，若后续与 pack 级 SOH/寿命模型联合，可延展为寿命感知的能量管理研究。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>3. Conditional diffusion modeling with attention for probabilistic battery capacity prediction under real-world conditions</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 71.0</span></p>
+        <p class="meta"><b>中文题目：</b>面向真实工况的概率化电池容量预测的条件扩散建模与注意力机制</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26042568?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2352152X26042568?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>将条件扩散模型与注意力机制用于真实工况下的电池容量概率预测。</p>
+        <ul><li>引入条件扩散模型实现电池容量概率化预测</li><li>结合注意力机制提取真实工况下的退化相关特征</li><li>在真实工况数据上验证概率预测的分布刻画能力</li></ul>
+        <p><b>与BMS相关性：</b>容量是 SOH 的直接表征，概率化容量预测提升 BMS 健康评估的可靠性，属状态估计核心范畴。</p>
+        <p><b>对课题组启发：</b>扩散模型 + 注意力的概率预测范式可迁移到 SOH/RUL 的不确定性建模；若能结合 pack 级数据，可服务于 pack 不一致性下的分布型健康评估。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>4. Trip-End Battery State of Charge Prediction for Electric Vehicles Using a Physics-Constrained Machine Learning Stacking Ensemble</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 72.0</span></p>
+        <p class="meta"><b>中文题目：</b>基于物理约束机器学习堆叠集成的电动汽车行程末端电池荷电状态预测</p>
+        <p class="meta"><b>作者：</b>Dmytro Tymoshchuk, Оleg Lyashuk, Pavlo Orestovych Maruschak, Dmytro Mironov, Vitaliy Tymoshchuk</p>
+        <p class="meta"><b>来源：</b>Vehicles ｜ <b>日期：</b>2026-09-23 ｜ <b>数据源：</b>OpenAlex+Crossref</p>
+        <p class="meta"><b>DOI：</b>10.3390/vehicles8100225</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.3390/vehicles8100225">https://doi.org/10.3390/vehicles8100225</a></p>
+        <p><b>一句话总结：</b>利用行程前可得特征与物理约束堆叠集成模型，预测单次行程结束时的电池 SOC。</p>
+        <ul><li>构建物理约束的十模型非负权重堆叠集成回归框架</li><li>基于 2020 Kia Niro EV 的 352 个运行区间（81 个放电循环）真实运行数据验证</li><li>利用归一化分裂保形预测给出约 92.85% 经验覆盖率的预测区间</li></ul>
+        <p><b>与BMS相关性：</b>SOC 是 BMS 最核心状态量之一，该工作面向真实车辆运行区间的 SOC 预测，属状态估计范畴；但仅涉及 SOC 变化量预测，未深入 pack 层级建模。</p>
+        <p><b>对课题组启发：</b>其保形预测提供不确定性区间的做法可迁移到 SOH/RUL 的可信输出；但数据仅来自单一车型、样本量小、缺乏跨车验证，作为方法参考而非结论引用。</p>
+      </article>
+      
+    
+  </section>
+
+  <section class="block">
+    <h2>四、C级备选与快速浏览</h2>
+    
+    <table>
+      <thead><tr><th>标题</th><th>来源</th><th>日期</th><th>推荐理由</th></tr></thead>
+      <tbody>
+      
+        <tr>
+          <td><a href="https://doi.org/10.1186/s42162-026-00693-y">Hierarchical machine learning and optimisation framework for intelligent energy management in smart distribution systems</a></td>
+          <td>Energy Informatics</td>
+          <td>2026-09-23</td>
+          <td>C 级。Energy Informatics 非优先列表期刊，主题为配电网能量管理，仅以 BESS/EV 作为受控对象，属于边缘相关，列入备选即可。</td>
+        </tr>
+      
+      </tbody>
+    </table>
+    
+  </section>
+
+  <section class="block">
+    <h2>五、今日论文总表</h2>
+    <table>
+      <thead><tr><th>等级</th><th>标题</th><th>期刊/来源</th><th>方向判断</th><th>链接</th></tr></thead>
+      <tbody>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>Interpretable and uncertainty-quantified early remaining useful life prediction for lithium-ion batteries under fast charging protocols</td>
+          <td>Applied Energy</td>
+          <td>面向快充工况，构建兼具可解释性与不确定性量化的锂离子电池早期 RUL 预测方法。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S0306261926015485?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data</td>
+          <td>eTransportation</td>
+          <td>提出语义嵌入的端到端深度学习框架，直接在现场储能运行数据上估计电池系统 SOH。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data</td>
+          <td>eTransportation</td>
+          <td>利用实车运行数据建立整车级电池包内阻退化模型，并辨识主导影响因素。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000858?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs</td>
+          <td>eTransportation</td>
+          <td>刻画电池包热失控过程中内部短路与局部暂态过充的电气行为特征。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>A physics-informed joint estimation framework for state of health and remaining useful life of lithium-ion batteries via the remaining dischargeable budget</td>
+          <td>Journal of Power Sources</td>
+          <td>以“剩余可放电预算”为物理桥梁，构建 SOH 与 RUL 的物理信息联合估计框架。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S0378775326023104?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Risk-aware hierarchical predictive energy management for battery energy storage utilization in plug-in hybrid electric vehicles</td>
+          <td>Journal of Energy Storage</td>
+          <td>提出风险感知的分层预测能量管理策略，优化 PHEV 中电池储能的使用方式。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26043343?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Conditional diffusion modeling with attention for probabilistic battery capacity prediction under real-world conditions</td>
+          <td>Journal of Energy Storage</td>
+          <td>将条件扩散模型与注意力机制用于真实工况下的电池容量概率预测。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26042568?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>Hierarchical machine learning and optimisation framework for intelligent energy management in smart distribution systems</td>
+          <td>Energy Informatics</td>
+          <td>提出融合概率负荷预测、不确定性感知优化与故障重调度的分层机器学习能量管理框架。</td>
+          <td><a href="https://doi.org/10.1186/s42162-026-00693-y">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Trip-End Battery State of Charge Prediction for Electric Vehicles Using a Physics-Constrained Machine Learning Stacking Ensemble</td>
+          <td>Vehicles</td>
+          <td>利用行程前可得特征与物理约束堆叠集成模型，预测单次行程结束时的电池 SOC。</td>
+          <td><a href="https://doi.org/10.3390/vehicles8100225">Open</a></td>
+        </tr>
+      
+      </tbody>
+    </table>
+  </section>
+
+  <p class="footer">Generated by battery-paper-agent. 请人工复核关键结论后再用于论文综述或组会汇报。</p>
+</div>
+</body>
+</html>
