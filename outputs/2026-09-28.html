@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Battery Management Literature Daily｜2026-09-28</title>
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",Arial,sans-serif;line-height:1.68;color:#1f2933;background:#f5f7fa;margin:0;padding:0;}
+    .container{max-width:1040px;margin:0 auto;padding:28px 20px 44px;}
+    .header{background:linear-gradient(135deg,#063b5c,#0b7285);color:#fff;border-radius:18px;padding:28px 30px;margin-bottom:22px;box-shadow:0 8px 22px rgba(0,0,0,.12);}
+    .header h1{margin:0 0 12px;font-size:28px;letter-spacing:.3px;}
+    .header p{margin:4px 0;color:#e7f5ff;}
+    .summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:18px 0 6px;}
+    .stat{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.22);border-radius:14px;padding:12px 14px;}
+    .stat b{font-size:24px;color:#fff;display:block;}
+    .block{background:#fff;border:1px solid #d9e2ec;border-radius:16px;padding:22px;margin:18px 0;box-shadow:0 2px 10px rgba(15,23,42,.04);}
+    h2{color:#0b3d5c;margin:0 0 14px;font-size:22px;}
+    h3{margin:0 0 10px;font-size:19px;color:#102a43;}
+    .meta{color:#52616b;font-size:14px;margin:4px 0;}
+    .paper{border-top:1px solid #e5edf3;padding-top:18px;margin-top:18px;}
+    .paper:first-child{border-top:none;padding-top:0;margin-top:0;}
+    .tag{display:inline-block;border-radius:999px;padding:4px 10px;color:#fff;font-size:12px;font-weight:700;letter-spacing:.2px;margin-right:8px;}
+    .A{background:#c62828;}.B{background:#ef6c00;}.C{background:#607d8b;}
+    .score{display:inline-block;background:#edf2f7;color:#334e68;border-radius:999px;padding:4px 10px;font-size:12px;}
+    ul{padding-left:22px;margin:8px 0 10px;}
+    a{color:#0b7285;text-decoration:none;}a:hover{text-decoration:underline;}
+    table{width:100%;border-collapse:collapse;background:white;font-size:14px;}
+    th,td{border:1px solid #d9e2ec;padding:10px;vertical-align:top;text-align:left;}
+    th{background:#edf4f7;color:#243b53;}
+    .footer{font-size:13px;color:#697386;text-align:center;margin-top:24px;}
+    @media(max-width:720px){.summary-grid{grid-template-columns:1fr}.header{border-radius:0}.container{padding:0 0 28px}.block{border-radius:0;border-left:none;border-right:none}.header h1{font-size:24px}}
+  </style>
+</head>
+<body>
+<div class="container">
+  <section class="header">
+    <h1>Battery Management Literature Daily</h1>
+    <p><b>日期：</b>2026-09-28 ｜ <b>检索窗口：</b>近 2 天 ｜ <b>生成时间：</b>2026-09-28 13:43:54 UTC+8</p>
+    <p>今日候选 11 条（含 1 条重复），经去重与筛选后保留 9 条，其中 A 级 2 条、B 级 5 条、C 级 2 条，另有 2 条因属材料/消防化学被剔除。A 级集中在 eTransportation，主题分别是基于储能现场数据的 SOH 估计与基于真实车队数据的电池包内阻退化建模，均直接命中「field data + pack 级状态/健康评估」核心方向。其余 B 级覆盖 SOC 估计、pack 级热失控短路行为、耦合循环-日历老化的路径依赖诊断，以及 SOC 估计与主动均衡的对比评估。</p>
+    <div class="summary-grid">
+      <div class="stat"><b>2</b> A级必读</div>
+      <div class="stat"><b>6</b> B级浏览</div>
+      <div class="stat"><b>2</b> C级备选</div>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>一、今日趋势判断</h2>
+    <p>现场/车队数据驱动的 pack 级健康与退化建模正在成为主流，模型从纯数据驱动转向「物理可解释 + 端到端学习」融合（语义嵌入、双罐模型、物理信息 Mamba）。SOC/SOH 估计侧出现两类明显路线：一类以可解释物理状态空间模型配贝叶斯平滑，强调标签-free 与温度鲁棒；另一类以模型预测控制把估计与主动均衡闭环耦合。热失控方向则从单体机理走向 pack/储能柜场景下的短路行为与结构约束火焰安全评估。</p>
+  </section>
+
+  <section class="block">
+    <h2>二、A级必读论文</h2>
+    
+      
+      <article class="paper">
+        <h3>1. Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 112.5</span></p>
+        <p class="meta"><b>中文题目：</b>面向储能系统现场数据的语义嵌入端到端深度学习 SOH 估计</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>eTransportation ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>将语义嵌入引入端到端深度学习框架，直接用储能电站现场数据估计电池系统 SOH。</p>
+        <p><b>研究问题：</b>储能现场数据存在工况多变、噪声大、标签稀缺、单体/模组异质性显著等问题，传统实验室标定式 SOH 模型难以直接迁移到实际 BESS 运行场景。</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>提出语义嵌入（semantically embedded）的端到端深度学习 SOH 估计框架，将物理/工况语义信息显式注入网络表征</li><li>面向 BESS 现场数据设计，弱化对实验室标定标签的依赖，提升跨工况泛化</li><li>在真实储能系统数据上验证 SOH 估计能力，支撑系统级健康管理</li></ul>
+        <p><b>与BMS相关性：</b>直接命中 BMS 核心：SOH 估计 + 储能系统（BESS）+ 现场数据（field data），属于 pack/系统级健康评估与运维决策的输入环节。</p>
+        <p><b>对课题组启发：</b>可作为「field data 驱动 SOH」的方法基线：语义嵌入思路可迁移到 pack 不一致性建模，把单体离散度、温度/倍率工况作为语义条件注入，缓解现场标签稀缺与跨站迁移问题；也可与 physics-informed 分支对照，判断纯端到端与物理约束混合路线的边界。</p>
+        <p><b>推荐理由：</b>A 级。eTransportation 位于优先列表第 15 位，是可再生能源交通电气化与电池系统方向的专刊型高水平期刊；论文同时满足「BMS 核心问题（SOH）+ 真实规模化场景（BESS 现场数据）+ 方法创新（语义嵌入端到端）」三项，属于必读。注：RSS 未提供摘要，建议获取全文核实数据规模与验证方式。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>2. Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 90.5</span></p>
+        <p class="meta"><b>中文题目：</b>基于真实世界数据的锂离子电池包内阻退化整车级建模与影响参数分析</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>eTransportation ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000858?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2590116826000858?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>利用实车运行数据建立整车级电池包内阻退化模型，并定量分析关键影响因素。</p>
+        <p><b>研究问题：</b>实验室加速老化难以反映真实车辆服役条件下的电池包内阻退化规律，缺少整车级、真实数据支撑的退化建模与参数敏感性分析。</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>构建整车（vehicle-level）电池包内阻退化建模框架，直接使用真实世界运行数据</li><li>识别并量化影响内阻退化的关键参数（如温度、倍率、SOC 区间、使用强度等）</li><li>给出面向实际车队运维的退化规律与参数敏感度结论</li></ul>
+        <p><b>与BMS相关性：</b>内阻是 BMS 中 SOH、功率能力（SOP）与不一致性评估的核心状态量；论文处于 pack/车辆系统级，使用 real-world/fleet 数据，与「pack-level state estimation + field data」完全对齐。</p>
+        <p><b>对课题组启发：</b>为课题组提供真实车队场景下的内阻退化建模范式：可把内阻退化参数敏感性结论用于 SOH/RUL 特征筛选，也可将其与我们的 pack 不一致性指标（单体间内阻离散度）联合建模；vehicle-level 的建模粒度对 cloud BMS 车队级健康运维尤其有参考价值。</p>
+        <p><b>推荐理由：</b>A 级。eTransportation（优先列表第 15 位）且为真实世界数据驱动的 pack 级退化建模，数据场景与问题定义都高度贴合课题组方向，方法具备直接复用性。注：RSS 未附摘要，建议核实数据来源（车队规模、车型、时长）。</p>
+      </article>
+      
+    
+  </section>
+
+  <section class="block">
+    <h2>三、B级建议浏览论文</h2>
+    
+      
+      <article class="paper">
+        <h3>1. Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 90.5</span></p>
+        <p class="meta"><b>中文题目：</b>锂离子电池包热失控过程中的内短路行为与局部暂态过充条件</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>eTransportation ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>揭示电池包热失控期间的内短路演化与局部暂态过充现象，为 pack 级安全预警提供机理依据。</p>
+        <ul><li>在 pack 层级刻画热失控过程中的内短路行为特征</li><li>发现并描述热失控期间的局部暂态过充条件，说明其对传播的促进作用</li><li>为 pack/模组级安全预警与保护策略提供判据依据</li></ul>
+        <p><b>与BMS相关性：</b>属于 thermal runaway 早期预警与 pack 安全监测范畴：局部过充与内短路是可被 BMS 电压/温度信号捕捉的前兆特征，直接服务于安全预警算法设计。</p>
+        <p><b>对课题组启发：</b>可提炼为预警特征工程来源：局部暂态过充对应的单体电压异常形态，可作为 pack 不一致性 / 故障诊断模型的标签或先验约束，结合 field 数据训练更早的 TR 预警器。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>2. Path-dependent degradation diagnosis of commercial NCA/graphite 18650 cells under coupled cycle-calendar aging via dual-tank model identification and differential voltage analysis</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 113.0</span></p>
+        <p class="meta"><b>中文题目：</b>基于双罐模型辨识与差分电压分析的商用 NCA/石墨 18650 电池循环-日历耦合老化路径依赖退化诊断</p>
+        <p class="meta"><b>作者：</b>Zequan Yang, Wanqing Hou, Weixiang Bian, Yuejiu Zheng, Yuanzhe Li et al.</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>2026-09-26 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.1016/j.est.2026.124612</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1016/j.est.2026.124612">https://doi.org/10.1016/j.est.2026.124612</a></p>
+        <p><b>一句话总结：</b>用双罐模型辨识结合差分电压分析，分阶段解析循环与日历耦合老化下的路径依赖退化机理。</p>
+        <ul><li>设计 50 °C 下序列相关协议，对比连续循环与「循环—日历—循环」不同存储 SOC 路径</li><li>建立电化学可解释双罐模型，辨识电极嵌锂参数、有效电极容量与集总电阻项</li><li>发现插入日历老化阶段会改变后续退化轨迹（非简单中断），并量化中间存储 SOC 由 75% 降至 25% 的缓解效应</li></ul>
+        <p><b>与BMS相关性：</b>面向 SOH 与寿命评估的可解释诊断方法，所用指标（嵌锂态、电极容量、内阻）可映射到 BMS 的 SOH/SOP 与不一致性评估，属于健康管理与寿命预测的直接支撑。</p>
+        <p><b>对课题组启发：</b>双罐模型 + DVA 的物理解释路线可迁移到 pack 不一致性归因：把单体嵌锂态偏移与有效容量差作为不一致性指纹，判断差异是「制造离散」还是「路径老化离散」；对 physics-informed 的 SOH 建模也是天然的可解释基线。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>3. Physics-informed unsupervised battery state-of-charge estimation via temperature-conditioned Mamba and parallel Bayesian inference</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 87.0</span></p>
+        <p class="meta"><b>中文题目：</b>基于温度条件化 Mamba 与并行贝叶斯推断的物理信息无监督 SOC 估计</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26042350?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2352152X26042350?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>用温度条件化 Mamba 生成物理状态空间模型参数，配合并行 IPLS 实现无标签、跨温度的 SOC 轨迹重建。</p>
+        <ul><li>提出 Mamba-IPLS 物理信息无监督框架：Mamba 骨干 + 温度条件化调制器（TCM）生成随环境温度变化的模型参数</li><li>以生成的参数驱动物理状态空间模型，用并行迭代后验线性化平滑器（IPLS）估计隐状态，总体计算复杂度 O(N)、并行跨度 O(log N)</li><li>在 −10 °C 至 50 °C 多种驾驶循环下，以更少可训练参数超越主流数据驱动基线，并通过消融验证 TCM 与 IPLS 的鲁棒性增益</li></ul>
+        <p><b>与BMS相关性：</b>SOC 估计是 BMS 最核心的实时状态估计任务之一，温度条件化与无标签学习直接回应实车/储能场景的标签稀缺与宽温域难题。</p>
+        <p><b>对课题组启发：</b>两点可迁移：一是「温度条件化参数生成 + 物理状态空间」的结构，可复用于 pack 级 SOH/RUL 与温度耦合建模；二是无标签 + 贝叶斯平滑的路线，适合我们在 field data 上缺少真值标签的场景，可与不一致性估计联合设计。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>4. Physics-informed unsupervised battery state-of-charge estimation via temperature-conditioned Mamba and parallel Bayesian inference</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 87.0</span></p>
+        <p class="meta"><b>中文题目：</b>基于温度条件化 Mamba 与并行贝叶斯推断的物理信息无监督 SOC 估计</p>
+        <p class="meta"><b>作者：</b>Rui Yang, Che–Rung Lee, Ángel F. García‐Fernández, Alessandro Varsi</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>2026-09-26 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.1016/j.est.2026.124571</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1016/j.est.2026.124571">https://doi.org/10.1016/j.est.2026.124571</a></p>
+        <p><b>一句话总结：</b>用温度条件化 Mamba 生成物理状态空间模型参数，配合并行 IPLS 实现无标签、跨温度的 SOC 轨迹重建。</p>
+        <ul><li>提出 Mamba-IPLS 物理信息无监督框架：Mamba 骨干 + 温度条件化调制器（TCM）生成随环境温度变化的模型参数</li><li>以生成的参数驱动物理状态空间模型，用并行迭代后验线性化平滑器（IPLS）估计隐状态，总体计算复杂度 O(N)、并行跨度 O(log N)</li><li>在 −10 °C 至 50 °C 多种驾驶循环下，以更少可训练参数超越主流数据驱动基线，并通过消融验证 TCM 与 IPLS 的鲁棒性增益</li></ul>
+        <p><b>与BMS相关性：</b>SOC 估计是 BMS 最核心的实时状态估计任务之一，温度条件化与无标签学习直接回应实车/储能场景的标签稀缺与宽温域难题。</p>
+        <p><b>对课题组启发：</b>两点可迁移：一是「温度条件化参数生成 + 物理状态空间」的结构，可复用于 pack 级 SOH/RUL 与温度耦合建模；二是无标签 + 贝叶斯平滑的路线，适合我们在 field data 上缺少真值标签的场景，可与不一致性估计联合设计。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>5. Health feature extraction from battery energy storage system field fault data</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 81.0</span></p>
+        <p class="meta"><b>中文题目：</b>储能系统现场故障数据的健康特征提取</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26044245?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2352152X26044245?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>从储能电站现场故障数据中提取可用于健康评估的特征，支撑系统级状态监测。</p>
+        <ul><li>面向 BESS 现场故障数据构建健康特征提取流程</li><li>针对现场数据的噪声与不平衡特性筛选有效特征</li><li>为储能系统的故障诊断与健康评估提供特征层面的支撑</li></ul>
+        <p><b>与BMS相关性：</b>直接处于「储能/现场数据 + 故障诊断」交叉点，属于 BMS 安全运维与系统级健康管理的数据基础工作。</p>
+        <p><b>对课题组启发：</b>可对齐课题组的 field fault data 资产：其特征提取思路与筛选准则可用于构建统一的 pack 级故障特征库，并与 SOH 特征、不一致性指标共享同一数据管线，服务云端 BMS 的故障诊断与预警模型。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>6. Comparative evaluation of advanced SoC estimation and active cell equalization techniques in electric vehicles</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 100.0</span></p>
+        <p class="meta"><b>中文题目：</b>电动汽车中先进 SOC 估计与主动单体均衡技术的对比评估</p>
+        <p class="meta"><b>作者：</b>Sairaj Arandhakar, Jayaram Nakka, Dakka Obulesu, P. S. V. Kishore, Guruvulu Naidu Ponnada et al.</p>
+        <p class="meta"><b>来源：</b>Discover Applied Sciences ｜ <b>日期：</b>2026-09-26 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.1007/s42452-026-09569-y</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1007/s42452-026-09569-y">https://doi.org/10.1007/s42452-026-09569-y</a></p>
+        <p><b>一句话总结：</b>对比 EUKF、MA-SREKF 与 MPC/RMPC 在 SOC 估计与主动单体均衡上的精度与鲁棒性。</p>
+        <ul><li>对比扩展无迹卡尔曼滤波（EUKF）与多自适应平方根扩展卡尔曼滤波（MA-SREKF）的 SOC 估计性能，MA-SREKF 最大误差降至 ±1.5%</li><li>对比 MPC 与鲁棒 MPC（RMPC）的主动均衡效果，RMPC 将 SOC 误差波动由 ±8% 收敛至 ±3%</li><li>给出面向实时 BMS 的鲁棒性与计算效率综合评估结论</li></ul>
+        <p><b>与BMS相关性：</b>同时覆盖 SOC 估计与 pack 内单体均衡（cell inconsistency 治理）两大 BMS 核心功能，属于系统级控制与状态估计的直接研究对象。</p>
+        <p><b>对课题组启发：</b>可作为均衡控制与 SOC 估计的对比基线：RMPC 对 SOC 离散度的抑制效果，可与课题组在 pack 不一致性建模中的均衡策略指标对齐；卡尔曼族滤波器的对比结论有助于选择 cloud/edge BMS 中计算开销可接受的估计器。</p>
+      </article>
+      
+    
+  </section>
+
+  <section class="block">
+    <h2>四、C级备选与快速浏览</h2>
+    
+    <table>
+      <thead><tr><th>标题</th><th>来源</th><th>日期</th><th>推荐理由</th></tr></thead>
+      <tbody>
+      
+        <tr>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X2604483X?dgcid=rss_sd_all">From battery fundamentals to sustainable management: A comprehensive review on thermal management, phase change materials, and emerging technologies</a></td>
+          <td>Journal of Energy Storage</td>
+          <td>未知</td>
+          <td>C 级。Journal of Energy Storage（优先列表第 10 位）来源尚可，但属热管理/相变材料综述，与 BMS 状态估计、健康评估、安全预警无直接关系，列为边缘备选。</td>
+        </tr>
+      
+        <tr>
+          <td><a href="https://doi.org/10.1016/j.applthermaleng.2026.133417">Thermal runaway jet flames of lithium iron phosphate batteries under inclined ceilings: Flame dynamics, ceiling thermal exposure, and safety evaluation</a></td>
+          <td>Applied Thermal Engineering</td>
+          <td>2026-09-26</td>
+          <td>C 级。期刊 Applied Thermal Engineering 不在优先列表中，内容偏燃烧/消防工程与结构热暴露，与 BMS 管理算法无直接关系，列为边缘备选而非推荐。</td>
+        </tr>
+      
+      </tbody>
+    </table>
+    
+  </section>
+
+  <section class="block">
+    <h2>五、今日论文总表</h2>
+    <table>
+      <thead><tr><th>等级</th><th>标题</th><th>期刊/来源</th><th>方向判断</th><th>链接</th></tr></thead>
+      <tbody>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data</td>
+          <td>eTransportation</td>
+          <td>将语义嵌入引入端到端深度学习框架，直接用储能电站现场数据估计电池系统 SOH。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data</td>
+          <td>eTransportation</td>
+          <td>利用实车运行数据建立整车级电池包内阻退化模型，并定量分析关键影响因素。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000858?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs</td>
+          <td>eTransportation</td>
+          <td>揭示电池包热失控期间的内短路演化与局部暂态过充现象，为 pack 级安全预警提供机理依据。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Path-dependent degradation diagnosis of commercial NCA/graphite 18650 cells under coupled cycle-calendar aging via dual-tank model identification and differential voltage analysis</td>
+          <td>Journal of Energy Storage</td>
+          <td>用双罐模型辨识结合差分电压分析，分阶段解析循环与日历耦合老化下的路径依赖退化机理。</td>
+          <td><a href="https://doi.org/10.1016/j.est.2026.124612">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Physics-informed unsupervised battery state-of-charge estimation via temperature-conditioned Mamba and parallel Bayesian inference</td>
+          <td>Journal of Energy Storage</td>
+          <td>用温度条件化 Mamba 生成物理状态空间模型参数，配合并行 IPLS 实现无标签、跨温度的 SOC 轨迹重建。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26042350?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Physics-informed unsupervised battery state-of-charge estimation via temperature-conditioned Mamba and parallel Bayesian inference</td>
+          <td>Journal of Energy Storage</td>
+          <td>用温度条件化 Mamba 生成物理状态空间模型参数，配合并行 IPLS 实现无标签、跨温度的 SOC 轨迹重建。</td>
+          <td><a href="https://doi.org/10.1016/j.est.2026.124571">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Health feature extraction from battery energy storage system field fault data</td>
+          <td>Journal of Energy Storage</td>
+          <td>从储能电站现场故障数据中提取可用于健康评估的特征，支撑系统级状态监测。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26044245?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>From battery fundamentals to sustainable management: A comprehensive review on thermal management, phase change materials, and emerging technologies</td>
+          <td>Journal of Energy Storage</td>
+          <td>综述电池热管理、相变材料及新兴技术，从电池基础延伸至可持续管理层面。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X2604483X?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Comparative evaluation of advanced SoC estimation and active cell equalization techniques in electric vehicles</td>
+          <td>Discover Applied Sciences</td>
+          <td>对比 EUKF、MA-SREKF 与 MPC/RMPC 在 SOC 估计与主动单体均衡上的精度与鲁棒性。</td>
+          <td><a href="https://doi.org/10.1007/s42452-026-09569-y">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>Thermal runaway jet flames of lithium iron phosphate batteries under inclined ceilings: Flame dynamics, ceiling thermal exposure, and safety evaluation</td>
+          <td>Applied Thermal Engineering</td>
+          <td>实验研究不同 SOC 与顶棚倾角下 LFP 电池热失控射流火焰行为及顶棚热暴露风险。</td>
+          <td><a href="https://doi.org/10.1016/j.applthermaleng.2026.133417">Open</a></td>
+        </tr>
+      
+      </tbody>
+    </table>
+  </section>
+
+  <p class="footer">Generated by battery-paper-agent. 请人工复核关键结论后再用于论文综述或组会汇报。</p>
+</div>
+</body>
+</html>
