@@ -1,0 +1,323 @@
+[
+  {
+    "title": "A cloud-edge collaborative dual-modal fault detection block for battery packs: Enabling intelligent safety management in electric vehicle battery systems",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Applied Energy",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0306261926015473?dgcid=rss_sd_all",
+    "source_id": "rss:9:Applied Energy",
+    "score": 122.25,
+    "level": "A",
+    "title_zh": "面向电池包的云边协同双模态故障检测模块：实现电动汽车电池系统智能安全管理",
+    "one_sentence": "提出一种云边协同的双模态故障检测模块，用于电动汽车电池包的智能安全管理和故障诊断。",
+    "problem": "电池包故障检测需要在车端实时性与云端算力之间取得平衡，单一侧、单模态方案难以同时满足低延迟与高准确率的智能安全管理需求。",
+    "contributions": [
+      "设计云边协同的电池包故障检测架构，明确云端与边缘端的分工与协同机制",
+      "提出双模态故障检测模块，融合多源信号提升电池包故障识别能力",
+      "面向电动汽车电池系统智能安全管理场景给出完整实现与验证"
+    ],
+    "bms_relevance": "直接命中 BMS 故障诊断与安全预警方向，同时属于 cloud/edge BMS 架构研究，是电池管理系统安全运维的核心问题。",
+    "insight_for_group": "云边协同与双模态融合思路可迁移到储能电站/车队的现场故障诊断与安全预警；其边缘端轻量化检测块的设计，对课题组在 field data 场景下做 pack 级 inconsistency 与故障识别有直接借鉴价值。",
+    "reason": "A级。Applied Energy 位于优先列表第8位，论文主题为电池包故障检测 + 云边 BMS 智能安全管理，与课题组 BMS/安全预警方向强相关且具备系统级工程价值，应精读。"
+  },
+  {
+    "title": "A cloud-edge collaborative dual-modal fault detection block for battery packs: Enabling intelligent safety management in electric vehicle battery systems",
+    "abstract": "",
+    "authors": [
+      "Xinze Zhao",
+      "Bingxiang Sun",
+      "Sara Vinco",
+      "Chao Song",
+      "Khaled Sidahmed Sidahmed Alamin",
+      "Yuhan Shen",
+      "Weige Zhang",
+      "Massimo Poncino"
+    ],
+    "source": "OpenAlex",
+    "venue": "Applied Energy",
+    "date": "2026-09-28",
+    "doi": "10.1016/j.apenergy.2026.128891",
+    "url": "https://doi.org/10.1016/j.apenergy.2026.128891",
+    "source_id": "",
+    "score": 104.25,
+    "level": "A",
+    "title_zh": "面向电池包的云边协同双模态故障检测模块：实现电动汽车电池系统智能安全管理",
+    "one_sentence": "提出一种云边协同的双模态故障检测模块，用于电动汽车电池包的智能安全管理和故障诊断。",
+    "problem": "电池包故障检测需要在车端实时性与云端算力之间取得平衡，单一侧、单模态方案难以同时满足低延迟与高准确率的智能安全管理需求。",
+    "contributions": [
+      "设计云边协同的电池包故障检测架构，明确云端与边缘端的分工与协同机制",
+      "提出双模态故障检测模块，融合多源信号提升电池包故障识别能力",
+      "面向电动汽车电池系统智能安全管理场景给出完整实现与验证"
+    ],
+    "bms_relevance": "直接命中 BMS 故障诊断与安全预警方向，同时属于 cloud/edge BMS 架构研究，是电池管理系统安全运维的核心问题。",
+    "insight_for_group": "云边协同与双模态融合思路可迁移到储能电站/车队的现场故障诊断与安全预警；其边缘端轻量化检测块的设计，对课题组在 field data 场景下做 pack 级 inconsistency 与故障识别有直接借鉴价值。",
+    "reason": "A级。Applied Energy 位于优先列表第8位，论文主题为电池包故障检测 + 云边 BMS 智能安全管理，与课题组 BMS/安全预警方向强相关且具备系统级工程价值，应精读。"
+  },
+  {
+    "title": "Peak Power Prediction of Lithium-Ion Battery Considering Long Discharge Time for Trains Under Emergency Traction",
+    "abstract": "When an electric multiple unit (EMU) loses catenary supply, the on-board energy-storage system must simultaneously sustain auxiliary loads and provide sufficient traction power for the train to reach a safe stopping location. In this situation, the available battery power is not constant over a long discharge interval because the state of charge (SOC), terminal voltage, and equivalent-circuit parameters evolve continuously. This study develops a long-horizon state-of-power (SOP) prediction framework for emergency traction. An emergency power-flow model first links battery power to traction-motor demand and auxiliary consumption. A second-order RC model is then combined with fast recursive least squares (FRLS) for online SOC and parameter estimation, while offline SOC-dependent parameter functions are used to update the battery model inside the SOP prediction horizon. On this basis, the peak discharge current is determined under battery-design, SOC, and terminal-voltage constraints by an iterative binary-search procedure. The resulting SOP is further mapped to the available emergency traction force. The validation includes the 25 ∘C LTO-cell tests together with low-SOC, multi-temperature, method-comparison, ablation, route-stress, and pack-level analyses. These results show that updating the equivalent-circuit parameters inside the prediction horizon materially changes the long-horizon power limit relative to a fixed-parameter formulation, while the binary-search implementation retains a computational structure suitable for train-borne use.",
+    "authors": [
+      "Yuanjiang Hu",
+      "Jiayuan Guo",
+      "Jiaxin Wang",
+      "Guang Yang",
+      "Taohua Liang"
+    ],
+    "source": "Crossref",
+    "venue": "Electronics",
+    "date": "2026-09-28",
+    "doi": "10.3390/electronics15194462",
+    "url": "https://doi.org/10.3390/electronics15194462",
+    "source_id": "",
+    "score": 99.5,
+    "level": "B",
+    "title_zh": "考虑长放电时间的锂离子电池峰值功率预测：面向列车紧急牵引场景",
+    "one_sentence": "面向动车组紧急牵引场景，提出考虑长时域放电的电池 SOP 预测框架并映射为可用牵引力。",
+    "problem": "列车失去接触网供电时，车载储能需在长时间放电中同时支撑辅助负载与牵引功率，而 SOC、端电压与等效电路参数持续演化，传统恒定参数 SOP 预测无法反映长时域真实功率边界。",
+    "contributions": [
+      "建立连接电池功率与牵引电机需求、辅助功耗的紧急功率流模型",
+      "结合二阶 RC 模型与快速递推最小二乘实现 SOC 与参数的在线辨识，并在预测时域内更新参数",
+      "基于二分搜索在电池设计、SOC 与端电压约束下求解峰值放电电流，并映射为紧急牵引力"
+    ],
+    "bms_relevance": "SOP 是 BMS 的核心状态量之一，论文涉及 SOC 估计、参数在线辨识与功率约束求解，属于 BMS 状态估计与系统级功率管理范畴。",
+    "insight_for_group": "其“预测时域内参数自适应更新”的思想可迁移到课题组 SOH/RUL 与 pack 级功率能力评估；二分搜索求解功率约束的做法计算量可控，适合边缘 BMS 部署参考。",
+    "reason": "B级。Electronics（MDPI）不在优先列表内，期刊层级一般；但 SOP + 在线参数辨识 + 长时域约束求解的技术路线与 BMS 相关，建议浏览其参数更新与约束求解部分。"
+  },
+  {
+    "title": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 112.5,
+    "level": "A",
+    "title_zh": "基于语义嵌入端到端深度学习的储能系统现场数据健康状态估计",
+    "one_sentence": "提出语义嵌入的端到端深度学习框架，直接利用储能系统现场数据估计电池 SOH。",
+    "problem": "储能系统现场数据存在工况复杂、噪声大、标注缺失等问题，传统特征工程+浅层模型的 SOH 估计难以在真实运行数据上保持精度与泛化性。",
+    "contributions": [
+      "构建面向 BESS 现场数据的端到端 SOH 估计深度学习框架",
+      "引入语义嵌入机制，将电池领域先验知识融入表征学习",
+      "在真实储能系统现场数据上验证估计精度与泛化能力"
+    ],
+    "bms_relevance": "直接对应 BMS 中的 SOH 估计与储能系统健康评估，且使用现场数据，属于 BMS 状态估计与储能运维的核心问题。",
+    "insight_for_group": "为课题组在储能/车队现场数据上开展 SOH 估计提供端到端 + 语义先验融合的范式参考；语义嵌入思路可结合 physics-informed learning，缓解现场数据标注稀缺问题。",
+    "reason": "A级。eTransportation 位于优先列表第15位，论文聚焦 BESS 现场数据 SOH 估计，兼具系统级场景与数据真实性，与课题组 field data + SOH 方向高度契合。"
+  },
+  {
+    "title": "Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000858?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "A",
+    "title_zh": "基于真实世界数据的锂离子电池包整车级内阻退化建模与影响参数分析",
+    "one_sentence": "利用实车运行数据建立电池包整车级内阻退化模型，并分析影响内阻退化的关键参数。",
+    "problem": "电池包内阻退化受整车工况、温度、使用习惯等多因素耦合影响，实验室单体数据难以刻画整车级电池包的真实退化规律。",
+    "contributions": [
+      "基于真实世界车队数据构建电池包整车级内阻退化模型",
+      "量化分析影响内阻退化的主要参数及其贡献",
+      "揭示整车级使用条件与电池包老化之间的关联规律"
+    ],
+    "bms_relevance": "属于 BMS 中的 SOH/老化建模与电池包级状态评估，pack 级 + real-world data 正是课题组重点关注场景。",
+    "insight_for_group": "可直接借鉴其真实车队数据处理与 pack 级退化建模流程，用于课题组的内阻/SOH 联合估计与 pack inconsistency 演化分析，也为 field data 驱动的寿命预测提供参数敏感性先验。",
+    "reason": "A级。eTransportation 位于优先列表第15位，论文为实车数据 + 电池包级内阻退化建模，场景真实、系统层级明确，是 BMS 寿命与健康评估方向的必读文献。"
+  },
+  {
+    "title": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "锂离子电池包热失控过程中的电气短路行为与暂态局部过充条件",
+    "one_sentence": "通过电池包实验揭示热失控过程中内部短路与暂态局部过充的电气行为特征。",
+    "problem": "电池包热失控过程中电气短路路径与局部过充条件的演化机理尚不清晰，制约了基于电信号的早期预警判据设计。",
+    "contributions": [
+      "刻画电池包热失控过程中的电气短路行为特征",
+      "揭示热失控期间暂态局部过充条件的形成机制",
+      "为基于电压/电流异常的电池包安全预警提供实验依据"
+    ],
+    "bms_relevance": "属于 BMS 安全预警与热失控早期预警方向，pack 级实验数据可支撑预警阈值与故障判据设计。",
+    "insight_for_group": "其短路与局部过充的电信号特征可作为课题组构建热失控早期预警特征的物理依据，也可用于校验 pack-level 电压异常检测算法；但偏机理实验，方法可迁移性有限。",
+    "reason": "B级。eTransportation 位于优先列表第15位，主题属 pack 级热失控与安全预警，相关性强但偏实验机理，建议浏览其电气特征结论。"
+  },
+  {
+    "title": "Health feature extraction from battery energy storage system field fault data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26044245?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 81.0,
+    "level": "A",
+    "title_zh": "从电池储能系统现场故障数据中提取健康特征",
+    "one_sentence": "面向储能系统现场故障数据，构建健康特征提取方法以支撑电池健康评估与故障预警。",
+    "problem": "储能电站现场故障数据噪声大、故障样本稀少且工况不可控，如何从中提取可表征电池健康状态与故障前兆的特征尚缺乏系统方法。",
+    "contributions": [
+      "面向 BESS 现场故障数据提出健康特征提取流程",
+      "建立现场故障数据与电池健康状态之间的特征映射",
+      "为储能系统故障预警与运维决策提供可用的特征基础"
+    ],
+    "bms_relevance": "直接对应 BMS 故障诊断、安全预警与储能系统健康运维，且基于现场故障数据，属于课题组重点关注的 field data + 安全方向。",
+    "insight_for_group": "其现场故障数据特征工程思路可复用到课题组储能/车队数据集的故障标签构建与早期预警特征筛选，是打通 field data 与 pack-level 异常检测的实用参考。",
+    "reason": "A级。Journal of Energy Storage 位于优先列表第10位，论文直接使用储能现场故障数据做健康特征提取，主题与数据来源均高度契合课题组方向。"
+  },
+  {
+    "title": "From battery fundamentals to sustainable management: A comprehensive review on thermal management, phase change materials, and emerging technologies",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X2604483X?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 69.0,
+    "level": "C",
+    "title_zh": "从电池基础到可持续管理：热管理、相变材料与新兴技术综述",
+    "one_sentence": "综述电池热管理、相变材料及新兴技术，并从基础原理延伸至可持续管理。",
+    "problem": "电池热管理技术在材料与系统层面发展迅速，但缺乏从基础原理到可持续管理实践的系统梳理。",
+    "contributions": [
+      "系统回顾电池热管理与相变材料技术进展",
+      "梳理新兴热管理技术的应用现状",
+      "从可持续管理角度讨论电池热管理的发展方向"
+    ],
+    "bms_relevance": "与 BMS 的电池热管理、温度安全边界存在间接关联，但主体内容集中在相变材料与热管理材料层面，不涉及状态估计、故障诊断或 pack 级管理算法。",
+    "insight_for_group": "对课题组的热失控早期预警背景建模或温度场边界设定仅有间接参考价值；若关注热-电耦合建模可作为背景资料，但不建议投入精读时间。",
+    "reason": "C级。Journal of Energy Storage 位于优先列表第10位，但本文属相变材料与热管理综述，材料导向明显、BMS 算法与管理层面相关性弱，列为边缘备选。"
+  },
+  {
+    "title": "Impact of Electrical Parameter Measurement Error on Battery SOC Estimation Accuracy and Compensation Strategies",
+    "abstract": "The estimation accuracy of the battery state of charge (SOC) directly affects the reliable and stable operation of the battery management system (BMS). In complex operating conditions such as vehicle-mounted applications and energy storage power stations, systematic biases and random noise are common in voltage and current sensing measurement. Most existing studies on SOC error focus on the independent effect of individual measurement error and lack systematic explanation on the propagation mechanism and quantitative influence of multi-source errors. In this paper, based on the second-order RC equivalent circuit model, the analytical transfer model of SOC estimation error is established under the framework of the extended Kalman filter (EKF), and the transfer path of measurement error in the algorithm is clarified. Then, a battery test bench with “reference-measurement” dual-channel parallel measurement is built. Under the constant-current discharge condition, the contribution weight quantification and sensitivity analysis of multi-source measurement error to SOC estimation error are completed, and it is revealed that the voltage measurement bias is the dominant error source of SOC estimation. On this basis, an augmented-state modified EKF algorithm (AM-EKF) with online identification of voltage bias is proposed. The voltage measurement bias is incorporated into the state vector to realize the joint estimation and online compensation of the operating state and measurement bias. The results show that under the constant-current discharge condition, the improved algorithm increases the proportion of SOC estimation error within the ±3% qualified interval to more than 85% in the whole discharge period. The maximum estimation error is significantly lower than that of the traditional EKF algorithm, and the accuracy is close to the unbiased ideal condition. Under the modified DST dynamic condition, the improved algorithm controls the SOC estimation error within 5%, which is 72% lower than the traditional EKF calculation error with bias input. The scheme has high robustness, no additional hardware cost, controllable computational complexity and excellent engineering application value.",
+    "authors": [
+      "Peng Wang",
+      "Shusong Wang",
+      "Yi Su",
+      "Yunbo Peng",
+      "Haiyuan Wang",
+      "Xiaolin Xie",
+      "Xiqiang Ma"
+    ],
+    "source": "Crossref",
+    "venue": "World Electric Vehicle Journal",
+    "date": "2026-09-28",
+    "doi": "10.3390/wevj17100504",
+    "url": "https://doi.org/10.3390/wevj17100504",
+    "source_id": "",
+    "score": 116.0,
+    "level": "B",
+    "title_zh": "电气参数测量误差对电池 SOC 估计精度的影响及补偿策略",
+    "one_sentence": "建立 EKF 框架下多源测量误差到 SOC 估计误差的解析传递模型，并提出在线辨识电压偏置的改进 EKF 算法。",
+    "problem": "现有 SOC 误差研究多关注单一测量误差的独立影响，缺乏多源误差传播机理与定量贡献分析，且测量偏置未在算法中在线补偿。",
+    "contributions": [
+      "基于二阶 RC 与 EKF 建立 SOC 估计误差的解析传递模型，厘清误差传播路径",
+      "通过双通道并行测试台完成多源测量误差的贡献权重量化与敏感性分析，指出电压测量偏置为主导误差源",
+      "提出增广状态改进 EKF（AM-EKF），将电压偏置纳入状态向量实现在线联合估计与补偿"
+    ],
+    "bms_relevance": "SOC 估计是 BMS 最基础的状态估计功能，测量误差建模与补偿直接关系到 BMS 精度与可靠性。",
+    "insight_for_group": "其对测量误差传播的解析建模与偏置在线补偿思路，可推广到课题组 SOH/pack 级状态估计中的传感器偏差鲁棒性问题；双通道“参考-测量”实验设计值得借鉴。",
+    "reason": "B级。World Electric Vehicle Journal 期刊层级较低，不在优先列表内；但 SOC 误差传播机理与 AM-EKF 补偿方法对 BMS 状态估计有实际参考价值，建议浏览。"
+  },
+  {
+    "title": "Beyond standard battery testing: a physics-informed framework for validating next-generation battery packs",
+    "abstract": "Standardized battery testing provides an essential foundation for benchmarking and qualification, yet its ability to represent increasingly complex operating conditions is becoming limited. Existing protocols provide reproducible measures of electrochemical performance but often evaluate individual stress factors under controlled laboratory conditions, which may not fully capture the coupled physical environments encountered in real-world operation. Global electric-vehicle battery demand is projected to exceed 3 TW h by 2030, more than tripling from around 1 TW h in 2024 under the IEA Stated Policies Scenario, highlighting the need for reliable battery qualification. As battery technologies evolve toward cell-to-pack architectures, fast charging, solid-state systems, and intelligent battery management, the gap between standardized testing and operational reality is becoming more pronounced. This perspective develops a conceptual physics-informed validation philosophy and proposes a six-level Validation Maturity Framework, progressing from protocol-oriented testing toward stress-oriented, mechanism-oriented, physics-informed, and predictive validation. Representative studies report prediction errors ranging from 2.93% under previously unseen temperatures to below 0.5% on independent datasets, illustrating the quantitative potential of physics-informed and data-driven approaches when validation extends beyond conventional operating conditions. The framework emphasizes physical relevance and mechanistic understanding rather than increasing experimental complexity alone, and discusses how mechanistic models, real-time sensing, physics-informed artificial intelligence, and digital twins can support predictive battery qualification. Standardized testing therefore remains the foundation of a broader validation hierarchy for improving the reliability and practical qualification of next-generation battery packs.",
+    "authors": [
+      "Phuoc-Anh Le"
+    ],
+    "source": "Crossref",
+    "venue": "Frontiers in Batteries and Electrochemistry",
+    "date": "2026-09-28",
+    "doi": "10.3389/fbael.2026.1966110",
+    "url": "https://doi.org/10.3389/fbael.2026.1966110",
+    "source_id": "",
+    "score": 112.0,
+    "level": "B",
+    "title_zh": "超越标准电池测试：面向下一代电池包的物理信息验证框架",
+    "one_sentence": "提出物理信息驱动的验证理念与六级验证成熟度框架，主张用机理模型、实时传感、PIML 与数字孪生支撑电池包的预测性验证。",
+    "problem": "标准化电池测试在受控实验室条件下逐项评估单一应力，难以表征 cell-to-pack 架构、快充、固态体系与智能 BMS 下真实运行中的耦合物理环境。",
+    "contributions": [
+      "提出物理信息验证哲学，强调物理相关性与机理理解而非单纯增加实验复杂度",
+      "构建从协议导向到应力导向、机理导向、物理信息导向直至预测性验证的六级验证成熟度框架",
+      "梳理机理模型、实时传感、物理信息人工智能与数字孪生在预测性电池验证中的作用"
+    ],
+    "bms_relevance": "涉及智能电池管理、数字孪生与物理信息学习，属于 cloud BMS 与 pack 级验证方法学范畴，但偏观点与框架层面。",
+    "insight_for_group": "六级验证成熟度框架可作为课题组设计 pack 级 SOH/RUL 与 inconsistency 验证实验的方法论参照，特别是物理信息学习与数字孪生如何与真实工况验证对齐。",
+    "reason": "B级。Frontiers in Batteries and Electrochemistry 为较低影响力期刊，且本文属 perspective 类文章，证据强度有限；但其中 PIML、数字孪生与 pack 级验证结合的框架对课题组有方法学启发，建议浏览。"
+  },
+  {
+    "title": "Digital twin of a battery for traction rolling stock and substations: remaining useful life estimation based on a dual Kalman filter",
+    "abstract": "Background: One of the key objectives of digital transformation in railway transport is the development of digital platforms and digital twins aimed at improving operational efficiency. Predicting the remaining useful life of equipment is a critical task for traction rolling stock and traction substations of traction power supply systems. A key component affecting the reliability of these assets is batteries. The development of a digital twin of a battery for traction rolling stock and substations enables the estimation of essential parameters, namely remaining capacity and remaining useful life (RUL). Aim: To develop a digital twin of a battery for traction rolling stock and traction substations of traction power supply systems, providing estimates of remaining capacity and RUL based on a dual Kalman filter, using a mixed approach to state-of-charge (SoC) estimation and adaptive forgetting factors derived from measurements of current, voltage, and temperature. Materials and methods: To achieve the stated aim, the research employed methods of experimental design, mathematical statistics, differential calculus, and a dual Kalman filter algorithm. Verification of the results was performed using experimental data from a lithium-ion battery with a series connection of 15 cells. The estimation of remaining capacity and RUL was based on joint filtering of the parameters of a Thevenin equivalent circuit model and the SoC. Results: A digital twin of a battery for traction rolling stock and substations has been developed. The proposed digital twin enables the determination of remaining capacity and RUL from measured values of current, voltage, and temperature. Conclusion: The results were verified against measurement data from standard control and monitoring systems. The mean absolute percentage error for the SoC and voltage estimation was less than 1.5% and 0.5%, respectively. The obtained estimates of the RUL and remaining capacity are reliable and consistent with the results of similar studies in charge–discharge cycles. The proposed method for estimating the remaining useful life and remaining capacity of batteries for traction rolling stock and substations is recommended for use in technical condition monitoring and diagnostic systems within the framework of the Digital Locomotive and Digital Substation projects.",
+    "authors": [
+      "Vladislav L. Nezevak",
+      "Elena I. Bakanova"
+    ],
+    "source": "Crossref",
+    "venue": "Modern Transportation Systems and Technologies",
+    "date": "2026-09-28",
+    "doi": "10.17816/transsyst717117",
+    "url": "https://doi.org/10.17816/transsyst717117",
+    "source_id": "",
+    "score": 112.0,
+    "level": "B",
+    "title_zh": "牵引机车与牵引变电所电池数字孪生：基于双卡尔曼滤波的剩余使用寿命估计",
+    "one_sentence": "构建面向牵引机车与变电所电池的数字孪生，采用双卡尔曼滤波联合估计 SOC、剩余容量与 RUL。",
+    "problem": "牵引供电与机车储能设备的电池剩余容量与 RUL 难以从常规监测数据中直接获取，缺乏可在线运行的联合状态-参数估计方案。",
+    "contributions": [
+      "构建基于 Thevenin 等效电路与 SoC 混合估计方法的电池数字孪生",
+      "采用双卡尔曼滤波与自适应遗忘因子实现参数与 SoC 的联合滤波，估计剩余容量与 RUL",
+      "用 15 节串联锂离子电池实验数据进行验证，并与标准监控系统测量结果对比"
+    ],
+    "bms_relevance": "直接涉及 BMS 的 SOC 估计、RUL 预测与数字孪生架构，串联电池组场景与 pack 级管理相关。",
+    "insight_for_group": "双卡尔曼滤波联合估计参数与状态的方案可参考用于课题组 pack 级 SOH/RUL 数字孪生实现；但其验证规模较小（15 串单体），可作为 baseline 思路而非主要依据。",
+    "reason": "B级。Modern Transportation Systems and Technologies 为小众期刊，不在优先列表内，证据规模有限；但数字孪生 + 双卡尔曼 RUL 估计与课题组方向相关，建议浏览。"
+  },
+  {
+    "title": "Battery State of Health Estimation Using a Hierarchical Gradient Algorithm Under Varying Temperature Conditions",
+    "abstract": "Abstract Accurate state-of-health (SOH) estimation of lithium-ion batteries under varying temperature conditions is essential for safe and efficient battery management systems (BMSs).&#xD;However, conventional empirical SOH models often neglect temperature-dependent aging, while variable projection (VP)-based identification requires repeated projection and matrix-factorization operations.&#xD;To address these issues, this paper proposes a temperature-coupled double-exponential SOH model and a hierarchical gradient (HG) algorithm for efficient parameter identification.&#xD;An Arrhenius-type temperature factor is embedded in the degradation-rate terms to represent temperature-dependent electrochemical aging reflected by capacity fading.&#xD;The HG algorithm alternately updates the linear and nonlinear parameter blocks through a Gauss--Seidel-type gradient scheme, thereby avoiding repeated projection calculations.&#xD;Identification results under staircase temperature conditions show that HG achieves accuracy comparable to VP in terms of RMSE and the coefficient of determination, while substantially reducing computational time.&#xD;The proposed method provides a lightweight temperature-aware SOH estimation scheme for resource-constrained BMS applications.",
+    "authors": [
+      "Jing Chen",
+      "haoyuan xiang",
+      "Peng Xie",
+      "Yawen Mao"
+    ],
+    "source": "Crossref",
+    "venue": "Journal of The Electrochemical Society",
+    "date": "2026-09-28",
+    "doi": "10.1149/1945-7111/aead2b",
+    "url": "https://doi.org/10.1149/1945-7111/aead2b",
+    "source_id": "",
+    "score": 108.0,
+    "level": "B",
+    "title_zh": "变温条件下基于层次梯度算法的电池健康状态估计",
+    "one_sentence": "提出温度耦合双指数 SOH 模型与层次梯度算法，在变温条件下实现轻量化 SOH 估计。",
+    "problem": "传统经验 SOH 模型忽略温度相关老化，而变投影类辨识方法需要反复投影与矩阵分解，计算负担重，难以用于资源受限 BMS。",
+    "contributions": [
+      "构建嵌入 Arrhenius 型温度因子的双指数 SOH 退化模型",
+      "提出 Gauss-Seidel 型层次梯度算法，交替更新线性与非线性参数块，避免重复投影计算",
+      "在阶梯温度工况下验证精度与变投影相当，同时显著降低计算时间"
+    ],
+    "bms_relevance": "面向 BMS 的 SOH 估计与温度相关老化建模，强调轻量化实现，符合车载 BMS 算力受限的实际需求。",
+    "insight_for_group": "其温度耦合退化模型与轻量化在线辨识思路，可用于课题组 SOH/RUL 算法在边缘 BMS 上的部署优化；层次梯度结构也可与 cloud-edge 架构下的端侧计算需求结合。",
+    "reason": "B级。Journal of The Electrochemical Society 不在优先列表内，期刊层级中等；方法在温度相关 SOH 建模与计算效率上有可取之处，建议浏览。"
+  }
+]
