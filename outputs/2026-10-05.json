@@ -1,0 +1,322 @@
+[
+  {
+    "title": "Operating area-dependent flexible ancillary service provision of electric vehicles: Capacity assessment and coordination",
+    "abstract": "The vehicle-to-grid (V2G) technology enables electric vehicles (EVs) to provide ancillary services to the grid, but the service provision of EVs is challenged by the tradeoff between drivers’ traveling demands and the grid’s requirement for reliable support. Accurate assessment of schedulable capacities and grid requirement-adapted coordination of EVs has become a critical problem that needs to be addressed. This paper proposes an operating area-dependent capacity assessment and coordination strategy for EV clusters. First, considering the charging characteristics and traveling behavior of EVs, the state of charge (SOC)-time operating area of EVs is constructed. Based on the operating area, the schedulable capacity of EVs can be flexibly assessed under varying power amplitude and duration requirements. Then, a prioritization-based coordination strategy for EVs for ancillary service with certain power amplitude and duration is proposed with the objective of minimizing battery aging. To address the unexpected power deficit due to sudden disconnection of EVs during ancillary service, an emergency compensation strategy is proposed. The EVs outside the restricted boundaries are dispatched in such a case, and the stable and reliable ancillary service of EV cluster can be ensured. Case study results validate the proposed method in terms of ancillary service capacity estimation, battery aging reduction and stable service provision. In the studied case, the proposed method avoids a 13.3% decrease in the output power of the EV cluster due to inaccurate capacity estimation. Under the adopted aging assessment based on experimental degradation data, the proposed method substantially reduces battery aging costs compared with the conventional strategy. Furthermore, the proposed coordination strategy effectively maintains charging-discharging power stability during ancillary service provision.",
+    "authors": [
+      "Qiao Peng",
+      "Longyi Liang",
+      "Pengyu Wang",
+      "Tingyun Gu",
+      "Bowen Li",
+      "Tianqi Liu"
+    ],
+    "source": "OpenAlex",
+    "venue": "Applied Energy",
+    "date": "2026-10-03",
+    "doi": "10.1016/j.apenergy.2026.128956",
+    "url": "https://doi.org/10.1016/j.apenergy.2026.128956",
+    "source_id": "",
+    "score": 102.25,
+    "level": "A",
+    "title_zh": "Operating area-dependent flexible ancillary service provision of electric vehicles: Capacity assessment and coordination",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 102.25，推荐等级 A；期刊优先级第 8 位。"
+  },
+  {
+    "title": "From surrogate task to multiscale external-reference consistency learning: Adaptation-free cross-topology early warning of thermal runaway in electric vehicle batteries",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Applied Energy",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0306261926016132?dgcid=rss_sd_all",
+    "source_id": "rss:9:Applied Energy",
+    "score": 100.25,
+    "level": "A",
+    "title_zh": "From surrogate task to multiscale external-reference consistency learning: Adaptation-free cross-topology early warning of thermal runaway in electric vehicle batteries",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 100.25，推荐等级 A；期刊优先级第 8 位。"
+  },
+  {
+    "title": "Fast, safe and low energy consumption charging for lithium-ion batteries via dynamic safety boundaries and adaptive SOC control",
+    "abstract": "The widespread adoption of electric vehicles necessitates lithium-ion batteries capable of fast charging, yet this process inherently faces the risk of heat generation and lithium plating. Considering the common fast charging scenarios around room temperature and practical implementation feasibility, this study introduces an offline multi-stage charging optimization framework. This framework is based on an enhanced electrochemical-thermal coupling model, and the solid-phase diffusion coefficient for both electrodes varies with state of charge (SOC). Leveraging the high rates adaptability and precise dynamic lithium plating current boundary tracking at the negative electrode enabled by this high accuracy model, three systematic charging solutions are developed and thoroughly analyzed. There are two charging strategies based on uniform SOC intervals, corresponding to the fixed safety boundaries without critical charging current update and dynamic safety boundaries with critical charging current update, as well as a charging protocol with nonuniform SOC intervals based on energy consumption. Compared with using traditional fixed safety boundaries, the dynamic boundary strategy maintains negative electrode potential above 10 mV throughout charging to guarantee safety. Further, the energy-adaptive SOC interval division approach extra curtails energy consumption by 1.03% and mitigates power fluctuations, which can deliver substantial cumulative benefits when scaled to the massive electric vehicle market. For low temperature conditions, the batteries can be preheated to specific temperatures before applying the proposed strategy. This framework offers valuable insights into the design of next-generation charging protocols for lithium-ion batteries that are fast, safe, and economically viable.",
+    "authors": [
+      "Linjing Zhang",
+      "Minghan Zhou",
+      "Xiaoqian Su",
+      "Kefan Zhai",
+      "Caiping Zhang",
+      "Weige Zhang"
+    ],
+    "source": "OpenAlex",
+    "venue": "Applied Energy",
+    "date": "2026-10-03",
+    "doi": "10.1016/j.apenergy.2026.128973",
+    "url": "https://doi.org/10.1016/j.apenergy.2026.128973",
+    "source_id": "",
+    "score": 82.25,
+    "level": "A",
+    "title_zh": "Fast, safe and low energy consumption charging for lithium-ion batteries via dynamic safety boundaries and adaptive SOC control",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 82.25，推荐等级 A；期刊优先级第 8 位。"
+  },
+  {
+    "title": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 112.5,
+    "level": "B",
+    "title_zh": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 112.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000858?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 90.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 90.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Electrochemical-thermal-aging coupled model for parallel lithium-ion battery packs: Evolution of thermal and aging inconsistency under cell-to-cell variations",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26045998?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 79.0,
+    "level": "B",
+    "title_zh": "Electrochemical-thermal-aging coupled model for parallel lithium-ion battery packs: Evolution of thermal and aging inconsistency under cell-to-cell variations",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 79.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "A Comprehensive Review of Battery State of Health Estimation: Methods, Challenges and Future Perspectives",
+    "abstract": "Lithium-ion battery state of health (SOH) cannot be measured directly and must be inferred from capacity, resistance, voltage, current, temperature, and usage history. This structured narrative review integrates degradation mechanisms with feature-based, model-based, data-driven, and physics-informed/hybrid estimation methods, and evaluates them against validation design, chemistry dependence, uncertainty, computational burden, and on-board feasibility. The literature was updated through targeted searches of Crossref-indexed publisher platforms, IEEE Xplore, ScienceDirect, SpringerLink/Nature, Wiley Online Library, and MDPI; 117 unique publications, institutional reports, and regulatory documents were retained after duplicate removal and relevance screening. Reported errors are treated as study-specific results rather than universal characteristics of method families. The synthesis shows that no single estimator is uniformly superior: feature-based diagnostics provide physical insight but require informative and low-noise operating segments; equivalent-circuit observers are compatible with embedded implementation but depend on model adaptation; data-driven models can achieve low error within their validation domain but require rigorous cross-cell and cross-condition testing; and physics-informed or hybrid approaches offer a promising compromise when their added complexity is justified. Future progress depends on transparent validation, uncertain-aware estimation, chemistry transfer, compact edge implementation, multimodal sensing, and auditable life-cycle data under emerging battery regulations.",
+    "authors": [
+      "Hakan Çoban",
+      "Koray Erhan",
+      "Mustafa Baysal"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "International Journal of Automotive Science And Technology",
+    "date": "2026-10-03",
+    "doi": "10.30939/ijastech..1995891",
+    "url": "https://doi.org/10.30939/ijastech..1995891",
+    "source_id": "",
+    "score": 88.0,
+    "level": "B",
+    "title_zh": "A Comprehensive Review of Battery State of Health Estimation: Methods, Challenges and Future Perspectives",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 88.0，推荐等级 B。"
+  },
+  {
+    "title": "mnemorphics",
+    "abstract": "🛡️ Executive Summary: Shield of Mercy System Architecture The Shield of Mercy is a Resonance-Stabilized, Current-Fused Geodetic Shield Array [upgradedocx]. It operates as a contiguous structural and energetic skin wrapped around a critical facility or national frontier, eliminating atmospheric field dissipation by completely containing and terminally managing energy within a modular, interlocking geodetic hex-diode matrix [Here_is_how_the_ShieldofMercy_nuclear_shield_dom]. The system rejects all unconfined \"pure energy field\" concepts, providing defense against megaton-class threats through a layered combination of underground mass shielding, automated hard-kill interception tiers, and high-flux, fluid-cooled shockwave-dissipating containment cells [Secondary_Blast_and_GroundShock_Shielddocx, High scale cooler, upgradedocx]. 🧱 1. Geodetic Canopy & Structural Layer Tethered Deployment Loop: Fortified Bastion Towers deploy the dome ring-by-ring using pneumatic/pyrotechnic wire launchers [Here_is_how_the_ShieldofMercy_nuclear_shield_dom]. A 120-bar Nitrogen pulse fires a 12.5 kg AISI 4340 steel harpoon at 85 m/s to lock directly onto the heavy nano-fiber steel structural frame of raw 180 kg hexagonal modules. Silicon-Carbide (SiC) inverter-driven winches pull the tethers at 2.5 m/s, drawing each facet into interlocking tracks. Current-Fused Continuity: Once a node is mechanically seated via overlapping dovetails, the tower triggers a controlled high-voltage pulse down the tether core [Here_is_how_the_ShieldofMercy_nuclear_shield_dom]. This pulse triggers localized resistance heating that micro-welds panel boundaries and sinters carbon nanotube (CNT) buses into a single, continuous, self-healing path [Here_is_how_the_ShieldofMercy_nuclear_shield_dom]. This creates a unified geodetic spine that distributes massive external kinetic blast loads uniformly across the entire sector lattice [Here_is_how_the_ShieldofMercy_nuclear_shield_dom]. ⚡ 2. Contained Kinetic & Acoustic Rectification Mecrotic Diode Cartridges: When a projectile or blast overpressure strikes a dome facet, the force passes down an 8 mm tungsten-carbide front face plate and is guided laterally into localized shockwave diodes [High scale cooler]. Nonlinear Frequency Shifting: The vibration enters a stagnant, hermetically sealed Galinstan-microbubble matrix core () [High scale cooler]. The bubbles compress nonlinearly under the blast front, shifting destructive low-frequency kinetic shock waves up into harmless ultrasonic bands [High scale cooler]. A rear phononic crystal filter acts as a strict stop-band, letting forward energy dissipate safely while completely blocking any reverse-propagating back-reflections that would cause structural fatigue or bleed back into internal systems [source: 2, 16, High scale cooler]. Thermal Impedance Stability: To prevent outdoor temperature swings from throwing the diode-hex out of alignment with the fixed mechanical filters, an active nitrogen-blanketed servo-piston accumulator automatically scales the internal cavity background pressure across a 12°C delta [High scale cooler]. This dynamic compensation holds the microbubble radii stable, locking the baseline acoustic impedance () rigidly in place during sustained blast processing [High scale cooler]. 💧 3. High-Flux Concentric Cooling & Isolation Thermal Decoupling: To prevent high-load grid transmission or point-defense laser heat from causing an impedance drift in the cartridges, the wave-shaping core is entirely separated from fluid flow [High scale cooler]. Concentric Isolated Sleeve: Coolant passes through an isolated external jacket made of high-conductivity C101 copper sleeve barriers (1.0 mm wall) packed with a 0.25 mm Boron-Nitride thermal interface material (TIM) [High scale cooler]. A 50/50 demineralized water/propylene glycol fluid pass circulates at 68.16 L/min to absorb structural heat while keeping the inner acoustic bubble matrix stagnant, uniform, and free of hydraulic pump shear stress [High scale cooler]. 🪨 4. Subsurface Core & Airflow Infrastructure The Buried Core: Because surface structures are destroyed by close-range nuclear detonations, all primary command stations and life-support networks are moved entirely underground [Secondary_Blast_and_GroundShock_Shielddocx]. The core is buried beneath 1.5 to 3.0 meters of compacted soil overburden (or 0.6m to 1.0m of reinforced concrete) to establish the half-value layer (HVL) mass required to attenuate initial gamma and fast neutron flux down to civil-defense survival bands [upgradedocx, Shield_of_Mercy_Nuclear_Radiation_Shielddocx]. Ground-Shock Isolation: The underground bunker is completely decoupled from the surrounding soil matrix via high-capacity gas-spring and elastomeric seismic mounts [shield_of_mercy_set_up_addon_1docx]. This mechanical separation zone ensures that when a nuclear ground shock ripples through the earth, the inner shelter flexes smoothly rather than shattering its foundations [Secondary_Blast_and_GroundShock_Shielddocx]. Second Breath Air Sanitation: The HVAC blower system forces a known airflow outward through structural seals, maintaining a positive internal overpressure (+50 Pa to +100 Pa) so all structural leakage moves strictly outward to block radioactive dust entry [second_breathdocx]. Heavy mechanical blast valves installed on all intake and exhaust penetrations slam shut on the initial shock front [Secondary_Blast_and_GroundShock_Shielddocx, shield_of_mercy_set_up_addon_1docx]. Air passes through a three-stage mechanical sequence: an electrostatic precipitator charges particles, a HEPA (H13/H14) filter array traps of radioactive particulate down to 0.3 m, and a deep bed of Triethylenediamine (TEDA)-impregnated activated coconut-shell carbon chemically traps volatile radioactive Iodine-131 gases [second_breathdocx]. 🔋 5. Subterranean 11.62 TWh Energy Accumulation Grid Distributed Energy Matrix: To handle active containment and point-defense loads, the massive electrical energy equivalent of a 10-Megaton explosion (11,622,222 Megawatt-hours or ~11.62 Terawatt-hours) is accumulated over months from stable nuclear baselines and variable renewable arrays [energy_reservedocx]. The storage is strictly partitioned across three subterranean infrastructure subsystems: Honey-B BESS Reefs (4.10 TWh): Modular, containerized hexagonal structures housing 85 MWh Lithium Iron Phosphate () battery banks paired with high-C-rate supercapacitor blocks for sub-millisecond fault ride-through and high-voltage grid support [energy_reservedocx, honey_b_energy1_1docx]. Subterranean Pumped-Hydro (4.00 TWh): Deep geological pump-storage plants driving millions of cubic meters of water into high-elevation reservoirs, releasing the water through Pelton hydro-turbines upon active sector demand to recover gigawatts of continuous electricity [upgradedocx]. Compressed Air Caverns (3.52 TWh): Industrial multi-stage compressors forcing ambient air down into hermetically sealed salt dome formations at pressures up to 70+ bar, routing compression heat into high-mass molten salt sinks at 550°C to preserve thermodynamic loop efficiency [upgradedocx]. Zero-Resistance Cryogenic Transmit Spine: Power moves across the continental deterrent ring via kV Voltage Source Converter (VSC) multi-level thyristor valve towers over braided Yttrium Barium Copper Oxide (YBCO) High-Temperature Superconducting (HTS) cables [upgradedocx]. Continuously immersed in sub-cooled Liquid Nitrogen () pumped at 68 L/min under a 3.5 to 5.0 bar pressure head, they pass millions of amperes with zero electrical resistance and zero Joule heating () [upgradedocx]. Cables are housed in a double-walled corrugated stainless steel vacuum tube ( mbar) with 30 layers of aluminum-coated Mylar multi-layer insulation (MLI) to block radiation thermal transfer, shielded by an outer Schedule 40 carbon steel sleeve against ground-shock stress [filagradient_wiredocx, upgradedocx]. 🔒 6. Deterministic Data Hygiene Firewall & WORM Storage valors_virtue_filter VHDL Core: Inbound sensor streams are processed at the physical register boundary via a hardware-enforced semantic data filter running on an FPGA chip. It screens telemetry inputs at 100 kHz with a deterministic 20-nanosecond execution timeline (2 clock cycles at 100 MHz clock rate), immediately quarantining adversarial jamming, packet injection, or synthetic spoofing at the physical circuit board layer [Shield_of_Mercy_Revised_Parts_List_1docx]. Clock Anti-Tampering: The system monitors sub-microsecond PTP timing links via subterranean Rubidium atomic clocks [Shield_of_Mercy_Nuclear_Radiation_Shielddocx]. Any adversarial clock-spoofing or time-shifting is flagged instantly, causing the system to reject corrupted data frames to maintain absolute fleet-wide phase coherence [Shield_of_Mercy_Revised_Parts_List_1docx, SoS_HighPower_Acoustic_Transducer_Tower_2docx]. SPI-to-WORM Optical Interface: Telemetry parameters are cryptographically signed and hashed into an append-only SHA-256 record [Shield_of_Mercy_Revised_Parts_List_1docx]. This data is pushed directly to a dedicated, hardware-isolated SPI controller that bypasses standard operating system file systems to stream block data to an onboard laser burning engine, permanently committing states to write-once-read-many (WORM) optical storage drives to maintain an unerasable historical timeline of defensive readiness [Shield_of_Mercy_Revised_Parts_List_1docx]. 🚨 Critical Safety, Verification, and Medical Notice Because the Shield of Mercy geodetic containment network routes multi-megawatt high-voltage grids and manages extreme thermal energy dissipation, all deployment and maintenance phases must strictly maintain established public health and environmental containment guidelines: Visual Damage Protocols: Maintenance crews must perform exhaustive visual insp",
+    "authors": [
+      "francis lee"
+    ],
+    "source": "OpenAlex",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "date": "2026-10-03",
+    "doi": "10.5281/zenodo.18371320",
+    "url": "https://doi.org/10.5281/zenodo.18371320",
+    "source_id": "",
+    "score": 86.0,
+    "level": "B",
+    "title_zh": "mnemorphics",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 86.0，推荐等级 B。"
+  },
+  {
+    "title": "mnemorphics",
+    "abstract": "🛡️ Executive Summary: Shield of Mercy System Architecture The Shield of Mercy is a Resonance-Stabilized, Current-Fused Geodetic Shield Array [upgradedocx]. It operates as a contiguous structural and energetic skin wrapped around a critical facility or national frontier, eliminating atmospheric field dissipation by completely containing and terminally managing energy within a modular, interlocking geodetic hex-diode matrix [Here_is_how_the_ShieldofMercy_nuclear_shield_dom]. The system rejects all unconfined \"pure energy field\" concepts, providing defense against megaton-class threats through a layered combination of underground mass shielding, automated hard-kill interception tiers, and high-flux, fluid-cooled shockwave-dissipating containment cells [Secondary_Blast_and_GroundShock_Shielddocx, High scale cooler, upgradedocx]. 🧱 1. Geodetic Canopy & Structural Layer Tethered Deployment Loop: Fortified Bastion Towers deploy the dome ring-by-ring using pneumatic/pyrotechnic wire launchers [Here_is_how_the_ShieldofMercy_nuclear_shield_dom]. A 120-bar Nitrogen pulse fires a 12.5 kg AISI 4340 steel harpoon at 85 m/s to lock directly onto the heavy nano-fiber steel structural frame of raw 180 kg hexagonal modules. Silicon-Carbide (SiC) inverter-driven winches pull the tethers at 2.5 m/s, drawing each facet into interlocking tracks. Current-Fused Continuity: Once a node is mechanically seated via overlapping dovetails, the tower triggers a controlled high-voltage pulse down the tether core [Here_is_how_the_ShieldofMercy_nuclear_shield_dom]. This pulse triggers localized resistance heating that micro-welds panel boundaries and sinters carbon nanotube (CNT) buses into a single, continuous, self-healing path [Here_is_how_the_ShieldofMercy_nuclear_shield_dom]. This creates a unified geodetic spine that distributes massive external kinetic blast loads uniformly across the entire sector lattice [Here_is_how_the_ShieldofMercy_nuclear_shield_dom]. ⚡ 2. Contained Kinetic & Acoustic Rectification Mecrotic Diode Cartridges: When a projectile or blast overpressure strikes a dome facet, the force passes down an 8 mm tungsten-carbide front face plate and is guided laterally into localized shockwave diodes [High scale cooler]. Nonlinear Frequency Shifting: The vibration enters a stagnant, hermetically sealed Galinstan-microbubble matrix core () [High scale cooler]. The bubbles compress nonlinearly under the blast front, shifting destructive low-frequency kinetic shock waves up into harmless ultrasonic bands [High scale cooler]. A rear phononic crystal filter acts as a strict stop-band, letting forward energy dissipate safely while completely blocking any reverse-propagating back-reflections that would cause structural fatigue or bleed back into internal systems [source: 2, 16, High scale cooler]. Thermal Impedance Stability: To prevent outdoor temperature swings from throwing the diode-hex out of alignment with the fixed mechanical filters, an active nitrogen-blanketed servo-piston accumulator automatically scales the internal cavity background pressure across a 12°C delta [High scale cooler]. This dynamic compensation holds the microbubble radii stable, locking the baseline acoustic impedance () rigidly in place during sustained blast processing [High scale cooler]. 💧 3. High-Flux Concentric Cooling & Isolation Thermal Decoupling: To prevent high-load grid transmission or point-defense laser heat from causing an impedance drift in the cartridges, the wave-shaping core is entirely separated from fluid flow [High scale cooler]. Concentric Isolated Sleeve: Coolant passes through an isolated external jacket made of high-conductivity C101 copper sleeve barriers (1.0 mm wall) packed with a 0.25 mm Boron-Nitride thermal interface material (TIM) [High scale cooler]. A 50/50 demineralized water/propylene glycol fluid pass circulates at 68.16 L/min to absorb structural heat while keeping the inner acoustic bubble matrix stagnant, uniform, and free of hydraulic pump shear stress [High scale cooler]. 🪨 4. Subsurface Core & Airflow Infrastructure The Buried Core: Because surface structures are destroyed by close-range nuclear detonations, all primary command stations and life-support networks are moved entirely underground [Secondary_Blast_and_GroundShock_Shielddocx]. The core is buried beneath 1.5 to 3.0 meters of compacted soil overburden (or 0.6m to 1.0m of reinforced concrete) to establish the half-value layer (HVL) mass required to attenuate initial gamma and fast neutron flux down to civil-defense survival bands [upgradedocx, Shield_of_Mercy_Nuclear_Radiation_Shielddocx]. Ground-Shock Isolation: The underground bunker is completely decoupled from the surrounding soil matrix via high-capacity gas-spring and elastomeric seismic mounts [shield_of_mercy_set_up_addon_1docx]. This mechanical separation zone ensures that when a nuclear ground shock ripples through the earth, the inner shelter flexes smoothly rather than shattering its foundations [Secondary_Blast_and_GroundShock_Shielddocx]. Second Breath Air Sanitation: The HVAC blower system forces a known airflow outward through structural seals, maintaining a positive internal overpressure (+50 Pa to +100 Pa) so all structural leakage moves strictly outward to block radioactive dust entry [second_breathdocx]. Heavy mechanical blast valves installed on all intake and exhaust penetrations slam shut on the initial shock front [Secondary_Blast_and_GroundShock_Shielddocx, shield_of_mercy_set_up_addon_1docx]. Air passes through a three-stage mechanical sequence: an electrostatic precipitator charges particles, a HEPA (H13/H14) filter array traps of radioactive particulate down to 0.3 m, and a deep bed of Triethylenediamine (TEDA)-impregnated activated coconut-shell carbon chemically traps volatile radioactive Iodine-131 gases [second_breathdocx]. 🔋 5. Subterranean 11.62 TWh Energy Accumulation Grid Distributed Energy Matrix: To handle active containment and point-defense loads, the massive electrical energy equivalent of a 10-Megaton explosion (11,622,222 Megawatt-hours or ~11.62 Terawatt-hours) is accumulated over months from stable nuclear baselines and variable renewable arrays [energy_reservedocx]. The storage is strictly partitioned across three subterranean infrastructure subsystems: Honey-B BESS Reefs (4.10 TWh): Modular, containerized hexagonal structures housing 85 MWh Lithium Iron Phosphate () battery banks paired with high-C-rate supercapacitor blocks for sub-millisecond fault ride-through and high-voltage grid support [energy_reservedocx, honey_b_energy1_1docx]. Subterranean Pumped-Hydro (4.00 TWh): Deep geological pump-storage plants driving millions of cubic meters of water into high-elevation reservoirs, releasing the water through Pelton hydro-turbines upon active sector demand to recover gigawatts of continuous electricity [upgradedocx]. Compressed Air Caverns (3.52 TWh): Industrial multi-stage compressors forcing ambient air down into hermetically sealed salt dome formations at pressures up to 70+ bar, routing compression heat into high-mass molten salt sinks at 550°C to preserve thermodynamic loop efficiency [upgradedocx]. Zero-Resistance Cryogenic Transmit Spine: Power moves across the continental deterrent ring via kV Voltage Source Converter (VSC) multi-level thyristor valve towers over braided Yttrium Barium Copper Oxide (YBCO) High-Temperature Superconducting (HTS) cables [upgradedocx]. Continuously immersed in sub-cooled Liquid Nitrogen () pumped at 68 L/min under a 3.5 to 5.0 bar pressure head, they pass millions of amperes with zero electrical resistance and zero Joule heating () [upgradedocx]. Cables are housed in a double-walled corrugated stainless steel vacuum tube ( mbar) with 30 layers of aluminum-coated Mylar multi-layer insulation (MLI) to block radiation thermal transfer, shielded by an outer Schedule 40 carbon steel sleeve against ground-shock stress [filagradient_wiredocx, upgradedocx]. 🔒 6. Deterministic Data Hygiene Firewall & WORM Storage valors_virtue_filter VHDL Core: Inbound sensor streams are processed at the physical register boundary via a hardware-enforced semantic data filter running on an FPGA chip. It screens telemetry inputs at 100 kHz with a deterministic 20-nanosecond execution timeline (2 clock cycles at 100 MHz clock rate), immediately quarantining adversarial jamming, packet injection, or synthetic spoofing at the physical circuit board layer [Shield_of_Mercy_Revised_Parts_List_1docx]. Clock Anti-Tampering: The system monitors sub-microsecond PTP timing links via subterranean Rubidium atomic clocks [Shield_of_Mercy_Nuclear_Radiation_Shielddocx]. Any adversarial clock-spoofing or time-shifting is flagged instantly, causing the system to reject corrupted data frames to maintain absolute fleet-wide phase coherence [Shield_of_Mercy_Revised_Parts_List_1docx, SoS_HighPower_Acoustic_Transducer_Tower_2docx]. SPI-to-WORM Optical Interface: Telemetry parameters are cryptographically signed and hashed into an append-only SHA-256 record [Shield_of_Mercy_Revised_Parts_List_1docx]. This data is pushed directly to a dedicated, hardware-isolated SPI controller that bypasses standard operating system file systems to stream block data to an onboard laser burning engine, permanently committing states to write-once-read-many (WORM) optical storage drives to maintain an unerasable historical timeline of defensive readiness [Shield_of_Mercy_Revised_Parts_List_1docx]. 🚨 Critical Safety, Verification, and Medical Notice Because the Shield of Mercy geodetic containment network routes multi-megawatt high-voltage grids and manages extreme thermal energy dissipation, all deployment and maintenance phases must strictly maintain established public health and environmental containment guidelines: Visual Damage Protocols: Maintenance crews must perform exhaustive visual insp",
+    "authors": [
+      "francis lee"
+    ],
+    "source": "OpenAlex",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "date": "2026-10-03",
+    "doi": "10.5281/zenodo.23126833",
+    "url": "https://doi.org/10.5281/zenodo.23126833",
+    "source_id": "",
+    "score": 86.0,
+    "level": "B",
+    "title_zh": "mnemorphics",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 86.0，推荐等级 B。"
+  },
+  {
+    "title": "mnemorphics",
+    "abstract": "🛡️ Executive Summary: Shield of Mercy System Architecture The Shield of Mercy is a Resonance-Stabilized, Current-Fused Geodetic Shield Array [upgradedocx]. It operates as a contiguous structural and energetic skin wrapped around a critical facility or national frontier, eliminating atmospheric field dissipation by completely containing and terminally managing energy within a modular, interlocking geodetic hex-diode matrix [Here_is_how_the_ShieldofMercy_nuclear_shield_dom]. The system rejects all unconfined \"pure energy field\" concepts, providing defense against megaton-class threats through a layered combination of underground mass shielding, automated hard-kill interception tiers, and high-flux, fluid-cooled shockwave-dissipating containment cells [Secondary_Blast_and_GroundShock_Shielddocx, High scale cooler, upgradedocx]. 🧱 1. Geodetic Canopy & Structural Layer Tethered Deployment Loop: Fortified Bastion Towers deploy the dome ring-by-ring using pneumatic/pyrotechnic wire launchers [Here_is_how_the_ShieldofMercy_nuclear_shield_dom]. A 120-bar Nitrogen pulse fires a 12.5 kg AISI 4340 steel harpoon at 85 m/s to lock directly onto the heavy nano-fiber steel structural frame of raw 180 kg hexagonal modules. Silicon-Carbide (SiC) inverter-driven winches pull the tethers at 2.5 m/s, drawing each facet into interlocking tracks. Current-Fused Continuity: Once a node is mechanically seated via overlapping dovetails, the tower triggers a controlled high-voltage pulse down the tether core [Here_is_how_the_ShieldofMercy_nuclear_shield_dom]. This pulse triggers localized resistance heating that micro-welds panel boundaries and sinters carbon nanotube (CNT) buses into a single, continuous, self-healing path [Here_is_how_the_ShieldofMercy_nuclear_shield_dom]. This creates a unified geodetic spine that distributes massive external kinetic blast loads uniformly across the entire sector lattice [Here_is_how_the_ShieldofMercy_nuclear_shield_dom]. ⚡ 2. Contained Kinetic & Acoustic Rectification Mecrotic Diode Cartridges: When a projectile or blast overpressure strikes a dome facet, the force passes down an 8 mm tungsten-carbide front face plate and is guided laterally into localized shockwave diodes [High scale cooler]. Nonlinear Frequency Shifting: The vibration enters a stagnant, hermetically sealed Galinstan-microbubble matrix core () [High scale cooler]. The bubbles compress nonlinearly under the blast front, shifting destructive low-frequency kinetic shock waves up into harmless ultrasonic bands [High scale cooler]. A rear phononic crystal filter acts as a strict stop-band, letting forward energy dissipate safely while completely blocking any reverse-propagating back-reflections that would cause structural fatigue or bleed back into internal systems [source: 2, 16, High scale cooler]. Thermal Impedance Stability: To prevent outdoor temperature swings from throwing the diode-hex out of alignment with the fixed mechanical filters, an active nitrogen-blanketed servo-piston accumulator automatically scales the internal cavity background pressure across a 12°C delta [High scale cooler]. This dynamic compensation holds the microbubble radii stable, locking the baseline acoustic impedance () rigidly in place during sustained blast processing [High scale cooler]. 💧 3. High-Flux Concentric Cooling & Isolation Thermal Decoupling: To prevent high-load grid transmission or point-defense laser heat from causing an impedance drift in the cartridges, the wave-shaping core is entirely separated from fluid flow [High scale cooler]. Concentric Isolated Sleeve: Coolant passes through an isolated external jacket made of high-conductivity C101 copper sleeve barriers (1.0 mm wall) packed with a 0.25 mm Boron-Nitride thermal interface material (TIM) [High scale cooler]. A 50/50 demineralized water/propylene glycol fluid pass circulates at 68.16 L/min to absorb structural heat while keeping the inner acoustic bubble matrix stagnant, uniform, and free of hydraulic pump shear stress [High scale cooler]. 🪨 4. Subsurface Core & Airflow Infrastructure The Buried Core: Because surface structures are destroyed by close-range nuclear detonations, all primary command stations and life-support networks are moved entirely underground [Secondary_Blast_and_GroundShock_Shielddocx]. The core is buried beneath 1.5 to 3.0 meters of compacted soil overburden (or 0.6m to 1.0m of reinforced concrete) to establish the half-value layer (HVL) mass required to attenuate initial gamma and fast neutron flux down to civil-defense survival bands [upgradedocx, Shield_of_Mercy_Nuclear_Radiation_Shielddocx]. Ground-Shock Isolation: The underground bunker is completely decoupled from the surrounding soil matrix via high-capacity gas-spring and elastomeric seismic mounts [shield_of_mercy_set_up_addon_1docx]. This mechanical separation zone ensures that when a nuclear ground shock ripples through the earth, the inner shelter flexes smoothly rather than shattering its foundations [Secondary_Blast_and_GroundShock_Shielddocx]. Second Breath Air Sanitation: The HVAC blower system forces a known airflow outward through structural seals, maintaining a positive internal overpressure (+50 Pa to +100 Pa) so all structural leakage moves strictly outward to block radioactive dust entry [second_breathdocx]. Heavy mechanical blast valves installed on all intake and exhaust penetrations slam shut on the initial shock front [Secondary_Blast_and_GroundShock_Shielddocx, shield_of_mercy_set_up_addon_1docx]. Air passes through a three-stage mechanical sequence: an electrostatic precipitator charges particles, a HEPA (H13/H14) filter array traps of radioactive particulate down to 0.3 m, and a deep bed of Triethylenediamine (TEDA)-impregnated activated coconut-shell carbon chemically traps volatile radioactive Iodine-131 gases [second_breathdocx]. 🔋 5. Subterranean 11.62 TWh Energy Accumulation Grid Distributed Energy Matrix: To handle active containment and point-defense loads, the massive electrical energy equivalent of a 10-Megaton explosion (11,622,222 Megawatt-hours or ~11.62 Terawatt-hours) is accumulated over months from stable nuclear baselines and variable renewable arrays [energy_reservedocx]. The storage is strictly partitioned across three subterranean infrastructure subsystems: Honey-B BESS Reefs (4.10 TWh): Modular, containerized hexagonal structures housing 85 MWh Lithium Iron Phosphate () battery banks paired with high-C-rate supercapacitor blocks for sub-millisecond fault ride-through and high-voltage grid support [energy_reservedocx, honey_b_energy1_1docx]. Subterranean Pumped-Hydro (4.00 TWh): Deep geological pump-storage plants driving millions of cubic meters of water into high-elevation reservoirs, releasing the water through Pelton hydro-turbines upon active sector demand to recover gigawatts of continuous electricity [upgradedocx]. Compressed Air Caverns (3.52 TWh): Industrial multi-stage compressors forcing ambient air down into hermetically sealed salt dome formations at pressures up to 70+ bar, routing compression heat into high-mass molten salt sinks at 550°C to preserve thermodynamic loop efficiency [upgradedocx]. Zero-Resistance Cryogenic Transmit Spine: Power moves across the continental deterrent ring via kV Voltage Source Converter (VSC) multi-level thyristor valve towers over braided Yttrium Barium Copper Oxide (YBCO) High-Temperature Superconducting (HTS) cables [upgradedocx]. Continuously immersed in sub-cooled Liquid Nitrogen () pumped at 68 L/min under a 3.5 to 5.0 bar pressure head, they pass millions of amperes with zero electrical resistance and zero Joule heating () [upgradedocx]. Cables are housed in a double-walled corrugated stainless steel vacuum tube ( mbar) with 30 layers of aluminum-coated Mylar multi-layer insulation (MLI) to block radiation thermal transfer, shielded by an outer Schedule 40 carbon steel sleeve against ground-shock stress [filagradient_wiredocx, upgradedocx]. 🔒 6. Deterministic Data Hygiene Firewall & WORM Storage valors_virtue_filter VHDL Core: Inbound sensor streams are processed at the physical register boundary via a hardware-enforced semantic data filter running on an FPGA chip. It screens telemetry inputs at 100 kHz with a deterministic 20-nanosecond execution timeline (2 clock cycles at 100 MHz clock rate), immediately quarantining adversarial jamming, packet injection, or synthetic spoofing at the physical circuit board layer [Shield_of_Mercy_Revised_Parts_List_1docx]. Clock Anti-Tampering: The system monitors sub-microsecond PTP timing links via subterranean Rubidium atomic clocks [Shield_of_Mercy_Nuclear_Radiation_Shielddocx]. Any adversarial clock-spoofing or time-shifting is flagged instantly, causing the system to reject corrupted data frames to maintain absolute fleet-wide phase coherence [Shield_of_Mercy_Revised_Parts_List_1docx, SoS_HighPower_Acoustic_Transducer_Tower_2docx]. SPI-to-WORM Optical Interface: Telemetry parameters are cryptographically signed and hashed into an append-only SHA-256 record [Shield_of_Mercy_Revised_Parts_List_1docx]. This data is pushed directly to a dedicated, hardware-isolated SPI controller that bypasses standard operating system file systems to stream block data to an onboard laser burning engine, permanently committing states to write-once-read-many (WORM) optical storage drives to maintain an unerasable historical timeline of defensive readiness [Shield_of_Mercy_Revised_Parts_List_1docx]. 🚨 Critical Safety, Verification, and Medical Notice Because the Shield of Mercy geodetic containment network routes multi-megawatt high-voltage grids and manages extreme thermal energy dissipation, all deployment and maintenance phases must strictly maintain established public health and environmental containment guidelines: Visual Damage Protocols: Maintenance crews must perform exhaustive visual insp",
+    "authors": [
+      "francis lee"
+    ],
+    "source": "OpenAlex",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "date": "2026-10-03",
+    "doi": "10.5281/zenodo.23126772",
+    "url": "https://doi.org/10.5281/zenodo.23126772",
+    "source_id": "",
+    "score": 86.0,
+    "level": "B",
+    "title_zh": "mnemorphics",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 86.0，推荐等级 B。"
+  },
+  {
+    "title": "An improved distributed electro-thermal coupled model for liquid-cooled battery pack based on thermal resistance network",
+    "abstract": "This study develops a computationally efficient distributed electro-thermal model for predicting voltage and temperature distributions in a liquid-cooled battery pack, with potential for real-time application. A pipe network model calculates the coolant flow distribution and local convective heat-transfer coefficients, while a three-dimensional thermal resistance network predicts the internal temperature field at low computational cost. The electrical and thermal models are coupled by updating cell resistance and polarization capacitance according to local cell temperature and state of charge (SOC). The model therefore quantifies the effect of cooling-induced temperature non-uniformity on cell-to-cell voltage inconsistency. Experimental validation shows that the model accurately predicts pack terminal voltage and temperatures at the available sensor locations while providing additional internal temperature information. The maximum terminal-voltage error is 6.77 V (1.85%), and the maximum temperature root-mean-square error is 0.71 °C. Under 40 °C/1C discharge, the temperature difference measured by the top-mounted BMS sensors is 3.6 °C, whereas the predicted three-dimensional temperature difference is 10.26 °C, indicating that the model provides temperature information beyond the BMS measurement coverage. Under the same condition, the maximum predicted cell-to-cell voltage difference at the end of discharge is 0.011 V.",
+    "authors": [
+      "Yi Xie",
+      "Qirui Zou",
+      "Rui Yang",
+      "Yanyan Feng",
+      "Yining Fan",
+      "Satyam Panchal",
+      "Yangjun Zhang"
+    ],
+    "source": "OpenAlex",
+    "venue": "Applied Thermal Engineering",
+    "date": "2026-10-03",
+    "doi": "10.1016/j.applthermaleng.2026.133499",
+    "url": "https://doi.org/10.1016/j.applthermaleng.2026.133499",
+    "source_id": "",
+    "score": 80.0,
+    "level": "B",
+    "title_zh": "An improved distributed electro-thermal coupled model for liquid-cooled battery pack based on thermal resistance network",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 80.0，推荐等级 B。"
+  }
+]
