@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Battery Management Literature Daily｜2026-10-06</title>
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",Arial,sans-serif;line-height:1.68;color:#1f2933;background:#f5f7fa;margin:0;padding:0;}
+    .container{max-width:1040px;margin:0 auto;padding:28px 20px 44px;}
+    .header{background:linear-gradient(135deg,#063b5c,#0b7285);color:#fff;border-radius:18px;padding:28px 30px;margin-bottom:22px;box-shadow:0 8px 22px rgba(0,0,0,.12);}
+    .header h1{margin:0 0 12px;font-size:28px;letter-spacing:.3px;}
+    .header p{margin:4px 0;color:#e7f5ff;}
+    .summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:18px 0 6px;}
+    .stat{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.22);border-radius:14px;padding:12px 14px;}
+    .stat b{font-size:24px;color:#fff;display:block;}
+    .block{background:#fff;border:1px solid #d9e2ec;border-radius:16px;padding:22px;margin:18px 0;box-shadow:0 2px 10px rgba(15,23,42,.04);}
+    h2{color:#0b3d5c;margin:0 0 14px;font-size:22px;}
+    h3{margin:0 0 10px;font-size:19px;color:#102a43;}
+    .meta{color:#52616b;font-size:14px;margin:4px 0;}
+    .paper{border-top:1px solid #e5edf3;padding-top:18px;margin-top:18px;}
+    .paper:first-child{border-top:none;padding-top:0;margin-top:0;}
+    .tag{display:inline-block;border-radius:999px;padding:4px 10px;color:#fff;font-size:12px;font-weight:700;letter-spacing:.2px;margin-right:8px;}
+    .A{background:#c62828;}.B{background:#ef6c00;}.C{background:#607d8b;}
+    .score{display:inline-block;background:#edf2f7;color:#334e68;border-radius:999px;padding:4px 10px;font-size:12px;}
+    ul{padding-left:22px;margin:8px 0 10px;}
+    a{color:#0b7285;text-decoration:none;}a:hover{text-decoration:underline;}
+    table{width:100%;border-collapse:collapse;background:white;font-size:14px;}
+    th,td{border:1px solid #d9e2ec;padding:10px;vertical-align:top;text-align:left;}
+    th{background:#edf4f7;color:#243b53;}
+    .footer{font-size:13px;color:#697386;text-align:center;margin-top:24px;}
+    @media(max-width:720px){.summary-grid{grid-template-columns:1fr}.header{border-radius:0}.container{padding:0 0 28px}.block{border-radius:0;border-left:none;border-right:none}.header h1{font-size:24px}}
+  </style>
+</head>
+<body>
+<div class="container">
+  <section class="header">
+    <h1>Battery Management Literature Daily</h1>
+    <p><b>日期：</b>2026-10-06 ｜ <b>检索窗口：</b>近 2 天 ｜ <b>生成时间：</b>2026-10-06 14:43:51 UTC+8</p>
+    <p>今日候选论文整体质量两极分化：BMS 相关的强候选集中在热失控早期预警、锂沉积在线检测、pack 不一致性建模和现场数据 SOH 估计四个方向，来源以 Applied Energy、eTransportation、Journal of Energy Storage 为主；另有若干光伏 MPPT 防御性公开文档与 Carnot 电池热力学论文与电池管理无关，需剔除。建议优先精读 Applied Energy 的两篇安全预警论文和 eTransportation 的两篇真实数据/储能场景论文。</p>
+    <div class="summary-grid">
+      <div class="stat"><b>5</b> A级必读</div>
+      <div class="stat"><b>3</b> B级浏览</div>
+      <div class="stat"><b>1</b> C级备选</div>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>一、今日趋势判断</h2>
+    <p>趋势一：安全预警正从单体级实验判据走向跨拓扑、免适配的迁移学习框架，并强调对老化漂移与单体不一致性的鲁棒性；趋势二：状态估计的主战场明显向 field/fleet/ESS 真实运行数据迁移，端到端深度学习和语义嵌入开始替代手工健康特征；趋势三：pack 层建模从电气一致性扩展到电化学-热-老化多物理耦合，不一致性演化本身成为研究对象。</p>
+  </section>
+
+  <section class="block">
+    <h2>二、A级必读论文</h2>
+    
+      
+      <article class="paper">
+        <h3>1. Enhanced online detection of lithium plating via a dynamic threshold generation strategy with aging effect compensation</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 114.25</span></p>
+        <p class="meta"><b>中文题目：</b>基于老化效应补偿的动态阈值生成策略增强锂沉积在线检测</p>
+        <p class="meta"><b>作者：</b>Yaowen Zhang, Zhixuan Wang, Peng Yi, Yining Liu, Yunxia Chen</p>
+        <p class="meta"><b>来源：</b>Applied Energy ｜ <b>日期：</b>2026-10-04 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.1016/j.apenergy.2026.128965</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1016/j.apenergy.2026.128965">https://doi.org/10.1016/j.apenergy.2026.128965</a></p>
+        <p><b>一句话总结：</b>用二阶等效电路+老化感知OCV-SOC补偿构造稳定的SOC相对电阻特征，配合半监督动态K-means阈值实现无需脉冲/静置工况的锂沉积在线预警。</p>
+        <p><b>研究问题：</b>现有锂沉积在线检测方法受老化导致的特征掩蔽、基线漂移和单体不一致性影响，预警滞后、适应性差，且多依赖专用脉冲或静置协议，难以在连续充电场景落地。</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>提出物理信息驱动、实验验证的单体级在线锂沉积检测框架，基于二阶RC模型估计时域等效欧姆电阻</li><li>构建基于迭代多目标高斯过程的老化感知OCV-SOC补偿策略，将OCV-SOC跟踪误差控制在3%以内，补偿后电阻序列与EIS参考电阻线性一致性提升</li><li>构造序贯SOC相对电阻（SRR）特征抑制宏观基线偏移，并引入半监督动态K-means自适应更新单体专属预警边界，预警周期较基线提前15%以上，事后SEM形貌与预警状态一致</li></ul>
+        <p><b>与BMS相关性：</b>直接命中BMS安全预警核心：锂沉积是容量衰减与内短路/热失控的关键前兆，论文给出可在线运行、仅需常规电压电流数据的检测算法，属于安全预警与SOH耦合的典型问题。</p>
+        <p><b>对课题组启发：</b>其“老化补偿后再提取相对特征”的思路可迁移到课题组SOH/RUL与pack不一致性研究：把老化漂移视为时变干扰进行显式补偿，再在同一单体内做相对比较，可有效缓解跨单体不一致带来的阈值失效；半监督动态阈值机制也可用于pack级预警阈值的在线自整定。</p>
+        <p><b>推荐理由：</b>A级。Applied Energy 在优先列表第8位，属高水平能源应用期刊；论文针对锂沉积在线检测这一BMS安全核心问题，同时处理老化、基线漂移与单体不一致性三重干扰，方法有物理信息支撑并有EIS与SEM实验验证，预警提前量明确，工程可落地性强，必须读。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>2. From surrogate task to multiscale external-reference consistency learning: Adaptation-free cross-topology early warning of thermal runaway in electric vehicle batteries</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 100.25</span></p>
+        <p class="meta"><b>中文题目：</b>从替代任务到多尺度外部参考一致性学习：电动汽车电池热失控的免适配跨拓扑早期预警</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Applied Energy ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S0306261926016132?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S0306261926016132?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>提出多尺度外部参考一致性学习框架，实现无需目标拓扑再训练的跨电池拓扑热失控早期预警。</p>
+        <p><b>研究问题：</b>现有热失控预警模型高度依赖特定电池拓扑与目标域标注，跨拓扑、跨车型迁移时需要重新适配训练，难以在车队/储能现场快速部署。</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>提出从替代任务（surrogate task）到多尺度外部参考一致性学习的预警范式，摆脱对目标拓扑标签的依赖</li><li>实现免适配（adaptation-free）跨拓扑热失控早期预警，提升模型在异构电池系统间的可迁移性</li><li>在电动汽车电池场景下构建多尺度一致性约束，兼顾早期微弱征兆与系统级判别</li></ul>
+        <p><b>与BMS相关性：</b>热失控早期预警是BMS安全运维的核心功能，论文聚焦跨拓扑泛化这一现场部署的关键瓶颈，与pack/系统级安全管理直接相关。</p>
+        <p><b>对课题组启发：</b>对课题组cloud BMS与车队现场数据方向极具参考价值：免适配跨拓扑思路可缓解不同车型/不同pack拓扑数据无法统一建模的问题；多尺度外部参考一致性可作为physics-informed约束的替代实现形式，值得与现有SOH/RUL迁移学习方案对比。</p>
+        <p><b>推荐理由：</b>A级。Applied Energy（优先列表第8位）来源，主题为热失控早期预警且明确面向电动车电池与跨拓扑迁移，正好落在课题组“安全预警+系统级泛化”交汇点；标题层面方法创新明确（替代任务+多尺度外部参考一致性），但未提供摘要，建议优先获取全文确认数据规模与验证场景。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>3. Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 112.5</span></p>
+        <p class="meta"><b>中文题目：</b>面向储能系统现场数据的语义嵌入式端到端深度学习健康状态估计</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>eTransportation ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>面向电池储能系统真实现场数据，提出语义嵌入的端到端深度学习框架直接估计SOH，减少对手工健康特征的依赖。</p>
+        <p><b>研究问题：</b>储能系统现场数据存在工况随机、采样不一致、噪声大等问题，传统基于手工健康特征（IC曲线、充电时间等）的SOH估计难以稳定迁移到实际BESS运行数据。</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>提出语义嵌入式端到端深度学习SOH估计框架，将领域语义信息嵌入网络而非依赖人工特征工程</li><li>直接使用储能系统现场（field）数据验证，贴近实际BESS运行条件</li><li>为BESS级健康评估提供可部署的端到端方案</li></ul>
+        <p><b>与BMS相关性：</b>SOH估计是BMS核心状态估计任务，且论文明确使用储能系统现场数据，属于“pack/系统级 + 真实数据”的高相关组合。</p>
+        <p><b>对课题组启发：</b>与课题组SOH/RUL与field data方向高度对齐：可借鉴其语义嵌入方式解决现场数据分布漂移，也可将其作为cloud BMS端到端SOH估计的基线方案与physics-informed方法进行对照。</p>
+        <p><b>推荐理由：</b>A级。eTransportation 在优先列表第15位，是电池交通/储能领域专刊；论文同时满足“SOH估计+ESS系统级+field data+端到端深度学习”四个高价值要素，与课题组现场数据方向直接契合。因未提供摘要，具体数据规模与验证严谨性待全文确认，故列为需读但需核实证据强度。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>4. Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 90.5</span></p>
+        <p class="meta"><b>中文题目：</b>基于真实世界数据的锂离子电池组内阻退化整车级建模与影响参数分析</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>eTransportation ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000858?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2590116826000858?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>利用真实车队运行数据建立整车级电池组内阻退化模型，并量化各影响因素对退化速率的贡献。</p>
+        <p><b>研究问题：</b>电池组内阻退化通常由实验室加速老化实验标定，缺乏整车实际运行条件下的退化规律与关键影响因素量化，导致寿命预测与维护决策偏差。</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>基于真实世界（real-world）整车数据构建电池组内阻退化模型，而非实验室台架数据</li><li>开展影响参数分析，识别运行工况、温度、使用强度等对pack内阻退化的主导因素</li><li>将单体内阻退化研究提升到vehicle/pack层级</li></ul>
+        <p><b>与BMS相关性：</b>内阻退化是SOH的核心表征量，论文在pack/整车层级用真实数据建模，直接服务于BMS健康评估与寿命管理。</p>
+        <p><b>对课题组启发：</b>为课题组field data驱动的pack级SOH/RUL提供了“内阻退化”这一可解释健康指标的建模范式；其影响参数分析结果可用于构造physics-informed先验或作为老化模型协变量，也可与pack不一致性研究结合分析单体退化离散度。</p>
+        <p><b>推荐理由：</b>A级。eTransportation（优先列表第15位）+ 真实世界车队数据 + pack级内阻退化建模，与课题组“现场数据+pack级状态估计”的核心关注高度一致，且内阻是可在线观测量，工程可迁移性强。缺少摘要，具体样本规模与车型覆盖待核实。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>5. Electrochemical-thermal-aging coupled model for parallel lithium-ion battery packs: Evolution of thermal and aging inconsistency under cell-to-cell variations</h3>
+        <p><span class="tag A">A级必读</span><span class="score">Score 79.0</span></p>
+        <p class="meta"><b>中文题目：</b>并联锂离子电池组电化学-热-老化耦合模型：单体差异下热与老化不一致性的演化</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>Journal of Energy Storage ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26045998?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2352152X26045998?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>构建并联电池组的电化学-热-老化多物理耦合模型，揭示单体参数差异如何驱动热不一致性与老化不一致性的演化。</p>
+        <p><b>研究问题：</b>并联电池组中单体间微小参数差异会通过电流分配不均放大为热与老化的长期不一致性，缺乏能同时刻画电化学、热与老化耦合演化的pack级模型。</p>
+        <p><b>核心贡献：</b></p>
+        <ul><li>建立并联锂离子电池组的电化学-热-老化耦合模型，打通电-热-老化三个时间尺度</li><li>系统分析cell-to-cell差异下热不一致性与老化不一致性的演化规律</li><li>为pack级不一致性溯源与均衡策略设计提供模型基础</li></ul>
+        <p><b>与BMS相关性：</b>电池组不一致性是pack级管理的核心问题，论文从耦合机理层面解释不一致性的生成与放大机制，是BMS均衡策略与pack寿命评估的理论支撑。</p>
+        <p><b>对课题组启发：</b>直接对应课题组pack inconsistency方向：可将其耦合模型作为仿真平台，验证不一致性指标（内阻/容量离散度）与SOH估计误差的关联；也可为physics-informed learning提供生成机理数据与结构先验，弥补现场数据标注缺失。</p>
+        <p><b>推荐理由：</b>A级。Journal of Energy Storage 在优先列表第10位；论文主题（并联pack、热-老化不一致性演化、cell-to-cell variations）与课题组pack级不一致性研究高度重合，属于机理模型+系统级管理交叉，值得精读并考虑复用其建模框架。</p>
+      </article>
+      
+    
+  </section>
+
+  <section class="block">
+    <h2>三、B级建议浏览论文</h2>
+    
+      
+      <article class="paper">
+        <h3>1. Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 90.5</span></p>
+        <p class="meta"><b>中文题目：</b>锂离子电池组热失控过程中的电气短路行为与局部临时过充条件</p>
+        <p class="meta"><b>作者：</b>Unknown</p>
+        <p class="meta"><b>来源：</b>eTransportation ｜ <b>日期：</b>未知 ｜ <b>数据源：</b>Journal RSS</p>
+        
+        <p class="meta"><b>链接：</b><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all">https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all</a></p>
+        <p><b>一句话总结：</b>通过pack级热失控实验揭示触发过程中内部短路引发的局部临时过充现象及其电气特征。</p>
+        <ul><li>在电池组层级刻画热失控过程中的电气短路行为</li><li>识别并描述局部、临时性的过充条件及其成因</li><li>为pack级热失控电气特征预警提供实验依据</li></ul>
+        <p><b>与BMS相关性：</b>热失控是BMS安全预警的核心对象，论文给出pack级电气异常特征，可直接用于构造电压/电流维度的预警指标。</p>
+        <p><b>对课题组启发：</b>对课题组热失控早期预警有直接价值：模组内电流重分布造成的局部过充可在电压序列上产生微弱但先兆性特征，可作为预警特征工程的候选；但其证据以实验现象描述为主，需要结合数据驱动方法提升可判别性。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>2. Linking key features of commercial lithium-ion cells to thermal runaway effects</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 79.25</span></p>
+        <p class="meta"><b>中文题目：</b>商用锂离子单体关键特征与热失控效应之间的关联</p>
+        <p class="meta"><b>作者：</b>Nils Böttcher, Nawar Yusfi, Julia Kowal, Anita  R. Schmidt, Jonas Krug von Nidda</p>
+        <p class="meta"><b>来源：</b>Journal of Power Sources ｜ <b>日期：</b>2026-10-04 ｜ <b>数据源：</b>OpenAlex</p>
+        <p class="meta"><b>DOI：</b>10.1016/j.jpowsour.2026.241605</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.1016/j.jpowsour.2026.241605">https://doi.org/10.1016/j.jpowsour.2026.241605</a></p>
+        <p><b>一句话总结：</b>基于10种商用单体、170余次滥用实验，建立单体格式、正极类型、容量与SOC等关键特征与热失控效应（起始温度、最高温度、产气量、超压）之间的定量关联。</p>
+        <ul><li>对10种商用单体（四种正极体系）在多种SOC下开展单体与传播场景共170余次滥用测试</li><li>给出产气量与SOC相关单体能量呈线性关系（约0.46 L/Wh）等定量规律，并按正极类型分为两组</li><li>将传播行为按SOC区间（70–100%传播、30%通常不传播）分类为不传播/慢传播/快传播</li></ul>
+        <p><b>与BMS相关性：</b>提供的是热失控效应的实验统计规律与pack传播分类，属于BMS安全设计与预警阈值设定的基础数据，但并非管理系统算法本身。</p>
+        <p><b>对课题组启发：</b>可作为课题组热失控预警研究的数据与先验来源：以SOC和能量为自变量估计产气量与传播风险，可用于构造风险评分或作为安全预警模型的输入特征；传播分类也可支撑pack级风险分区。</p>
+      </article>
+      
+      <article class="paper">
+        <h3>3. Improved Chaotic Sparrow Search-Optimized Deep Multiple Kernel ELM for Lithium-Ion Battery RUL Prediction</h3>
+        <p><span class="tag B">B级建议浏览</span><span class="score">Score 98.0</span></p>
+        <p class="meta"><b>中文题目：</b>改进混沌麻雀搜索优化深度多核极限学习机的锂离子电池RUL预测</p>
+        <p class="meta"><b>作者：</b>Qian Xie, Fan Liu, Hua Zhang</p>
+        <p class="meta"><b>来源：</b>Batteries ｜ <b>日期：</b>2026-10-04 ｜ <b>数据源：</b>Crossref</p>
+        <p class="meta"><b>DOI：</b>10.3390/batteries12100398</p>
+        <p class="meta"><b>链接：</b><a href="https://doi.org/10.3390/batteries12100398">https://doi.org/10.3390/batteries12100398</a></p>
+        <p><b>一句话总结：</b>用混沌初始化的改进麻雀搜索算法优化深度多核ELM超参数，在两组公开电池数据上实现避免信息泄漏的RUL预测。</p>
+        <ul><li>提出ICSSA-DMK-ELM模型，用Tent混沌初始化与高斯变异增强全局搜索能力以优化DMK-ELM超参数</li><li>采用严格因果的预测协议与仅在训练集上执行的Hampel滤波+Pearson相关特征筛选，规避信息泄漏</li><li>在两组数据集共10个单体上验证RUL预测精度与鲁棒性</li></ul>
+        <p><b>与BMS相关性：</b>RUL预测是BMS/电池健康管理的核心任务之一，论文聚焦剩余寿命估计的精度与评估规范，属直接相关。</p>
+        <p><b>对课题组启发：</b>其“因果预测协议”对课题组有方法论提醒价值：SOH/RUL研究中训练/测试特征筛选必须严格限定在训练集，否则指标不可信；但算法本身为ELM+元启发式调参的组合，创新迁移到pack级或现场数据有限，可作为基线对比。</p>
+      </article>
+      
+    
+  </section>
+
+  <section class="block">
+    <h2>四、C级备选与快速浏览</h2>
+    
+    <table>
+      <thead><tr><th>标题</th><th>来源</th><th>日期</th><th>推荐理由</th></tr></thead>
+      <tbody>
+      
+        <tr>
+          <td><a href="https://doi.org/10.3390/batteries12100399">Machine Learning-Based Electric Vehicle Remaining Range Prediction: Assessing the Relative Impact of Battery Status, Driving Context, and Environmental Conditions</a></td>
+          <td>Batteries</td>
+          <td>2026-10-05</td>
+          <td>C级。主题边缘相关（里程预测而非BMS核心状态估计/安全管理），期刊为MDPI Batteries（不在优先列表），且数据完全来自仿真而非真实现场数据，证据强度一般；仅作为电池状态量重要性的旁证保留在备选列表。</td>
+        </tr>
+      
+      </tbody>
+    </table>
+    
+  </section>
+
+  <section class="block">
+    <h2>五、今日论文总表</h2>
+    <table>
+      <thead><tr><th>等级</th><th>标题</th><th>期刊/来源</th><th>方向判断</th><th>链接</th></tr></thead>
+      <tbody>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>Enhanced online detection of lithium plating via a dynamic threshold generation strategy with aging effect compensation</td>
+          <td>Applied Energy</td>
+          <td>用二阶等效电路+老化感知OCV-SOC补偿构造稳定的SOC相对电阻特征，配合半监督动态K-means阈值实现无需脉冲/静置工况的锂沉积在线预警。</td>
+          <td><a href="https://doi.org/10.1016/j.apenergy.2026.128965">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>From surrogate task to multiscale external-reference consistency learning: Adaptation-free cross-topology early warning of thermal runaway in electric vehicle batteries</td>
+          <td>Applied Energy</td>
+          <td>提出多尺度外部参考一致性学习框架，实现无需目标拓扑再训练的跨电池拓扑热失控早期预警。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S0306261926016132?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data</td>
+          <td>eTransportation</td>
+          <td>面向电池储能系统真实现场数据，提出语义嵌入的端到端深度学习框架直接估计SOH，减少对手工健康特征的依赖。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data</td>
+          <td>eTransportation</td>
+          <td>利用真实车队运行数据建立整车级电池组内阻退化模型，并量化各影响因素对退化速率的贡献。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000858?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs</td>
+          <td>eTransportation</td>
+          <td>通过pack级热失控实验揭示触发过程中内部短路引发的局部临时过充现象及其电气特征。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Linking key features of commercial lithium-ion cells to thermal runaway effects</td>
+          <td>Journal of Power Sources</td>
+          <td>基于10种商用单体、170余次滥用实验，建立单体格式、正极类型、容量与SOC等关键特征与热失控效应（起始温度、最高温度、产气量、超压）之间的定量关联。</td>
+          <td><a href="https://doi.org/10.1016/j.jpowsour.2026.241605">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag A">A</span></td>
+          <td>Electrochemical-thermal-aging coupled model for parallel lithium-ion battery packs: Evolution of thermal and aging inconsistency under cell-to-cell variations</td>
+          <td>Journal of Energy Storage</td>
+          <td>构建并联电池组的电化学-热-老化多物理耦合模型，揭示单体参数差异如何驱动热不一致性与老化不一致性的演化。</td>
+          <td><a href="https://www.sciencedirect.com/science/article/pii/S2352152X26045998?dgcid=rss_sd_all">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag B">B</span></td>
+          <td>Improved Chaotic Sparrow Search-Optimized Deep Multiple Kernel ELM for Lithium-Ion Battery RUL Prediction</td>
+          <td>Batteries</td>
+          <td>用混沌初始化的改进麻雀搜索算法优化深度多核ELM超参数，在两组公开电池数据上实现避免信息泄漏的RUL预测。</td>
+          <td><a href="https://doi.org/10.3390/batteries12100398">Open</a></td>
+        </tr>
+      
+        <tr>
+          <td><span class="tag C">C</span></td>
+          <td>Machine Learning-Based Electric Vehicle Remaining Range Prediction: Assessing the Relative Impact of Battery Status, Driving Context, and Environmental Conditions</td>
+          <td>Batteries</td>
+          <td>在仿真环境中用梯度提升模型预测电动车剩余里程，并通过置换与消融分析量化电池状态变量相对环境与路况变量的主导作用。</td>
+          <td><a href="https://doi.org/10.3390/batteries12100399">Open</a></td>
+        </tr>
+      
+      </tbody>
+    </table>
+  </section>
+
+  <p class="footer">Generated by battery-paper-agent. 请人工复核关键结论后再用于论文综述或组会汇报。</p>
+</div>
+</body>
+</html>
