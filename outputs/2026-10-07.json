@@ -1,0 +1,327 @@
+[
+  {
+    "title": "Thermodynamic Investigation of a Novel Hybrid Carnot Battery with Thermal Storage at Two Temperature Levels",
+    "abstract": "Energy storage is a critical step for the decarbonization of our society by exploiting renewable energies. Carnot batteries are promising technologies for storing excess electricity from renewables, but their efficiency is generally limited. The present work suggests a novel idea for enhancing the performance and flexibility of Carnot battery units. Specifically, a hybrid system that exploits both electricity and waste heat streams is suggested, incorporating two stages of latent thermal storage to increase flexibility. Moreover, the present system uses an innovative cascade high-temperature heat pump, with an absorption heat transformer in the low stage and a vapor-compression unit in the upper stage. The power production machine is a recuperative organic Rankine cycle. Practically, the absorption heat transformer exploits the waste heat stream by upgrading it and reducing the temperature lift that the vapor-compression heat pump produces, so there is increased electrical performance with suitable consumption of the waste heat stream. Also, the respective configuration without the absorption heat transformer is studied to make a suitable comparison. The results of this analysis show that the adoption of the AHT enhances the roundtrip efficiency from 26.30% up to 92.31% (relative enhancement) compared to the system without it. For the main scenario with a waste heat stream temperature at 100 °C, the roundtrip efficiency was found to be 72.86% and the exergetic efficiency as 35.02% for the system with the absorption heat transformer.",
+    "authors": [
+      "Evangelos Bellos"
+    ],
+    "source": "Crossref",
+    "venue": "Sci",
+    "date": "2026-10-05",
+    "doi": "10.3390/sci8100283",
+    "url": "https://doi.org/10.3390/sci8100283",
+    "source_id": "",
+    "score": 93.0,
+    "level": "A",
+    "title_zh": "Thermodynamic Investigation of a Novel Hybrid Carnot Battery with Thermal Storage at Two Temperature Levels",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 93.0，推荐等级 A；期刊优先级第 5 位。"
+  },
+  {
+    "title": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 112.5,
+    "level": "B",
+    "title_zh": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 112.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000858?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 90.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 90.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "State of charge estimation for lithium-ion battery balancing systems considering branch current dynamics under non-ideal switching",
+    "abstract": "State-of-charge (SoC) estimation is essential for lithium-ion battery management systems. In practical battery packs, balancing circuits are commonly used to reduce cell inconsistency. However, most existing balancing-aware methods treat the balancing branch as an ideal binary switch and directly determine the balancing current from the switching command. This simplification neglects branch-current dynamics under non-ideal switching, which may introduce mismatch in cell-current reconstruction and reduce estimation accuracy. To address this issue, this paper proposes an SoC estimation method for lithium-ion battery balancing systems considering branch-current dynamics under non-ideal switching. A transition-state variable α is introduced to describe the continuous evolution of the effective balancing-branch conductance and current following a switching-command change. Based on this model, a non-ideal transition extended Kalman filter (NIT-EKF) is designed for SoC estimation. Experimental results under constant-current charge, constant-current discharge, dynamic discharge, and prescribed parameter mismatch show that the proposed method improves overall SoC and terminal-voltage estimation performance compared with the conventional extended Kalman filter (EKF) and the switching extended Kalman filter based on an ideal branch-switch assumption (ideal-switch SEKF). Under initial SoC bias, the proposed method reduces peak SoC error and improves terminal-voltage prediction. These results demonstrate the value of incorporating effective branch-current dynamics under non-ideal switching into SoC estimation for lithium-ion battery balancing systems.",
+    "authors": [
+      "Hui Li",
+      "Haiyun Yuan",
+      "Yiquan Zhou",
+      "Xiaoyang Chen",
+      "Yifei Sun",
+      "Fu Jiang"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-10-05",
+    "doi": "10.1016/j.est.2026.124954",
+    "url": "https://doi.org/10.1016/j.est.2026.124954",
+    "source_id": "",
+    "score": 147.0,
+    "level": "B",
+    "title_zh": "State of charge estimation for lithium-ion battery balancing systems considering branch current dynamics under non-ideal switching",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 147.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "A computational fluid dynamics based analysis of coupled thermal and electrochemical processes in lithium-ion battery cells",
+    "abstract": "This study presents a computationally efficient lumped electrochemical–thermal solver implemented in OpenFOAM, decomposing cell voltage into open-circuit, ohmic, activation, and concentration overpotentials with Arrhenius temperature dependence and Fickian diffusion in idealized particles. The implicit Backward Euler discretization with Thomas Algorithm achieves 44–53 × speedup over explicit schemes, enabling 100 × larger time steps while maintaining stability. Validation against a commercial benchmark under 4C discharge demonstrates excellent agreement, with mean absolute percentage errors of 0.17% for average state of charge, 0.07% for cell voltage, and 0.39% for total heat generation. Further experimental validation against literature data for a 48-cell battery module confirms the solver’s scalability to system-level simulations (11 h). Parametric analysis across 1C–4C rates revealed that solid-phase diffusion constitutes the primary performance bottleneck, accounting for 63.3%–65.7% of voltage loss and 52%–62% of heat generation. At 4C, cell temperature increases from 293 K to 333 K, highlighting elevated thermal risk. Cooling simulations for 21700 Li-ion cells using two experimentally-reported anisotropic thermal conductivity models reveal that optimal cooling strategy depends on the anisotropy ratio ( k a x i a l / k r a d i a l ): for high anisotropy ( ≈ 27 ), end cooling reduces thermal gradients by 40% compared to side cooling despite lower efficiency (44.9% vs. 54.1%); for moderate anisotropy ( ≈ 14 ), both strategies yield comparable gradients (22–23 K). The work establishes a versatile and validated framework that bridges the gap between high-fidelity electrochemical modeling and scalable pack-level simulations, delivering a physics-informed and computationally robust tool for optimizing battery thermal management in electric vehicles.",
+    "authors": [
+      "Muhammad Hasnain Tariq",
+      "Gianluca Montenegro",
+      "Augusto Della Torre"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-10-05",
+    "doi": "10.1016/j.est.2026.124901",
+    "url": "https://doi.org/10.1016/j.est.2026.124901",
+    "source_id": "",
+    "score": 119.0,
+    "level": "B",
+    "title_zh": "A computational fluid dynamics based analysis of coupled thermal and electrochemical processes in lithium-ion battery cells",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 119.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "A multiphysics framework for modeling expansion force during thermal runaway propagation in lithium-ion battery packs",
+    "abstract": "Early warning of thermal runaway is essential for ensuring the safety of lithium-ion batteries. Expansion force has emerged as an important early warning signal. Modeling cell expansion can provide critical insights into the underlying thermo-mechanical processes and offer a simulation tool for developing reliable warning strategies. However, existing models are generally limited to the single-cell level and lack dynamic coupling with TR propagation (TRP) in the battery pack. In this work, a multiphysics and multi-scale modeling framework is developed to capture the cell expansion behavior during TRP. The framework integrates the lumped electrochemical and fluid dynamic sub-models into the thermal resistance network, capturing the heat generation, gas generation, pressure evolution, heat transfer, and TRP across the electrode, cell, and battery pack scales. The dynamic pressure boundary links the thermal resistance network with the finite element model to simulate the mechanical behavior of batteries. The model accurately captures the transient evolution of cell temperature and expansion force during TRP, which is validated by experiments. Simulation results clarify the propagation modes and mechanism of TR and cell expansion, and further reveal the effects of triggering location and heating power on expansion force and warning performance. The expansion force is found to provide the earliest warning with the longest lead time, and its performance remains robust across different triggering locations. This work advances the prediction of cell expansion at the battery pack level, offering new insights into the design of early warning systems.",
+    "authors": [
+      "Gongquan Wang",
+      "Yueyang Yu",
+      "Haidong Wei",
+      "Run Yang",
+      "Yuying Chen",
+      "Yihe Dong",
+      "Junyu Zhang",
+      "Ping Ping",
+      "Depeng Kong"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-10-05",
+    "doi": "10.1016/j.est.2026.124922",
+    "url": "https://doi.org/10.1016/j.est.2026.124922",
+    "source_id": "",
+    "score": 105.0,
+    "level": "B",
+    "title_zh": "A multiphysics framework for modeling expansion force during thermal runaway propagation in lithium-ion battery packs",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 105.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "A Domain-Knowledge Guided Grey Wolf Optimized Random Forest framework for state of charge estimation under dynamic thermal and loading conditions",
+    "abstract": "Accurate state of charge (SOC) estimation is fundamental to safe lithium-ion battery operation in electric vehicles and challenging under varying temperature and load. This study presents a Domain-Knowledge Guided Grey Wolf Optimized Random Forest (DGWO-RF) framework in which temporal and signal features engineered exclusively from voltage, current, and temperature, including filtered and differential voltage, power, and squared current, drive a bagged regression-tree ensemble tuned by Grey Wolf Optimization. Evaluation uses a public drive-cycle dataset spanning 5–45 °C. Under condition-specific calibration within one cycle–temperature condition, average root mean square error (RMSE) is 1.14% on the US06 cycle, rising to 1.53% at 5 °C; this accuracy does not extend to untrained temperatures, and a blocked-split analysis shows the sample-wise protocol to be optimistic by up to a factor of two. Under a leakage-free cycle-wise partition withholding complete drive cycles measured on separate cells, augmenting the inputs with trailing moving averages over four timescales reduces transfer error by 73% and systematic offset by an order of magnitude, yielding 0.62% RMSE and 0.46% mean absolute error on the withheld FTP-75 cycle at 25 °C. At equal budget over five seeds, the choice among Grey Wolf, particle swarm and Bayesian optimization has little effect on accuracy; random search is less consistent than all three. The results indicate that, within the calibrated operating range, temporal feature support and search-space design have a substantially greater influence on estimation accuracy than the specific metaheuristic used for hyperparameter optimization.",
+    "authors": [
+      "Özge Pınar Akkaş"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-10-05",
+    "doi": "10.1016/j.est.2026.124912",
+    "url": "https://doi.org/10.1016/j.est.2026.124912",
+    "source_id": "",
+    "score": 93.0,
+    "level": "B",
+    "title_zh": "A Domain-Knowledge Guided Grey Wolf Optimized Random Forest framework for state of charge estimation under dynamic thermal and loading conditions",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 93.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "A feature selection and model fusion framework for lithium-ion battery state of health estimation under capacity regeneration phenomena",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26047286?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 91.0,
+    "level": "B",
+    "title_zh": "A feature selection and model fusion framework for lithium-ion battery state of health estimation under capacity regeneration phenomena",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 91.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "A physics-informed method for joint forecasting of heat load and battery surface temperature in heating stations integrating photovoltaic generation, battery energy storage, and heat pumps",
+    "abstract": "Accurate joint forecasting of heat load and battery surface temperature is critical for reliable operation of heating stations that integrate photovoltaic generation, battery energy storage, and heat pumps in mountainous townships. These two targets are dynamically coupled because heat demand affects heat pump operation, while heat pump power consumption influences battery charging/discharging behavior and heat generation. However, existing methods either predict them independently or rely on data-driven multi-task learning, which ignores cross-system coupling and thermodynamic consistency. To address this issue, this paper proposes PMamba, a physics-informed Mamba framework for cross-system joint forecasting. Two physics-derived indicators are first constructed: the logarithmic mean temperature difference (LMTD), reflecting the heat-transfer driving potential, and the Joule heating rate ( Q gen ), characterizing the battery electro-thermal state. Guided by these indicators, a dual-branch thermal state-guided channel attention mechanism adaptively recalibrates input features for the thermal and electrical subsystems. A shared Mamba predictor then encodes the reweighted features to jointly forecast both targets. In addition, task-specific physics-constrained losses with learnable parameters are introduced to improve heat-transfer and thermal-balance consistency. Experiments on two heating seasons of operational data from a real station show that PMamba outperforms eight baselines. Compared with the strongest baseline for each target, PMamba reduces RMSE by 13.2% for heat load and 15.8% for battery surface temperature. The heat-transfer and thermal-balance residuals are also reduced by 34.3% and 41.7%, respectively. These results demonstrate that PMamba enables coherent and physically consistent forecasting for reliable energy management of such heating stations.",
+    "authors": [
+      "Zhiyi Zhang",
+      "Li Zhang",
+      "Xinyong Gao",
+      "Jing Jin"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-10-05",
+    "doi": "10.1016/j.est.2026.124916",
+    "url": "https://doi.org/10.1016/j.est.2026.124916",
+    "source_id": "",
+    "score": 81.0,
+    "level": "B",
+    "title_zh": "A physics-informed method for joint forecasting of heat load and battery surface temperature in heating stations integrating photovoltaic generation, battery energy storage, and heat pumps",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 81.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Superfast and Lightweight SOH estimation using Attention-based feature selection within Bandwise Electrochemical Impedance Spectroscopy",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26045299?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 73.0,
+    "level": "B",
+    "title_zh": "Superfast and Lightweight SOH estimation using Attention-based feature selection within Bandwise Electrochemical Impedance Spectroscopy",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 73.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "A feature selection and model fusion framework for lithium-ion battery state of health estimation under capacity regeneration phenomena",
+    "abstract": "",
+    "authors": [
+      "Jiang Wu",
+      "Yixuan Zhang",
+      "Dong Lei",
+      "Yisong Wang",
+      "Jiajun Lv",
+      "Wei Shen"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-10-05",
+    "doi": "10.1016/j.est.2026.125064",
+    "url": "https://doi.org/10.1016/j.est.2026.125064",
+    "source_id": "",
+    "score": 73.0,
+    "level": "B",
+    "title_zh": "A feature selection and model fusion framework for lithium-ion battery state of health estimation under capacity regeneration phenomena",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 73.0，推荐等级 B；期刊优先级第 21 位。"
+  }
+]
