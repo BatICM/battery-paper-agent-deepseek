@@ -1,0 +1,313 @@
+[
+  {
+    "title": "A physics-informed digital twin reveals the mechanistic threshold for knee-point onset in lithium-ion batteries",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Energy Storage Materials",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S240582972600721X?dgcid=rss_sd_all",
+    "source_id": "rss:8:Energy Storage Materials",
+    "score": 126.5,
+    "level": "A",
+    "title_zh": "A physics-informed digital twin reveals the mechanistic threshold for knee-point onset in lithium-ion batteries",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 126.5，推荐等级 A；期刊优先级第 7 位。"
+  },
+  {
+    "title": "Experimental Investigation of a Hybrid Thermal Management System for <scp>LFP</scp> Battery Packs Using <scp> Ag <sub>2</sub> O </scp> Nano Fluid–Cooled Serpentine Copper Tubes Embedded in Graphite‐Enhanced <scp>PCM</scp>",
+    "abstract": "ABSTRACT Effective thermal management is critical to ensure the safety, reliability, and performance of lithium‐ion battery modules under high thermal loads. While hybrid phase change material (PCM)–liquid cooling systems have been widely explored, the present study introduces a novel material‐level enhancement through the use of an Ag 2 O–ethylene glycol Nano fluid, whose application in battery thermal management remains largely unexplored. A compact 4S5P battery module comprising 21 700‐type lithium iron phosphate (LFP) cells (14 V, 22.5 Ah) is experimentally investigated under 1C, 1.5C, and 2C discharge rates, along with 1C charging conditions. The proposed hybrid BTMS integrates PCM with active liquid cooling using Ag 2 O Nano fluid at varying concentrations (1–5 wt.%), enabling a systematic evaluation of its thermo‐physical impact. The results demonstrate that, in the absence of thermal management, the module temperature rapidly increases to approximately 60°C at 2C, indicating severe thermal stress. In contrast, the proposed system significantly enhances heat dissipation, maintaining the maximum cell temperature within 30°C–32°C, thereby achieving a reduction of 5%. Furthermore, increasing nanoparticle concentration improves convective heat transfer, with optimal performance observed at 5 wt.%, reaching temperature to 29°C resulting in improved temperature uniformity across the module. Results demonstrate the effectiveness of Ag 2 O nanofluid relative to base fluid under the investigated operating conditions. This study not only demonstrates the feasibility of Ag 2 O‐based Nano fluids in BTMS but also provides a scalable and high‐performance thermal management solution for high‐power cylindrical battery modules in electric vehicles and energy storage systems.",
+    "authors": [
+      "Sagar Wankhede",
+      "Ajay D. Pingale",
+      "Aniruddha Kulkarni",
+      "Kunal Kolte",
+      "Lalit Jadhav",
+      "Lilesh Yadav",
+      "Sucheta Kakade",
+      "Shweta Suryawanshi"
+    ],
+    "source": "Crossref",
+    "venue": "Energy Storage",
+    "date": "2026-10-23",
+    "doi": "10.1002/est2.70554",
+    "url": "https://doi.org/10.1002/est2.70554",
+    "source_id": "",
+    "score": 118.5,
+    "level": "A",
+    "title_zh": "Experimental Investigation of a Hybrid Thermal Management System for <scp>LFP</scp> Battery Packs Using <scp> Ag <sub>2</sub> O </scp> Nano Fluid–Cooled Serpentine Copper Tubes Embedded in Graphite‐Enhanced <scp>PCM</scp>",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 118.5，推荐等级 A；期刊优先级第 7 位。"
+  },
+  {
+    "title": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 112.5,
+    "level": "B",
+    "title_zh": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 112.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000858?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 90.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000834?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "Electrical short-circuit behavior and temporary localized overcharge conditions during thermal runaway in lithium-ion battery packs",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 90.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Real-time state-of-health estimation and online degradation prognosis from partial battery discharge using Physics-Informed Neural Networks",
+    "abstract": "With the increasing integration of renewable energy sources, energy storage systems have become essential, making the accurate estimation of their State of Health (SOH) and degradation behavior critical. In this work, we propose a physics-informed deep learning approach for lithium-ion battery SOH prediction using incomplete discharge curves extracted from arbitrary voltage ranges, thereby reflecting realistic and heterogeneous operating conditions. The proposed method combines data-driven learning with physically motivated degradation dynamics to ensure consistent and reliable SOH estimation from partial discharge information, achieving a MAPE below 4$\\%$. In addition, a real-time degradation trend estimation strategy is introduced to detect key aging transitions without requiring prior knowledge or historical data, making it applicable to a wide range of batteries. Overall, our approach enables SOH estimation from arbitrary discharge segments and a real-time degradation forecast that continuously integrates all usage, overcoming previous methods that rely on fixed protocols or early, non-adaptive predictions.",
+    "authors": [
+      "Begoña Ispizua",
+      "Serio Gil-López",
+      "Leire Arrizabalaga",
+      "Ibai Laña"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Power Sources",
+    "date": "2026-10-23",
+    "doi": "10.1016/j.jpowsour.2026.241725",
+    "url": "https://doi.org/10.1016/j.jpowsour.2026.241725",
+    "source_id": "",
+    "score": 119.25,
+    "level": "B",
+    "title_zh": "Real-time state-of-health estimation and online degradation prognosis from partial battery discharge using Physics-Informed Neural Networks",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 119.25，推荐等级 B；期刊优先级第 20 位。"
+  },
+  {
+    "title": "Real-time state-of-health estimation and online degradation prognosis from partial battery discharge using Physics-Informed Neural Networks",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Power Sources",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0378775326024754?dgcid=rss_sd_all",
+    "source_id": "rss:10:Journal of Power Sources",
+    "score": 77.25,
+    "level": "B",
+    "title_zh": "Real-time state-of-health estimation and online degradation prognosis from partial battery discharge using Physics-Informed Neural Networks",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 77.25，推荐等级 B；期刊优先级第 20 位。"
+  },
+  {
+    "title": "A robust and computationally efficient hybrid spiking Neural Network-Bidirectional Long Short-Term Memory architecture for State of Health prediction of Lithium Iron Phosphate batteries under fast charging and discharging",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26048930?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 71.0,
+    "level": "B",
+    "title_zh": "A robust and computationally efficient hybrid spiking Neural Network-Bidirectional Long Short-Term Memory architecture for State of Health prediction of Lithium Iron Phosphate batteries under fast charging and discharging",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 71.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Numerical analysis of nano-enhanced phase change materials and a bionic liquid-cooling channel for energy-efficient lithium-ion battery thermal management",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26049613?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 69.0,
+    "level": "B",
+    "title_zh": "Numerical analysis of nano-enhanced phase change materials and a bionic liquid-cooling channel for energy-efficient lithium-ion battery thermal management",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 69.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "A robust and computationally efficient hybrid spiking Neural Network-Bidirectional Long Short-Term Memory architecture for State of Health prediction of Lithium Iron Phosphate batteries under fast charging and discharging",
+    "abstract": "",
+    "authors": [
+      "Shevil K. Mehta",
+      "Heidi S. Nygård",
+      "Jagath Sri Lal Senanayaka"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-10-23",
+    "doi": "10.1016/j.est.2026.125229",
+    "url": "https://doi.org/10.1016/j.est.2026.125229",
+    "source_id": "",
+    "score": 53.0,
+    "level": "B",
+    "title_zh": "A robust and computationally efficient hybrid spiking Neural Network-Bidirectional Long Short-Term Memory architecture for State of Health prediction of Lithium Iron Phosphate batteries under fast charging and discharging",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 53.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Numerical analysis of nano-enhanced phase change materials and a bionic liquid-cooling channel for energy-efficient lithium-ion battery thermal management",
+    "abstract": "",
+    "authors": [
+      "Peyman Gholamali Zadeh"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-10-23",
+    "doi": "10.1016/j.est.2026.125297",
+    "url": "https://doi.org/10.1016/j.est.2026.125297",
+    "source_id": "",
+    "score": 51.0,
+    "level": "B",
+    "title_zh": "Numerical analysis of nano-enhanced phase change materials and a bionic liquid-cooling channel for energy-efficient lithium-ion battery thermal management",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 51.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Clustering Methodologies for Second-Life Battery Packs: Exploring Statistical Sorting Techniques to Group Cells with Similar Aging Mechanisms and Mitigate Capacity Bottlenecks in Mixed-SOH Domestic Storage Systems",
+    "abstract": "Repurposing retired electric-vehicle (EV) lithium-ion cells into residential energy storage defers energy-intensive recycling, but mixed-state-of-health cells assembled into a series string suffer a “weakest-link” bottleneck: the highest-resistance cell reaches its voltage cut-off first, stranding the usable capacity of its healthier neighbours and concentrating Joule heating at that cell. This paper develops and numerically tests a statistical sorting framework intended to mitigate that bottleneck. A physically grounded synthetic fleet of 336 retired NMC cells is generated from an Arrhenius power-law fade model, with dynamics simulated by a second-order Thevenin (Randles) equivalent-circuit model and aging-marker features recovered from simulated electrochemical impedance spectra (EIS). The feature-extraction step yields an identifiability result: for sweeps that do not extend below 10 mHz, the diffusion time constant cannot be recovered from the spectrum alone (97.98% median relative error at a practical 2.05 min/cell sweep), so a 60 s DC-pulse resistance measurement is used in its place. Four sorting strategies (random assembly, capacity-only sorting, Euclidean balanced clustering, and a Mahalanobis GMM+ISODATA pipeline) are compared on 40 independent synthetic fleets. The result is reported as computed: capacity-only sorting met both safety thresholds in 11.0% of modules, Euclidean balanced clustering in 7.7%, random assembly in 0.0%, and the Mahalanobis pipeline in only 0.1%. The paper diagnoses this as an objective mismatch, ISODATA fragmentation and an unweighted noisy feature, and proposes a feature-weighted metric as the corrected design. The paper also presents a smart battery-management-system architecture, a facility workflow, and levelized-cost-of-storage and life-cycle-assessment frameworks as design targets. No pack-level dispatch, techno-economic or life-cycle simulation was executed, and no experimental hardware data were used.",
+    "authors": [
+      "Esbon Ogeto",
+      "Jackline K Mbuya"
+    ],
+    "source": "OpenAlex",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "date": "2026-10-23",
+    "doi": "10.5281/zenodo.23595904",
+    "url": "https://doi.org/10.5281/zenodo.23595904",
+    "source_id": "",
+    "score": 122.0,
+    "level": "B",
+    "title_zh": "Clustering Methodologies for Second-Life Battery Packs: Exploring Statistical Sorting Techniques to Group Cells with Similar Aging Mechanisms and Mitigate Capacity Bottlenecks in Mixed-SOH Domestic Storage Systems",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 122.0，推荐等级 B。"
+  }
+]
