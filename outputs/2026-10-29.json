@@ -1,0 +1,316 @@
+[
+  {
+    "title": "A physics-informed digital twin reveals the mechanistic threshold for knee-point onset in lithium-ion batteries",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Energy Storage Materials",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S240582972600721X?dgcid=rss_sd_all",
+    "source_id": "rss:8:Energy Storage Materials",
+    "score": 126.5,
+    "level": "A",
+    "title_zh": "A physics-informed digital twin reveals the mechanistic threshold for knee-point onset in lithium-ion batteries",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 126.5，推荐等级 A；期刊优先级第 7 位。"
+  },
+  {
+    "title": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 112.5,
+    "level": "B",
+    "title_zh": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 112.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000858?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 90.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Design and optimization of immersion cooling thermal management system for high energy density battery pack",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26049625?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 91.0,
+    "level": "B",
+    "title_zh": "Design and optimization of immersion cooling thermal management system for high energy density battery pack",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 91.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "The dynamic distribution of energy fields and thermal runaway early warning for lithium-ion batteries within transportation protective equipment",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26049741?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 85.0,
+    "level": "B",
+    "title_zh": "The dynamic distribution of energy fields and thermal runaway early warning for lithium-ion batteries within transportation protective equipment",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 85.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "A physics-embedded recurrent spiking neural network integrating polarization dynamics for battery state-of-health estimation",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26049935?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 81.0,
+    "level": "B",
+    "title_zh": "A physics-embedded recurrent spiking neural network integrating polarization dynamics for battery state-of-health estimation",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 81.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Design and optimization of immersion cooling thermal management system for high energy density battery pack",
+    "abstract": "",
+    "authors": [
+      "Hongda Li",
+      "Qiuwan Shen",
+      "李世安"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-10-27",
+    "doi": "10.1016/j.est.2026.125298",
+    "url": "https://doi.org/10.1016/j.est.2026.125298",
+    "source_id": "",
+    "score": 73.0,
+    "level": "B",
+    "title_zh": "Design and optimization of immersion cooling thermal management system for high energy density battery pack",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 73.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "The dynamic distribution of energy fields and thermal runaway early warning for lithium-ion batteries within transportation protective equipment",
+    "abstract": "",
+    "authors": [
+      "Zhenyan Liu",
+      "Songli Zhang",
+      "Yanli Zhu",
+      "Xiaoyu Li",
+      "Zhitong Guan",
+      "Ping Zhang"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-10-27",
+    "doi": "10.1016/j.est.2026.125310",
+    "url": "https://doi.org/10.1016/j.est.2026.125310",
+    "source_id": "",
+    "score": 67.0,
+    "level": "B",
+    "title_zh": "The dynamic distribution of energy fields and thermal runaway early warning for lithium-ion batteries within transportation protective equipment",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 67.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Risk-Aware Digital Twin-Enabled Edge Intelligence for Battery Degradation, Thermal Stress, and Energy Management in Electric Vehicles",
+    "abstract": "Abstract Energy-management strategies are needed to coordinate efficient operation, thermal-stress limitation, and battery-health considerations in electric-vehicle (EV) battery systems under varying operating conditions. This paper develops a risk-aware EV battery energy-management framework based on a Digital Twin, combining battery-state prediction, a heuristic uncertainty indicator, thermal-risk assessment, and battery-health information within a unified current-control scheme. The Digital Twin supplies battery-state information to the controller, while the edge-intelligence layer supports local processing without continuous cloud interaction. Five controllers—Rule-Based, Model Predictive Control (MPC), AI-only, Digital Twin-based, and the proposed risk-aware Digital Twin-enabled controller—are evaluated under common simulated conditions. In the nominal simulation, the proposed controller consumes 24.494 kWh, compared with 22.534 kWh for the Rule-Based controller and approximately 25.35–25.54 kWh for the MPC, AI-only, and Digital Twin-based controllers. Its simulated peak temperature is approximately 22.5 °C, compared with approximately 22.7–22.8 °C for the other controllers; however, the small difference is model-dependent and is not interpreted as statistically established thermal superiority. The proposed controller does not achieve the best SOC prediction RMSE, and its higher SOC RMSE illustrates a trade-off between prediction accuracy and risk-aware control. The reported host-side MATLAB latency is approximately 0.00233 ms and is treated only as a preliminary computational indicator, not as an embedded automotive execution benchmark. The results therefore support the feasibility of studying Digital Twin prediction and uncertainty-aware decision-making in a simulation-based EV battery energy-management framework, while the limitations of the reduced aging model, nominal thermal range, statistical evidence, and simulation-only validation are explicitly acknowledged.",
+    "authors": [
+      "G. Ramya",
+      "Pandian Suresh",
+      "BAARGAVEE V"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "Engineering Research Express",
+    "date": "2026-10-27",
+    "doi": "10.1088/2631-8695/aeba3d",
+    "url": "https://doi.org/10.1088/2631-8695/aeba3d",
+    "source_id": "",
+    "score": 122.0,
+    "level": "B",
+    "title_zh": "Risk-Aware Digital Twin-Enabled Edge Intelligence for Battery Degradation, Thermal Stress, and Energy Management in Electric Vehicles",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 122.0，推荐等级 B。"
+  },
+  {
+    "title": "Cross-domain thermal-health prediction and early warning for lithium-ion batteries via dual-stream network",
+    "abstract": "The joint prediction of thermal states and State of Health (SOH) is vital to ensure the safe operation and reliable management of lithium-ion batteries. However, existing approaches usually model these targets independently. Such separate modeling leads to insufficient coupling awareness, restricts practical warning decision-making, and yields poor cross-domain generalization, which impedes reliable battery lifespan management. To tackle these challenges, this paper proposes a dual-stream multi-task network for joint thermal-health prediction and early warning to improve battery management systems. The architecture contains two parallel branches: a temporal convolutional network captures local thermal dynamics, while a Mamba model characterizes long-range degradation evolution. The outputs of the two branches are fed into adaptive gated fusion modules followed by task-specific prediction heads. An auxiliary temperature difference prediction task is introduced to improve thermal consistency, and a weighted loss function focusing on high-temperature regions is designed to enhance prediction reliability under safety-critical conditions. A domain distribution alignment strategy is further adopted to realize few-shot cross-environment domain adaptation. After alignment-based pre-training, a small number of labeled target-domain samples are utilized for model fine-tuning. Experiments under dynamic conditions on the XJTU dataset demonstrate that the proposed model achieves competitive performance, with a mean absolute error (MAE) of 0.011 for SOH and 0.898 °C for maximum temperature. Cross-environment transfer tests on the NASA dataset obtain an SOH MAE of 0.022. Relying on the prediction results, the proposed warning scheme achieves a strict timely response rate of 92.6%, with an average warning lead time of 48.6 cycles across test cases. These results verify that the proposed framework enables proactive thermal-risk monitoring and holds great application potential for intelligent battery management.",
+    "authors": [
+      "Penghui Tian",
+      "Xichao Li",
+      "Xiaojun Yang",
+      "Bo Wang",
+      "Yanhong Liu"
+    ],
+    "source": "OpenAlex",
+    "venue": "Frontiers in Energy Research",
+    "date": "2026-10-27",
+    "doi": "10.3389/fenrg.2026.1975958",
+    "url": "https://doi.org/10.3389/fenrg.2026.1975958",
+    "source_id": "",
+    "score": 112.0,
+    "level": "B",
+    "title_zh": "Cross-domain thermal-health prediction and early warning for lithium-ion batteries via dual-stream network",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 112.0，推荐等级 B。"
+  },
+  {
+    "title": "Comparative Analysis of Passive and Active Cell Balancing Techniques for Electric Vehicle Battery Packs",
+    "abstract": "In this study, passive and active battery management systems (BMS) were modeled and comparatively analyzed in a simulation environment to mitigate cell-to-cell voltage imbalance in lithium-ion energy storage modules deployed in electric mobility systems. A threshold-voltage-controlled switched-resistor balancing method, which is widely employed in commercial passive BMS, was investigated, and the voltage–time behavior of the cells during the balancing process was evaluated. Simulation results indicate that continuous discharge in cells reaching the threshold voltage at an early stage leads to significant energy losses. In contrast, an active balancing method based on inter-cell energy transfer and implemented using a DC–DC converter-based structure was designed and applied in the simulation environment. Passive and active BMS were compared in terms of balancing time and energy efficiency. The results demonstrate that active balancing methods reduce energy losses and increase the usable capacity of the battery pack, providing a more efficient solution for electric vehicle applications.",
+    "authors": [
+      "Sefa Mert Köylü",
+      "Harun ÖZBAY"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "Mühendislik Bilimleri ve Araştırmaları Dergisi",
+    "date": "2026-10-27",
+    "doi": "10.46387/bjesr.1892788",
+    "url": "https://doi.org/10.46387/bjesr.1892788",
+    "source_id": "",
+    "score": 102.0,
+    "level": "B",
+    "title_zh": "Comparative Analysis of Passive and Active Cell Balancing Techniques for Electric Vehicle Battery Packs",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 102.0，推荐等级 B。"
+  },
+  {
+    "title": "One EV Battery Reading, Several Versions: An Early Warning for EV Battery Health from the Battery Management System's Own Settings",
+    "abstract": "A battery management system (BMS) in an electric scooter or car measures voltage, current and temperature, and often runs an AI program to tell the health of the battery. Today the rider sees one health number from one reading, with no sign of how firm that number is. This concept note describes a simple check that sits inside the BMS software, on top of any such AI program. Each time the BMS takes a reading, the software also computes the same reading with two to four permitted settings of its own internal parameters. These are not invented changes, so the uncertainty is real. The maker's AI program runs unchanged on every version, and the spread of the answers is measured. A small spread means the health reading is firm. A growing spread means the battery is moving towards a tipping point, such as the knee of capacity fade or overheating, and the weakening pull-back of the battery is what makes the spread grow. The computer then takes a shunting action by itself, without waiting for anyone, for example by reducing the fast-charge current or cutting the charging. The rider sees only a calm state: Steady, Watch or Look closer, with a rough forecast of the days left before the battery needs a check. The note also describes how the method can help find a lead time before an unsafe event. No new sensor or hardware is needed, and the AI program is not changed. No results on real battery data are given in this note. Patent pending. Keywords: EV battery, battery management system, battery health, early warning, tipping point, AI, shunting action, lead time",
+    "authors": [
+      "Prakash Vaithyanathan"
+    ],
+    "source": "OpenAlex",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "date": "2026-10-27",
+    "doi": "10.5281/zenodo.23703115",
+    "url": "https://doi.org/10.5281/zenodo.23703115",
+    "source_id": "",
+    "score": 94.0,
+    "level": "B",
+    "title_zh": "One EV Battery Reading, Several Versions: An Early Warning for EV Battery Health from the Battery Management System's Own Settings",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 94.0，推荐等级 B。"
+  }
+]
