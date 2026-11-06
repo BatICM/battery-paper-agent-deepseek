@@ -1,0 +1,331 @@
+[
+  {
+    "title": "Unlocking Wide‐Temperature Battery States via Noninvasive Nonlinear Ultrasound",
+    "abstract": "ABSTRACT Lithium‐ion batteries (LIBs) are central to modern energy storage, yet evaluating their internal states under extreme thermal fluctuations remains a critical challenge. Here we present a non‐destructive evaluation framework that leverages the quasi‐static component (QSC) of nonlinear ultrasonic guided waves. By integrating an operando electro‐acoustic‐thermal platform, we isolate temperature‐induced artefacts from intrinsic acoustic signals. This statistical compensation enables the precise, simultaneous prediction of state of charge (SOC) and state of charge relative to nominal capacity (SOC N ) across a wide temperature span (−10°C to 40°C). Furthermore, in situ multidimensional characterization maps these ultrasonic signatures to temperature‐dependent mechanics and irreversible capacity fade mechanisms. Ultimately, this unified framework provides a scalable, quantitative diagnostic tool for reliable energy systems operating under extreme environments.",
+    "authors": [
+      "Xiaolei Lin",
+      "Xiaofeng Li",
+      "Xianlin Cao",
+      "Jiyu Liu",
+      "Xinyi Yuan",
+      "Jinshan Wen",
+      "Yancheng You",
+      "Mingxi Deng",
+      "Weibin Li"
+    ],
+    "source": "Crossref",
+    "venue": "Advanced Energy Materials",
+    "date": "2026-11-05",
+    "doi": "10.1002/aenm.71798",
+    "url": "https://doi.org/10.1002/aenm.71798",
+    "source_id": "",
+    "score": 118.75,
+    "level": "A",
+    "title_zh": "Unlocking Wide‐Temperature Battery States via Noninvasive Nonlinear Ultrasound",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 118.75，推荐等级 A；期刊优先级第 6 位。"
+  },
+  {
+    "title": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 112.5,
+    "level": "B",
+    "title_zh": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 112.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000858?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 90.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Interpretable transfer learning for lithium-ion battery state-of-health estimation across different chemistries, temperature and operating conditions",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26049686?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 83.0,
+    "level": "B",
+    "title_zh": "Interpretable transfer learning for lithium-ion battery state-of-health estimation across different chemistries, temperature and operating conditions",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 83.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Design and performance analysis of a structurally integrated thermoelectric–heat pipe hybrid battery thermal management system",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26050917?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 69.0,
+    "level": "B",
+    "title_zh": "Design and performance analysis of a structurally integrated thermoelectric–heat pipe hybrid battery thermal management system",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 69.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Robust sequential framework for selection of flow-channel material and performance assessment of heat transfer fluid-assisted battery thermal management schemes",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26050127?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 69.0,
+    "level": "B",
+    "title_zh": "Robust sequential framework for selection of flow-channel material and performance assessment of heat transfer fluid-assisted battery thermal management schemes",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 69.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Interpretable transfer learning for lithium-ion battery state-of-health estimation across different chemistries, temperature and operating conditions",
+    "abstract": "",
+    "authors": [
+      "Junbiao Chen",
+      "Simin Yang",
+      "Xinman Song",
+      "Quanxue Guan",
+      "Yuqian Fan",
+      "Xiaojun Tan"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-11-04",
+    "doi": "10.1016/j.est.2026.125304",
+    "url": "https://doi.org/10.1016/j.est.2026.125304",
+    "source_id": "",
+    "score": 65.0,
+    "level": "B",
+    "title_zh": "Interpretable transfer learning for lithium-ion battery state-of-health estimation across different chemistries, temperature and operating conditions",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 65.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Multipulse HPPC for Current-Scheduled ECM Parameterization and SoC Estimation in EV Batteries",
+    "abstract": "Accurate state-of-charge (SoC) estimation is central to safe and efficient Battery Management Systems (BMS) in electric vehicles. This study evaluates a multipulse Hybrid Pulse Power Characterization (HPPC) protocol using three discharge rates (0.5 C, 1 C, and 2.5 C) and two regenerative-charge rates (−0.5 C and −0.4 C). Three discharge-derived first-order RC parameter sets are scheduled within an extended Kalman filter according to instantaneous current magnitude and tested on a 54.6 V, 20.8 Ah NMC battery pack. A matched-input dynamic record is used to compare the single-pulse and multipulse HPPC-derived estimators. Because the reference SoC is nominal-capacity Coulomb counting using the same measured current, the reported SoC errors quantify agreement with that trajectory rather than independently measured ground-truth SoC. The multipulse parameterization reduced SoC RMSE from 2.1354% to 1.4065%, MAE from 1.7001% to 1.1138%, and MaxAE from 3.8951% to 3.6014%, while R2 increased from 0.98882 to 0.99515. For voltage estimation, RMSE decreased from 0.3145 V to 0.2409 V and MAE from 0.2379 V to 0.1532 V, but MaxAE increased from 1.7800 V to 2.1770 V. The results therefore show lower aggregate estimation error on the shared dynamic record without establishing independent absolute SoC accuracy or universal ECM fidelity.",
+    "authors": [
+      "Yaminidhar Reddy Bhavanam",
+      "Sreedhar Madichetty",
+      "Abdelkader El Kamel",
+      "Bonginkosi Allen Thango"
+    ],
+    "source": "OpenAlex",
+    "venue": "Batteries",
+    "date": "2026-11-04",
+    "doi": "10.3390/batteries12110465",
+    "url": "https://doi.org/10.3390/batteries12110465",
+    "source_id": "",
+    "score": 100.0,
+    "level": "B",
+    "title_zh": "Multipulse HPPC for Current-Scheduled ECM Parameterization and SoC Estimation in EV Batteries",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 100.0，推荐等级 B。"
+  },
+  {
+    "title": "Critical Evaluation of Electrochemical Impedance Spectroscopy for State-of-Health Estimation of Lithium-Ion Cells Against Battery Management System Baselines",
+    "abstract": "Machine-learning models that estimate the state of health (SOH) of lithium-ion cells from electrochemical impedance spectroscopy (EIS) are rarely compared with models using only data a battery management system (BMS) records. Of 30 audited studies using three public datasets, one reported such a baseline. With whole cells held out, impedance brought no detectable gain over the strongest baseline on two exploratory datasets. A test on 88 independent coin cells, registered before the data were downloaded, was inconclusive (19 cells; +0.79 SOH points with impedance, 95% CI −0.07 to +1.66; smallest effect of interest 1.32). The capacity label varied strongly with cycling currents. Post hoc, with the label corrected for these currents without the test cell, impedance changed the full-life error of all 88 cells by −1.95 points (−2.86 to −1.03). With features of the previous discharge curve in the baseline, the change was −0.39 (−1.10 to +0.33). The comparison of impedance with these features, repeated as originally published, lost most of its gain within sets once the baseline received the previous discharge current, but not when models trained at 23 °C were tested at 35 °C. Impedance-based SOH studies should compare impedance with the strongest baseline a BMS can build.",
+    "authors": [
+      "Y. Zhang",
+      "Jia Lyu"
+    ],
+    "source": "OpenAlex",
+    "venue": "ChemRxiv",
+    "date": "2026-11-04",
+    "doi": "10.26434/chemrxiv.15011674/v1",
+    "url": "https://doi.org/10.26434/chemrxiv.15011674/v1",
+    "source_id": "",
+    "score": 100.0,
+    "level": "B",
+    "title_zh": "Critical Evaluation of Electrochemical Impedance Spectroscopy for State-of-Health Estimation of Lithium-Ion Cells Against Battery Management System Baselines",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 100.0，推荐等级 B。"
+  },
+  {
+    "title": "Regime Diagram of Li-Ion Battery Thermal Runaway under Emergency Discharge beyond Exothermicity: Nonmonotonicity and Active Risk Control",
+    "abstract": "Abstract Thermal runaway (TR) can be triggered in lithium-ion batteries under abuse conditions, leading to significant safety concerns for electric vehicles and energy storage systems. Emergency discharge has been considered as an effective strategy to mitigate TR by reducing the state of charge (SOC), whereas substantial ambiguities remain due to the wide discharge range beyond normal operation and the complex coupling between electrochemistry and TR. In this work, TR experiments are conducted in an Accelerating Rate Calorimeter (ARC) for commercial 18650 LiFePO4 cells, in a range of high discharge temperatures beyond exothermicity (90–110 °C) and discharge C-rates (0.05–18.75 C). Based on the experimental data, a regime diagram is established to isolate TR and No-TR regimes. As discharge temperature increases, the No-TR regime progressively narrows, indicating increasing TR risk. Meanwhile, for a given discharge temperature, increasing discharge C-rate leads to a nonmonotonic system response for TR occurrence, with TR occurrence in the low and high end of discharge rates, yet no-TR in between. Furthermore, the remaining SOC after discharge is nonmonotonic as discharge rate increases, with intermediate C rates achieving the lowest remaining SOC. Based on energy analysis, cells with similar remaining SOC exhibit nearly identical global kinetics regardless of discharge conditions. Statistical analysis reveals that the voltage-drop temperature collected from all the TR tests follows an approximately normal distribution, providing a risk-driven criterion for defining acceptable discharge windows. Measurement using a Simultaneous Thermal Analyzer (STA) has further demonstrated high consistency between the thermal stability of separator meltdown and the voltage drop temperature. These findings not only establish the regime diagram for TR under discharge, but also provide practical guidance for developing effective emergency discharge strategies for TR mitigation.",
+    "authors": [
+      "Han Yu",
+      "Yejian Yu",
+      "Peng Zhao"
+    ],
+    "source": "Crossref",
+    "venue": "Energy & Fuels",
+    "date": "2026-11-06",
+    "doi": "10.1021/acs.energyfuels.6c04057",
+    "url": "https://doi.org/10.1021/acs.energyfuels.6c04057",
+    "source_id": "",
+    "score": 100.0,
+    "level": "B",
+    "title_zh": "Regime Diagram of Li-Ion Battery Thermal Runaway under Emergency Discharge beyond Exothermicity: Nonmonotonicity and Active Risk Control",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 100.0，推荐等级 B。"
+  },
+  {
+    "title": "Multi-Timescale Coordination of Wind-Solar-Pumped Storage-Battery Energy Systems: Planning, Scheduling, Control, and System Value",
+    "abstract": "The variability of wind and photovoltaic generation requires energy storage systems not only to perform sustained energy shifting but also to respond to rapid power fluctuations. Pumped hydro storage (PHS) and battery energy storage systems (BESSs) exhibit complementary characteristics in addressing these two requirements. However, the separate treatment of capacity planning, dispatch, and control creates a persistent gap between the expected benefits of hybrid configuration and its practical operational feasibility. This paper reviews the system configurations, capacity planning, optimal scheduling, and coordinated control of wind–photovoltaic–pumped hydro–battery energy storage systems, with particular emphasis on how reservoir states, battery state of charge, and unit operating constraints link decisions across different timescales. The associated evaluation metrics and solution methods are also systematically summarized. Existing studies show that allocating regulation power according to fluctuation characteristics can exploit the different response capabilities of PHS and BESS. Nevertheless, persistent power imbalances accumulate into energy deviations, causing the original power-sharing strategy to become increasingly constrained by reservoir water availability and battery energy states. Assigning fast regulation tasks to BESS can reduce frequent power adjustments of PHS, but at the cost of increased battery cycling. Variable-speed operation and hydraulic short-circuit operation can further extend the regulation range of PHS; however, the practically available regulation capability remains constrained by hydraulic head, operating-mode transitions, and hydraulic transients. Consequently, hybrid-storage planning and operational benefits cannot be adequately assessed solely on the basis of static power balance and short-term operating costs. Future research should incorporate dynamic safety boundaries and lifetime-related degradation costs into planning and scheduling decisions, while conducting cross-timescale validation under consistent resource, equipment, and data conditions. Such efforts are necessary to clarify the operating conditions under which hybrid energy storage provides tangible advantages over single-storage solutions and to quantify its practical value in renewable-dominated power systems.",
+    "authors": [
+      "Shulin Li",
+      "Zimo Wu",
+      "Yixuan Zhang",
+      "Qingsong Liu",
+      "Bin Wang",
+      "FengJiao Wu"
+    ],
+    "source": "OpenAlex",
+    "venue": "Preprints.org",
+    "date": "2026-11-04",
+    "doi": "10.20944/preprints202611.0275.v1",
+    "url": "https://doi.org/10.20944/preprints202611.0275.v1",
+    "source_id": "",
+    "score": 76.0,
+    "level": "B",
+    "title_zh": "Multi-Timescale Coordination of Wind-Solar-Pumped Storage-Battery Energy Systems: Planning, Scheduling, Control, and System Value",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 76.0，推荐等级 B。"
+  },
+  {
+    "title": "Diagnosing Conformal Coverage Failure Under Battery Deployment Shift for Joint State-of-Charge and State-of-Health Estimation",
+    "abstract": "Conformal prediction guarantees interval coverage only when calibration and deployment data are exchangeable. We test joint state-of-charge (SOC) and state-of-health (SOH) intervals when this assumption fails across cells, discharge protocols, chemistries, and an electric-vehicle (EV) driving profile, with calibration data kept separate from training and model selection. At 90% nominal, SOC coverage is 90.9% on a random cycle split but 33.0–81.4% on held-out cells, at most 0.9% on cross-protocol windows with nonzero SOC, at most 5.16% across chemistries, and 0.02% on EV-profile cells (five-seed means). SOH coverage is below nominal under every shift. Four learned baselines (recurrent, convolutional, Transformer, and physics-informed) and an equivalent-circuit Kalman filter fall short on the hardest cells. Density-ratio and optimal-transport weighting, conformalised quantile regression, and group-conditional calibration reach nominal mean coverage on no held-out cell. Recalibrating on the deployed cell’s five latest labelled cycles restores coverage to 85.5–90.3% on held-out cells without retraining, but under protocol and EV-profile shift only with intervals over half the SOC range. Under chemistry shift, optimal-transport alignment configured on labelled target data lowers SOC error by 10–59%, yet only fine-tuning with target-domain calibration restores coverage (88.0–89.3%). Source-calibrated conformal intervals are not valid under deployment shift by default.",
+    "authors": [
+      "Tao Zhang",
+      "Labani Akter",
+      "Xianyong Peng",
+      "Mohammad Raziul Hasan Rifat Sarkar"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "Processes",
+    "date": "2026-11-04",
+    "doi": "10.3390/pr14213557",
+    "url": "https://doi.org/10.3390/pr14213557",
+    "source_id": "",
+    "score": 74.0,
+    "level": "B",
+    "title_zh": "Diagnosing Conformal Coverage Failure Under Battery Deployment Shift for Joint State-of-Charge and State-of-Health Estimation",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 74.0，推荐等级 B。"
+  }
+]
