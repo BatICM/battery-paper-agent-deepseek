@@ -1,0 +1,336 @@
+[
+  {
+    "title": "Physics‐Informed Meta‐Learning With Graph Attention for Lithium‐Ion Battery Remaining Useful Life Prediction",
+    "abstract": "ABSTRACT Accurate prediction of lithium‐ion battery (LIB) remaining useful life (RUL) is important for assessing battery degradation and supporting reliable operation of energy systems. However, prediction across different operating conditions remains challenging because of complex spatial–temporal dependencies, limited degradation observations, and difficulties in incorporating degradation‐related physical knowledge. To overcome these challenges, this study presents a physics‐informed meta‐graph attention network (PIMGAN) that integrates degradation feature learning, dynamical regularization, and few‐shot adaptation. Firstly, a multi‐scale graph attention mechanism is combined with adaptive bidirectional temporal convolution to characterize correlations among heterogeneous battery measurements and their temporal evolution. Then, a physics‐guided regulator (PGR) learns a nonlinear differential operator in the latent feature space, whose residual serves as an additional regularization term during model training. Finally, a first‐order meta‐learning strategy is integrated to learn transferable model initialization parameters across multiple degradation tasks, enabling rapid adaptation to unseen battery conditions with limited target‐domain observations while avoiding explicit second‐order meta‐gradient computations. The proposed PIMGAN is evaluated on two publicly available LIB datasets under cross‐cycle and cross‐condition prediction settings. Under cross‐condition evaluation, PIMGAN achieves mean absolute percentage errors of 0.267% and 0.336% on the MIT and XJTU datasets, respectively, demonstrating its effectiveness in battery RUL prediction with limited target‐domain data.",
+    "authors": [
+      "Yehua Ling",
+      "Jinxin Wu",
+      "Zhuangsong Wu",
+      "Feiyan Pan",
+      "Yong Zhou",
+      "Xiuqiong Li",
+      "Jinxin Wu"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "Energy Storage",
+    "date": "2026-11-06",
+    "doi": "10.1002/est2.70561",
+    "url": "https://doi.org/10.1002/est2.70561",
+    "source_id": "",
+    "score": 130.5,
+    "level": "A",
+    "title_zh": "Physics‐Informed Meta‐Learning With Graph Attention for Lithium‐Ion Battery Remaining Useful Life Prediction",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 130.5，推荐等级 A；期刊优先级第 7 位。"
+  },
+  {
+    "title": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 112.5,
+    "level": "B",
+    "title_zh": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 112.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000858?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 90.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Lithium-ion battery health prediction using self-learning physics-informed neural networks",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26048942?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 87.0,
+    "level": "B",
+    "title_zh": "Lithium-ion battery health prediction using self-learning physics-informed neural networks",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 87.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Sandwich-structured thermoelectric aerogel sensor with integrated early warning and thermal insulation for suppressing thermal runaway propagation of lithium-ion batteries",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26051558?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 85.0,
+    "level": "B",
+    "title_zh": "Sandwich-structured thermoelectric aerogel sensor with integrated early warning and thermal insulation for suppressing thermal runaway propagation of lithium-ion batteries",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 85.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Lithium-ion battery health prediction using self-learning physics-informed neural networks",
+    "abstract": "",
+    "authors": [
+      "B.V. Le",
+      "Tuyen Ngoc Le",
+      "Tien Dung Nguyen",
+      "Yeong-Hwa Chang"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-11-06",
+    "doi": "10.1016/j.est.2026.125230",
+    "url": "https://doi.org/10.1016/j.est.2026.125230",
+    "source_id": "",
+    "score": 69.0,
+    "level": "B",
+    "title_zh": "Lithium-ion battery health prediction using self-learning physics-informed neural networks",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 69.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Sandwich-structured thermoelectric aerogel sensor with integrated early warning and thermal insulation for suppressing thermal runaway propagation of lithium-ion batteries",
+    "abstract": "",
+    "authors": [
+      "Lu Liu",
+      "Li Longlong",
+      "Yueyue Xiao",
+      "Jie Yang",
+      "Linghan Li",
+      "Xudong Cheng",
+      "Yuelei Pan"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-11-06",
+    "doi": "10.1016/j.est.2026.125491",
+    "url": "https://doi.org/10.1016/j.est.2026.125491",
+    "source_id": "",
+    "score": 67.0,
+    "level": "B",
+    "title_zh": "Sandwich-structured thermoelectric aerogel sensor with integrated early warning and thermal insulation for suppressing thermal runaway propagation of lithium-ion batteries",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 67.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "A method for estimating state of health of lithium-ion batteries during secondary life with fragmented first life data",
+    "abstract": "",
+    "authors": [
+      "Zipeng Liu",
+      "Tailin Li",
+      "Haicheng Xie",
+      "Bing Wang",
+      "Quansen Zeng",
+      "Jianxiong Jia",
+      "Nadeen S.B. Malotaibi",
+      "Muyang Chen",
+      "Siyan Chen"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-11-06",
+    "doi": "10.1016/j.est.2026.125469",
+    "url": "https://doi.org/10.1016/j.est.2026.125469",
+    "source_id": "",
+    "score": 53.0,
+    "level": "B",
+    "title_zh": "A method for estimating state of health of lithium-ion batteries during secondary life with fragmented first life data",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 53.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Multi-objective optimization of hierarchical porous hybrid battery thermal management systems via the Mantis Search Algorithm for enhanced environmental adaptability",
+    "abstract": "",
+    "authors": [
+      "Zhiguo An",
+      "Zhibin Zhang",
+      "Jun Li",
+      "Zhengyuan Gao"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-11-06",
+    "doi": "10.1016/j.est.2026.125456",
+    "url": "https://doi.org/10.1016/j.est.2026.125456",
+    "source_id": "",
+    "score": 51.0,
+    "level": "B",
+    "title_zh": "Multi-objective optimization of hierarchical porous hybrid battery thermal management systems via the Mantis Search Algorithm for enhanced environmental adaptability",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 51.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Experimental Investigation For Improvisation Of Soc & Soh Of Battery By Using Ai Embedded Bms In EV",
+    "abstract": "The research work describes a unified battery management technique that involves a digital twin-based method that encompasses practically validated theory, data-oriented state evaluation, embedded management, and Internet of Things supervision. The task employs two connected phases of experimentation. The first phase consists in the analysis of a six-cell lithium-ion battery pack 3S2P 18650 in twelve operation modes, which consists of using both 0.5C, 1C, and 2C discharges under ambient temperatures of 25°C, 35°C, and 45°C with dynamic loading. The data obtained in the analysis of the voltage, current, temperature, capacity, and energy indicators will serve as calibration data for a second-order Thevenin equivalency circuit digital twin in MATLAB. Phase II benchmarks Random Forest, XGBoost, and LSTM models on 9,742 records from the NASA lithium-ion battery dataset and integrates the selected Random Forest model with an ESP32-based BMS prototype. The embedded platform combines dual INA219 current sensors, a 2-channel relay module, local LCD monitoring, MQTT communication, a Flask-SocketIO dashboard, and a staged voltage-protection strategy. The digital twin reproduces the measured voltage response with RMSE below 0.08 V and R² above 0.98 across the reported constant-current validation cases. In the AI benchmark, Random Forest reaches R² = 0.976, compared with 0.951 for XGBoost and 0.637 for LSTM. Feature-importance analysis identifies current and cycle count as the leading predictors of energy-loss behaviour. Live prototype measurements of 9.87 V, 39.4% SOC, and 100% SOH demonstrate end-to-end sensing, communication, decision, and protection operation. Together, the results establish a practical path from physically validated battery modelling to AI-assisted embedded BMS control.",
+    "authors": [
+      "Manojkumar Chavhan",
+      "Rupesh Patil"
+    ],
+    "source": "Crossref",
+    "venue": "Computer and Decision Making An International Journal",
+    "date": "2026-11-07",
+    "doi": "10.1922/comdem.v3i6s.18998",
+    "url": "https://doi.org/10.1922/comdem.v3i6s.18998",
+    "source_id": "",
+    "score": 122.0,
+    "level": "B",
+    "title_zh": "Experimental Investigation For Improvisation Of Soc & Soh Of Battery By Using Ai Embedded Bms In EV",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 122.0，推荐等级 B。"
+  },
+  {
+    "title": "Regime Diagram of Li-Ion Battery Thermal Runaway under Emergency Discharge beyond Exothermicity: Nonmonotonicity and Active Risk Control",
+    "abstract": "Abstract Thermal runaway (TR) can be triggered in lithium-ion batteries under abuse conditions, leading to significant safety concerns for electric vehicles and energy storage systems. Emergency discharge has been considered as an effective strategy to mitigate TR by reducing the state of charge (SOC), whereas substantial ambiguities remain due to the wide discharge range beyond normal operation and the complex coupling between electrochemistry and TR. In this work, TR experiments are conducted in an Accelerating Rate Calorimeter (ARC) for commercial 18650 LiFePO4 cells, in a range of high discharge temperatures beyond exothermicity (90–110 °C) and discharge C-rates (0.05–18.75 C). Based on the experimental data, a regime diagram is established to isolate TR and No-TR regimes. As discharge temperature increases, the No-TR regime progressively narrows, indicating increasing TR risk. Meanwhile, for a given discharge temperature, increasing discharge C-rate leads to a nonmonotonic system response for TR occurrence, with TR occurrence in the low and high end of discharge rates, yet no-TR in between. Furthermore, the remaining SOC after discharge is nonmonotonic as discharge rate increases, with intermediate C rates achieving the lowest remaining SOC. Based on energy analysis, cells with similar remaining SOC exhibit nearly identical global kinetics regardless of discharge conditions. Statistical analysis reveals that the voltage-drop temperature collected from all the TR tests follows an approximately normal distribution, providing a risk-driven criterion for defining acceptable discharge windows. Measurement using a Simultaneous Thermal Analyzer (STA) has further demonstrated high consistency between the thermal stability of separator meltdown and the voltage drop temperature. These findings not only establish the regime diagram for TR under discharge, but also provide practical guidance for developing effective emergency discharge strategies for TR mitigation.",
+    "authors": [
+      "Han Yu",
+      "Yejian Yu",
+      "Peng Fei Zhao"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "Energy & Fuels",
+    "date": "2026-11-06",
+    "doi": "10.1021/acs.energyfuels.6c04057",
+    "url": "https://doi.org/10.1021/acs.energyfuels.6c04057",
+    "source_id": "",
+    "score": 100.0,
+    "level": "B",
+    "title_zh": "Regime Diagram of Li-Ion Battery Thermal Runaway under Emergency Discharge beyond Exothermicity: Nonmonotonicity and Active Risk Control",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 100.0，推荐等级 B。"
+  },
+  {
+    "title": "A Multi-Stage AdSS-NARX-LSTM Approach for Enhanced State-of-Charge Estimation in Lithium-Ion Batteries",
+    "abstract": "Accurate state of charge (SoC) estimation is essential for the reliable operation, energy management, and safety of lithium-ion batteries in electric vehicles and energy storage systems. However, accurate estimation remains challenging due to battery nonlinearities, measurement uncertainties, and changing operating conditions. This study proposes a hybrid AdSS-NARX-LSTM framework integrating Adaptive State Smoothing (AdSS), Nonlinear Autoregressive with Exogenous Inputs (NARX), and Long Short-Term Memory (LSTM) networks for SoC estimation. Battery voltage and current are used as primary inputs. The AdSS stage generates a temporally consistent SoC trajectory through an adaptive smoothing process, reducing the influence of measurement noise and short-term signal fluctuations while preserving the overall state evolution trend. In parallel, the NARX model exploits historical input-output relationships to capture nonlinear temporal dynamics associated with battery behavior. The AdSS and NARX outputs are fused with measured variables as auxiliary features before being fed into the LSTM network. This integration enables the LSTM to exploit complementary information while learning long-term temporal dependencies from sequential data. The framework improves estimation stability and robustness without requiring complex electrochemical or equivalent-circuit models. The effectiveness of the proposed method is evaluated using five dynamic driving cycles, including US06, UDDS, LA92, HWFTa, and HWFTb. Estimation performance is assessed using mean absolute error (MAE), mean squared error (MSE), and coefficient of determination (R²) metrics and compared with AdSS, NARX, LSTM, AdSS+LSTM, and NARX+LSTM approaches. Results demonstrate that the proposed framework achieves high estimation accuracy and stable performance across different driving profiles, indicating its potential for battery management applications. Further validation, including computational complexity and embedded-system implementation, is required to assess its suitability for real-time operation.",
+    "authors": [
+      "Hakan Yüce",
+      "Hayri Arabacı"
+    ],
+    "source": "Crossref",
+    "venue": "Engineering Perspective",
+    "date": "2026-11-07",
+    "doi": "10.64808/engineeringperspective.1999755",
+    "url": "https://doi.org/10.64808/engineeringperspective.1999755",
+    "source_id": "",
+    "score": 96.0,
+    "level": "B",
+    "title_zh": "A Multi-Stage AdSS-NARX-LSTM Approach for Enhanced State-of-Charge Estimation in Lithium-Ion Batteries",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 96.0，推荐等级 B。"
+  }
+]
