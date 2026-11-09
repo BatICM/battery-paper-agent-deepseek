@@ -1,0 +1,332 @@
+[
+  {
+    "title": "Joint hierarchical SOH and SOC balancing control strategy in dynamically reconfigurable battery systems based on deep learning and deep reinforcement learning",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Applied Energy",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0306261926018179?dgcid=rss_sd_all",
+    "source_id": "rss:9:Applied Energy",
+    "score": 98.25,
+    "level": "A",
+    "title_zh": "Joint hierarchical SOH and SOC balancing control strategy in dynamically reconfigurable battery systems based on deep learning and deep reinforcement learning",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 98.25，推荐等级 A；期刊优先级第 8 位。"
+  },
+  {
+    "title": "Joint hierarchical SOH and SOC balancing control strategy in dynamically reconfigurable battery systems based on deep learning and deep reinforcement learning",
+    "abstract": "",
+    "authors": [
+      "Pei Liu",
+      "Da Li",
+      "Jianwei Shao",
+      "Boyuan Cheng",
+      "Yang Qi",
+      "Weilin Li"
+    ],
+    "source": "OpenAlex",
+    "venue": "Applied Energy",
+    "date": "2026-11-07",
+    "doi": "10.1016/j.apenergy.2026.129161",
+    "url": "https://doi.org/10.1016/j.apenergy.2026.129161",
+    "source_id": "",
+    "score": 80.25,
+    "level": "A",
+    "title_zh": "Joint hierarchical SOH and SOC balancing control strategy in dynamically reconfigurable battery systems based on deep learning and deep reinforcement learning",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 80.25，推荐等级 A；期刊优先级第 8 位。"
+  },
+  {
+    "title": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 112.5,
+    "level": "B",
+    "title_zh": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 112.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000858?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 90.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Experimental Investigation For Improvisation Of Soc & Soh Of Battery By Using Ai Embedded Bms In EV",
+    "abstract": "The research work describes a unified battery management technique that involves a digital twin-based method that encompasses practically validated theory, data-oriented state evaluation, embedded management, and Internet of Things supervision. The task employs two connected phases of experimentation. The first phase consists in the analysis of a six-cell lithium-ion battery pack 3S2P 18650 in twelve operation modes, which consists of using both 0.5C, 1C, and 2C discharges under ambient temperatures of 25°C, 35°C, and 45°C with dynamic loading. The data obtained in the analysis of the voltage, current, temperature, capacity, and energy indicators will serve as calibration data for a second-order Thevenin equivalency circuit digital twin in MATLAB. Phase II benchmarks Random Forest, XGBoost, and LSTM models on 9,742 records from the NASA lithium-ion battery dataset and integrates the selected Random Forest model with an ESP32-based BMS prototype. The embedded platform combines dual INA219 current sensors, a 2-channel relay module, local LCD monitoring, MQTT communication, a Flask-SocketIO dashboard, and a staged voltage-protection strategy. The digital twin reproduces the measured voltage response with RMSE below 0.08 V and R² above 0.98 across the reported constant-current validation cases. In the AI benchmark, Random Forest reaches R² = 0.976, compared with 0.951 for XGBoost and 0.637 for LSTM. Feature-importance analysis identifies current and cycle count as the leading predictors of energy-loss behaviour. Live prototype measurements of 9.87 V, 39.4% SOC, and 100% SOH demonstrate end-to-end sensing, communication, decision, and protection operation. Together, the results establish a practical path from physically validated battery modelling to AI-assisted embedded BMS control.",
+    "authors": [
+      "Manojkumar Chavhan",
+      "Rupesh Patil"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "Computer and Decision Making: An International Journal",
+    "date": "2026-11-07",
+    "doi": "10.1922/comdem.v3i6s.18998",
+    "url": "https://doi.org/10.1922/comdem.v3i6s.18998",
+    "source_id": "",
+    "score": 122.0,
+    "level": "B",
+    "title_zh": "Experimental Investigation For Improvisation Of Soc & Soh Of Battery By Using Ai Embedded Bms In EV",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 122.0，推荐等级 B。"
+  },
+  {
+    "title": "A Multi-Stage AdSS-NARX-LSTM Approach for Enhanced State-of-Charge Estimation in Lithium-Ion Batteries",
+    "abstract": "Accurate state of charge (SoC) estimation is essential for the reliable operation, energy management, and safety of lithium-ion batteries in electric vehicles and energy storage systems. However, accurate estimation remains challenging due to battery nonlinearities, measurement uncertainties, and changing operating conditions. This study proposes a hybrid AdSS-NARX-LSTM framework integrating Adaptive State Smoothing (AdSS), Nonlinear Autoregressive with Exogenous Inputs (NARX), and Long Short-Term Memory (LSTM) networks for SoC estimation. Battery voltage and current are used as primary inputs. The AdSS stage generates a temporally consistent SoC trajectory through an adaptive smoothing process, reducing the influence of measurement noise and short-term signal fluctuations while preserving the overall state evolution trend. In parallel, the NARX model exploits historical input-output relationships to capture nonlinear temporal dynamics associated with battery behavior. The AdSS and NARX outputs are fused with measured variables as auxiliary features before being fed into the LSTM network. This integration enables the LSTM to exploit complementary information while learning long-term temporal dependencies from sequential data. The framework improves estimation stability and robustness without requiring complex electrochemical or equivalent-circuit models. The effectiveness of the proposed method is evaluated using five dynamic driving cycles, including US06, UDDS, LA92, HWFTa, and HWFTb. Estimation performance is assessed using mean absolute error (MAE), mean squared error (MSE), and coefficient of determination (R²) metrics and compared with AdSS, NARX, LSTM, AdSS+LSTM, and NARX+LSTM approaches. Results demonstrate that the proposed framework achieves high estimation accuracy and stable performance across different driving profiles, indicating its potential for battery management applications. Further validation, including computational complexity and embedded-system implementation, is required to assess its suitability for real-time operation.",
+    "authors": [
+      "Hakan Yüce",
+      "Hayri Arabacı"
+    ],
+    "source": "OpenAlex",
+    "venue": "Engineering Perspective",
+    "date": "2026-11-07",
+    "doi": "10.64808/engineeringperspective.1999755",
+    "url": "https://doi.org/10.64808/engineeringperspective.1999755",
+    "source_id": "",
+    "score": 96.0,
+    "level": "B",
+    "title_zh": "A Multi-Stage AdSS-NARX-LSTM Approach for Enhanced State-of-Charge Estimation in Lithium-Ion Batteries",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 96.0，推荐等级 B。"
+  },
+  {
+    "title": "Capacity retention of absorbent glass mat lead acid batteries against electrolyte freezing",
+    "abstract": "Lead acid batteries operating in cryospheric environments are susceptible to electrolyte freezing, particularly the Absorbent Glass Mat (AGM) Valve Regulated Lead Acid (VRLA) type. A myriad of failure mechanisms may be postulated within the multivariate state space, porous electrode structure, and complex chemistry of the AGM VRLA cell. The lack of published data has resulted in suboptimal usage patterns in Antarctica. This study therefore performed an iterative experiment ranging from 0 to −40 ∘ C, alternating 24 vs 72 h storage periods, and a sample size of 14 batteries stored at varying State of Charge (SoC). Capacity trends are compared against the mass fraction of ice formed, which depends on SoC and temperature, but is measurable by electromotive force under open circuit conditions. These exploits in dimensional reduction and measurement allow for an accurate, finite range, and feasible experimental methodology. The results found no correlation between ice crystallisation and capacity loss. Theoretical analysis additionally refute several postulations of failure mechanisms on macrophysical and thermodynamic grounds. The evidence and theory therefore supports that AGM VRLA electrolytes can be repeatedly frozen without permanent capacity loss. Intelligent cryospheric battery management strategies may therefore allow for such frozen states with confidence of long-term performance in light of these findings.",
+    "authors": [
+      "Lawrence Stanton",
+      "Robyn A. Verrinder",
+      "Stephen Paine",
+      "Justin Pead",
+      "Ernst  Eduard Ferg"
+    ],
+    "source": "OpenAlex",
+    "venue": "Next Energy",
+    "date": "2026-11-07",
+    "doi": "10.1016/j.nxener.2026.101084",
+    "url": "https://doi.org/10.1016/j.nxener.2026.101084",
+    "source_id": "",
+    "score": 62.0,
+    "level": "B",
+    "title_zh": "Capacity retention of absorbent glass mat lead acid batteries against electrolyte freezing",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 62.0，推荐等级 B。"
+  },
+  {
+    "title": "Dual Solar AC Charging System: A Review of Solar Photovoltaic Integration, Power Conversion and Electric Vehicle Charging Technology",
+    "abstract": "The increasing demand for electric vehicles (EVs) and sustainable transportation has created a need for reliable, economical and environmentally friendly charging infrastructure. Solar photovoltaic (PV) energy provides a promising solution by utilizing renewable solar power for electric vehicle charging. This review paper presents an overview of a Dual Solar AC Charging System, in which two solar photovoltaic sources are integrated to provide electrical power for AC charging applications. The system can be designed with solar panels, solar charge controllers, maximum power point tracking (MPPT), power conditioning circuits, an inverter and suitable protection devices. The paper reviews existing solar-powered EV charging technologies, AC charging configurations, power electronic converters, energy management techniques and the challenges associated with solar energy utilization. It also discusses the possible integration of battery energy storage and grid backup to improve charging reliability during low solar irradiance and nighttime conditions. The dual-solar concept aims to improve solar energy utilization, reduce dependence on conventional grid electricity and support sustainable electric mobility",
+    "authors": [
+      "Tanmay Yadav, Auviral, Aman Saraoj, Navneet Rai",
+      "Govind Kumar Maurya Nishant Verma"
+    ],
+    "source": "OpenAlex",
+    "venue": "International Journal of Advanced Research in Science Communication and Technology",
+    "date": "2026-11-07",
+    "doi": "10.48175/ijarsct-40705",
+    "url": "https://doi.org/10.48175/ijarsct-40705",
+    "source_id": "",
+    "score": 60.0,
+    "level": "B",
+    "title_zh": "Dual Solar AC Charging System: A Review of Solar Photovoltaic Integration, Power Conversion and Electric Vehicle Charging Technology",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 60.0，推荐等级 B。"
+  },
+  {
+    "title": "Enhanced Lightweight Multi-scale CNN with Resonance-dominant Frequency-band Learning for Robust Bearing Fault Diagnosis",
+    "abstract": "Rolling bearings are essential components in rotating machinery, and reliable early fault detection is crucial for avoiding unexpected failures and reducing maintenance costs. While deep learning techniques have achieved notable progress, most prior studies have emphasized feature enrichment without thoroughly examining vibration spectral characteristics or establishing mechanisms to select the most informative time–frequency patterns. To exploit this physical insight, this study proposes an enhanced lightweight multi-scale convolutional neural network (CNN) with adaptive frequency-band learning for robust bearing fault diagnosis. Vibration signals are first band-limited to the resonance-dominant range and transformed using the Continuous Wavelet Transform with the Morlet wavelet, improving signal-to-noise ratio while preserving impulsive fault components. The proposed architecture integrates depthwise separable convolutions, multi-scale parallel branches, Squeeze-and-Excitation channel recalibration, and Atrous Spatial Pyramid Pooling to capture discriminative resonance-sensitive features with reduced computational complexity. Grad-CAM is employed to visualize the resonance bands contributing to classification decisions. Experiments on the CWRU dataset achieve accuracy above 99% with only 7.69 M parameters. Robustness under additive noise and cross-domain validation on the HUST dataset confirm strong generalization and domain invariance.",
+    "authors": [
+      "Thanh Tung Luu",
+      "Duy An Huynh",
+      "Thanh Hai Nguyen"
+    ],
+    "source": "Crossref",
+    "venue": "International Journal of Prognostics and Health Management",
+    "date": "2026-11-07",
+    "doi": "10.36001/ijphm.2026.v17i2.4757",
+    "url": "https://doi.org/10.36001/ijphm.2026.v17i2.4757",
+    "source_id": "",
+    "score": 48.0,
+    "level": "B",
+    "title_zh": "Enhanced Lightweight Multi-scale CNN with Resonance-dominant Frequency-band Learning for Robust Bearing Fault Diagnosis",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 48.0，推荐等级 B。"
+  },
+  {
+    "title": "Cation-Effect-Driven Modulation of Interfacial Solvation Structures Enables Fast-Charging Lithium-Ion Batteries",
+    "abstract": "Abstract Fast battery charging is limited by sluggish Li+ transport at the anode/electrolyte interface, which is governed by the interfacial solvation structure (ISS). However, negative polarization disfavors anion accumulation at the anode interface, hindering the formation of anion-rich ISS required for rapid Li+ transfer. Here, leveraging the cation effect in electrocatalysis, we propose a cation-mediated strategy to reshape the interfacial electric field and construct anion-rich ISS in commercial electrolytes. With benzyltriethylammonium serving as a model cationic regulator, we show that it accumulates near the polarized graphite surface and forms a cation layer that alters the local electric field. This cation-mediated interfacial regulation promotes PF6– accumulation at the interface, redirects early solid electrolyte interphase (SEI) formation toward anion-derived pathways, mitigates solvent decomposition, and accelerates Li+ desolvation and transport. As a result, graphite-based pouch cells deliver ∼88.2% state of charge within 6 min, maintain stable cycling for 2000 cycles with ∼71% capacity retention, and provide ∼218.2 Wh kg–1 with 10 min charging. Beyond LiPF6-based electrolytes, this cation effect also promotes reduction of the anions in other lithium-salt systems. This work bridges electrocatalytic cation effects and battery interfacial chemistry, offering a practical route to fast-charging lithium-ion batteries.",
+    "authors": [
+      "Shuibin Tu",
+      "Dixing Ni",
+      "Shijie Xu",
+      "Yue Wang",
+      "Nianji Zhang",
+      "Shi‐Zhang Qiao"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of the American Chemical Society",
+    "date": "2026-11-07",
+    "doi": "10.1021/jacs.6c21052",
+    "url": "https://doi.org/10.1021/jacs.6c21052",
+    "source_id": "",
+    "score": 44.0,
+    "level": "B",
+    "title_zh": "Cation-Effect-Driven Modulation of Interfacial Solvation Structures Enables Fast-Charging Lithium-Ion Batteries",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 44.0，推荐等级 B。"
+  },
+  {
+    "title": "FAULT PREDICTION OF FASTENER PRODUCTION EQUIPMENT VIA LIGHTWEIGHT REGRESSION MODELING WITH SCIKIT-LEARN: EVIDENCE FROM THE HAIYAN FASTENER INDUSTRY",
+    "abstract": "In fastener manufacturing, an unexpected breakdown of a cold heading machine stops the entire production line, yet most small and medium-sized enterprises (SMEs) still maintain their equipment by rule of thumb. Targeting the SMEs in the Haiyan fastener industry cluster, this paper takes cold heading machines as the object and builds a low-cost equipment fault prediction method based on regression modeling and Scikit-learn. The remaining useful life (RUL) of key components is taken as the prediction target; four models, namely linear regression, random forest, gradient boosting regression tree (GBRT), and support vector regression (SVR), are compared, and grid search is used for parameter tuning. Since such enterprises generally lack usable historical failure data, the method is validated on real degradation data from the public XJTU-SY accelerated life test dataset of rolling bearings, which share the same data form as the key rotating components of cold heading machines. The results show that GBRT performs best (RMSE = 6.25 min, R² = 0.511), that degradation information is concentrated in a few amplitude-type statistical features such as mean amplitude, standard deviation and root mean square, and that in the early-warning replay on two test bearings, alarms are all raised ahead of failure with an average lead time of 8.0 min and no false alarm. The study indicates that lightweight AI tools are sufficient to support equipment fault prediction in county-level manufacturing SMEs, and the whole procedure can be replicated directly.",
+    "authors": [
+      "Hang Shu",
+      "TongYue Zhai",
+      "JiaYan Wang",
+      "Kun Hu"
+    ],
+    "source": "Crossref",
+    "venue": "Journal of Computer Science and Electrical Engineering",
+    "date": "2026-11-07",
+    "doi": "10.61784/jcsee3164",
+    "url": "https://doi.org/10.61784/jcsee3164",
+    "source_id": "",
+    "score": 44.0,
+    "level": "B",
+    "title_zh": "FAULT PREDICTION OF FASTENER PRODUCTION EQUIPMENT VIA LIGHTWEIGHT REGRESSION MODELING WITH SCIKIT-LEARN: EVIDENCE FROM THE HAIYAN FASTENER INDUSTRY",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 44.0，推荐等级 B。"
+  },
+  {
+    "title": "Governing the Drone Era in Modern India: A Comprehensive Constitutional, Legal, Technological, Security and Socio-Economic Study with Comparative Insights from the USA, UK and European Union",
+    "abstract": "In the past decade, India’s drone policy has changed gear twice. The near-total prohibition of 2014 gave way to a policy of outright promotion in 2021, and the draft Civil Drone (Promotion and Regulation) Bill, 2025 now signals a move towards control and criminal punishment. This paper considers whether the Indian framework, as it stands and as proposed, withstands constitutional scrutiny and whether it has the capacity to address the security, technological and social issues raised by drones. It reads the Drone Rules, 2021 and the draft Bill against Articles 14, 19 and 21 of the Constitution, examines the gap between the civil aviation regime and counter-drone security, and evaluates programmes in agriculture, land records and health delivery. The comparative part focuses on the United States, the United Kingdom and the European Union. The paper argues that liberalisation and indigenisation have been a success for India, but that State surveillance, counter-drone authority and proportionate enforcement have received far too little attention. It proposes a risk-based classification in place of the present weight-based classification, an independent statutory code for State drone surveillance, and a recalibrated penalty system.",
+    "authors": [
+      "Kunal Agarwal",
+      "Trinayan Bora",
+      "Neelabh Nayan Kalita"
+    ],
+    "source": "OpenAlex",
+    "venue": "International Journal of Law Management & Humanities",
+    "date": "2026-11-07",
+    "doi": "10.63108/ijlmh.13130",
+    "url": "https://doi.org/10.63108/ijlmh.13130",
+    "source_id": "",
+    "score": 42.0,
+    "level": "B",
+    "title_zh": "Governing the Drone Era in Modern India: A Comprehensive Constitutional, Legal, Technological, Security and Socio-Economic Study with Comparative Insights from the USA, UK and European Union",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 42.0，推荐等级 B。"
+  }
+]
