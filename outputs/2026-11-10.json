@@ -1,0 +1,326 @@
+[
+  {
+    "title": "Joint hierarchical SOH and SOC balancing control strategy in dynamically reconfigurable battery systems based on deep learning and deep reinforcement learning",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Applied Energy",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0306261926018179?dgcid=rss_sd_all",
+    "source_id": "rss:9:Applied Energy",
+    "score": 98.25,
+    "level": "A",
+    "title_zh": "Joint hierarchical SOH and SOC balancing control strategy in dynamically reconfigurable battery systems based on deep learning and deep reinforcement learning",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 98.25，推荐等级 A；期刊优先级第 8 位。"
+  },
+  {
+    "title": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 112.5,
+    "level": "B",
+    "title_zh": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 112.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000858?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 90.5,
+    "level": "B",
+    "title_zh": "Vehicle-level modeling of internal resistance degradation and influential parameter analysis in lithium-ion battery packs using real-world data",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 90.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Robust lithium-ion battery state-of-charge estimation under unseen temperatures via support-aware domain generalization",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26052011?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 69.0,
+    "level": "B",
+    "title_zh": "Robust lithium-ion battery state-of-charge estimation under unseen temperatures via support-aware domain generalization",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 69.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "LIPOS: A Robotic, Closed-Loop Storage Layer for Electrified Transport and the Grid – A Concept Study",
+    "abstract": "Electrifying road transport runs into many limits: grid capacity, raw materials, charging infrastructure, permitting. This study addresses one that is often underestimated: time. Solar power is plentiful at midday, yet demand from homes and electric vehicles peaks in the evening. Germany shows the cost of this mismatch: 573 hours of negative electricity prices in 2025, about EUR 3 bn spent on grid congestion, and an installed large-battery fleet far below the 41 to 94 GW assumed in the approved grid scenarios. The study argues that storage at national scale is unlikely to pay for itself unless its lifetime cost per kWh falls faster than its revenue. That points to six conditions: scale, one standard unit, automation, long life, a closed material loop and system integration. LIPOS (Greek lipos, fat: the grid’s “fat cells”) is a concept designed around these conditions. Standard battery trays are built, operated, repaired and recycled in a robot-maintained system steered by a digital twin. The design follows the logic of a living body. The body stores surplus energy in fat when it is abundant and releases it when it is needed. It keeps itself working by isolating damage, repairing tissue and replacing cells, and it recycles its own material. LIPOS applies the same principles. The trays act as cells, sites act as tissue and the grid acts as the circulation. Faults are isolated before they spread, and worn units are repaired or returned for recovery while the whole keeps working. Like an organism, the system is meant to evolve: the standard and the digital twin can be upgraded while existing units stay compatible. Storage at the scale a society needs touches more than engineering, because it decides who has secure and affordable energy. The study argues that following this natural pattern of growth, repair and renewal is the most practical path to that scale with technologies available today. The central contribution is not robotic battery exchange as such, but a closed material loop that works in a competitive market. Every tray follows an open standard and carries a digital passport and a take-back obligation. The party that produces it takes it back and recovers its materials, and the party that operates it is paid for the storage service it delivers. Manufacturers, operators and energy traders can be independent, competing companies. Shared rules, contracts and data hold the loop together, not common ownership. The study covers system architecture, a chemistry-open tray standard, isolate-first fault handling, robot-native design, layered fire safety, siting and grid integration, outdoor and indoor site formats, an operating and capacity-sharing model, indicative economics for a 10 MW / 20 MWh reference site, related work, regulation, risks and open questions. It is published openly, to be examined, challenged and built upon.",
+    "authors": [
+      "DIMITRIOS KLEIOSIS"
+    ],
+    "source": "OpenAlex",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "date": "2026-11-08",
+    "doi": "10.5281/zenodo.24052190",
+    "url": "https://doi.org/10.5281/zenodo.24052190",
+    "source_id": "",
+    "score": 108.0,
+    "level": "B",
+    "title_zh": "LIPOS: A Robotic, Closed-Loop Storage Layer for Electrified Transport and the Grid – A Concept Study",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 108.0，推荐等级 B。"
+  },
+  {
+    "title": "Remaining useful life estimation of bearings using trend–detail decomposition and extended 1D-LBP features with a hybrid deep learning model",
+    "abstract": "Purpose This study aims to develop a robust and accurate remaining useful life (RUL) prediction framework for rolling bearings by overcoming the limitations of conventional health indicator construction under noisy and nonlinear degradation conditions. To achieve this, a unified end-to-end framework integrating trend–detail decomposition, cumulative damage modeling, extended one-dimensional local binary pattern (1D-LBP) encoding and a hybrid Convolutional Neural Network–Bidirectional Long Short-Term Memory–Gated Recurrent Unit (CNN–BiLSTM–GRU) architecture is proposed. The objective is to improve degradation representation, prediction accuracy, robustness and interpretability for intelligent predictive maintenance under varying operating conditions. Design/methodology/approach Raw vibration signals are first standardized on a bearing-wise basis and decomposed into trend and detail components. An extended 1D-LBP operator and a cumulative damage indicator are then employed to extract complementary degradation information and construct a four-channel health indicator. These features are processed by a hybrid CNN–BiLSTM–GRU network within a multi-task learning framework that jointly predicts health indicators, RUL percentage, degradation rate and degradation phase. The proposed framework is validated on the PRONOSTIA benchmark using 11 bearing prediction scenarios, supplemented by ablation studies and multi-seed experiments to evaluate robustness and model stability. Findings The proposed framework consistently achieved accurate and robust RUL prediction across 11 PRONOSTIA bearing prediction scenarios, yielding average values of MAE = 0.0884, RMSE = 0.1225, RA = 0.855, and Score = 0.537. Ablation experiments and three independent random-seed evaluations demonstrated that each architectural component contributes to the overall performance, with the extended 1D-LBP encoding providing the largest improvement. The results also confirmed the framework's stability, robustness against noisy degradation signals and strong generalization capability under different operating conditions, highlighting its effectiveness for intelligent predictive maintenance. Research limitations/implications The proposed framework was validated using the PRONOSTIA benchmark under controlled laboratory conditions. Although the results demonstrate strong predictive performance and robustness, further validation on additional bearing datasets and real industrial environments is required to confirm its generalization capability. Future research will focus on domain adaptation, self-supervised learning, uncertainty-aware prognostics and multi-sensor fusion to improve adaptability under varying operating conditions and reduce dependence on labeled run-to-failure data. Practical implications The proposed framework provides a practical solution for intelligent predictive maintenance by enabling accurate and stable RUL estimation under varying operating conditions. Its robust degradation representation supports timely maintenance scheduling, reduces unexpected machine failures, minimizes maintenance costs and improves equipment availability. The framework can be readily integrated into condition monitoring systems for rotating machinery and has the potential to support Industry 4.0 and smart manufacturing applications by enhancing maintenance decision-making and operational reliability. Originality/value This study presents a unified prognostic framework that integrates trend–detail decomposition, cumulative damage modeling, 1D-LBP encoding and hybrid CNN–BiLSTM–GRU learning within a multi-task architecture. Unlike existing approaches that employ these techniques separately, the proposed framework jointly exploits complementary degradation representations to improve RUL prediction. Comprehensive ablation studies, multi-seed stability analyses and a monotonicity constraint further validate the effectiveness and robustness of the proposed methodology, providing an accurate, interpretable and reproducible solution for intelligent bearing prognostics.",
+    "authors": [
+      "Yılmaz Kaya",
+      "Eyyüp Akcan",
+      "Fevzi Çakmak"
+    ],
+    "source": "Crossref",
+    "venue": "Engineering Computations",
+    "date": "2026-11-10",
+    "doi": "10.1108/ec-04-2026-0739",
+    "url": "https://doi.org/10.1108/ec-04-2026-0739",
+    "source_id": "",
+    "score": 94.0,
+    "level": "B",
+    "title_zh": "Remaining useful life estimation of bearings using trend–detail decomposition and extended 1D-LBP features with a hybrid deep learning model",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 94.0，推荐等级 B。"
+  },
+  {
+    "title": "Research on Peak Power Prediction of Lithium-Ion Battery Modules for Energy Storage Frequency Regulation Scenarios",
+    "abstract": "Abstract Lithium-ion Battery Energy Storage Systems (BESS) are widely applied in grid frequency regulation due to fast response. Accurate maximum sustained power prediction is critical for safe operation. However, cell inconsistencies in internal resistance, temperature, and State of Energy (SOE) make module State of Power (SOP) prediction challenging. This paper proposes a peak power prediction method for lithium-ion battery modules in BESS frequency regulation. First, cell SOE is estimated using an electro-thermal coupled model and the adaptive unscented Kalman filter (AUKF), instead of the commonly used state of charge (SOC), considering frequency regulation applications. Further, a \"reference-difference\" model is employed to estimate SOE differences between cells in a module. The proposed method explicitly estimates SOE differences among cells, allowing module-level SOP prediction to account for cell inconsistency. Then, the module-level SOP prediction method is proposed, taking inconsistencies in SOE and internal resistance into consideration to predict the peak sustained maximum power demand over a future period during grid frequency regulation. Finally, an experimental platform is established to verify the proposed method with a battery module. The method is validated at 15, 25, and 35 °C over a 300 s prediction window, with power prediction errors of 6.5%, 3.2%, and 5.3%, respectively.",
+    "authors": [
+      "Jinlei Sun",
+      "Guo Yilong",
+      "Renchong Yang",
+      "Xuliang Zhang",
+      "Yang Zhou",
+      "Huiying Ling"
+    ],
+    "source": "Crossref",
+    "venue": "Journal of The Electrochemical Society",
+    "date": "2026-11-09",
+    "doi": "10.1149/1945-7111/aebfcb",
+    "url": "https://doi.org/10.1149/1945-7111/aebfcb",
+    "source_id": "",
+    "score": 82.0,
+    "level": "B",
+    "title_zh": "Research on Peak Power Prediction of Lithium-Ion Battery Modules for Energy Storage Frequency Regulation Scenarios",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 82.0，推荐等级 B。"
+  },
+  {
+    "title": "Summability-based Remaining Useful Life Estimation for Industrial Equipment",
+    "abstract": "Purpose: This study develops a mathematically explicit summability-assisted framework for Remaining Useful Life (RUL) estimation, in which causal weighted means stabilize noisy degradation indicators before a prognostic model estimates RUL.Methodology: Moving, Cesàro-type and exponential means are formulated as normalized causal weighted means, and their variance, bias and lag are derived. A threshold-crossing model maps the smoothed index to RUL with delta-method uncertainty. The framework is illustrated with a synthetic motor-driven pump, a synthetic replica of the NASA/IMS bearing record and a Monte Carlo experiment.Results: In the pump example, a smoothed index of 0.723, a threshold of 1.00 and a slope of 0.0045 per hour gave an RUL of about 61.6 hours. Over 2,000 Monte Carlo runs, the first alarm of the raw feature was false in 78.2% of runs, against 0.6% for a 15-point moving mean and 2.0% for an exponential mean.Conclusions: Summability is a low-cost, interpretable preprocessing option when noise obscures slow degradation, but it can delay warnings and must be validated against baselines.Limitations: All numerical examples are synthetic or simulated.Contributions: The study provides equations, an algorithm and a validation protocol linking classical summability to prognostics.",
+    "authors": [
+      "Avishek Shah",
+      "Prem Kumar Nayak",
+      "Suresh Kumar Sahani"
+    ],
+    "source": "Crossref",
+    "venue": "Review of Multidisciplinary Academic and Practice Studies",
+    "date": "2026-11-10",
+    "doi": "10.61401/rmaps.v4i1.760",
+    "url": "https://doi.org/10.61401/rmaps.v4i1.760",
+    "source_id": "",
+    "score": 82.0,
+    "level": "B",
+    "title_zh": "Summability-based Remaining Useful Life Estimation for Industrial Equipment",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 82.0，推荐等级 B。"
+  },
+  {
+    "title": "A directed cross-task attention Transformer for joint fault diagnosis and prognostics of rail engine compressors",
+    "abstract": "Reliable condition monitoring of multi-sensor mechanical systems requires the joint assessment of the fault state and its temporal progression. However, fault diagnosis and prognosis are commonly treated as separate tasks, whereas existing multitask approaches model their interaction implicitly through shared representations. It does not explicitly account for the relationship between diagnosis and prognosis, where information about the developing fault type can provide useful context for estimating time remaining before fault onset. To address the gap, this study introduces a directed cross-task attention within a multitask Transformer, in which the fault-diagnosis representation informs the time-to-onset prediction, rather than relying implicitly on a shared encoder. Learnable task tokens are used to derive task-specific representations through an attention mechanism, whereas an uncertainty-based auto-weighted loss adaptively balances the learning objectives during training. The framework is validated on multivariate sensor data from a rail engine air compressor comprising 14,712 air and 218,846 oil leak readings. The proposed framework achieves 95.2% classification accuracy and time-to-onset errors of 9.3 and 3.7 min for air and oil leaks, respectively. It achieves strong overall performance against deep learning baselines, with the component-wise ablation confirming the substantial contribution of both the directed cross-task attention and auto-weighted loss. Furthermore, the model detects air leak 96 min and oil leaks more than 2 days ahead of the built-in alarm system. The model also demonstrates robustness to missing data, noise, and drift while remaining sensitive to sparse outlier spikes. The results demonstrate the effectiveness of modeling dependency between fault diagnosis and time-to-onset prediction for integrated condition monitoring of multi-sensor mechanical systems.",
+    "authors": [
+      "Rose Marie Charuvil Elizabeth",
+      "Fereshteh Sattari",
+      "Lianne Lefsrud"
+    ],
+    "source": "Crossref",
+    "venue": "Structural Health Monitoring",
+    "date": "2026-11-09",
+    "doi": "10.1177/14759217261504003",
+    "url": "https://doi.org/10.1177/14759217261504003",
+    "source_id": "",
+    "score": 72.0,
+    "level": "B",
+    "title_zh": "A directed cross-task attention Transformer for joint fault diagnosis and prognostics of rail engine compressors",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 72.0，推荐等级 B。"
+  },
+  {
+    "title": "NBD-Net: a structured degradation memory and local-global bridging network for lithium-ion battery remaining useful life prediction",
+    "abstract": "Abstract Remaining useful life (RUL) prediction of lithium-ion batteries from measured capacity is a core function of battery management, but public datasets contain few cells, a predictor must generalize to unseen cells, and training cells often miss the late-life regime. This paper proposes NBD-Net, a Nonstationary-Bridged Degradation Network for next-cycle capacity prediction, and examines which elements make it reliable on unseen cells. NBD-Net normalizes each input window (reversible instance normalization), encodes it with a local stabilization branch, a causal detrending followed by learned causal convolutions, in parallel with a recurrent trend encoder, and couples the two branches through an attention memory (SDMC) and a bidirectional cross-attention bridge (LGBI). Under a leave-one-battery-out protocol covering all eleven cells of the CALCE, NASA, and TJU datasets, NBD-Net has the lowest capacity root mean square error of nine models on every unseen cell, 9%–27% below the strongest baseline of each dataset, also after nested tuning of all models. When the training cells cover only the first half of life, it remains the most accurate model on every cell, and its error grows by 29% where that of PatchTST and TCN grows by 160% and 222%. Controlled experiments attribute these two results to different elements: with complete training data the per-window normalization carries the advantage, lowering the error by 22%–34% on every cell, so that a normalized recurrent predictor reaches comparable accuracy; with incomplete training data the local stabilization branch provides 84% of the gain over the recurrent backbone, whereas SDMC and LGBI add smaller gains at regeneration events and in late life. The results hold for next-cycle prediction under one cycling condition per dataset; its RUL relative error statistically matches that of the baselines, and its accuracy gain holds while input noise stays comparable to the scatter of the training data. The source code is publicly available at: https://github.com/luxing-just/NBDNet_open_source .",
+    "authors": [
+      "Taiyu Lu",
+      "Yuanjiang Li"
+    ],
+    "source": "Crossref",
+    "venue": "Measurement Science and Technology",
+    "date": "2026-11-09",
+    "doi": "10.1088/1361-6501/aebab8",
+    "url": "https://doi.org/10.1088/1361-6501/aebab8",
+    "source_id": "",
+    "score": 70.0,
+    "level": "B",
+    "title_zh": "NBD-Net: a structured degradation memory and local-global bridging network for lithium-ion battery remaining useful life prediction",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 70.0，推荐等级 B。"
+  },
+  {
+    "title": "Research on High-Efficient Low-Degradation Energy Management Control Strategy for Hydrogen Fuel Cell Tractors Based on Deep Reinforcement Learning During Row-Crop Seeding Operations",
+    "abstract": "To solve the problems of low energy utilization efficiency, high equivalent hydrogen consumption, and significant power battery capacity degradation in hydrogen fuel cell tractors under row-crop seeding operations, a High-Efficient Low-Degradation Energy Management Control Strategy based on the Deep Deterministic Policy Gradient (HELD-DDPG) was proposed in this paper. Firstly, a tractor dynamics model was established based on the row-crop seeding operations. Subsequently, a power battery model was established based on the equivalent internal resistance theory to evaluate the state and energy consumption of the power battery, and a battery life model was established that accounts for the impact of capacity degradation on long-term system operation. A hydrogen fuel cell model was constructed according to the characteristics of the hydrogen fuel cell. To achieve a unified quantitative assessment of energy consumption across different energy sources in the entire power system, an equivalent hydrogen consumption model was established. On this basis, the HELD-DDPG was proposed with the objectives of minimizing the equivalent hydrogen consumption of the whole machine, stabilizing the SOC of the power battery, and minimizing battery capacity degradation, subject to the battery discharge current constraint. Finally, a rule-based energy management control strategy was selected as a comparative strategy. Simulation experiments on the HELD-DDPG were conducted using the MATLAB platform, and the effectiveness of the strategy was further validated through the hardware-in-the-loop (HIL) test platform. The simulation results showed that, compared with the comparative strategy, the HELD-DDPG significantly improved energy utilization efficiency of the tractor. Specifically, the chemical energy consumption of the hydrogen fuel cell was reduced by 45.43%, the cumulative energy throughput of the power battery was reduced by 32.92%, the total equivalent hydrogen consumption of the power system was reduced by 15.57%, and the battery capacity degradation was reduced by 19.76%. Meanwhile, the real-time implement ability of the HELD-DDPG was evaluated through the HIL test.",
+    "authors": [
+      "Yuzhuo Zhang",
+      "Ye Mei",
+      "Zhen Zhong",
+      "Mengnan Liu",
+      "Junjiang Zhang",
+      "Jiashuo Wu",
+      "Yixin Chen"
+    ],
+    "source": "Crossref",
+    "venue": "World Electric Vehicle Journal",
+    "date": "2026-11-09",
+    "doi": "10.3390/wevj17110588",
+    "url": "https://doi.org/10.3390/wevj17110588",
+    "source_id": "",
+    "score": 64.0,
+    "level": "B",
+    "title_zh": "Research on High-Efficient Low-Degradation Energy Management Control Strategy for Hydrogen Fuel Cell Tractors Based on Deep Reinforcement Learning During Row-Crop Seeding Operations",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 64.0，推荐等级 B。"
+  },
+  {
+    "title": "Fractional Relaxation and Impedance of Battery Electrodes Reveal Their Nonlinear Reaction Kinetics",
+    "abstract": "We develop a mathematical framework and experimental method to characterize the Fractional Relaxation and Impedance (FRI) of electrochemical systems by introducing fractional derivatives in the governing Equations of charge transport and reactions. By exploiting relations between Fourier and Laplace transforms, FRI analysis combines frequency-domain electrochemical impedance spectroscopy (EIS) with time-domain pulse relaxation analysis to capture anomalous phase angles and power-law relaxation. While conventional EIS is restricted to small-signal linear regimes, the FRI method accommodates large perturbations and captures the anomalous (linear) charge relaxation in heterogeneous electrodes without assuming specific (nonlinear) reaction models. By establishing a quantitative link between impedance parameters and time-domain behavior, FRI separates double-layer capacitance and diffusion contributions from the underlying reaction kinetics. As an example, we analyze single-particle battery electrodes, which exhibit FRI behavior that can be attributed to a wide distribution of diffusion times (DDT), and extract nonlinear current-overpotential relationships across multiple states of charge (SOC). For lithium cobalt oxide (LCO) cathodes, Bayesian model selection applied to FRI data favors the quantum-mechanical Coupled Ion-Electron Transfer (CIET) theory over the phenomenological Butler–Volmer (BV) Equation. FRI analysis provides a generalizable, physics-informed approach for diagnosing kinetic bottlenecks and modeling electrode interfaces under realistic, high-rate operating conditions.",
+    "authors": [
+      "Masato Yano",
+      "Shakul Pathak",
+      "Martin Z. Bazant"
+    ],
+    "source": "Crossref",
+    "venue": "Journal of The Electrochemical Society",
+    "date": "2026-11-09",
+    "doi": "10.1149/1945-7111/aeb332",
+    "url": "https://doi.org/10.1149/1945-7111/aeb332",
+    "source_id": "",
+    "score": 58.0,
+    "level": "B",
+    "title_zh": "Fractional Relaxation and Impedance of Battery Electrodes Reveal Their Nonlinear Reaction Kinetics",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 58.0，推荐等级 B。"
+  }
+]
