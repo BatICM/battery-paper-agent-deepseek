@@ -1,0 +1,317 @@
+[
+  {
+    "title": "Joint hierarchical SOH and SOC balancing control strategy in dynamically reconfigurable battery systems based on deep learning and deep reinforcement learning",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Applied Energy",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0306261926018179?dgcid=rss_sd_all",
+    "source_id": "rss:9:Applied Energy",
+    "score": 98.25,
+    "level": "A",
+    "title_zh": "Joint hierarchical SOH and SOC balancing control strategy in dynamically reconfigurable battery systems based on deep learning and deep reinforcement learning",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 98.25，推荐等级 A；期刊优先级第 8 位。"
+  },
+  {
+    "title": "Model Predictive Control for a Multiport 4L NPC DAB Converter Under Unbalanced and No-Load Conditions",
+    "abstract": "Multilevel (ML) neutral-point-clamped (NPC) dual-active-bridge (DAB) topologies have emerged as a promising solution for multiport dc-dc power conversion systems. In particular, the 4L NPC DAB is a promising solution for the auxiliary power module (APM) in electric vehicles (EVs) featuring a multiple-voltage architecture in their auxiliary system (AS). By connecting three low-voltage (LV) battery modules between the 4L dc-link nodes, multiple dc ports with different operating voltages are obtained. Then, EV auxiliary loads can be grouped according to their optimum voltage ratings and supplied from three distinct-voltage dc ports. In this configuration, the main challenge is to regulate the state of charge (SoC) of the LV-battery modules. For this purpose, this paper proposes a moving-discretized-control-set model predictive control (MDCS-MPC) for a 2L–4L NPC DAB in the EV APM application. The proposed control strategy combines the adjustment of modulation angles with the use of redundant switching patterns to regulate the LV-battery modules SoC in a wide operating range, including no-load conditions in the partial-voltage dc ports. Hardware-in-the-loop experiments verify the real-time performance of the proposed control.",
+    "authors": [
+      "Oriol Esquius-Mas",
+      "Àlber Filbà-Martínez",
+      "Joan Nicolás-Apruzzese"
+    ],
+    "source": "OpenAlex",
+    "venue": "Electronics",
+    "date": "2026-11-13",
+    "doi": "10.3390/electronics15225280",
+    "url": "https://doi.org/10.3390/electronics15225280",
+    "source_id": "",
+    "score": 87.5,
+    "level": "A",
+    "title_zh": "Model Predictive Control for a Multiport 4L NPC DAB Converter Under Unbalanced and No-Load Conditions",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 87.5，推荐等级 A；期刊优先级第 11 位。"
+  },
+  {
+    "title": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 112.5,
+    "level": "B",
+    "title_zh": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 112.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Agentic AI for intelligent battery management systems: From diagnosis to autonomous control",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Power Sources",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0378775326026972?dgcid=rss_sd_all",
+    "source_id": "rss:10:Journal of Power Sources",
+    "score": 71.25,
+    "level": "B",
+    "title_zh": "Agentic AI for intelligent battery management systems: From diagnosis to autonomous control",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 71.25，推荐等级 B；期刊优先级第 20 位。"
+  },
+  {
+    "title": "A pressure-aware electro-thermal-refrigerant parametric framework for safe fast charging of 3P4S solid-state battery packs under extreme climates",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26051571?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 91.0,
+    "level": "B",
+    "title_zh": "A pressure-aware electro-thermal-refrigerant parametric framework for safe fast charging of 3P4S solid-state battery packs under extreme climates",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 91.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Haar wavelet-driven physics-informed long short-term memory for thermal-inertia-aware temperature prediction of liquid-cooled battery energy storage systems",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26052710?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 79.0,
+    "level": "B",
+    "title_zh": "Haar wavelet-driven physics-informed long short-term memory for thermal-inertia-aware temperature prediction of liquid-cooled battery energy storage systems",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 79.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Multi-timescale electricity‑carbon trading optimization for wind-storage systems with a physics-informed safety-aware actor-critic algorithm",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26050875?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 71.0,
+    "level": "B",
+    "title_zh": "Multi-timescale electricity‑carbon trading optimization for wind-storage systems with a physics-informed safety-aware actor-critic algorithm",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 71.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "An Integrated Explainable Machine Learning Framework for Cell-to-Pack Imbalance Prediction in Electric Vehicle Battery Systems",
+    "abstract": "This study presents a machine learning framework for predicting cell-to-pack imbalance in electric vehicle batteries. A set of battery attributes that affect battery performance, including State of Charge (SOC), State of Health (SOH), temperature (including ambient temperature and humidity), and cabin temperature, were used to make this prediction. The collected battery data were pre-processed to improve prediction performance. Three preprocessing methods were used: (i) Variational Mode Decomposition (VMD); (ii) deep denoising autoencoders, and (iii) feature selection using minimum Redundancy Maximum Relevance (mRMR) mutual information. This preprocessing step removes noise from the dataset and identifies useful information for prediction. Cell-to-pack imbalance prediction was performed using three interpretable machine learning models: (i) an Explainable Boosting Machine (EBM); (ii) fuzzy regression; and (iii) RuleFit. These models provide transparent predictions and help in understanding the factors responsible for battery imbalance. Models were evaluated on an independent 20-sample test set held out from the 100-record dataset. Among the three interpretable models, Fuzzy Regression achieved the strongest predictive performance (R² = 0.998), followed by RuleFit (R² = 0.976), while EBM achieved a lower R² of 0.201 on this independent test set despite providing detailed feature-level explanations. These results indicate that combining signal preprocessing, feature selection, and interpretable regression can provide useful and explainable information for cell-to-pack imbalance prediction, while also showing that performance can vary substantially between interpretable models on a small, two-pack dataset; validation on larger and more varied battery datasets is needed to confirm generalizability.",
+    "authors": [
+      "Neeraja T",
+      "Kalpalatha Reddy T"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "International Journal of Electrical and Electronics Engineering",
+    "date": "2026-11-13",
+    "doi": "10.14445/23488379/ijeee-v13i10p107",
+    "url": "https://doi.org/10.14445/23488379/ijeee-v13i10p107",
+    "source_id": "",
+    "score": 124.0,
+    "level": "B",
+    "title_zh": "An Integrated Explainable Machine Learning Framework for Cell-to-Pack Imbalance Prediction in Electric Vehicle Battery Systems",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 124.0，推荐等级 B。"
+  },
+  {
+    "title": "Centralized vehicle-to-grid coordination for behind-the-meter value in commercial fleets: Evidence and deployment lessons from a pilot demonstration",
+    "abstract": "Vehicle-to-grid operation in commercial fleets remains debated due to interoperability limits, user acceptance, warranty concerns, and regulatory uncertainty. This paper reports a five-week multi-site pilot demonstration in mainland Portugal evaluating a centralized coordination architecture that uses V2G and low-complexity rule-based control to capture behind-the-meter value: energy arbitrage under time-of-use tariffs, peak-load shaving, and photovoltaic surplus self-consumption, relying only on site telemetry, charging-session data, and conservative state-of-charge (SoC) limits agreed with fleet users. Across three sites, 374 kWh of charging was shifted from peak to off-peak periods, 150 kWh was discharged during peak periods, and 16.6 kWh of additional charging was enabled from solar surplus. These actions resulted in €20 of EV charging cost savings (a 26% cost-weighted reduction against the rebased baseline), €7.9 of site-level energy savings, and an estimated €39.4 reduction in demand-related charges, modest and highly site-specific values. Average departure SoC decreased from 96% to 79% but remained above the agreed 50% minimum throughout the pilot. Beyond these outcomes, the study draws deployment lessons on measurement uncertainty, control-interval limits, plug-in behavior, battery-condition observability, protocol maturity, deployment cost, and regulatory constraints.",
+    "authors": [
+      "Oluwapelumi Oluwaseun Egunjobi",
+      "P. M. Rocha Almeida",
+      "M. Adelaide",
+      "A. Gomes",
+      "H. Morais",
+      "D. Brito"
+    ],
+    "source": "OpenAlex",
+    "venue": "Energy Reports",
+    "date": "2026-11-13",
+    "doi": "10.1016/j.egyr.2026.109812",
+    "url": "https://doi.org/10.1016/j.egyr.2026.109812",
+    "source_id": "",
+    "score": 88.0,
+    "level": "B",
+    "title_zh": "Centralized vehicle-to-grid coordination for behind-the-meter value in commercial fleets: Evidence and deployment lessons from a pilot demonstration",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 88.0，推荐等级 B。"
+  },
+  {
+    "title": "Recent Advances and Future Perspectives in Thermal Runaway Prevention and Control of Lithium-Ion Batteries",
+    "abstract": "Widespread deployment of lithium-ion batteries in energy storage and transportation increases the need to prevent and control thermal runaway and associated hazards. Focusing on energy storage systems using lithium iron phosphate batteries while drawing on other battery chemistries, this review examines failure mechanisms, hazard evolution, mitigation technologies, and engineering applicability. It analyzes coupled interfacial reactions, material transformations, and structural failure, alongside the effects of chemistry, state of charge, capacity, and aging. Multisignal warning and intervention, passive thermal barriers, active fire suppression and cooling, and combined strategies are compared in terms of mechanisms and operating conditions. Engineering assessment addresses experimental comparability, maturity, scalability, cost, and environmental safety. The synthesis identifies flame extinguishment, cell thermal stabilization, and propagation prevention as distinct objectives requiring complementary indicators. Warning effectiveness depends on timely intervention, whereas barrier–cooling integration depends on heat-transfer pathways, agent accessibility, and sustained supply. Technology selection therefore requires validation at the intended scale under relevant application constraints. Future priorities include linking warning to intervention, integrating barriers with sustained cooling, and developing evaluation frameworks with clearly defined applicability. Engineering validation should also incorporate long-term reliability, life-cycle costs, environmental impacts, and personnel safety to support application-specific mitigation strategies.",
+    "authors": [
+      "孙晓娟",
+      "Di Zuo",
+      "Shilong Wang"
+    ],
+    "source": "OpenAlex",
+    "venue": "Batteries",
+    "date": "2026-11-13",
+    "doi": "10.3390/batteries12110489",
+    "url": "https://doi.org/10.3390/batteries12110489",
+    "source_id": "",
+    "score": 86.0,
+    "level": "B",
+    "title_zh": "Recent Advances and Future Perspectives in Thermal Runaway Prevention and Control of Lithium-Ion Batteries",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 86.0，推荐等级 B。"
+  },
+  {
+    "title": "Prediction Modeling and Optimization of Power Grid Energy Storage System Based on Machine Learning",
+    "abstract": "The rise of renewable energy, like solar panels and wind turbines, stems from price hikes and emissions rules. Weather affects energy production from solar farms. The power operations like pneumatic transports. Challenges with grid capacity arise from renewables’ growth. The power market shifts from government control to deregulation. Regulations affect energy expenses, efficiency, and environmental impact benefits. To address this issue, the authors propose a technical solution that allows the EPGCCS system combines Deep Reinforcement Learning (DRL) with solar photovoltaic (PV), battery storage, and grid management to enhance pneumatic transport plant efficiency. It involves designing the plant, simulating processes, optimizing mathematically, developing control systems, initializing renewable energy sources, and optimizing scheduling through DRL. The plant integrates PV modules, inverters, a battery system, grid connection, and an air transport system for energy-efficient material handling. Simulation involves random arrivals and airflow calculations using the Hudson formula. The PV system uses performance mappings and cloud forecasting, while battery management employs a flexible state-of-charge estimation method. A model combining Multi-Agent Deep Deterministic Policy Gradient (MADDPG) and Model Predictive Control (MPC) was created to optimize costs under set constraints. Enhancements like Priority Experience Replay (PER), adaptive noise exploration, and improved Adadelta optimization methods were added to enhance convergence rate, scheduling, and computational efficiency for automated day-ahead scheduling and real-time operational efficacy.",
+    "authors": [
+      "Shunfeng Jiao",
+      "Chuyun She",
+      "Guoxing Wu",
+      "Jie Zhang",
+      "Na Qiao"
+    ],
+    "source": "OpenAlex",
+    "venue": "The International Journal of Maritime Engineering",
+    "date": "2026-11-13",
+    "doi": "10.5750/ijme.v168ia6(s).2075",
+    "url": "https://doi.org/10.5750/ijme.v168ia6(s).2075",
+    "source_id": "",
+    "score": 80.0,
+    "level": "B",
+    "title_zh": "Prediction Modeling and Optimization of Power Grid Energy Storage System Based on Machine Learning",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 80.0，推荐等级 B。"
+  },
+  {
+    "title": "Aging-Aware Attention-Driven Transformer Reinforcement Learning Framework for Sustainable Hybrid Battery Energy Management in Electric Vehicles",
+    "abstract": "Battery degradation is another important constraint of the hybrid electric vehicle systems, where the standard approach to energy management focuses on short-term fuel efficiency and does not consider the long-term health of the battery. In this paper, a proposal has been made on an Aging-Aware Attention-Driven Transformer Reinforcement Learning (AAT-DRL) framework of intelligent hybrid battery energy management. Transformer-based temporal feature encoding, along with actor-critic reinforcement learning architecture, is combined in the model to encode patterns that are sensitive to degradation such as temperature, current stress and depth-of-discharge. The multi-objective reward is developed with an aim to optimize the energy efficiency, thermal safety and battery life. The framework is tested at standard driving cycles (UDDS, NEDC and WLTP). In the results, it is shown that the degradation index has reduced by 38%, the SOC has become more stable and thermal fluctuations have been reduced, with a peak efficiency of 95.3%, which is a better performance than the state-of-the-art DRL methods. The solution offers a healthy, scalable and battery management system for the next generation based on the proposed approach.",
+    "authors": [
+      "P.G. Raghavendran",
+      "V. Hamsadhwani"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "International Journal of Electrical and Electronics Engineering",
+    "date": "2026-11-13",
+    "doi": "10.14445/23488379/ijeee-v13i10p110",
+    "url": "https://doi.org/10.14445/23488379/ijeee-v13i10p110",
+    "source_id": "",
+    "score": 76.0,
+    "level": "B",
+    "title_zh": "Aging-Aware Attention-Driven Transformer Reinforcement Learning Framework for Sustainable Hybrid Battery Energy Management in Electric Vehicles",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 76.0，推荐等级 B。"
+  }
+]
