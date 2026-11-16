@@ -1,0 +1,317 @@
+[
+  {
+    "title": "Joint hierarchical SOH and SOC balancing control strategy in dynamically reconfigurable battery systems based on deep learning and deep reinforcement learning",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Applied Energy",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0306261926018179?dgcid=rss_sd_all",
+    "source_id": "rss:9:Applied Energy",
+    "score": 98.25,
+    "level": "A",
+    "title_zh": "Joint hierarchical SOH and SOC balancing control strategy in dynamically reconfigurable battery systems based on deep learning and deep reinforcement learning",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 98.25，推荐等级 A；期刊优先级第 8 位。"
+  },
+  {
+    "title": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 112.5,
+    "level": "B",
+    "title_zh": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 112.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Agentic AI for intelligent battery management systems: From diagnosis to autonomous control",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Power Sources",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0378775326026972?dgcid=rss_sd_all",
+    "source_id": "rss:10:Journal of Power Sources",
+    "score": 71.25,
+    "level": "B",
+    "title_zh": "Agentic AI for intelligent battery management systems: From diagnosis to autonomous control",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 71.25，推荐等级 B；期刊优先级第 20 位。"
+  },
+  {
+    "title": "A pressure-aware electro-thermal-refrigerant parametric framework for safe fast charging of 3P4S solid-state battery packs under extreme climates",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26051571?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 91.0,
+    "level": "B",
+    "title_zh": "A pressure-aware electro-thermal-refrigerant parametric framework for safe fast charging of 3P4S solid-state battery packs under extreme climates",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 91.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Haar wavelet-driven physics-informed long short-term memory for thermal-inertia-aware temperature prediction of liquid-cooled battery energy storage systems",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26052710?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 79.0,
+    "level": "B",
+    "title_zh": "Haar wavelet-driven physics-informed long short-term memory for thermal-inertia-aware temperature prediction of liquid-cooled battery energy storage systems",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 79.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Multi-timescale electricity‑carbon trading optimization for wind-storage systems with a physics-informed safety-aware actor-critic algorithm",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26050875?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 71.0,
+    "level": "B",
+    "title_zh": "Multi-timescale electricity‑carbon trading optimization for wind-storage systems with a physics-informed safety-aware actor-critic algorithm",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 71.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Reliability of remaining useful life predictions using physics-informed models and digital twins in predictive maintenance",
+    "abstract": "Physics-informed machine learning is widely presented as a means of making Remaining Useful Life (RUL) prediction for rotating machinery more accurate, data-efficient, and trustworthy, often under the label of a digital twin. This review tests these claims against data splits, physics calibration, baselines, and validation conditions. Journal articles issued from 2022 to 2026 were retrieved from the OpenAIRE Graph and Crossref with a Boolean string requiring physics-informed, prognostic, and asset or digital twin terms. The design combined a bibliometric map of 176 articles, an abstract-level evidence map of 49 core studies on bearings, aero-engines, gears, and motors, technical appraisal of five full texts, and a structured synthesis of matched contrasts. Output rose from 9 articles in 2022 and 2023 combined to 122 in the partial year 2026, spread across 122 sources. Only 21% of the 103 abstracts that used the digital twin label described model updating or synchronization, and only three core abstracts framed their model as a twin. Among core abstracts, 23% mentioned unseen or changing operating conditions, 6% calibration or coverage, and none code availability. Four matched contrasts from three studies favored physics, with log error ratios from -0.19 to -0.30 on held-out units and -2.41 in a field case whose reference RUL came from the physics-weighted model itself, but only one contrast rested on physics demonstrably calibrated without test data. No pooled estimate was defensible. Physics helps most when it constrains extrapolation, yet the literature rarely isolates that benefit, and twin claims outrun twin evidence.",
+    "authors": [
+      "Hanif Farhan"
+    ],
+    "source": "Crossref",
+    "venue": "Journal of Engineering and High Technology",
+    "date": "2026-11-15",
+    "doi": "10.55942/jeht.v2i2.2367",
+    "url": "https://doi.org/10.55942/jeht.v2i2.2367",
+    "source_id": "",
+    "score": 86.0,
+    "level": "B",
+    "title_zh": "Reliability of remaining useful life predictions using physics-informed models and digital twins in predictive maintenance",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 86.0，推荐等级 B。"
+  },
+  {
+    "title": "CONSUMER ELECTRICITY CONSUMPTION BEHAVIOR IN SOLAR AND GRID SYSTEMS: TOWARD SDG-ALIGNED ENERGY CONSERVATION",
+    "abstract": "The global transition from fossil-fuel-based electricity systems to renewable energy sources is essential to achieving sustainable development and reducing grid dependency. This study investigates residential energy consumption behavior within a solar-battery-grid architecture using the proposed GridSolarMatch framework. System monitoring data were obtained through a dedicated data logger operating with Module Version No.: LSWS_01_2421_SS_00_00.00.00.06, ensuring high-resolution and reliable time-series measurement of solar generation, battery operation, and grid interaction. GridSolarMatch employs a transparent, rule-based dispatch strategy that prioritizes solar energy utilization, regulates battery charging and discharging via explicit state-of-charge (SOC) dynamics, and uses the grid as a fallback resource during energy deficits. Time- of-Use electricity tariffs are incorporated to evaluate tariff-aware operational behavior without relying on forecasting or computationally intensive optimization solvers. The result demonstrates effective battery buffering, reduced grid dependency during peak tariff periods, and controlled SOC cycling that preserves battery longevity. Analysis of grid import behavior, battery state-of-charge profiles, and a cumulative sustainability-cost objective function confirms that the framework enhances renewable self-consumption while moderating long term grid reliance. Unlike conventional cost-driven approaches, the proposed model prioritizes sustainability and operational feasibility, aligning with Sustainable Development Goals (SDG) 7 (Affordable and Clean Energy) and SDG 12 (Responsible Consumption and Production). The findings highlight GridSolarMatch's sustainability as a practical, scalable, and deployable energy management solution for residential renewable energy systems",
+    "authors": [
+      "Oscar Famous Darteh",
+      "Charity Oseiwah Adjei",
+      "Samuel Amo Blay",
+      "Osumanu Futa",
+      "Mathias Bennet Michael",
+      "Amevi Acakpovi"
+    ],
+    "source": "OpenAlex",
+    "venue": "Kufa Journal of Engineering",
+    "date": "2026-11-14",
+    "doi": "10.30572/2018/kje/170428",
+    "url": "https://doi.org/10.30572/2018/kje/170428",
+    "source_id": "",
+    "score": 58.0,
+    "level": "B",
+    "title_zh": "CONSUMER ELECTRICITY CONSUMPTION BEHAVIOR IN SOLAR AND GRID SYSTEMS: TOWARD SDG-ALIGNED ENERGY CONSERVATION",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 58.0，推荐等级 B。"
+  },
+  {
+    "title": "Fractional-order grey forecasting framework for cross-regional air quality early warning",
+    "abstract": "Purpose This study develops an interpretable grey forecasting framework under limited information conditions. The framework supports air quality early warning across regions. It focuses on disturbed annual Air Quality Composite Index (AQCI) sequences and heterogeneous warning pressure across cities. Design/methodology/approach This study proposes S-HFGM(1,N), a Hausdorff fractional multivariable grey model with a single indicator buffer. The model integrates target sequence buffering, Hausdorff fractional accumulation and multivariable grey modelling. The framework uses AQCI association pressure for city screening and selects socioeconomic drivers. After validation, Monte Carlo simulations based on residuals quantify uncertainty. Warnings are then interpreted for specific pollutants. The application covers the Beijing–Tianjin–Hebei region. It uses observations from 2013–2022 for training and 2023–2024 for validation. The validated model produces projections for 2025–2030. Findings The model achieves an average validation mean absolute percentage error of 3.6861%, outperforming selected grey forecasting benchmarks. The baseline projections show different trends under gradual structural evolution. Beijing faces slight upward pressure. By contrast, Shijiazhuang and Tangshan continue improving. Handan and Xingtai follow a relatively stable trajectory despite persistent pressure. The 80% and 95% prediction intervals widen with the forecast horizon, with Handan and Xingtai showing the widest 95% intervals in 2030. Future warning pressure is mainly associated with O3 and particulate matter. Practical implications The framework suggests that regional governance should move beyond uniform control measures. Instead, policies should reflect the pollutant profile of each city. Coordinated monitoring should also be strengthened for nonadjacent priority cities. Originality/value The unified grey framework combines disturbance weakening, nonlinear time scale memory reconstruction and structural external driving. It extends grey forecasting beyond single city prediction. This extension supports warning interpretation across regions for environmental policymakers and regional governance bodies.",
+    "authors": [
+      "Kaihe Shi",
+      "Meng Yang"
+    ],
+    "source": "Crossref",
+    "venue": "Grey Systems: Theory and Application",
+    "date": "2026-11-16",
+    "doi": "10.1108/gs-05-2026-0152",
+    "url": "https://doi.org/10.1108/gs-05-2026-0152",
+    "source_id": "",
+    "score": 42.0,
+    "level": "B",
+    "title_zh": "Fractional-order grey forecasting framework for cross-regional air quality early warning",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 42.0，推荐等级 B。"
+  },
+  {
+    "title": "Unravelling capacity fading in valve regulated lead acid battery pack for e-Rickshaw applications",
+    "abstract": "This study investigates the electrical degradation behaviour of a 48 V valve-regulated lead–acid (VRLA) battery pack designed for e-rickshaw applications. The pack was subjected to continuous cycling under a severe duty profile derived from the IEC 63,193 standard, representing long-range operation under heavy load and steep-gradient driving conditions. The battery pack achieved peak performance corresponding to a maximum running time of approximately 162 min between cycles 110 and 150. However, after 164 cycles, the running time collapsed abruptly from 137 min to only 6 min, indicating sudden catastrophic failure. Several precursor warning signatures were identified prior to this collapse, including reduced charge acceptance, progressive suppression of rebound voltage, accelerated decline in energy efficiency, and a pronounced transformation of the discharge voltage profile. These degradation indicators consistently converged around the ~ 117th cycle, marking a clear inflection point at which aging transitioned from gradual to accelerated behaviour. The systematic evolution of the discharge voltage profile serve as a distinctive electrochemical fingerprint of positive active material (PAM) degradation. Based on these observations, a Dual-Regime Discharge behaviour is proposed to describe the transition from high-voltage-dominated discharge to low-voltage-dominated discharge as degradation progresses.",
+    "authors": [
+      "Sundar Mayavan",
+      "Nimmala Nagarjuna",
+      "Vandrasi Satya Prasad",
+      "P. Seenichamy",
+      "K. Arumugasamy"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "Scientific Reports",
+    "date": "2026-11-14",
+    "doi": "10.1038/s41598-026-75154-3",
+    "url": "https://doi.org/10.1038/s41598-026-75154-3",
+    "source_id": "",
+    "score": 38.0,
+    "level": "B",
+    "title_zh": "Unravelling capacity fading in valve regulated lead acid battery pack for e-Rickshaw applications",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 38.0，推荐等级 B。"
+  },
+  {
+    "title": "Lithology- and petrophysics-informed screening of reservoir–fault connectivity in the EM field Bredasdorp Basin",
+    "abstract": "Abstract This study combined lithological descriptions, petrophysical analysis, and seismic mapping to screen reservoir–fault relationships in the EM Field, offshore Bredasdorp Basin, South Africa. Ten wells define four reservoir archetypes, and 51 interpreted fault surfaces define the structural framework. The screening rules assigned an architectural context score (J) from the nearest eligible well. An evidence-support score (C) used proximity, agreement among three distinct nearby wells, and evidence coverage. A size score (S) used fault extent. These inputs determined the fault significance index (FSI). Twelve faults have a sand-dominated context, 33 have a mixed context, and six have a shale-dominated context. Eight faults received high priority, 24 received intermediate priority, and 19 received low priority for further investigation. Reservoir–reservoir, reservoir–seal, and seal–seal contacts were assumed scenarios for further assessment. Alternative weights yielded Spearman correlations of 0.968–0.991. In these tests, 44 faults retained their class across weight schemes and 32 across threshold schemes. F3 and F22 remained high priority when the input components were fixed. Distance-weighting tests retained the leading surrounding-well archetype for 44 faults. Assigning J from the baseline distance-weighted leading archetype retained the priority class of 50 faults, including all eight high-priority faults. The workflow provides first-pass screening of faults to guide detailed investigations of juxtaposition, fault seal, transmissibility, and geomechanical stability. Opposing wall lithology, hydraulic connectivity, and storage performance require independent assessments.",
+    "authors": [
+      "Mainly Abongile Mbongonya",
+      "Mimonitu Opuwari"
+    ],
+    "source": "Crossref",
+    "venue": "Earth Science Informatics",
+    "date": "2026-11-16",
+    "doi": "10.1007/s12145-026-02304-6",
+    "url": "https://doi.org/10.1007/s12145-026-02304-6",
+    "source_id": "",
+    "score": 38.0,
+    "level": "B",
+    "title_zh": "Lithology- and petrophysics-informed screening of reservoir–fault connectivity in the EM field Bredasdorp Basin",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 38.0，推荐等级 B。"
+  },
+  {
+    "title": "An NLP-driven analytical pipeline for exploring Digital Twin research maturity in construction",
+    "abstract": "Purpose Conventional bibliometric techniques for analysing Digital Twin (DT) research maturity in the architecture, engineering, and construction (AEC) industry rely on keyword frequency and overlook semantic relationships and system-level technology interactions. This study develops an integrated analytical pipeline for measuring DT research maturity through semantic modelling, explanatory analysis and configuration search. Design/methodology/approach This study developed a multi-stage analytical pipeline integrating Sentence-BERT (SBERT)-based semantic filtering, BERTopic topic modelling and maturity classification, extended by clustering, SHapley Additive exPlanations (SHAP)-based explanatory modelling and heuristic optimisation. Using a corpus of 791 semantically filtered publications, the framework generates a Digital Twin Maturity Index (DTMI). Each analytical stage is reported with its full specification, and the index, the attribution stage and the optimisation stage are examined for dependence on their construction, including a seed and specification sensitivity analysis of the optimisation over 200 runs. Findings The corpus shows a shift from broadly framed early work towards technology-specific research, with sensors, building information modelling (BIM), artificial intelligence (AI) and Internet of Things the dominant tags and Cybersecurity, 5G and Blockchain the least consolidated. The three-component DTMI rises from −2.07 in 2017 to 0.73 in 2026, but publication year is one of its three components, so that rise is partly an arithmetic property of the index rather than evidence of maturation. The SHAP stage identifies sensors, AI and BIM as the strongest correlates of DTMI, an ordering that tracks corpus prevalence because the index contains the technology count as a component. The heuristic optimisation stage does not survive sensitivity analysis: 99.6% of candidate states are accepted, the final state is essentially uncorrelated with the data-derived starting point and across 200 seeds every technology contributes between 6.4% and 8.9% on average, so the reported prominence of geographic information system (GIS) and Cloud reflects a single draw rather than a recovered pattern. Originality/value This study contributes a replicable NLP- and ML-driven framework integrating semantic discovery, maturity measurement and explanatory analysis within a single pipeline, reported at a level of specification that allows each stage to be independently checked. Its second contribution is diagnostic: it shows that a composite maturity index containing a temporal term will trend by construction, that attribution against such an index recovers corpus prevalence rather than maturity drivers and that a stochastic search over a hand-specified objective can produce a confident technology ranking that is indistinguishable from noise. These failure modes are common in the digital-technology literature and are rarely tested for. The findings are literature-derived signals for framing research agendas; the study analyses publications rather than project or firm outcomes and provides no basis for investment or policy guidance.",
+    "authors": [
+      "Faris Elghaish",
+      "Sandra T. Matarneh",
+      "Farzad Rahimian",
+      "Algan Tezel",
+      "Mohammed Abdelmegid"
+    ],
+    "source": "Crossref",
+    "venue": "Engineering, Construction and Architectural Management",
+    "date": "2026-11-16",
+    "doi": "10.1108/ecam-05-2026-0963",
+    "url": "https://doi.org/10.1108/ecam-05-2026-0963",
+    "source_id": "",
+    "score": 38.0,
+    "level": "B",
+    "title_zh": "An NLP-driven analytical pipeline for exploring Digital Twin research maturity in construction",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 38.0，推荐等级 B。"
+  }
+]
