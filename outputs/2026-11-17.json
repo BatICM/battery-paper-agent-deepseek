@@ -1,0 +1,311 @@
+[
+  {
+    "title": "Joint hierarchical SOH and SOC balancing control strategy in dynamically reconfigurable battery systems based on deep learning and deep reinforcement learning",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Applied Energy",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0306261926018179?dgcid=rss_sd_all",
+    "source_id": "rss:9:Applied Energy",
+    "score": 98.25,
+    "level": "A",
+    "title_zh": "Joint hierarchical SOH and SOC balancing control strategy in dynamically reconfigurable battery systems based on deep learning and deep reinforcement learning",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 98.25，推荐等级 A；期刊优先级第 8 位。"
+  },
+  {
+    "title": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 112.5,
+    "level": "B",
+    "title_zh": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 112.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Agentic AI for intelligent battery management systems: From diagnosis to autonomous control",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Power Sources",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0378775326026972?dgcid=rss_sd_all",
+    "source_id": "rss:10:Journal of Power Sources",
+    "score": 71.25,
+    "level": "B",
+    "title_zh": "Agentic AI for intelligent battery management systems: From diagnosis to autonomous control",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 71.25，推荐等级 B；期刊优先级第 20 位。"
+  },
+  {
+    "title": "Data-driven predictive control of battery energy storage with physics-informed sequence modeling",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X2605187X?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 79.0,
+    "level": "B",
+    "title_zh": "Data-driven predictive control of battery energy storage with physics-informed sequence modeling",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 79.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Haar wavelet-driven physics-informed long short-term memory for thermal-inertia-aware temperature prediction of liquid-cooled battery energy storage systems",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26052710?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 79.0,
+    "level": "B",
+    "title_zh": "Haar wavelet-driven physics-informed long short-term memory for thermal-inertia-aware temperature prediction of liquid-cooled battery energy storage systems",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 79.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "State of health estimation of lithium-ion batteries via multi-modal wavelet fusion cumulative residual spectral entropy",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26051601?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 71.0,
+    "level": "B",
+    "title_zh": "State of health estimation of lithium-ion batteries via multi-modal wavelet fusion cumulative residual spectral entropy",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 71.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Multi-timescale electricity‑carbon trading optimization for wind-storage systems with a physics-informed safety-aware actor-critic algorithm",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26050875?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 71.0,
+    "level": "B",
+    "title_zh": "Multi-timescale electricity‑carbon trading optimization for wind-storage systems with a physics-informed safety-aware actor-critic algorithm",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 71.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Risk-aware hybrid reinforcement learning and robust optimization for reliable PV-battery scheduling under uncertainty",
+    "abstract": "Abstract The increasing penetration of photovoltaic (PV) generation and battery energy storage systems (BESSs) has intensified the need for intelligent scheduling strategies that can simultaneously reduce operating cost, preserve battery health, and ensure operational reliability under significant uncertainty. In practical grid-connected PV–battery systems, the stochastic nature of solar power, load demand, and electricity prices often leads to constraint violations and high tail-risk costs when conventional optimization or purely data-driven methods are used. To address this challenge, this paper proposes a risk-sensitive hybrid framework that integrates Soft Actor-Critic (SAC), Conditional Value-at-Risk (CVaR), conformal uncertainty estimation (CUE), and robust optimization (RO) in a unified energy management architecture. The SAC agent learns a stochastic dispatch policy, while CVaR explicitly penalizes unfavorable cost outcomes and CUE provides distribution-free uncertainty bounds for uncertain inputs. These bounds are then embedded into a robust optimization layer to guarantee feasibility under adverse operating conditions. In addition, an adaptive fusion mechanism combines the outputs of the learning-based and robust controllers to balance economic performance and reliability. Simulation results for a typical residential PV–battery system demonstrate that the proposed method achieves the best trade-off among cost, risk, and constraint satisfaction. Compared with a rule-based baseline, the full model reduces the SOC violation rate from 4.8% to below 1%, while also lowering the total operating cost and CVaR. Moreover, the proposed framework outperforms the RO-only variant by achieving a lower average cost without sacrificing robustness, and it consistently provides the highest reliability across independent runs. These results confirm that the proposed hybrid approach offers a practical and scalable solution for secure and economical PV–battery scheduling under uncertainty.",
+    "authors": [
+      "Bareq Kawwam Ahmed",
+      "Mehrdad Tarafdar Hagh",
+      "S.H. Hosseini"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "Scientific Reports",
+    "date": "2026-11-15",
+    "doi": "10.1038/s41598-026-70541-2",
+    "url": "https://doi.org/10.1038/s41598-026-70541-2",
+    "source_id": "",
+    "score": 96.0,
+    "level": "B",
+    "title_zh": "Risk-aware hybrid reinforcement learning and robust optimization for reliable PV-battery scheduling under uncertainty",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 96.0，推荐等级 B。"
+  },
+  {
+    "title": "Leveraging Parameter Coupling for Signal Enhancement and Early Detection of Battery Thermal Runaway",
+    "abstract": "Abstract Lithium-ion batteries are vital power sources, but the risk of thermal runaway remains a major safety concern. Existing sensor early-warning systems struggle to detect the localized and rapid evolution of internal failures, leading to inadequate time for preemptive intervention. Here, we present a thermal runaway sensor engineered with a temperature–pressure dual-signal coupling mechanism. The proposed strategy can capture the coupled temperature–pressure signals within the battery pack, thereby enabling the detection of the precursors of battery failure. The sensor can detect abnormal signals about 40 min before the thermal runaway. Translating lab research to industry, we integrated the sensor into commercial large-capacity 314 A h cells. Coupled with a custom-built data acquisition system, the system underwent rigorous validation over 12 months in an energy storage facility under actual conditions. The dual-signal sensing strategy offers an approach for early warning of battery thermal runaway in commercial energy storage systems.",
+    "authors": [
+      "Yuan Yao",
+      "Weifeng Zhang",
+      "Weidong Bai",
+      "Jiayuan Xiang",
+      "Wenjie Zhao",
+      "Zexiang Shen",
+      "Minghua Chen"
+    ],
+    "source": "Crossref",
+    "venue": "ACS Nano",
+    "date": "2026-11-16",
+    "doi": "10.1021/acsnano.6c11980",
+    "url": "https://doi.org/10.1021/acsnano.6c11980",
+    "source_id": "",
+    "score": 90.0,
+    "level": "B",
+    "title_zh": "Leveraging Parameter Coupling for Signal Enhancement and Early Detection of Battery Thermal Runaway",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 90.0，推荐等级 B。"
+  },
+  {
+    "title": "ADZh-01. CYCLIC CONTINUATION OF LITHIUM-ION BATTERY FUNCTIONALITY",
+    "abstract": "Vitology: Meaning, Objectives, and the Scientific Study of System Viability Life on Earth exists and develops because natural systems can maintain, coordinate, and restore their functions under changing conditions. Every system has its own history, internal organization, accessible resources, and physical constraints. Its viability is manifested not only in current functioning but also in its capacity to continue necessary activities in subsequent cycles. This capacity for continued existence and development is the central subject of Vitology. In this scientific series, ADZh means “Domain Viability Attestation.” It is an author-defined research procedure for documented verification of functional viability within a particular domain; it does not imply official metrological certification or recognition of new measurement units. Vitology is a proposed interdisciplinary scientific field studying system viability and regularities in its preservation, functional regeneration, and development. Within this authorial framework, “Reality of the Field of Life” means an integrated viable structure of interactions among known physical fields, material systems, and conditions, rather than a new fundamental physical field. This conceptual interpretation does not replace empirical confirmation of the proposed cross-domain regularities. The purpose of Vitology is to move from studying isolated states and functional outcomes to studying the conditions that enable continued system viability over time. It matters not only whether a system functions now, but also which physical characteristics, internal capacities, and external conditions allow it to preserve or restore the required function during the next cycle. Scientific Objective of Vitology Vitology's primary scientific objective is to identify reproducible regularities of viability, develop methods for measuring them, and establish tools for the timely maintenance of functionally sufficient system states. This program includes investigating observable viability in technical, natural, biological, and social systems; identifying physical conditions for preserving functions; analyzing consecutive cycles; developing domain-specific measurement criteria; testing shared structural regularities on independent cross-domain data; and creating diagnostic and control methods aimed at preserving subsequent viability. From an Observed Phenomenon to a Regularity Functional recovery is not a new phenomenon produced by Vitology. Natural and technical systems preserved and recovered functions long before our measurements existed. The scientific task is to establish the structure of this objectively observable process. Vitology examines a candidate Regularity of the Source of Life—the Law of Cyclic Prolongation of Life, CRSL(CVP). Its hypothesized structural manifestation is that the continuation of a system's required function is associated with preserving, coordinating, or restoring a physical configuration sufficient for operation under subsequent conditions. This formulation does not require identical physical mechanisms or units across domains. Batteries involve electrochemical characteristics; cellular systems involve growth and division; plants involve restoration of physiological functions; and social systems involve conditions for sustaining and reproducing required activities. Commonality is tested at the level of functional-continuation structure, while implementation is determined separately in each system. Measuring Functional Viability HNU (Harmony Norm Unit; Russian abbreviation ЕНГ) denotes, within the proposed authorial metrological architecture, a viable configuration of physical system characteristics measured in SI units and the functionally significant relationships among them. HNU₁ describes the configuration before conditions change, and HNU₂ the configuration after that change. The term HNU does not introduce a new SI base unit. UAV (Unit of Absolute Viability; Russian abbreviation ЕАЖ) denotes, within this architecture, a quantitative representation of the functional viability of the relevant configuration: UAV₁ for HNU₁ and UAV₂ for HNU₂. Comparable estimates require an explicit function, operational constraints, calculation rule, scale, and uncertainty; this study makes no claim of universal metrological attestation of UAV. RRR (residual recovery reserve) is a candidate inter-cycle structural-functional characteristic defined through the relationships between viable configurations HNU₁/HNU₂, corresponding UAV₁/UAV₂ estimates, and the outcome of the subsequent functional cycle. ADZh-01 implements reproducible measurement of its domain-specific physical components; this analysis does not validate an integral operator mapping them to RRR or its complete metrological attestation. SPV (systemic viability safeguard; Russian abbreviation СПЖ) is a developing architecture for diagnosis and selection of control conditions intended to preserve the required function without unacceptable deterioration of future viability. All these concepts are elements of an ongoing research program. Their quantitative applicability, reproducibility, and limits of use must be established experimentally. Why Begin with Batteries? Batteries are a suitable object for an initial domain-specific test because their functioning is described by measurable physical quantities, while successive operating cycles permit observation of changes over time. During operation, available battery capacity may decline, recover temporarily, or change according to load, rest, temperature, and prior history. A short-term increase in accessible capacity does not necessarily indicate a longer total service life. Accordingly, current functional recovery must be distinguished from genuine subsequent viability [1, 3, 4]. ADZh-01 primarily seeks measurable conditions under which a battery configuration is functionally sufficient to continue the required function in the next cycle. Inter-cycle changes and the predictive value of recovery features in models A/B/N are addressed as separate secondary questions; the lack of improvement by model B establishes neither the absence of sufficiency nor proof of RRR. Limits of domain-specific and cross-domain testing. ADZh-01 examines observable conditions for function preservation in battery systems and does not claim to prove the principle's universality. Its reproducibility is to be assessed in independent domain studies, including ADZh-02 (biological systems), and in AMDZh-01 (the first battery–biological-system comparison). Other domains require their own physical mechanisms, function criteria, and measurable coordinates. A universal regularity can be substantiated only after coordinated independent cross-domain testing. Place of the study within the series. ADZh-01 belongs to Block I, “Empirical Vitology and the Field of Life,” as an independent domain study with its own protocol, data, results, and limitations. It builds on the methodological foundations of Branch I23, “Cross-Domain Regeneration and Inter-Cycle Viability,” but is neither a numbered continuation nor a subsection of that branch. Further testing of the functional-sufficiency principle is planned in ADZh-02, AMDZh-01, and subsequent research. Universality across domains cannot be inferred from a single technical domain. Practical Orientation of Vitology The practical aim of Vitology is to develop approaches for recognizing functional constraints early, identifying recovery conditions, and maintaining necessary system viability. The aim is not to maximize an individual indicator at any cost, but to achieve optimal constant functional sufficiency of viability. This means that successful control must be assessed not merely by an immediate outcome but also by the system's retained capacity to continue its required function. This approach may eventually be used to investigate technical devices, biological organisms, ecological processes, human activities, and social organization, provided that each domain is verified independently. Scientific Responsibility and Limits of the Study Vitology distinguishes observable physical facts from proposed explanatory regularities and developing measurement indices. Recovery processes exist objectively, independently of an observer. Scientific recognition of a purported universal law, however, requires reproducible testing, independent data, and comparisons with alternative explanations. Therefore, the Vitology program includes not only attempts at confirmation but also falsification-oriented tests examining circumstances in which the proposed regularity might fail. The present study constitutes one stage in that program. ADZh-01 addresses measurement of cyclic functionality in lithium-ion batteries and tests its relationship with conditions of subsequent operating cycles. The results establish a basis for subsequent domain and cross-domain studies of functional regeneration aimed at advancing scientific methods for preserving and extending system viability. SCIENTIFIC NOVELTY STATEMENT 1. Scientific Problem Which measurable battery configurations and operating conditions suffice to fulfill a prespecified functional task in the next cycle, and how can this sufficiency be distinguished from a reversible capacity change and from additional predictive information? 2. Previous Vitology Research The methodological foundation was presented in the earlier publication I23l [8] and in the program of inter-cycle tests. ADZh-01 is an independent domain-specific secondary analysis of experimental battery records; earlier conceptual propositions are not treated as established experimental facts. 3. Prior Research and Limits of Novelty Battery relaxation, reversible capacity changes, state-of-health estimation, and remaining-useful-life prediction have been studied previously [1, 3–7]. The claimed novelty is not the discovery of relaxation itself but a reprod",
+    "authors": [
+      "Serhii Hostiunin"
+    ],
+    "source": "OpenAlex",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "date": "2026-11-15",
+    "doi": "10.5281/zenodo.24228991",
+    "url": "https://doi.org/10.5281/zenodo.24228991",
+    "source_id": "",
+    "score": 84.0,
+    "level": "B",
+    "title_zh": "ADZh-01. CYCLIC CONTINUATION OF LITHIUM-ION BATTERY FUNCTIONALITY",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 84.0，推荐等级 B。"
+  },
+  {
+    "title": "Multi-Objective Hyperparameter Optimization of Lithium-Ion Battery State-of-Health Prediction Models",
+    "abstract": "Selecting machine learning models for state-of-health (SOH) prediction in predictive maintenance involves trade-offs among competing criteria, such as predictive accuracy, robustness to measurement noise, and computational requirements. Although model comparisons are commonly based primarily on prediction error, this approach may overlook characteristics relevant to practical deployment, particularly in resource-constrained systems. This work proposes a multi-objective hyperparameter optimization framework for SOH prediction based on the nondominated sorting genetic algorithm II (NSGA-II), in which three commonly used prediction models are evaluated and compared: support vector regression (SVR), long short-term memory (LSTM), and physics-informed neural networks (PINNs). For each model, NSGA-II optimizes model-specific hyperparameters with respect to validation RMSE, sensitivity to measurement noise, and inference time. Noise sensitivity is quantified as the relative increase in RMSE across six Gaussian-noise levels ranging from 5% to 30%. The framework is evaluated through a case study using the lithium-ion battery aging dataset from the NASA Prognostics Center of Excellence. The resulting Pareto-optimal solutions quantify the trade-offs involved in model selection and support practitioners in identifying configurations that match their specific requirements.",
+    "authors": [
+      "Andrés Barrantes Boza",
+      "Juan José Montero Jiménez",
+      "Rob Vingerhoeds"
+    ],
+    "source": "Crossref",
+    "venue": "Applied Sciences",
+    "date": "2026-11-15",
+    "doi": "10.3390/app162211321",
+    "url": "https://doi.org/10.3390/app162211321",
+    "source_id": "",
+    "score": 76.0,
+    "level": "B",
+    "title_zh": "Multi-Objective Hyperparameter Optimization of Lithium-Ion Battery State-of-Health Prediction Models",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 76.0，推荐等级 B。"
+  },
+  {
+    "title": "Charging schedule as a design variable for active harmonic filter sizing in unbalanced low-voltage networks: when do optimisation and V2G add value?",
+    "abstract": "Residential electric-vehicle (EV) charging overloads low-voltage feeders and injects harmonic currents; an active harmonic filter (AHF) must be sized for the worst harmonic current, which depends on when vehicles charge. We treat the charging schedule as a design variable of the AHF. A central four-leg AHF is sized in closed form to IEEE 519–2022 inside every evaluation of a fleet-scheduling objective, the fleet is dispatched through 72 aggregator signals that guarantee every user’s departure state of charge, and all schedules are validated with one-minute and harmonic power flows on all 2718 nodes of the IEEE European LV test feeder. Coordinated charging removed all voltage, unbalance and thermal violations, reduced peak demand by 45% and losses by 48%, and raised the charger emission level at which IEEE 519 is exceeded from 3.0 to 6.8 times the measured spectrum, cutting the required AHF rating by 71% at twelve times. Four metaheuristics did not improve on rule-based valley filling, harmonic-aware and harmonic-blind schedules coincided, and vehicle-to-grid lowered the hourly objective only when battery throughput was weighted below 0.08–0.14, without network benefit at one-minute resolution. With non-linear household loads the households dominated the distortion and no filter was needed for any schedule.",
+    "authors": [
+      "Nurullah Aslan",
+      "Erdal KILIÇ"
+    ],
+    "source": "OpenAlex",
+    "venue": "Scientific Reports",
+    "date": "2026-11-15",
+    "doi": "10.1038/s41598-026-80576-0",
+    "url": "https://doi.org/10.1038/s41598-026-80576-0",
+    "source_id": "",
+    "score": 74.0,
+    "level": "B",
+    "title_zh": "Charging schedule as a design variable for active harmonic filter sizing in unbalanced low-voltage networks: when do optimisation and V2G add value?",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 74.0，推荐等级 B。"
+  }
+]
