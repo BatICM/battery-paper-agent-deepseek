@@ -1,0 +1,334 @@
+[
+  {
+    "title": "An adaptive fusion-based feature selection pipeline for battery pack state-of-health estimation within a machine learning framework",
+    "abstract": "",
+    "authors": [
+      "Sijia Yang",
+      "Lintao Hou",
+      "Caiping Zhang",
+      "Zhaolin Yuan",
+      "Jingjing Zhang",
+      "Weige Zhang",
+      "Jonghoon Kim"
+    ],
+    "source": "OpenAlex",
+    "venue": "Applied Energy",
+    "date": "2026-11-16",
+    "doi": "10.1016/j.apenergy.2026.129188",
+    "url": "https://doi.org/10.1016/j.apenergy.2026.129188",
+    "source_id": "",
+    "score": 86.25,
+    "level": "A",
+    "title_zh": "An adaptive fusion-based feature selection pipeline for battery pack state-of-health estimation within a machine learning framework",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 86.25，推荐等级 A；期刊优先级第 8 位。"
+  },
+  {
+    "title": "Prior-Data Fitted Networks for Industrial Fault Diagnosis and Prognostics: Evidence, Applicability Boundaries, and a Practical Deployment Guide",
+    "abstract": "Data-driven fault diagnosis is held back mainly by scarce labelled fault data. Faults are rare, operating regimes differ, and each new task needs its own training. Prior-data fitted networks (PFNs) such as TabPFN promise a way around this: pretrained once on synthetic tasks, they predict for a new machine from a small labelled context without retraining. This review tests that promise for industrial fault diagnosis and prognostics, combining a reproducible scoping review of applications with experiments on a synthetic problem with known optima and on a public bearing benchmark. The benchmark is split temporally within each recording, which still shares recordings between context and test data, and, more strictly, across operating loads. The evidence supports a benefit for tabular data with few labelled faults, but its size depends on operating conditions and reference models. On the bearing data, the margin over the strongest tree ensembles was small within one load and vanished across loads. Tuned tree ensembles remain preferable under changing conditions, tight latency budgets and plentiful labels, and the evidence on imbalance, calibration and drift is still thin. The article provides a decision roadmap, open reference code, a reporting checklist and an operating model for PFN-based diagnosers.",
+    "authors": [
+      "János Abonyi"
+    ],
+    "source": "Crossref",
+    "venue": "Electronics",
+    "date": "2026-11-17",
+    "doi": "10.3390/electronics15225356",
+    "url": "https://doi.org/10.3390/electronics15225356",
+    "source_id": "",
+    "score": 85.5,
+    "level": "A",
+    "title_zh": "Prior-Data Fitted Networks for Industrial Fault Diagnosis and Prognostics: Evidence, Applicability Boundaries, and a Practical Deployment Guide",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 85.5，推荐等级 A；期刊优先级第 11 位。"
+  },
+  {
+    "title": "Observer-Based Fault Diagnosis and Fault-Tolerant Control of DC-DC Converters in Photovoltaic Systems: A Critical Review with Emphasis on Sliding Mode Techniques",
+    "abstract": "DC-DC converters that interface photovoltaic (PV) generators with loads, batteries or inverters are highly stressed, and their faults directly reduce energy yield. This review examines fault diagnosis and fault-tolerant control (FTC) of PV DC-DC converters, with emphasis on observer-based and sliding mode techniques. Literature published between 2015 and 2026 was identified on five scholarly platforms and by citation tracking; 40 primary studies were classified and compared against 13 features, including fault coverage, detection speed, fault estimation, robustness to maximum power point tracking (MPPT) and irradiance transients, sensor needs, computational load and validation level. Two-thirds were published since 2021. Switch faults dominate (25 studies), whereas sensor (11) and component faults (6) receive less attention; 14 studies implement an FTC action, and 11 report experimental validation. Sliding mode observers form the largest and fastest-growing family (14 studies, 13 since 2021) and combine robustness with fault reconstruction, but experimental results are reported for only one of them, on a PV inverter. A framework linking fault classes, diagnosis information, FTC strategies and reaction times is proposed, with a design procedure and a combined-uncertainty validation protocol. Closing the loop between model-based diagnosis and FTC under realistic PV conditions remains the main open need.",
+    "authors": [
+      "Anis Boudabous",
+      "Karim Dahech",
+      "Ahmed Ben Atitallah"
+    ],
+    "source": "OpenAlex",
+    "venue": "Electronics",
+    "date": "2026-11-16",
+    "doi": "10.3390/electronics15225323",
+    "url": "https://doi.org/10.3390/electronics15225323",
+    "source_id": "",
+    "score": 75.5,
+    "level": "A",
+    "title_zh": "Observer-Based Fault Diagnosis and Fault-Tolerant Control of DC-DC Converters in Photovoltaic Systems: A Critical Review with Emphasis on Sliding Mode Techniques",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 75.5，推荐等级 A；期刊优先级第 11 位。"
+  },
+  {
+    "title": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 112.5,
+    "level": "B",
+    "title_zh": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 112.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Agentic AI for intelligent battery management systems: From diagnosis to autonomous control",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Power Sources",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0378775326026972?dgcid=rss_sd_all",
+    "source_id": "rss:10:Journal of Power Sources",
+    "score": 71.25,
+    "level": "B",
+    "title_zh": "Agentic AI for intelligent battery management systems: From diagnosis to autonomous control",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 71.25，推荐等级 B；期刊优先级第 20 位。"
+  },
+  {
+    "title": "Data-driven predictive control of battery energy storage with physics-informed sequence modeling",
+    "abstract": "Integrating battery energy storage systems (BESS) into industrial sites with photovoltaic generation and time-varying tariffs requires controllers that combine economic performance, low real-time computational cost, and robustness to forecast errors. Model predictive control (MPC) achieves near-optimal cost but solves a mixed-integer optimization at every step using a linearized battery model, since nonlinear formulations are intractable for real-time deployment. Learning-based controllers remove this online optimization, but they are typically trained without any knowledge of the equipment they operate on; they are tuned site by site, and they provide no structural guarantee that operational constraints will be met. Closing this gap is the motivation of this work. This paper proposes PI-DT, a data-driven predictive controller based on a transformer sequence model conditioned on the return-to-go, trained offline on linear MILP expert actions executed on a nonlinear Thévenin two-branch RC battery simulator, and informed by per-battery physics, so that a single network operates batteries of different capacity, rated power, and efficiency without per-site retraining. An asymmetric minimum terminal state of charge (SOC) constraint, closer to industrial practice than a fixed target, is enforced consistently across expert, MPC, and the proposed controller, and enforced at inference through a horizon-aware projection on the action. The evaluation uses the public EMSx dataset (60 industrial sites, 37,442 site-days, Spanish PVPC tariff) and compares against the Rolling MPC, behavior cloning (BC), and Implicit Q-Learning (IQL), all assessed under the same nonlinear battery dynamics. On 5577 test site-days, the proposed controller reaches an aggregate cost gap of 1.39% versus the MILP, below 1.54% (BC), 1.61% (MPC), and 1.96% (IQL). The learning baselines fall below the minimum terminal SOC by up to 8.4 and 29 percentage points, respectively; the projection makes the reserve feasible by construction under the linear SOC model on which it is computed, and on the nonlinear plant the worst-case residual deficit of the proposed controller is 0.14 pp, within the 1 pp operational tolerance. A 3-fold cross-validation on held-out sites shows it transfers to unseen batteries with negligible degradation. The proposed controller therefore attains MPC-level economics without an online solver and with a structurally enforced end-of-day reserve, which makes it a candidate for embedded deployment in industrial energy management systems, subject to hardware-in-the-loop validation.",
+    "authors": [
+      "Pablo Donate",
+      "Vicente Torres‐Sanz",
+      "Francisco J. Martínez",
+      "Piedad Garrido",
+      "Ricardo Jorge Bessa",
+      "Julio A. Sanguesa"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-11-16",
+    "doi": "10.1016/j.est.2026.125523",
+    "url": "https://doi.org/10.1016/j.est.2026.125523",
+    "source_id": "",
+    "score": 113.0,
+    "level": "B",
+    "title_zh": "Data-driven predictive control of battery energy storage with physics-informed sequence modeling",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 113.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Quantifying non-uniform geometric changes in an aged prismatic battery module using X-ray computed tomography",
+    "abstract": "Swelling in lithium-ion cells can translate into non-uniform deformation inside mechanically constrained multi-cell assemblies, but quantitative, spatially resolved characterization at the assembly scale remains limited. Here, we present an X-ray computed tomography (CT)-based workflow to quantify aging-induced geometric change and geometric inhomogeneity in an 8-cell prismatic lithium iron phosphate (LFP) module operated under mechanical constraint. The module was scanned at the beginning of life and in an aged state, corresponding to a module state of health of 86.58% based on discharge capacity, under matched conditions of 30% module-level state of charge and 25 °C. From the reconstructed CT volumes, spatial fields of cell thickness and inter-cell gaps were extracted using an edge-based image-processing workflow and summarized using statistical descriptors (mean, standard deviation, interquartile range). After cycling, all cells exhibited net thickening and all inter-cell gaps decreased, while the overall stack thickness changed only marginally, indicating that swelling was largely accommodated by compression of the inter-cell pads. The thickness-distribution descriptors further indicated tendencies toward increased within-cell heterogeneity and cell-to-cell dispersion. The cell-to-cell geometric differences were accompanied by greater electrochemical dispersion in the aged-state capacity determination test. The proposed workflow provides non-destructive, spatially resolved metrics for evaluating deformation accommodation in constrained battery stacks and for generating quantitative reference data for model validation and design assessment.",
+    "authors": [
+      "Fangqi Li",
+      "Jens Grabow",
+      "Jan Beuscher",
+      "Janina Gottschalk",
+      "Ralf Benger",
+      "Ines Hauer"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-11-16",
+    "doi": "10.1016/j.est.2026.125494",
+    "url": "https://doi.org/10.1016/j.est.2026.125494",
+    "source_id": "",
+    "score": 87.0,
+    "level": "B",
+    "title_zh": "Quantifying non-uniform geometric changes in an aged prismatic battery module using X-ray computed tomography",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 87.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Data-driven predictive control of battery energy storage with physics-informed sequence modeling",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X2605187X?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 79.0,
+    "level": "B",
+    "title_zh": "Data-driven predictive control of battery energy storage with physics-informed sequence modeling",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 79.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Multi-view graph attention with seasonal encoding for battery pack health prediction using cross-regional on-board vehicle data",
+    "abstract": "",
+    "authors": [
+      "Xiaomeng Lu",
+      "Song Wang",
+      "Yujie Wang"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-11-16",
+    "doi": "10.1016/j.est.2026.125545",
+    "url": "https://doi.org/10.1016/j.est.2026.125545",
+    "source_id": "",
+    "score": 77.0,
+    "level": "B",
+    "title_zh": "Multi-view graph attention with seasonal encoding for battery pack health prediction using cross-regional on-board vehicle data",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 77.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "A comprehensive study on neural network state of health estimation methods for lithium-ion battery systems: A control-oriented approach",
+    "abstract": "",
+    "authors": [
+      "Nourallah Ghaeminezhad",
+      "Zhisheng Wang",
+      "Yan Ma",
+      "Nigar Ahmed",
+      "Quan Ouyang"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-11-16",
+    "doi": "10.1016/j.est.2026.125516",
+    "url": "https://doi.org/10.1016/j.est.2026.125516",
+    "source_id": "",
+    "score": 77.0,
+    "level": "B",
+    "title_zh": "A comprehensive study on neural network state of health estimation methods for lithium-ion battery systems: A control-oriented approach",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 77.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "State of health estimation of lithium-ion batteries via multi-modal wavelet fusion cumulative residual spectral entropy",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26051601?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 71.0,
+    "level": "B",
+    "title_zh": "State of health estimation of lithium-ion batteries via multi-modal wavelet fusion cumulative residual spectral entropy",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 71.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "A novel decision fusion architecture for remaining useful life prediction of lithium-ion batteries",
+    "abstract": "",
+    "authors": [
+      "Lin Guan",
+      "Zhonghua Yun",
+      "JIA WANG",
+      "Xiaoping Li",
+      "Yuchen Hu"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-11-16",
+    "doi": "10.1016/j.est.2026.125446",
+    "url": "https://doi.org/10.1016/j.est.2026.125446",
+    "source_id": "",
+    "score": 59.0,
+    "level": "B",
+    "title_zh": "A novel decision fusion architecture for remaining useful life prediction of lithium-ion batteries",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 59.0，推荐等级 B；期刊优先级第 21 位。"
+  }
+]
