@@ -1,0 +1,331 @@
+[
+  {
+    "title": "Prior-Data Fitted Networks for Industrial Fault Diagnosis and Prognostics: Evidence, Applicability Boundaries, and a Practical Deployment Guide",
+    "abstract": "Data-driven fault diagnosis is held back mainly by scarce labelled fault data. Faults are rare, operating regimes differ, and each new task needs its own training. Prior-data fitted networks (PFNs) such as TabPFN promise a way around this: pretrained once on synthetic tasks, they predict for a new machine from a small labelled context without retraining. This review tests that promise for industrial fault diagnosis and prognostics, combining a reproducible scoping review of applications with experiments on a synthetic problem with known optima and on a public bearing benchmark. The benchmark is split temporally within each recording, which still shares recordings between context and test data, and, more strictly, across operating loads. The evidence supports a benefit for tabular data with few labelled faults, but its size depends on operating conditions and reference models. On the bearing data, the margin over the strongest tree ensembles was small within one load and vanished across loads. Tuned tree ensembles remain preferable under changing conditions, tight latency budgets and plentiful labels, and the evidence on imbalance, calibration and drift is still thin. The article provides a decision roadmap, open reference code, a reporting checklist and an operating model for PFN-based diagnosers.",
+    "authors": [
+      "János Abonyi"
+    ],
+    "source": "Crossref",
+    "venue": "Electronics",
+    "date": "2026-11-17",
+    "doi": "10.3390/electronics15225356",
+    "url": "https://doi.org/10.3390/electronics15225356",
+    "source_id": "",
+    "score": 85.5,
+    "level": "A",
+    "title_zh": "Prior-Data Fitted Networks for Industrial Fault Diagnosis and Prognostics: Evidence, Applicability Boundaries, and a Practical Deployment Guide",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 85.5，推荐等级 A；期刊优先级第 11 位。"
+  },
+  {
+    "title": "Particle Swarm Optimisation-Based Receding-Horizon Energy Management for a PV–Battery Household with Electric Vehicle and Heat Pump Integration",
+    "abstract": "Coordinated household energy management requires economic scheduling together with physically consistent execution. This paper studies a particle swarm optimisation (PSO)-based receding-horizon strategy for a household with photovoltaic generation, stationary storage, an electric vehicle and a heat pump. A compact 13-parameter schedule is optimised over 48 h and updated hourly. Candidate trajectories undergo an explicit feasibility audit, and a common execution layer enforces physical storage limits and a known-itinerary mobility reserve for both the proposed strategy and its rule-based comparison. Evaluation uses 720 executed hourly intervals and repeated runs with recorded configurations and seeds. Over 720 h, nominal costs are EUR 132.52 for the fixed-setpoint baseline and EUR 123.37±0.47 for the flexible-band PSO policy, a saving of 6.90±0.35% (5.73±0.32% after electrical-inventory valuation) between the complete policies, including the effect of thermal flexibility. The 43-scenario sensitivity study is complemented by matched thermal-policy experiments and by comparisons with differential evolution and an hourly piecewise-linear mixed-integer linear programming comparator. With identical heating, PSO costs EUR 0.41–0.68 more before inventory adjustment but reduces mean maximum hourly grid import by 21.7–22.7% and eliminates excursions above the soft 6 kW threshold. Seasonal, nonlinear heat-pump, mobility and forecast-error tests characterise the operating range of this cost–peak trade-off, while the mixed-integer comparator, with finer hourly control, attains lower costs.",
+    "authors": [
+      "Salem Begić",
+      "Simon Tomažič"
+    ],
+    "source": "Crossref",
+    "venue": "Electronics",
+    "date": "2026-11-18",
+    "doi": "10.3390/electronics15225380",
+    "url": "https://doi.org/10.3390/electronics15225380",
+    "source_id": "",
+    "score": 79.5,
+    "level": "A",
+    "title_zh": "Particle Swarm Optimisation-Based Receding-Horizon Energy Management for a PV–Battery Household with Electric Vehicle and Heat Pump Integration",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 79.5，推荐等级 A；期刊优先级第 11 位。"
+  },
+  {
+    "title": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 112.5,
+    "level": "B",
+    "title_zh": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 112.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Agentic AI for intelligent battery management systems: From diagnosis to autonomous control",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Power Sources",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0378775326026972?dgcid=rss_sd_all",
+    "source_id": "rss:10:Journal of Power Sources",
+    "score": 71.25,
+    "level": "B",
+    "title_zh": "Agentic AI for intelligent battery management systems: From diagnosis to autonomous control",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 71.25，推荐等级 B；期刊优先级第 20 位。"
+  },
+  {
+    "title": "An explainable ensemble machine learning framework for multi-class drivetrain fault diagnosis in new energy vehicles",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26051972?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 77.0,
+    "level": "B",
+    "title_zh": "An explainable ensemble machine learning framework for multi-class drivetrain fault diagnosis in new energy vehicles",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 77.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "A hybrid attention network for state of charge estimation of lithium-ion batteries with expansion force signals",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X2605379X?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 71.0,
+    "level": "B",
+    "title_zh": "A hybrid attention network for state of charge estimation of lithium-ion batteries with expansion force signals",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 71.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "An explainable ensemble machine learning framework for multi-class drivetrain fault diagnosis in new energy vehicles",
+    "abstract": "",
+    "authors": [
+      "Ahmed AbdelMoety",
+      "Abdelmageed M. Ali",
+      "Morsy Nour"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-11-17",
+    "doi": "10.1016/j.est.2026.125533",
+    "url": "https://doi.org/10.1016/j.est.2026.125533",
+    "source_id": "",
+    "score": 59.0,
+    "level": "B",
+    "title_zh": "An explainable ensemble machine learning framework for multi-class drivetrain fault diagnosis in new energy vehicles",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 59.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "A hybrid attention network for state of charge estimation of lithium-ion batteries with expansion force signals",
+    "abstract": "",
+    "authors": [
+      "Jie Zhang",
+      "Bo Jiang",
+      "Wentao Xu",
+      "Songtong Zhang",
+      "Mengshu Tian",
+      "Jixiang Cai",
+      "Chenzhen Ji",
+      "Xuezhe Wei",
+      "Haifeng Dai",
+      "Jiangong Zhu"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-11-17",
+    "doi": "10.1016/j.est.2026.125715",
+    "url": "https://doi.org/10.1016/j.est.2026.125715",
+    "source_id": "",
+    "score": 53.0,
+    "level": "B",
+    "title_zh": "A hybrid attention network for state of charge estimation of lithium-ion batteries with expansion force signals",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 53.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "A Five-Tier Digital Twin Framework with Physics-Informed Neural Networks for Predictive Battery Management in 5G User Equipment: Joint RAN-Aware Degradation Modeling and Autonomous Power Saving",
+    "abstract": "The deployment of 5G New Radio (NR) introduces millimeter-wave communications, massive MIMO, and carrier aggregation, which significantly increase the power consumption of user equipment (UE) modems and accelerate lithium-ion battery degradation. Existing Battery Management Systems (BMS) optimize charge/discharge cycles without awareness of radio access network (RAN) traffic patterns, while the RAN configures Discontinuous Reception (DRX) and Bandwidth Part (BWP) parameters without knowledge of the battery’s State of Health (SoH). This paper proposes DT-5GBat, a five-tier Digital Twin framework that closes this gap by integrating a physics-informed neural network (PINN) with a 5G network simulator for predictive, cross-layer battery management. Tier 1 provides a reduced-order Single Particle Model (SPM) of the Li-ion cell. Tier 2 fuses real-time BMS sensor data with RAN metrics (RSRP, CQI, RRC state, DRX duty cycle). Tier 3 employs a PINN-LSTM architecture to predict SoH trajectory and Remaining Useful Life (RUL). Tier 4 solves a multi-objective optimization problem trading off energy consumption, latency, and battery aging. Tier 5 executes the optimized policy in a closed control loop via UE middleware or O-RAN RIC. It is validated by co-simulation between NS-3/5G-LENA and the Rakhmatov non-linear battery model using NASA Ames, Oxford, and CALCE datasets augmented with synthetic 5G load traces. DT-5GBat extends UE autonomy by 21.3% and reduces capacity fade by 19.8% over 500 equivalent cycles, with a RUL prediction MAPE of 3.42% and a computational overhead below 1.8% of the total UE energy budget.",
+    "authors": [
+      "Hammad Lazrek",
+      "Sarra Zekaki",
+      "Mohammed Zouiten"
+    ],
+    "source": "Crossref",
+    "venue": "Future Internet",
+    "date": "2026-11-18",
+    "doi": "10.3390/fi18110636",
+    "url": "https://doi.org/10.3390/fi18110636",
+    "source_id": "",
+    "score": 184.0,
+    "level": "B",
+    "title_zh": "A Five-Tier Digital Twin Framework with Physics-Informed Neural Networks for Predictive Battery Management in 5G User Equipment: Joint RAN-Aware Degradation Modeling and Autonomous Power Saving",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 184.0，推荐等级 B。"
+  },
+  {
+    "title": "An Integrated LoRa Fog and Digital Twin Framework for Predictive Maintenance of Telecommunication Shelters",
+    "abstract": "Telecommunication shelters depend on environmental control and backup power to protect network equipment, yet fixed-threshold monitoring often identifies faults only after conditions have deteriorated. This paper presents a simulation-based predictive-maintenance framework that combines LoRa telemetry, fog-level analytics, a synchronized digital twin, and a convolutional neural network–long short-term memory (CNN–LSTM) model. The simulated shelter produced multivariate temperature, humidity, power, cooling, battery, and grid-state telemetry at five-minute intervals over a nine-day horizon. Controlled scenarios represented cooling degradation and failure, door opening, load increase, and grid outage. A LoRa link model introduced packet loss and delay; fog processing smoothed signals, reconstructed missing timestamps, and generated local anomaly alerts. The digital twin tracked thermal, humidity, and power states, while a multi-task CNN–LSTM classified health states and estimated remaining useful life (RUL). Under the reported configuration, mean LoRa packet success was 86.3% and mean latency was 238 ms. Fog processing reduced temperature-signal variance by 41.6%, reconstructed 92.1% of missing timestamps, and achieved anomaly-detection precision, recall, and F1-score of 0.91, 0.87, and 0.89. Digital-twin tracking errors were 0.78 °C for temperature and 3.1% relative humidity for humidity. The CNN–LSTM achieved 0.94 accuracy and an RUL RMSE of 2.6 hours on the simulated evaluation data. Fog inference averaged 184 ms compared with 612 ms for the cloud-only comparison. These results indicate the potential of an integrated edge and digital-twin approach for shelter monitoring. Since the data and fault labels were simulation-generated, field validation remains necessary before operational use.",
+    "authors": [
+      "Gabriel Chibuoso Okpara",
+      "Nwazor Nkolika"
+    ],
+    "source": "OpenAlex",
+    "venue": "Iconic Research and Engineering Journals",
+    "date": "2026-11-17",
+    "doi": "10.64388/ire1725222",
+    "url": "https://doi.org/10.64388/ire1725222",
+    "source_id": "",
+    "score": 120.0,
+    "level": "B",
+    "title_zh": "An Integrated LoRa Fog and Digital Twin Framework for Predictive Maintenance of Telecommunication Shelters",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 120.0，推荐等级 B。"
+  },
+  {
+    "title": "Beyond State of Health: Interfacial Degradation, Diagnostic Uncertainty, and Safety-Critical Ageing in Second-Life Lithium-Ion Batteries",
+    "abstract": "Second-life lithium-ion batteries are commonly evaluated through state-of-health indi-cators such as residual capacity and internal resistance. However, these metrics do not fully capture the chemical and interfacial ageing processes that determine the safety, reliability, and long-term performance of repurposed batteries. This review critically examines the degradation pathways that are particularly relevant for second-life appli-cations, including solid–electrolyte interphase evolution, cathode–electrolyte interphase instability, electrolyte oxidation and gas generation, lithium plating, transition-metal dissolution, particle cracking, loss of electrical contact, and thermal instability. Special attention is given to the mismatch between apparent electrochemical performance and hidden safety-critical degradation. The review discusses how first-life ageing history influences second-life behavior, why batteries with similar state-of-health values may present different risk profiles, and how advanced diagnostic tools can support safer screening, grading, and repurposing decisions. Electrochemical impedance spectroscopy, differential voltage analysis, incremental capacity analysis, gas analysis, thermal testing, post-mortem characterization, and operando techniques are evaluated as complementary tools for identifying degradation signatures beyond conventional capacity-based metrics. Finally, a mechanism-informed framework is proposed to connect interfacial degradation, diagnostic uncertainty, battery management strategies, and second-life suitability. This perspective aims to support the development of safer, more reliable, and scientifically grounded pathways for the reuse of lithium-ion batteries in stationary energy storage and circular-economy applications.",
+    "authors": [
+      "Cristian Martínez-Perales",
+      "M Cotto",
+      "Francisco Díaz",
+      "Jose Duconge",
+      "Francisco Márquez"
+    ],
+    "source": "OpenAlex",
+    "venue": "Preprints.org",
+    "date": "2026-11-17",
+    "doi": "10.20944/preprints202611.1655.v1",
+    "url": "https://doi.org/10.20944/preprints202611.1655.v1",
+    "source_id": "",
+    "score": 106.0,
+    "level": "B",
+    "title_zh": "Beyond State of Health: Interfacial Degradation, Diagnostic Uncertainty, and Safety-Critical Ageing in Second-Life Lithium-Ion Batteries",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 106.0，推荐等级 B。"
+  },
+  {
+    "title": "SOC Prediction for Electric Vehicles Based on Gated Attention Mechanism",
+    "abstract": "Accurate state-of-charge (SOC) prediction is essential for ensuring the reliable operation of Electric Vehicle (EV) Battery Management Systems (BMS), particularly under varying seasonal and operating conditions. This study proposes a hybrid Bidirectional Long Short-Term Memory–Convolutional Gated Self-Attention (BiLSTM-CGSA) model to improve SOC prediction accuracy and generalization. Specifically, Periodic Encoding (PE) is introduced to incorporate seasonal information into the input features, enhancing the representation of periodic SOC variations. The proposed Convolutional Gated Self-Attention (CGSA) module integrates one-dimensional convolution and gating operations with a Self-Attention Mechanism (SAM), enabling local dynamic feature extraction and adaptive channel-wise feature selection while capturing global temporal dependencies. Experimental validation on real-world driving data and the Urban Dynamometer Driving Schedule (UDDS) at 0 ∘C, 10 ∘C, and 25 ∘C demonstrates that BiLSTM-CGSA achieves superior accuracy and robustness. Specifically, the model achieves a Mean Absolute Error (MAE) of 0.0800; a Mean Squared Error (MSE) of 0.0114; a root Mean Squared Error (RMSE) of 0.1069 on real driving data; and optimal performance at 25 ∘C in UDDS with MAE of 0.0013, MSE of 2.255 × 10−6, and RMSE of 0.0015, representing an average improvement of approximately 77% over six mainstream models. These results indicate that BiLSTM-CGSA effectively captures both global temporal dependencies and local dynamic variations, providing a reliable and efficient approach for intelligent SOC prediction in EV BMS.",
+    "authors": [
+      "Y Q Li",
+      "Hao Ni",
+      "Juan Wang",
+      "Jianji Ren",
+      "Yongliang Yuan",
+      "Yun Xin",
+      "Haiqing Liu"
+    ],
+    "source": "OpenAlex",
+    "venue": "World Electric Vehicle Journal",
+    "date": "2026-11-17",
+    "doi": "10.3390/wevj17110601",
+    "url": "https://doi.org/10.3390/wevj17110601",
+    "source_id": "",
+    "score": 92.0,
+    "level": "B",
+    "title_zh": "SOC Prediction for Electric Vehicles Based on Gated Attention Mechanism",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 92.0，推荐等级 B。"
+  }
+]
