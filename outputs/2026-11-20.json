@@ -1,0 +1,316 @@
+[
+  {
+    "title": "Degradation‐Consistent Graph Neural Transformer ( <scp>DC</scp> ‐ <scp>GNT</scp> ) for Lithium‐Ion Battery State‐of‐Health and Remaining Useful Life Prediction: Simulation‐Based Development and Real‐Cell Validation",
+    "abstract": "ABSTRACT Accurate estimation of lithium‐ion battery state of health (SoH) and remaining useful life (RUL) is essential for safe operation, maintenance planning, and reliable decision‐making in battery management systems. This study proposes a Degradation‐Consistent Graph Neural Transformer (DC‐GNT) framework that integrates graph‐based feature‐interaction learning, Transformer‐based temporal modeling, multi‐task prediction, and degradation‐consistency regularization. Unlike conventional hybrid architectures, the proposed framework combines leakage‐free historical feature construction, strict cell‐independent validation, degradation‐consistent multi‐task learning, prospective EOL/RUL forecasting, and separately calibrated predictive uncertainty within a unified prognostic protocol. The framework was initially developed using a synthetic electric‐vehicle battery degradation dataset containing 10 000 vehicle‐level observations and was subsequently validated using experimentally measured cell‐level aging data from the CALCE CS2 battery dataset. The real‐cell evaluation included CS2_35, CS2_36, CS2_37, and CS2_38 lithium‐ion cells tested under comparable 1C discharge conditions. A strict leave‐one‐cell‐out protocol was adopted to prevent cell‐level leakage, such that the complete degradation trajectory of each test cell remained unseen during model fitting, feature normalization, hyperparameter selection, and uncertainty calibration. SoH was defined using measured discharge capacity relative to the initial reference capacity, whereas RUL was defined relative to the first cycle at which the cell reached the 80% SoH end‐of‐life threshold. Importantly, contemporaneous discharge capacity and normalized capacity were excluded from the CALCE model inputs to prevent direct or indirect reconstruction of the SoH target. On the synthetic test data, the final model achieved a normalized SoH RMSE of 0.0552 and an RUL RMSE of 89.21 cycles. In the real‐cell validation stage, the framework reproduced measured capacity‐degradation trajectories and provided consistent EOL and RUL estimates across independently tested CALCE cells. The mean cell‐wise SoH RMSE was 0.0152, the mean capacity RMSE was 0.0168 Ah, the mean absolute EOL‐cycle error was 17.0 cycles, and the mean RUL MAE was 21.1 cycles. Real‐data ablation experiments demonstrated that the graph module, Transformer encoder, degradation‐consistency regularization, and multi‐task formulation each contributed to improved prediction performance. Calibrated 95% prediction intervals achieved PICP values of 0.947 for SoH and 0.941 for RUL, indicating substantially improved reliability compared with uncalibrated Monte Carlo Dropout intervals.",
+    "authors": [
+      "Yıldırım Özüpak"
+    ],
+    "source": "Crossref",
+    "venue": "Energy Storage",
+    "date": "2026-11-19",
+    "doi": "10.1002/est2.70583",
+    "url": "https://doi.org/10.1002/est2.70583",
+    "source_id": "",
+    "score": 212.5,
+    "level": "A",
+    "title_zh": "Degradation‐Consistent Graph Neural Transformer ( <scp>DC</scp> ‐ <scp>GNT</scp> ) for Lithium‐Ion Battery State‐of‐Health and Remaining Useful Life Prediction: Simulation‐Based Development and Real‐Cell Validation",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 212.5，推荐等级 A；期刊优先级第 7 位。"
+  },
+  {
+    "title": "Real-time control of sustainable data centers: A two-layer model predictive control framework with workload flexibility and heat recovery",
+    "abstract": "This paper proposes a two-layer model predictive control (MPC) framework for the real-time operation of data centers integrated with on-site photovoltaic generation, battery energy storage, waste heat recovery, and district heating. The upper layer employs scenario-based stochastic optimization to jointly optimize intraday market participation, workload scheduling, and energy management under uncertainty. The lower layer adopts an adaptive tube-based MPC strategy that compensates for short-term disturbances while tracking the dispatch references given by the upper layer. The framework further integrates multi-horizon forecasting to support real-time decision-making. Microservice-based simulation studies under representative clear-sky, overcast, and oversupply operating conditions demonstrate that the proposed framework accurately tracks dispatch plans despite fast photovoltaic and workload fluctuations. Compared with single-layer control strategies, the adaptive lower-layer controller substantially reduces real-time dispatch deviations and the associated imbalance costs. In addition, the proposed framework naturally adapts to seasonal operating conditions and responds to carbon-aware operating signals, offering a practical approach for economically efficient, sustainable, and grid-supportive operation of future data centers.",
+    "authors": [
+      "Wenyu Liu",
+      "Enea Figini",
+      "Mario Paolone"
+    ],
+    "source": "OpenAlex",
+    "venue": "Applied Energy",
+    "date": "2026-11-18",
+    "doi": "10.1016/j.apenergy.2026.129281",
+    "url": "https://doi.org/10.1016/j.apenergy.2026.129281",
+    "source_id": "",
+    "score": 112.25,
+    "level": "A",
+    "title_zh": "Real-time control of sustainable data centers: A two-layer model predictive control framework with workload flexibility and heat recovery",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 112.25，推荐等级 A；期刊优先级第 8 位。"
+  },
+  {
+    "title": "Particle Swarm Optimisation-Based Receding-Horizon Energy Management for a PV–Battery Household with Electric Vehicle and Heat Pump Integration",
+    "abstract": "Coordinated household energy management requires economic scheduling together with physically consistent execution. This paper studies a particle swarm optimisation (PSO)-based receding-horizon strategy for a household with photovoltaic generation, stationary storage, an electric vehicle and a heat pump. A compact 13-parameter schedule is optimised over 48 h and updated hourly. Candidate trajectories undergo an explicit feasibility audit, and a common execution layer enforces physical storage limits and a known-itinerary mobility reserve for both the proposed strategy and its rule-based comparison. Evaluation uses 720 executed hourly intervals and repeated runs with recorded configurations and seeds. Over 720 h, nominal costs are EUR 132.52 for the fixed-setpoint baseline and EUR 123.37±0.47 for the flexible-band PSO policy, a saving of 6.90±0.35% (5.73±0.32% after electrical-inventory valuation) between the complete policies, including the effect of thermal flexibility. The 43-scenario sensitivity study is complemented by matched thermal-policy experiments and by comparisons with differential evolution and an hourly piecewise-linear mixed-integer linear programming comparator. With identical heating, PSO costs EUR 0.41–0.68 more before inventory adjustment but reduces mean maximum hourly grid import by 21.7–22.7% and eliminates excursions above the soft 6 kW threshold. Seasonal, nonlinear heat-pump, mobility and forecast-error tests characterise the operating range of this cost–peak trade-off, while the mixed-integer comparator, with finer hourly control, attains lower costs.",
+    "authors": [
+      "Salem Begić",
+      "Simon Tomažič"
+    ],
+    "source": "Crossref",
+    "venue": "Electronics",
+    "date": "2026-11-18",
+    "doi": "10.3390/electronics15225380",
+    "url": "https://doi.org/10.3390/electronics15225380",
+    "source_id": "",
+    "score": 79.5,
+    "level": "A",
+    "title_zh": "Particle Swarm Optimisation-Based Receding-Horizon Energy Management for a PV–Battery Household with Electric Vehicle and Heat Pump Integration",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 79.5，推荐等级 A；期刊优先级第 11 位。"
+  },
+  {
+    "title": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 112.5,
+    "level": "B",
+    "title_zh": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 112.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Agentic AI for intelligent battery management systems: From diagnosis to autonomous control",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Power Sources",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0378775326026972?dgcid=rss_sd_all",
+    "source_id": "rss:10:Journal of Power Sources",
+    "score": 71.25,
+    "level": "B",
+    "title_zh": "Agentic AI for intelligent battery management systems: From diagnosis to autonomous control",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 71.25，推荐等级 B；期刊优先级第 20 位。"
+  },
+  {
+    "title": "A two-stage risk-aware framework for electric vehicle battery fault diagnosis and early warning",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26053831?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 111.0,
+    "level": "B",
+    "title_zh": "A two-stage risk-aware framework for electric vehicle battery fault diagnosis and early warning",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 111.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "A two-stage risk-aware framework for electric vehicle battery fault diagnosis and early warning",
+    "abstract": "",
+    "authors": [
+      "Jinjun Tang",
+      "Tao Wang",
+      "Benxiao Lou",
+      "Li Fang"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-11-18",
+    "doi": "10.1016/j.est.2026.125719",
+    "url": "https://doi.org/10.1016/j.est.2026.125719",
+    "source_id": "",
+    "score": 93.0,
+    "level": "B",
+    "title_zh": "A two-stage risk-aware framework for electric vehicle battery fault diagnosis and early warning",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 93.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Stochastic multi-segment scheduling of variable-speed pumped storage hydropower for energy and ancillary services provision",
+    "abstract": "Variable-speed pumped storage hydropower (VS-PSH) offers long-duration energy storage alongside ancillary services in competitive electricity markets. However, its operation and scheduling are challenged by head-dependent nonlinearities, discrete operating-mode selection, and energy-continuity constraints. This study proposes a stochastic framework for VS-PSH that employs a multi-segment bidding structure to generate market-consistent energy and synchronized reserve offers in compliance with market rules. The framework explicitly incorporates physical constraints, including head-dependent capability limits, discrete pumping and generating modes, as well as state-of-charge (SoC) and head dynamics, within a stochastic mixed-integer linear programming (MILP) formulation. Price and reserve-utilization uncertainty is represented through AR(1)-based scenarios generated around the corresponding base profiles and reduced in a normalized joint-input space. The stochastic MILP produces optimal energy and mode schedules that maintain feasible SoC trajectories across scenarios and ensure physically feasible operating strategies. Illustrative case studies under different levels of price variability demonstrate feasible coordination of energy arbitrage and synchronized-reserve provision under the modeled physical constraints. Within these illustrative settings, the results indicate feasible operation rather than converged estimates of economic performance.",
+    "authors": [
+      "Kyung-bin Kwon",
+      "SangWoo Park",
+      "Dam Kim"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-11-18",
+    "doi": "10.1016/j.est.2026.125540",
+    "url": "https://doi.org/10.1016/j.est.2026.125540",
+    "source_id": "",
+    "score": 87.0,
+    "level": "B",
+    "title_zh": "Stochastic multi-segment scheduling of variable-speed pumped storage hydropower for energy and ancillary services provision",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 87.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Robust fault diagnosis for lithium-ion batteries under dynamic operating conditions via objective feature weighting and calibrated dual-stream evidence fusion",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26052783?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 77.0,
+    "level": "B",
+    "title_zh": "Robust fault diagnosis for lithium-ion batteries under dynamic operating conditions via objective feature weighting and calibrated dual-stream evidence fusion",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 77.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Latent flow-matching regularization for lithium-ion battery state-of-health estimation under dynamic operating conditions",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26051303?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 77.0,
+    "level": "B",
+    "title_zh": "Latent flow-matching regularization for lithium-ion battery state-of-health estimation under dynamic operating conditions",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 77.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Physics-biased adaptive fusion for interpretable lithium-ion battery fault diagnosis",
+    "abstract": "",
+    "authors": [
+      "Shihao Wu",
+      "Jian Fei Ouyang",
+      "Ye Hong"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-11-18",
+    "doi": "10.1016/j.est.2026.125527",
+    "url": "https://doi.org/10.1016/j.est.2026.125527",
+    "source_id": "",
+    "score": 73.0,
+    "level": "B",
+    "title_zh": "Physics-biased adaptive fusion for interpretable lithium-ion battery fault diagnosis",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 73.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Latent flow-matching regularization for lithium-ion battery state-of-health estimation under dynamic operating conditions",
+    "abstract": "",
+    "authors": [
+      "Lie Xu",
+      "Wenle Lan",
+      "Birui Wu"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-11-18",
+    "doi": "10.1016/j.est.2026.125466",
+    "url": "https://doi.org/10.1016/j.est.2026.125466",
+    "source_id": "",
+    "score": 59.0,
+    "level": "B",
+    "title_zh": "Latent flow-matching regularization for lithium-ion battery state-of-health estimation under dynamic operating conditions",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 59.0，推荐等级 B；期刊优先级第 21 位。"
+  }
+]
