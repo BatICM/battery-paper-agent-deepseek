@@ -1,0 +1,325 @@
+[
+  {
+    "title": "Degradation‐Consistent Graph Neural Transformer ( <scp>DC</scp> ‐ <scp>GNT</scp> ) for Lithium‐Ion Battery State‐of‐Health and Remaining Useful Life Prediction: Simulation‐Based Development and Real‐Cell Validation",
+    "abstract": "ABSTRACT Accurate estimation of lithium‐ion battery state of health (SoH) and remaining useful life (RUL) is essential for safe operation, maintenance planning, and reliable decision‐making in battery management systems. This study proposes a Degradation‐Consistent Graph Neural Transformer (DC‐GNT) framework that integrates graph‐based feature‐interaction learning, Transformer‐based temporal modeling, multi‐task prediction, and degradation‐consistency regularization. Unlike conventional hybrid architectures, the proposed framework combines leakage‐free historical feature construction, strict cell‐independent validation, degradation‐consistent multi‐task learning, prospective EOL/RUL forecasting, and separately calibrated predictive uncertainty within a unified prognostic protocol. The framework was initially developed using a synthetic electric‐vehicle battery degradation dataset containing 10 000 vehicle‐level observations and was subsequently validated using experimentally measured cell‐level aging data from the CALCE CS2 battery dataset. The real‐cell evaluation included CS2_35, CS2_36, CS2_37, and CS2_38 lithium‐ion cells tested under comparable 1C discharge conditions. A strict leave‐one‐cell‐out protocol was adopted to prevent cell‐level leakage, such that the complete degradation trajectory of each test cell remained unseen during model fitting, feature normalization, hyperparameter selection, and uncertainty calibration. SoH was defined using measured discharge capacity relative to the initial reference capacity, whereas RUL was defined relative to the first cycle at which the cell reached the 80% SoH end‐of‐life threshold. Importantly, contemporaneous discharge capacity and normalized capacity were excluded from the CALCE model inputs to prevent direct or indirect reconstruction of the SoH target. On the synthetic test data, the final model achieved a normalized SoH RMSE of 0.0552 and an RUL RMSE of 89.21 cycles. In the real‐cell validation stage, the framework reproduced measured capacity‐degradation trajectories and provided consistent EOL and RUL estimates across independently tested CALCE cells. The mean cell‐wise SoH RMSE was 0.0152, the mean capacity RMSE was 0.0168 Ah, the mean absolute EOL‐cycle error was 17.0 cycles, and the mean RUL MAE was 21.1 cycles. Real‐data ablation experiments demonstrated that the graph module, Transformer encoder, degradation‐consistency regularization, and multi‐task formulation each contributed to improved prediction performance. Calibrated 95% prediction intervals achieved PICP values of 0.947 for SoH and 0.941 for RUL, indicating substantially improved reliability compared with uncalibrated Monte Carlo Dropout intervals.",
+    "authors": [
+      "Yıldırım Özüpak"
+    ],
+    "source": "Crossref",
+    "venue": "Energy Storage",
+    "date": "2026-11-19",
+    "doi": "10.1002/est2.70583",
+    "url": "https://doi.org/10.1002/est2.70583",
+    "source_id": "",
+    "score": 212.5,
+    "level": "A",
+    "title_zh": "Degradation‐Consistent Graph Neural Transformer ( <scp>DC</scp> ‐ <scp>GNT</scp> ) for Lithium‐Ion Battery State‐of‐Health and Remaining Useful Life Prediction: Simulation‐Based Development and Real‐Cell Validation",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 212.5，推荐等级 A；期刊优先级第 7 位。"
+  },
+  {
+    "title": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "eTransportation",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590116826000901?dgcid=rss_sd_all",
+    "source_id": "rss:18:eTransportation",
+    "score": 112.5,
+    "level": "B",
+    "title_zh": "Semantically embedded end-to-end deep learning for battery energy storage system state-of-health estimation using field data",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 112.5，推荐等级 B；期刊优先级第 15 位。"
+  },
+  {
+    "title": "Digital twin-enabled battery management systems: A review from state estimation to decision-level evidence",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Renewable and Sustainable Energy Reviews",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1364032126010051?dgcid=rss_sd_all",
+    "source_id": "rss:20:Renewable and Sustainable Energy Reviews",
+    "score": 110.0,
+    "level": "B",
+    "title_zh": "Digital twin-enabled battery management systems: A review from state estimation to decision-level evidence",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 110.0，推荐等级 B；期刊优先级第 17 位。"
+  },
+  {
+    "title": "Digital twin-enabled battery management systems: A review from state estimation to decision-level evidence",
+    "abstract": "",
+    "authors": [
+      "Md. Ali Hossain",
+      "Md. Salehin Seyam",
+      "Abdur Rahman",
+      "Sarika Khushalani Solanki"
+    ],
+    "source": "OpenAlex",
+    "venue": "Renewable and Sustainable Energy Reviews",
+    "date": "2026-11-19",
+    "doi": "10.1016/j.rser.2026.117702",
+    "url": "https://doi.org/10.1016/j.rser.2026.117702",
+    "source_id": "",
+    "score": 92.0,
+    "level": "B",
+    "title_zh": "Digital twin-enabled battery management systems: A review from state estimation to decision-level evidence",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 92.0，推荐等级 B；期刊优先级第 17 位。"
+  },
+  {
+    "title": "Bidirectional state-of-power prediction and execution for series battery packs via a custom integrated circuit",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X2605111X?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 91.0,
+    "level": "B",
+    "title_zh": "Bidirectional state-of-power prediction and execution for series battery packs via a custom integrated circuit",
+    "one_sentence": "关注 pack 或车队级电池管理问题。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 91.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Hybrid metaheuristic-ANN models for predicting the performance of a liquid-cooled battery thermal management system for electric vehicles",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X2605334X?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 75.0,
+    "level": "B",
+    "title_zh": "Hybrid metaheuristic-ANN models for predicting the performance of a liquid-cooled battery thermal management system for electric vehicles",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 75.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Robust fault diagnosis for lithium-ion batteries under dynamic operating conditions via objective feature weighting and calibrated dual-stream evidence fusion",
+    "abstract": "",
+    "authors": [
+      "Yanjun Xiao",
+      "Fuzhen Wang",
+      "Hongyan Meng",
+      "Feng Wan",
+      "Weiling Liu"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-11-19",
+    "doi": "10.1016/j.est.2026.125614",
+    "url": "https://doi.org/10.1016/j.est.2026.125614",
+    "source_id": "",
+    "score": 59.0,
+    "level": "B",
+    "title_zh": "Robust fault diagnosis for lithium-ion batteries under dynamic operating conditions via objective feature weighting and calibrated dual-stream evidence fusion",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 59.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "A deep learning-based method for estimating the state of charge and predicting the remaining life of energy storage batteries",
+    "abstract": "INTRODUCTION: In order to improve the precision of state estimation and forecast of long term deterioration tendency in complicated charging and discharging conditions. OBJECTIVES: This paper adopted a collaborative modeling approach for state of charge (SOC), state of health (SOH), and Remaining Useful Life (RUL) for SOC estimation. METHODS: By integrating the Huber loss and state continuity constraints, this method can capture both the local and long-term temporal dependencies; The SOH estimation uses multiscale convolutions, gated temporal coding, and residual regression to represent cross-cycle degradation characteristics, and generates future health trajectories using an encoder-decoder architecture, which enables RUL threshold search prediction. RESULTS: The results show that the average absolute error of SOC is 0.63%, and the root mean square error is 0.86%, and the SOH estimate reaches a mean absolute error of 0.58%, and the RUL estimate reaches 13.8 cycles. CONCLUSION: Under joint learning, the SOC root mean square error, SOH mean absolute error, and RUL mean absolute error are further reduced to 0.79%, 0.55%, and 12.9 cycles, respectively, confirming that shared degradation representation and task-coordinated optimization improve state estimation and lifetime prediction.",
+    "authors": [
+      "Yuanjing Qian",
+      "Ning Zhao",
+      "Zhenrong Yang",
+      "Chang Liu"
+    ],
+    "source": "OpenAlex",
+    "venue": "EAI Endorsed Transactions on Energy Web",
+    "date": "2026-11-19",
+    "doi": "10.4108/ew.14866",
+    "url": "https://doi.org/10.4108/ew.14866",
+    "source_id": "",
+    "score": 128.0,
+    "level": "B",
+    "title_zh": "A deep learning-based method for estimating the state of charge and predicting the remaining life of energy storage batteries",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 128.0，推荐等级 B。"
+  },
+  {
+    "title": "Measurement Protocol Dependence in Early-Life Lithium-Ion Battery State-of-Health Estimation: A Controlled Study Using NASA PCoE Cells",
+    "abstract": "Battery management systems must estimate state of health (SOH) early in a cell’s life. This study examines how much of the reported estimation accuracy depends on the measurement protocol rather than the estimator. A physics-based fade curve, Random Forest, XGBoost version 3.3.0, a physics-assisted hybrid and a gated recurrent unit are compared using leave-one-cell-out validation on four NASA PCoE cells over early-life windows of 20–100 cycles. Training and evaluation observations are both drawn from cycles 1 to W; therefore, the primary task is cross-cell SOH estimation within an observed window, not future-cycle forecasting. A separate temporal evaluation yields higher forecasting RMSE, by factors of 1.9–4.3 relative to in-window estimation. At 50 cycles, XGBoost achieves a pooled RMSE of 0.024 SOH units, compared with 0.044 for the fade curve. Removing the recorded discharge duration feature increases RMSE by 34%. In a separate diagnostic comparison, a single time-under-load feature achieves lower RMSE than the full nine-feature set. Neither the fade curve estimate nor cycle index improves XGBoost when added as a feature. On common SOH support, the increase in R2 with window length is attributable to the widening test target distribution. A comparative analysis of four variable-current cells provides complementary evidence.",
+    "authors": [
+      "Geetha Anbazhagan",
+      "Usha Sengamalai",
+      "Santhakumar Jayakumar",
+      "Surender Reddy Salkuti"
+    ],
+    "source": "Crossref",
+    "venue": "World Electric Vehicle Journal",
+    "date": "2026-11-20",
+    "doi": "10.3390/wevj17110613",
+    "url": "https://doi.org/10.3390/wevj17110613",
+    "source_id": "",
+    "score": 86.0,
+    "level": "B",
+    "title_zh": "Measurement Protocol Dependence in Early-Life Lithium-Ion Battery State-of-Health Estimation: A Controlled Study Using NASA PCoE Cells",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 86.0，推荐等级 B。"
+  },
+  {
+    "title": "Adaptive Control-Oriented Energy Management Strategy for Enhanced Hybrid Vehicle Efficiency",
+    "abstract": "Hybrid Electric Vehicles (HEVs) have emerged as an effective solution to improve fuel efficiency and reduce emissions. A key challenge in HEVs is the optimal distribution of power between the internal combustion engine and the electric motor under varying driving conditions. This paper presents the development of a real-time adaptive Energy Management System (EMS) for a parallel hybrid electric vehicle using Simulink. The proposed EMS dynamically controls power flow based on vehicle speed, torque demand, and battery State of Charge (SOC). A rule-based control strategy with adaptive thresholds is implemented to ensure efficient operation of the powertrain components. The system is modeled and simulated under different operating scenarios, and performance is evaluated in terms of power distribution, demand satisfaction, and SOC variation. Results indicate that the proposed EMS effectively switches between engine, motor, and hybrid modes, maintains SOC within desired limits, and improves overall energy efficiency. The simplicity and effectiveness of the model make it suitable for real-time applications and further development in advanced hybrid vehicle systems.",
+    "authors": [
+      "Unnati Vaidya",
+      "Anjali Ubale",
+      "Pramod Kale",
+      "Ketki Shirbavikar"
+    ],
+    "source": "OpenAlex",
+    "venue": "Iconic Research and Engineering Journals",
+    "date": "2026-11-19",
+    "doi": "10.64388/ire1725398",
+    "url": "https://doi.org/10.64388/ire1725398",
+    "source_id": "",
+    "score": 74.0,
+    "level": "B",
+    "title_zh": "Adaptive Control-Oriented Energy Management Strategy for Enhanced Hybrid Vehicle Efficiency",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 74.0，推荐等级 B。"
+  },
+  {
+    "title": "Thermal Runaway Propagation in 21700 Cylindrical Lithium-Ion Battery Modules: Coupled Effects of Trigger Location, Cell Spacing, and Charge–Discharge Rate",
+    "abstract": "Thermal safety of lithium-ion battery (LIB) modules remains a key concern for electric vehicles and energy storage. A three-dimensional thermal runaway (TR) propagation model of a 3 × 3 21700 LIB module was built in COMSOL Multiphysics and validated against single-cell experiments. Twenty-seven cases were simulated to examine the coupled effects of trigger location, cell spacing, and charge–discharge rate. Higher rates shorten the TR onset time, while the first propagation time under corner triggering shows a nonlinear V-shaped trend; increasing spacing weakens inter-cell thermal coupling, and the three factors produce a clear synergistic amplification. A five-indicator weighted risk score, cross-checked by the entropy-weight method, and a 240 s module-level early warning line treated as a relative design index are proposed. The results offer quantitative references for module structural design and hierarchical thermal safety warning.",
+    "authors": [
+      "Zuhong Yin",
+      "Qingsheng Shi"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "Batteries",
+    "date": "2026-11-19",
+    "doi": "10.3390/batteries12110501",
+    "url": "https://doi.org/10.3390/batteries12110501",
+    "source_id": "",
+    "score": 74.0,
+    "level": "B",
+    "title_zh": "Thermal Runaway Propagation in 21700 Cylindrical Lithium-Ion Battery Modules: Coupled Effects of Trigger Location, Cell Spacing, and Charge–Discharge Rate",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 74.0，推荐等级 B。"
+  },
+  {
+    "title": "GreenRide: A Real Time Ride Hailing and Smart Campus Mobility System for Solar Powered Electric Tricycles at a Nigerian University, with Fleet Simulation on Real Campus Map and Solar Data",
+    "abstract": "Many African universities are large enough that moving between hostels, faculties, clinics and gates takes a vehicle, yet intra campus transport is often informal. At the University of Port Harcourt, Nigeria, solar powered electric tricycles now carry students inside the campus, but riders find them by waiting at a single charging spot, flagging one down or calling a driver whose number they happen to know. This paper presents GreenRide, a web based ride hailing system for campus solar tricycles, and evaluates how well such a system can serve the campus. GreenRide gives passengers, drivers and administrators separate browser interfaces, matches requests through Socket.io broadcast, shares the driver's live position on an OpenStreetMap map, and stores users and rides in MongoDB behind JSON Web Token authentication with email verification. Because no live fleet was available, we built a simulation of a working day from 07:00 to 19:00 on the real campus, using 193 named campus places and the road network from OpenStreetMap and hourly 2020 solar output for the campus from PVGIS. We compared the informal system with three dispatch rules (GreenRide as built, nearest tricycle, and nearest tricycle with battery checks) across 5 to 30 tricycles, 300 to 1,200 requests per day, and 10 dry season and 10 rainy season days. The informal system never served more than 69 percent of requests, however many tricycles were added. With enough tricycles, GreenRide with nearest tricycle dispatch served every request: at 300 requests per day and 20 tricycles, mean waiting time fell from 9.8 minutes to 4.4 minutes. The broadcast rule now used by GreenRide sent tricycles on long empty trips, about half of all kilometres, and more than doubled waiting time compared with nearest dispatch. When demand exceeded what the fleet could carry, battery energy, not matching, limited the service to about 21 to 24 trips per tricycle per day, and rainy season sunshine, 32 percent lower than dry season sunshine, cut the share served by up to 15 points. We give a fleet sizing rule, a dispatch change and an energy aware charging policy for campus solar tricycle services.",
+    "authors": [
+      "Nnaemeka Kingsley Ugwumba",
+      "Clement Barisua Ndeekor",
+      "Ilodigwe Nzube Emmanuel"
+    ],
+    "source": "OpenAlex",
+    "venue": "Research Square",
+    "date": "2026-11-20",
+    "doi": "10.21203/rs.3.rs-11792474/v1",
+    "url": "https://doi.org/10.21203/rs.3.rs-11792474/v1",
+    "source_id": "",
+    "score": 70.0,
+    "level": "B",
+    "title_zh": "GreenRide: A Real Time Ride Hailing and Smart Campus Mobility System for Solar Powered Electric Tricycles at a Nigerian University, with Fleet Simulation on Real Campus Map and Solar Data",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 70.0，推荐等级 B。"
+  }
+]
