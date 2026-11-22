@@ -1,0 +1,339 @@
+[
+  {
+    "title": "Digital twin-enabled battery management systems: A review from state estimation to decision-level evidence",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Renewable and Sustainable Energy Reviews",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1364032126010051?dgcid=rss_sd_all",
+    "source_id": "rss:20:Renewable and Sustainable Energy Reviews",
+    "score": 110.0,
+    "level": "B",
+    "title_zh": "Digital twin-enabled battery management systems: A review from state estimation to decision-level evidence",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 110.0，推荐等级 B；期刊优先级第 17 位。"
+  },
+  {
+    "title": "Reliability-aware Mamba for state of charge estimation of lithium-ion batteries under restricted discharge windows",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26055751?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 71.0,
+    "level": "B",
+    "title_zh": "Reliability-aware Mamba for state of charge estimation of lithium-ion batteries under restricted discharge windows",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 71.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Thermosensitive composite hydrogel for inhibiting lithium-ion battery thermal runaway: preparation, performance, and mechanisms",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26055027?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 71.0,
+    "level": "B",
+    "title_zh": "Thermosensitive composite hydrogel for inhibiting lithium-ion battery thermal runaway: preparation, performance, and mechanisms",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 71.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Data-driven state of health estimation of lithium-ion batteries using random charging segments",
+    "abstract": "",
+    "authors": [
+      "Ya Liu",
+      "Rui Zhu",
+      "Qinglu Ren",
+      "Xinmin Song"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-11-20",
+    "doi": "10.1016/j.est.2026.125488",
+    "url": "https://doi.org/10.1016/j.est.2026.125488",
+    "source_id": "",
+    "score": 53.0,
+    "level": "B",
+    "title_zh": "Data-driven state of health estimation of lithium-ion batteries using random charging segments",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 53.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Reliability-aware Mamba for state of charge estimation of lithium-ion batteries under restricted discharge windows",
+    "abstract": "",
+    "authors": [
+      "左现刚",
+      "Zhixia Zhang",
+      "Yanchang Liu",
+      "Xudong Li",
+      "Xu Han",
+      "Xiaoheng Fu"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-11-20",
+    "doi": "10.1016/j.est.2026.125911",
+    "url": "https://doi.org/10.1016/j.est.2026.125911",
+    "source_id": "",
+    "score": 53.0,
+    "level": "B",
+    "title_zh": "Reliability-aware Mamba for state of charge estimation of lithium-ion batteries under restricted discharge windows",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 53.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Surrogate-model-assisted multi-objective optimization of topology-generated liquid cooling plates for battery thermal management",
+    "abstract": "",
+    "authors": [
+      "Panchun Tang",
+      "Rong Yan",
+      "Weijun Song",
+      "Xiaobo Yang",
+      "Ze Sun"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-11-20",
+    "doi": "10.1016/j.est.2026.125867",
+    "url": "https://doi.org/10.1016/j.est.2026.125867",
+    "source_id": "",
+    "score": 51.0,
+    "level": "B",
+    "title_zh": "Surrogate-model-assisted multi-objective optimization of topology-generated liquid cooling plates for battery thermal management",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 51.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "A Comprehensive Review of the Role of Artificial Intelligence and Metaheuristic Optimization in Renewable Energy and Electric Vehicle Integrated Smart Grids",
+    "abstract": "[1] Li Y, Ding Y, He S, Hu F, Duan J, Wen G, Geng H, Wu Z, Gooi HB, Zhao Y, Zhang C. Artificial intelligence-based methods for renewable power system operation. Nature Reviews Electrical Engineering. 2024 Mar;1(3):163-79. Available from: https://doi.org/10.1038/s44287-024-00018-9 [2] Alam MM, Hossain MJ, Habib MA, Arafat MY, Hannan MA. Artificial intelligence integrated grid systems: Technologies, potential frameworks, challenges, and research directions. Renewable and Sustainable Energy Reviews. 2025 Apr 1;211:115251. Available from: https://doi.org/10.1016/j.rser.2024.115251 [3] Judge MA, Franzitta V, Curto D, Guercio A, Cirrincione G, Khattak HA. A comprehensive review of artificial intelligence approaches for smart grid integration and optimization. Energy Conversion and Management: X. 2024 Oct 1;24:100724. Available from: https://doi.org/10.1016/j.ecmx.2024.100724 [4] Das O, Zafar MH, Sanfilippo F, Rudra S, Kolhe ML. Advancements in digital twin technology and machine learning for energy systems: A comprehensive review of applications in smart grids, renewable energy, and electric vehicle optimisation. Energy Conversion and Management: X. 2024 Oct 1;24:100715. Available from: https://doi.org/10.1016/j.ecmx.2024.100715 [5] Rajaperumal TA, Columbus CC. Transforming the electrical grid: the role of AI in advancing smart, sustainable, and secure energy systems. Energy Informatics. 2025 Apr 16;8(1):51. Available from: https://doi.org/10.1186/s42162-024-00461-w [6] Ejiyi CJ, Cai D, Thomas D, Obiora S, Osei-Mensah E, Acen C, Eze FO, Sam F, Zhang Q, Bamisile OO. Comprehensive review of artificial intelligence applications in renewable energy systems: current implementations and emerging trends. Journal of Big Data. 2025 Jul 11;12(1):169. Available from: https://doi.org/10.1186/s40537-025-01178-7 [7] Razmjoo A, Asef P, Javadi M, Marzband M, Refaat SS, Rawa M. A Comprehensive Review of AI-Powered Energy Systems. Energy Science & Engineering. 2026 Jul 1. Available from: https://doi.org/10.1002/ese3.70564 [8] Uzorka A, Kibirige D, Makumbi D. Smart renewable energy systems: the role of artificial intelligence in enhancing efficiency and reliability. Sustainable Energy Research. 2026 Dec;13(1):19. Available from: https://doi.org/10.1186/s40807-026-00253-8 [9] Mastoi MS, Wang D, Ma N, Hassan M, Shafiullah M, Bashir T, Hassan A, Flah A. AI-driven control and optimization for renewable energy integration in smart grids: Challenges, applications, and future research directions. Energy Strategy Reviews. 2026 Mar 1;64:102049. Available from: https://doi.org/10.1016/j.esr.2026.102049 [10] Ali T, Sarwar M, Samkari HS, Jamal F, Hijji M, Ayaz M, Allehyani MF, Irfan M, Aggoune EH. Toward unified intelligence in renewable-dominant power systems: a survey of hybrid forecasting, explainable AI, and multi-agent optimization. Artificial Intelligence Review. 2026 Oct 21;1:3. Available from: https://doi.org/10.1007/s10462-026-11711-6 [11] Kumar S, Pandey AK, PB S, KK N, Agajo J, Giri NC. A systematic review of artificial intelligence driven energy management in smart grids. Discover Artificial Intelligence. 2026 Oct 29;6(1):1709. Available from: https://doi.org/10.1007/s44163-026-02607-z [12] Valencia-Rivera GH, Benavides-Robles MT, Morales AV, Amaya I, Cruz-Duarte JM, Ortiz-Bayliss JC, Avina-Cervantes JG. A systematic review of metaheuristic algorithms in electric power systems optimization. Applied Soft Computing. 2024 Jan 1;150:111047. Available from: https://doi.org/10.1016/j.asoc.2023.111047 [13] Rezk H, Olabi AG, Sayed ET, Wilberforce T. Role of Metaheuristics in Optimizing Microgrids Operating and Management Issues: A Comprehensive Review. Sustainability. 2023 Mar 10;15(6):4982. Available from: https://doi.org/10.3390/su15064982 [14] Khan MR, Haider ZM, Malik FH, Almasoudi FM, Alatawi KS, Bhutta MS. A comprehensive review of microgrid energy management strategies considering electric vehicles, energy storage systems, and AI techniques. Processes. 2024 Jan 26;12(2):270. Available from: https://doi.org/10.3390/pr12020270 [15] Kennedy J, Eberhart R. Particle swarm optimization. In Proceedings of ICNN'95-international Conference on Neural Networks 1995 Nov 27 (Vol. 4, pp. 1942-1948). IEEE. Available from: https://doi.org/10.1109/ICNN.1995.488968 [16] Storn R, Price K. Differential Evolution – A Simple and Efficient Heuristic for global Optimization over Continuous Spaces. Journal of Global Optimization. 1997 Dec;11(4):341-59. Available from: https://doi.org/10.1023/A:1008202821328 [17] Deb K, Pratap A, Agarwal S, Meyarivan TA. A fast and elitist multiobjective genetic algorithm: NSGA-II. IEEE Transactions on Evolutionary Computation. 2002 Apr 30;6(2):182-97. Available from: https://doi.org/10.1109/4235.996017 [18] Zhang Q, Li H. MOEA/D: A Multiobjective Evolutionary Algorithm Based on Decomposition. IEEE Transactions on Evolutionary Computation. 2007 Dec 31;11(6):712-31. Available from: https://doi.org/10.1109/TEVC.2007.892759 [19] Mirjalili S, Mirjalili SM, Lewis A. Grey Wolf Optimizer. Advances in Engineering Software. 2014 Mar 1;69:46-61. Available from: https://doi.org/10.1016/j.advengsoft.2013.12.007 [20] Mirjalili S, Lewis A. The Whale Optimization Algorithm. Advances in Engineering Software. 2016 May 1;95:51-67. Available from: https://doi.org/10.1016/j.advengsoft.2016.01.008 [21] Heidari AA, Mirjalili S, Faris H, Aljarah I, Mafarja M, Chen H. Harris hawks optimization: Algorithm and applications. Future Generation Computer Systems. 2019 Aug 1;97:849-72. Available from: https://doi.org/10.1016/j.future.2019.02.028 [22] Chen X, Qu G, Tang Y, Low S, Li N. Reinforcement Learning for Selective Key Applications in Power Systems: Recent Advances and Future Challenges. IEEE Transactions on Smart Grid. 2022 Feb 25;13(4):2935-58. Available from: https://doi.org/10.1109/TSG.2022.3154718 [23] Chatuanramtharnghaka B, Deb S, Singh KR, Ustun TS, Kalam A. Reviewing Demand Response for Energy Management with Consideration of Renewable Energy Sources and Electric Vehicles. World Electric Vehicle Journal. 2024 Sep 8;15(9):412. Available from: https://doi.org/10.3390/wevj15090412 [24] Kakkar R, Agrawal S, Tanwar S. A systematic survey on demand response management schemes for electric vehicles. Renewable and Sustainable Energy Reviews. 2024 Oct 1;203:114748. Available from: https://doi.org/10.1016/j.rser.2024.114748 [25] Deilami S, Masoum AS, Moses PS, Masoum MA. Real-Time Coordination of Plug-In Electric Vehicle Charging in Smart Grids to Minimize Power Losses and Improve Voltage Profile. IEEE Transactions on smart grid. 2011 Aug 18;2(3):456-67. Available from: https://doi.org/10.1109/TSG.2011.2159816 [26] Wan Z, Li H, He H, Prokhorov D. Constrained EV Charging Scheduling Based on Safe Deep Reinforcement Learning. IEEE Transactions on Smart Grid. 2018 Nov 5;10(5):5246-57. Available from: https://doi.org/10.1109/TSG.2018.2879572 [27] Li H, Wan Z, He H. Constrained EV Charging Scheduling Based on Safe Deep Reinforcement Learning. IEEE Transactions on Smart Grid. 2019 Nov 22;11(3):2427-39. Available from: https://doi.org/10.1109/TSG.2019.2955437 [28] Qian T, Shao C, Wang X, Shahidehpour M. Deep Reinforcement Learning for EV Charging Navigation by Coordinating Smart Grid and Intelligent Transportation System. IEEE Transactions on Smart Grid. 2019 Sep 20;11(2):1714-23. Available from: https://doi.org/10.1109/TSG.2019.2942593 [29] Yan L, Chen X, Zhou J, Chen Y, Wen J. Deep Reinforcement Learning for Continuous Electric Vehicles Charging Control With Dynamic User Behaviors. IEEE Transactions on Smart Grid. 2021 Jul 26;12(6):5124-34. Available from: https://doi.org/10.1109/TSG.2021.3098298 [30] Shin M, Choi DH, Kim J. Cooperative Management for PV/ESS-Enabled Electric Vehicle Charging Stations: A Multiagent Deep Reinforcement Learning Approach. IEEE Transactions on Industrial Informatics. 2019 Sep 27;16(5):3493-503. Available from: https://doi.org/10.1109/TII.2019.2944183 [31] Monfaredi F, Shayeghi H, Siano P. Multi-agent deep reinforcement learning-based optimal energy management for grid-connected multiple energy carrier microgrids. International Journal of Electrical Power & Energy Systems. 2023 Nov 1;153:109292. Available from: https://doi.org/10.1016/j.ijepes.2023.109292 [32] Srihari G, Krishnam Naidu RS, Falkowski-Gilski P, Bidare Divakarachari P, Kiran Varma Penmatsa R. Integration of electric vehicle into smart grid: a meta heuristic algorithm for energy management between V2G and G2V. Frontiers in Energy Research. 2024 Apr 10;12:1357863. Available from: https://doi.org/10.3389/fenrg.2024.1357863 [33] Pop C, Cioara T, Chifu V, Anghel I, Bellesini F. Electric vehicles coordination for grid balancing using multi-objective Harris Hawks Optimization. Energy Reports. 2024 Dec 1;12:2483-97. Available from: https://doi.org/10.1016/j.egyr.2024.08.049 [34] Mallikarjun P, Thulasiraman SR, Balachandran PK, Zainuri MA. Economic energy optimization in microgrid with PV/wind/battery integrated wireless electric vehicle battery charging system using improved Harris Hawk Optimization. Scientific Reports. 2025 Mar 23;15(1):10028. Available from: https://doi.org/10.1038/s41598-025-94285-7 [35] Bilal M, Ahmad F, Rizwan M. Techno-economic assessment of grid and renewable powered electric vehicle charging stations in India using a modified metaheuristic technique. Energy Conversion and Management. 2023 May 15;284:116995. Available from: https://doi.org/10.1016/j.enconman.2023.116995 [36] Khou SA, Olamaei J, Hosseini MH. Strategic scheduling of the electric vehicle-based microgrids under the enhanced particle swarm optimization algorithm. Scientific Reports. 2024 Dec 28;14(1):30795. Available from: https://doi.org/10.1038/s41598-024-81049-y [37] Pavan G, Ramesh Babu A. Enhanced Randomized Harris Hawk Optimization of PI controller for power flow control in the microgrid with the PV-wind-battery system. Science and",
+    "authors": [
+      "Kiransai Dasari",
+      "Ashok Yadav",
+      "Bomma Siddhartha",
+      "Rajendra Ch."
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Modern Technology",
+    "date": "2026-11-20",
+    "doi": "10.71426/jmt.v3.i2.pp483-493",
+    "url": "https://doi.org/10.71426/jmt.v3.i2.pp483-493",
+    "source_id": "",
+    "score": 90.0,
+    "level": "B",
+    "title_zh": "A Comprehensive Review of the Role of Artificial Intelligence and Metaheuristic Optimization in Renewable Energy and Electric Vehicle Integrated Smart Grids",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 90.0，推荐等级 B。"
+  },
+  {
+    "title": "Explainable Machine Learning Algorithms for State-of-Health Estimation and Remaining Useful Life Prediction of Lithium-Ion Batteries",
+    "abstract": "State-of-health (SOH) estimation and remaining useful life (RUL) prediction address related but distinct aspects of lithium-ion battery degradation. This study evaluates separate XGBoost regressors for SOH estimation and RUL prediction using four NASA Ames lithium-ion cells with complete capacity-fade trajectories. The reference capacity is defined as the median capacity of the first five discharges, while end of life (EOL) is defined as the first subsequent cycle at which capacity falls to or below 80% of this reference. At a fixed observation point of 600~s, the prediction features comprise electrical, thermal, cycle-related, initial-reference, and preceding electrochemical impedance spectroscopy (EIS) measurements. Full-discharge capacity and future EOL information are used only to construct retrospective target labels and are excluded from the corresponding predictors. A leave-one-cell-out evaluation yields 351 evaluated cycles. XGBoost achieves pooled SOH and RUL mean absolute errors (MAEs) of 1.157 percentage points and 17.948 cycles, respectively, while ridge regression achieves 1.195 percentage points and 17.611 cycles. The held-out B0006 cell exhibits a substantially higher XGBoost RUL MAE of 34.886 cycles, highlighting the limitations of cross-cell prognostic transfer despite low pooled SOH error. TreeSHAP analysis identifies the change in 600-s voltage relative to the cell's initial reference as the largest average contribution to SOH predictions. Removing this feature increases SOH root-mean-square error (RMSE) from 1.473 to 2.929 percentage points, while reducing RUL RMSE from 22.731 to 20.836 cycles. These findings demonstrate that feature importance and predictive utility differ between SOH estimation and RUL prediction.",
+    "authors": [
+      "Rajanand Patnaik Narasipuram",
+      "Aymen Flah",
+      "Alireza Hosseinpour"
+    ],
+    "source": "Crossref",
+    "venue": "Journal of Modern Technology",
+    "date": "2026-11-22",
+    "doi": "10.71426/jmt.v3.i2.pp494-503",
+    "url": "https://doi.org/10.71426/jmt.v3.i2.pp494-503",
+    "source_id": "",
+    "score": 88.0,
+    "level": "B",
+    "title_zh": "Explainable Machine Learning Algorithms for State-of-Health Estimation and Remaining Useful Life Prediction of Lithium-Ion Batteries",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 88.0，推荐等级 B。"
+  },
+  {
+    "title": "Measurement Protocol Dependence in Early-Life Lithium-Ion Battery State-of-Health Estimation: A Controlled Study Using NASA PCoE Cells",
+    "abstract": "Battery management systems must estimate state of health (SOH) early in a cell’s life. This study examines how much of the reported estimation accuracy depends on the measurement protocol rather than the estimator. A physics-based fade curve, Random Forest, XGBoost version 3.3.0, a physics-assisted hybrid and a gated recurrent unit are compared using leave-one-cell-out validation on four NASA PCoE cells over early-life windows of 20–100 cycles. Training and evaluation observations are both drawn from cycles 1 to W; therefore, the primary task is cross-cell SOH estimation within an observed window, not future-cycle forecasting. A separate temporal evaluation yields higher forecasting RMSE, by factors of 1.9–4.3 relative to in-window estimation. At 50 cycles, XGBoost achieves a pooled RMSE of 0.024 SOH units, compared with 0.044 for the fade curve. Removing the recorded discharge duration feature increases RMSE by 34%. In a separate diagnostic comparison, a single time-under-load feature achieves lower RMSE than the full nine-feature set. Neither the fade curve estimate nor cycle index improves XGBoost when added as a feature. On common SOH support, the increase in R2 with window length is attributable to the widening test target distribution. A comparative analysis of four variable-current cells provides complementary evidence.",
+    "authors": [
+      "A. Geetha",
+      "S. Usha",
+      "J. Santhakumar",
+      "Surender Reddy Salkuti"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "World Electric Vehicle Journal",
+    "date": "2026-11-20",
+    "doi": "10.3390/wevj17110613",
+    "url": "https://doi.org/10.3390/wevj17110613",
+    "source_id": "",
+    "score": 86.0,
+    "level": "B",
+    "title_zh": "Measurement Protocol Dependence in Early-Life Lithium-Ion Battery State-of-Health Estimation: A Controlled Study Using NASA PCoE Cells",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 86.0，推荐等级 B。"
+  },
+  {
+    "title": "Research on State of Health Prediction of Power Batteries for New Energy Vehicles",
+    "abstract": "The state of health (SOH) of power batteries is a core parameter that characterizes driving-range attenuation, power decline and safety risks of new-energy vehicles.Accurate SOH prediction is of great significance for vehicle energy management, warranty judgment and echelon utilization of retired batteries.This paper defines an SOH characterization system dominated by capacity retention rate and internal resistance growth rate, and analyzes aging mechanisms including solid-electrolyte interphase (SEI) film thickening, active-lithium loss and lithium plating, as well as the coupled influences of temperature, state-of-charge window and charge-discharge rate on degradation rates.Existing prediction methods are categorized into model-based, data-driven and mechanismdata fusion approaches, and their accuracy, computing-power requirements and engineering implementability are compared.Furthermore, a vehicle-level prediction framework of \"on-board feature extraction -cloud-side model training -cloud-edge collaborative updating\" is proposed.Key challenges such as working-condition generalization, label acquisition, battery inconsistency and computing-power constraints are discussed.The analysis reveals that the engineering bottleneck for SOH prediction has shifted from algorithm accuracy to data closed-loop performance and generalization capability.Constructing mechanism-constrained datadriven models calibrated with a small volume of real-vehicle calibration data is a feasible approach to improving practical performance.",
+    "authors": [
+      "Hailan Zhao"
+    ],
+    "source": "OpenAlex",
+    "venue": "International Journal of Science and Engineering Applications",
+    "date": "2026-11-20",
+    "doi": "10.7753/ijsea1512.1004",
+    "url": "https://doi.org/10.7753/ijsea1512.1004",
+    "source_id": "",
+    "score": 84.0,
+    "level": "B",
+    "title_zh": "Research on State of Health Prediction of Power Batteries for New Energy Vehicles",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 84.0，推荐等级 B。"
+  },
+  {
+    "title": "GreenRide: A Real Time Ride Hailing and Smart Campus Mobility System for Solar Powered Electric Tricycles at a Nigerian University, with Fleet Simulation on Real Campus Map and Solar Data",
+    "abstract": "Many African universities are large enough that moving between hostels, faculties, clinics and gates takes a vehicle, yet intra campus transport is often informal. At the University of Port Harcourt, Nigeria, solar powered electric tricycles now carry students inside the campus, but riders find them by waiting at a single charging spot, flagging one down or calling a driver whose number they happen to know. This paper presents GreenRide, a web based ride hailing system for campus solar tricycles, and evaluates how well such a system can serve the campus. GreenRide gives passengers, drivers and administrators separate browser interfaces, matches requests through Socket.io broadcast, shares the driver's live position on an OpenStreetMap map, and stores users and rides in MongoDB behind JSON Web Token authentication with email verification. Because no live fleet was available, we built a simulation of a working day from 07:00 to 19:00 on the real campus, using 193 named campus places and the road network from OpenStreetMap and hourly 2020 solar output for the campus from PVGIS. We compared the informal system with three dispatch rules (GreenRide as built, nearest tricycle, and nearest tricycle with battery checks) across 5 to 30 tricycles, 300 to 1,200 requests per day, and 10 dry season and 10 rainy season days. The informal system never served more than 69 percent of requests, however many tricycles were added. With enough tricycles, GreenRide with nearest tricycle dispatch served every request: at 300 requests per day and 20 tricycles, mean waiting time fell from 9.8 minutes to 4.4 minutes. The broadcast rule now used by GreenRide sent tricycles on long empty trips, about half of all kilometres, and more than doubled waiting time compared with nearest dispatch. When demand exceeded what the fleet could carry, battery energy, not matching, limited the service to about 21 to 24 trips per tricycle per day, and rainy season sunshine, 32 percent lower than dry season sunshine, cut the share served by up to 15 points. We give a fleet sizing rule, a dispatch change and an energy aware charging policy for campus solar tricycle services.",
+    "authors": [
+      "Nnaemeka Kingsley Ugwumba",
+      "Clement Barisua Ndeekor",
+      "Ilodigwe Nzube Emmanuel"
+    ],
+    "source": "OpenAlex",
+    "venue": "Research Square",
+    "date": "2026-11-20",
+    "doi": "10.21203/rs.3.rs-11792474/v1",
+    "url": "https://doi.org/10.21203/rs.3.rs-11792474/v1",
+    "source_id": "",
+    "score": 70.0,
+    "level": "B",
+    "title_zh": "GreenRide: A Real Time Ride Hailing and Smart Campus Mobility System for Solar Powered Electric Tricycles at a Nigerian University, with Fleet Simulation on Real Campus Map and Solar Data",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 70.0，推荐等级 B。"
+  },
+  {
+    "title": "AI-Driven Cross-Scale Simulation of Lithium Batteries",
+    "abstract": "The evolution of lithium battery performance involves complex coupled processes across multiple scales, ranging from electronic and atomic scales to mesoscopic structures and battery systems. Traditional simulation approaches face significant challenges in accurately predicting realistic battery electrochemical responses because of scale-bridging limitations, high computational costs, and insufficient dynamic feedback mechanisms. In recent years, advances in artificial intelligence (AI) have provided opportunities for cross-scale simulations by enabling knowledge transfer and intelligent prediction through learning physical representations from data. This Review provides a comprehensive overview of AI-driven cross-scale simulation for lithium batteries. The review first discusses AI-enabled simulation approaches spanning the micro- to mesoscale, including machine learning potentials (MLPs), AI-driven kinetic Monte Carlo (AI-kMC), AI-driven phase-field modeling (AI-PFM), and AI-driven coarse-grained molecular dynamics (AI-CGMD). It then summarizes meso- to macroscale methodologies, including surrogate models, reduced-order modeling, and physics-informed neural networks (PINNs). Furthermore, AI applications in multiscale feature fusion, inverse materials design, and battery design automation (BDA) are discussed together with computational paradigms toward digital twins and intelligent battery research and development. Despite substantial advances, several critical challenges, including limited model generalization and insufficient uncertainty quantification, remain. Integrating foundation models, generative AI, and multiscale physical modeling could enable more accurate and computationally efficient battery simulation frameworks. These advances may accelerate the discovery, optimization, and deployment of next-generation energy-storage technologies.",
+    "authors": [
+      "Qiliang Zhang",
+      "Juntao Zhao",
+      "Hanming Li",
+      "Peiyu Chen",
+      "Genming Lai",
+      "Zekai Liu",
+      "Jianwei Li",
+      "Ruiqi Zhang",
+      "Chi Fang",
+      "Fangchao Rong"
+    ],
+    "source": "OpenAlex",
+    "venue": "ACS Nano",
+    "date": "2026-11-20",
+    "doi": "10.1021/acsnano.6c15838",
+    "url": "https://doi.org/10.1021/acsnano.6c15838",
+    "source_id": "",
+    "score": 68.0,
+    "level": "B",
+    "title_zh": "AI-Driven Cross-Scale Simulation of Lithium Batteries",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 68.0，推荐等级 B。"
+  }
+]
