@@ -1,0 +1,325 @@
+[
+  {
+    "title": "Digital twin-enabled battery management systems: A review from state estimation to decision-level evidence",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Renewable and Sustainable Energy Reviews",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1364032126010051?dgcid=rss_sd_all",
+    "source_id": "rss:20:Renewable and Sustainable Energy Reviews",
+    "score": 110.0,
+    "level": "B",
+    "title_zh": "Digital twin-enabled battery management systems: A review from state estimation to decision-level evidence",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 110.0，推荐等级 B；期刊优先级第 17 位。"
+  },
+  {
+    "title": "A physics-based reduced-order model for battery voltage and state of charge prediction",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26054320?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 83.0,
+    "level": "B",
+    "title_zh": "A physics-based reduced-order model for battery voltage and state of charge prediction",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 83.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Battery-health-informed energy management for electric bus depots with opportunity charging: Joint optimization of fast-charging strategy selection and charging-load scheduling",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26054484?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 81.0,
+    "level": "B",
+    "title_zh": "Battery-health-informed energy management for electric bus depots with opportunity charging: Joint optimization of fast-charging strategy selection and charging-load scheduling",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 81.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Evidence-gated evaluation of cross-dataset battery state-of-health transfer with a diagnostic state-of-charge proxy",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26054459?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 77.0,
+    "level": "B",
+    "title_zh": "Evidence-gated evaluation of cross-dataset battery state-of-health transfer with a diagnostic state-of-charge proxy",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 77.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "A self-adaptive control strategy for battery thermal management system with cold plates",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26054587?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 69.0,
+    "level": "B",
+    "title_zh": "A self-adaptive control strategy for battery thermal management system with cold plates",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 69.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Battery-health-informed energy management for electric bus depots with opportunity charging: Joint optimization of fast-charging strategy selection and charging-load scheduling",
+    "abstract": "",
+    "authors": [
+      "Zhiqin Li",
+      "Dong Guo",
+      "Bin Zhou",
+      "Shuai Zhang",
+      "Wenqi Shao",
+      "Haowen Li"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-11-22",
+    "doi": "10.1016/j.est.2026.125784",
+    "url": "https://doi.org/10.1016/j.est.2026.125784",
+    "source_id": "",
+    "score": 63.0,
+    "level": "B",
+    "title_zh": "Battery-health-informed energy management for electric bus depots with opportunity charging: Joint optimization of fast-charging strategy selection and charging-load scheduling",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 63.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "A self-adaptive control strategy for battery thermal management system with cold plates",
+    "abstract": "",
+    "authors": [
+      "Zhirong Duan",
+      "Xiaoling Wu",
+      "Cong Xie",
+      "Xinxi Li",
+      "Qin-Yi Li",
+      "Shuangfeng Wang",
+      "Kai Chen"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-11-22",
+    "doi": "10.1016/j.est.2026.125794",
+    "url": "https://doi.org/10.1016/j.est.2026.125794",
+    "source_id": "",
+    "score": 51.0,
+    "level": "B",
+    "title_zh": "A self-adaptive control strategy for battery thermal management system with cold plates",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 51.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Towards Scalable High-Voltage Battery Packs: A Modular Architecture Enabled by Dual Active Bridge Converters",
+    "abstract": "The growing adoption of Battery Energy Storage Systems (BESS) has increased the demand for scalable architectures that convert low-voltage (LV) battery packs into high-voltage (HV) configurations. However, series connection of LV packs is limited by the voltage ratings of their embedded Battery Management System (BMS) and protection circuitry. This paper proposes a modular Smart Battery architecture based on isolated Dual Active Bridge (DAB) DC–DC converters, which provide galvanic isolation, bidirectional power flow and independent voltage regulation for each LV battery module, allowing commercial LV packs to be integrated into an HV DC-link without hardware modifications. A master BMS controller performs State of Charge (SoC) balancing by adjusting the individual DAB output-voltage references through a proportional balancing law, while local proportional–integral (PI) controllers regulate the module output voltages. Functional performance was evaluated through PLECS simulations and controller hardware-in-the-loop (C-HIL) tests with four modules forming a 192-V dc link. The results demonstrate dc-link regulation under load transients and SoC equalization under the evaluated initial imbalances and capacity mismatches, supporting the coordinated-control implementation on the physical DSP against the real-time power-stage model.",
+    "authors": [
+      "Gabriel A. B. Santos",
+      "Allan F. Cupertino",
+      "João V. M. Farias",
+      "Guilherme M. Soares"
+    ],
+    "source": "Crossref",
+    "venue": "Eletrônica de Potência",
+    "date": "2026-11-23",
+    "doi": "10.18618/rep.e202642",
+    "url": "https://doi.org/10.18618/rep.e202642",
+    "source_id": "",
+    "score": 132.0,
+    "level": "B",
+    "title_zh": "Towards Scalable High-Voltage Battery Packs: A Modular Architecture Enabled by Dual Active Bridge Converters",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 132.0，推荐等级 B。"
+  },
+  {
+    "title": "Development of a Data-Driven Model or Predicting the State of Health of the Li-ion Battery in an Unmanned Aerial Vehicle",
+    "abstract": "Lithium-ion batteries are a key enabler of sustainable aviation, yet their gradual degradation poses a critical safety and reliability challenge, particularly for unmanned aerial vehicles (UAVs) operating in high-temperature environments. This study develops a data-driven model for predicting the State of Health (SOH) of Li-ion batteries using machine learning (ML). The NASA Prognostics Center of Excellence (PCoE) Li-ion Battery Aging Dataset (Battery #5) was used to train and test a Random Forest (RF) regression model, with features selected to capture the effects of high-temperature operation and voltage behavior. The proposed RF model was benchmarked against a Linear Regression (LR) baseline and achieved highly accurate SOH estimation, with a coefficient of determination (R^2 score) of 0.9077 and low error values, with a Root Mean Square Error (RMSE) of 0.2578 and a Mean Absolute Error (MAE) of 0.2185. These results also provide a reliable foundation for estimating the battery's Remaining Useful Life (RUL). The proposed approach supports UAV reliability and safer flight operations in high-temperature environments.",
+    "authors": [
+      "Jana Eid Aljohani",
+      "Mohammad Irfan Alam"
+    ],
+    "source": "Crossref",
+    "venue": "Journal of Undergraduate Research International",
+    "date": "2026-11-22",
+    "doi": "10.64589/juri/231542",
+    "url": "https://doi.org/10.64589/juri/231542",
+    "source_id": "",
+    "score": 124.0,
+    "level": "B",
+    "title_zh": "Development of a Data-Driven Model or Predicting the State of Health of the Li-ion Battery in an Unmanned Aerial Vehicle",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 124.0，推荐等级 B。"
+  },
+  {
+    "title": "Adaptive Fuzzy Balancing Control for Vehicle-Mounted Battery Strings Based on a Hierarchical Buck–Boost Topology",
+    "abstract": "Cell-to-cell inconsistency remains a critical engineering bottleneck for lithium-ion battery strings in vehicle-mounted energy storage systems and is especially acute in unmanned aerial vehicle (UAV) auxiliary storage packs, where gravimetric energy density, charging turnaround, and balancing precision directly govern mission endurance and payload capacity. Conventional single-layer adjacent Buck–Boost topologies suffer from long energy transfer paths, high cumulative losses, and slow convergence under severe mismatch. This work pairs an improved hierarchical bidirectional Buck–Boost topology with a multi-constraint adaptive fuzzy controller. The two-layer shared-bus topology enables direct inter-module energy transfer with minimal additional components, while the controller takes SOC deviation as its primary input, embeds terminal voltage as a safety boundary in the fuzzy rule base, and tunes equalization intensity via a standard-deviation adaptive gain. Simulations on an 8-cell, 2-module system show that intra-module convergence time (max cell-to-cell SOC deviation ≤3%) falls by an average of 47% versus the conventional baseline. The fuzzy controller further reduces convergence time by 32.7% (35.0% for Module 1, 30.4% for Module 2) and shortens full-charging time by 15.4% (from ~1300 s to 1100 s) relative to the topology-only scheme, supporting its potential for vehicle-mounted battery management applications.",
+    "authors": [
+      "Laiao Li",
+      "Wei Zhang",
+      "Weidong Fu",
+      "Liguang Cheng"
+    ],
+    "source": "Crossref",
+    "venue": "Vehicles",
+    "date": "2026-11-23",
+    "doi": "10.3390/vehicles8120310",
+    "url": "https://doi.org/10.3390/vehicles8120310",
+    "source_id": "",
+    "score": 108.0,
+    "level": "B",
+    "title_zh": "Adaptive Fuzzy Balancing Control for Vehicle-Mounted Battery Strings Based on a Hierarchical Buck–Boost Topology",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 108.0，推荐等级 B。"
+  },
+  {
+    "title": "Explainable Machine Learning Algorithms for State-of-Health Estimation and Remaining Useful Life Prediction of Lithium-Ion Batteries",
+    "abstract": "State-of-health (SOH) estimation and remaining useful life (RUL) prediction address related but distinct aspects of lithium-ion battery degradation. This study evaluates separate XGBoost regressors for SOH estimation and RUL prediction using four NASA Ames lithium-ion cells with complete capacity-fade trajectories. The reference capacity is defined as the median capacity of the first five discharges, while end of life (EOL) is defined as the first subsequent cycle at which capacity falls to or below 80% of this reference. At a fixed observation point of 600~s, the prediction features comprise electrical, thermal, cycle-related, initial-reference, and preceding electrochemical impedance spectroscopy (EIS) measurements. Full-discharge capacity and future EOL information are used only to construct retrospective target labels and are excluded from the corresponding predictors. A leave-one-cell-out evaluation yields 351 evaluated cycles. XGBoost achieves pooled SOH and RUL mean absolute errors (MAEs) of 1.157 percentage points and 17.948 cycles, respectively, while ridge regression achieves 1.195 percentage points and 17.611 cycles. The held-out B0006 cell exhibits a substantially higher XGBoost RUL MAE of 34.886 cycles, highlighting the limitations of cross-cell prognostic transfer despite low pooled SOH error. TreeSHAP analysis identifies the change in 600-s voltage relative to the cell's initial reference as the largest average contribution to SOH predictions. Removing this feature increases SOH root-mean-square error (RMSE) from 1.473 to 2.929 percentage points, while reducing RUL RMSE from 22.731 to 20.836 cycles. These findings demonstrate that feature importance and predictive utility differ between SOH estimation and RUL prediction.",
+    "authors": [
+      "Rajanand Patnaik Narasipuram",
+      "Aymen Flah",
+      "Alireza Hosseinpour"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Modern Technology",
+    "date": "2026-11-22",
+    "doi": "10.71426/jmt.v3.i2.pp494-503",
+    "url": "https://doi.org/10.71426/jmt.v3.i2.pp494-503",
+    "source_id": "",
+    "score": 88.0,
+    "level": "B",
+    "title_zh": "Explainable Machine Learning Algorithms for State-of-Health Estimation and Remaining Useful Life Prediction of Lithium-Ion Batteries",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 88.0，推荐等级 B。"
+  },
+  {
+    "title": "Unveiling Ghost Features in Battery Safety AI: Generalization Auditing for Sim-to-Real Thermal Runaway Prediction",
+    "abstract": "Abstract Reliable early warning of lithium-ion battery thermal runaway (TR) requires predictive models that remain robust under abuse-condition variations and simulation-to-reality (Sim-to-Real) domain shifts. This study proposes a Generalization Audit Framework (GAF) that converts cross-domain disparities into feature-resolved diagnostics. GAF integrates Feature Fingerprint Distance (FFD) to quantify shifts in model attribution topology and a Ghost Feature Vulnerability Index (GFVI) to rank feature-level coupling distortions between synthetic and real-world domains. Validation using Doyle-Fuller-Newman (DFN)-based synthetic scenarios and experimental overcharge data from NCM622 18650 cells shows that thermal-domain features dominate model attribution (55.3%–76.3%), while voltage- and current-dependent descriptors exhibit concentrated cross-domain instability. A Type-I/Type-II taxonomy further distinguishes refinable kinetic mismatches from structural discrepancies associated with unmodeled discrete device states. Guided by these diagnostics, pruning the four highest-GFVI features together with binary risk reformulation improves Patch-Transformer zero-shot cross-abuse Macro-F1 from 0.821 ± 0.012 to 0.888 ± 0.009. With 10% target-domain data for adaptation, the lightweight model (110,820 parameters) achieves F1 = 0.951. GAF therefore provides a diagnosis-to-mitigation workflow for identifying and reducing cross-domain vulnerabilities in battery safety prediction.",
+    "authors": [
+      "yuanjin zhang",
+      "huawei wu"
+    ],
+    "source": "Crossref",
+    "venue": "Journal of The Electrochemical Society",
+    "date": "2026-11-23",
+    "doi": "10.1149/1945-7111/aec598",
+    "url": "https://doi.org/10.1149/1945-7111/aec598",
+    "source_id": "",
+    "score": 84.0,
+    "level": "B",
+    "title_zh": "Unveiling Ghost Features in Battery Safety AI: Generalization Auditing for Sim-to-Real Thermal Runaway Prediction",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 84.0，推荐等级 B。"
+  }
+]
