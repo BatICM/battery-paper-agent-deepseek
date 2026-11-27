@@ -1,0 +1,340 @@
+[
+  {
+    "title": "Electrochemically Guided Transfer Learning for Cross‐Dataset Lithium‐Ion Battery Degradation Prediction",
+    "abstract": "ABSTRACT Lithium‐ion batteries are widely used in electric vehicles, renewable energy storage systems, and portable electronic products. In these applications, reliable estimation of battery degradation and health status (SOH) is essential for safe and efficient operation. However, there is a fundamental limitation of existing data‐driven prediction models: most of them are trained and verified on a single laboratory data set under controlled conditions, resulting in serious performance degradation when deployed across heterogeneous operating environments. This challenge is called domain offset. This gap between the laboratory training model and the applicability of practical applications has still not been resolved to a large extent, especially in the computational efficiency framework suitable for embedded battery management systems (BMS). In this study, a short‐ and long‐term memory (LSTM) framework based on migration learning is proposed for cross‐data set prediction of memory degradation. The model was first pre‐trained using the NASA battery data set, and then fine‐tuned on the CALCE data set to evaluate its ability under heterogeneous cycle conditions. In order to improve cross‐domain adaptability, degradation‐sensitive characteristics, including smooth capacity attenuation rate and voltage slope, are extracted from voltage, current, temperature, and discharge capacity measurements. These characteristics are associated with potential electrochemical aging behaviors, such as progressive capacity loss and internal resistance changes during circulation. The proposed framework combines sequence degradation learning with partial layer freezing to adapt to the new operating environment while retaining the generalized degradation characteristics. The experimental results show that the model obtained an R 2 value of 0.9813 on the NASA data set and showed acceptable prediction performance in a heterogeneous operating environment under variable operating conditions on the CALCE data set. The comparative analysis with baseline machine learning and deep learning methods shows that the proposed framework improves the prediction of degradation across data sets while reducing the complexity of retraining. The research results prove the effectiveness of migration learning‐assisted battery prediction on heterogeneous benchmark data sets, and provide the basis for future verification in laboratory and industrial battery management environments.",
+    "authors": [
+      "Akhil Garg",
+      "Avula Thanu Sree"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "Energy Storage",
+    "date": "2026-11-25",
+    "doi": "10.1002/est2.70585",
+    "url": "https://doi.org/10.1002/est2.70585",
+    "source_id": "",
+    "score": 176.5,
+    "level": "A",
+    "title_zh": "Electrochemically Guided Transfer Learning for Cross‐Dataset Lithium‐Ion Battery Degradation Prediction",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 176.5，推荐等级 A；期刊优先级第 7 位。"
+  },
+  {
+    "title": "Impact of Charging Patterns on Electric Vehicle Battery Lifespan Under Realistic Transient Operation: An Electrochemical Modeling Study",
+    "abstract": "ABSTRACT Electric vehicles' (EVs) battery lifespan is highly influenced by factors such as temperature, charge/discharge rates (C‐rates), depth‐of‐discharge (DoD), and state‐of‐charge (SoC). While many studies explore these factors under controlled laboratory conditions, this study examines their effects on degradation in realistic transient operating scenarios. Based on a physics‐based simulation methodology that couples an electrochemical model with a lumped thermal model, a 58 Ah pouch cell is parameterized, calibrated, and validated against experimental results. The model accounts for SEI formation and lithium plating, predicting battery degradation. The battery pack powers a 70 kWh EV, which follows a repetitive weekly pattern of driving, charging, and rest. WLTC driving and annual temperature distributions are considered. Firstly, demonstrations show that, at the beginning of life (BoL), starting from 80% SoC and 20°C, the actual driving charge/discharge pattern could induce a higher loss of lithium inventory compared to constant current charge/discharge at the equivalent average C‐rate for the test case studied here. The results show that as the charge rate increases, DoD has a more dominant impact on longevity than mean SoC. Strategically managing DoD and SoC can offset the impact of fast charging. Moreover, charging directly before operation, thereby limiting high SoC storage, extends lifetime up to 13.8%, with relative improvements being more pronounced at intermediate SoC windows and peaking at the 30%–70% SoC range. When temperature is effectively regulated, higher mean SoCs remain the primary aging factor. The paper highlights the value of model‐assisted battery aging studies towards understanding relevant degradation mechanisms and accordingly optimizing charging patterns.",
+    "authors": [
+      "Zisis Lampropoulos",
+      "Spyridon Spyridopoulos",
+      "Grigorios Koltsakis"
+    ],
+    "source": "Crossref",
+    "venue": "Energy Storage",
+    "date": "2026-11-26",
+    "doi": "10.1002/est2.70589",
+    "url": "https://doi.org/10.1002/est2.70589",
+    "source_id": "",
+    "score": 128.5,
+    "level": "A",
+    "title_zh": "Impact of Charging Patterns on Electric Vehicle Battery Lifespan Under Realistic Transient Operation: An Electrochemical Modeling Study",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 128.5，推荐等级 A；期刊优先级第 7 位。"
+  },
+  {
+    "title": "From Spent Lead–Acid Battery Acid to a Proton‐Transfer Platform: Moisture‐Responsive Hydrogen Evolution and Hydrazine‐Assisted Water Splitting in a Protic Ionic Liquid",
+    "abstract": "ABSTRACT Improper disposal of spent lead–acid batteries (LABs) generates hazardous lead‐containing waste and sulfuric acid, highlighting the need for sustainable resource recovery. This study presents a circular strategy for upcycling sulfuric acid recovered from spent LABs into ethanolammonium hydrogensulfate (EAHS), a protic ionic liquid (PIL) investigated for proton transport and electrochemical hydrogen evolution. The measured density of the recovered acid was 1.84 g cm −3 at 30°C and that for commercial acid ranges from 1.84–1.89 g cm −3 at 25°C. The acid was successfully converted into (EAHS), as confirmed by 1 H NMR and FTIR spectroscopy. Thermogravimetric analysis indicated thermal stability up to approximately 300°C. The electrolyte exhibited pronounced hygroscopicity, with water uptake influencing ionic transport and conductivity. Temperature‐dependent conductivity followed Arrhenius behavior, with an activation energy of 34.2 kJ mol −1 . The electrochemical stability windows were 2.8 and 3.05 V at Pt and Au electrodes, respectively. Electrochemical measurements indicated two possible hydrogen evolution pathways: hydronium‐mediated proton reduction and reduction of ethanolammonium cations accompanied by ethanolamine regeneration. Pt exhibited more favorable hydrogen evolution kinetics and a lower overpotential than Au. Furthermore, hydrazine‐assisted electrochemical measurements demonstrated anodic hydrazine oxidation at potentials approximately 1 V lower than those associated with oxygen evolution, suggesting a potential strategy to reduce the anodic energy requirement for hydrogen production while facilitating hydrazine remediation. Although full‐cell electrolysis, quantitative gas analysis, and Faradaic efficiency measurements remain necessary to validate overall performance, these findings establish LAB‐derived (EAHS) as a promising waste‐derived electrolyte for proton‐transfer studies and hydrazine‐assisted hydrogen evolution, linking waste valorization with sustainable electrochemical energy technologies.",
+    "authors": [
+      "Memoona Khan",
+      "Sayyar Muhammad",
+      "Manahil Hashmat",
+      "Yasmin Qaim",
+      "Syed Muhammad Fawad Jan",
+      "Osama Khan",
+      "Afnan Qabil Alshammari",
+      "Asmat Ullah",
+      "Amir Naveed"
+    ],
+    "source": "Crossref",
+    "venue": "Energy Storage",
+    "date": "2026-11-25",
+    "doi": "10.1002/est2.70591",
+    "url": "https://doi.org/10.1002/est2.70591",
+    "source_id": "",
+    "score": 84.5,
+    "level": "A",
+    "title_zh": "From Spent Lead–Acid Battery Acid to a Proton‐Transfer Platform: Moisture‐Responsive Hydrogen Evolution and Hydrazine‐Assisted Water Splitting in a Protic Ionic Liquid",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 84.5，推荐等级 A；期刊优先级第 7 位。"
+  },
+  {
+    "title": "A mechanism-guided Bayesian physics-informed neural network for unified battery state-of-health monitoring using field data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Applied Energy",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0306261926019793?dgcid=rss_sd_all",
+    "source_id": "rss:9:Applied Energy",
+    "score": 114.25,
+    "level": "A",
+    "title_zh": "A mechanism-guided Bayesian physics-informed neural network for unified battery state-of-health monitoring using field data",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 114.25，推荐等级 A；期刊优先级第 8 位。"
+  },
+  {
+    "title": "A mechanism-guided Bayesian physics-informed neural network for unified battery state-of-health monitoring using field data",
+    "abstract": "",
+    "authors": [
+      "Jieming Wang",
+      "Haixu Yang",
+      "Zixu Wang",
+      "Wenpeng Fang",
+      "Xiaohui Chen",
+      "Zhaosheng Zhang"
+    ],
+    "source": "OpenAlex",
+    "venue": "Applied Energy",
+    "date": "2026-11-25",
+    "doi": "10.1016/j.apenergy.2026.129323",
+    "url": "https://doi.org/10.1016/j.apenergy.2026.129323",
+    "source_id": "",
+    "score": 96.25,
+    "level": "A",
+    "title_zh": "A mechanism-guided Bayesian physics-informed neural network for unified battery state-of-health monitoring using field data",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 96.25，推荐等级 A；期刊优先级第 8 位。"
+  },
+  {
+    "title": "Justice-Weighted Vehicle-to-Grid Energy Communities with Calibrated Battery Costs, Network Envelopes, and On-Demand Blockchain Verification",
+    "abstract": "Peer-to-peer electricity trading with vehicle-to-grid (V2G) support is often proposed for EU energy communities, yet battery wear, network limits, fairness, and the blockchain’s role are usually treated separately. An end-to-end framework is demonstrated on a metered campus community in Cluj-Napoca, Romania, and a reparametrized Budapest (Hungary) twin over 2025. A Bayesian aging model calibrated on field and laboratory data gives each vehicle a temperature and state-of-charge-dependent V2G cost and bid at its 80th percentile. A rolling-horizon market respects network operating envelopes and owners’ mobility. A justice-weighted settlement adds priority matching of vulnerable members, an individual-rationality guarantee, and a solidarity share. Smart contracts commit daily Merkle roots, verify settlements on demand, and enforce the justice rule monthly. The market lowers community costs by 9.6–9.7%, and V2G owners obtain a net margin over expected wear of €826–949 per vehicle per year. At the parity point, the vulnerable members’ share of the gain rises from 5–20% to 38–45% at no efficiency cost, with no member worse off. As deliberate bounding findings, on-chain clearing would need 191 times more gas, and Romania–Hungary trading adds at most 0.3% of costs, even with tripled local PV. Rankings hold for 2023 prices and weather and ±30% driving.",
+    "authors": [
+      "Mahmuda Rahman",
+      "Daniel L. Nagy",
+      "Dan D. Micu",
+      "Călin Iclodean",
+      "Doha Idris Kamal",
+      "Shahria Tanzil"
+    ],
+    "source": "Crossref",
+    "venue": "Electronics",
+    "date": "2026-11-26",
+    "doi": "10.3390/electronics15235521",
+    "url": "https://doi.org/10.3390/electronics15235521",
+    "source_id": "",
+    "score": 77.5,
+    "level": "A",
+    "title_zh": "Justice-Weighted Vehicle-to-Grid Energy Communities with Calibrated Battery Costs, Network Envelopes, and On-Demand Blockchain Verification",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 77.5，推荐等级 A；期刊优先级第 11 位。"
+  },
+  {
+    "title": "Digital twin-enabled battery management systems: A review from state estimation to decision-level evidence",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Renewable and Sustainable Energy Reviews",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1364032126010051?dgcid=rss_sd_all",
+    "source_id": "rss:20:Renewable and Sustainable Energy Reviews",
+    "score": 110.0,
+    "level": "B",
+    "title_zh": "Digital twin-enabled battery management systems: A review from state estimation to decision-level evidence",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 110.0，推荐等级 B；期刊优先级第 17 位。"
+  },
+  {
+    "title": "Hierarchical fault diagnosis and physics-informed component-level fault localization of coal-derived syngas-fueled SOFC systems under multiple operating conditions",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Power Sources",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0378775326027916?dgcid=rss_sd_all",
+    "source_id": "rss:10:Journal of Power Sources",
+    "score": 77.25,
+    "level": "B",
+    "title_zh": "Hierarchical fault diagnosis and physics-informed component-level fault localization of coal-derived syngas-fueled SOFC systems under multiple operating conditions",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 77.25，推荐等级 B；期刊优先级第 20 位。"
+  },
+  {
+    "title": "A battery reliability pipeline based on Arrhenius degradation model",
+    "abstract": "This article proposes an integrated pipeline for battery reliability prediction combining electrothermal modeling, Arrhenius and Tafel kinetic formulations, and stochastic Monte Carlo analysis. Unlike conventional approaches, the methodology simultaneously incorporates temperature, operating voltage, electrochemical dynamics, and operational variability, enabling physically grounded lifetime estimation under realistic usage conditions. The framework links mission profiles, internal losses, thermal evolution, and electrochemical aging, quantifying accumulated damage through the Palmgren–Miner rule and estimating the B 10 lifetime using the Lognormal distribution. The degradation formulations are adapted to directly available variables, including voltage, current, and temperature, reducing dependence on cell overpotential measurements and facilitating application to batteries, large packs, and storage systems under real operating conditions. Results show that reliability is strongly affected by the operational profile. In the default scenario, the analyzed pack achieved a B 10 lifetime of 9.78 years. Reducing the charge rate to 0.5C increased this value to 19.56 years, whereas operation at 2C reduced it to 4.87 years. Across all evaluated scenarios, the B 10 lifetime ranged from 19.59 to 3.12 years. The State of Accumulated Damage (SAD) is also introduced as a reliability-oriented state variable representing the fraction of lifetime consumed throughout operation. Comparison with a consolidated calendar-aging approach showed satisfactory agreement under equivalent conditions, with absolute percentage variations from 1.37% to 5.12%, and coherent behavior under dynamic profiles. The proposed methodology therefore shows potential for Battery Management System (BMS) implementation, enabling real-time degradation estimation and supporting control and maintenance strategies that improve battery reliability, safety, and service life across diverse applications and changing operating environments.",
+    "authors": [
+      "Paulo Soares Filho",
+      "Andressa Mara Menezes Alexandre",
+      "Marcelo Vinícius De Paula",
+      "Tárcio André dos Santos Barros"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-11-25",
+    "doi": "10.1016/j.est.2026.125795",
+    "url": "https://doi.org/10.1016/j.est.2026.125795",
+    "source_id": "",
+    "score": 139.0,
+    "level": "B",
+    "title_zh": "A battery reliability pipeline based on Arrhenius degradation model",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 139.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Predictive Energy Management System (PEMS) for an Islanded Microgrid",
+    "abstract": "In this paper, a Predictive Energy Management System (PEMS) strategy is proposed for an Islanded Hybrid Microgrid with Photovoltaic (PV) system, Wind Turbine (WT) and Battery Energy Storage System (BESS). This approach operates with prediction horizons of 1, 2, and 3 hours and uses 1-minute resolution forecasts of renewable power and load demand to calculate the cumulative energy quantities. At each time step, the PEMS evaluates the cumulative energy quantities, with the battery state of charge (SOC), to determine the operating status of critical, flexible, and dump loads. The control strategy is enhanced using predefined SOC thresholds with hysteresis bands to prevent frequent switching and ensure stable operation. Critical loads are always prioritized, while flexible loads are dynamically managed according to system conditions, and a dummy load is activated to absorb surplus energy and prevent battery overcharging. Simulation results demonstrate that the proposed PEMS effectively maintain power balance, improves renewable energy utilization, and protects the battery from deep discharge and overcharge. Compared to conventional rule-based strategies, the proposed approach reduces unnecessary load shedding while maintaining low computational requirements suitable for real-time implementation. A comparative analysis of different prediction horizons PEMS is conducted to identify the most suitable configuration for predictive control.",
+    "authors": [
+      "Anas Hassari",
+      "Mohammed Rhiat",
+      "Abdellah Touhafi",
+      "Kamal Hirech",
+      "Badre Bossoufi"
+    ],
+    "source": "OpenAlex",
+    "venue": "Next Energy",
+    "date": "2026-11-25",
+    "doi": "10.1016/j.nxener.2026.101219",
+    "url": "https://doi.org/10.1016/j.nxener.2026.101219",
+    "source_id": "",
+    "score": 92.0,
+    "level": "B",
+    "title_zh": "Predictive Energy Management System (PEMS) for an Islanded Microgrid",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 92.0，推荐等级 B。"
+  },
+  {
+    "title": "Physics-Informed Degradation-Aware SAC-MPC for Energy and Thermal Management of Fuel-Cell Hybrid Electric Vehicles",
+    "abstract": "Conventional energy-management systems (EMS) for proton-exchange-membrane (PEM) fuel-cell hybrid electric vehicles (FCHEVs) split power between the stack and battery using efficiency- or state-of-charge (SOC)-based rules that ignore the coupled effects of membrane hydration, stack temperature and load-transient-induced degradation. This paper proposes a reduced, physics-informed degradation-aware soft actor–critic model-predictive-control (SAC–MPC) framework that jointly determines the fuel-cell power reference, cooling-flow rate and air-flow rate over a receding horizon, with a lumped electro-thermal-water fuel-cell model, an equivalent-circuit battery model and a longitudinal vehicle model. The controller is benchmarked against rule-based, dynamic-programming (DP) and conventional-MPC baselines over the UDDS, WLTP and HWFET drive cycles. Simulation results show that the proposed controller eliminates membrane-hydration excursions that persist for the causal baselines (0–94 s per cycle) and reduces the cumulative degradation index by 89.2% on average relative to conventional MPC and by 96.8% relative to the rule-based strategy, at a modest average hydrogen-economy trade-off of 24.2% relative to the economy-only MPC baseline. The results support a durability-safety-economy Pareto view of fuel-cell EMS design.",
+    "authors": [
+      "Masan Senthilkumar",
+      "Bhuvaneswari A",
+      "Pounraj P",
+      "Ragul S",
+      "Vedhapriya S"
+    ],
+    "source": "OpenAlex",
+    "venue": "Research Square",
+    "date": "2026-11-25",
+    "doi": "10.21203/rs.3.rs-11620758/v1",
+    "url": "https://doi.org/10.21203/rs.3.rs-11620758/v1",
+    "source_id": "",
+    "score": 86.0,
+    "level": "B",
+    "title_zh": "Physics-Informed Degradation-Aware SAC-MPC for Energy and Thermal Management of Fuel-Cell Hybrid Electric Vehicles",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 86.0，推荐等级 B。"
+  },
+  {
+    "title": "Multi-Objective State-Feedback Control of Electro-Thermal-Degradation Dynamics in Lithium-Ion Battery Management Systems",
+    "abstract": "This study presents an integrated state-space control framework based on a Linear Quadratic Regulator (LQR) for regulating lithium-ion battery operation. A first-order Thevenin Equivalent Circuit Model is coupled with state-of-charge (SoC), polarization-voltage, thermal, and state-of-health (SoH) dynamics to capture the battery’s electrical, thermal, and degradation behavior. The LQR controller minimizes a quadratic performance criterion that simultaneously accounts for SoC regulation, temperature variation, and control effort. Ambient temperature is treated as an external disturbance, while battery current is constrained within practical operating limits (±30 A). SoH is represented as a slowly varying state with monotonic degradation, preventing unrealistic health recovery or excessive degradation during short-duration simulations. The proposed framework is implemented in MATLAB/Simulink R2026a and evaluated under four conditions: nominal (25 °C), elevated (40 °C), reduced (5 °C), and dynamically varying ambient temperatures. Performance is assessed through SoC, SoH, internal temperature, battery current, and terminal voltage, with an anti-windup proportional–integral (PI) controller considered as a benchmark.",
+    "authors": [
+      "Hassan Amine Osseily"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "World Electric Vehicle Journal",
+    "date": "2026-11-25",
+    "doi": "10.3390/wevj17120618",
+    "url": "https://doi.org/10.3390/wevj17120618",
+    "source_id": "",
+    "score": 82.0,
+    "level": "B",
+    "title_zh": "Multi-Objective State-Feedback Control of Electro-Thermal-Degradation Dynamics in Lithium-Ion Battery Management Systems",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 82.0，推荐等级 B。"
+  }
+]
