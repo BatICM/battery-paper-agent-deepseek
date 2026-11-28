@@ -1,0 +1,320 @@
+[
+  {
+    "title": "Impact of Charging Patterns on Electric Vehicle Battery Lifespan Under Realistic Transient Operation: An Electrochemical Modeling Study",
+    "abstract": "ABSTRACT Electric vehicles' (EVs) battery lifespan is highly influenced by factors such as temperature, charge/discharge rates (C‐rates), depth‐of‐discharge (DoD), and state‐of‐charge (SoC). While many studies explore these factors under controlled laboratory conditions, this study examines their effects on degradation in realistic transient operating scenarios. Based on a physics‐based simulation methodology that couples an electrochemical model with a lumped thermal model, a 58 Ah pouch cell is parameterized, calibrated, and validated against experimental results. The model accounts for SEI formation and lithium plating, predicting battery degradation. The battery pack powers a 70 kWh EV, which follows a repetitive weekly pattern of driving, charging, and rest. WLTC driving and annual temperature distributions are considered. Firstly, demonstrations show that, at the beginning of life (BoL), starting from 80% SoC and 20°C, the actual driving charge/discharge pattern could induce a higher loss of lithium inventory compared to constant current charge/discharge at the equivalent average C‐rate for the test case studied here. The results show that as the charge rate increases, DoD has a more dominant impact on longevity than mean SoC. Strategically managing DoD and SoC can offset the impact of fast charging. Moreover, charging directly before operation, thereby limiting high SoC storage, extends lifetime up to 13.8%, with relative improvements being more pronounced at intermediate SoC windows and peaking at the 30%–70% SoC range. When temperature is effectively regulated, higher mean SoCs remain the primary aging factor. The paper highlights the value of model‐assisted battery aging studies towards understanding relevant degradation mechanisms and accordingly optimizing charging patterns.",
+    "authors": [
+      "Zisis Lampropoulos",
+      "Spyridon Spyridopoulos",
+      "Grigorios Koltsakis"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "Energy Storage",
+    "date": "2026-11-26",
+    "doi": "10.1002/est2.70589",
+    "url": "https://doi.org/10.1002/est2.70589",
+    "source_id": "",
+    "score": 128.5,
+    "level": "A",
+    "title_zh": "Impact of Charging Patterns on Electric Vehicle Battery Lifespan Under Realistic Transient Operation: An Electrochemical Modeling Study",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 128.5，推荐等级 A；期刊优先级第 7 位。"
+  },
+  {
+    "title": "A mechanism-guided Bayesian physics-informed neural network for unified battery state-of-health monitoring using field data",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Applied Energy",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0306261926019793?dgcid=rss_sd_all",
+    "source_id": "rss:9:Applied Energy",
+    "score": 114.25,
+    "level": "A",
+    "title_zh": "A mechanism-guided Bayesian physics-informed neural network for unified battery state-of-health monitoring using field data",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 114.25，推荐等级 A；期刊优先级第 8 位。"
+  },
+  {
+    "title": "Justice-Weighted Vehicle-to-Grid Energy Communities with Calibrated Battery Costs, Network Envelopes, and On-Demand Blockchain Verification",
+    "abstract": "Peer-to-peer electricity trading with vehicle-to-grid (V2G) support is often proposed for EU energy communities, yet battery wear, network limits, fairness, and the blockchain’s role are usually treated separately. An end-to-end framework is demonstrated on a metered campus community in Cluj-Napoca, Romania, and a reparametrized Budapest (Hungary) twin over 2025. A Bayesian aging model calibrated on field and laboratory data gives each vehicle a temperature and state-of-charge-dependent V2G cost and bid at its 80th percentile. A rolling-horizon market respects network operating envelopes and owners’ mobility. A justice-weighted settlement adds priority matching of vulnerable members, an individual-rationality guarantee, and a solidarity share. Smart contracts commit daily Merkle roots, verify settlements on demand, and enforce the justice rule monthly. The market lowers community costs by 9.6–9.7%, and V2G owners obtain a net margin over expected wear of €826–949 per vehicle per year. At the parity point, the vulnerable members’ share of the gain rises from 5–20% to 38–45% at no efficiency cost, with no member worse off. As deliberate bounding findings, on-chain clearing would need 191 times more gas, and Romania–Hungary trading adds at most 0.3% of costs, even with tripled local PV. Rankings hold for 2023 prices and weather and ±30% driving.",
+    "authors": [
+      "Mahmuda Rahman",
+      "Daniel L. Nagy",
+      "Dan D. Micu",
+      "Calin Doru Iclodean",
+      "Doha Idris Kamal",
+      "Shahria Tanzil"
+    ],
+    "source": "OpenAlex+Crossref",
+    "venue": "Electronics",
+    "date": "2026-11-26",
+    "doi": "10.3390/electronics15235521",
+    "url": "https://doi.org/10.3390/electronics15235521",
+    "source_id": "",
+    "score": 77.5,
+    "level": "A",
+    "title_zh": "Justice-Weighted Vehicle-to-Grid Energy Communities with Calibrated Battery Costs, Network Envelopes, and On-Demand Blockchain Verification",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "高：与 BMS 核心任务直接相关，且来源或潜力较高，建议精读。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 77.5，推荐等级 A；期刊优先级第 11 位。"
+  },
+  {
+    "title": "Digital twin-enabled battery management systems: A review from state estimation to decision-level evidence",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Renewable and Sustainable Energy Reviews",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1364032126010051?dgcid=rss_sd_all",
+    "source_id": "rss:20:Renewable and Sustainable Energy Reviews",
+    "score": 110.0,
+    "level": "B",
+    "title_zh": "Digital twin-enabled battery management systems: A review from state estimation to decision-level evidence",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 110.0，推荐等级 B；期刊优先级第 17 位。"
+  },
+  {
+    "title": "Hierarchical fault diagnosis and physics-informed component-level fault localization of coal-derived syngas-fueled SOFC systems under multiple operating conditions",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Power Sources",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0378775326027916?dgcid=rss_sd_all",
+    "source_id": "rss:10:Journal of Power Sources",
+    "score": 77.25,
+    "level": "B",
+    "title_zh": "Hierarchical fault diagnosis and physics-informed component-level fault localization of coal-derived syngas-fueled SOFC systems under multiple operating conditions",
+    "one_sentence": "与电池管理及智能诊断具有一定相关性。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 77.25，推荐等级 B；期刊优先级第 20 位。"
+  },
+  {
+    "title": "Physics-informed neural network and computational fluid dynamics coupled heat transfer for battery state of health",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X2605663X?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 105.0,
+    "level": "B",
+    "title_zh": "Physics-informed neural network and computational fluid dynamics coupled heat transfer for battery state of health",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 105.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "A prior-guided diffusion framework for battery State of Health forecasting and uncertainty quantification",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26053703?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 101.0,
+    "level": "B",
+    "title_zh": "A prior-guided diffusion framework for battery State of Health forecasting and uncertainty quantification",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 101.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Physics-informed data augmentation and time-aligned classification for early warning of lithium-ion battery thermal runaway",
+    "abstract": "",
+    "authors": [
+      "Yanhe Qin",
+      "Peijin Liu",
+      "Qian Yao",
+      "Sirui Liu"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-11-26",
+    "doi": "10.1016/j.est.2026.125895",
+    "url": "https://doi.org/10.1016/j.est.2026.125895",
+    "source_id": "",
+    "score": 97.0,
+    "level": "B",
+    "title_zh": "Physics-informed data augmentation and time-aligned classification for early warning of lithium-ion battery thermal runaway",
+    "one_sentence": "关注电池安全风险识别与热失控早期预警。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 97.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "From dynamic polarization to battery health: Mechanism-guided tabular foundation learning for generalizable state of health estimation",
+    "abstract": "",
+    "authors": [],
+    "source": "Journal RSS",
+    "venue": "Journal of Energy Storage",
+    "date": "",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352152X26056550?dgcid=rss_sd_all",
+    "source_id": "rss:11:Journal of Energy Storage",
+    "score": 91.0,
+    "level": "B",
+    "title_zh": "From dynamic polarization to battery health: Mechanism-guided tabular foundation learning for generalizable state of health estimation",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 91.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "A prior-guided diffusion framework for battery State of Health forecasting and uncertainty quantification",
+    "abstract": "",
+    "authors": [
+      "Quan Li",
+      "Mingyue Qin",
+      "Ke Li",
+      "Jinqi Zhu",
+      "Yang Liu",
+      "Tongtong Su"
+    ],
+    "source": "OpenAlex",
+    "venue": "Journal of Energy Storage",
+    "date": "2026-11-26",
+    "doi": "10.1016/j.est.2026.125706",
+    "url": "https://doi.org/10.1016/j.est.2026.125706",
+    "source_id": "",
+    "score": 83.0,
+    "level": "B",
+    "title_zh": "A prior-guided diffusion framework for battery State of Health forecasting and uncertainty quantification",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 83.0，推荐等级 B；期刊优先级第 21 位。"
+  },
+  {
+    "title": "Integrating Energy-Efficient Light Sources and Sensors with Room-Temperature Quantum Devices: Applications in Medical Diagnostics, Battery Monitoring, and Quantum Communications / 省エネ光源・センサ技術と常温量子デバイスの統合:医療計測・バッテリー診断・通信分野への応用展望",
+    "abstract": "[Abstract / English]This paper presents a comprehensive technical framework for integrating energy-efficient, low-heat solid-state light sources (such as LEDs) and optical sensors with cryogen-free, room-temperature quantum devices, typified by diamond nitrogen-vacancy (NV) centers and solid-state color centers. Eliminating bulky cryogenic cooling infrastructure while pairing solid-state quantum platforms with compact, ultra-low-power LED excitation and optical readout systems unlocks scalable field deployment across three critical domains:(1) Medical & Biomedical Diagnostics: Non-invasive biomagnetic sensing (magnetocardiography/magnetoencephalography), cellular-scale nanoscale thermometry, and point-of-care immunoassay diagnostics without magnetically shielded rooms or liquid helium;(2) Battery & Power Infrastructure Monitoring: High-precision, non-destructive internal current distribution imaging, micro-short detection, and State-of-Health (SoH) / State-of-Charge (SoC) diagnostics for EVs and autonomous energy storage grids; and(3) Quantum & Optical Communications: Electrically driven room-temperature single-photon LEDs and low-power optical-quantum transceivers enabling edge-deployable Quantum Key Distribution (QKD) and tamper-evident physical infrastructure links.System architectures, power-thermal trade-offs, and engineering roadmaps toward autonomous physical infrastructure integration are systematically examined. [要旨 / 日本語]本稿では、LEDをはじめとする省電力・低発熱な固体光源および光学センサ技術と、ダイヤモンドNVセンター等の固体欠陥に代表される常温動作量子デバイスを統合した次世代システムアーキテクチャと応用展望を論じる。大型かつ高消費電力な極低温冷却設備を排し、常温量子プラットフォームに小型・高効率なLED励起系および光学読み出し系を統合することで、以下の主要3領域における社会実装と自律分散展開が可能となる。(1)医療・生体計測分野:液体ヘリウムや大型磁気シールドルームを必要としない非侵襲生体磁気計測(心磁図・脳磁図等)、低発熱性を活かした細胞レベルのナノ温度計測、および超高感度な医療診断(POCT)センサへの展開。(2)バッテリー診断・電力インフラ分野:EV(電気自動車)や定置型蓄電池における充放電時の微小磁場・内部電流分布の非破壊リアルタイム可視化、微小短絡・劣化兆候の早期検知、ならびに高精度な残量・健全性(SoC/SoH)診断。(3)通信・セキュリティ分野:常温電流注入型単一光子LEDおよび省電力光量子トランシーバによる、エッジ端末・自律物理インフラ網向けの省エネ量子暗号通信(QKD)および高信頼光通信基盤の構築。本論文では、これら3領域における基本構成、省電力・熱設計上の優位性、および実用化に向けた工学的課題を体系的に整理する。 ========================================================================Sovereign Open-Read & Strict No-Learn License (NLL-v1.0-2026) Copyright © 2026 Yoko Hasebe. All Rights Reserved. Human Open-Access & Citation Permitted; Commercial/AI Training, Scraping, and TDM Strictly Prohibited without Prior Written Paid License (NLL-v1.0-2026). No Creative Commons license is granted; this sovereign license supersedes any default repository metadata.======================================================================== [English] Restricted Access Request & Licensing Guidelines Full-text PDF access is strictly by registration and approval for verified human researchers, corporate executives, and institutional reviewers under the Sovereign Open-Read & Strict No-Learn License (NLL-v1.0-2026) (Master Declaration DOI: 10.5281/zenodo.23681957). To request PDF access on Zenodo (or for direct institutional/commercial licensing inquiries), please state the following three items in your request message or contact the Author directly: 1. Full Name & Company / Institutional Affiliation (Official corporate/academic email, ORCID, or LinkedIn profile URL)2. Job Title / Position & Intended Purpose of Reading (e.g., academic citation, regulatory/compliance review, paid commercial licensing inquiry)3. Explicit Agreement to NLL-v1.0-2026: Confirmation that no AI/LLM training, fine-tuning, distillation, RAG/vector ingestion, scraping, TDM, or unauthorized commercial use will be conducted without a prior written paid license. Note: Requests with missing company/affiliation details, anonymous accounts, or automated bots will be declined. Official Licensing & Access Contact:Yoko Hasebe (長谷部 洋子)ORCID: 0009-0009-1355-5287Lead Researcher, Autonomous Infrastructure Systems, Autonomous Living & Physical Infrastructure Institute (ALPII)Founder of The Hasebe Doctrine | Creator of Project MuseGuard & QFS-zkVM | CERN Zenodo AuthorStrict No-Learn Covenant (NLL-v1.0-2026)Location: Iwakuni, Yamaguchi, JapanEmail: yoko@hasebeyoko.com ------------------------------------------------------------------------ 【日本語案内】登録・承認制アクセス申請およびライセンス窓口 本論文PDFの閲覧は、Sovereign Open-Read & Strict No-Learn License (NLL-v1.0-2026 / マスター宣言DOI: 10.5281/zenodo.23681957) に基づき、実在の研究者・企業幹部および担当者・機関審査員のみを対象とした事前登録・承認制(Restricted Access)となっております。 Zenodoでの閲覧申請(または機関・商用ライセンスに関する直接のお問い合わせ)の際は、申請メッセージ欄または下記公式連絡先メールにて、以下の3点を明記してください。 1. 氏名および所属企業・機関名(公式の企業・学術機関メールアドレス、ORCID、またはLinkedInプロフィールURL)2. 役職名および閲覧目的(例:学術論文での引用、法規制・コンプライアンス調査、有償商用ライセンス契約のご相談など)3. NLL-v1.0-2026規約への明示的な同意(事前の書面による有償ライセンス契約なきAI/LLM学習、ファインチューニング、蒸留、RAG/ベクトルDB投入、スクレイピング、TDM、および無断商用利用を一切行わないことへの同意) ※会社名・所属機関が不明な申請、匿名アカウント、自動化されたボットからの申請は承認いたしかねますのでご了承ください。 【公式連絡・ライセンス窓口】長谷部 洋子(Yoko Hasebe)ORCID: 0009-0009-1355-5287所属機関:Autonomous Living & Physical Infrastructure Institute (ALPII / 自律生活・物理インフラ研究所)役職:主任研究員 (Lead Researcher, Autonomous Infrastructure Systems) | Founder of The Hasebe Doctrine | Creator of Project MuseGuard & QFS-zkVM | CERN Zenodo Author所在地:日本(山口県岩国市)Email: yoko@hasebeyoko.com",
+    "authors": [
+      "Yoko(洋子) Hasebe (長谷部)"
+    ],
+    "source": "OpenAlex",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "date": "2026-11-26",
+    "doi": "10.5281/zenodo.24571983",
+    "url": "https://doi.org/10.5281/zenodo.24571983",
+    "source_id": "",
+    "score": 80.0,
+    "level": "B",
+    "title_zh": "Integrating Energy-Efficient Light Sources and Sensors with Room-Temperature Quantum Devices: Applications in Medical Diagnostics, Battery Monitoring, and Quantum Communications / 省エネ光源・センサ技術と常温量子デバイスの統合:医療計測・バッテリー診断・通信分野への応用展望",
+    "one_sentence": "面向电池健康状态估计与寿命预测。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 80.0，推荐等级 B。"
+  },
+  {
+    "title": "Data-driven intelligent predictive networks for lithium-ion battery state of charge estimation",
+    "abstract": "Lithium-ion batteries have the characteristics of efficient charging, large specific energy, and long cycle. The battery state of charge (SOC) is an important parameter for battery management systems and is defined as the ratio of the remaining capacity of the battery to its nominal capacity. The direct and accurate prediction of SOC is difficult due to the nonlinear dynamic characteristics and complex charging/discharging cycles. This study presents data-driven nonlinear autoregressive exogenous neuroarchitecture optimized with Levenberg–Marquardt (NARX-NA-LM) and Bayesian regularization (NARX-NA-BR) algorithms for accurate and robust SOC estimation. The performance of the proposed NARX-NA-LM and NARX-NA-BR is investigated in detail for five temperature conditions ([Formula: see text]C, [Formula: see text]C, [Formula: see text]C, [Formula: see text]C, [Formula: see text]C) under four operating conditions. The four operating conditions are based on the data from the highway fuel economy driving schedule, urban dynamometer driving schedule profile, US06 supplemental federal test procedure, and the Los Angeles 92 profile. Accurate SOC prediction supports the proposed scheme, while the MSE-based learning plots for training/testing, error histogram results, correlation statistics, and state transition outcomes verify its convergence and reliability. Generally, the NARX-NA-LM provides better SOC prediction results than the NARX-NA-BR. The NARX-NA-LM is examined in detail for both open-loop and closed-loop configurations, as well as random and sequential data partitioning strategies. The proposed NARX-NA-LM network demonstrated high SOC prediction accuracy across four driving cycles and five operating temperatures ([Formula: see text]C to [Formula: see text]C), with results averaged over 10 independent runs yielding mean absolute errors (MAEs) ranging from 0.00052% to 0.00078% and root mean square errors (RMSEs) ranging from 0.00080% to 0.00181% across the investigated conditions.",
+    "authors": [
+      "Naveed Ishtiaq Chaudhary",
+      "Muhammad Junaid Akhtar",
+      "Iqra Chaudhary",
+      "Muhammad Asif Zahoor Raja"
+    ],
+    "source": "Crossref",
+    "venue": "Modern Physics Letters B",
+    "date": "2026-11-28",
+    "doi": "10.1142/s0217984926502787",
+    "url": "https://doi.org/10.1142/s0217984926502787",
+    "source_id": "",
+    "score": 80.0,
+    "level": "B",
+    "title_zh": "Data-driven intelligent predictive networks for lithium-ion battery state of charge estimation",
+    "one_sentence": "围绕电池 SOC 估计及不确定性管理展开。",
+    "problem": "围绕电池健康、安全、状态估计、寿命预测或系统级电池管理问题展开。",
+    "contributions": [
+      "提出或评估电池状态估计、健康预测或安全预警方法。",
+      "关注真实工况、pack/系统级应用或模型泛化能力。",
+      "对 BMS 算法部署、云端分析或储能运维具有参考价值。"
+    ],
+    "bms_relevance": "中高：与 BMS 或储能管理相关，建议浏览。",
+    "insight_for_group": "可结合课题组在 SOH/RUL、pack inconsistency、field data 和 physics-informed learning 方面的工作进一步比较。",
+    "reason": "规则评分 80.0，推荐等级 B。"
+  }
+]
